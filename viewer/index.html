@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cron Digest Archive</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #1a1a2e;
+            color: white;
+            padding: 30px 20px;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            opacity: 0.8;
+        }
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.2s;
+        }
+        .search-box input:focus {
+            outline: none;
+            border-color: #1a1a2e;
+        }
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .filter-btn {
+            padding: 12px 20px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        .filter-btn.active {
+            background: #1a1a2e;
+            color: white;
+            border-color: #1a1a2e;
+        }
+        .filter-btn:hover:not(.active) {
+            border-color: #1a1a2e;
+        }
+        .digest-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        .digest-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+        .digest-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        .digest-card.hidden {
+            display: none;
+        }
+        .digest-type {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        .type-arxiv {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+        .type-web {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+        .digest-date {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #1a1a2e;
+        }
+        .digest-meta {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .digest-preview {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.5;
+        }
+        .digest-preview h3 {
+            font-size: 14px;
+            margin: 8px 0 4px;
+            color: #333;
+        }
+        .item-count {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        .loading {
+            text-align: center;
+            padding: 60px;
+            font-size: 18px;
+            color: #666;
+        }
+        .error {
+            text-align: center;
+            padding: 40px;
+            background: #ffebee;
+            border-radius: 12px;
+            color: #c62828;
+        }
+        .no-results {
+            text-align: center;
+            padding: 60px;
+            font-size: 18px;
+            color: #666;
+        }
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .modal-overlay.active {
+            display: flex;
+        }
+        .modal-content {
+            background: white;
+            border-radius: 16px;
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 40px;
+            position: relative;
+        }
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 28px;
+            cursor: pointer;
+            color: #666;
+            line-height: 1;
+        }
+        .modal-close:hover {
+            color: #333;
+        }
+        .modal-content h1 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            padding-right: 40px;
+        }
+        .modal-content h2 {
+            font-size: 1.3rem;
+            margin: 25px 0 10px;
+            color: #1a1a2e;
+        }
+        .modal-content h3 {
+            font-size: 1.1rem;
+            margin: 20px 0 8px;
+            color: #333;
+        }
+        .modal-content a {
+            color: #1565c0;
+            text-decoration: none;
+        }
+        .modal-content a:hover {
+            text-decoration: underline;
+        }
+        .modal-content ul {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+        .modal-content li {
+            margin: 6px 0;
+        }
+        .modal-content hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+        }
+        @media (max-width: 600px) {
+            .digest-grid {
+                grid-template-columns: 1fr;
+            }
+            .controls {
+                flex-direction: column;
+            }
+            .modal-content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔬 Cron Digest Archive</h1>
+            <p>Daily arXiv and Web Science digests — searchable, browsable, chronological</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search papers, topics, authors..." autocomplete="off">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="arxiv">arXiv</button>
+                <button class="filter-btn" data-filter="web-science">Web Science</button>
+            </div>
+        </div>
+
+        <div id="digestContainer">
+            <div class="loading">Loading digests...</div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script>
+        const SOURCES = {
+            arxiv: '/arxiv/',
+            'web-science': '/web-science/'
+        };
+
+        let allDigests = [];
+        let currentFilter = 'all';
+
+        async function fetchDigests() {
+            const container = document.getElementById('digestContainer');
+            const digests = [];
+
+            for (const [type, path] of Object.entries(SOURCES)) {
+                try {
+                    const response = await fetch(`${path}manifest.json`);
+                    if (response.ok) {
+                        const manifest = await response.json();
+                        // Handle both plain array and {files: [...]} formats
+                        const files = Array.isArray(manifest) ? manifest : (manifest.files || []);
+                        for (const file of files) {
+                            if (file.endsWith('.md') && file !== 'README.md') {
+                                const filePath = `${path}${file}`;
+                                const contentResponse = await fetch(filePath);
+                                if (contentResponse.ok) {
+                                    const content = await contentResponse.text();
+                                    const meta = parseDigestMeta(content, type);
+                                    digests.push({ type, date: file.replace('.md', ''), path: filePath, content, meta });
+                                }
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.warn(`Could not fetch ${type} manifest:`, e);
+                }
+            }
+
+            // Fallback: try to discover files from known dates
+            if (digests.length === 0) {
+                const today = new Date().toISOString().split('T')[0];
+                const dates = [today, '2026-05-11']; // known dates
+                for (const date of dates) {
+                    for (const [type, path] of Object.entries(SOURCES)) {
+                        try {
+                            const filePath = `${path}${date}.md`;
+                            const response = await fetch(filePath);
+                            if (response.ok) {
+                                const content = await response.text();
+                                const meta = parseDigestMeta(content, type);
+                                digests.push({ type, date, path: filePath, content, meta });
+                            }
+                        } catch (e) {}
+                    }
+                }
+            }
+
+            allDigests = digests.sort((a, b) => b.date.localeCompare(a.date));
+            renderDigests();
+        }
+
+        async function loadDigestContent(digest) {
+            try {
+                const response = await fetch(digest.path);
+                if (!response.ok) throw new Error('Failed to load');
+                return await response.text();
+            } catch (e) {
+                return `Error loading digest: ${e.message}`;
+            }
+        }
+
+        function parseDigestMeta(content, type) {
+            const lines = content.split('\n');
+            const meta = { items: [], preview: '' };
+            
+            // Extract item count
+            const itemsMatch = content.match(/Items found:\s*(\d+)/);
+            if (itemsMatch) meta.itemCount = parseInt(itemsMatch[1]);
+
+            // Extract categories or sites
+            if (type === 'arxiv') {
+                const catMatch = content.match(/Categories:\s*([^\n]+)/);
+                if (catMatch) meta.categories = catMatch[1].trim();
+            } else {
+                const sitesMatch = content.match(/Sites:\s*([^\n]+)/);
+                if (sitesMatch) meta.sites = sitesMatch[1].trim();
+            }
+
+            // Extract first few item titles for preview
+            const titles = content.match(/## \d+\.\s*(.+)/g);
+            if (titles) {
+                meta.items = titles.slice(0, 3).map(t => t.replace(/## \d+\.\s*/, ''));
+            }
+
+            return meta;
+        }
+
+        function renderDigests() {
+            const container = document.getElementById('digestContainer');
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+            const filtered = allDigests.filter(d => {
+                if (currentFilter !== 'all' && d.type !== currentFilter) return false;
+                if (!searchTerm) return true;
+                return d.date.includes(searchTerm) || 
+                       d.content.toLowerCase().includes(searchTerm) ||
+                       (d.meta?.items && d.meta.items.some(item => item.toLowerCase().includes(searchTerm)));
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="no-results">No digests found. Try adjusting your search or filter.</div>';
+                return;
+            }
+
+            container.innerHTML = '<div class="digest-grid">' + 
+                filtered.map(d => `
+                    <div class="digest-card" data-type="${d.type}" data-date="${d.date}">
+                        <span class="digest-type type-${d.type === 'arxiv' ? 'arxiv' : 'web'}">${d.type}</span>
+                        <div class="digest-date">${d.date}</div>
+                        <div class="digest-meta">${d.meta?.categories || d.meta?.sites || ''}</div>
+                        <div class="digest-preview">
+                            ${d.meta?.items?.map(item => `<h3>• ${item}</h3>`).join('') || ''}
+                        </div>
+                        <span class="item-count">${d.meta?.itemCount || '?'} items</span>
+                    </div>
+                `).join('') +
+                '</div>';
+
+            // Add click handlers
+            document.querySelectorAll('.digest-card').forEach(card => {
+                card.addEventListener('click', async () => {
+                    const date = card.dataset.date;
+                    const type = card.dataset.type;
+                    const digest = allDigests.find(d => d.date === date && d.type === type);
+                    if (digest) {
+                        showModal(digest.content, type, date);
+                    }
+                });
+            });
+        }
+
+        function showModal(content, type, date) {
+            const modal = document.getElementById('modal');
+            const body = document.getElementById('modalBody');
+            
+            // Simple markdown to HTML conversion
+            let html = content
+                .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+                .replace(/^## (\d+\.\s*.+)$/gm, '<h2>$1</h2>')
+                .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+                .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.+?)\*/g, '<em>$1</em>')
+                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>')
+                .replace(/^- (.+)$/gm, '<li>$1</li>')
+                .replace(/(<li>.+<\/li>\n?)+/g, '<ul>$&</ul>')
+                .replace(/---/g, '<hr>')
+                .replace(/\n/g, '<br>');
+
+            body.innerHTML = html;
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', renderDigests);
+        
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                renderDigests();
+            });
+        });
+
+        document.getElementById('modalClose').addEventListener('click', closeModal);
+        document.getElementById('modal').addEventListener('click', (e) => {
+            if (e.target.id === 'modal') closeModal();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // Initialize
+        fetchDigests();
+    </script>
+</body>
+</html>
