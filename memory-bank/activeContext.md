@@ -1,10 +1,10 @@
 # Active Context
 
-*Last Updated: 2026-05-11*
+*Last Updated: 2026-05-11 17:58:00 IST*
 
 ## Current Focus
 
-Viewer UI improvements completed. Both digest formats (arXiv + web-science) rendering correctly with per-paper category chips and working ToC navigation.
+Viewer UI improvements completed and documented. Both digest formats (arXiv + web-science) rendering correctly with per-paper category chips and working ToC navigation.
 
 ## System State
 
@@ -31,11 +31,13 @@ Viewer UI improvements completed. Both digest formats (arXiv + web-science) rend
 ### Commits
 - `2977345` — Fix viewer: working ToC links, tighter spacing, category chips
 - `7799d8c` — Fix viewer: per-paper category chips, web-science format support, tighter spacing
+- `39ecf4f` — Update memory-bank: record viewer UI improvements and today's work
 
 ## Cross-References
 
 - `projectbrief.md` — project overview
 - `progress.md` — task tracking
+- `memory-bank/edits/2026-05-11/175800-T1.md` — edit chunk for today's work
 - `../arxiv/2026-05-11.md` — first arXiv digest (manual run)
 - `../web-science/2026-05-11.md` — first web-science digest (manual run)
 

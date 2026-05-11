@@ -1,6 +1,6 @@
 # Project Progress
 
-*Last Updated: 2026-05-11*
+*Last Updated: 2026-05-11 17:58:00 IST*
 
 ## What Works ✅
 
@@ -29,9 +29,10 @@
 5. **Source chips for web-science** — Shows "arXiv", "Nature News" etc. per entry
 
 ### Technical Details
-- Commits: `2977345`, `7799d8c`
+- Commits: `2977345`, `7799d8c`, `39ecf4f`
 - File: `viewer/index.html`
 - Functions modified: `showModal()`, `scrollToItem()`, added `extractCategoryChips()`, `convertMarkdownToHtml()`
+- Edit chunk: `memory-bank/edits/2026-05-11/175800-T1.md`
 
 ## To Do ⬜
 
