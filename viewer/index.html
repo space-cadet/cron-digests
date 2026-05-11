@@ -259,8 +259,8 @@
             text-decoration: underline;
         }
         .paper-item {
-            margin-bottom: 20px;
-            padding-bottom: 15px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
             border-bottom: 1px solid #eee;
         }
         .paper-item:last-child {
@@ -268,15 +268,27 @@
         }
         .paper-item h2 {
             margin-top: 0;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
+            font-size: 1.15rem;
+        }
+        .paper-item h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-size: 1.05rem;
         }
         .paper-item ul {
-            margin: 8px 0;
-            padding-left: 20px;
+            margin: 6px 0;
+            padding-left: 18px;
         }
         .paper-item li {
-            margin: 4px 0;
-            line-height: 1.5;
+            margin: 2px 0;
+            line-height: 1.4;
+        }
+        .paper-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin: 6px 0 10px;
         }
         .modal-content a {
             color: #1565c0;
@@ -486,9 +498,15 @@
             const modal = document.getElementById('modal');
             const body = document.getElementById('modalBody');
             
-            // Extract all h2 titles for ToC
-            const h2Matches = [...content.matchAll(/^## (\d+)\.\s*(.+)$/gm)];
-            const tocItems = h2Matches.map((m) => ({ num: m[1], title: m[2] }));
+            // Detect format: arXiv uses ## N. Title, web-science uses ### N. Title under ## Section
+            const isArxiv = type === 'arxiv';
+            
+            // Extract entries for ToC
+            const entryMatches = isArxiv 
+                ? [...content.matchAll(/^## (\d+)\.\s*(.+)$/gm)]
+                : [...content.matchAll(/^### (\d+)\.\s*(.+)$/gm)];
+            
+            const tocItems = entryMatches.map((m) => ({ num: m[1], title: m[2] }));
             
             // Build ToC HTML
             let tocHtml = '';
@@ -498,58 +516,120 @@
                     `</ul></div>`;
             }
             
-            // Extract categories for chips
-            const categories = new Set();
-            const catMatches = content.match(/Categories:\s*([^\n]+)/g);
-            if (catMatches) {
-                catMatches.forEach(match => {
-                    const cats = match.replace('Categories:', '').split(',').map(c => c.trim().split(' ')[0]);
-                    cats.forEach(c => categories.add(c));
+            // Build HTML by parsing sections
+            let html = '';
+            
+            if (isArxiv) {
+                // ArXiv format: header then ## N. Title sections
+                const headerMatch = content.match(/^(.*?)(?=## \d+\.)/s);
+                if (headerMatch) {
+                    html += convertMarkdownToHtml(headerMatch[1].trim());
+                }
+                
+                entryMatches.forEach((match, i) => {
+                    const num = match[1];
+                    const title = match[2];
+                    const sectionStart = content.indexOf(match[0]);
+                    const nextSection = content.indexOf('## ' + (parseInt(num) + 1) + '.', sectionStart + 1);
+                    const sectionContent = nextSection > 0 
+                        ? content.slice(sectionStart + match[0].length, nextSection)
+                        : content.slice(sectionStart + match[0].length);
+                    
+                    // Extract categories from this section
+                    const chips = extractCategoryChips(sectionContent);
+                    
+                    html += `<div class="paper-item" id="paper-${num}">`;
+                    html += `<h2>${num}. ${title}</h2>`;
+                    if (chips) html += chips;
+                    html += convertMarkdownToHtml(sectionContent);
+                    html += `</div>`;
+                });
+            } else {
+                // Web science format: ## Sections with ### N. Title entries
+                const lines = content.split('\n');
+                let currentSection = '';
+                let buffer = [];
+                let entries = [];
+                let headerLines = [];
+                let inHeader = true;
+                
+                for (let line of lines) {
+                    if (line.match(/^## [^#]/)) {
+                        // Section header (not entry)
+                        if (buffer.length > 0) {
+                            entries.push({ section: currentSection, content: buffer.join('\n') });
+                            buffer = [];
+                        }
+                        currentSection = line.replace(/^##\s*/, '');
+                        inHeader = false;
+                    } else if (line.match(/^### \d+\./)) {
+                        // Entry start
+                        if (buffer.length > 0) {
+                            entries.push({ section: currentSection, content: buffer.join('\n') });
+                            buffer = [];
+                        }
+                        buffer.push(line);
+                    } else if (inHeader && !line.match(/^### \d+\./)) {
+                        headerLines.push(line);
+                    } else {
+                        buffer.push(line);
+                    }
+                }
+                if (buffer.length > 0) {
+                    entries.push({ section: currentSection, content: buffer.join('\n') });
+                }
+                
+                // Render header
+                if (headerLines.length > 0) {
+                    html += convertMarkdownToHtml(headerLines.join('\n').trim());
+                }
+                
+                // Render entries grouped by section
+                let lastSection = '';
+                entries.forEach(entry => {
+                    const match = entry.content.match(/^### (\d+)\.\s*(.+)$/m);
+                    if (match) {
+                        const num = match[1];
+                        const title = match[2];
+                        const entryContent = entry.content.slice(match[0].length);
+                        
+                        if (entry.section !== lastSection) {
+                            html += `<h2 style="margin-top: 24px; color: #1a1a2e;">${entry.section}</h2>`;
+                            lastSection = entry.section;
+                        }
+                        
+                        // Extract source as chip
+                        const sourceMatch = entryContent.match(/\*\*Source:\*\*\s*(.+)/);
+                        let chips = '';
+                        if (sourceMatch) {
+                            const source = sourceMatch[1].trim();
+                            chips = `<div class="paper-chips"><span class="chip">${source}</span></div>`;
+                        }
+                        
+                        html += `<div class="paper-item" id="paper-${num}">`;
+                        html += `<h3>${num}. ${title}</h3>`;
+                        if (chips) html += chips;
+                        html += convertMarkdownToHtml(entryContent);
+                        html += `</div>`;
+                    }
                 });
             }
             
-            // Build chips HTML
-            let chipsHtml = '';
-            if (categories.size > 0) {
-                chipsHtml = `<div class="category-chips">` +
-                    Array.from(categories).map(cat => `<span class="chip ${cat}">${cat}</span>`).join('') +
-                    `</div>`;
-            }
-            
-            // Convert markdown to HTML with proper structure
-            // First, split content into paper sections
-            const sections = content.split(/^## \d+\.\s*/m).filter(s => s.trim());
-            
-            let html = '';
-            
-            // Process header section (before first ##)
-            const headerMatch = content.match(/^(.*?)(?=## \d+\.)/s);
-            if (headerMatch) {
-                const header = headerMatch[1].trim();
-                html += convertMarkdownToHtml(header);
-            }
-            
-            // Process each paper section
-            h2Matches.forEach((match, i) => {
-                const num = match[1];
-                const title = match[2];
-                html += `<div class="paper-item" id="paper-${num}">`;
-                html += `<h2>${num}. ${title}</h2>`;
-                
-                // Get the content for this section
-                const sectionStart = content.indexOf(match[0]);
-                const nextSection = content.indexOf('## ' + (parseInt(num) + 1) + '.', sectionStart + 1);
-                const sectionContent = nextSection > 0 
-                    ? content.slice(sectionStart + match[0].length, nextSection)
-                    : content.slice(sectionStart + match[0].length);
-                
-                html += convertMarkdownToHtml(sectionContent);
-                html += `</div>`;
-            });
-            
-            body.innerHTML = tocHtml + chipsHtml + html;
+            body.innerHTML = tocHtml + html;
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
+        }
+        
+        function extractCategoryChips(text) {
+            const catMatch = text.match(/\*\*Categories:\*\*\s*(.+)/);
+            if (!catMatch) return '';
+            
+            const cats = catMatch[1].split(',').map(c => c.trim().split(' ')[0]).filter(c => c);
+            if (cats.length === 0) return '';
+            
+            return `<div class="paper-chips">` +
+                cats.map(cat => `<span class="chip ${cat}">${cat}</span>`).join('') +
+                `</div>`;
         }
         
         function convertMarkdownToHtml(text) {
