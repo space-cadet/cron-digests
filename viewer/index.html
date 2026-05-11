@@ -129,7 +129,7 @@
         }
         .digest-preview h3 {
             font-size: 14px;
-            margin: 8px 0 4px;
+            margin: 4px 0;
             color: #333;
         }
         .item-count {
@@ -211,6 +211,30 @@
             font-size: 1.1rem;
             margin: 20px 0 8px;
             color: #333;
+        }
+        .modal-toc {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+        .modal-toc h3 {
+            font-size: 1rem;
+            margin: 0 0 10px 0;
+            color: #1a1a2e;
+        }
+        .modal-toc ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+        .modal-toc li {
+            margin: 4px 0;
+            cursor: pointer;
+            color: #1565c0;
+        }
+        .modal-toc li:hover {
+            text-decoration: underline;
         }
         .modal-content a {
             color: #1565c0;
@@ -420,23 +444,44 @@
             const modal = document.getElementById('modal');
             const body = document.getElementById('modalBody');
             
-            // Simple markdown to HTML conversion
+            // Extract all h2 titles for ToC
+            const h2Matches = [...content.matchAll(/^## \d+\.\s*(.+)$/gm)];
+            const tocItems = h2Matches.map((m, i) => ({ num: i + 1, title: m[1] }));
+            
+            // Build ToC HTML
+            let tocHtml = '';
+            if (tocItems.length > 0) {
+                tocHtml = `<div class="modal-toc"><h3>📋 Contents</h3><ul>` +
+                    tocItems.map(item => `<li onclick="scrollToItem(${item.num})">${item.num}. ${item.title}</li>`).join('') +
+                    `</ul></div>`;
+            }
+            
+            // Simple markdown to HTML conversion with linkify
             let html = content
                 .replace(/^# (.+)$/gm, '<h1>$1</h1>')
-                .replace(/^## (\d+\.\s*.+)$/gm, '<h2>$1</h2>')
+                .replace(/^## (\d+\.\s*.+)$/gm, '<h2 id="item-$1">$1</h2>')
                 .replace(/^## (.+)$/gm, '<h2>$1</h2>')
                 .replace(/^### (.+)$/gm, '<h3>$1</h3>')
                 .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
                 .replace(/\*(.+?)\*/g, '<em>$1</em>')
                 .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>')
+                // Linkify bare URLs
+                .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank">$1</a>')
                 .replace(/^- (.+)$/gm, '<li>$1</li>')
                 .replace(/(<li>.+<\/li>\n?)+/g, '<ul>$&</ul>')
                 .replace(/---/g, '<hr>')
                 .replace(/\n/g, '<br>');
 
-            body.innerHTML = html;
+            body.innerHTML = tocHtml + html;
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
+        }
+
+        function scrollToItem(num) {
+            const el = document.getElementById(`item-${num}`);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
         }
 
         function closeModal() {
