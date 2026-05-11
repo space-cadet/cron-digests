@@ -4,7 +4,7 @@
 
 ## Current Focus
 
-Cron-digest system is operational. Both jobs created, archive repo live, waiting for first automated runs.
+Viewer UI improvements completed. Both digest formats (arXiv + web-science) rendering correctly with per-paper category chips and working ToC navigation.
 
 ## System State
 
@@ -20,6 +20,18 @@ Cron-digest system is operational. Both jobs created, archive repo live, waiting
 2. Native OpenClaw memory for general chat/daily operations
 3. Hybrid approach: structured docs for projects, lightweight for casual
 
+## Today's Changes (2026-05-11)
+
+### Viewer Improvements (viewer/index.html)
+1. **Fixed ToC navigation** — `scrollToItem()` now targets `paper-${num}` IDs correctly
+2. **Tightened spacing** — Reduced `.paper-item` margins (20→16px), list item gaps (4→2px), line-height (1.5→1.4)
+3. **Per-paper category chips** — arXiv papers show categories (hep-th, gr-qc, etc.) inside each card
+4. **Web-science format support** — Handles `### N. Title` under `## Section` headers, shows source chips ("arXiv", "Nature News")
+
+### Commits
+- `2977345` — Fix viewer: working ToC links, tighter spacing, category chips
+- `7799d8c` — Fix viewer: per-paper category chips, web-science format support, tighter spacing
+
 ## Cross-References
 
 - `projectbrief.md` — project overview
@@ -30,11 +42,11 @@ Cron-digest system is operational. Both jobs created, archive repo live, waiting
 ## Current Considerations
 
 - Need to verify cron jobs fire correctly on schedule (not just manual)
-- Memory-bank system needs bootstrap.md, activeContext.md, progress.md at minimum
 - Should document the corruption analysis from cloned workspace somewhere
+- Viewer now handles both digest formats robustly
 
 ## Next Actions
 
-- [ ] Create remaining core Memory Bank files (bootstrap.md, progress.md)
 - [ ] Test automated cron run (wait for tomorrow 7:11 AM)
 - [ ] Document the memory-consolidation corruption findings
+- [ ] Consider adding search/filter within modal view
