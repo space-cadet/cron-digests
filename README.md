@@ -28,6 +28,16 @@ Each digest is saved as `YYYY-MM-DD.md` in its respective folder. Files follow a
 
 Powered by [OpenClaw](https://openclaw.ai) cron jobs. The agent generates the digest, writes the file, commits, and pushes — all hands-off.
 
+## Viewer
+
+Browse digests in a web interface: **[Live Viewer](https://space-cadet.github.io/cron-digests/viewer/)**
+
+- Chronological card grid (latest first)
+- Search across titles and content
+- Filter by category (arXiv / Web Science)
+- Click any card to read the full digest in a modal
+- Works on mobile
+
 ---
 
 *Last updated: 2026-05-11*
