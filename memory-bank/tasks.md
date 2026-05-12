@@ -1,65 +1,38 @@
-# tasks.md
+# Memory Bank - Sage Workspace
+
+*Created: 2026-05-12 05:05:52 IST*
+*Last Updated: 2026-05-12 05:05:52 IST*
+
+## Overview
+
+This is the Memory Bank for the Sage (灵剑) OpenClaw workspace.
 
 ## Active Tasks
 
-### T1: Unified Digest Framework
-- **Status**: In Progress
-- **Owner**: Cloudy
-- **Started**: 2026-05-12
+| ID | Title | Status | Priority | Started | Dependencies | Details |
+|----|-------|--------|----------|---------|--------------|---------|
+| T3 | Implement DB-Native Workflow | 🔄 | HIGH | 2026-05-11 | T1, T2 | [Details](tasks/T3.md) |
 
-Formalize the digest generation system so new digest types can be added without reinventing structure.
+## Completed Tasks
 
-**Deliverables:**
-- [x] `digest-schema.md` — unified schema specification
-- [x] `tags.json` — tag registry with starter tags
-- [x] Update cron job prompts to include tagging
-- [ ] Update viewer to render per-entry tags
-- [ ] Document framework in memory bank
+| ID | Title | Status | Priority | Started | Completed | Dependencies | Details |
+|----|-------|--------|----------|---------|-----------|--------------|---------|
+| T1 | Initialize Memory Bank | ✅ | HIGH | 2026-05-11 | 2026-05-12 | - | [Details](tasks/T1.md) |
+| T2 | Integrate Mulch | ✅ | HIGH | 2026-05-11 | 2026-05-12 | - | [Details](tasks/T2.md) |
 
-**Blockers:** None
+## Task Relationships
 
----
+```
+T1: Initialize Memory Bank
+T2: Integrate Mulch
+T3: Implement DB-Native Workflow
+  └── T1
+  └── T2
+```
 
-### T2: GitHub Activity Digest
-- **Status**: Planned
-- **Owner**: Deepak (requested)
-- **Depends on**: T1 complete
+## Status Summary
 
-Generate daily/weekly digest of GitHub activity across repos.
-
-**Open questions:**
-- Daily or weekly? (Daily might be noisy)
-- Which repos? All `space_cadet` repos or select ones?
-- What to include? Commits, issues, PRs, releases?
-- Tag system: Software & Tools, Open Source & Community, plus repo-specific tags?
-
----
-
-### T3: Tag Registry Maintenance
-- **Status**: Waiting
-- **Trigger**: After ~20 tagged entries accumulated
-
-Review tags.json for:
-- Duplicate/similar tags to merge
-- Overly specific tags to generalize
-- Missing tags that emerged frequently
-
----
-
-## Backlog
-
-- [ ] Modal search/filter within viewer
-- [ ] Error handling for failed digest fetches
-- [ ] Failure notifications (email/Telegram when digest fails)
-- [ ] Digest quality evaluation after 1 week automated runs
-- [ ] Cross-digest search (search all types at once)
-
-## Completed
-
-- [x] Memory Bank structure initialized (2026-05-11)
-- [x] Viewer UI with ToC, chips, dual-format support (2026-05-11)
-- [x] arXiv and Web Science cron jobs running (2026-05-11)
-- [x] Tagging system designed and deployed (2026-05-12)
-
----
-*Updated: 2026-05-12*
+- **Active**: 1
+- **Completed**: 2
+- **Paused**: 0
+- **Total**: 3
