@@ -442,9 +442,10 @@
             }
 
             // Extract first few item titles for preview
-            const titles = content.match(/## \d+\.\s*(.+)/g);
+            // Both arxiv and web-science now use ## N. Title format
+            const titles = content.match(/^## \d+\.\s*(.+)/gm);
             if (titles) {
-                meta.items = titles.slice(0, 3).map(t => t.replace(/## \d+\.\s*/, ''));
+                meta.items = titles.slice(0, 3).map(t => t.replace(/^## \d+\.\s*/, ''));
             }
 
             return meta;
@@ -498,13 +499,11 @@
             const modal = document.getElementById('modal');
             const body = document.getElementById('modalBody');
             
-            // Detect format: arXiv uses ## N. Title, web-science uses ### N. Title under ## Section
+            // Detect format: arXiv uses ## N. Title, web-science uses ## N. Title
             const isArxiv = type === 'arxiv';
             
             // Extract entries for ToC
-            const entryMatches = isArxiv 
-                ? [...content.matchAll(/^## (\d+)\.\s*(.+)$/gm)]
-                : [...content.matchAll(/^### (\d+)\.\s*(.+)$/gm)];
+            const entryMatches = [...content.matchAll(/^## (\d+)\.\s*(.+)$/gm)];
             
             const tocItems = entryMatches.map((m) => ({ num: m[1], title: m[2] }));
             
@@ -545,38 +544,30 @@
                     html += `</div>`;
                 });
             } else {
-                // Web science format: ## Sections with ### N. Title entries
+                // Web science format: ## N. Title entries (same as arxiv now)
                 const lines = content.split('\n');
-                let currentSection = '';
                 let buffer = [];
                 let entries = [];
                 let headerLines = [];
                 let inHeader = true;
                 
                 for (let line of lines) {
-                    if (line.match(/^## [^#]/)) {
-                        // Section header (not entry)
-                        if (buffer.length > 0) {
-                            entries.push({ section: currentSection, content: buffer.join('\n') });
-                            buffer = [];
-                        }
-                        currentSection = line.replace(/^##\s*/, '');
-                        inHeader = false;
-                    } else if (line.match(/^### \d+\./)) {
+                    if (line.match(/^## \d+\./)) {
                         // Entry start
                         if (buffer.length > 0) {
-                            entries.push({ section: currentSection, content: buffer.join('\n') });
+                            entries.push({ content: buffer.join('\n') });
                             buffer = [];
                         }
                         buffer.push(line);
-                    } else if (inHeader && !line.match(/^### \d+\./)) {
+                        inHeader = false;
+                    } else if (inHeader && !line.match(/^## \d+\./)) {
                         headerLines.push(line);
                     } else {
                         buffer.push(line);
                     }
                 }
                 if (buffer.length > 0) {
-                    entries.push({ section: currentSection, content: buffer.join('\n') });
+                    entries.push({ content: buffer.join('\n') });
                 }
                 
                 // Render header
@@ -584,19 +575,13 @@
                     html += convertMarkdownToHtml(headerLines.join('\n').trim());
                 }
                 
-                // Render entries grouped by section
-                let lastSection = '';
-                entries.forEach(entry => {
-                    const match = entry.content.match(/^### (\d+)\.\s*(.+)$/m);
+                // Render entries
+                entries.forEach((entry, idx) => {
+                    const match = entry.content.match(/^## (\d+)\.\s*(.+)$/m);
                     if (match) {
                         const num = match[1];
                         const title = match[2];
                         const entryContent = entry.content.slice(match[0].length);
-                        
-                        if (entry.section !== lastSection) {
-                            html += `<h2 style="margin-top: 24px; color: #1a1a2e;">${entry.section}</h2>`;
-                            lastSection = entry.section;
-                        }
                         
                         // Extract source as chip
                         const sourceMatch = entryContent.match(/\*\*Source:\*\*\s*(.+)/);
@@ -607,7 +592,7 @@
                         }
                         
                         html += `<div class="paper-item" id="paper-${num}">`;
-                        html += `<h3>${num}. ${title}</h3>`;
+                        html += `<h2>${num}. ${title}</h2>`;
                         if (chips) html += chips;
                         html += convertMarkdownToHtml(entryContent);
                         html += `</div>`;
