@@ -19,6 +19,8 @@ This is the Memory Bank for the Sage (灵剑) OpenClaw workspace.
 |----|-------|--------|----------|---------|-----------|--------------|---------|
 | T1 | Initialize Memory Bank | ✅ | HIGH | 2026-05-11 | 2026-05-12 | - | [Details](tasks/T1.md) |
 | T2 | Integrate Mulch | ✅ | HIGH | 2026-05-11 | 2026-05-12 | - | [Details](tasks/T2.md) |
+| T4 | Digest Format v2.0 | ✅ | HIGH | 2026-05-12 | 2026-05-12 | - | Uniform template, reformat script, viewer fixes |
+| T5 | Update Cron Job Prompts | ✅ | MEDIUM | 2026-05-12 | 2026-05-12 | T4 | Added v2.0 instructions + manifest update |
 
 ## Task Relationships
 
