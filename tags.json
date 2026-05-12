@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "description": "Tag registry for cron-digests. Tracks all subject tags assigned to digest entries over time.",
+  "tags": [
+    {"name": "Quantum Gravity", "count": 0, "first_seen": null},
+    {"name": "Black Hole Physics", "count": 0, "first_seen": null},
+    {"name": "Quantum Information & Computing", "count": 0, "first_seen": null},
+    {"name": "Cosmology & Early Universe", "count": 0, "first_seen": null},
+    {"name": "Field Theory & Mathematical Physics", "count": 0, "first_seen": null},
+    {"name": "Many-Body Physics & Condensed Matter", "count": 0, "first_seen": null},
+    {"name": "Phase Transitions & Critical Phenomena", "count": 0, "first_seen": null},
+    {"name": "Gravitational Waves & Astrophysics", "count": 0, "first_seen": null},
+    {"name": "High-Energy Physics & Phenomenology", "count": 0, "first_seen": null},
+    {"name": "Foundations & Interpretations", "count": 0, "first_seen": null}
+  ],
+  "last_updated": "2026-05-12",
+  "merge_candidates": [],
+  "notes": "When adding new tags, follow the style: broad but meaningful. 'Quantum Gravity' not 'Loop Quantum Gravity on 3-Torus'. If similar tags emerge, add them to merge_candidates for review."
+}

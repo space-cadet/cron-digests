@@ -22,7 +22,38 @@ A running archive of automated daily digests — arXiv papers and web science ne
 
 ## Format
 
-Each digest is saved as `YYYY-MM-DD.md` in its respective folder. Files follow a standard template with ranked items, URLs, and relevance notes.
+Each digest is saved as `YYYY-MM-DD.md` in its respective folder. Files follow a standard template with ranked items, URLs, relevance notes, and **subject tags**.
+
+### Entry Template
+
+```markdown
+## N. [Paper/Article Title]
+- **Authors:** ...
+- **arXiv ID:** ... (arxiv only)
+- **URL:** ...
+- **Categories:** ... (arxiv only)
+- **Tags:** Tag1, Tag2, Tag3
+- **Relevance:** 🔥 High — ...
+```
+
+### Available Tags
+
+Tags are assigned at generation time by the digest curator. Common tags include:
+
+| Tag | Typical Content |
+|-----|----------------|
+| Quantum Gravity | Loop quantum gravity, string theory, CDT, emergent spacetime |
+| Black Hole Physics | Thermodynamics, information paradox, evaporation, holography |
+| Quantum Information & Computing | Qubits, error correction, algorithms, quantum supremacy |
+| Cosmology & Early Universe | Inflation, CMB, dark energy, quantum cosmology |
+| Field Theory & Mathematical Physics | QFT, CFT, topological field theory, math methods |
+| Many-Body Physics & Condensed Matter | Strongly correlated systems, superconductivity, topological phases |
+| Phase Transitions & Critical Phenomena | Critical exponents, universality, RG flows |
+| Gravitational Waves & Astrophysics | LIGO, pulsar timing, multimessenger astronomy |
+| High-Energy Physics & Phenomenology | Beyond Standard Model, SUSY, collider physics |
+| Foundations & Interpretations | Measurement problem, interpretations, quantum foundations |
+
+New tags are added when needed and tracked in [`tags.json`](tags.json).
 
 ## Automation
 
