@@ -16,6 +16,8 @@ Both jobs now include subject tagging per digest-schema.md.
 - Wrote `digest-schema.md` — unified framework specification
 - Initialized memory bank files: `activeContext.md`, `projectbrief.md`, `tasks.md`
 - Memory bank bootstrap already existed from previous session
+- **Database-native workflow installed**: Copied T21 implementation from parent memory-bank (inserts.js, regenerate.js, workflow.js, sqlite.js, schema.sql, test-workflow.js)
+- All 60 integration tests passing in cron-digests database context
 
 ## In Progress
 
@@ -25,10 +27,11 @@ Both jobs now include subject tagging per digest-schema.md.
 
 ## Next Actions
 
-1. Let arXiv digest run tomorrow morning → verify tags are generated correctly
-2. Update viewer to parse `Tags:` field from markdown
-3. Design GitHub digest format (commits, issues, PRs across repos)
-4. Review tag registry after ~20 entries for merge candidates
+1. **Use database-native workflow** for next memory bank update (test recordSessionWork())
+2. Let arXiv digest run tomorrow morning → verify tags are generated correctly
+3. Update viewer to parse `Tags:` field from markdown
+4. Design GitHub digest format (commits, issues, PRs across repos)
+5. Review tag registry after ~20 entries for merge candidates
 
 ## Blockers
 

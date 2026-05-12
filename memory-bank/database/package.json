@@ -1,0 +1,13 @@
+{
+  "name": "cron-digests-memory-bank",
+  "version": "1.0.0",
+  "description": "Database-native memory bank for cron-digests project",
+  "type": "module",
+  "scripts": {
+    "test": "node test-workflow.js",
+    "init-db": "node init-schema.js"
+  },
+  "dependencies": {
+    "sql.js": "^1.13.0"
+  }
+}
