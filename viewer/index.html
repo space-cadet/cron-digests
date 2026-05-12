@@ -429,15 +429,15 @@
             const meta = { items: [], preview: '' };
             
             // Extract item count
-            const itemsMatch = content.match(/Items found:\s*(\d+)/);
+            const itemsMatch = content.match(/\*\*Items found:\*\*\s*(\d+)/) || content.match(/Items found:\s*(\d+)/);
             if (itemsMatch) meta.itemCount = parseInt(itemsMatch[1]);
 
             // Extract categories or sites
             if (type === 'arxiv') {
-                const catMatch = content.match(/Categories:\s*([^\n]+)/);
+                const catMatch = content.match(/\*\*Categories:\*\*\s*([^\n]+)/) || content.match(/Categories:\s*([^\n]+)/);
                 if (catMatch) meta.categories = catMatch[1].trim();
             } else {
-                const sitesMatch = content.match(/Sites:\s*([^\n]+)/);
+                const sitesMatch = content.match(/\*\*Sites:\*\*\s*([^\n]+)/) || content.match(/Sites:\s*([^\n]+)/);
                 if (sitesMatch) meta.sites = sitesMatch[1].trim();
             }
 
