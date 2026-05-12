@@ -1,54 +1,38 @@
-# Active Context
+# activeContext.md
 
-*Last Updated: 2026-05-11 17:58:00 IST*
+## Current Status
 
-## Current Focus
+Digest framework v1.0 is live with two active digest types:
+- **arXiv Morning Digest**: Running daily at 7:11 AM IST
+- **Web Science Digest**: Running daily at 10:17 AM IST
 
-Viewer UI improvements completed and documented. Both digest formats (arXiv + web-science) rendering correctly with per-paper category chips and working ToC navigation.
+Both jobs now include subject tagging per digest-schema.md.
 
-## System State
+## Recent Changes (2026-05-12)
 
-- **Gateway**: Running (port 18789)
-- **Telegram**: Connected (user 849773381)
-- **Kimi-claw**: Mode switched to `chat` (working)
-- **Cron scheduler**: Enabled, next wake at 7:11 AM IST tomorrow
-- **GitHub**: `gh` authenticated as `space_cadet`
+- Added per-entry tagging to both digest generators
+- Created `tags.json` registry with 10 starter tags + 3 general tags
+- Updated README with tag documentation
+- Wrote `digest-schema.md` — unified framework specification
+- Initialized memory bank files: `activeContext.md`, `projectbrief.md`, `tasks.md`
+- Memory bank bootstrap already existed from previous session
 
-## Active Decisions
+## In Progress
 
-1. Memory Bank protocol adopted for cron-digest project (self-contained)
-2. Native OpenClaw memory for general chat/daily operations
-3. Hybrid approach: structured docs for projects, lightweight for casual
-
-## Today's Changes (2026-05-11)
-
-### Viewer Improvements (viewer/index.html)
-1. **Fixed ToC navigation** — `scrollToItem()` now targets `paper-${num}` IDs correctly
-2. **Tightened spacing** — Reduced `.paper-item` margins (20→16px), list item gaps (4→2px), line-height (1.5→1.4)
-3. **Per-paper category chips** — arXiv papers show categories (hep-th, gr-qc, etc.) inside each card
-4. **Web-science format support** — Handles `### N. Title` under `## Section` headers, shows source chips ("arXiv", "Nature News")
-
-### Commits
-- `2977345` — Fix viewer: working ToC links, tighter spacing, category chips
-- `7799d8c` — Fix viewer: per-paper category chips, web-science format support, tighter spacing
-- `39ecf4f` — Update memory-bank: record viewer UI improvements and today's work
-
-## Cross-References
-
-- `projectbrief.md` — project overview
-- `progress.md` — task tracking
-- `memory-bank/edits/2026-05-11/175800-T1.md` — edit chunk for today's work
-- `../arxiv/2026-05-11.md` — first arXiv digest (manual run)
-- `../web-science/2026-05-11.md` — first web-science digest (manual run)
-
-## Current Considerations
-
-- Need to verify cron jobs fire correctly on schedule (not just manual)
-- Should document the corruption analysis from cloned workspace somewhere
-- Viewer now handles both digest formats robustly
+- [ ] Update viewer to render per-entry tags (waiting for first tagged digest)
+- [ ] GitHub activity digest — planned, not scheduled
+- [ ] Tag merge review — first batch of tags needs human review after ~1 week
 
 ## Next Actions
 
-- [ ] Test automated cron run (wait for tomorrow 7:11 AM)
-- [ ] Document the memory-consolidation corruption findings
-- [ ] Consider adding search/filter within modal view
+1. Let arXiv digest run tomorrow morning → verify tags are generated correctly
+2. Update viewer to parse `Tags:` field from markdown
+3. Design GitHub digest format (commits, issues, PRs across repos)
+4. Review tag registry after ~20 entries for merge candidates
+
+## Blockers
+
+None.
+
+---
+*Updated: 2026-05-12*
