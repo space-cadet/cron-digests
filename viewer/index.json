@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T02:59:00.097Z",
+  "generated": "2026-05-18T05:42:53.445Z",
   "digests": [
     {
       "date": "2026-05-18",
@@ -248,6 +248,94 @@
             "Critical Phenomena",
             "Fractals",
             "Universality Classes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-18",
+      "categories": "Phys.org + ScienceDaily",
+      "items_found": 6,
+      "focus": "General Physics, General Science",
+      "entries": [
+        {
+          "num": 1,
+          "title": "String theory is uniquely derived from basic assumptions about the universe, physicists show",
+          "source": "Phys.org / General Physics",
+          "url": "https://phys.org/news/2026-05-theory-uniquely-derived-basic-assumptions.html",
+          "summary": "If you could take an apple and break it into smaller and smaller parts, you would find molecules, then atoms, followed by subatomic particles like protons and the quarks and gluons that make them up. You might think you hit ...",
+          "relevance": "🔥 High - Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Gravity",
+            "Field Theory & Mathematical Physics",
+            "High-Energy Physics & Phenomenology"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Roadmap charts three paths to room-temperature quantum materials for cooler computing",
+          "source": "Phys.org / Quantum Computing",
+          "url": "https://phys.org/news/2026-05-roadmap-paths-room-temperature-quantum.html",
+          "summary": "Imagine a laptop that never gets hot, a phone that holds its charge for days, or a computer memory chip designed to permanently retain data, even when the power goes out. This is the possibility sitting inside a remarkable ...",
+          "relevance": "🔥 High - Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Physicists create hybrid light-matter particles that interact strongly enough to compute",
+          "source": "Phys.org / Optics & Photonics",
+          "url": "https://phys.org/news/2026-05-physicists-hybrid-particles-interact-strongly.html",
+          "summary": "Eighty years ago, Penn researchers J. Presper Eckert and John Mauchly launched the age of electronic computing by harnessing electrons to solve complex numerical problems with ENIAC, the world's first general-purpose electronic ...",
+          "relevance": "🔥 High - Strongly interacting photons enable optical computing and novel quantum simulators",
+          "tags": [
+            "Optics & Photonics",
+            "Quantum Information & Computing",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Quantum Breakthrough Could Revolutionize Teleportation and Computing",
+          "source": "ScienceDaily / Quantum Physics",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260513034640.htm",
+          "summary": "Researchers have achieved a major breakthrough in quantum teleportation, demonstrating the ability to transmit quantum states with unprecedented fidelity. The work advances both quantum communication networks and quantum computing architectures.",
+          "relevance": "🔥 High - Advances quantum communication and teleportation with practical implications",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "New Quantum Algorithm Solves \"Impossible\" Materials Problem in Seconds",
+          "source": "ScienceDaily / Quantum Computing",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260512202355.htm",
+          "summary": "A new quantum algorithm has been developed that can solve complex materials science problems previously considered computationally intractable. The algorithm leverages quantum advantage to dramatically accelerate simulations of material properties.",
+          "relevance": "🔥 High — Demonstrates practical quantum advantage for materials science applications",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Scientists Just Sent Unhackable Quantum Keys Across 120 Kilometers",
+          "source": "ScienceDaily / Quantum Communication",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260508003129.htm",
+          "summary": "Scientists have successfully transmitted quantum cryptographic keys over a distance of 120 kilometers, demonstrating the viability of long-distance quantum key distribution. The achievement brings practical quantum-secured communication networks closer to reality.",
+          "relevance": "🔥 High — Major milestone toward practical quantum communication infrastructure",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering",
+            "Experiment & Observation"
           ]
         }
       ]
@@ -1509,12 +1597,12 @@
     }
   ],
   "stats": {
-    "total_digests": 11,
-    "total_entries": 106,
+    "total_digests": 12,
+    "total_entries": 112,
     "unique_tags": {
       "Quantum Gravity": {
         "first_seen": "2026-05-18",
-        "count": 17
+        "count": 18
       },
       "Infrared Physics": {
         "first_seen": "2026-05-18",
@@ -1744,6 +1832,34 @@
         "first_seen": "2026-05-18",
         "count": 1
       },
+      "Field Theory & Mathematical Physics": {
+        "first_seen": "2026-05-18",
+        "count": 13
+      },
+      "High-Energy Physics & Phenomenology": {
+        "first_seen": "2026-05-18",
+        "count": 9
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-05-18",
+        "count": 19
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-05-18",
+        "count": 27
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-05-18",
+        "count": 17
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-05-18",
+        "count": 8
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-05-18",
+        "count": 24
+      },
       "Black Hole Thermodynamics": {
         "first_seen": "2026-05-15",
         "count": 3
@@ -1824,33 +1940,9 @@
         "first_seen": "2026-05-15",
         "count": 4
       },
-      "Experiment & Observation": {
-        "first_seen": "2026-05-15",
-        "count": 22
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-05-15",
-        "count": 22
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-05-15",
-        "count": 15
-      },
       "Science Communication & Policy": {
         "first_seen": "2026-05-15",
         "count": 14
-      },
-      "Field Theory & Mathematical Physics": {
-        "first_seen": "2026-05-15",
-        "count": 12
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-05-15",
-        "count": 7
-      },
-      "High-Energy Physics & Phenomenology": {
-        "first_seen": "2026-05-15",
-        "count": 8
       },
       "Black Hole Physics": {
         "first_seen": "2026-05-15",
@@ -1863,10 +1955,6 @@
       "Foundations & Interpretations": {
         "first_seen": "2026-05-14",
         "count": 8
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-05-14",
-        "count": 14
       },
       "Gravitational Waves & Astrophysics": {
         "first_seen": "2026-05-14",
@@ -1886,7 +1974,7 @@
       }
     },
     "tag_counts": {
-      "Quantum Gravity": 17,
+      "Quantum Gravity": 18,
       "Infrared Physics": 1,
       "Berry Phases": 1,
       "Black Hole Information": 1,
@@ -1944,6 +2032,13 @@
       "Critical Phenomena": 1,
       "Fractals": 1,
       "Universality Classes": 1,
+      "Field Theory & Mathematical Physics": 13,
+      "High-Energy Physics & Phenomenology": 9,
+      "Quantum Information & Computing": 19,
+      "Technology & Engineering": 27,
+      "Many-Body Physics & Condensed Matter": 17,
+      "Optics & Photonics": 8,
+      "Experiment & Observation": 24,
       "Black Hole Thermodynamics": 3,
       "Information Paradox": 1,
       "CMB Phenomenology": 1,
@@ -1964,17 +2059,10 @@
       "Double Copy": 1,
       "Classical Gravity": 1,
       "Space Sustainability": 4,
-      "Experiment & Observation": 22,
-      "Technology & Engineering": 22,
-      "Many-Body Physics & Condensed Matter": 15,
       "Science Communication & Policy": 14,
-      "Field Theory & Mathematical Physics": 12,
-      "Optics & Photonics": 7,
-      "High-Energy Physics & Phenomenology": 8,
       "Black Hole Physics": 9,
       "Cosmology & Early Universe": 7,
       "Foundations & Interpretations": 8,
-      "Quantum Information & Computing": 14,
       "Gravitational Waves & Astrophysics": 4,
       "Phase Transitions & Critical Phenomena": 5,
       "Magnetism & Spintronics": 1,
@@ -1990,6 +2078,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-05-18",
         "2026-05-15",
         "2026-05-14",
         "2026-05-13",
