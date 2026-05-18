@@ -2,13 +2,20 @@
 
 ## Current Status
 
-All planned feature tasks completed. cron-digests archive is fully operational with formalized schema, automated validation, indexed viewer, and dark mode UI.
+Cron-digests archive is fully operational with formalized schema, automated validation, indexed viewer, dark mode UI, **and CI/CD pipeline**.
 
-- **Schema/Validation:** JSON Schema at `schema/digest.json`, validator runs clean (0 errors), 11 digests indexed
+- **Schema/Validation:** JSON Schema at `schema/digest.json`, validator runs clean (0 errors), 12 digests indexed
 - **Viewer:** Dark mode, tag filtering, keyboard nav, PDF links, arxivite.org integration — deployed to GitHub Pages
 - **Cron jobs:** arXiv Mon-Fri 7:11 IST, Web Science Mon-Fri 10:17 IST — both operational
+- **CI/CD:** GitHub Actions workflow (`.github/workflows/ci.yml`) auto-validates digests, rebuilds index, commits changes, and deploys to GitHub Pages on every push
 
 ## Completed This Session (2026-05-18)
+
+### T9: CI/CD Pipeline for cron-digests
+- GitHub Actions workflow: validate → index rebuild → auto-commit → GitHub Pages deploy
+- Runs on every push to main
+- If validation fails, CI blocks the Pages deploy
+- If index changes, CI commits them back with `[ci skip]`
 
 ### T8: CloakBrowser Integration for Web Science Digest
 - Installed CloakBrowser (`npm install cloakbrowser playwright-core`)
@@ -44,9 +51,9 @@ All planned feature tasks completed. cron-digests archive is fully operational w
 
 ## Next Actions
 
-1. Sync `tags.json` with all tags from May 15 & May 18 digests
-2. Update `TEMPLATE.md` to match actual de-facto v2.0 format (Authors, arXiv ID, etc.)
-3. Consider integrating `scripts/generate-web-science-cloak.mjs` into the cron job payload for automated web-science digest generation
+1. Monitor tomorrow's Web Science digest (~10:17 IST) to verify full pipeline: cron → generate → validate → commit → push → CI rebuilds index → Pages deploys
+2. Sync `tags.json` with all tags from May 15 & May 18 digests
+3. Update `TEMPLATE.md` to match actual de-facto v2.0 format (Authors, arXiv ID, etc.)
 4. Consider weekly summary digest from SQLite index
 5. System cleanup: disk at 93%, old kernel image ~125 MB removable
 
