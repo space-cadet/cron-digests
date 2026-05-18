@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  validate-and-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate digests
+        run: |
+          echo "Running validate-digest.js..."
+          node scripts/validate-digest.js
+          if [ $? -ne 0 ]; then
+            echo "❌ Digest validation failed"
+            exit 1
+          fi
+          echo "✅ All digests validated"
+
+      - name: Build index
+        run: |
+          echo "Running build-index.js..."
+          node scripts/build-index.js
+          echo "✅ Index rebuilt"
+
+      - name: Commit index changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if git diff --quiet viewer/index.json viewer/index.db; then
+            echo "No index changes to commit"
+          else
+            git add viewer/index.json viewer/index.db
+            git commit -m "chore(viewer): auto-rebuild index [ci skip]"
+            git push
+            echo "✅ Index committed and pushed"
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: viewer
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: validate-and-index
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
