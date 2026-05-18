@@ -1,10 +1,44 @@
 # Edit History
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-05-18 08:59:00 IST*
+*Last Updated: 2026-05-18 11:25:00 IST*
 
 ---
 
 ## 2026-05-18
+
+#### 11:25:00 IST - T8: CloakBrowser integration for web-science digest
+- Created `scripts/generate-web-science-cloak.mjs` - CloakBrowser-based digest generator using stealth Chromium with headed mode via xvfb
+- Created `scripts/generate-web-science-cloak.mjs` - Phys.org article fetcher with multi-selector fallback for article containers and titles
+- Created `scripts/generate-web-science-cloak.mjs` - ScienceDaily article fetcher with correct URL (`/news/matter_energy/physics/` not `/news/physics/`)
+- Created `scripts/generate-web-science-cloak.mjs` - Per-article summary fetching for ScienceDaily by visiting each article page and extracting `.lead` or meta description
+- Created `scripts/generate-web-science-cloak.mjs` - Physics keyword scoring for relevance ranking across sources
+- Created `scripts/generate-web-science-cloak.mjs` - Tag assignment engine using content analysis (quantum, gravity, optics, etc.)
+- Modified `web-science/2026-05-18.md` - Full rewrite with CloakBrowser-generated content: 6 articles (3 Phys.org + 3 ScienceDaily)
+- Modified `web-science/2026-05-18.md` - Fixed Source field from generic "General Physics" to specific "Phys.org / General Physics", "ScienceDaily / Quantum Physics"
+- Modified `web-science/2026-05-18.md` - Fixed Tags field from generic defaults to physics-specific tags (Quantum Gravity, Optics & Photonics, etc.)
+- Modified `web-science/2026-05-18.md` - Fixed title line to use em-dash separator (`—` not `-`) for validator compliance
+- Modified `web-science/manifest.json` - Updated with 2026-05-18 entry
+
+#### 11:25:00 IST - T9: CI/CD pipeline for cron-digests
+- Created `.github/workflows/ci.yml` - GitHub Actions workflow with two jobs: validate-and-index + deploy
+- Created `.github/workflows/ci.yml` - Validate step: runs `scripts/validate-digest.js` on all digests, blocks deploy on failure
+- Created `.github/workflows/ci.yml` - Index rebuild step: runs `scripts/build-index.js` to regenerate SQLite and JSON indices
+- Created `.github/workflows/ci.yml` - Auto-commit step: commits updated `viewer/index.json` and `viewer/index.db` with `[ci skip]` prefix
+- Created `.github/workflows/ci.yml` - Pages deploy step: deploys viewer directory to GitHub Pages using actions/deploy-pages@v4
+- Modified `viewer/index.json` - Rebuilt index via `scripts/build-index.js` to include 2026-05-18 web-science digest (12 digests, 112 entries)
+- Modified `viewer/index.db` - Rebuilt SQLite index with new digest entries
+
+#### 11:25:00 IST - Memory bank full update for T8 and T9
+- Created `memory-bank/tasks/T8.md` - Task detail file for CloakBrowser integration
+- Created `memory-bank/tasks/T9.md` - Task detail file for CI/CD pipeline
+- Modified `memory-bank/tasks.md` - Added T8 and T9 to completed tasks table with details links
+- Modified `memory-bank/activeContext.md` - Updated current status with CI/CD pipeline operational, 12 digests indexed
+- Modified `memory-bank/session_cache.md` - Updated session state: 6 completed tasks, current period afternoon
+- Modified `memory-bank/changelog.md` - Added [2026-05-18] T8/T9 entries: CloakBrowser script, CI workflow, index rebuild
+- Modified `memory-bank/progress.md` - Added T8 and T9 to What Works section, updated In Progress and To Do
+- Created `memory-bank/implementation-details/cloakbrowser-integration.md` - Full implementation documentation for CloakBrowser digest generation
+- Created `memory-bank/implementation-details/ci-cd-pipeline.md` - Full implementation documentation for GitHub Actions workflow
+- Created `memory-bank/sessions/2026-05-18-afternoon.md` - Session file documenting T8 and T9 work
 
 #### 08:59:00 IST - T6: Schema, validation, and index infrastructure
 - Created `schema/digest.json` - JSON Schema v7 for digest header and entry structure

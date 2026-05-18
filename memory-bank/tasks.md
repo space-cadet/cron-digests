@@ -1,6 +1,6 @@
 # Task Registry
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-05-18 08:59:00 IST*
+*Last Updated: 2026-05-18 11:25:00 IST*
 
 ## Active Tasks
 | ID | Title | Status | Priority | Started | Dependencies | Details |
@@ -14,6 +14,8 @@
 | T5 | Update Cron Job Prompts | 2026-05-12 | T4 | [Details](tasks/T5.md) |
 | T6 | Schema, Validation, and Index Infrastructure | 2026-05-18 | T4 | [Details](tasks/T6.md) |
 | T7 | Viewer UI/UX Overhaul | 2026-05-18 | T4, T6 | [Details](tasks/T7.md) |
+| T8 | CloakBrowser Integration for Web Science Digest | 2026-05-18 | T6 | [Details](tasks/T8.md) |
+| T9 | CI/CD Pipeline for cron-digests | 2026-05-18 | T6, T7 | [Details](tasks/T9.md) |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)
@@ -51,7 +53,25 @@
 **Files:** `viewer/index.html`
 **Notes:** Viewer now loads index.json instantly instead of N markdown fetches. Tag filter state syncs between top bar and card tags. arxivite.org replaces arxiv.org for all paper links.
 
+### T8: CloakBrowser Integration for Web Science Digest
+**Description:** Integrate CloakBrowser (stealth Chromium) for bot-resistant web-science digest generation from Phys.org and ScienceDaily.
+**Status:** ✅ **Last:** 2026-05-18 11:25:00 IST
+**Criteria:** Headed mode with xvfb passes bot detection, correct ScienceDaily URL and selectors, per-article summary fetching, physics keyword scoring, tag assignment, validated digest generated
+**Files:** `scripts/generate-web-science-cloak.mjs`
+**Notes:** Headless mode leaks detection on VPS; headed mode with xvfb is required. ScienceDaily URL was `/news/physics/` (404) → `/news/matter_energy/physics/` (200). Script uses ESM-only `import` syntax.
+
+### T9: CI/CD Pipeline for cron-digests
+**Description:** GitHub Actions workflow for automatic digest validation, index rebuild, and GitHub Pages deployment on every push.
+**Status:** ✅ **Last:** 2026-05-18 11:25:00 IST
+**Criteria:** Workflow validates digests, rebuilds index, auto-commits changes, deploys to Pages. Tested and verified with auto-generated commit.
+**Files:** `.github/workflows/ci.yml`
+**Notes:** Two-job architecture: validate-and-index (with auto-commit) → deploy. Validation failures block Pages deploy. `[ci skip]` prevents infinite CI loops.
+
 ## Operational Notes
-- **arXiv digest cron:** Mon-Fri 7:11 IST, last manual backfill 2026-05-18 (15 selected from ~340 announcements)
-- **Web Science digest cron:** Mon-Fri 10:17 IST, last run 2026-05-15
-- **Generated digests:** arxiv/2026-05-15.md, web-science/2026-05-15.md, arxiv/2026-05-18.md
+- **arXiv digest cron:** Mon-Fri 7:11 IST, last run 2026-05-18 (15 selected from ~340 announcements)
+- **Web Science digest cron:** Mon-Fri 10:17 IST, last run 2026-05-18 (6 articles via CloakBrowser manual re-run)
+- **Generated digests:** arxiv/2026-05-18.md, web-science/2026-05-18.md
+- **CI/CD:** GitHub Actions auto-validates, rebuilds index, deploys to Pages on every push
+- **Index:** 12 digests, 112 entries, 93 unique tags indexed
+- **Viewer:** Auto-deployed to GitHub Pages via CI, loads index.json instantly
+- **CloakBrowser:** Available at `scripts/generate-web-science-cloak.mjs` for manual or future cron use

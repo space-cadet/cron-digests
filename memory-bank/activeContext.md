@@ -43,11 +43,17 @@ Cron-digests archive is fully operational with formalized schema, automated vali
 - arxivite.org redirect for all paper links
 - Instant `index.json` loading (replaces N markdown fetches)
 
+**Implementation docs:**
+- [Digest Format v2.0](implementation-details/digest-format-v2.md)
+- [CloakBrowser Integration](implementation-details/cloakbrowser-integration.md)
+- [CI/CD Pipeline](implementation-details/ci-cd-pipeline.md)
+
 ## In Progress
 
 - [x] Operational monitoring: verify cron jobs generate compliant digests — **DONE**: Web Science digest manually re-run with CloakBrowser, validated clean (0 errors)
 - [ ] Tag registry sync: `tags.json` stale since May 14, missing new tags from May 15 & May 18
-- [x] Web Science digest: next run today ~10:17 IST (Mon 2026-05-18) — **DONE**: Manual CloakBrowser run completed and pushed
+- [x] Web Science digest: next run today ~10:17 IST (Mon 2026-05-18) — **DONE**: Manual CloakBrowser run completed and pushed, CI auto-rebuilt index
+- [x] CI/CD pipeline: GitHub Actions workflow created and verified — **DONE**: Auto-committed index rebuild on first push, Pages deploy confirmed
 
 ## Next Actions
 
@@ -55,11 +61,11 @@ Cron-digests archive is fully operational with formalized schema, automated vali
 2. Sync `tags.json` with all tags from May 15 & May 18 digests
 3. Update `TEMPLATE.md` to match actual de-facto v2.0 format (Authors, arXiv ID, etc.)
 4. Consider weekly summary digest from SQLite index
-5. System cleanup: disk at 93%, old kernel image ~125 MB removable
+5. System cleanup: disk at 92%, old kernel image ~125 MB removable
 
 ## Blockers
 
 None.
 
 ---
-*Updated: 2026-05-18 08:59:00 IST*
+*Updated: 2026-05-18 11:25:00 IST*

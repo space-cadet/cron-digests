@@ -3,11 +3,19 @@
 ## [2026-05-18]
 
 ### Added
+- `.github/workflows/ci.yml` — GitHub Actions workflow: validate → index rebuild → auto-commit → GitHub Pages deploy
+- `scripts/generate-web-science-cloak.mjs` — CloakBrowser-based digest generator with xvfb headed mode
+- `web-science/2026-05-18.md` — First CloakBrowser-generated digest (6 articles: 3 Phys.org + 3 ScienceDaily)
+- ScienceDaily correct URL: `https://www.sciencedaily.com/news/matter_energy/physics/` (was `/news/physics/` — 404)
+- ScienceDaily article selector: `a[href*="/releases/2026/"]` for article link discovery
+- Per-article summary fetching for ScienceDaily (visits each article page for `.lead` or meta description)
+- Physics keyword scoring and tag assignment engine
+- CloakBrowser stealth Chromium binary (~206 MB) auto-downloaded to `~/.cloakbrowser/`
 - `schema/digest.json` — JSON Schema v7 for digest header and entry structure
 - `scripts/validate-digest.js` — automated markdown digest validation (items_found, sequential numbering, structural checks)
 - `scripts/build-index.js` — digest parser + SQLite indexer + JSON exporter
 - `viewer/index.db` — SQLite index with digests, entries, tags tables
-- `viewer/index.json` — pre-computed JSON index (11 digests, 106 entries, 93 tags)
+- `viewer/index.json` — pre-computed JSON index (12 digests, 112 entries, 93 tags)
 - Dark mode toggle with CSS variables and localStorage persistence
 - Tag filter bar: top-20 most common tags with occurrence counts
 - Per-card tag chips (up to 6 tags), clickable to activate filter
@@ -22,6 +30,9 @@
 - Tag chip sizing: more compact padding, font, and border-radius
 
 ### Fixed
+- `web-science/2026-05-18.md` — Source field fixed from generic "General Physics" to specific "Phys.org / General Physics", "ScienceDaily / Quantum Physics"
+- `web-science/2026-05-18.md` — Tags field fixed from generic defaults to physics-specific tags (Quantum Gravity, Optics & Photonics, etc.)
+- `web-science/2026-05-18.md` — Title line fixed to use em-dash separator (`—` not `-`) for validator compliance
 - `arxiv/2026-05-11.md` — converted `## Honorable Mentions` footer to `###` (passes validation)
 - `web-science/2026-05-13.md` — converted `## Notable Omissions` and `## Methodology` to `###` (passes validation)
 - `arxiv/2026-05-18.md` — removed category section headers (`## hep-th`, etc.) that broke viewer item counter
