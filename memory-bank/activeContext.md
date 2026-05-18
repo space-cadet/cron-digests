@@ -46,7 +46,7 @@ All planned feature tasks completed. cron-digests archive is fully operational w
 
 1. Sync `tags.json` with all tags from May 15 & May 18 digests
 2. Update `TEMPLATE.md` to match actual de-facto v2.0 format (Authors, arXiv ID, etc.)
-3. Consider integrating CloakBrowser into the cron job payload for automated web-science digest generation
+3. Consider integrating `scripts/generate-web-science-cloak.mjs` into the cron job payload for automated web-science digest generation
 4. Consider weekly summary digest from SQLite index
 5. System cleanup: disk at 93%, old kernel image ~125 MB removable
 
