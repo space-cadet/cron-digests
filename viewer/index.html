@@ -365,14 +365,40 @@
 
         async function fetchDigests() {
             const container = document.getElementById('digestContainer');
-            const digests = [];
 
+            // Try pre-built JSON index first (instant load)
+            try {
+                const idxResponse = await fetch('index.json');
+                if (idxResponse.ok) {
+                    const index = await idxResponse.json();
+                    allDigests = index.digests.map(d => ({
+                        type: d.type,
+                        date: d.date,
+                        path: `${SOURCES[d.type]}${d.date}.md`,
+                        content: null, // fetched on demand
+                        meta: {
+                            itemCount: d.items_found,
+                            categories: d.type === 'arxiv' ? d.categories : null,
+                            sites: d.type === 'web-science' ? d.categories : null,
+                            items: d.entries.slice(0, 3).map(e => e.title)
+                        },
+                        entries: d.entries
+                    }));
+                    renderDigests();
+                    console.log(`Loaded ${allDigests.length} digests from index.json`);
+                    return;
+                }
+            } catch (e) {
+                console.warn('index.json not available, falling back to manifest fetching');
+            }
+
+            // Fallback: fetch individual markdown files via manifests
+            const digests = [];
             for (const [type, path] of Object.entries(SOURCES)) {
                 try {
                     const response = await fetch(`${path}manifest.json`);
                     if (response.ok) {
                         const manifest = await response.json();
-                        // Handle both plain array and {files: [...]} formats
                         const files = Array.isArray(manifest) ? manifest : (manifest.files || []);
                         for (const file of files) {
                             if (file.endsWith('.md') && file !== 'README.md') {
@@ -394,7 +420,7 @@
             // Fallback: try to discover files from known dates
             if (digests.length === 0) {
                 const today = new Date().toISOString().split('T')[0];
-                const dates = [today, '2026-05-11']; // known dates
+                const dates = [today, '2026-05-11'];
                 for (const date of dates) {
                     for (const [type, path] of Object.entries(SOURCES)) {
                         try {
@@ -458,8 +484,18 @@
             const filtered = allDigests.filter(d => {
                 if (currentFilter !== 'all' && d.type !== currentFilter) return false;
                 if (!searchTerm) return true;
-                return d.date.includes(searchTerm) || 
-                       d.content.toLowerCase().includes(searchTerm) ||
+                
+                // Search in loaded content (legacy) or entries (index.json)
+                if (d.content && d.content.toLowerCase().includes(searchTerm)) return true;
+                if (d.entries) {
+                    return d.entries.some(e => 
+                        (e.title && e.title.toLowerCase().includes(searchTerm)) ||
+                        (e.authors && e.authors.toLowerCase().includes(searchTerm)) ||
+                        (e.summary && e.summary.toLowerCase().includes(searchTerm)) ||
+                        (e.tags && e.tags.some(t => t.toLowerCase().includes(searchTerm)))
+                    );
+                }
+                return d.date.includes(searchTerm) ||
                        (d.meta?.items && d.meta.items.some(item => item.toLowerCase().includes(searchTerm)));
             });
 
@@ -488,7 +524,23 @@
                     const date = card.dataset.date;
                     const type = card.dataset.type;
                     const digest = allDigests.find(d => d.date === date && d.type === type);
-                    if (digest) {
+                    if (!digest) return;
+                    
+                    // If content not loaded yet, fetch it first
+                    if (!digest.content) {
+                        try {
+                            const response = await fetch(digest.path);
+                            if (response.ok) {
+                                digest.content = await response.text();
+                            } else {
+                                digest.content = `Error loading digest: ${response.status}`;
+                            }
+                        } catch (e) {
+                            digest.content = `Error loading digest: ${e.message}`;
+                        }
+                    }
+                    
+                    if (digest.content) {
                         showModal(digest.content, type, date);
                     }
                 });

@@ -1,0 +1,2001 @@
+{
+  "generated": "2026-05-18T02:59:00.097Z",
+  "digests": [
+    {
+      "date": "2026-05-18",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-05-18",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Quantum Gravity Beyond the Bulk",
+          "authors": "Jorge Gamboa, Natalia Tapia-Arellano",
+          "arxiv_id": "2605.15251",
+          "url": "https://arxiv.org/abs/2605.15251",
+          "categories": "gr-qc, hep-th",
+          "summary": "An infrared and asymptotic formulation of quantum gravity adapted to external observers. In an asymptotic proper-time gauge, the physical generator of evolution reduces to the Regge–Teitelboim boundary charge, so that quantum dynamics is governed by infrared gravitational configurations at spatial infinity. In the weak-field regime this leads naturally to a Born–Oppenheimer separation between slow asymptotic data and fast bulk fluctuations. Integrating out the latter induces a Berry connection on the space of admissible configurations, whose holonomy characterizes infrared-dressed gravitational states. Observable evolution is then governed by an infrared effective Hamiltonian obtained after integrating out fast bulk fluctuations, with the geometric (Berry) contribution entering as part of the resulting evolution operator on the space of asymptotic configurations. Tracing over unresolvable degrees of freedom induces a reduced density matrix whose entropy is dominated by global infrared holonomy sectors rather than local bulk dynamics.",
+          "relevance": "A novel infrared perspective on quantum gravity that shifts focus from bulk dynamics to boundary charges and Berry phases. The entanglement structure being dominated by infrared holonomy sectors rather than local bulk dynamics is a significant conceptual shift. Awarded an Honorable Mention in the 2026 Gravity Research Foundation Essay Competition.",
+          "tags": [
+            "Quantum Gravity",
+            "Infrared Physics",
+            "Berry Phases",
+            "Black Hole Information"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Loop Quantum Kaluza-Klein Cosmology and Inflation",
+          "authors": "Shengzhi Li, Yongge Ma, Faqiang Yuan, Xiangdong Zhang",
+          "arxiv_id": "2605.15858",
+          "url": "https://arxiv.org/abs/2605.15858",
+          "categories": "gr-qc",
+          "summary": "Five-dimensional loop quantum Kaluza-Klein cosmology based on the symmetric reduction of the connection formulation of the full theory. The effective scalar constraint for the geometric sector is derived by systematic semi-classical analysis in both canonical and path-integral formulations, incorporating quantum fluctuations as a subleading-order correction. The resulting effective scalar constraint exhibits the correct classical limit and serves as the basis for investigating three distinct effective scenarios: (i) vacuum, (ii) minimally coupling with a scalar field, and (iii) coupling with dust. In all three scenarios, the big bang and potential past big rip singularities in the classical model are naturally resolved by including the leading-order quantum correction of holonomies. The visible universe undergoes a super-inflationary phase after overcoming the classical big bang singularity, during which the phenomenologically desired 55 e-folds can be achieved by appropriate initial conditions. When the subleading-order quantum fluctuation term is included as a constant, the evolutions in all three scenarios not only achieve sufficient inflation in the visible dimensions, but also exhibit re-collapse behaviors at certain large scales.",
+          "relevance": "Concrete bridge between loop quantum gravity and higher-dimensional cosmology. The resolution of both big-bang and big-rip singularities via holonomy corrections, combined with achieving sufficient e-folds of inflation, makes this a strong contribution to quantum cosmology phenomenology. The re-collapse behavior at large scales is an interesting prediction.",
+          "tags": [
+            "Loop Quantum Gravity",
+            "Quantum Cosmology",
+            "Kaluza-Klein",
+            "Inflation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Generating Rotation in a Snap",
+          "authors": "Soumangsu Chakraborty, Pierre Heidmann, Gela Patashuri",
+          "arxiv_id": "2605.15258",
+          "url": "https://arxiv.org/abs/2605.15258",
+          "categories": "hep-th, gr-qc",
+          "summary": "A new purely algebraic technique to generate rotation from arbitrary static solutions that asymptote to four- or five-dimensional Minkowski spacetime. The method does not require solving Einstein equations. It proceeds by transforming the static solution to AdS×S asymptotics, performing a coordinate shift to a uniformly rotating frame, and then transforming back to asymptotically flat spacetime. Implemented in five-dimensional minimal supergravity, though it applies more broadly to any framework admitting AdS×S geometries and relevant sigma-model transformations. As a first application, the Kerr and Myers-Perry black holes are recovered directly from Schwarzschild black holes. Applied to the linear class of static Weyl solutions, it yields the first linear ansatz describing an arbitrary number of non-extremal rotating and charged sources.",
+          "relevance": "Elegant algebraic shortcut for generating rotating solutions — recovering Kerr from Schwarzschild without solving field equations is a powerful demonstration. The extension to multi-source configurations suggests broad applicability for constructing complex rotating geometries.",
+          "tags": [
+            "Black Holes",
+            "Rotating Solutions",
+            "Supergravity",
+            "Solution-Generating Techniques"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Kerroll Black Holes",
+          "authors": "Florian Ecker, Daniel Grumiller, Lucas Hörl, Mattéo Leturcq–Daligaux, Alfredo Pérez",
+          "arxiv_id": "2605.15269",
+          "url": "https://arxiv.org/abs/2605.15269",
+          "categories": "hep-th",
+          "summary": "Rotating black holes in Carroll gravity constructed via two distinct approaches. In one, the freedom in the Carroll compatible connection is exploited to encode rotation — constructing rotating solutions in magnetic Carroll gravity by dressing the Carroll-Schwarzschild black hole with a rotational charge. This solution is intrinsically Carrollian with no Lorentzian analog. In the other approach, an extension of magnetic Carroll gravity from general relativity in an odd-power expansion in the speed of light is constructed. This theory contains magnetic Carroll gravity as a subsector but has more physical degrees of freedom. It admits a Carroll analog of the Kerr black hole, referred to as the \"Kerroll black hole,\" whose rotation appears as an intrinsically odd-power effect in the Carroll data. Conserved charges are computed for both theories.",
+          "relevance": "The \"Kerroll\" pun aside, this is a genuinely interesting exploration of Carrollian gravity — a non-relativistic limit of GR that has gained attention in holography and flat-space gravity. The existence of a Carroll analog of Kerr suggests deeper structure in the Carrollian limit than previously appreciated.",
+          "tags": [
+            "Carroll Gravity",
+            "Black Holes",
+            "Non-Relativistic Gravity",
+            "Kerr Geometry"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "A General Proof of Integer Rényi QNEC",
+          "authors": "Tanay Kibe, Pratik Roy",
+          "arxiv_id": "2605.15272",
+          "url": "https://arxiv.org/abs/2605.15272",
+          "categories": "hep-th, math-ph, math.OA, quant-ph",
+          "summary": "Proof of the Rényi quantum null energy condition for all integer Rényi parameters n ≥ 2 for von Neumann algebras carrying a half-sided modular inclusion structure. The only assumption on the excited state is finiteness of its sandwiched Rényi divergence (SRD) relative to the vacuum. Concretely, for any σ-finite von Neumann algebra with such an inclusion, log-convexity is proved under the associated null-translation semigroup of the Kosaki Lⁿ norm of any normal positive functional with finite Lⁿ norm.",
+          "relevance": "Technical but important. The QNEC is a fundamental constraint in quantum field theory and quantum gravity. Extending it to integer Rényi indices with minimal assumptions strengthens the toolbox for proving energy conditions in infinite-dimensional settings.",
+          "tags": [
+            "Quantum Field Theory",
+            "Quantum Inequalities",
+            "Operator Algebras",
+            "Rényi Entropy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Dimensional Reduction of AdS₃ Chern-Simons Gravity",
+          "authors": "Goffredo Chirco, Lucio Vacchiano, Patrizia Vitale",
+          "arxiv_id": "2605.15293",
+          "url": "https://arxiv.org/abs/2605.15293",
+          "categories": "hep-th, gr-qc",
+          "summary": "A symmetry-reduced sector of AdS₃/ℤ₂ gravity formulated as an SO(2,2) Chern–Simons theory on a 3D manifold with toroidal boundary. The reduction is implemented by requiring a globally defined symmetry and restricting to the sector where the gauge connection is invariant along the symmetry flow. The resulting theory reduces to a two-dimensional BF-like model together with an induced one-dimensional boundary action. Two inequivalent boundary sectors arise from different boundary conditions for the parent 3D theory at the level of the variational principle. On the boundary subspace A_τ = Φ, the universal one-dimensional action reproduces the standard Drinfel'd–Sokolov reduction in JT gravity capturing Schwarzian boundary dynamics. On the generalized boundary A_τ = λ'Φ + u⁻¹∂_τ u, the same action yields a deformed Schwarzian functional with affine residual symmetry, naturally associated with a non-extremal or Rindler-type regime.",
+          "relevance": "Clean derivation of how 3D Chern-Simons gravity reduces to 2D BF + 1D boundary theory. The two boundary sectors — standard Schwarzian vs. deformed Schwarzian with affine symmetry — provide a nice organizing framework for understanding different near-boundary regimes.",
+          "tags": [
+            "Chern-Simons Gravity",
+            "AdS/CFT",
+            "Schwarzian",
+            "JT Gravity",
+            "Dimensional Reduction"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Anomalous Transport from Effective Field Theory",
+          "authors": "Rémy Larue, Amaury Marchon, Jérémie Quevillon, Diego Saviot",
+          "arxiv_id": "2605.15968",
+          "url": "https://arxiv.org/abs/2605.15968",
+          "categories": "hep-th, cond-mat.stat-mech, hep-ph",
+          "summary": "Systematic study of chiral effects using an Effective Field Theory framework. By integrating out a massive Dirac fermion at finite temperature in presence of vector and axial background fields, the currents and their anomalies are computed from the path-integral. Chiral effects previously considered separately naturally arise in a unified computation, including new mass corrections. The link between each anomalous transport effect and the anomalies is clearly established beyond the identification of their coefficients. These effects are sourced by the anomalous nature of the theory even in configurations where the anomaly itself vanishes. Both consistent and covariant anomalies are encapsulated in master formulae for the currents. At finite temperature, the physical currents cannot be inferred simply from the Chern-Simons terms whose divergence reproduce the chiral anomalies.",
+          "relevance": "Comprehensive EFT treatment of chiral anomalies and transport. The unified derivation with mass corrections, and the clarification that anomalous transport persists even when the anomaly vanishes locally, are valuable conceptual advances.",
+          "tags": [
+            "Chiral Anomalies",
+            "Effective Field Theory",
+            "Transport Phenomena",
+            "Finite Temperature"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Synthesis and Optimization of Encoding Circuits for Fault-Tolerant Quantum Computation",
+          "authors": "Tom Peham, Matthew Steinberg, Robert Wille, Sascha Heußen",
+          "arxiv_id": "2605.15266",
+          "url": "https://arxiv.org/abs/2605.15266",
+          "categories": "quant-ph, cs.ET",
+          "summary": "Methods for synthesizing efficient encoders for arbitrary stabilizer codes. Encoder synthesis is formulated as a search over stabilizer tableaus, with greedy and rollout-based algorithms exploiting the freedom among stabilizer-equivalent realizations of the same encoding isometry. For code families with modular structure (generalized concatenated and holographic codes), large encoders are assembled from optimized local constituent encoders. SMT-based exact synthesis obtains optimal local circuits for small instances. Evaluated on holographic and quantum LDPC codes, obtaining improvements of up to 43% in two-qubit gate count and up to 70% in depth compared to recent methods and existing constructions. All methods are openly available as part of the Munich Quantum Toolkit.",
+          "relevance": "Encoder synthesis is a critical bottleneck for fault-tolerant quantum computing. The 43% reduction in gate count and 70% reduction in depth are substantial practical improvements. Open-source availability in the Munich Quantum Toolkit is a plus.",
+          "tags": [
+            "Quantum Computing",
+            "Fault Tolerance",
+            "Stabilizer Codes",
+            "Circuit Optimization"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Towards Deploying Optimistic Quantum Fourier Transforms",
+          "authors": "Pedro L. S. Lopes",
+          "arxiv_id": "2605.15297",
+          "url": "https://arxiv.org/abs/2605.15297",
+          "categories": "quant-ph",
+          "summary": "Architecture-algorithm co-design study of the Optimistic Quantum Fourier Transform (OQFT) under a surface-code fault-tolerant execution model for reconfigurable neutral-atom hardware. A hot-zone architecture decouples data storage from processing and dynamically routes mobile resource packages (magic-state factories, bridge qubits, and phase-gradient registers) to stationary data regions. Rotation insertions are routed via catalytic phase-gradient addition, and ripple-carry adders are heuristically micro-scheduled to patch-level moves. Under this model, Gidney and Cuccaro adders have similar space-time volume but require different parallelism levels. The five-layer OQFT shows a tunable parallelism/latency trade-off: two hot zones match serial-QFT latency, four hot zones roughly halve runtime, and additional hot zones asymptotically approach constant-time execution at substantial resource cost. Across 256-2048 bit instances, half-time performance requires about 500 additional logical ancillae and peak parallelism of 128 logical qubits.",
+          "relevance": "Concrete co-design study bridging algorithmic structure with hardware architecture for a core quantum subroutine. The explicit resource estimates (500 ancillae, 128 logical qubits for half-time at 2048 bits) are valuable for planning.",
+          "tags": [
+            "Quantum Computing",
+            "Quantum Fourier Transform",
+            "Surface Code",
+            "Neutral Atoms"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Beyond Unitary Quantum Simulation",
+          "authors": "Michael Marthaler, Elias Zapusek, Florentin Reiter",
+          "arxiv_id": "2605.15277",
+          "url": "https://arxiv.org/abs/2605.15277",
+          "categories": "quant-ph",
+          "summary": "Review discussing a broader perspective on quantum simulation motivated by the observation that naturally occurring quantum systems are rarely isolated and often reach physically relevant states only through relaxation, decoherence, and thermalization. Examines what is and is not known about exponential quantum advantage in chemistry, emphasizing that coherent Hamiltonian simulation provides the clearest formal case for speed-up while many open questions remain for realistic problems. Discusses how dissipation might be integrated into quantum chemistry on a fault-tolerant quantum computer, using recent proposals for chemically motivated dynamical simulation as a guiding vision. Highlights the practical appeal of open-system approaches to enhancing robustness of quantum algorithms.",
+          "relevance": "A timely corrective to the overemphasis on unitary ground-state simulation. The perspective that dissipation and thermalization are physically realistic and algorithmically useful is increasingly important as the field matures.",
+          "tags": [
+            "Quantum Simulation",
+            "Open Quantum Systems",
+            "Quantum Chemistry",
+            "Quantum Advantage"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Measurement-Efficient VQLS for Carleman-Linearized Nonlinear Dynamics",
+          "authors": "Yunya Liu, Pai Wang",
+          "arxiv_id": "2605.15366",
+          "url": "https://arxiv.org/abs/2605.15366",
+          "categories": "quant-ph, physics.comp-ph",
+          "summary": "Hybrid quantum-classical pipelines for solving the Duffing equation leveraging Carleman linearization and the Variational Quantum Linear Solver (VQLS). Carleman linearization accurately approximates the weakly nonlinear Duffing equation with errors diminishing as truncation order increases. VQLS is deployed across IBM and Xanadu platforms with symmetry-grouped Hadamard Test evaluations under both global and local cost formulations. Distinct Hermitianizations are compared within a common cost framework, and hardware-efficient ansatz architectures are benchmarked under a fixed Hermitianization. Near-unity fidelity and vanishing relative residuals are achieved across block-banded test cases. The results show that topology-agnostic ansatz, optimized Hermitianization, and efficient cost formulation enable VQLS to recover quantum states proportional to classical solutions for Carleman-structured systems.",
+          "relevance": "Practical demonstration of solving nonlinear dynamics via quantum-classical hybrid methods. The cross-platform deployment (IBM and Xanadu) and near-unity fidelity results are promising for quantum-in-the-loop simulation.",
+          "tags": [
+            "Quantum Computing",
+            "Variational Algorithms",
+            "Nonlinear Dynamics",
+            "Hybrid Quantum-Classical"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Unveiling Magnetic Frustration via the Elastocaloric Effect",
+          "authors": "Eric C. Andrade, Pedro M. Cônsoli, Matthias Vojta",
+          "arxiv_id": "2605.15274",
+          "url": "https://arxiv.org/abs/2605.15274",
+          "categories": "cond-mat.str-el, cond-mat.stat-mech",
+          "summary": "The thermodynamic response of frustrated magnets to uniaxial strain is examined. Ising and Heisenberg models on spatially anisotropic triangular (and kagome for Ising) lattices are studied. The entropy as a function of temperature and strain is determined, and the elastic Grüneisen ratio η is computed. The Ising models can be strain-tuned into and out of classical spin-liquid phases, and η can become arbitrarily large at low temperature near the point of maximal frustration — a universal hallmark of an extensive ground-state entropy. In contrast, the spin-1/2 Heisenberg model is moderately frustrated and displays multiple T=0 phase transitions. These transitions dominate η at low T while the intermediate-T behavior is similar to the Ising model.",
+          "relevance": "The divergence of the Grüneisen ratio near maximal frustration is a clean thermodynamic signature that could guide experiments. The comparison between Ising and Heisenberg cases highlights how quantum fluctuations modify the frustration physics.",
+          "tags": [
+            "Frustrated Magnetism",
+            "Spin Liquids",
+            "Thermodynamics",
+            "Elastocaloric Effect"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Disorder-Driven Symmetry Suppression in a Magnetic Topological Insulator",
+          "authors": "Rikkie Joris, Heyi Xia, Ana Beatriz Pedro Fontes, Seul-Ki Bac, Sara Bey, Jiaqi Zhou, Zviadi Zarkua, Ahmed Samir Lotfy, Muhammed Saad, Philippe Ohresser, Margriet van Bael, Clement Merckling, Xinyu Liu, Francisco Molina-Lopez, Jean-Christophe Charlier, Jin Won Seo, Badih A. Assaf, Lino M. C. Pereira",
+          "arxiv_id": "2605.15332",
+          "url": "https://arxiv.org/abs/2605.15332",
+          "categories": "cond-mat.mtrl-sci",
+          "summary": "Ion irradiation of the van der Waals magnetic topological insulator MnBi₂Te₄ modifies its magnetic and topological properties via collision cascades without chemical doping. Two regimes: at low fluence, cation antisite disorder leads to near-complete redistribution of Bi over cation sites while preserving long-range crystallographic order, accompanied by a transition from p-type to n-type transport. At high fluence, cation-anion intermixing drives formation of a previously unreported layer-disordered phase with a high density of van der Waals-specific planar defects including swapped bilayers. Despite significant structural disorder, partial periodic order persists. Magnetometry and X-ray spectroscopy show that the Mn high-spin state and antiferromagnetic interactions persist while magnetic anisotropy is strongly reduced. The anomalous Hall response is suppressed by over an order of magnitude, far exceeding the change in magnetization, indicating direct modification of Berry curvature.",
+          "relevance": "Direct Berry-curvature engineering via defect creation in a magnetic topological insulator. The suppression of the anomalous Hall response by >10× while preserving the magnetic ground state is a remarkable degree of control.",
+          "tags": [
+            "Topological Insulators",
+            "Berry Curvature",
+            "Defect Engineering",
+            "van der Waals Materials"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Multifractal and Ergodic Properties of Conductance Fluctuations under Strong Disorder",
+          "authors": "Marcos A. A. de Sousa, Heitor R. Publio, Henrique A. de Lima, Adauto J. F. de Souza, Fernando A. Oliveira, Anderson L. R. Barbosa",
+          "arxiv_id": "2605.15447",
+          "url": "https://arxiv.org/abs/2605.15447",
+          "categories": "cond-mat.mes-hall, cond-mat.stat-mech",
+          "summary": "Investigation of the multifractal and ergodic properties of the fictitious time series of conductance in two-dimensional tight-binding models under varying Anderson disorder. Using standard multifractal analysis, conductance fluctuations exhibit a transition from non-ergodic to ergodic behavior as disorder strength increases, as evidenced by the decay of the conductance correlation function. Multifractality persists in both regimes but becomes insensitive to shuffling in the strong-disorder (ergodic) regime, suggesting that distributional effects dominate temporal organization. In the weakly disordered (non-ergodic) regime, long-range correlations play a significant role. Results are robust against changes in lead geometry.",
+          "relevance": "The persistence of multifractality across the ergodic transition, combined with the shift from temporal-correlation-dominated to distribution-dominated behavior, provides a nuanced picture of how quantum transport statistics evolve with disorder.",
+          "tags": [
+            "Anderson Localization",
+            "Multifractality",
+            "Quantum Transport",
+            "Mesoscopic Physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Fractal Analysis of Disordered Magnetic Systems",
+          "authors": "Klaus P. Hermann, Ismael S. S. Carrasco, Jairo R. L. de Almeida, Fernando A. Oliveira",
+          "arxiv_id": "2605.15610",
+          "url": "https://arxiv.org/abs/2605.15610",
+          "categories": "cond-mat.stat-mech",
+          "summary": "Systematic investigation of magnetization, correlation functions, order parameter, and fractal dimensions in the Edwards-Anderson Hamiltonian as a function of disorder. The autocorrelation function for order-parameter fluctuations provides a framework for understanding the second-order phase transition at equilibrium. Recent work demonstrated that at T_c a fractal analysis is necessary for a complete description of the correlation function. Monte Carlo simulations validate analytical results and show how disorder alters critical exponents, giving rise to different universality classes. A subgroup of critical exponents and fractal dimensions is invariant with disorder, heralding a \"strong universality class.\"",
+          "relevance": "The coexistence of disorder-dependent critical exponents (weak universality) with a disorder-invariant subgroup (strong universality) is a subtle and important result for understanding the taxonomy of universality in disordered systems.",
+          "tags": [
+            "Spin Glasses",
+            "Critical Phenomena",
+            "Fractals",
+            "Universality Classes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-05-15",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 12,
+      "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order",
+      "entries": [
+        {
+          "num": 1,
+          "title": "An Algebraic Resolution of the Firewall Paradox",
+          "authors": "Naman Kumar",
+          "arxiv_id": "2605.14794",
+          "url": "https://arxiv.org/abs/2605.14794",
+          "categories": "hep-th, gr-qc",
+          "summary": "The paper argues that the AMPS firewall paradox fails in diffeomorphism-invariant quantum gravity because gravitational dressing and asymptotic constraints prevent the tensor-product factorization of physical observables. Using modular theory and half-sided modular inclusions, the author shows that the interior Hawking partner algebra cannot be an independent commuting subalgebra, but must be contained within the radiation algebra. This undermines the entanglement-monogamy step of the paradox, suggesting that unitary evaporation and smooth horizons are compatible without invoking islands or replica wormholes.",
+          "relevance": "A direct and conceptually sharp attack on the black-hole information paradox. It reframes the firewall debate in operator-algebraic terms and offers a pathway to reconcile unitarity with semiclassical physics in asymptotically flat quantum gravity.",
+          "tags": [
+            "Black Hole Thermodynamics",
+            "Quantum Gravity",
+            "Information Paradox"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Parametrization of the primordial power spectrum in loop quantum cosmology",
+          "authors": "Almudena Guillén, Kai Langer, Guillermo A. Mena Marugán, Niklas Rodenbücher, Antonio Vicente-Becerril",
+          "arxiv_id": "2605.14657",
+          "url": "https://arxiv.org/abs/2605.14657",
+          "categories": "gr-qc, astro-ph.CO, hep-th",
+          "summary": "The authors derive a new parametrization of the primordial power spectrum for pre-inflationary bounce scenarios in loop quantum cosmology (hybrid and dressed metric approaches). The parametrization depends on the number of e-folds during the bounce and a characteristic suppression scale determined by the energy density at the bounce (which itself depends on the Immirzi parameter and the LQG area gap). Using the NO-AHD vacuum proposal, they find that for ~140 total e-folds both approaches agree well with Planck data at high multipoles and may improve the fit at low multipoles relative to ΛCDM.",
+          "relevance": "A concrete, observationally testable bridge between loop quantum gravity and cosmology. The parametrization could help constrain LQG parameters using CMB data, making it highly relevant for quantum cosmology phenomenology.",
+          "tags": [
+            "Loop Quantum Gravity",
+            "Quantum Cosmology",
+            "CMB Phenomenology"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "q-Askey Deformations of Double-Scaled SYK",
+          "authors": "Sergio E. Aguilar-Gutierrez, Trivko Kukolj, Josef Seitz",
+          "arxiv_id": "2605.13956",
+          "url": "https://arxiv.org/abs/2605.13956",
+          "categories": "hep-th, gr-qc, quant-ph",
+          "summary": "The authors construct families of deformations of the double-scaled SYK model whose bulk interpretation involves transfer matrices encoding q-Askey orthogonal polynomials. In the semiclassical finite-temperature limit, Krylov complexity corresponds to the length of an Einstein-Rosen bridge connecting an End-Of-The-World brane to an AdS boundary. The models exhibit discrete energy levels signaling a new geometric transition in sine dilaton gravity, and the operator algebras can be type II_1 or type I_∞ factors with entanglement entropy manifesting via the Ryu-Takayanagi formula.",
+          "relevance": "SYK remains a central toy model for quantum gravity and holography. This work connects quantum information metrics (Krylov complexity) to geometric transitions and baby universes, making it a strong candidate for anyone tracking holographic quantum gravity.",
+          "tags": [
+            "Holography",
+            "String Theory",
+            "Quantum Information"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "C-Phase-Aware Compilation for Efficient Fault-Tolerant Quantum Execution",
+          "authors": "Dhanvi Bharadwaj, Siddharth Dangwal, Yuewen Hou, Gokul Subramanian Ravi",
+          "arxiv_id": "2605.14042",
+          "url": "https://arxiv.org/abs/2605.14042",
+          "categories": "quant-ph",
+          "summary": "The paper presents a microarchitecture-aware compilation approach for fault-tolerant quantum computing that integrates algorithmic structure directly with lattice surgery execution. By exploiting the commutativity of C-Phase operations, the method transforms sequential gate sequences into concurrent multi-target interactions, removing artificial dependencies. An event-driven scheduling strategy models spatial layout and routing constraints, achieving up to 59.7× reduction in execution time compared to standard baselines.",
+          "relevance": "Fault-tolerant compilation is a critical bottleneck on the path to practical quantum advantage. This work directly targets resource overheads in lattice-surgery-based FTQC and demonstrates substantial latency improvements, making it highly relevant for quantum computing engineering.",
+          "tags": [
+            "Quantum Computing",
+            "Fault Tolerance",
+            "Quantum Compilation"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Thermodynamics and optical aspects of ModMax black holes in higher order curvature gravity with quintessence dark energy",
+          "authors": "Ahmad Al-Badawi, Usman Zafar, Abdul Jawad, Kazuharu Bamba",
+          "arxiv_id": "2605.13908",
+          "url": "https://arxiv.org/abs/2605.13908",
+          "categories": "gr-qc, hep-th",
+          "summary": "The authors derive an exact black hole solution in higher-order curvature gravity coupled to ModMax electrodynamics and quintessence dark energy. They analyze thermodynamic and geothermodynamic properties, showing that divergences in thermodynamic curvature coincide with vanishing heat capacity. They also study optical properties via null geodesics, finding exact photon-sphere radius expressions and showing that quintessence significantly enhances the shadow size—more so than electric charge—suggesting observable signatures of dark energy and curvature corrections in black hole shadows.",
+          "relevance": "Connects black hole thermodynamics, modified gravity, and dark energy with observable astrophysical signatures (shadow geometry). A strong fit for readers interested in black hole phenomenology beyond general relativity.",
+          "tags": [
+            "Black Hole Thermodynamics",
+            "Modified Gravity",
+            "Dark Energy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Fermi Surface Geometry from Charge Fluctuations in Three-Dimensional Metals",
+          "authors": "Pok Man Tam, Yarden Sheffer, Xiao-Chuan Wu, F. D. M. Haldane, Shinsei Ryu",
+          "arxiv_id": "2605.13951",
+          "url": "https://arxiv.org/abs/2605.13951",
+          "categories": "cond-mat.mes-hall, cond-mat.quant-gas, cond-mat.str-el, hep-th, quant-ph",
+          "summary": "For 3D non-interacting multi-band metals, the authors show that the subleading logarithmic term of bipartite charge fluctuations encodes information about the shape and quantum geometry of Fermi surfaces. This term is related to a momentum-space structure-factor coefficient expressible as a Fermi surface integral of the curvature tensor and the quantum metric tensor. For quadric partition surfaces, the logarithmic coefficient satisfies a topological bound depending on the Euler characteristic and Chern number, revealing a nontrivial interplay between topology and quantum geometry.",
+          "relevance": "A beautiful theoretical result linking quantum geometry, topology, and measurable charge fluctuations in metals. It sits at the intersection of condensed matter and high-energy mathematical methods and offers new diagnostic tools for correlated electron systems.",
+          "tags": [
+            "Condensed Matter",
+            "Quantum Geometry",
+            "Topology"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "A Tale of Two Hartle-Hawking Wave Functions: Fully Gravitational vs Partially Frozen",
+          "authors": "Galit Anikeeva, Raphaël Dulac, Zixia Wei, Mengyang Zhang",
+          "arxiv_id": "2605.13970",
+          "url": "https://arxiv.org/abs/2605.13970",
+          "categories": "hep-th, gr-qc",
+          "summary": "The authors revisit the Hartle-Hawking wave function in AdS, contrasting a fully gravitational construction (boundary configuration integrated over) with a partially frozen one (boundary fixed, as in AdS/CFT). They evaluate one-loop corrections to the hyperbolic-ball partition function in D-dimensional AdS Einstein gravity, finding that the fully gravitational version develops a nontrivial one-loop phase of (∓i)^{D+1}, analogous to dS gravity, while the partially frozen version remains real and positive. They also investigate a partially frozen dS sphere partition function where the equator metric is fixed.",
+          "relevance": "Provides a careful comparison between two constructions of the Hartle-Hawking wave function with implications for the phase problem in quantum cosmology and the interpretation of gravitational path integrals in AdS and dS.",
+          "tags": [
+            "Quantum Cosmology",
+            "Quantum Gravity",
+            "AdS/CFT"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Wormholes and Averaging over N",
+          "authors": "Jonah Kudler-Flam, Edward Witten",
+          "arxiv_id": "2605.15180",
+          "url": "https://arxiv.org/abs/2605.15180",
+          "categories": "hep-th",
+          "summary": "The authors address how wormholes in the gravitational path integral can compute ensemble averages when typical AdS/CFT constructions have only a single integer N to average over. They introduce \"Mellin averaging\" to define an asymptotic average of a function of N, arguing it may suffice to reproduce wormhole randomness if the dual theory admits analytic continuation in N and observables fluctuate on superpolynomially small scales. They test this on the spectral form factor and discuss toy models of analytic continuation.",
+          "relevance": "A high-profile paper touching on the foundational role of wormholes in holography and ensemble averages. The Mellin-averaging proposal is a novel conceptual tool with broad implications for understanding gravitational path integrals.",
+          "tags": [
+            "Quantum Gravity",
+            "Holography",
+            "Wormholes"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "All-Electric Quantum State Transfer via Spin-Orbit Phase Matching",
+          "authors": "Madhumita Sarkar, Roopayan Ghosh, Charles G. Smith, Maksym Myronov, Sougato Bose",
+          "arxiv_id": "2605.13976",
+          "url": "https://arxiv.org/abs/2605.13976",
+          "categories": "quant-ph, cond-mat.str-el",
+          "summary": "Semiconductor hole-spin qubits are promising for quantum computation due to weak hyperfine interaction and strong spin-orbit coupling enabling electric control. However, long-distance quantum state transfer is hindered by spin-orbit-induced anisotropic exchange. The authors show that this can be overcome by an all-electric control protocol: tuning electric field strength identifies discrete spin-orbit phase-matching conditions that restore near-perfect state transfer, while controlling field direction aligns the spin-orbit axis and suppresses non-conserving processes.",
+          "relevance": "Addresses a key scalability challenge in semiconductor spin-qubit architectures. All-electric control without fine tuning is a significant step toward practical quantum information transport in solid-state platforms.",
+          "tags": [
+            "Quantum Computing",
+            "Spin Qubits",
+            "Quantum Information"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Generalized Model Fractional Quantum Hall States on Lattices",
+          "authors": "Guangyue Ji, Jie Wang",
+          "arxiv_id": "2605.13978",
+          "url": "https://arxiv.org/abs/2605.13978",
+          "categories": "cond-mat.str-el, cond-mat.mes-hall",
+          "summary": "The authors construct lattice model states for the Laughlin, Moore-Read, and general Z_k Read-Rezayi fractional quantum Hall series, going beyond previous on-site bosonic constructions. These lattice-specific states are characterized by idealized energy and entanglement features and exhibit modified clustering behavior relative to continuum counterparts. The work advances understanding of topological order stability on lattices and provides a constructive route for engineering topological orders within density interactions, with implications for cold-atom and synthetic flat-band platforms.",
+          "relevance": "Extends the celebrated model-wave-function program to lattice systems, bridging continuum FQHE physics with ultracold-atom and moiré experiments. Highly relevant for topological order and quantum simulation.",
+          "tags": [
+            "Condensed Matter",
+            "Topological Order",
+            "Quantum Simulation"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "How Much Can Gravitons Be Squeezed?",
+          "authors": "Panagiotis Dorlis, Nick E. Mavromatos, Sarben Sarkar, Sotirios-Neilos Vlachos",
+          "arxiv_id": "2605.14797",
+          "url": "https://arxiv.org/abs/2605.14797",
+          "categories": "gr-qc, astro-ph.CO, hep-ph",
+          "summary": "The authors propose an astrophysical mechanism to overcome Planck-scale suppression of quantum gravity effects: superradiant axion-like-particle clouds around rotating black holes can generate multimode squeezed states containing 10^6–10^7 correlated gravitons. These states exhibit distinctive polarization correlations and quantum-noise signatures potentially detectable in future gravitational-wave interferometers. Detection would constitute direct evidence for the quantum nature of gravitational radiation.",
+          "relevance": "Proposes a concrete, observationally accessible route to detecting quantum properties of gravity. The connection between axion clouds and squeezing of gravitons makes this a unique entry point for quantum gravity phenomenology.",
+          "tags": [
+            "Quantum Gravity",
+            "Gravitational Waves",
+            "Quantum Optics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "The Smarr Formula is Gauss's Law: A Kerr-Schild Single-Copy Perspective",
+          "authors": "Gokhan Alkac",
+          "arxiv_id": "2605.14707",
+          "url": "https://arxiv.org/abs/2605.14707",
+          "categories": "hep-th, gr-qc",
+          "summary": "In the Kerr-Schild double copy, static spherically symmetric black hole solutions of general relativity map to purely electric solutions of Maxwell's theory. The author demonstrates that for these configurations, the thermodynamic Smarr formula is structurally identical to the single-copy Gauss's law. In asymptotically AdS spacetimes, the thermodynamic pressure-volume term naturally emerges from a gauge-theoretic background subtraction, establishing a novel connection between the classical double copy and black hole thermodynamics.",
+          "relevance": "A concise and elegant result connecting the Kerr-Schild double-copy program to black-hole thermodynamics. It reinforces the surprising depth of the gravity/gauge-theory correspondence at the classical level.",
+          "tags": [
+            "Black Hole Thermodynamics",
+            "Double Copy",
+            "Classical Gravity"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-15",
+      "categories": "Scientific American + Nautilus",
+      "items_found": 11,
+      "focus": "planetary exploration, deep-Earth mineralogy, quantum thermodynamics, antimatter logistics, biotech therapeutics, space debris, mathematical aesthetics, climate forecasting, cognitive assessment",
+      "entries": [
+        {
+          "num": 1,
+          "title": "NASA's Psyche Mission is Snapping Photos of Mars on Its Way to an Asteroid",
+          "source": "Scientific American / NASA JPL-Caltech/ASU",
+          "url": "https://www.scientificamerican.com/article/nasas-psyche-mission-is-snapping-photos-of-mars-on-its-way-to-an-asteroid/",
+          "summary": "The Psyche spacecraft made its closest approach to Mars on May 14, 2026, passing approximately 2,800 miles above the surface as a gravity-assist maneuver en route to the metal-rich asteroid Psyche. The spacecraft captured crescent-phase images of Mars — a rare perspective — while field-testing its twin visible/near-infrared cameras. Scientists coordinated observations with Mars orbiters to calibrate instruments and search for faint circumplanetary dust rings backlit by the sun.",
+          "relevance": "Gravity assists are routine, but using one as a full instrument dry run for an asteroid mission is elegant mission design. The crescent-phase imagery and potential dust-ring detection add genuine planetary science value beyond trajectory mechanics, sharpening calibration before Psyche arrives in 2029.",
+          "tags": [
+            "Space Sustainability",
+            "Experiment & Observation",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The Next Quantum Revolution May Require a Helium-3 'Gold Rush' on the Moon",
+          "source": "Scientific American / Robin George Andrews",
+          "url": "https://www.scientificamerican.com/article/can-helium-3-create-a-gold-rush-on-the-moon/",
+          "summary": "Helium-3 — a rare isotope critical for quantum computing cryogenics, medical imaging, nuclear detection, and prospective fusion reactors — is vanishingly scarce on Earth but may exist in vast quantities on the lunar surface. Solar wind implants helium-3 into ilmenite-rich regolith over billions of years. China's Chang'e missions and Apollo samples confirm its presence. Lunar mining could become a multitrillion-dollar industry, with NASA's VIPER and Japan-India's LUPEX rovers set to scout reserves in 2026-2028.",
+          "relevance": "The helium-3 supply bottleneck already constrains quantum computing deployment. If lunar extraction proves feasible and the solar-wind \"refresh rate\" is favorable, the moon becomes not just a waypoint for Mars but an industrial resource base — reframing lunar economics entirely.",
+          "tags": [
+            "Technology & Engineering",
+            "Many-Body Physics & Condensed Matter",
+            "Space Sustainability"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Deep-Earth Diamonds Reveal Trove of Never-Before-Seen Minerals",
+          "source": "Scientific American / James Dinneen, AMNH",
+          "url": "https://www.scientificamerican.com/article/deep-earth-diamonds-reveal-trove-of-never-before-seen-minerals/",
+          "summary": "Geologists at the American Museum of Natural History used advanced laser and x-ray techniques to probe microscopic mineral inclusions in deep-Earth diamonds, discovering two new minerals — bernwoodite and kopylovite — recently designated by the International Mineralogical Association. These inclusions provide direct evidence that subducted surface material cycles efficiently into the lower mantle (up to 660 km depth) and back, revealing far greater mineral diversity than previously assumed.",
+          "relevance": "Mantle mineralogy controls estimates of Earth's interior carbon and hydrogen reservoirs. Each new mineral is a data point for geochemical cycling models, with implications for plate tectonics, mantle convection, and even the deep carbon cycle's role in climate over geological timescales.",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Experiment & Observation",
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Mathematicians Uncover 'Golden Rule' in Abstract Art",
+          "source": "Scientific American / Stephanie Pappas",
+          "url": "https://www.scientificamerican.com/article/golden-rule-in-abstract-art-just-discovered-by-mathematicians/",
+          "summary": "Using persistent homology — a topological method that encodes color contours as deforming shapes — researchers found that human abstract artists (Kandinsky, Rothko, Pollock, Malevich) violate Alexander duality symmetry by a consistent ratio (~0.4) when placing shapes near canvas edges. AI-generated art matching the same color palettes does not follow this ratio. Human viewers gazed longer at human art in labs; in galleries, AI art drew equal ratings but longer gazes, suggesting lighting and context alter perception.",
+          "relevance": "This bridges rigorous mathematics with aesthetics and cognition, suggesting there are quantifiable, cross-artist compositional rules that precede conscious intention. It also has implications for evaluating whether AI-generated imagery truly replicates human creative structure or merely approximates surface features.",
+          "tags": [
+            "Field Theory & Mathematical Physics",
+            "Science Communication & Policy",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Implantable 'Living Materials' That Deliver Drugs on Demand Could Help Fight Infections",
+          "source": "Scientific American / Jackie Flynn Mogensen, Harvard/Cornell",
+          "url": "https://www.scientificamerican.com/article/implantable-living-materials-that-deliver-drugs-on-demand-could-help-fight-infections/",
+          "summary": "Researchers engineered a hydrogel-encapsulated \"living material\" containing bacteria programmed to sense pathogens and release antimicrobial drugs upon detection. Implanted in mice alongside prosthetic pins, the material withstood 10,000 stretch cycles and six months in nutrient broth without bacterial leakage. In infected mice, the engineered bacteria significantly suppressed Pseudomonas aeruginosa replication at the surgical site.",
+          "relevance": "Autonomous, implantable therapeutics that eliminate the need for systemic antibiotics and diagnostic delay could transform post-surgical infection prevention. The platform is extensible to cancer, inflammation, and other chronic conditions — programmable medicine embedded in the body itself.",
+          "tags": [
+            "Technology & Engineering",
+            "Experiment & Observation",
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Almost Half of the Objects in Earth's Orbit Are Junk",
+          "source": "Scientific American / Adam Kovac, Accu Report",
+          "url": "https://www.scientificamerican.com/article/almost-half-of-the-objects-in-earths-orbit-is-junk-and-thats-only-the-stuff-we-know-about/",
+          "summary": "Of 33,269 trackable objects in orbit, ~47% are classified as space junk — expended rocket bodies, debris fragments, and unidentified objects. The count rose by ~10,000 between 2020-2025. China accounts for an estimated 65% of tracked debris. Millions of smaller untrackable fragments (paint flecks, bolts) pose collision risks at orbital velocities exceeding 17,000 mph. A 2024 Russian satellite breakup forced ISS crew to shelter; a 2025 debris strike cracked a Chinese taikonaut return capsule window.",
+          "relevance": "The Kessler syndrome risk escalates with every launch. Active debris removal (ESA ClearSpace-1), design-for-removal mandates, and international governance frameworks are urgently needed. This is a systems-level engineering and policy challenge that underpins the sustainability of all orbital infrastructure.",
+          "tags": [
+            "Space Sustainability",
+            "Technology & Engineering",
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "There's an 82 Percent Chance El Niño Will 'Emerge Soon,' NWS Says",
+          "source": "Scientific American / Jackie Flynn Mogensen, NOAA/NWS",
+          "url": "https://www.scientificamerican.com/article/theres-an-82-percent-chance-el-nino-will-emerge-soon-nws-says/",
+          "summary": "The U.S. National Weather Service predicts an 82% probability of El Niño onset between May-July 2026, rising to 96% by December 2026-February 2027. The climate pattern — characterized by warmer-than-average sea surface temperatures in the central-eastern Pacific — alters global weather systems, affecting monsoons, hurricane seasons, drought risk, and agricultural yields across multiple continents.",
+          "relevance": "Accurate seasonal forecasting of El Niño transitions directly impacts food security, disaster preparedness, and energy demand planning. The high-confidence early prediction window gives governments and industries months to adapt water management, insurance reserves, and agricultural strategies.",
+          "tags": [
+            "Science Communication & Policy",
+            "Experiment & Observation",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Depression Scales May Not Work the Same for Highly Intelligent People",
+          "source": "Scientific American / Simon Makin",
+          "url": "https://www.scientificamerican.com/article/depression-scales-may-not-work-the-same-for-highly-intelligent-people/",
+          "summary": "Research indicates that standard depression assessment questionnaires — such as the PHQ-9 and Beck Depression Inventory — yield systematically different responses in individuals with higher cognitive ability. The scales may conflate depressive symptomatology with traits common in high-IQ populations (analytical rumination, lower baseline positive affect), leading to under- or over-diagnosis depending on how cutoffs are applied.",
+          "relevance": "If validated, this finding calls for norming psychological instruments by cognitive ability strata or developing alternative assessment pathways. Misdiagnosis in high-ability populations carries real harm: inappropriate medication, missed intervention windows, or dismissed distress in researchers, engineers, and clinicians themselves.",
+          "tags": [
+            "Science Communication & Policy",
+            "Experiment & Observation",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Time Brings Order to the Universe",
+          "source": "Nautilus / Robert M. Hazen & Michael L. Wong, Carnegie Institution",
+          "url": "https://nautil.us/time-brings-order-to-the-universe-1279584",
+          "summary": "Hazen and Wong propose a new law of nature — \"time's second arrow\" — arguing that alongside entropy increase, evolving physical systems exhibit a tendency toward increasing functional information: complexity, pattern, and diversity. Using the metric of \"functional information\" (configurations achieving specific goals), they argue that selection-for-function operates across mineral evolution, biological evolution, and even cultural systems, constituting a universal evolutionary principle consistent with but not derivable from the second law alone.",
+          "relevance": "This reframes thermodynamics not as a narrative of decay but as a dual-process framework where disorder and structured complexity increase together. It has implications for defining life, understanding abiogenesis, and predicting which planetary environments might spontaneously generate complexity — a theoretical bridge between physics and biology.",
+          "tags": [
+            "Field Theory & Mathematical Physics",
+            "Many-Body Physics & Condensed Matter",
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "You Can Transport Antimatter in a Box Truck",
+          "source": "Nautilus / CERN BASE-STEP Project",
+          "url": "https://nautil.us/you-can-transport-antimatter-in-a-box-truck-1279273",
+          "summary": "CERN's BASE-STEP project successfully transported 92 antiprotons across the CERN facility in a Penning trap mounted in a standard box truck — the first ground transport of antimatter. The trap uses supercooled magnets to suspend antiprotons in vacuum; the 2,000-pound device currently supports four hours of battery cooling. Future goals include delivering antiprotons to precision laboratories in Germany (8 hours away) for high-precision measurements impossible in the antimatter factory itself.",
+          "relevance": "Portable antimatter enables distributed precision spectroscopy to test CPT symmetry and search for matter-antimatter asymmetry origins. The transport milestone turns a fixed-facility resource into a shareable tool across multiple labs, accelerating the timeline for fundamental physics measurements.",
+          "tags": [
+            "High-Energy Physics & Phenomenology",
+            "Technology & Engineering",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Welcome to the Block Universe",
+          "source": "Nautilus / Julian Barbour, Max Tegmark, Brian Greene",
+          "url": "https://nautil.us/welcome-to-the-block-universe-1278973",
+          "summary": "The \"block universe\" interpretation of general relativity treats spacetime as a static four-dimensional structure where past, present, and future events exist equally. In this framework, change is illusory; what humans perceive as \"flowing time\" emerges from entropy increase and our limited cognitive perspective. The article traces how the block model resolves the paradox of temporal asymmetry while forcing a confrontation with what \"Now\" actually means if it has no privileged ontological status.",
+          "relevance": "The block universe is not merely philosophical — it underlies how physicists formulate covariant laws, compute path integrals, and interpret quantum cosmology. Understanding whether time is fundamental or emergent has direct bearing on quantum gravity approaches where spacetime itself may arise from deeper informational or combinatorial structures.",
+          "tags": [
+            "Field Theory & Mathematical Physics",
+            "Black Hole Physics",
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-05-14",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat, physics.soc-ph",
+      "items_found": 8,
+      "focus": "Quantum gravity / LQG, string theory & AdS/CFT, quantum computing hardware & algorithms, black hole thermodynamics & quasinormal modes, quantum cosmology, condensed matter & van der Waals magnetism, social physics & opinion dynamics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Physical inner product in LQG cosmology via covariant coarse graining",
+          "authors": "M. Campiglia, R. Gambini, J. Pullin",
+          "arxiv_id": "2605.12392",
+          "url": "https://arxiv.org/abs/2605.12392",
+          "categories": "gr-qc",
+          "summary": "The construction of a physical inner product is a long-standing open problem in loop quantum gravity. This paper adapts recently developed covariant coarse-graining techniques—originally formulated in the spin-foam context—to the simpler setting of isotropic loop quantum cosmology. The authors identify a well-defined inner product on the reduced physical Hilbert space and verify its consistency. The approach opens a concrete path toward defining the physical inner product in full LQG by leveraging coarse-graining as a regulator.",
+          "relevance": "Directly addresses the construction of the physical inner product in LQG, a foundational challenge. The isotropic cosmology simplification makes it a tractable proof of principle. Highly relevant to loop quantum gravity and quantum cosmology researchers.",
+          "tags": [
+            "Quantum Gravity",
+            "Cosmology & Early Universe",
+            "Foundations & Interpretations"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Neural Network Field Theory: Schwinger–Dyson equations, Ward identities, and anomalies",
+          "authors": "P. O'Brien, E. Teh, D. Erhan, R. Easther",
+          "arxiv_id": "2605.12488",
+          "url": "https://arxiv.org/abs/2605.12488",
+          "categories": "hep-th, cs.LG",
+          "summary": "Neural network field theory (NN-FT) formulates field theory in terms of a network architecture and a parameter-space density. The authors derive Schwinger–Dyson equations and Ward identities in this framework, using them to study anomalies. A key result is a conserved parameter-space current that characterizes symmetries and their breaking—relevant even in non-local NN-FTs, recovering local currents for local Lagrangians. The formalism connects statistical mechanics of neural networks to quantum field theory symmetries.",
+          "relevance": "Bridges high-energy theory and machine learning in a mathematically rigorous way. The anomaly analysis via parameter-space currents is novel. Relevant to researchers at the intersection of string theory/QFT and ML.",
+          "tags": [
+            "Field Theory & Mathematical Physics",
+            "High-Energy Physics & Phenomenology",
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Silicon color centers as telecom quantum memories: all-optical spin control",
+          "authors": "F. Cache, K. V.R., T. Herzig, A. Yu. Kuznetsov, S. Pezzagna, M. Abbarchi, I. Robert-Philip, J.-M. Gérard, G. Cassabois, V. Jacques, A. Dréau",
+          "arxiv_id": "2605.12473",
+          "url": "https://arxiv.org/abs/2605.12473",
+          "categories": "quant-ph, cond-mat.mtrl-sci",
+          "summary": "The silicon G center—a telecom O-band single-photon emitter with an optically addressable metastable electron-spin triplet—is investigated as a quantum memory platform. The authors demonstrate all-optical initialization, readout, and coherent control of G-center spins using resonant and Raman protocols. Coherence times up to 1.4 ms at 2 K are achieved. The G center is argued to be competitive with T centers and group-IV donors for scalable silicon quantum photonics.",
+          "relevance": "Silicon color centers are a leading candidate for quantum networking and distributed quantum computing. All-optical control at telecom wavelengths is a critical practical advance. Highly relevant to quantum computing hardware and quantum information.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Query-optimal quantum simulation of non-Hermitian Hamiltonians via bivariate QSP",
+          "authors": "A. Courtney, A. Lund, E. Thamé, D. Jennings",
+          "arxiv_id": "2605.12450",
+          "url": "https://arxiv.org/abs/2605.12450",
+          "categories": "quant-ph, math-ph",
+          "summary": "The authors achieve query-optimal quantum simulations of non-Hermitian Hamiltonians of the form H_eff = H_R + iH_I using a bivariate extension of quantum signal processing (QSP) with non-commuting signal operators. The algorithm encodes the interaction-picture Dyson series as a polynomial on the bitorus, implemented through multivariable QSP (M-QSP). A constant-ratio condition guarantees scalar angle-finding for M-QSP circuits, enabling efficient compilation.",
+          "relevance": "Non-Hermitian Hamiltonians appear in open quantum systems, dissipative engineering, and effective field theories. Query-optimal simulation is a significant algorithmic advance. Relevant to quantum algorithm designers and quantum information theorists.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Foundations & Interpretations",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Quasinormal spectra of fields in asymptotically de Sitter black holes in generalized Proca theory",
+          "authors": "M. Skvortsova",
+          "arxiv_id": "2605.12113",
+          "url": "https://arxiv.org/abs/2605.12113",
+          "categories": "gr-qc",
+          "summary": "Massless scalar, electromagnetic, and Dirac perturbations of asymptotically de Sitter black holes in generalized Proca theory are studied. The Proca sector generates both a primary-hair parameter and an effective cosmological term, reshaping horizon structure. Quasinormal spectra are computed via Padé-improved WKB and time-domain integration. Key findings: the scalar sector (especially ℓ=0) is most sensitive to metric deformations; increasing the Proca-hair parameter weakens damping; and the de Sitter branch is resolved alongside the Schwarzschild-like branch.",
+          "relevance": "Combines modified gravity (generalized Proca), black hole physics, and de Sitter cosmology. Quasinormal modes are observables for gravitational wave and black hole spectroscopy. Relevant to black hole thermodynamics and quantum gravity phenomenology.",
+          "tags": [
+            "Black Hole Physics",
+            "Cosmology & Early Universe",
+            "Gravitational Waves & Astrophysics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Magnon polaritons in a van der Waals ferromagnet coupled to a superconducting resonator",
+          "authors": "A. Bermejillo-Seco, L.J. van der Goot, M. Arfini, Y.M. Blanter, G.A. Steele, H.S.J. van der Zant",
+          "arxiv_id": "2605.12298",
+          "url": "https://arxiv.org/abs/2605.12298",
+          "categories": "cond-mat.mes-hall",
+          "summary": "Magnon-photon hybridization in the microwave regime is demonstrated in exfoliated flakes of the van der Waals ferromagnet Cr₂Ge₂Te₆ (thicknesses down to 30 nm), using a low-impedance superconducting resonator design. Reproducible avoided crossings across six devices evidence magnon polaritons. The coupling strength follows the expected square-root thickness dependence, and extrapolation indicates monolayer-limit hybridization is within reach.",
+          "relevance": "Integrating 2D magnetic materials with superconducting circuits is a frontier in hybrid quantum systems. Van der Waals ferromagnets enable extreme miniaturization of magnon-based quantum devices. Relevant to condensed matter and quantum technology.",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Quantum Information & Computing",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Topology-dependent criticality in triplet majority-rule dynamics with collective reversal",
+          "authors": "R. Muslim",
+          "arxiv_id": "2605.11692",
+          "url": "https://arxiv.org/abs/2605.11692",
+          "categories": "physics.soc-ph",
+          "summary": "A triplet majority-rule opinion-dynamics model with collective reversal is studied on quenched networks (Barabási–Albert, Erdős–Rényi, random regular, Watts–Strogatz). The critical point shifts away from the well-mixed value for all networks, but critical exponents remain mean-field-like for BA/ER/RR. Watts–Strogatz networks exhibit much lower critical points and stronger exponent deviations, indicating that clustering and local correlations lead to topology-dependent effective critical behavior. Rewiring analysis shows the ordered phase stabilizes as randomness increases.",
+          "relevance": "Opinion dynamics is a core social physics model. The finding that network topology can modify critical exponents—not just shift the critical point—is significant for understanding how social network structure affects collective phenomena. Relevant to sociophysics and complex networks.",
+          "tags": [
+            "Phase Transitions & Critical Phenomena",
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Classifying double copies and multicopies in AdS",
+          "authors": "V. Didenko, A. Dosmanbetov",
+          "arxiv_id": "2605.12359",
+          "url": "https://arxiv.org/abs/2605.12359",
+          "categories": "hep-th",
+          "summary": "The double-copy relations connecting gauge and gravity theories are extended to multicopies in anti-de Sitter space. The authors classify higher-spin gauge theories in AdS₄ that admit double-copy descriptions, identifying the subset that also admit multicopy generalizations. The analysis connects to Vasiliev's higher-spin gravity and the CHS (conformal higher-spin) theories, providing a systematic framework for constructing gravity-like theories from gauge-theory building blocks in curved backgrounds.",
+          "relevance": "The double copy is one of the most surprising structures in quantum field theory and string theory, with direct connections to AdS/CFT and higher-spin gravity. Extending it to AdS and multicopies opens new avenues for constructing and understanding quantum gravity. Relevant to string theory and holography.",
+          "tags": [
+            "High-Energy Physics & Phenomenology",
+            "Field Theory & Mathematical Physics",
+            "Quantum Gravity"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-14",
+      "categories": "APS News (physics.aps.org) + Physics World (physicsworld.com)",
+      "items_found": 8,
+      "focus": "Quantum error correction hurdles, metamaterial optics, altermagnetism, black hole visualization, particle collider funding, and space sustainability.",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Cleaner Signals from X-Ray Pulses",
+          "source": "APS Physics / RIKEN SPring-8 Center",
+          "url": "https://physics.aps.org/articles/v19/s56",
+          "summary": "Taito Osaka and colleagues at RIKEN have developed a background-free intensity autocorrelation technique for femtosecond x-ray laser pulses. By crossing two pulse replicas at a tiny angle in a diamond crystal, the unwanted background light is separated directionally from the autocorrelation signal. The team demonstrated attosecond-level timing accuracy and showed that a monochromator stabilizes pulse profiles — a step toward reliable attosecond x-ray pulse characterization.",
+          "relevance": "Ultrafast x-ray pulses probe atomic-scale structure and exotic states of matter. Knowing the exact temporal profile of each pulse is essential for interpreting pump-probe experiments at x-ray free-electron lasers. This optical-adaptation method removes a long-standing limitation without requiring new detector technology.",
+          "tags": [
+            "Optics & Photonics",
+            "Experiment & Observation",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Surprising Scattering in Stealthy Structures",
+          "source": "APS Physics / Pennsylvania State University",
+          "url": "https://physics.aps.org/articles/v19/s59",
+          "summary": "Mikael Rechtsman’s team fabricated millimeter-sized photonic-crystal slabs with stealthy hyperuniform disorder and found that these materials scatter light within wavelength ranges where they were predicted to be transparent. The experiments reveal that photon loss — modeled as an imaginary mass term — increases scattering in otherwise transparent windows, highlighting the subtle interplay between structure, disorder, and dissipation in wave propagation.",
+          "relevance": "Stealthy hyperuniform materials were expected to be transparent over specific bands due to their large-scale uniformity. Showing that photon leakage induces scattering inside those bands changes how these materials should be designed for photonic applications, from cloaking to signal routing.",
+          "tags": [
+            "Optics & Photonics",
+            "Many-Body Physics & Condensed Matter",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "An Invisibility Cloak with Internal Invisibility",
+          "source": "APS Physics / Yiyang Zhang et al.",
+          "url": "https://physics.aps.org/articles/v19/s60",
+          "summary": "A new metamaterial design eliminates internal distortions that typically degrade invisibility-cloak performance. Rather than only redirecting light around an object, the structure suppresses field disturbances inside the cloaked region itself, improving both external invisibility and internal field uniformity. This addresses a known flaw in conventional transformation-optics cloaks where hidden objects still perturb the local electromagnetic environment.",
+          "relevance": "Practical invisibility cloaks require not just that an object vanish from external view, but that sensors or receivers inside the cloaked region also function without distortion. This design brings metamaterial cloaks closer to scenarios like concealed antennae or undetectable enclosures where internal signal integrity matters.",
+          "tags": [
+            "Optics & Photonics",
+            "Technology & Engineering",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Spreading the Altermagnetic Love",
+          "source": "APS Physics / Ningbo Oriental University of Science and Technology",
+          "url": "https://physics.aps.org/articles/v19/s64",
+          "summary": "Theory predicts that a nonmagnetic material can acquire altermagnetism — a property combining zero net magnetization with spin-split electronic bands — simply by being placed adjacent to an altermagnet. Zhou Tong’s team at Ningbo confirmed this Altermagnetic Proximity Effect (AMPE) experimentally, showing it is a universal platform for generating and tuning emergent quantum phenomena in heterostructures without requiring intrinsic magnetism in every layer.",
+          "relevance": "Altermagnetism offers the high-speed, anti-interference advantages of antiferromagnets plus the spin-polarized transport properties of ferromagnets. The proximity effect means far more materials can be harnessed for spintronic devices, expanding the material palette for next-generation memory and logic.",
+          "tags": [
+            "Magnetism & Spintronics",
+            "Many-Body Physics & Condensed Matter",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Quantum Error Correction Faces Another Hurdle",
+          "source": "APS Physics / Google Quantum AI",
+          "url": "https://physics.aps.org/articles/v19/62",
+          "summary": "Vladislav Kurilovich, Gabrielle Roberts, and colleagues at Google Quantum AI identified a new class of correlated phase errors in gap-engineered superconducting qubits. While gap engineering suppresses bit-flip errors from ionizing radiation, quasiparticles still suppress the superconducting gap on one side of a Josephson junction, causing longer-lasting phase errors that involve about 1.5× as many qubits as bit-flip bursts. The team demonstrated that these errors persist until quasiparticles recombine into Cooper pairs — a slower process than previously accounted for in error-correction schemes.",
+          "relevance": "Quantum error correction assumes mostly independent, random errors. Correlated errors across multiple qubits violate that assumption and can overwhelm surface-code thresholds. Identifying gap-suppression phase errors as a distinct failure mode means hardware designers must add quasiparticle traps or phonon down-conversion layers, and theorists must revise correction protocols for correlated phase noise.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Experiment & Observation",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Visualizing the Invisible: The Dark Art of Black Holes",
+          "source": "Physics World / Lynn Gamwell",
+          "url": "https://physicsworld.com/p/magazine/archive/physics-world-may-2026/",
+          "summary": "Physics World’s May 2026 cover feature explores how abstract art visualizes the invisible, focusing on Lynn Gamwell’s book *Conjuring the Void: the Art of Black Holes*. The piece examines the interplay between scientific visualization and artistic interpretation — how artists render phenomena beyond direct human perception, and how those renderings feed back into public understanding of black hole physics.",
+          "relevance": "Black holes cannot be observed directly; every image (including the Event Horizon Telescope’s) is a reconstruction. Understanding how artistic and scientific visualization shape public perception matters for science communication, especially as JWST and EHT continue delivering unprecedented data on the dark sector.",
+          "tags": [
+            "Black Hole Physics",
+            "Science Communication & Policy",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "LHCb Upgrade Threatened by UK Funding Cut",
+          "source": "Physics World / CERN & University of Warwick",
+          "url": "https://physicsworld.com/a/lhcb-upgrade-cern-collaboration-responds-to-uk-funding-cut/",
+          "summary": "The UK government announced it will no longer fund the £50 million upgrade of CERN’s LHCb experiment, jeopardizing the detector’s participation in the High-Luminosity LHC (HL-LHC) program. LHCb spokesperson-elect Tim Gershon warns that without UK contributions, the experiment may finish operations in 2033 rather than benefiting from the tenfold luminosity increase. The decision also raises concerns about UK leadership in particle physics and CERN’s ability to maintain international collaboration amid geopolitical fragmentation.",
+          "relevance": "LHCb studies CP violation and rare decays — key probes for physics beyond the Standard Model. Losing a major contributor to the upgrade threatens precision measurements that could reveal new particles or forces. The funding cut reflects broader geopolitical pressures on big-science budgets and may signal a shift in how megaprojects like CERN are financed.",
+          "tags": [
+            "High-Energy Physics & Phenomenology",
+            "Science Communication & Policy",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "A Rubbish Challenge: How Do We Dump Space Junk?",
+          "source": "Physics World / Katherine Courtney & Alice Gorman",
+          "url": "https://physicsworld.com/a/a-rubbish-challenge-how-do-we-dump-space-junk/",
+          "summary": "With millions of human-made debris pieces orbiting Earth — from dead satellites to shed bolts — space junk threatens astronomy, atmospheric science, and satellite-dependent civilization. Experts Katherine Courtney and Alice Gorman discuss the need for binding international treaties, independent cross-border monitoring authorities (modeled on the ITU), and design-for-removal (D4R) technologies. A positive sign: China’s space agency recently warned NASA of a potential collision, a first for bilateral space-safety communication.",
+          "relevance": "As satellite constellations expand, the Kessler syndrome risk — cascading collisions rendering orbital bands unusable — becomes more acute. Quantifying debris, mandating end-of-life disposal, and developing active removal missions (like ESA’s ClearSpace-1) are essential for sustainable space use. This is as much a policy and governance challenge as a technical one.",
+          "tags": [
+            "Space Sustainability",
+            "Technology & Engineering",
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-05-13",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 8,
+      "focus": "Wormholes & quantum cosmology, black hole physics, quantum error correction, modified gravity, quantum causality, and condensed matter topology.",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Euclidean Wineglass Wormholes and No-Boundary Instantons",
+          "authors": "Jean-Luc Lehners, et al.",
+          "arxiv_id": "2605.10548",
+          "url": "https://arxiv.org/abs/2605.10548",
+          "categories": "hep-th, gr-qc",
+          "summary": "Studies Euclidean wineglass wormholes that mediate nucleation of inflationary spacetimes from asymptotically flat or AdS regions. These wormholes feature a local maximum of the scale factor, enabling the Lorentzian continuation to expand after materialization. Solutions supported by axionic or magnetic gauge fields are presented, alongside exotic multi-extrema geometries. In the small-charge limit, wineglass solutions split into a background spacetime and a disconnected no-boundary instanton, revealing a topology-changing transition.",
+          "relevance": "Directly addresses quantum cosmology and the origin of spacetime geometry. Connects wormhole physics to the no-boundary proposal, highly relevant to quantum gravity research.",
+          "tags": [
+            "Quantum Gravity",
+            "Cosmology & Early Universe"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum Trajectory Simulation of 2D Non-Equilibrium Steady States with a Trapped Ion Quantum Processor",
+          "authors": "Anna Dalmasso, Arash Jafarizadeh, Julian Boesl, et al.",
+          "arxiv_id": "2605.08350",
+          "url": "https://arxiv.org/abs/2605.08350",
+          "categories": "quant-ph, cond-mat.stat-mech, cond-mat.str-el",
+          "summary": "Uses the Quantinuum H1 trapped-ion quantum computer to realize quantum trajectories for hard-core bosons/fermions on a 2D square lattice with stochastic driving at source and drain corners. The non-equilibrium steady state exhibits persistent currents, with measurable effects from particle statistics, interactions, and magnetic fields. Demonstrates current capabilities and limitations of quantum hardware for many-body physics.",
+          "relevance": "Experimental quantum computing applied to condensed matter physics — exactly the intersection of quantum computing and many-body systems of interest.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Gravielectric and Gravimagnetic Fluxes in Nutty Black Holes",
+          "authors": "Dmitri Gal'tsov, Rostom Karsanov",
+          "arxiv_id": "2605.09786",
+          "url": "https://arxiv.org/abs/2605.09786",
+          "categories": "gr-qc, hep-th",
+          "summary": "Introduces gravielectric and gravimagnetic fields in stationary spacetime via the Komar two-form and its dual. Shows that Misner strings carry singular fluxes connecting horizon and asymptotic zone, with lateral transparency enabling field line flow. Explains why Komar mass integrals around Misner strings are negative in Taub-NUT vacuum, and demonstrates closed circuits without sources. Provides new perspective on mass and angular momentum in spacetime with NUT charge.",
+          "relevance": "Novel approach to black hole mass and angular momentum definitions, with implications for quantum gravity treatments of black hole thermodynamics.",
+          "tags": [
+            "Black Hole Physics",
+            "Quantum Gravity",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "DART-Q: A Deadline-Driven Framework for Real-Time QLDPC Decoding",
+          "authors": "Ameya S. Bhave, Navnil Choudhury, Kanad Basu",
+          "arxiv_id": "2605.09142",
+          "url": "https://arxiv.org/abs/2605.09142",
+          "categories": "quant-ph",
+          "summary": "Presents a real-time quantum error correction framework for quantum LDPC codes that treats decoding as deadline-driven queueing under strict timing and memory constraints. Key results: cached-summary state organization lowers SRAM-fit boundary by 4×, doubling decoder capacity reduces MissRate from 97.64% to 0.98%, and improves p99 latency from 3.861ms to 10μs. Exposes regime changes that determine real-time decoder viability.",
+          "relevance": "Critical engineering work for fault-tolerant quantum computing. Real-time QLDPC decoding is essential for practical quantum computers.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Analytical Solution of Traversable Wormholes with Positive Cosmological Constant",
+          "authors": "Rajesh Karmakar, Xian-Hui Ge",
+          "arxiv_id": "2605.08205",
+          "url": "https://arxiv.org/abs/2605.08205",
+          "categories": "gr-qc, hep-th",
+          "summary": "Obtains an analytical traversable wormhole solution for Λ > 0 using gravitational decoupling, based on Ellis-Bronnikov geometry. The cosmological constant induces a second throat in addition to the standard wormhole throat, with modified asymptotic behavior (not asymptotically de Sitter). Verifies flare-out conditions and null energy condition violation at both throats. Derives constraints on safe human passage velocities through tidal force analysis.",
+          "relevance": "Construction of exact wormhole solutions with cosmological constant bridges classical general relativity and quantum gravity phenomenology.",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Non-Abelian Monopoles in Modified Gravity",
+          "authors": "Vladimir Dzhunushaliev, Vladimir Folomeev",
+          "arxiv_id": "2605.09612",
+          "url": "https://arxiv.org/abs/2605.09612",
+          "categories": "hep-th, gr-qc",
+          "summary": "Studies static spherically and axially symmetric self-gravitating non-Abelian monopoles in SU(2) Yang-Mills-Higgs theory within modified gravity frameworks. Compares with Einstein-Yang-Mills-Higgs monopoles, identifying significant differences for systems with strong Higgs self-coupling. Demonstrates that modified gravity can substantially alter soliton structure.",
+          "relevance": "Connects modified gravity to topological solitons and non-perturbative field theory — relevant to quantum gravity model building.",
+          "tags": [
+            "Quantum Gravity",
+            "Field Theory & Mathematical Physics",
+            "High-Energy Physics & Phenomenology"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Quantum Circuits with Quantum Control of Causal Order from Physical Principles",
+          "authors": "Matthias Salzger, et al.",
+          "arxiv_id": "2605.08351",
+          "url": "https://arxiv.org/abs/2605.08351",
+          "categories": "quant-ph",
+          "summary": "Provides a rigorous top-down derivation of quantum circuits with quantum control of causal order (QC-QC) from relativistic causality principles. Uses causal boxes framework with Acting Once + Local Order constraints to prove that any protocol in classical acyclic spacetime satisfying these is behaviorally equivalent to a QC-QC. Shows QC-QCs constitute precisely the physically realizable class of higher-order quantum processes with indefinite causal order, ruling out more general non-causal processes under closed-labs assumptions.",
+          "relevance": "Foundational result connecting abstract process matrix frameworks to experimentally accessible quantum protocols. Important for quantum gravity approaches involving indefinite causal structure.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Foundations & Interpretations"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Altermagnetism on Hyperbolic Lattices",
+          "authors": "Eric Petermann, et al.",
+          "arxiv_id": "2605.10602",
+          "url": "https://arxiv.org/abs/2605.10602",
+          "categories": "cond-mat",
+          "summary": "Extends altermagnetism — momentum-dependent spin splitting without net magnetization — to regular hyperbolic lattices in 2D via hyperbolic crystallography and band theory. Shows next-nearest neighbor hopping induces spin splitting in bipartite hyperbolic lattices. Identifies an entire family and special cases exhibiting altermagnetism. Since hyperbolic band theory yields at least 4D momentum space, classifies leading spin-splitting harmonics using 4D atomic orbitals.",
+          "relevance": "Novel topological condensed matter physics on curved/hyperbolic lattices, expanding the landscape of quantum materials with nontrivial spin texture.",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Phase Transitions & Critical Phenomena"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-13",
+      "categories": "Quanta Magazine + MIT News",
+      "items_found": 7,
+      "focus": "dark matter detection, quantum sensing, exoplanet atmospheres, phase transitions, atmospheric physics, geophysics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "A New Way to Spot Signs of Dark Matter",
+          "source": "MIT News / MIT Department of Physics",
+          "url": "https://news.mit.edu/2026/new-way-spot-signs-dark-matter-0512",
+          "summary": "MIT physicists and European collaborators have developed a method to detect imprints of dark matter in gravitational waves from merging black holes. The technique models how light scalar dark matter would alter gravitational waveforms when black holes spiral through dense dark matter regions and merge. Applied to 28 clearest LIGO-Virgo-KAGRA signals, 27 matched vacuum predictions, but GW190728 (detected July 28, 2019) showed a pattern consistent with the dark matter model — though statistical significance remains too low for a definitive claim. The work appears in Physical Review Letters.",
+          "relevance": "This opens a fundamentally new observational channel for dark matter: using gravitational-wave astronomy as a probe of particle dark matter environments. If confirmed with future data, it would enable probing dark matter at scales far smaller than conventional methods allow.",
+          "tags": [
+            "Black Hole Physics",
+            "Gravitational Waves & Astrophysics",
+            "Cosmology & Early Universe"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Improving Circuit Reliability for Quantum Computers",
+          "source": "MIT News / Research Laboratory of Electronics",
+          "url": "https://news.mit.edu/2026/improving-circuit-reliability-quantum-computers-0512",
+          "summary": "MIT and Lincoln Laboratory researchers identified and measured \"second-order harmonic corrections\" in superconducting Josephson junctions — an effect where Cooper pairs unexpectedly tunnel two at a time instead of one, degrading circuit performance. The team fabricated a sensitive detection device, traced the distortion source to inductance from connecting wires (not intrinsic junction dynamics), and demonstrated how to engineer circuits that counteract these effects. Published in Nature Physics.",
+          "relevance": "As quantum computers scale to thousands of qubits, precisely characterizing and correcting these subtle circuit deviations becomes critical. This diagnostic tool enables more predictable quantum circuit design, directly supporting the path to large-scale, fault-tolerant quantum computing.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Astronomers Pin Down Origins of a Planetary \"Odd Couple\"",
+          "source": "MIT News / MIT Kavli Institute for Astrophysics and Space Research",
+          "url": "https://news.mit.edu/2026/astronomers-pin-down-origins-planetary-odd-couple-0505",
+          "summary": "Using JWST, MIT-led astronomers measured the atmosphere of TOI-1130b — a mini-Neptune orbiting inside the orbit of a hot Jupiter 190 light-years away. The atmosphere contains heavy molecules (water vapor, CO₂, SO₂, methane) inconsistent with in-situ formation near the star. The findings suggest both planets formed beyond the frost line in the cold outer disk and migrated inward together, keeping their atmospheres intact. Published in Astrophysical Journal Letters.",
+          "relevance": "This is the first atmospheric characterization of a mini-Neptune inside a hot Jupiter's orbit. It confirms that mini-Neptunes can form beyond the frost line and challenges assumptions about where these common planets acquire their atmospheres.",
+          "tags": [
+            "Experiment & Observation",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Multitasking Quantum Sensors Can Measure Several Properties at Once",
+          "source": "MIT News / MIT Department of Nuclear Science and Engineering",
+          "url": "https://news.mit.edu/2026/multitasking-quantum-sensors-can-measure-several-properties-0415",
+          "summary": "MIT researchers demonstrated multiparameter quantum sensing at room temperature using nitrogen-vacancy (NV) centers in diamond. By entangling two spins (the NV center electron and a neighboring nitrogen nuclear spin) and performing Bell-state measurements, they simultaneously extracted the amplitude, frequency detuning, and phase of a microwave field in a single shot — outperforming sequential measurement approaches.",
+          "relevance": "Solid-state quantum sensors that operate at room temperature and measure multiple quantities simultaneously could transform materials characterization and biomedical imaging. This is the first demonstration of multiparameter estimation in a widely used, practical quantum sensor platform.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "What Causes Lightning? The Answer Keeps Getting More Interesting",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/what-causes-lightning-the-answer-keeps-getting-more-interesting-20260506/",
+          "summary": "Decades of research have overturned the simple \"electric spark\" model of lightning. Storm clouds' electric fields are too weak to initiate breakdown directly. New evidence points to runaway relativistic electron avalanches that produce gamma rays and X-rays, amplifying fields locally. The ALOFT mission (flying gamma-ray detectors over tropical storms) confirmed Dwyer's predictions of flickering gamma-ray glows. Recent Los Alamos radio observations by Xuan-Min Shao suggest cosmic-ray showers — particles from distant exploding stars — may also seed lightning at odd angles.",
+          "relevance": "Lightning initiation connects atmospheric physics to high-energy particle astrophysics: relativistic electrons, antimatter (positrons), gamma rays, and extragalactic cosmic rays all appear to play roles. Understanding these mechanisms matters for climate models, aviation safety, and atmospheric chemistry.",
+          "tags": [
+            "High-Energy Physics & Phenomenology",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Physicists Discover the Most Complex Forms of Ice Yet",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/physicists-discover-the-most-complex-forms-of-ice-yet-20260427/",
+          "summary": "Korean and Japanese researchers discovered ice XXI — a phase with a 152-molecule repeating unit, far more complex than any predicted by simulations of over 75,000 possible ice phases. Using diamond-anvil cells and the European XFEL, they observed this metastable intermediate during water's phase transition. A follow-up study found ice XXII (304-molecule repeat). Another team in Switzerland discovered \"plastic ice VII,\" where molecules spin in place while retaining crystal structure, likely existing inside icy moons.",
+          "relevance": "These discoveries validate Ostwald's step rule for phase transitions and reveal water's staggering structural diversity under pressure. Exotic ice phases matter for planetary science (icy moons, Neptune-like planets) and pharmaceutical manufacturing, where metastable crystal phases can alter drug effectiveness.",
+          "tags": [
+            "Phase Transitions & Critical Phenomena",
+            "Many-Body Physics & Condensed Matter",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Will We Ever Be Able to Forecast Volcanic Eruptions Like Weather?",
+          "source": "Quanta Magazine / Qualia column",
+          "url": "https://www.quantamagazine.org/will-we-ever-be-able-to-forecast-volcanic-eruptions-like-weather-20260508/",
+          "summary": "Volcanology has advanced dramatically since Pinatubo (1991), with dense sensor networks, satellite monitoring, and machine learning. Yet eruption forecasting remains imprecise: only ~50% of volcanic unrest leads to eruption, and some volcanoes ambush observers with no warning. Projects like Ex-X (Eastern Caribbean) and SZ4D (subduction zones) aim to uncover shared subsurface physics. The Krafla Magma Testbed in Iceland hopes to become the world's first direct magma observatory by drilling into a magma reservoir.",
+          "relevance": "~800 million people live within 100 km of active volcanoes. Accurate forecasting requires deriving universal governing equations for magma reservoir behavior — akin to how weather models emerged from fluid dynamics. The article frames this as a geologic \"Manhattan Project\" needed for public safety.",
+          "tags": [
+            "Geophysics & Earth Science",
+            "Technology & Engineering",
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-05-12",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 9,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Fuzzy-novae: A Loop-Quantum-Gravity-Inspired Phenomenological Model of Gravitational Collapse",
+          "authors": "Francesco Fazzini, Waleed Sherif",
+          "arxiv_id": "2605.07848",
+          "url": "https://arxiv.org/abs/2605.07848",
+          "relevance": "Proposes a novel LQG-inspired model of quantum gravitational collapse that ensures completely regular spacetime evolution. By using local (rather than average) energy density modifications, the model resolves both central and shell-crossing singularities. Numerical simulations show that quantum repulsion leads to a stable solitary matter wave ejection — a \"fuzzy-nova\" — offering a concrete mechanism for matter escape from black holes and opening an observational window into quantum gravity. Directly relevant to black hole information paradox resolution and LQG phenomenology.",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics",
+            "Cosmology & Early Universe"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Uncertainty Principles and Maximum Entropic Force",
+          "authors": "Jonas Mureika, Elias C. Vagenas",
+          "arxiv_id": "2605.07992",
+          "url": "https://arxiv.org/abs/2605.07992",
+          "relevance": "Investigates quantum gravity corrections to the maximum entropic force arising from multiple gravitational uncertainty principles (GUP, EUP, GEUP, LQGUP). The modified entropic force depends on the dimensionless parameters of the uncertainty principles, thus encoding the underlying quantum gravity theory. Provides a direct link between quantum gravity phenomenology and black hole thermodynamics, with implications for understanding how different quantum gravity frameworks modify Hawking-like radiation processes.",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Gravitational Wave Memory in Beyond GR Theories",
+          "authors": "Silvia Gasparotto",
+          "arxiv_id": "2605.07879",
+          "url": "https://arxiv.org/abs/2605.07879",
+          "relevance": "Presents the first computation of gravitational-wave memory from full inspiral-merger-ringdown waveforms in a theory beyond GR, focusing on scalar Gauss-Bonnet gravity. Finds percent-level deviations from GR mainly driven by modified merger dynamics. Including memory greatly enhances the mismatch between GR and beyond-GR waveforms, highlighting its potential as a complementary observable for testing gravity with next-generation detectors such as LISA and Cosmic Explorer. A key paper for gravitational-wave astrophysics and modified gravity tests.",
+          "tags": [
+            "Gravitational Waves & Astrophysics",
+            "Quantum Gravity",
+            "High-Energy Physics & Phenomenology"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Pre-Geometric Gravity, (Lovelock)², and Dynamical Dark Energy",
+          "authors": "Daulet Berkimbayev",
+          "arxiv_id": "2605.07344",
+          "url": "https://arxiv.org/abs/2605.07344",
+          "relevance": "Considers the simplest quadratic extension of MacDowell-Mansouri pre-geometric gravity. After symmetry breaking, it becomes (Lovelock)² gravity, dual to a Galileon-like Horndeski scalar-tensor theory. The gravitational Higgs mechanism makes the Gauss-Bonnet coupling inversely proportional to the bare cosmological constant, rendering the gravitational θ-angle dynamical as a gravi-axion. The model fits DESI BAO+FS data exceptionally well (χ²_red = 1.394) and naturally realizes dynamical dark energy. Establishes a concrete, testable bridge between pre-geometric gravity frameworks and cosmic acceleration observations.",
+          "tags": [
+            "Quantum Gravity",
+            "Cosmology & Early Universe",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "3D Einstein Gravity with Torus Boundary: Semi-Classical Thermodynamics",
+          "authors": "Weam Abou Hamdan",
+          "arxiv_id": "2605.08058",
+          "url": "https://arxiv.org/abs/2605.08058",
+          "relevance": "Analytically determines boundaries enclosing different patches of flat, de Sitter, and Anti-de Sitter spaces in 3D Einstein gravity with torus topology boundaries. Adapts the Gibbons-Hawking prescription to explore the rich semi-classical thermodynamic phase space. Finds inhomogeneous solutions that are thermodynamically favorable for Λ < 0 with specific extrinsic curvature ranges. For all values of Λ, there exist patches with non-contractible thermal circles and macroscopic entropy. Comments on recasting the problem in terms of classical strings. Relevant for understanding black hole thermodynamics in lower-dimensional gravity and holographic dualities.",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Entangled Gottesman-Kitaev-Preskill Qubits via Beamsplitter Interference in Trapped Ions",
+          "authors": "Moritz Fontboté-Schmidt, Jeremy Metzner, Florence Berterottière, Ivan Rojkov, Alexander Ferk, Martin Stadler, Bahadir Dönmez, Ralf Berner, Stephan Welte, Daniel Kienzler, Jonathan P. Home",
+          "arxiv_id": "2605.08009",
+          "url": "https://arxiv.org/abs/2605.08009",
+          "relevance": "Demonstrates the generation of entangled GKP qubit states using two motional modes of a trapped ion. Generates all four Bell states with an average fidelity of 69% and extends the entangled state lifetime through quantum error correction. Completes the set of Gaussian operations required for quantum computing with GKP codes and enables explorations of multi-mode bosonic encodings. A significant experimental advance in bosonic quantum error correction, a hardware-efficient alternative to traditional qubit-based approaches.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Foundations & Interpretations"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Quantum Learning Theory for Continuous-Variable Systems",
+          "authors": "Francesco Anna Mele",
+          "arxiv_id": "2605.08082",
+          "url": "https://arxiv.org/abs/2605.08082",
+          "relevance": "Reviews recent advances in quantum learning theory for continuous-variable (CV) systems — ubiquitous in quantum-optical and bosonic platforms. Addresses key questions: sample complexity for learning non-Gaussian and Gaussian states, testing Gaussianity, and learning Gaussian processes efficiently. Central to the review are bounds on trace distance between CV states in terms of covariance matrices. A timely overview for researchers working on quantum state tomography and the theoretical foundations of quantum machine learning on CV platforms.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Foundations & Interpretations"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Fractional Magnetization Plateaus in the Kagome Antiferromagnet Y-kapellasite",
+          "authors": "Dipranjan Chatterjee, Paul A. Goddard, Ewan R. P. Thomas, Katharina M. Zoch, Hank C. H. Wu, Benjamin M. Huddart, Cornelius Krellner, Edwin Kermarrec, Mladen Horvatić, Steffen Krämer, Pascal Puphal, John Singleton, Stephen J. Blundell, Fabrice Bert",
+          "arxiv_id": "2605.08067",
+          "url": "https://arxiv.org/abs/2605.08067",
+          "relevance": "Investigates the mysterious 1/9 fractional magnetization plateau in the S=1/2 anisotropic kagome antiferromagnet Y-kapellasite using pulsed-field magnetization and high-field ³⁵Cl NMR. Identifies a hierarchy of field-induced fractional features including 1/3 and 1/9 plateaus. The 1/9 plateau is accompanied by an ordered local spin configuration and strong suppression of low-energy spin fluctuations, consistent with a gapped fractional state. This plateau shows surprising robustness to details of the underlying magnetism, differing from the only other known material exhibiting it. A significant experimental contribution to understanding quantum spin liquids and fractionalized excitations in geometrically frustrated magnets.",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Phase Transitions & Critical Phenomena"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Two-Body Schrödinger–Newton Model: Entanglement Generation and Self-Localization",
+          "authors": "Marcin Płodzień",
+          "arxiv_id": "2605.06577",
+          "url": "https://arxiv.org/abs/2605.06577",
+          "relevance": "Proposes a two-body Schrödinger-Newton model that separates local nonlinear self-localization from the nonseparable Newtonian pair potential. Analytically shows that the nonlinear self-field preserves the Schmidt spectrum while direct entanglement generation arises from the pair potential. Numerical simulations find that entanglement generation depends sensitively on initial spatial configuration and mass ratio. For dispersive Gaussian initial states, mass asymmetry produces Wigner negativity and rapid entanglement growth, whereas stationary SN profiles strongly suppress this. Provides insights into the interplay between gravitational self-interaction and quantum entanglement at the semiclassical gravity interface.",
+          "tags": [
+            "Quantum Gravity",
+            "Foundations & Interpretations"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-12",
+      "categories": "Phys.org + ScienceDaily",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Charge carrier pairs in cuprate compounds shed light on high-temperature superconductivity",
+          "source": "Phys.org / BESSY II",
+          "url": "https://phys.org/news/2026-05-carrier-pairs-cuprate-compounds-shed.html",
+          "summary": "An international team measured the energy of charge carrier pairs in undoped La₂CuO₄ at BESSY II. Their findings reveal how these pairs behave in the parent compound of high-T_c cuprates, offering clues to the long-standing puzzle of high-temperature superconductivity.",
+          "relevance": "Direct experimental data on the precursor state of cuprate superconductivity — essential for any theory of unconventional pairing.",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "High-Energy Physics & Phenomenology",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Open-source 'macroscope' offers dynamic luminescence imaging",
+          "source": "Phys.org / European research consortium",
+          "url": "https://phys.org/news/2026-05-macroscope-dynamic-luminescence-imaging.html",
+          "summary": "European researchers built a versatile, open-source luminescence imaging instrument that democratizes access to advanced fluorescence and electroluminescence techniques across disciplines.",
+          "relevance": "Open hardware lowers the barrier for labs to perform precision luminescence studies, accelerating materials characterization and photophysics research.",
+          "tags": [
+            "Technology & Engineering",
+            "Optics & Photonics",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Ultrafast VUV pulses fully characterized for probing valence electron dynamics",
+          "source": "Phys.org / Max Born Institute",
+          "url": "https://phys.org/news/2026-05-ultrafast-vuv-pulses-fully.html",
+          "summary": "Researchers at the Max Born Institute fully characterized few-femtosecond light pulses tunable in the vacuum ultraviolet, enabling time-resolved studies of valence electron dynamics.",
+          "relevance": "Attosecond-to-femtosecond VUV metrology is a key enabler for tracking electron motion in atoms, molecules, and condensed phases in real time.",
+          "tags": [
+            "Optics & Photonics",
+            "Experiment & Observation",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Single organic molecule triggers Kondo effect in molecular-scale 'Kondo box'",
+          "source": "Phys.org / Hefei Institutes of Physical Science, CAS",
+          "url": "https://phys.org/news/2026-05-single-organic-molecule-triggers-kondo.html",
+          "summary": "A single organic molecule was shown to induce the Kondo effect in a nearby magnetic atom, demonstrating a new level of control over this hallmark many-body phenomenon at the molecular scale.",
+          "relevance": "The Kondo effect is a canonical problem in strongly correlated electron physics; achieving single-molecule control opens paths to molecular spintronics and quantum devices.",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Quantum Information & Computing",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "How quantum computers can aid the search for room-temperature superconductors",
+          "source": "Phys.org / Quantum simulation report",
+          "url": "https://phys.org/news/2025-11-quantum-computers-aid-room-temperature-superconductors.html",
+          "summary": "For the first time, a quantum computer successfully measured pairing correlations — the quantum signals that reveal electrons teaming up in pairs — a crucial step toward discovering room-temperature superconductors.",
+          "relevance": "Marries quantum information science with materials discovery. If scaled, this could shortcut the brute-force experimental search for higher-T_c materials.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Scientists finally solve 40-year-old physics puzzle about how things grow",
+          "source": "ScienceDaily / University of Cambridge (May 7, 2026)",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260507012800.htm",
+          "summary": "Experimentally confirmed a universal growth law in two dimensions using a quantum system of fleeting light-matter particles (polaritons). The finding suggests wildly different processes — from crystals to living systems — may follow the same hidden statistical rules.",
+          "relevance": "A rare experimental validation of a decades-old theoretical prediction about kinetic roughening and universal scaling in growth phenomena.",
+          "tags": [
+            "Phase Transitions & Critical Phenomena",
+            "Experiment & Observation",
+            "Foundations & Interpretations"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "NASA just tested a powerful new thruster that could send humans to Mars",
+          "source": "ScienceDaily / NASA JPL (May 6, 2026)",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260506220022.htm",
+          "summary": "A lithium-vapor electromagnetic thruster reached record-breaking power levels in a high-energy vacuum test, far exceeding current space propulsion capabilities.",
+          "relevance": "Advanced propulsion is a critical bottleneck for deep-space human missions; successful high-power tests move the technology readiness needle.",
+          "tags": [
+            "Technology & Engineering",
+            "Gravitational Waves & Astrophysics",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Scientists make stunning discovery that could change our understanding of the Universe",
+          "source": "ScienceDaily / Queen Mary University of London (May 8, 2026)",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260508022653.htm",
+          "summary": "The Universe's fundamental constants appear to sit in an extremely narrow \"bio-friendly\" range that allows liquids to flow in ways living cells depend on. If constants shifted even slightly, water, blood, and cellular fluids could become too viscous to support complex life.",
+          "relevance": "Connects the anthropic principle to measurable physics — viscosity is not arbitrary but anchored in fundamental constants, with direct biological consequences.",
+          "tags": [
+            "Foundations & Interpretations",
+            "Cosmology & Early Universe",
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-05-11",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 10,
+      "focus": "quantum gravity, loop quantum gravity, string theory, quantum computing, black hole thermodynamics, quantum cosmology, condensed matter, social physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Variational Quantization of Gravitational Fields via Relative Entropy",
+          "authors": "Jianhao M. Yang",
+          "arxiv_id": "2605.05239",
+          "url": "https://arxiv.org/abs/2605.05239",
+          "categories": "quant-ph (cross-list hep-th)",
+          "relevance": "🔥 High — Develops a variational framework for quantizing gravitational fields without the usual operator-ordering ambiguity in canonical quantization. Recovers the Wheeler-DeWitt equation from a generalized stationary action principle incorporating relative entropy. When coupled to a scalar field, recovers a Schrödinger equation with quantum corrections at order $G\\hbar^2$. Explicitly connects to holographic dualities. A fresh foundational take on quantum gravity and quantum cosmology.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Semiclassical Singularity Theorem Without Global Hyperbolicity or NEC",
+          "authors": "Netta Engelhardt et al.",
+          "arxiv_id": "2605.05326",
+          "url": "https://arxiv.org/abs/2605.05326",
+          "categories": "hep-th (cross-list gr-qc)",
+          "relevance": "🔥 High — Proves a singularity theorem in semiclassical gravity replacing global hyperbolicity with stable causality/past reflectivity, and replacing the null energy condition with the Generalized Second Law. Directly establishes that standard models of evaporating black holes are singular (null geodesically incomplete). A landmark result at the intersection of black hole thermodynamics and quantum gravity.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Quantization of Symmetry Reductions of Einstein–Hilbert Gravity",
+          "authors": "Poula Tadros et al.",
+          "arxiv_id": "2605.05311",
+          "url": "https://arxiv.org/abs/2605.05311",
+          "categories": "gr-qc (cross-list hep-th)",
+          "relevance": "🔥 High — Systematically quantizes all symmetry reductions of Einstein–Hilbert gravity that satisfy the principle of symmetric criticality: spherical/hyperbolic/planar Schwarzschild, Taub–NUT, Bianchi I/II/VIII/IX, FLRW cosmologies, and near-horizon extreme Kerr. Derives Hamiltonians, conformal symmetries of superspace metrics, and solves the Wheeler–DeWitt equation. Directly relevant to canonical quantum gravity and minisuperspace quantum cosmology.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "No-Boundary Wavefunction on the 3-Torus Favors Large Universe",
+          "authors": "Victor Godet et al.",
+          "arxiv_id": "2605.05317",
+          "url": "https://arxiv.org/abs/2605.05317",
+          "categories": "hep-th (cross-list gr-qc)",
+          "relevance": "High — Resolves the long-standing problem that Hartle–Hawking no-boundary wavefunctions on $S^3$ exponentially favor small universes. By changing topology to $T^3$ and summing over SL(3,ℤ) geometries using automorphic forms for GL(3), the wavefunction now favors large inflating universes with $\\mathcal{N} \\gtrsim 250$ e-folds. Also computes corrections to the CMB power spectrum from torus moduli fluctuations. A significant advance in quantum cosmology.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "String Theory Flux Vacua: Thin Wafers and the Landscape",
+          "authors": "James Halverson et al.",
+          "arxiv_id": "2605.05357",
+          "url": "https://arxiv.org/abs/2605.05357",
+          "categories": "hep-th",
+          "relevance": "High — Proposes a simplified model for the cosmological constant in string theory flux vacua applied to the entire Schöller–Skarke database of Calabi-Yau fourfolds (532,600,483 Hodge number sets). Finds that 99.95% exhibit vacuum energy spacing of $10^{-120}$ or smaller in Planck units. Studies Brown–Teitelboim membrane nucleation and shows bubble transitions are dominated by giant leaps in flux space. A substantial landscape-analysis paper.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Magic as Intrinsic Quantum Resource in Shor's Factoring Algorithm",
+          "authors": "Alessio Paviglianiti et al.",
+          "arxiv_id": "2605.05347",
+          "url": "https://arxiv.org/abs/2605.05347",
+          "categories": "quant-ph",
+          "relevance": "High — Develops an explicit analytic theory demonstrating that non-stabilizerness (magic) is a fundamental resource in Shor's factoring algorithm, maximally exploited in practically relevant regimes. Establishes a direct link between classical algorithmic difficulty and the quantum resource cost. Complements standard circuit-cost analyses with a resource-based metric aligned with real fault-tolerant quantum computing bottlenecks.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Biplanar SPOQC Architecture for Fermi-Hubbard Simulation",
+          "authors": "Boris Bourdoncle, Peter-Jan Derks, Théo Dessertaine, Johannes Frank",
+          "arxiv_id": "2605.05315",
+          "url": "https://arxiv.org/abs/2605.05315",
+          "categories": "quant-ph",
+          "relevance": "High — Estimates costs for simulating the 2D Fermi-Hubbard model on a biplanar spin-optical quantum computing (SPOQC) architecture using honeycomb Floquet code. Eliminates fermionic swap operations and reduces Trotter step depth from $6t_{\\text{synth}} + 354$ to $4t_{\\text{synth}} + 90$ logical timesteps. For $L=8$, $U/t=8$, estimates ~2 hour runtime with $1.35 \\times 10^6$ physical qubits. Identifies rotation synthesis as a scalability bottleneck. Concrete architectural co-design for near-term quantum simulation.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Quantum Resolution of Big Bang Singularity via Page–Wootters",
+          "authors": "Malay K. Nandy et al.",
+          "arxiv_id": "2605.06093",
+          "url": "https://arxiv.org/abs/2605.06093",
+          "categories": "gr-qc",
+          "relevance": "High — Investigates the classical big bang singularity in Bianchi type-I within the Wheeler–DeWitt framework, using the Page–Wootters formalism to address the problem of time. Constructs Gaussian superpositions in Misner variables; the conditional probability density vanishes at zero volume for all clock values, indicating quantum singularity resolution. Positivity constraints on the probability density impose admissible clock values depending on wavepacket parameters. A clean demonstration of relational quantum dynamics resolving cosmological singularities.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Navier–Stokes Hydrodynamics from Chaotic XXZ Spin Chain via gEDMD",
+          "authors": "Seiki Saito et al.",
+          "arxiv_id": "2605.05604",
+          "url": "https://arxiv.org/abs/2605.05604",
+          "categories": "quant-ph (cross-list from cond-mat)",
+          "relevance": "Medium-High — Introduces a fully data-driven framework combining generalized Extended Dynamic Mode Decomposition (gEDMD) with Mori–Zwanzig projection to extract Navier–Stokes hydrodynamic coefficients from a chaotic XXZ spin chain. Reveals that macroscopic friction and viscosity are not absolute properties but emergent phenomena requiring finite temporal coarse-graining. Mechanical elasticity is derived from exact unitary dynamics, while friction only emerges at observer timescales. Connects to fundamental questions about irreversibility in isolated quantum systems.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Laplacian Renormalization of Bipartite Networks: Multiscale Organization",
+          "authors": "Ottavia Falconi et al.",
+          "arxiv_id": "2605.06208",
+          "url": "https://arxiv.org/abs/2605.06208",
+          "categories": "cond-mat.stat-mech (cross-list physics.soc-ph)",
+          "relevance": "Medium — Introduces a Laplacian-based renormalization framework operating directly on bipartite network architecture, preserving role differentiation across scales. Applies to empirical bipartite networks and reveals nontrivial multiscale hierarchies. Shows that structural imbalance reshapes organization while leaving scaling properties invariant, demonstrating a separation between universality and geometry. Relevant to social physics (bipartite systems with complementary roles) and complex networks.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-11",
+      "categories": "Phys.org + ScienceDaily",
+      "items_found": 10,
+      "focus": "Error-correcting codes for universal qudit quantum computation, Weak measurement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Error-correcting codes for universal qudit quantum computation",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2605.08076",
+          "summary": "This work constructs error-correcting codes for universal quantum computation with qudits (d-level quantum systems). The codes enable transversal implementation of a universal gate set, which is crucial for fault-tolerant quantum computing.",
+          "relevance": "Qudit-based quantum computing offers potential advantages over qubit systems, including more efficient use of Hilbert space and natural implementations in certain physical platforms. This work addresses a key challenge in making qudit quantum computers fault-tolerant.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Weak measurement based optimal control of quantum systems",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2605.08009",
+          "summary": "Researchers present a framework for optimal quantum control using weak continuous measurements. The approach combines measurement feedback with optimal control theory to steer quantum systems toward desired states with minimal disturbance.",
+          "relevance": "Weak measurement techniques are increasingly important in quantum technologies. This framework could improve quantum state preparation and error correction protocols in quantum computing and quantum sensing applications.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Quantum resource theory of channel incompatibility",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2605.08056",
+          "summary": "This paper develops a resource theory framework for understanding incompatible quantum channels. The authors quantify the degree of incompatibility and explore its applications in quantum information processing tasks.",
+          "relevance": "Channel incompatibility is fundamental to quantum mechanics and has practical implications for quantum communication and cryptography. A rigorous resource theory could enable better optimization of quantum information protocols.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Quantum error mitigation by Pauli gate conjugation",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2605.08042",
+          "summary": "The authors propose a novel error mitigation technique for quantum circuits based on Pauli gate conjugation. The method reduces the impact of noise without requiring additional qubits, making it suitable for near-term quantum devices.",
+          "relevance": "Error mitigation is essential for practical quantum computing in the NISQ era. This technique offers a resource-efficient approach that could be implemented on current quantum hardware.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Out-of-equilibrium scaling of the work distribution in quench dynamics",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2605.07866",
+          "summary": "This study investigates the statistics of work performed during quantum quenches (sudden changes in Hamiltonian parameters). The authors identify universal scaling behaviors in the work distribution that characterize non-equilibrium quantum dynamics.",
+          "relevance": "Understanding quantum thermodynamics and non-equilibrium dynamics is crucial for quantum heat engines and quantum batteries. The universal scaling laws identified here could guide the design of quantum thermodynamic devices.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "DESI Completes Most Detailed 3D Map of the Universe",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01508-6",
+          "summary": "The Dark Energy Spectroscopic Instrument (DESI) has completed its five-year survey, creating the most detailed 3D map of the universe ever made. The dataset includes 40 million galaxies and quasars, providing unprecedented insights into dark energy and cosmic evolution.",
+          "relevance": "DESI's results will constrain cosmological models and our understanding of dark energy, which makes up about 70% of the universe's energy content. This data release marks a major milestone in observational cosmology.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "'Dark Proteins' Reclassified as 'Peptideins' and Added to Databases",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01492-x",
+          "summary": "Thousands of previously excluded \"dark proteins\" — short proteins with unknown functions — have been officially named \"peptideins\" and added to major gene and protein databases by the TransCODE Consortium. These molecules, encoded by the human genome, had been excluded from catalogs due to their short length and lack of evolutionary relatives.",
+          "relevance": "Some peptideins have been linked to childhood cancers and basic cellular functions. Their formal recognition could spark a new wave of research into previously overlooked biological mechanisms and potential therapeutic targets.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Unconscious Brain Can Learn and Predict Speech",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01465-0",
+          "summary": "A study published in Nature reveals that the hippocampus remains remarkably active under general anesthesia, parsing grammar and meaning of spoken words and even anticipating upcoming words. Neuronal recordings from anaesthetized patients showed comparable performance to awake subjects in language prediction tasks.",
+          "relevance": "This challenges fundamental assumptions about consciousness and complex cognition. The findings could reshape our understanding of anesthesia, consciousness, and the brain's capacity for unconscious learning.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Long COVID Blood Biomarker Discovered",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01481-w",
+          "summary": "Researchers have identified a blood biomarker that can distinguish people with long COVID from those who have recovered. The finding, published in Nature, could lead to diagnostic tests and targeted treatments for the condition affecting millions worldwide.",
+          "relevance": "Long COVID remains a major public health challenge with no definitive diagnostic test. A validated biomarker would enable better patient stratification, clinical trial design, and potentially guide therapeutic interventions.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "How Scientists Set Up Next-Generation Mega-Telescopes",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01497-5",
+          "summary": "This feature article explores the engineering and logistical challenges behind building the next generation of extremely large telescopes, including the European Extremely Large Telescope (ELT) and the Thirty Meter Telescope (TMT).",
+          "relevance": "These telescopes will transform astronomy with light-gathering powers far exceeding current facilities. Understanding the technical challenges helps appreciate the scale of modern astronomical infrastructure and the discoveries it will enable.",
+          "tags": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_digests": 11,
+    "total_entries": 106,
+    "unique_tags": {
+      "Quantum Gravity": {
+        "first_seen": "2026-05-18",
+        "count": 17
+      },
+      "Infrared Physics": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Berry Phases": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Black Hole Information": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Loop Quantum Gravity": {
+        "first_seen": "2026-05-18",
+        "count": 2
+      },
+      "Quantum Cosmology": {
+        "first_seen": "2026-05-18",
+        "count": 3
+      },
+      "Kaluza-Klein": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Inflation": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Black Holes": {
+        "first_seen": "2026-05-18",
+        "count": 2
+      },
+      "Rotating Solutions": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Supergravity": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Solution-Generating Techniques": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Carroll Gravity": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Non-Relativistic Gravity": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Kerr Geometry": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Quantum Field Theory": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Quantum Inequalities": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Operator Algebras": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Rényi Entropy": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Chern-Simons Gravity": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "AdS/CFT": {
+        "first_seen": "2026-05-18",
+        "count": 2
+      },
+      "Schwarzian": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "JT Gravity": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Dimensional Reduction": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Chiral Anomalies": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Effective Field Theory": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Transport Phenomena": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Finite Temperature": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Quantum Computing": {
+        "first_seen": "2026-05-18",
+        "count": 5
+      },
+      "Fault Tolerance": {
+        "first_seen": "2026-05-18",
+        "count": 2
+      },
+      "Stabilizer Codes": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Circuit Optimization": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Quantum Fourier Transform": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Surface Code": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Neutral Atoms": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Quantum Simulation": {
+        "first_seen": "2026-05-18",
+        "count": 2
+      },
+      "Open Quantum Systems": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Quantum Chemistry": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Quantum Advantage": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Variational Algorithms": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Nonlinear Dynamics": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Hybrid Quantum-Classical": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Frustrated Magnetism": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Spin Liquids": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Thermodynamics": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Elastocaloric Effect": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Topological Insulators": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Berry Curvature": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Defect Engineering": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "van der Waals Materials": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Anderson Localization": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Multifractality": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Quantum Transport": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Mesoscopic Physics": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Spin Glasses": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Critical Phenomena": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Fractals": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Universality Classes": {
+        "first_seen": "2026-05-18",
+        "count": 1
+      },
+      "Black Hole Thermodynamics": {
+        "first_seen": "2026-05-15",
+        "count": 3
+      },
+      "Information Paradox": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "CMB Phenomenology": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Holography": {
+        "first_seen": "2026-05-15",
+        "count": 2
+      },
+      "String Theory": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Quantum Information": {
+        "first_seen": "2026-05-15",
+        "count": 2
+      },
+      "Quantum Compilation": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Modified Gravity": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Dark Energy": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Condensed Matter": {
+        "first_seen": "2026-05-15",
+        "count": 2
+      },
+      "Quantum Geometry": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Topology": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Wormholes": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Spin Qubits": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Topological Order": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Gravitational Waves": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Quantum Optics": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Double Copy": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Classical Gravity": {
+        "first_seen": "2026-05-15",
+        "count": 1
+      },
+      "Space Sustainability": {
+        "first_seen": "2026-05-15",
+        "count": 4
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-05-15",
+        "count": 22
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-05-15",
+        "count": 22
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-05-15",
+        "count": 15
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-05-15",
+        "count": 14
+      },
+      "Field Theory & Mathematical Physics": {
+        "first_seen": "2026-05-15",
+        "count": 12
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-05-15",
+        "count": 7
+      },
+      "High-Energy Physics & Phenomenology": {
+        "first_seen": "2026-05-15",
+        "count": 8
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-05-15",
+        "count": 9
+      },
+      "Cosmology & Early Universe": {
+        "first_seen": "2026-05-14",
+        "count": 7
+      },
+      "Foundations & Interpretations": {
+        "first_seen": "2026-05-14",
+        "count": 8
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-05-14",
+        "count": 14
+      },
+      "Gravitational Waves & Astrophysics": {
+        "first_seen": "2026-05-14",
+        "count": 4
+      },
+      "Phase Transitions & Critical Phenomena": {
+        "first_seen": "2026-05-14",
+        "count": 5
+      },
+      "Magnetism & Spintronics": {
+        "first_seen": "2026-05-14",
+        "count": 1
+      },
+      "Geophysics & Earth Science": {
+        "first_seen": "2026-05-13",
+        "count": 1
+      }
+    },
+    "tag_counts": {
+      "Quantum Gravity": 17,
+      "Infrared Physics": 1,
+      "Berry Phases": 1,
+      "Black Hole Information": 1,
+      "Loop Quantum Gravity": 2,
+      "Quantum Cosmology": 3,
+      "Kaluza-Klein": 1,
+      "Inflation": 1,
+      "Black Holes": 2,
+      "Rotating Solutions": 1,
+      "Supergravity": 1,
+      "Solution-Generating Techniques": 1,
+      "Carroll Gravity": 1,
+      "Non-Relativistic Gravity": 1,
+      "Kerr Geometry": 1,
+      "Quantum Field Theory": 1,
+      "Quantum Inequalities": 1,
+      "Operator Algebras": 1,
+      "Rényi Entropy": 1,
+      "Chern-Simons Gravity": 1,
+      "AdS/CFT": 2,
+      "Schwarzian": 1,
+      "JT Gravity": 1,
+      "Dimensional Reduction": 1,
+      "Chiral Anomalies": 1,
+      "Effective Field Theory": 1,
+      "Transport Phenomena": 1,
+      "Finite Temperature": 1,
+      "Quantum Computing": 5,
+      "Fault Tolerance": 2,
+      "Stabilizer Codes": 1,
+      "Circuit Optimization": 1,
+      "Quantum Fourier Transform": 1,
+      "Surface Code": 1,
+      "Neutral Atoms": 1,
+      "Quantum Simulation": 2,
+      "Open Quantum Systems": 1,
+      "Quantum Chemistry": 1,
+      "Quantum Advantage": 1,
+      "Variational Algorithms": 1,
+      "Nonlinear Dynamics": 1,
+      "Hybrid Quantum-Classical": 1,
+      "Frustrated Magnetism": 1,
+      "Spin Liquids": 1,
+      "Thermodynamics": 1,
+      "Elastocaloric Effect": 1,
+      "Topological Insulators": 1,
+      "Berry Curvature": 1,
+      "Defect Engineering": 1,
+      "van der Waals Materials": 1,
+      "Anderson Localization": 1,
+      "Multifractality": 1,
+      "Quantum Transport": 1,
+      "Mesoscopic Physics": 1,
+      "Spin Glasses": 1,
+      "Critical Phenomena": 1,
+      "Fractals": 1,
+      "Universality Classes": 1,
+      "Black Hole Thermodynamics": 3,
+      "Information Paradox": 1,
+      "CMB Phenomenology": 1,
+      "Holography": 2,
+      "String Theory": 1,
+      "Quantum Information": 2,
+      "Quantum Compilation": 1,
+      "Modified Gravity": 1,
+      "Dark Energy": 1,
+      "Condensed Matter": 2,
+      "Quantum Geometry": 1,
+      "Topology": 1,
+      "Wormholes": 1,
+      "Spin Qubits": 1,
+      "Topological Order": 1,
+      "Gravitational Waves": 1,
+      "Quantum Optics": 1,
+      "Double Copy": 1,
+      "Classical Gravity": 1,
+      "Space Sustainability": 4,
+      "Experiment & Observation": 22,
+      "Technology & Engineering": 22,
+      "Many-Body Physics & Condensed Matter": 15,
+      "Science Communication & Policy": 14,
+      "Field Theory & Mathematical Physics": 12,
+      "Optics & Photonics": 7,
+      "High-Energy Physics & Phenomenology": 8,
+      "Black Hole Physics": 9,
+      "Cosmology & Early Universe": 7,
+      "Foundations & Interpretations": 8,
+      "Quantum Information & Computing": 14,
+      "Gravitational Waves & Astrophysics": 4,
+      "Phase Transitions & Critical Phenomena": 5,
+      "Magnetism & Spintronics": 1,
+      "Geophysics & Earth Science": 1
+    },
+    "dates_by_type": {
+      "arxiv": [
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
+      "web-science": [
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ]
+    }
+  }
+}
