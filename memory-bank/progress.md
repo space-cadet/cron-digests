@@ -1,60 +1,79 @@
 # Project Progress
 
-*Last Updated: 2026-05-11 17:58:00 IST*
+*Last Updated: 2026-05-18 08:59:00 IST*
 
-## What Works ✅
+## What Works
 
 - [x] GitHub CLI (`gh`) installed and authenticated as `space_cadet`
 - [x] Telegram channel enabled and paired (user 849773381)
-- [x] Kimi-claw plugin switched to `chat` mode (working)
-- [x] Cron digest archive repo created and pushed
-- [x] arXiv Morning Digest cron job created and tested
-- [x] Web Science Digest cron job created and tested
-- [x] Both digests manually generated and committed
-- [x] Memory Bank structure initialized for this project
-- [x] **Viewer UI with ToC, category chips, dual-format support**
+- [x] arXiv Morning Digest cron job: Mon-Fri 7:11 IST
+- [x] Web Science Digest cron job: Mon-Fri 10:17 IST
+- [x] Digest format v2.0: uniform template across arXiv and web-science
+- [x] Viewer UI: card grid, modal with ToC, category chips, search/filter
+- [x] JSON Schema (`schema/digest.json`) formalizes digest structure
+- [x] Validation script (`scripts/validate-digest.js`): 11 files, 0 errors
+- [x] Index builder (`scripts/build-index.js`): SQLite + JSON export
+- [x] Viewer loads `index.json` instantly (1 fetch vs N markdown files)
+- [x] Dark mode with toggle and localStorage persistence
+- [x] Tag filtering: top-20 tags with counts, card tag chips, click-to-filter
+- [x] "New" badge on latest digest card
+- [x] PDF links in modal alongside abstracts
+- [x] Keyboard navigation (`j`/`k`, `Enter`, `/`, `Esc`)
+- [x] arxivite.org replaces arxiv.org for all paper links
+- [x] Memory bank fully synchronized with all work through 2026-05-18
 
-## In Progress 🔄
+## In Progress
 
-- [ ] Waiting for first automated cron runs (scheduled for tomorrow)
-- [ ] Need to verify cron scheduler reliability
+- [ ] Operational monitoring of automated cron runs
+- [ ] `tags.json` sync with new tags from May 15 & May 18
 
-## Completed Today (2026-05-11) ✅
+## Completed (2026-05-18)
 
-### Viewer Improvements
-1. **ToC navigation fixed** — Links now scroll to correct paper sections
-2. **Spacing tightened** — Reduced margins and line-height for compact view
-3. **Per-paper category chips** — arXiv categories shown per entry (hep-th, gr-qc, quant-ph, etc.)
-4. **Web-science format support** — Handles `### N. Title` under `## Section` headers
-5. **Source chips for web-science** — Shows "arXiv", "Nature News" etc. per entry
+### T6: Schema, Validation, and Index Infrastructure
+1. JSON Schema for digest header and entry structure
+2. `validate-digest.js` with markdown parser, item count checks, sequential numbering validation
+3. `build-index.js` with markdown → SQLite → JSON pipeline
+4. Composite PK fix (date, type) for SQLite digests table
+5. 11 digests indexed: 106 entries, 93 unique tags
 
-### Technical Details
-- Commits: `2977345`, `7799d8c`, `39ecf4f`
-- File: `viewer/index.html`
-- Functions modified: `showModal()`, `scrollToItem()`, added `extractCategoryChips()`, `convertMarkdownToHtml()`
-- Edit chunk: `memory-bank/edits/2026-05-11/175800-T1.md`
+### T7: Viewer UI/UX Overhaul
+1. CSS variable architecture for light/dark themes
+2. Tag bar with count badges and active filter state
+3. Per-card tag chips (up to 6) with hover-to-filter
+4. "New" badge on most recent digest
+5. Paper action buttons (Abstract + PDF) in modal
+6. Keyboard event handlers (j/k, Enter, /, Esc)
+7. Mouse hover syncs keyboard focus index
+8. Compact chip sizing pass
+9. arxivite.org URL replacement
 
-## To Do ⬜
+### Digest Generation & Format Fixes
+1. arxiv/2026-05-18.md: Friday backlog + Monday fresh (15 selected from ~340 announcements)
+2. Fixed format drift: removed category section headers, matched viewer parser expectations
+3. Fixed old digests: arxiv/2026-05-11.md (`## Honorable Mentions` → `###`), web-science/2026-05-13.md (`## Notable Omissions` → `###`)
 
-- [ ] Add error handling for failed fetches in digest jobs
-- [ ] Consider failure notifications (email/Telegram)
-- [ ] Evaluate digest quality after 1 week of automated runs
-- [ ] Document corruption analysis from cloned workspace
-- [ ] Decide if Memory Bank protocol should extend to other projects
-- [ ] Consider adding search/filter within modal view
+## To Do
+
+- [ ] Sync `tags.json` with all tags from May 15 & May 18 digests
+- [ ] Update `TEMPLATE.md` to match de-facto v2.0 format (Authors, arXiv ID, etc.)
+- [ ] Add GitHub Actions CI to run validator on PRs
+- [ ] Consider modal search/filter within digest view
+- [ ] Weekly summary digest from SQLite index
+- [ ] System cleanup: old kernel image (~125 MB), pnpm store review
 
 ## Known Issues
 
-- arXiv digest subagent hit timeout during manual run (completed async)
-- `openclaw cron runs --id` returns empty array immediately after execution
-- Cron job creation required direct JSON editing due to CLI SIGKILL issues
+- `tags.json` stale since May 14 — missing new tags from recent digests
+- `TEMPLATE.md` specifies `**Source:**` but actual digests use `**Authors:**`, `**arXiv ID:**` etc.
+- Disk at 93% (67 GB droplet) — journal vacuumed, still tight
 
 ## Next Priorities
 
-1. Verify automated cron execution
-2. Document memory-consolidation corruption findings
-3. Consider modal search/filter feature
+1. Monitor Web Science cron run today (~10:17 IST)
+2. Sync tag registry
+3. Update template to match actual format
+4. Evaluate disk cleanup (old kernel, abandoned node_modules)
 
 ## Project Status
 
-**Operational** — manual runs successful, viewer UI complete, awaiting automated verification.
+**Operational** — all feature tasks complete, infrastructure deployed, awaiting routine cron verification.

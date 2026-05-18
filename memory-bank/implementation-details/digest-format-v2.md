@@ -85,8 +85,36 @@ Tags are tracked in `tags.json` with counts and first-seen dates. Current tags:
 - **Template spec:** `cron-digests/TEMPLATE.md`
 - **Reformat script:** `cron-digests/reformat-digest.js`
 - **Tag registry:** `cron-digests/tags.json`
+- **JSON Schema:** `cron-digests/schema/digest.json`
+- **Validation script:** `cron-digests/scripts/validate-digest.js`
+- **Index builder:** `cron-digests/scripts/build-index.js`
 - **arXiv digests:** `cron-digests/arxiv/YYYY-MM-DD.md`
 - **Web science digests:** `cron-digests/web-science/YYYY-MM-DD.md`
+
+## Validation and Indexing
+
+### Automated Validation
+Run `node scripts/validate-digest.js` to check all digests:
+- `**Items found:** N` matches actual entry count
+- Entries are sequentially numbered `## 1.` through `## N.`
+- No unnumbered `##` section headers inside entries (flags structural drift)
+- Old footers using `###` are treated as body content, not violations
+
+**Status:** 11 files checked, 0 errors (as of 2026-05-18)
+
+### Index Generation
+Run `node scripts/build-index.js` to rebuild:
+- `viewer/index.db` — SQLite with digests, entries, tags tables
+- `viewer/index.json` — pre-computed JSON for instant viewer loading
+
+Current index: **11 digests, 106 entries, 93 unique tags**
+
+### Schema
+`schema/digest.json` formalizes the de-facto v2.0 format:
+- Header: title, date, type, categories|sites, items_found, focus
+- Entry: number, title, authors|source, arxiv_id, url, categories, summary, relevance, tags[]
+
+Note: `TEMPLATE.md` specifies `**Source:**` but actual arXiv digests use `**Authors:**`, `**arXiv ID:**`, etc. The schema captures the actual format used.
 
 ## Viewer Integration
 
@@ -96,11 +124,14 @@ The viewer at `viewer/index.html` expects:
 - `## N. Title` for entry extraction (ToC + preview)
 - `**Tags:**` for category chips
 
+**Performance:** Viewer loads `index.json` in one fetch instead of N markdown files.
+
 ## Migration Notes
 
 - Old format with `### N.` entries: run `node reformat-digest.js input.md output.md type`
 - Old format with `## Section` headers: script auto-removes section headers
 - Date format inconsistencies: script normalizes to `YYYY-MM-DD`
+- Footer sections (`## Honorable Mentions`, `## Notable Omissions`): convert to `###` to pass validation
 
 ## Cron Job Integration
 
@@ -109,7 +140,8 @@ Both cron jobs (arXiv and Web Science) include in their prompts:
 2. Instructions to write to correct directory
 3. Instructions to update `tags.json`
 4. Instructions to commit with dated message
+5. Instructions to update `manifest.json`
 
 ---
 
-*Last updated: 2026-05-12*
+*Last updated: 2026-05-18*

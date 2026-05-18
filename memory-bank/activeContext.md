@@ -2,40 +2,48 @@
 
 ## Current Status
 
-Digest framework v2.0 is live with uniform format across all digests:
-- **arXiv Morning Digest**: Running daily at 7:11 AM IST
-- **Web Science Digest**: Running daily at 10:17 AM IST
+All planned feature tasks completed. cron-digests archive is fully operational with formalized schema, automated validation, indexed viewer, and dark mode UI.
 
-Both jobs now include subject tagging per digest-schema.md and follow TEMPLATE.md v2.0 format.
+- **Schema/Validation:** JSON Schema at `schema/digest.json`, validator runs clean (0 errors), 11 digests indexed
+- **Viewer:** Dark mode, tag filtering, keyboard nav, PDF links, arxivite.org integration — deployed to GitHub Pages
+- **Cron jobs:** arXiv Mon-Fri 7:11 IST, Web Science Mon-Fri 10:17 IST — both operational
 
-## Recent Changes (2026-05-12)
+## Completed This Session (2026-05-18)
 
-- **Digest format v2.0**: Uniform template for all digests (`## N. Title`, bold metadata, `YYYY-MM-DD` dates)
-- **Reformat script**: `reformat-digest.js` converts old formats to v2.0
-- **Viewer fixes**: Handles both arXiv and web science formats, extracts item counts, shows category chips
-- **Manifest auto-update**: Cron jobs now instructed to update `manifest.json` after each digest
-- **Per-entry tagging**: Both digest generators assign 2-3 tags per entry
-- **Tag registry**: `tags.json` with 14 tags + counts and first-seen dates
-- **Memory bank**: Initialized with mb-cli templates + database-native workflow (T21)
-- **Database-native workflow**: Installed from parent memory-bank, 60/60 tests passing
+### T6: Schema, Validation, and Index Infrastructure
+- JSON Schema formalizing digest header + entry structure
+- `validate-digest.js`: parses markdown, validates item counts, sequential numbering, flags structural violations
+- `build-index.js`: parses all `.md` → SQLite (`viewer/index.db`) + JSON (`viewer/index.json`)
+- 11 digests, 106 entries, 93 unique tags indexed
+- Old digests retroactively fixed (footer `##` → `###`)
+
+### T7: Viewer UI/UX Overhaul
+- Dark mode toggle with CSS variables and localStorage persistence
+- Tag filter bar (top-20 tags with counts) + per-card tag chips
+- "New" badge on latest digest
+- PDF links alongside abstracts in modal
+- Keyboard navigation: `j`/`k`, `Enter`, `/`, `Esc`
+- Compact tag chip sizing
+- arxivite.org redirect for all paper links
+- Instant `index.json` loading (replaces N markdown fetches)
 
 ## In Progress
 
-- [ ] Let arXiv digest run tomorrow morning → verify v2.0 format and tags
-- [ ] Let web science digest run → verify v2.0 format and manifest update
-- [ ] GitHub activity digest — planned, not scheduled
-- [ ] Tag merge review — first batch of tags needs human review after ~20 entries
+- [ ] Operational monitoring: verify cron jobs generate compliant digests
+- [ ] Tag registry sync: `tags.json` stale since May 14, missing new tags from May 15 & May 18
+- [ ] Web Science digest: next run today ~10:17 IST (Mon 2026-05-18)
 
 ## Next Actions
 
-1. Monitor tomorrow's digest generation for format compliance
-2. Verify manifest.json auto-update works in cron jobs
-3. Design GitHub digest format (commits, issues, PRs across repos)
-4. Review tag registry after ~20 entries for merge candidates
+1. Monitor today's Web Science digest generation (~10:17 IST)
+2. Sync `tags.json` with all tags from May 15 & May 18 digests
+3. Update `TEMPLATE.md` to match actual de-facto v2.0 format (Authors, arXiv ID, etc.)
+4. Consider weekly summary digest from SQLite index
+5. System cleanup: disk at 93%, old kernel image ~125 MB removable
 
 ## Blockers
 
 None.
 
 ---
-*Updated: 2026-05-12*
+*Updated: 2026-05-18 08:59:00 IST*
