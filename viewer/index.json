@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-19T04:01:08.994Z",
+  "generated": "2026-05-19T04:48:30.112Z",
   "digests": [
     {
       "date": "2026-05-19",
@@ -202,6 +202,94 @@
             "Nickelates",
             "Strongly Correlated Electrons",
             "Cuprates"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-19",
+      "categories": "Phys.org + ScienceDaily",
+      "items_found": 6,
+      "focus": "Astronomy & Cosmology, Quantum Physics, Fundamental Physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Supernova dust may be behind one of JWST's biggest puzzles",
+          "source": "Phys.org / Astronomy",
+          "url": "https://phys.org/news/2026-05-supernova-jwst-biggest-puzzles.html",
+          "summary": "Astronomers may have found an explanation for one of the biggest mysteries revealed by the James Webb Space Telescope: why so many galaxies in the early universe appear unexpectedly bright. The researchers propose that supernova dust could be amplifying the observed light, causing these galaxies to look brighter than they actually are. If confirmed, this would significantly revise our understanding of early galaxy formation and mass estimates.",
+          "relevance": "🔥 High — JWST early-universe observations continue to challenge cosmological models; dust effects are critical for correct interpretation",
+          "tags": [
+            "Astronomy & Cosmology",
+            "Observation & Experiment",
+            "Stellar Physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Ultrafast switching device unlocks low-power optical-to-electrical conversion for AI hardware",
+          "source": "Phys.org / Condensed Matter",
+          "url": "https://phys.org/news/2026-05-ultrafast-device-power-optical-electrical.html",
+          "summary": "A team of researchers has developed an ultrafast switching device that enables efficient optical-to-electrical signal conversion at dramatically lower power consumption. As AI and IoT technologies drive ever-higher energy demands, this hardware breakthrough could help reduce the power footprint of data centers and edge computing devices by moving key operations from electrical to optical domains.",
+          "relevance": "🔥 High — Energy-efficient AI hardware is critical for scaling; optical computing is a promising near-term direction",
+          "tags": [
+            "Condensed Matter & Materials",
+            "Technology & Engineering",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "AI-generated fake citations are flooding scientific literature across publications",
+          "source": "Phys.org / Education (Meta-Science)",
+          "url": "https://phys.org/news/2026-05-ai-generated-fake-citations-scientific.html",
+          "summary": "Scientists are warning that AI-generated fake citations are increasingly infiltrating peer-reviewed literature across multiple publications. These fabricated references undermine the integrity of citation networks and can mislead researchers about the evidentiary foundation of a field. The issue highlights the urgent need for detection tools and updated editorial policies in the generative-AI era.",
+          "relevance": "🔥 High — A growing threat to scientific integrity that the community must address systematically",
+          "tags": [
+            "Science Policy & Education",
+            "AI & Machine Learning",
+            "Meta-Science"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "A Strange Ripple in Spacetime Could Be the First Fingerprint of Dark Matter",
+          "source": "ScienceDaily / Physics",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260519075533.htm",
+          "summary": "Physicists have created a new model predicting how dark matter could subtly distort gravitational waves produced during black hole mergers. When applied to observed data, the model suggests that a strange ripple in spacetime from colliding black holes may carry the first observable fingerprint of dark matter hidden across the universe — potentially opening a completely new observational window on the elusive substance.",
+          "relevance": "🔥 High — Dark matter has never been directly detected; gravitational-wave astronomy may offer the first smoking-gun signature",
+          "tags": [
+            "Gravitational Physics",
+            "Astronomy & Cosmology",
+            "Dark Matter & Dark Energy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "String Theory Suddenly Emerged from Simple Physics Rules",
+          "source": "ScienceDaily / Physics",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260519101456.htm",
+          "summary": "Physicists may have uncovered a surprising new clue that string theory could be more than just a mathematical fantasy. Rather than assuming strings existed from the start, researchers found that the framework suddenly emerges from simple, fundamental physics rules — suggesting the theory may be a natural consequence of deeper physical principles rather than an arbitrary postulate.",
+          "relevance": "🔥 High — Direct relevance to quantum gravity research and the foundational status of string theory",
+          "tags": [
+            "Quantum Gravity",
+            "High-Energy Physics & Phenomenology",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Schrödinger's Clock: Time Could Tick Faster and Slower at the Same Time",
+          "source": "ScienceDaily / Physics",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260518101234.htm",
+          "summary": "Physicists are exploring the possibility that a single clock could exist in a quantum superposition, ticking both faster and slower simultaneously — an idea reminiscent of Schrödinger's cat. This thought experiment probes the interface between quantum mechanics and general relativity, asking whether time itself can be in a superposition state and what that would mean for our understanding of spacetime.",
+          "relevance": "🔥 High — A bold conceptual probe at the intersection of quantum mechanics and gravitational physics",
+          "tags": [
+            "Quantum Foundations",
+            "Gravitational Physics",
+            "Quantum Information & Computing"
           ]
         }
       ]
@@ -1802,8 +1890,8 @@
     }
   ],
   "stats": {
-    "total_digests": 13,
-    "total_entries": 124,
+    "total_digests": 14,
+    "total_entries": 130,
     "unique_tags": {
       "Loop Quantum Gravity": {
         "first_seen": "2026-05-19",
@@ -1875,7 +1963,7 @@
       },
       "Quantum Gravity": {
         "first_seen": "2026-05-19",
-        "count": 19
+        "count": 20
       },
       "Renormalization": {
         "first_seen": "2026-05-19",
@@ -1984,6 +2072,66 @@
       "Cuprates": {
         "first_seen": "2026-05-19",
         "count": 1
+      },
+      "Astronomy & Cosmology": {
+        "first_seen": "2026-05-19",
+        "count": 2
+      },
+      "Observation & Experiment": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Stellar Physics": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Condensed Matter & Materials": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-05-19",
+        "count": 28
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-05-19",
+        "count": 9
+      },
+      "Science Policy & Education": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "AI & Machine Learning": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Meta-Science": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Gravitational Physics": {
+        "first_seen": "2026-05-19",
+        "count": 2
+      },
+      "Dark Matter & Dark Energy": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "High-Energy Physics & Phenomenology": {
+        "first_seen": "2026-05-19",
+        "count": 10
+      },
+      "Field Theory & Mathematical Physics": {
+        "first_seen": "2026-05-19",
+        "count": 14
+      },
+      "Quantum Foundations": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-05-19",
+        "count": 20
       },
       "Infrared Physics": {
         "first_seen": "2026-05-18",
@@ -2201,29 +2349,9 @@
         "first_seen": "2026-05-18",
         "count": 1
       },
-      "Field Theory & Mathematical Physics": {
-        "first_seen": "2026-05-18",
-        "count": 13
-      },
-      "High-Energy Physics & Phenomenology": {
-        "first_seen": "2026-05-18",
-        "count": 9
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-05-18",
-        "count": 19
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-05-18",
-        "count": 27
-      },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-05-18",
         "count": 17
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-05-18",
-        "count": 8
       },
       "Experiment & Observation": {
         "first_seen": "2026-05-18",
@@ -2340,7 +2468,7 @@
       "Scalar-Tensor Gravity": 1,
       "Quantum Gravity Corrections": 1,
       "Cosmology": 2,
-      "Quantum Gravity": 19,
+      "Quantum Gravity": 20,
       "Renormalization": 1,
       "Unitarity": 1,
       "Gravity Research Foundation": 2,
@@ -2368,6 +2496,21 @@
       "Nickelates": 1,
       "Strongly Correlated Electrons": 1,
       "Cuprates": 1,
+      "Astronomy & Cosmology": 2,
+      "Observation & Experiment": 1,
+      "Stellar Physics": 1,
+      "Condensed Matter & Materials": 1,
+      "Technology & Engineering": 28,
+      "Optics & Photonics": 9,
+      "Science Policy & Education": 1,
+      "AI & Machine Learning": 1,
+      "Meta-Science": 1,
+      "Gravitational Physics": 2,
+      "Dark Matter & Dark Energy": 1,
+      "High-Energy Physics & Phenomenology": 10,
+      "Field Theory & Mathematical Physics": 14,
+      "Quantum Foundations": 1,
+      "Quantum Information & Computing": 20,
       "Infrared Physics": 1,
       "Berry Phases": 1,
       "Black Hole Information": 1,
@@ -2422,12 +2565,7 @@
       "Critical Phenomena": 1,
       "Fractals": 1,
       "Universality Classes": 1,
-      "Field Theory & Mathematical Physics": 13,
-      "High-Energy Physics & Phenomenology": 9,
-      "Quantum Information & Computing": 19,
-      "Technology & Engineering": 27,
       "Many-Body Physics & Condensed Matter": 17,
-      "Optics & Photonics": 8,
       "Experiment & Observation": 24,
       "Information Paradox": 1,
       "CMB Phenomenology": 1,
@@ -2464,6 +2602,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-05-19",
         "2026-05-18",
         "2026-05-15",
         "2026-05-14",
