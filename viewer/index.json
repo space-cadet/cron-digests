@@ -1,6 +1,211 @@
 {
-  "generated": "2026-05-18T06:13:10.811Z",
+  "generated": "2026-05-19T04:00:50.149Z",
   "digests": [
+    {
+      "date": "2026-05-19",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-05-19",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 12,
+      "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, path integral cosmology, quasinormal modes, scalar-tensor gravity, quantum information, condensed matter",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Emergent Thiemann Coherent States in Quantum Reduced Loop Gravity",
+          "authors": "Ilkka Mäkinen, Hanno Sahlmann, Waleed Sherif",
+          "arxiv_id": "2605.18625",
+          "url": "https://arxivite.org/abs/2605.18625",
+          "categories": "gr-qc, hep-th, physics.comp-ph",
+          "summary": "Variational Monte Carlo analysis of the near-kernel sector of the Hamiltonian constraint in the one-vertex model of quantum reduced loop gravity, using neural quantum states. Near-kernel states organize into three classes: non-factorized at low cutoffs, and two factorized branches at larger cutoffs. One branch matches reduced Thiemann coherent states with near-unit fidelity, providing evidence for emergent semiclassical organization.",
+          "relevance": "Direct numerical evidence that semiclassical coherent states emerge naturally from the quantum dynamics of loop quantum gravity. The neural-quantum-state methodology is novel for LQG and could be extended to more complex models.",
+          "tags": [
+            "Loop Quantum Gravity",
+            "Quantum Cosmology",
+            "Neural Quantum States",
+            "Coherent States",
+            "Semiclassical Limit"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quasinormal Modes of a Rotating Loop Quantum Black Hole",
+          "authors": "Zhongzhinan Dong, Shulan Li, Dan Zhang, Jian-Pin Wu",
+          "arxiv_id": "2605.18249",
+          "url": "https://arxivite.org/abs/2605.18249",
+          "categories": "gr-qc",
+          "summary": "Investigation of quasinormal modes of a massless scalar field on an effective rotating loop quantum black hole background, constructed via an improved Newman-Janis algorithm. Quantum gravity corrections monotonically reduce both oscillation frequency and damping rate. Rotation imprints nontrivial modulation: real frequency displays a crossover for spherically symmetric perturbations as spin grows, while angular momentum suppresses this feature. Overtone sector retains hallmark quantum gravitational signatures including outbursts.",
+          "relevance": "First systematic study of rotating LQBH quasinormal modes. The quantum correction signatures in the overtone sector are observationally relevant for gravitational-wave ringdown physics and could discriminate quantum-corrected black holes from classical Kerr.",
+          "tags": [
+            "Loop Quantum Black Holes",
+            "Quasinormal Modes",
+            "Gravitational Waves",
+            "Quantum Gravity Phenomenology"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "The Problem of Time: A Path Integral View",
+          "authors": "Juan Manuel Diaz, Alejandro Perez",
+          "arxiv_id": "2605.17935",
+          "url": "https://arxivite.org/abs/2605.17935",
+          "categories": "gr-qc, hep-th, quant-ph",
+          "summary": "Schrödinger evolution is recovered in a timeless nonrelativistic closed quantum system (a proxy for generally covariant theories) via the path integral once a clock degree of freedom is placed in a semiclassical \"good-clock\" state. The analysis shows that the \"cosine problem\" (transition amplitudes taking the form exp(iS/ℏ)+exp(−iS/ℏ)) is a natural consequence of time-reversal symmetry in the path integral, not a defect requiring modification.",
+          "relevance": "Perez is a central figure in LQG. The paper offers an intuitive path-integral resolution of the cosine problem that has troubled spin-foam formulations, suggesting backward propagation is physically meaningful rather than an artifact to eliminate.",
+          "tags": [
+            "Problem of Time",
+            "Path Integral",
+            "Spin Foam",
+            "Loop Quantum Gravity",
+            "Quantum Cosmology"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Scalar-Tensor Gravity as a Probe of Generalized Black Hole Entropy",
+          "authors": "Hussain Gohar",
+          "arxiv_id": "2605.18551",
+          "url": "https://arxivite.org/abs/2605.18551",
+          "categories": "gr-qc, hep-th, quant-ph",
+          "summary": "A geometric realization connecting generalized black hole entropy functionals (Barrow, Tsallis-Cirto, quantum-gravity corrections) to the Misner-Sharp quasilocal mass and Wald Noether-charge entropy in scalar-tensor theories. Distinct scalar potentials emerge: exponential for Barrow, exponential-with-parameter for Tsallis-Cirto, approximately linear for quantum corrections. Compatible with solar-system, BBN, and pulsar-timing constraints.",
+          "relevance": "Unifies information-theoretic entropy proposals with gravitational field theory through a scalar-tensor bridge. The explicit potentials and their cosmological phenomenology (inflation, late-time dark energy, bouncing cosmologies) are testable.",
+          "tags": [
+            "Black Hole Thermodynamics",
+            "Generalized Entropy",
+            "Scalar-Tensor Gravity",
+            "Quantum Gravity Corrections",
+            "Cosmology"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "A Renormalizable and Unitary Approach to Quantum Gravity",
+          "authors": "D. G. C. McKeon, F. T. Brandt, J. Frenkel, S. Martins-Filho",
+          "arxiv_id": "2605.17817",
+          "url": "https://arxivite.org/abs/2605.17817",
+          "categories": "hep-th, gr-qc",
+          "summary": "A quantum gravity proposal awarded Honorable Mention in the 2026 Gravity Research Foundation Essay Competition. The approach claims to be both renormalizable and unitary, addressing two long-standing obstacles in quantum gravity.",
+          "relevance": "Any approach simultaneously solving renormalizability and unitarity warrants attention, even if details are brief in this essay-length treatment. The GRF honorable mention signals peer recognition.",
+          "tags": [
+            "Quantum Gravity",
+            "Renormalization",
+            "Unitarity",
+            "Gravity Research Foundation"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Natural Modification of Quantum Uncertainty, Modified Gravity, and Cosmology",
+          "authors": "Christian G. Boehmer, Eissa Al-Nasrallah",
+          "arxiv_id": "2605.18203",
+          "url": "https://arxivite.org/abs/2605.18203",
+          "categories": "gr-qc",
+          "summary": "Honorable Mention essay for the 2026 Gravity Research Foundation Awards. Explores how modified uncertainty principles can naturally lead to modified gravity theories and cosmological consequences.",
+          "relevance": "Connects quantum foundations (uncertainty relations) directly to gravitational phenomenology. The essay format limits technical depth but the conceptual link is intriguing.",
+          "tags": [
+            "Modified Gravity",
+            "Quantum Uncertainty",
+            "Cosmology",
+            "Gravity Research Foundation"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Emergent AdS Geometry and Black Hole Thermodynamics from Functional Renormalization Group",
+          "authors": "Ki-Seok Kim",
+          "arxiv_id": "2605.17209",
+          "url": "https://arxivite.org/abs/2605.17209",
+          "categories": "hep-th",
+          "summary": "Emergent AdS geometry and black hole thermodynamics derived from the functional renormalization group framework. The geometric and thermodynamic structures emerge from the RG flow of quantum field theories.",
+          "relevance": "FRG is a powerful nonperturbative tool; deriving holographic geometry from it suggests a deeper connection between RG flow and bulk geometry.",
+          "tags": [
+            "Functional Renormalization Group",
+            "Holography",
+            "Black Hole Thermodynamics",
+            "Emergent Geometry"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Functional Renormalization Group as a Ricci Flow: An F-Entropy Perspective",
+          "authors": "Ki-Seok Kim",
+          "arxiv_id": "2605.17215",
+          "url": "https://arxivite.org/abs/2605.17215",
+          "categories": "hep-th",
+          "summary": "Interprets the functional renormalization group as a Ricci flow on the space of theories, using an F-entropy perspective to analyze information metric dynamics.",
+          "relevance": "Interesting conceptual bridge between quantum field theory renormalization, geometric flows, and information geometry. Could have implications for understanding the space of quantum gravity theories.",
+          "tags": [
+            "Functional Renormalization Group",
+            "Ricci Flow",
+            "Information Geometry",
+            "Quantum Field Theory"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Traversable Wormholes with Non-Exotic Matter: The Role of Higher Curvature Corrections",
+          "authors": "M Daniel Ranjan, Soumya Chakrabarti, Sanjit Das",
+          "arxiv_id": "2605.18376",
+          "url": "https://arxivite.org/abs/2605.18376",
+          "categories": "gr-qc",
+          "summary": "Construct traversable wormhole geometries supported by non-exotic matter through the inclusion of higher curvature corrections. Analysis of energy conditions and stability.",
+          "relevance": "Wormholes without exotic matter are a long-standing goal. Higher-curvature terms provide a physically motivated route that avoids the need for negative energy density.",
+          "tags": [
+            "Wormholes",
+            "Higher Curvature Gravity",
+            "Energy Conditions",
+            "General Relativity"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Quantum Shannon Theory Made Robust: A Tale of Three Protocols for Almost i.i.d. Sources",
+          "authors": "Filippo Girardi, Nilanjana Datta, Giacomo De Palma, Ludovico Lami",
+          "arxiv_id": "2605.18726",
+          "url": "https://arxivite.org/abs/2605.18726",
+          "categories": "quant-ph, math-ph",
+          "summary": "Extends quantum Shannon theory to sources that are almost independent and identically distributed, developing robust protocols for compression, entanglement manipulation, and channel coding.",
+          "relevance": "Realistic quantum information sources are rarely perfectly i.i.d. These robust protocols bring quantum information theory closer to practical implementation.",
+          "tags": [
+            "Quantum Information Theory",
+            "Quantum Shannon Theory",
+            "Compression",
+            "Entanglement"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Fibonacci Many-Body Scars in a Decorated Rule-54 Quantum Cellular Automaton",
+          "authors": "Han-Ze Li, Jian-Xin Zhong",
+          "arxiv_id": "2605.18622",
+          "url": "https://arxivite.org/abs/2605.18622",
+          "categories": "quant-ph",
+          "summary": "Identifies Fibonacci-structure many-body scars in a decorated version of the Rule-54 quantum cellular automaton, providing a novel integrable structure with non-thermal eigenstates.",
+          "relevance": "Many-body scars are a hot topic in quantum many-body physics. The Fibonacci structure suggests a quasi-crystalline organization of non-thermal states, relevant for quantum thermalization and memory.",
+          "tags": [
+            "Many-Body Scars",
+            "Quantum Cellular Automata",
+            "Integrable Systems",
+            "Thermalization"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Interlayer Electronic Coherence Links Magnetism and Superconductivity in Ruddlesden-Popper Nickelates",
+          "authors": "Feiyang Liu, Lixing Chen, Enkang Zhang, Ying-Jie Zhang, Jun Zhao",
+          "arxiv_id": "2605.18524",
+          "url": "https://arxivite.org/abs/2605.18524",
+          "categories": "cond-mat.str-el, cond-mat.supr-con",
+          "summary": "Reveals interlayer electronic coherence as the mechanism connecting magnetism and superconductivity in Ruddlesden-Popper nickelates, a class of unconventional superconductors related to cuprates.",
+          "relevance": "Nickelates are the closest relatives to cuprate high-Tc superconductors. Understanding the magnetism-superconductivity link is central to the broader problem of unconventional superconductivity.",
+          "tags": [
+            "Unconventional Superconductivity",
+            "Nickelates",
+            "Strongly Correlated Electrons",
+            "Cuprates"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-18",
       "type": "arxiv",
@@ -1597,12 +1802,188 @@
     }
   ],
   "stats": {
-    "total_digests": 12,
-    "total_entries": 112,
+    "total_digests": 13,
+    "total_entries": 124,
     "unique_tags": {
+      "Loop Quantum Gravity": {
+        "first_seen": "2026-05-19",
+        "count": 4
+      },
+      "Quantum Cosmology": {
+        "first_seen": "2026-05-19",
+        "count": 5
+      },
+      "Neural Quantum States": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Coherent States": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Semiclassical Limit": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Loop Quantum Black Holes": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Quasinormal Modes": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Gravitational Waves": {
+        "first_seen": "2026-05-19",
+        "count": 2
+      },
+      "Quantum Gravity Phenomenology": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Problem of Time": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Path Integral": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Spin Foam": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Black Hole Thermodynamics": {
+        "first_seen": "2026-05-19",
+        "count": 5
+      },
+      "Generalized Entropy": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Scalar-Tensor Gravity": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Quantum Gravity Corrections": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Cosmology": {
+        "first_seen": "2026-05-19",
+        "count": 2
+      },
       "Quantum Gravity": {
-        "first_seen": "2026-05-18",
-        "count": 18
+        "first_seen": "2026-05-19",
+        "count": 19
+      },
+      "Renormalization": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Unitarity": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Gravity Research Foundation": {
+        "first_seen": "2026-05-19",
+        "count": 2
+      },
+      "Modified Gravity": {
+        "first_seen": "2026-05-19",
+        "count": 2
+      },
+      "Quantum Uncertainty": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Functional Renormalization Group": {
+        "first_seen": "2026-05-19",
+        "count": 2
+      },
+      "Holography": {
+        "first_seen": "2026-05-19",
+        "count": 3
+      },
+      "Emergent Geometry": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Ricci Flow": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Information Geometry": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Quantum Field Theory": {
+        "first_seen": "2026-05-19",
+        "count": 2
+      },
+      "Wormholes": {
+        "first_seen": "2026-05-19",
+        "count": 2
+      },
+      "Higher Curvature Gravity": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Energy Conditions": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "General Relativity": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Quantum Information Theory": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Quantum Shannon Theory": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Compression": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Entanglement": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Many-Body Scars": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Quantum Cellular Automata": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Integrable Systems": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Thermalization": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Unconventional Superconductivity": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Nickelates": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Strongly Correlated Electrons": {
+        "first_seen": "2026-05-19",
+        "count": 1
+      },
+      "Cuprates": {
+        "first_seen": "2026-05-19",
+        "count": 1
       },
       "Infrared Physics": {
         "first_seen": "2026-05-18",
@@ -1615,14 +1996,6 @@
       "Black Hole Information": {
         "first_seen": "2026-05-18",
         "count": 1
-      },
-      "Loop Quantum Gravity": {
-        "first_seen": "2026-05-18",
-        "count": 2
-      },
-      "Quantum Cosmology": {
-        "first_seen": "2026-05-18",
-        "count": 3
       },
       "Kaluza-Klein": {
         "first_seen": "2026-05-18",
@@ -1657,10 +2030,6 @@
         "count": 1
       },
       "Kerr Geometry": {
-        "first_seen": "2026-05-18",
-        "count": 1
-      },
-      "Quantum Field Theory": {
         "first_seen": "2026-05-18",
         "count": 1
       },
@@ -1860,10 +2229,6 @@
         "first_seen": "2026-05-18",
         "count": 24
       },
-      "Black Hole Thermodynamics": {
-        "first_seen": "2026-05-15",
-        "count": 3
-      },
       "Information Paradox": {
         "first_seen": "2026-05-15",
         "count": 1
@@ -1871,10 +2236,6 @@
       "CMB Phenomenology": {
         "first_seen": "2026-05-15",
         "count": 1
-      },
-      "Holography": {
-        "first_seen": "2026-05-15",
-        "count": 2
       },
       "String Theory": {
         "first_seen": "2026-05-15",
@@ -1885,10 +2246,6 @@
         "count": 2
       },
       "Quantum Compilation": {
-        "first_seen": "2026-05-15",
-        "count": 1
-      },
-      "Modified Gravity": {
         "first_seen": "2026-05-15",
         "count": 1
       },
@@ -1908,19 +2265,11 @@
         "first_seen": "2026-05-15",
         "count": 1
       },
-      "Wormholes": {
-        "first_seen": "2026-05-15",
-        "count": 1
-      },
       "Spin Qubits": {
         "first_seen": "2026-05-15",
         "count": 1
       },
       "Topological Order": {
-        "first_seen": "2026-05-15",
-        "count": 1
-      },
-      "Gravitational Waves": {
         "first_seen": "2026-05-15",
         "count": 1
       },
@@ -1974,12 +2323,54 @@
       }
     },
     "tag_counts": {
-      "Quantum Gravity": 18,
+      "Loop Quantum Gravity": 4,
+      "Quantum Cosmology": 5,
+      "Neural Quantum States": 1,
+      "Coherent States": 1,
+      "Semiclassical Limit": 1,
+      "Loop Quantum Black Holes": 1,
+      "Quasinormal Modes": 1,
+      "Gravitational Waves": 2,
+      "Quantum Gravity Phenomenology": 1,
+      "Problem of Time": 1,
+      "Path Integral": 1,
+      "Spin Foam": 1,
+      "Black Hole Thermodynamics": 5,
+      "Generalized Entropy": 1,
+      "Scalar-Tensor Gravity": 1,
+      "Quantum Gravity Corrections": 1,
+      "Cosmology": 2,
+      "Quantum Gravity": 19,
+      "Renormalization": 1,
+      "Unitarity": 1,
+      "Gravity Research Foundation": 2,
+      "Modified Gravity": 2,
+      "Quantum Uncertainty": 1,
+      "Functional Renormalization Group": 2,
+      "Holography": 3,
+      "Emergent Geometry": 1,
+      "Ricci Flow": 1,
+      "Information Geometry": 1,
+      "Quantum Field Theory": 2,
+      "Wormholes": 2,
+      "Higher Curvature Gravity": 1,
+      "Energy Conditions": 1,
+      "General Relativity": 1,
+      "Quantum Information Theory": 1,
+      "Quantum Shannon Theory": 1,
+      "Compression": 1,
+      "Entanglement": 1,
+      "Many-Body Scars": 1,
+      "Quantum Cellular Automata": 1,
+      "Integrable Systems": 1,
+      "Thermalization": 1,
+      "Unconventional Superconductivity": 1,
+      "Nickelates": 1,
+      "Strongly Correlated Electrons": 1,
+      "Cuprates": 1,
       "Infrared Physics": 1,
       "Berry Phases": 1,
       "Black Hole Information": 1,
-      "Loop Quantum Gravity": 2,
-      "Quantum Cosmology": 3,
       "Kaluza-Klein": 1,
       "Inflation": 1,
       "Black Holes": 2,
@@ -1989,7 +2380,6 @@
       "Carroll Gravity": 1,
       "Non-Relativistic Gravity": 1,
       "Kerr Geometry": 1,
-      "Quantum Field Theory": 1,
       "Quantum Inequalities": 1,
       "Operator Algebras": 1,
       "Rényi Entropy": 1,
@@ -2039,22 +2429,17 @@
       "Many-Body Physics & Condensed Matter": 17,
       "Optics & Photonics": 8,
       "Experiment & Observation": 24,
-      "Black Hole Thermodynamics": 3,
       "Information Paradox": 1,
       "CMB Phenomenology": 1,
-      "Holography": 2,
       "String Theory": 1,
       "Quantum Information": 2,
       "Quantum Compilation": 1,
-      "Modified Gravity": 1,
       "Dark Energy": 1,
       "Condensed Matter": 2,
       "Quantum Geometry": 1,
       "Topology": 1,
-      "Wormholes": 1,
       "Spin Qubits": 1,
       "Topological Order": 1,
-      "Gravitational Waves": 1,
       "Quantum Optics": 1,
       "Double Copy": 1,
       "Classical Gravity": 1,
@@ -2070,6 +2455,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-05-19",
         "2026-05-18",
         "2026-05-15",
         "2026-05-14",
