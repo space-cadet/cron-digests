@@ -1,6 +1,15 @@
 {
-  "generated": "2026-05-19T04:48:25.397Z",
+  "generated": "2026-05-20T02:10:02.283Z",
   "digests": [
+    {
+      "date": "2026-05-20",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-05-20",
+      "categories": "cond-mat.str-el",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order, many-body physics",
+      "entries": []
+    },
     {
       "date": "2026-05-19",
       "type": "arxiv",
@@ -1890,7 +1899,7 @@
     }
   ],
   "stats": {
-    "total_digests": 14,
+    "total_digests": 15,
     "total_entries": 130,
     "unique_tags": {
       "Loop Quantum Gravity": {
@@ -2593,6 +2602,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-05-20",
         "2026-05-19",
         "2026-05-18",
         "2026-05-15",
