@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-20T02:59:39.452Z",
+  "generated": "2026-05-20T04:50:42.955Z",
   "digests": [
     {
       "date": "2026-05-20",
@@ -265,6 +265,68 @@
             "Fermi Surface Nesting",
             "Spin Fluctuations",
             "Density Functional Theory"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-20",
+      "categories": "Quanta Magazine + MIT News",
+      "items_found": 4,
+      "focus": "Foundations of Mathematics, Astronomy & Astrophysics, AI & Chemistry",
+      "entries": [
+        {
+          "num": 1,
+          "title": "What Do Gödel's Incompleteness Theorems Truly Mean?",
+          "source": "Quanta Magazine / Mathematics",
+          "url": "https://www.quantamagazine.org/what-do-godels-incompleteness-theorems-truly-mean-20260518/",
+          "summary": "In 1931, the 25-year-old Austrian logician Kurt Gödel proved a pair of theorems that transformed the landscape of knowledge and truth. By turning logic on itself, Gödel established that no formal system of mathematics — no finite set of axioms from which everything is supposed to follow — can ever be complete. There will always be true mathematical statements that do not logically follow from those axioms. Quanta columnist Natalie Wolchover unpacks the enduring implications of this proof for the nature of truth, knowledge, and the limits of formal reasoning.",
+          "relevance": "🔥 High — Gödel's theorems remain central to discussions in mathematical logic, philosophy of science, and even the theoretical limits of AI reasoning systems",
+          "tags": [
+            "Foundations of Mathematics",
+            "Philosophy of Science",
+            "Logic & Computation"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Rubin Tracks Skyscraper-Size Asteroids, Failed Supernovas, and Interstellar Visitors",
+          "source": "Quanta Magazine / Astronomy",
+          "url": "https://www.quantamagazine.org/rubin-tracks-skyscraper-size-asteroids-failed-supernovas-and-interstellar-visitors-20260515/",
+          "summary": "The Vera C. Rubin Observatory, perched in the Atacama Desert of Chile, is ushering in a new era of big-data astronomy. With its 8.4-meter mirror and massive 3.2-gigapixel camera, Rubin will image the entire southern sky every few nights for a decade. In its first year alone, scientists expect it to discover roughly 1 million new asteroids — as many as have been found in the previous 200 years — alongside thousands of comets, billions of stars and galaxies, and even interstellar visitors. The observatory is already producing its first results, tracking near-Earth objects and probing the nature of dark energy through time-domain cosmology.",
+          "relevance": "🔥 High — Rubin represents the largest step forward in survey astronomy since digital detectors were invented; its data will reshape planetary defense, cosmology, and variable-object astrophysics",
+          "tags": [
+            "Astronomy & Cosmology",
+            "Observation & Experiment",
+            "Dark Matter & Dark Energy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "The Haystack 37m Telescope: A new era of astrophysical research",
+          "source": "MIT News / Radio Astronomy",
+          "url": "https://news.mit.edu/2026/haystack-37m-telescope-new-era-astrophysical-research-0519",
+          "summary": "MIT Haystack Observatory's legendary 37-meter radio telescope has returned to front-line astronomical research after an extended period of system upgrades. First lit in 1964, the telescope supported NASA's Apollo lunar landings, mapped Venus by radar, tested Einstein's general relativity, and pioneered very long baseline interferometry (VLBI). On Dec. 8, 2025, Haystack scientists observed the supermassive black hole system M87* using VLBI in collaboration with the Very Long Baseline Array and the Greenland Telescope — probing the energetic jet launched from a black hole 6.5 billion times the mass of our sun and extending thousands of light-years into intergalactic space.",
+          "relevance": "🔥 High — The return of a historically significant instrument to active VLBI science strengthens global efforts to image and understand black hole jets and tests of general relativity",
+          "tags": [
+            "Gravitational Physics",
+            "Radio Astronomy",
+            "Observation & Experiment"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Building AI models that understand chemical principles",
+          "source": "MIT News / Chemical Engineering + Computer Science",
+          "url": "https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520",
+          "summary": "MIT Associate Professor Connor Coley is developing AI systems that do more than pattern-match molecular structures — they encode actual chemical principles to predict reaction pathways and design novel compounds. With an estimated 10²⁰ to 10⁶⁰ possible small-molecule drug candidates, brute-force experimental screening is impossible. Coley's research bridges chemical engineering and machine learning, using graph neural networks and physics-informed constraints to explore chemical space computationally. The goal is AI that can propose synthesizable molecules and predict how to make them, accelerating drug discovery and materials design.",
+          "relevance": "🔥 High — Represents a shift from black-box AI drug screening to models that embed causal chemical knowledge, with direct implications for pharmaceutical and materials research",
+          "tags": [
+            "AI & Machine Learning",
+            "Computational Chemistry",
+            "Technology & Engineering"
           ]
         }
       ]
@@ -2158,8 +2220,8 @@
     }
   ],
   "stats": {
-    "total_digests": 15,
-    "total_entries": 145,
+    "total_digests": 16,
+    "total_entries": 149,
     "unique_tags": {
       "Loop Quantum Cosmology": {
         "first_seen": "2026-05-20",
@@ -2445,6 +2507,50 @@
         "first_seen": "2026-05-20",
         "count": 1
       },
+      "Foundations of Mathematics": {
+        "first_seen": "2026-05-20",
+        "count": 1
+      },
+      "Philosophy of Science": {
+        "first_seen": "2026-05-20",
+        "count": 1
+      },
+      "Logic & Computation": {
+        "first_seen": "2026-05-20",
+        "count": 1
+      },
+      "Astronomy & Cosmology": {
+        "first_seen": "2026-05-20",
+        "count": 3
+      },
+      "Observation & Experiment": {
+        "first_seen": "2026-05-20",
+        "count": 3
+      },
+      "Dark Matter & Dark Energy": {
+        "first_seen": "2026-05-20",
+        "count": 2
+      },
+      "Gravitational Physics": {
+        "first_seen": "2026-05-20",
+        "count": 3
+      },
+      "Radio Astronomy": {
+        "first_seen": "2026-05-20",
+        "count": 1
+      },
+      "AI & Machine Learning": {
+        "first_seen": "2026-05-20",
+        "count": 2
+      },
+      "Computational Chemistry": {
+        "first_seen": "2026-05-20",
+        "count": 1
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-05-20",
+        "count": 29
+      },
       "Loop Quantum Gravity": {
         "first_seen": "2026-05-19",
         "count": 4
@@ -2593,14 +2699,6 @@
         "first_seen": "2026-05-19",
         "count": 1
       },
-      "Astronomy & Cosmology": {
-        "first_seen": "2026-05-19",
-        "count": 2
-      },
-      "Observation & Experiment": {
-        "first_seen": "2026-05-19",
-        "count": 1
-      },
       "Stellar Physics": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -2608,10 +2706,6 @@
       "Condensed Matter & Materials": {
         "first_seen": "2026-05-19",
         "count": 1
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-05-19",
-        "count": 28
       },
       "Optics & Photonics": {
         "first_seen": "2026-05-19",
@@ -2621,19 +2715,7 @@
         "first_seen": "2026-05-19",
         "count": 1
       },
-      "AI & Machine Learning": {
-        "first_seen": "2026-05-19",
-        "count": 1
-      },
       "Meta-Science": {
-        "first_seen": "2026-05-19",
-        "count": 1
-      },
-      "Gravitational Physics": {
-        "first_seen": "2026-05-19",
-        "count": 2
-      },
-      "Dark Matter & Dark Energy": {
         "first_seen": "2026-05-19",
         "count": 1
       },
@@ -3006,6 +3088,17 @@
       "Fermi Surface Nesting": 1,
       "Spin Fluctuations": 1,
       "Density Functional Theory": 1,
+      "Foundations of Mathematics": 1,
+      "Philosophy of Science": 1,
+      "Logic & Computation": 1,
+      "Astronomy & Cosmology": 3,
+      "Observation & Experiment": 3,
+      "Dark Matter & Dark Energy": 2,
+      "Gravitational Physics": 3,
+      "Radio Astronomy": 1,
+      "AI & Machine Learning": 2,
+      "Computational Chemistry": 1,
+      "Technology & Engineering": 29,
       "Loop Quantum Gravity": 4,
       "Quantum Cosmology": 5,
       "Neural Quantum States": 1,
@@ -3043,17 +3136,11 @@
       "Many-Body Scars": 1,
       "Quantum Cellular Automata": 1,
       "Integrable Systems": 1,
-      "Astronomy & Cosmology": 2,
-      "Observation & Experiment": 1,
       "Stellar Physics": 1,
       "Condensed Matter & Materials": 1,
-      "Technology & Engineering": 28,
       "Optics & Photonics": 9,
       "Science Policy & Education": 1,
-      "AI & Machine Learning": 1,
       "Meta-Science": 1,
-      "Gravitational Physics": 2,
-      "Dark Matter & Dark Energy": 1,
       "High-Energy Physics & Phenomenology": 10,
       "Field Theory & Mathematical Physics": 14,
       "Quantum Foundations": 1,
@@ -3141,6 +3228,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-05-20",
         "2026-05-19",
         "2026-05-18",
         "2026-05-15",
