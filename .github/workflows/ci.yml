@@ -45,19 +45,22 @@ jobs:
           echo "Running build-index.js..."
           node scripts/build-index.js
           echo "✅ Index rebuilt"
+        continue-on-error: true
 
       - name: Commit index changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          if git diff --quiet viewer/index.json viewer/index.db; then
-            echo "No index changes to commit"
+          # Also commit any new digest files that were pushed
+          git add -A arxiv/ web-science/ viewer/
+          
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
           else
-            git add viewer/index.json viewer/index.db
             git commit -m "chore(viewer): auto-rebuild index [ci skip]"
             git push
-            echo "✅ Index committed and pushed"
+            echo "✅ Index and digests committed and pushed"
           fi
 
       - name: Setup Pages
