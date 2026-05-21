@@ -47,12 +47,12 @@ jobs:
           echo "✅ Index rebuilt"
         continue-on-error: true
 
-      - name: Commit index changes
+      - name: Commit all changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Also commit any new digest files that were pushed
+          # Stage ALL changes including new digests pushed by cron
           git add -A arxiv/ web-science/ viewer/
           
           if git diff --cached --quiet; then
