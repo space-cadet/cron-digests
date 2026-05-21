@@ -1,6 +1,262 @@
 {
-  "generated": "2026-05-20T04:51:05.570Z",
+  "generated": "2026-05-21T06:21:55.332Z",
   "digests": [
+    {
+      "date": "2026-05-21",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-05-21",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 288,
+      "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order, many-body physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Approaching the surface of an Exotic Compact Object",
+          "authors": "Samir D. Mathur",
+          "arxiv_id": "2605.20013",
+          "url": "https://arxivite.org/abs/2605.20013",
+          "categories": "hep-th, gr-qc",
+          "summary": "Mathur investigates the structure near the surface of an exotic compact object, probing how quantum gravity effects modify the classical black hole horizon. The work connects to the fuzzball proposal as a resolution to the information paradox.",
+          "relevance": "Directly addresses black hole information paradox and exotic compact objects — core to quantum gravity research.",
+          "tags": [
+            "black-hole information",
+            "exotic-compact-objects",
+            "fuzzballs",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The Role of Gravitational Energy Flux in Cosmic Acceleration",
+          "authors": "James M. Hill",
+          "arxiv_id": "2605.20063",
+          "url": "https://arxivite.org/abs/2605.20063",
+          "categories": "gr-qc",
+          "summary": "This paper examines how gravitational energy flux contributes to cosmic acceleration within a teleparallel framework. It offers an alternative perspective on dark energy through the lens of gravitational energy-momentum.",
+          "relevance": "Relevant to quantum cosmology and modified gravity approaches to cosmic acceleration.",
+          "tags": [
+            "cosmic-acceleration",
+            "teleparallel-gravity",
+            "dark-energy",
+            "gravitational-energy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Iterative Solution of the Kerr Black Hole Metric",
+          "authors": "Yuta Hamada, Hikaru Kawai",
+          "arxiv_id": "2605.19948",
+          "url": "https://arxivite.org/abs/2605.19948",
+          "categories": "hep-th, gr-qc",
+          "summary": "The authors present an iterative method to solve the Kerr metric, providing a systematic expansion that improves on standard perturbative approaches. This technique has applications for precise calculations of black hole perturbations and quasinormal modes.",
+          "relevance": "Exact and approximate Kerr solutions are foundational for black hole thermodynamics and gravitational wave physics.",
+          "tags": [
+            "Kerr-metric",
+            "black-holes",
+            "perturbation-theory",
+            "exact-solutions"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Hamiltonian formalism, master functions and Darboux transformations for perturbed black holes",
+          "authors": "Andrzej W. Włodarczyk, Edward Winstanley",
+          "arxiv_id": "2605.19829",
+          "url": "https://arxivite.org/abs/2605.19829",
+          "categories": "gr-qc",
+          "summary": "This paper develops a Hamiltonian formalism for perturbed black holes using master functions and Darboux transformations. It provides a unified framework for handling perturbations across different black hole backgrounds.",
+          "relevance": "Black hole perturbation theory is essential for understanding Hawking radiation, greybody factors, and quasinormal modes — all central to black hole thermodynamics.",
+          "tags": [
+            "black-hole-perturbations",
+            "master-functions",
+            "Darboux-transformations",
+            "Hamiltonian-formalism"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Microcanonical Energy Sharing and Page-like Curve for Capacity of Entanglement",
+          "authors": "Raul Arias",
+          "arxiv_id": "2605.19725",
+          "url": "https://arxivite.org/abs/2605.19725",
+          "categories": "hep-th, gr-qc, quant-ph",
+          "summary": "Arias studies how entanglement capacity evolves in a microcanonical ensemble, finding a Page-curve-like behavior for energy sharing between subsystems. The result bridges quantum information and gravitational thermodynamics.",
+          "relevance": "The Page curve is a cornerstone of the black hole information paradox; this work connects it to microcanonical quantum statistical mechanics.",
+          "tags": [
+            "Page-curve",
+            "entanglement",
+            "microcanonical-ensemble",
+            "black-hole-information",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Spin-Hair Induced Chaos of Spinning Test Particles in Rotating Hairy Black Holes",
+          "authors": "Wen-Biao Han, Jun-Kun Zhao",
+          "arxiv_id": "2605.19673",
+          "url": "https://arxivite.org/abs/2605.19673",
+          "categories": "gr-qc, hep-th, nlin.CD",
+          "summary": "The authors analyze the chaotic dynamics of spinning test particles around rotating hairy black holes, showing that spin-orbit coupling and black hole hair produce rich chaotic phase spaces. This has implications for stability and accretion physics.",
+          "relevance": "Hairy black holes and test particle chaos are active frontiers in beyond-GR black hole physics.",
+          "tags": [
+            "hairy-black-holes",
+            "chaos",
+            "spinning-test-particles",
+            "beyond-GR"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Large Order Enumerative Geometry, Black Holes and Black Rings",
+          "authors": "Sayantani Bhattacharya, Rajesh Kumar Gupta",
+          "arxiv_id": "2605.19552",
+          "url": "https://arxivite.org/abs/2605.19552",
+          "categories": "hep-th",
+          "summary": "This paper connects large-order growth in enumerative geometry to black hole and black ring entropy in string theory. It uses resurgence and transseries methods to understand non-perturbative effects in the topological string.",
+          "relevance": "Resurgence in black hole entropy connects quantum gravity, string theory, and mathematical physics.",
+          "tags": [
+            "black-holes",
+            "black-rings",
+            "enumerative-geometry",
+            "resurgence",
+            "string-theory"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Modular Self-Duality, Relative Entropy, and Holographic spacetime reconstruction",
+          "authors": "Elena Caceres, Arnab Kundu, Shesansu Sekhar Pal",
+          "arxiv_id": "2605.19106",
+          "url": "https://arxivite.org/abs/2605.19106",
+          "categories": "hep-th, quant-ph",
+          "summary": "The authors explore modular self-duality in the context of relative entropy and use it to reconstruct holographic spacetime. They draw connections between quantum information-theoretic quantities and emergent geometry.",
+          "relevance": "Holographic spacetime reconstruction via quantum information is a central theme in modern quantum gravity (It from Qubit).",
+          "tags": [
+            "holography",
+            "relative-entropy",
+            "modular-theory",
+            "spacetime-reconstruction",
+            "quantum-information"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Covariant unification of holographic c-functions",
+          "authors": "Ioannis Katsinis",
+          "arxiv_id": "2605.18942",
+          "url": "https://arxivite.org/abs/2605.18942",
+          "categories": "hep-th, gr-qc",
+          "summary": "Katsinis proposes a covariant framework that unifies various holographic c-functions used to characterize renormalization group flows. The construction is valid across dimensions and reduces to known cases in the appropriate limits.",
+          "relevance": "Holographic c-functions are key probes of quantum field theory dynamics and constraints from quantum gravity (e.g., a-theorem).",
+          "tags": [
+            "holographic-c-functions",
+            "RG-flows",
+            "quantum-gravity",
+            "higher-dimensions"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Quantum algorithm for Discrete Gaussian Sampling",
+          "authors": "(see arXiv page for full author list)",
+          "arxiv_id": "2605.20133",
+          "url": "https://arxivite.org/abs/2605.20133",
+          "categories": "quant-ph",
+          "summary": "This work develops a quantum algorithm for discrete Gaussian sampling, a fundamental subroutine in lattice-based cryptography and quantum-safe protocols. The approach leverages quantum walks to achieve speedups over classical methods.",
+          "relevance": "Discrete Gaussian sampling is critical for post-quantum cryptography and lattice-based quantum algorithms.",
+          "tags": [
+            "quantum-algorithms",
+            "discrete-Gaussian-sampling",
+            "lattice-cryptography",
+            "post-quantum-crypto"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Quantum Algorithms for Nonlinear Differential Equations",
+          "authors": "Shantanu K. Prasad, Shyam S. Prasad",
+          "arxiv_id": "2605.20071",
+          "url": "https://arxivite.org/abs/2605.20071",
+          "categories": "quant-ph",
+          "summary": "The authors propose quantum algorithms for solving nonlinear differential equations, extending beyond the linear regime that dominates most quantum algorithm literature. They analyze query complexity and provide resource estimates.",
+          "relevance": "Nonlinear differential equations appear across physics (fluid dynamics, general relativity, plasma physics); quantum speedups here would be broadly impactful.",
+          "tags": [
+            "quantum-algorithms",
+            "nonlinear-PDEs",
+            "quantum-computing",
+            "query-complexity"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Clifford symmetries in quantum many-body systems",
+          "authors": "Charlie Nation, Rick P. A. Simon, Shreya Banerjee, Francesco Martini, Alessandro Ricottone, Federico Cerisola, Luca Dellantonio",
+          "arxiv_id": "2605.18966",
+          "url": "https://arxivite.org/abs/2605.18966",
+          "categories": "quant-ph",
+          "summary": "This paper studies Clifford symmetries — a discrete subgroup of unitary symmetries — in quantum many-body systems. It classifies how these symmetries constrain dynamics and identifies protected phases.",
+          "relevance": "Clifford symmetries underpin stabilizer codes and many-body entanglement structure; relevant to quantum error correction and topological order.",
+          "tags": [
+            "Clifford-symmetries",
+            "quantum-many-body",
+            "stabilizer-codes",
+            "topological-phases"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "4D and 5D Layer Codes through Color Routing",
+          "authors": "Andrew C. Yuan, Nouédyn Baspin",
+          "arxiv_id": "2605.18961",
+          "url": "https://arxivite.org/abs/2605.18961",
+          "categories": "quant-ph, cs.IT, math-ph",
+          "summary": "Yuan and Baspin construct 4D and 5D topological layer codes using a color routing technique. These codes generalize surface codes to higher dimensions with improved thresholds and fault-tolerant properties.",
+          "relevance": "Higher-dimensional topological codes are promising for fault-tolerant quantum computing; color routing offers a new construction paradigm.",
+          "tags": [
+            "topological-codes",
+            "quantum-error-correction",
+            "layer-codes",
+            "color-routing",
+            "higher-dimensions"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Modified logarithmic Sobolev inequalities for Abelian quantum double models",
+          "authors": "Nicholas P. Breuckmann, Ishaan Kannan",
+          "arxiv_id": "2605.19640",
+          "url": "https://arxivite.org/abs/2605.19640",
+          "categories": "quant-ph, math-ph, math.PR",
+          "summary": "The authors establish modified logarithmic Sobolev inequalities for Abelian quantum double models (e.g., Kitaev's toric code). These inequalities quantify mixing times and connect to the stability of topological quantum memory.",
+          "relevance": "Quantum double models are canonical examples of topological order; understanding their mixing and stability is essential for topological quantum computing.",
+          "tags": [
+            "quantum-double-models",
+            "topological-order",
+            "Sobolev-inequalities",
+            "toric-code",
+            "mixing-times"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Non-equilibrium quantum dynamics of interacting integrable models by Monte Carlo sampling Lehmann representations",
+          "authors": "Tejas Hegde, Diptiman Sen, Fabian H.L. Essler",
+          "arxiv_id": "2605.20065",
+          "url": "https://arxivite.org/abs/2605.20065",
+          "categories": "cond-mat.stat-mech, cond-mat.quant-gas, quant-ph",
+          "summary": "This paper presents a Monte Carlo method for sampling Lehmann representations to study non-equilibrium dynamics in interacting integrable models. It enables calculations of transport and correlation functions beyond existing analytical techniques.",
+          "relevance": "Essler is a leading figure in integrable models; this method bridges exact integrability with numerical many-body physics, relevant to cold atoms and condensed matter.",
+          "tags": [
+            "integrable-models",
+            "non-equilibrium-dynamics",
+            "Monte-Carlo",
+            "Lehmann-representation",
+            "many-body-physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-20",
       "type": "arxiv",
@@ -2220,9 +2476,253 @@
     }
   ],
   "stats": {
-    "total_digests": 16,
-    "total_entries": 149,
+    "total_digests": 17,
+    "total_entries": 164,
     "unique_tags": {
+      "black-hole information": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "exotic-compact-objects": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "fuzzballs": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-05-21",
+        "count": 3
+      },
+      "cosmic-acceleration": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "teleparallel-gravity": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "dark-energy": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "gravitational-energy": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "Kerr-metric": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "black-holes": {
+        "first_seen": "2026-05-21",
+        "count": 2
+      },
+      "perturbation-theory": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "exact-solutions": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "black-hole-perturbations": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "master-functions": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "Darboux-transformations": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "Hamiltonian-formalism": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "Page-curve": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "entanglement": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "microcanonical-ensemble": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "black-hole-information": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "hairy-black-holes": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "chaos": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "spinning-test-particles": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "beyond-GR": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "black-rings": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "enumerative-geometry": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "resurgence": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "string-theory": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "holography": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "relative-entropy": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "modular-theory": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "spacetime-reconstruction": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "quantum-information": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "holographic-c-functions": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "RG-flows": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "higher-dimensions": {
+        "first_seen": "2026-05-21",
+        "count": 2
+      },
+      "quantum-algorithms": {
+        "first_seen": "2026-05-21",
+        "count": 2
+      },
+      "discrete-Gaussian-sampling": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "lattice-cryptography": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "post-quantum-crypto": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "nonlinear-PDEs": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "quantum-computing": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "query-complexity": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "Clifford-symmetries": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "quantum-many-body": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "stabilizer-codes": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "topological-phases": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "topological-codes": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "quantum-error-correction": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "layer-codes": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "color-routing": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "quantum-double-models": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "topological-order": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "Sobolev-inequalities": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "toric-code": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "mixing-times": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "integrable-models": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "non-equilibrium-dynamics": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "Monte-Carlo": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "Lehmann-representation": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "many-body-physics": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
       "Loop Quantum Cosmology": {
         "first_seen": "2026-05-20",
         "count": 1
@@ -3017,6 +3517,67 @@
       }
     },
     "tag_counts": {
+      "black-hole information": 1,
+      "exotic-compact-objects": 1,
+      "fuzzballs": 1,
+      "quantum-gravity": 3,
+      "cosmic-acceleration": 1,
+      "teleparallel-gravity": 1,
+      "dark-energy": 1,
+      "gravitational-energy": 1,
+      "Kerr-metric": 1,
+      "black-holes": 2,
+      "perturbation-theory": 1,
+      "exact-solutions": 1,
+      "black-hole-perturbations": 1,
+      "master-functions": 1,
+      "Darboux-transformations": 1,
+      "Hamiltonian-formalism": 1,
+      "Page-curve": 1,
+      "entanglement": 1,
+      "microcanonical-ensemble": 1,
+      "black-hole-information": 1,
+      "hairy-black-holes": 1,
+      "chaos": 1,
+      "spinning-test-particles": 1,
+      "beyond-GR": 1,
+      "black-rings": 1,
+      "enumerative-geometry": 1,
+      "resurgence": 1,
+      "string-theory": 1,
+      "holography": 1,
+      "relative-entropy": 1,
+      "modular-theory": 1,
+      "spacetime-reconstruction": 1,
+      "quantum-information": 1,
+      "holographic-c-functions": 1,
+      "RG-flows": 1,
+      "higher-dimensions": 2,
+      "quantum-algorithms": 2,
+      "discrete-Gaussian-sampling": 1,
+      "lattice-cryptography": 1,
+      "post-quantum-crypto": 1,
+      "nonlinear-PDEs": 1,
+      "quantum-computing": 1,
+      "query-complexity": 1,
+      "Clifford-symmetries": 1,
+      "quantum-many-body": 1,
+      "stabilizer-codes": 1,
+      "topological-phases": 1,
+      "topological-codes": 1,
+      "quantum-error-correction": 1,
+      "layer-codes": 1,
+      "color-routing": 1,
+      "quantum-double-models": 1,
+      "topological-order": 1,
+      "Sobolev-inequalities": 1,
+      "toric-code": 1,
+      "mixing-times": 1,
+      "integrable-models": 1,
+      "non-equilibrium-dynamics": 1,
+      "Monte-Carlo": 1,
+      "Lehmann-representation": 1,
+      "many-body-physics": 1,
       "Loop Quantum Cosmology": 1,
       "Inflation": 2,
       "Dark Energy": 2,
@@ -3218,6 +3779,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-05-21",
         "2026-05-20",
         "2026-05-19",
         "2026-05-18",
