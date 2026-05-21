@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T06:50:33.982Z",
+  "generated": "2026-05-21T06:54:45.277Z",
   "digests": [
     {
       "date": "2026-05-21",
@@ -261,29 +261,16 @@
       "date": "2026-05-21",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-21",
-      "categories": "Phys.org, ScienceDaily, Quanta Magazine, MIT News",
+      "categories": "Phys.org + ScienceDaily",
       "items_found": 6,
-      "focus": "Quantum sensors, condensed matter, foundations of mathematics, dark matter detection",
+      "focus": "Quantum sensors, spin glass, quantum imaging, muon anomaly, quantum teleportation",
       "entries": [
         {
           "num": 1,
-          "title": "Quantum sensors use atoms, electrons and light as ultra-steady rulers",
-          "source": "Phys.org",
-          "url": "https://phys.org/news/2026-05-quantum-sensors-atoms-electrons-ultrasteady.html",
-          "summary": "Quantum sensors are already doing useful work measuring fields, forces and motion so small that ordinary background noise would swamp them. Unlike quantum computers which get most of the attention, these sensors use atoms, electrons and light as ultra-steady rulers to detect tiny signals.",
-          "relevance": "Quantum sensing is a near-term quantum technology with immediate applications in navigation, medical imaging, and fundamental physics measurements. This highlights the practical side of quantum mechanics beyond computing.",
-          "tags": [
-            "quantum sensing",
-            "quantum technology",
-            "precision measurement"
-          ]
-        },
-        {
-          "num": 2,
           "title": "The complete evolution of spin glass from order to chaos",
-          "source": "Phys.org",
+          "source": "Phys.org / General Physics",
           "url": "https://phys.org/news/2026-05-evolution-glass-chaos.html",
-          "summary": "Researchers have mapped the complete evolution of spin glass — a magnetic system with competing interactions — from ordered states to chaotic behavior. The work addresses how disorder emerges in a universe where elementary particles follow strict physical laws.",
+          "summary": "How come our universe is full of disorder, when all elementary particles appear to follow strictly ordered laws of physics? And are there organizing principles behind disorder and apparent chaos? Researchers have mapped the complete evolution of spin glass — a magnetic system with competing interactions — from ordered states to chaotic behavior.",
           "relevance": "Spin glasses are model systems for understanding complex disordered systems in physics, computer science, and even machine learning. The transition from order to chaos is a fundamental problem in statistical mechanics.",
           "tags": [
             "spin glass",
@@ -293,63 +280,75 @@
           ]
         },
         {
-          "num": 3,
-          "title": "New Quantum Sensor Could Count Individual Photons and Hunt Dark Matter",
-          "source": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260520075027.htm",
-          "summary": "Researchers have built an ultra-sensitive sensor capable of detecting energy below one zeptojoule using fragile superconducting materials that react to even the slightest temperature change. The device could count individual photons and potentially detect dark matter interactions.",
-          "relevance": "This represents a major advance in ultra-sensitive detection with applications in quantum optics, dark matter searches, and fundamental physics experiments requiring single-photon resolution.",
+          "num": 2,
+          "title": "Quantum sensors use atoms, electrons and light as ultra-steady rulers",
+          "source": "Phys.org / General Physics",
+          "url": "https://phys.org/news/2026-05-quantum-sensors-atoms-electrons-ultrasteady.html",
+          "summary": "Quantum computers get a lot of attention, even though they are not ready for prime time, but quantum sensors are already doing useful work. These sensors measure fields, forces and motion so small that ordinary background noise would swamp them, using atoms, electrons and light as ultra-steady rulers.",
+          "relevance": "Quantum sensing is a near-term quantum technology with immediate applications in navigation, medical imaging, and fundamental physics measurements. These sensors use atoms, electrons and light as ultra-steady rulers to detect tiny signals beyond classical limits.",
           "tags": [
-            "quantum sensor",
-            "dark matter",
-            "superconductivity",
-            "single photon detection"
+            "quantum sensing",
+            "quantum technology",
+            "precision measurement",
+            "optics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "The quantum key to seeing through chaos",
+          "source": "Phys.org / General Physics",
+          "url": "https://phys.org/news/2026-05-quantum-key-chaos.html",
+          "summary": "Researchers from the Institut des NanoSciences de Paris, the Kastler Brossel Laboratory and the University of Glasgow have developed an innovative method that renders a scattering medium transparent solely for information carried by quantum states.",
+          "relevance": "This method could enable imaging through scattering media such as biological tissue, fog, or turbid water — with applications in biomedical imaging, remote sensing, and quantum communication.",
+          "tags": [
+            "quantum optics",
+            "scattering",
+            "imaging",
+            "quantum communication"
           ]
         },
         {
           "num": 4,
-          "title": "Two Researchers Are Rebuilding Mathematics From the Ground Up",
-          "source": "Quanta Magazine",
-          "url": "https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520/",
-          "summary": "Peter Scholze and Dustin Clausen are replacing the most fundamental concept in topology — topological spaces — with a new framework called condensed mathematics. This is the first step in a larger program to understand why numbers behave the way they do.",
-          "relevance": "Condensed mathematics aims to solve long-standing problems in algebraic geometry and number theory by providing a more robust foundation. This work could eventually impact areas of physics that rely on sophisticated mathematical structures.",
+          "title": "Quantum Breakthrough Could Revolutionize Teleportation and Computing",
+          "source": "ScienceDaily / General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260513034640.htm",
+          "summary": "Quantum entanglement is one of the strangest features of the quantum world. It describes a situation in which particles such as photons are so deeply linked that their properties cannot be fully understood one by one. Instead, the system has to be treated as a whole. Researchers have developed a new way to instantly detect elusive quantum \"W states,\" a major milestone for quantum technology.",
+          "relevance": "W states are essential for quantum teleportation and quantum error correction. An efficient detection method could accelerate the development of practical quantum networks and distributed quantum computing.",
           "tags": [
-            "condensed mathematics",
-            "algebraic geometry",
-            "foundations",
-            "topology",
-            "Peter Scholze"
+            "quantum entanglement",
+            "W states",
+            "quantum teleportation",
+            "quantum computing"
           ]
         },
         {
           "num": 5,
-          "title": "A new way to spot signs of dark matter",
-          "source": "MIT News",
-          "url": "https://news.mit.edu/2026/new-way-spot-signs-dark-matter-0512",
-          "summary": "MIT researchers propose that gravitational waves emitted by colliding black holes may bear imprints of dark matter. A new model suggests physicists could detect these signatures, offering a novel way to probe the elusive substance that makes up most of the universe's mass.",
-          "relevance": "Dark matter remains one of the biggest mysteries in physics. Using gravitational wave observations — now routine with LIGO/Virgo/KAGRA — to probe dark matter properties is an innovative cross-disciplinary approach.",
+          "title": "Scientists Were Wrong About This \"Rule-breaking\" Particle",
+          "source": "ScienceDaily / General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260518041439.htm",
+          "summary": "For decades, a puzzling discrepancy involving a tiny subatomic particle called the muon fueled speculation that physicists might be on the verge of discovering an entirely new force of nature. Now, an international research team led by a Penn State physicist says the mystery appears to have been solved — the apparent anomaly was likely a calculation error.",
+          "relevance": "The muon g-2 anomaly fueled speculation about a new force of nature. If the discrepancy is resolved as a calculation error, it narrows the search for physics beyond the Standard Model — but also highlights the importance of precision theory.",
           "tags": [
-            "dark matter",
-            "gravitational waves",
-            "black holes",
-            "LIGO",
-            "MIT"
+            "muon",
+            "g-2",
+            "Standard Model",
+            "particle physics",
+            "lattice QCD"
           ]
         },
         {
           "num": 6,
-          "title": "AI Reveals the Invisible Magnetic Chaos Wasting Energy Inside Electric Motors",
-          "source": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260518075027.htm",
-          "summary": "Researchers in Japan have developed an AI-driven method to visualize and analyze magnetic energy loss inside electric motors. The technique could help design more efficient motors for electric vehicles by revealing previously hidden patterns of magnetic chaos.",
-          "relevance": "As electric vehicles become widespread, improving motor efficiency is critical for range and sustainability. AI-driven materials characterization represents a growing intersection of machine learning and applied physics.",
+          "title": "Quantum Ghost Imaging Works Using Only Sunlight in Stunning New Experiment",
+          "source": "ScienceDaily / General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260517211424.htm",
+          "summary": "Correlated and entangled photon pairs are essential tools in quantum optics. Scientists usually create these photon pairs through a process called spontaneous parametric down-conversion (SPDC), which depends heavily on precise laboratory lasers. Now, researchers have achieved quantum ghost imaging using only sunlight.",
+          "relevance": "Using sunlight instead of laboratory lasers for quantum imaging removes a major barrier to practical quantum optics applications outdoors. This could enable quantum-enhanced imaging in natural environments.",
           "tags": [
-            "AI",
-            "machine learning",
-            "electric motors",
-            "magnetism",
-            "energy efficiency",
-            "materials science"
+            "quantum imaging",
+            "ghost imaging",
+            "SPDC",
+            "sunlight",
+            "quantum optics"
           ]
         }
       ]
@@ -2820,18 +2819,6 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "quantum sensing": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "quantum technology": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "precision measurement": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
       "spin glass": {
         "first_seen": "2026-05-21",
         "count": 1
@@ -2848,79 +2835,87 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "quantum sensor": {
+      "quantum sensing": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "dark matter": {
+      "quantum technology": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "precision measurement": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "optics": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "quantum optics": {
         "first_seen": "2026-05-21",
         "count": 2
       },
-      "superconductivity": {
+      "scattering": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "single photon detection": {
+      "imaging": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "condensed mathematics": {
+      "quantum communication": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "algebraic geometry": {
+      "quantum entanglement": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "foundations": {
+      "W states": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "topology": {
+      "quantum teleportation": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "Peter Scholze": {
+      "quantum computing": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "gravitational waves": {
+      "muon": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "black holes": {
+      "g-2": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "LIGO": {
+      "Standard Model": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "MIT": {
+      "particle physics": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "AI": {
+      "lattice QCD": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "machine learning": {
+      "quantum imaging": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "electric motors": {
+      "ghost imaging": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "magnetism": {
+      "SPDC": {
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "energy efficiency": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "materials science": {
+      "sunlight": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -3779,32 +3774,31 @@
       "Monte-Carlo": 1,
       "Lehmann-representation": 1,
       "many-body-physics": 1,
-      "quantum sensing": 1,
-      "quantum technology": 1,
-      "precision measurement": 1,
       "spin glass": 1,
       "condensed matter": 1,
       "disorder": 1,
       "statistical mechanics": 1,
-      "quantum sensor": 1,
-      "dark matter": 2,
-      "superconductivity": 1,
-      "single photon detection": 1,
-      "condensed mathematics": 1,
-      "algebraic geometry": 1,
-      "foundations": 1,
-      "topology": 1,
-      "Peter Scholze": 1,
-      "gravitational waves": 1,
-      "black holes": 1,
-      "LIGO": 1,
-      "MIT": 1,
-      "AI": 1,
-      "machine learning": 1,
-      "electric motors": 1,
-      "magnetism": 1,
-      "energy efficiency": 1,
-      "materials science": 1,
+      "quantum sensing": 1,
+      "quantum technology": 1,
+      "precision measurement": 1,
+      "optics": 1,
+      "quantum optics": 2,
+      "scattering": 1,
+      "imaging": 1,
+      "quantum communication": 1,
+      "quantum entanglement": 1,
+      "W states": 1,
+      "quantum teleportation": 1,
+      "quantum computing": 1,
+      "muon": 1,
+      "g-2": 1,
+      "Standard Model": 1,
+      "particle physics": 1,
+      "lattice QCD": 1,
+      "quantum imaging": 1,
+      "ghost imaging": 1,
+      "SPDC": 1,
+      "sunlight": 1,
       "Loop Quantum Cosmology": 1,
       "Inflation": 2,
       "Dark Energy": 2,
