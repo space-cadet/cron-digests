@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T06:50:08.132Z",
+  "generated": "2026-05-21T06:50:33.982Z",
   "digests": [
     {
       "date": "2026-05-21",
@@ -10,7 +10,7 @@
       "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order, many-body physics",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Approaching the surface of an Exotic Compact Object",
           "authors": "Samir D. Mathur",
           "arxiv_id": "2605.20013",
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "The Role of Gravitational Energy Flux in Cosmic Acceleration",
           "authors": "James M. Hill",
           "arxiv_id": "2605.20063",
@@ -42,7 +42,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Iterative Solution of the Kerr Black Hole Metric",
           "authors": "Yuta Hamada, Hikaru Kawai",
           "arxiv_id": "2605.19948",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Hamiltonian formalism, master functions and Darboux transformations for perturbed black holes",
           "authors": "Andrzej W. Włodarczyk, Edward Winstanley",
           "arxiv_id": "2605.19829",
@@ -74,7 +74,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "Microcanonical Energy Sharing and Page-like Curve for Capacity of Entanglement",
           "authors": "Raul Arias",
           "arxiv_id": "2605.19725",
@@ -91,7 +91,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Spin-Hair Induced Chaos of Spinning Test Particles in Rotating Hairy Black Holes",
           "authors": "Wen-Biao Han, Jun-Kun Zhao",
           "arxiv_id": "2605.19673",
@@ -107,7 +107,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "Large Order Enumerative Geometry, Black Holes and Black Rings",
           "authors": "Sayantani Bhattacharya, Rajesh Kumar Gupta",
           "arxiv_id": "2605.19552",
@@ -124,7 +124,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Modular Self-Duality, Relative Entropy, and Holographic spacetime reconstruction",
           "authors": "Elena Caceres, Arnab Kundu, Shesansu Sekhar Pal",
           "arxiv_id": "2605.19106",
@@ -141,7 +141,7 @@
           ]
         },
         {
-          "number": 9,
+          "num": 9,
           "title": "Covariant unification of holographic c-functions",
           "authors": "Ioannis Katsinis",
           "arxiv_id": "2605.18942",
@@ -157,7 +157,7 @@
           ]
         },
         {
-          "number": 10,
+          "num": 10,
           "title": "Quantum algorithm for Discrete Gaussian Sampling",
           "authors": "(see arXiv page for full author list)",
           "arxiv_id": "2605.20133",
@@ -173,7 +173,7 @@
           ]
         },
         {
-          "number": 11,
+          "num": 11,
           "title": "Quantum Algorithms for Nonlinear Differential Equations",
           "authors": "Shantanu K. Prasad, Shyam S. Prasad",
           "arxiv_id": "2605.20071",
@@ -189,7 +189,7 @@
           ]
         },
         {
-          "number": 12,
+          "num": 12,
           "title": "Clifford symmetries in quantum many-body systems",
           "authors": "Charlie Nation, Rick P. A. Simon, Shreya Banerjee, Francesco Martini, Alessandro Ricottone, Federico Cerisola, Luca Dellantonio",
           "arxiv_id": "2605.18966",
@@ -205,7 +205,7 @@
           ]
         },
         {
-          "number": 13,
+          "num": 13,
           "title": "4D and 5D Layer Codes through Color Routing",
           "authors": "Andrew C. Yuan, Nouédyn Baspin",
           "arxiv_id": "2605.18961",
@@ -222,7 +222,7 @@
           ]
         },
         {
-          "number": 14,
+          "num": 14,
           "title": "Modified logarithmic Sobolev inequalities for Abelian quantum double models",
           "authors": "Nicholas P. Breuckmann, Ishaan Kannan",
           "arxiv_id": "2605.19640",
@@ -239,7 +239,7 @@
           ]
         },
         {
-          "number": 15,
+          "num": 15,
           "title": "Non-equilibrium quantum dynamics of interacting integrable models by Monte Carlo sampling Lehmann representations",
           "authors": "Tejas Hegde, Diptiman Sen, Fabian H.L. Essler",
           "arxiv_id": "2605.20065",
@@ -261,12 +261,12 @@
       "date": "2026-05-21",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-21",
-      "sites": "Phys.org, ScienceDaily, Quanta Magazine, MIT News",
+      "categories": "Phys.org, ScienceDaily, Quanta Magazine, MIT News",
       "items_found": 6,
       "focus": "Quantum sensors, condensed matter, foundations of mathematics, dark matter detection",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Quantum sensors use atoms, electrons and light as ultra-steady rulers",
           "source": "Phys.org",
           "url": "https://phys.org/news/2026-05-quantum-sensors-atoms-electrons-ultrasteady.html",
@@ -279,7 +279,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "The complete evolution of spin glass from order to chaos",
           "source": "Phys.org",
           "url": "https://phys.org/news/2026-05-evolution-glass-chaos.html",
@@ -293,7 +293,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "New Quantum Sensor Could Count Individual Photons and Hunt Dark Matter",
           "source": "ScienceDaily",
           "url": "https://www.sciencedaily.com/releases/2026/05/260520075027.htm",
@@ -307,7 +307,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Two Researchers Are Rebuilding Mathematics From the Ground Up",
           "source": "Quanta Magazine",
           "url": "https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520/",
@@ -322,7 +322,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "A new way to spot signs of dark matter",
           "source": "MIT News",
           "url": "https://news.mit.edu/2026/new-way-spot-signs-dark-matter-0512",
@@ -337,7 +337,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "AI Reveals the Invisible Magnetic Chaos Wasting Energy Inside Electric Motors",
           "source": "ScienceDaily",
           "url": "https://www.sciencedaily.com/releases/2026/05/260518075027.htm",
@@ -363,7 +363,7 @@
       "focus": "loop quantum cosmology, black hole decoherence, quasinormal modes, AdS/CFT decay, topological quantum computing, Kitaev spin liquids, superconducting cat qubits, anyon superconductivity, nickelate stripe dynamics, quantum XY model, quantum gravity condensates, fault-tolerant QEC, deconfined phase transitions, quantum state preparation, Fermi surface nesting",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Non-singular Inflation-Dark Energy Unification Model Based on Loop Quantum Cosmology and Mass-Varying Neutrinos",
           "authors": "Zhiming Shuai, Xiangdong Zhang",
           "arxiv_id": "2605.19791",
@@ -380,7 +380,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "On the Nature of Entangling Photons in Horizon-Induced Decoherence",
           "authors": "Max Joseph Fahn, Alessandro Pesci",
           "arxiv_id": "2605.19588",
@@ -397,7 +397,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Quasinormal Modes of Proca and Maxwell Fields in d-Dimensional Schwarzschild-AdS Black Holes",
           "authors": "David C. Lopes, Tiago V. Fernandes, José P. S. Lemos",
           "arxiv_id": "2605.18947",
@@ -415,7 +415,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "After the Fluid: Subexponential Decay in AdS₄",
           "authors": "John R. V. Crump, Jorge E. Santos",
           "arxiv_id": "2605.18978",
@@ -432,7 +432,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "Twisted Light Generates Robust Many-Body States for Practical Quantum Computing",
           "authors": "Ferney J. Rodriguez, Luis Quiroga, Neil F. Johnson",
           "arxiv_id": "2605.19873",
@@ -449,7 +449,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Band Structure and Topology of a Periodically Deformed Kitaev Honeycomb Model",
           "authors": "Abdullah AlJishi, Ali AlSwaid, Moayad Ekhwan, Hocine Bahlouli, Raditya Weda Bomantara, Michael Vogl",
           "arxiv_id": "2605.20181",
@@ -466,7 +466,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "Unveiling Energetic Advantage in Superconducting Cat-Qubits Quantum Computation",
           "authors": "Pedro Ramos, Marco Pezzutto, Yasser Omar",
           "arxiv_id": "2605.19854",
@@ -483,7 +483,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Hidden Weak-Pairing Superconductivity of Non-Interacting Anyons Obeying 1/3 Statistics",
           "authors": "Zheng-Duo Fan, Ashvin Vishwanath, Zijian Wang",
           "arxiv_id": "2605.19036",
@@ -500,7 +500,7 @@
           ]
         },
         {
-          "number": 9,
+          "num": 9,
           "title": "Imaging Stripe Dynamics in Trilayer Nickelate La₄Ni₃O₁₀",
           "authors": "Uladzislau Mikhailau, Luke Rhodes, Siri A. Berge, Matthias Hepting, Phil D. C. King, Antoine Georges, Peter Wahl",
           "arxiv_id": "2605.18954",
@@ -518,7 +518,7 @@
           ]
         },
         {
-          "number": 10,
+          "num": 10,
           "title": "Finite-Temperature Spin Diffusion in the Two-Dimensional XY Model",
           "authors": "Erik Fitzner, Byungjin Lee, Junhyeok Hur, Minseok Kim, Benedikt Schneider, Jae-yoon Choi, Björn Sbierski",
           "arxiv_id": "2605.20124",
@@ -536,7 +536,7 @@
           ]
         },
         {
-          "number": 11,
+          "num": 11,
           "title": "Collective Excitations in Quantum Gravity Condensates",
           "authors": "Andrea Calcinari, Adrià Delhom, Daniele Oriti",
           "arxiv_id": "2605.18977",
@@ -553,7 +553,7 @@
           ]
         },
         {
-          "number": 12,
+          "num": 12,
           "title": "Efficient Fault-Tolerant Ancilla Preparation for Quantum BCH Codes via Cyclic Symmetry",
           "authors": "Kohei Yamamoto, Keisuke Fujii",
           "arxiv_id": "2605.19471",
@@ -570,7 +570,7 @@
           ]
         },
         {
-          "number": 13,
+          "num": 13,
           "title": "Deconfined Boundary Phase Transition of a Quantum Critical Heisenberg Model",
           "authors": "Chengxiang Ding, Long Zhang",
           "arxiv_id": "2605.19011",
@@ -587,7 +587,7 @@
           ]
         },
         {
-          "number": 14,
+          "num": 14,
           "title": "Logical Resource Estimation for Quantum State Preparation with Compilation",
           "authors": "Diyi Liu, Hanyu Wang, Shuchen Zhu, Jason Cong, Jens Palsberg",
           "arxiv_id": "2605.18877",
@@ -604,7 +604,7 @@
           ]
         },
         {
-          "number": 15,
+          "num": 15,
           "title": "Nearly Perfect Fermi Surface Nesting in Hole-Doped La₃Ni₂O₇ Enables Bulk Superconductivity Without Pressure or Strain",
           "authors": "Chengliang Xia, Jiale Chen, Hongquan Liu, Hanghui Chen",
           "arxiv_id": "2605.19297",
@@ -626,12 +626,12 @@
       "date": "2026-05-20",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-20",
-      "sites": "Quanta Magazine + MIT News",
+      "categories": "Quanta Magazine + MIT News",
       "items_found": 4,
       "focus": "Foundations of Mathematics, Astronomy & Astrophysics, AI & Chemistry",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "What Do Gödel's Incompleteness Theorems Truly Mean?",
           "source": "Quanta Magazine / Mathematics",
           "url": "https://www.quantamagazine.org/what-do-godels-incompleteness-theorems-truly-mean-20260518/",
@@ -644,7 +644,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Rubin Tracks Skyscraper-Size Asteroids, Failed Supernovas, and Interstellar Visitors",
           "source": "Quanta Magazine / Astronomy",
           "url": "https://www.quantamagazine.org/rubin-tracks-skyscraper-size-asteroids-failed-supernovas-and-interstellar-visitors-20260515/",
@@ -657,7 +657,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "The Haystack 37m Telescope: A new era of astrophysical research",
           "source": "MIT News / Radio Astronomy",
           "url": "https://news.mit.edu/2026/haystack-37m-telescope-new-era-astrophysical-research-0519",
@@ -670,7 +670,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Building AI models that understand chemical principles",
           "source": "MIT News / Chemical Engineering + Computer Science",
           "url": "https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520",
@@ -693,7 +693,7 @@
       "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, path integral cosmology, quasinormal modes, scalar-tensor gravity, quantum information, condensed matter",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Emergent Thiemann Coherent States in Quantum Reduced Loop Gravity",
           "authors": "Ilkka Mäkinen, Hanno Sahlmann, Waleed Sherif",
           "arxiv_id": "2605.18625",
@@ -710,7 +710,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Quasinormal Modes of a Rotating Loop Quantum Black Hole",
           "authors": "Zhongzhinan Dong, Shulan Li, Dan Zhang, Jian-Pin Wu",
           "arxiv_id": "2605.18249",
@@ -726,7 +726,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "The Problem of Time: A Path Integral View",
           "authors": "Juan Manuel Diaz, Alejandro Perez",
           "arxiv_id": "2605.17935",
@@ -743,7 +743,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Scalar-Tensor Gravity as a Probe of Generalized Black Hole Entropy",
           "authors": "Hussain Gohar",
           "arxiv_id": "2605.18551",
@@ -760,7 +760,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "A Renormalizable and Unitary Approach to Quantum Gravity",
           "authors": "D. G. C. McKeon, F. T. Brandt, J. Frenkel, S. Martins-Filho",
           "arxiv_id": "2605.17817",
@@ -776,7 +776,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Natural Modification of Quantum Uncertainty, Modified Gravity, and Cosmology",
           "authors": "Christian G. Boehmer, Eissa Al-Nasrallah",
           "arxiv_id": "2605.18203",
@@ -792,7 +792,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "Emergent AdS Geometry and Black Hole Thermodynamics from Functional Renormalization Group",
           "authors": "Ki-Seok Kim",
           "arxiv_id": "2605.17209",
@@ -808,7 +808,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Functional Renormalization Group as a Ricci Flow: An F-Entropy Perspective",
           "authors": "Ki-Seok Kim",
           "arxiv_id": "2605.17215",
@@ -824,7 +824,7 @@
           ]
         },
         {
-          "number": 9,
+          "num": 9,
           "title": "Traversable Wormholes with Non-Exotic Matter: The Role of Higher Curvature Corrections",
           "authors": "M Daniel Ranjan, Soumya Chakrabarti, Sanjit Das",
           "arxiv_id": "2605.18376",
@@ -840,7 +840,7 @@
           ]
         },
         {
-          "number": 10,
+          "num": 10,
           "title": "Quantum Shannon Theory Made Robust: A Tale of Three Protocols for Almost i.i.d. Sources",
           "authors": "Filippo Girardi, Nilanjana Datta, Giacomo De Palma, Ludovico Lami",
           "arxiv_id": "2605.18726",
@@ -856,7 +856,7 @@
           ]
         },
         {
-          "number": 11,
+          "num": 11,
           "title": "Fibonacci Many-Body Scars in a Decorated Rule-54 Quantum Cellular Automaton",
           "authors": "Han-Ze Li, Jian-Xin Zhong",
           "arxiv_id": "2605.18622",
@@ -872,7 +872,7 @@
           ]
         },
         {
-          "number": 12,
+          "num": 12,
           "title": "Interlayer Electronic Coherence Links Magnetism and Superconductivity in Ruddlesden-Popper Nickelates",
           "authors": "Feiyang Liu, Lixing Chen, Enkang Zhang, Ying-Jie Zhang, Jun Zhao",
           "arxiv_id": "2605.18524",
@@ -893,12 +893,12 @@
       "date": "2026-05-19",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-19",
-      "sites": "Phys.org + ScienceDaily",
+      "categories": "Phys.org + ScienceDaily",
       "items_found": 6,
       "focus": "Astronomy & Cosmology, Quantum Physics, Fundamental Physics",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Supernova dust may be behind one of JWST's biggest puzzles",
           "source": "Phys.org / Astronomy",
           "url": "https://phys.org/news/2026-05-supernova-jwst-biggest-puzzles.html",
@@ -911,7 +911,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Ultrafast switching device unlocks low-power optical-to-electrical conversion for AI hardware",
           "source": "Phys.org / Condensed Matter",
           "url": "https://phys.org/news/2026-05-ultrafast-device-power-optical-electrical.html",
@@ -924,7 +924,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "AI-generated fake citations are flooding scientific literature across publications",
           "source": "Phys.org / Education (Meta-Science)",
           "url": "https://phys.org/news/2026-05-ai-generated-fake-citations-scientific.html",
@@ -937,7 +937,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "A Strange Ripple in Spacetime Could Be the First Fingerprint of Dark Matter",
           "source": "ScienceDaily / Physics",
           "url": "https://www.sciencedaily.com/releases/2026/05/260519075533.htm",
@@ -950,7 +950,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "String Theory Suddenly Emerged from Simple Physics Rules",
           "source": "ScienceDaily / Physics",
           "url": "https://www.sciencedaily.com/releases/2026/05/260519101456.htm",
@@ -963,7 +963,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Schrödinger's Clock: Time Could Tick Faster and Slower at the Same Time",
           "source": "ScienceDaily / Physics",
           "url": "https://www.sciencedaily.com/releases/2026/05/260518101234.htm",
@@ -986,7 +986,7 @@
       "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Quantum Gravity Beyond the Bulk",
           "authors": "Jorge Gamboa, Natalia Tapia-Arellano",
           "arxiv_id": "2605.15251",
@@ -1002,7 +1002,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Loop Quantum Kaluza-Klein Cosmology and Inflation",
           "authors": "Shengzhi Li, Yongge Ma, Faqiang Yuan, Xiangdong Zhang",
           "arxiv_id": "2605.15858",
@@ -1018,7 +1018,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Generating Rotation in a Snap",
           "authors": "Soumangsu Chakraborty, Pierre Heidmann, Gela Patashuri",
           "arxiv_id": "2605.15258",
@@ -1034,7 +1034,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Kerroll Black Holes",
           "authors": "Florian Ecker, Daniel Grumiller, Lucas Hörl, Mattéo Leturcq–Daligaux, Alfredo Pérez",
           "arxiv_id": "2605.15269",
@@ -1050,7 +1050,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "A General Proof of Integer Rényi QNEC",
           "authors": "Tanay Kibe, Pratik Roy",
           "arxiv_id": "2605.15272",
@@ -1066,7 +1066,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Dimensional Reduction of AdS₃ Chern-Simons Gravity",
           "authors": "Goffredo Chirco, Lucio Vacchiano, Patrizia Vitale",
           "arxiv_id": "2605.15293",
@@ -1083,7 +1083,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "Anomalous Transport from Effective Field Theory",
           "authors": "Rémy Larue, Amaury Marchon, Jérémie Quevillon, Diego Saviot",
           "arxiv_id": "2605.15968",
@@ -1099,7 +1099,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Synthesis and Optimization of Encoding Circuits for Fault-Tolerant Quantum Computation",
           "authors": "Tom Peham, Matthew Steinberg, Robert Wille, Sascha Heußen",
           "arxiv_id": "2605.15266",
@@ -1115,7 +1115,7 @@
           ]
         },
         {
-          "number": 9,
+          "num": 9,
           "title": "Towards Deploying Optimistic Quantum Fourier Transforms",
           "authors": "Pedro L. S. Lopes",
           "arxiv_id": "2605.15297",
@@ -1131,7 +1131,7 @@
           ]
         },
         {
-          "number": 10,
+          "num": 10,
           "title": "Beyond Unitary Quantum Simulation",
           "authors": "Michael Marthaler, Elias Zapusek, Florentin Reiter",
           "arxiv_id": "2605.15277",
@@ -1147,7 +1147,7 @@
           ]
         },
         {
-          "number": 11,
+          "num": 11,
           "title": "Measurement-Efficient VQLS for Carleman-Linearized Nonlinear Dynamics",
           "authors": "Yunya Liu, Pai Wang",
           "arxiv_id": "2605.15366",
@@ -1163,7 +1163,7 @@
           ]
         },
         {
-          "number": 12,
+          "num": 12,
           "title": "Unveiling Magnetic Frustration via the Elastocaloric Effect",
           "authors": "Eric C. Andrade, Pedro M. Cônsoli, Matthias Vojta",
           "arxiv_id": "2605.15274",
@@ -1179,7 +1179,7 @@
           ]
         },
         {
-          "number": 13,
+          "num": 13,
           "title": "Disorder-Driven Symmetry Suppression in a Magnetic Topological Insulator",
           "authors": "Rikkie Joris, Heyi Xia, Ana Beatriz Pedro Fontes, Seul-Ki Bac, Sara Bey, Jiaqi Zhou, Zviadi Zarkua, Ahmed Samir Lotfy, Muhammed Saad, Philippe Ohresser, Margriet van Bael, Clement Merckling, Xinyu Liu, Francisco Molina-Lopez, Jean-Christophe Charlier, Jin Won Seo, Badih A. Assaf, Lino M. C. Pereira",
           "arxiv_id": "2605.15332",
@@ -1195,7 +1195,7 @@
           ]
         },
         {
-          "number": 14,
+          "num": 14,
           "title": "Multifractal and Ergodic Properties of Conductance Fluctuations under Strong Disorder",
           "authors": "Marcos A. A. de Sousa, Heitor R. Publio, Henrique A. de Lima, Adauto J. F. de Souza, Fernando A. Oliveira, Anderson L. R. Barbosa",
           "arxiv_id": "2605.15447",
@@ -1211,7 +1211,7 @@
           ]
         },
         {
-          "number": 15,
+          "num": 15,
           "title": "Fractal Analysis of Disordered Magnetic Systems",
           "authors": "Klaus P. Hermann, Ismael S. S. Carrasco, Jairo R. L. de Almeida, Fernando A. Oliveira",
           "arxiv_id": "2605.15610",
@@ -1232,12 +1232,12 @@
       "date": "2026-05-18",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-18",
-      "sites": "Phys.org + ScienceDaily",
+      "categories": "Phys.org + ScienceDaily",
       "items_found": 6,
       "focus": "General Physics, General Science",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "String theory is uniquely derived from basic assumptions about the universe, physicists show",
           "source": "Phys.org / General Physics",
           "url": "https://phys.org/news/2026-05-theory-uniquely-derived-basic-assumptions.html",
@@ -1250,7 +1250,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Roadmap charts three paths to room-temperature quantum materials for cooler computing",
           "source": "Phys.org / Quantum Computing",
           "url": "https://phys.org/news/2026-05-roadmap-paths-room-temperature-quantum.html",
@@ -1263,7 +1263,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Physicists create hybrid light-matter particles that interact strongly enough to compute",
           "source": "Phys.org / Optics & Photonics",
           "url": "https://phys.org/news/2026-05-physicists-hybrid-particles-interact-strongly.html",
@@ -1276,7 +1276,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Quantum Breakthrough Could Revolutionize Teleportation and Computing",
           "source": "ScienceDaily / Quantum Physics",
           "url": "https://www.sciencedaily.com/releases/2026/05/260513034640.htm",
@@ -1289,7 +1289,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "New Quantum Algorithm Solves \"Impossible\" Materials Problem in Seconds",
           "source": "ScienceDaily / Quantum Computing",
           "url": "https://www.sciencedaily.com/releases/2026/05/260512202355.htm",
@@ -1302,7 +1302,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Scientists Just Sent Unhackable Quantum Keys Across 120 Kilometers",
           "source": "ScienceDaily / Quantum Communication",
           "url": "https://www.sciencedaily.com/releases/2026/05/260508003129.htm",
@@ -1325,7 +1325,7 @@
       "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "An Algebraic Resolution of the Firewall Paradox",
           "authors": "Naman Kumar",
           "arxiv_id": "2605.14794",
@@ -1340,7 +1340,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Parametrization of the primordial power spectrum in loop quantum cosmology",
           "authors": "Almudena Guillén, Kai Langer, Guillermo A. Mena Marugán, Niklas Rodenbücher, Antonio Vicente-Becerril",
           "arxiv_id": "2605.14657",
@@ -1355,7 +1355,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "q-Askey Deformations of Double-Scaled SYK",
           "authors": "Sergio E. Aguilar-Gutierrez, Trivko Kukolj, Josef Seitz",
           "arxiv_id": "2605.13956",
@@ -1370,7 +1370,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "C-Phase-Aware Compilation for Efficient Fault-Tolerant Quantum Execution",
           "authors": "Dhanvi Bharadwaj, Siddharth Dangwal, Yuewen Hou, Gokul Subramanian Ravi",
           "arxiv_id": "2605.14042",
@@ -1385,7 +1385,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "Thermodynamics and optical aspects of ModMax black holes in higher order curvature gravity with quintessence dark energy",
           "authors": "Ahmad Al-Badawi, Usman Zafar, Abdul Jawad, Kazuharu Bamba",
           "arxiv_id": "2605.13908",
@@ -1400,7 +1400,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Fermi Surface Geometry from Charge Fluctuations in Three-Dimensional Metals",
           "authors": "Pok Man Tam, Yarden Sheffer, Xiao-Chuan Wu, F. D. M. Haldane, Shinsei Ryu",
           "arxiv_id": "2605.13951",
@@ -1415,7 +1415,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "A Tale of Two Hartle-Hawking Wave Functions: Fully Gravitational vs Partially Frozen",
           "authors": "Galit Anikeeva, Raphaël Dulac, Zixia Wei, Mengyang Zhang",
           "arxiv_id": "2605.13970",
@@ -1430,7 +1430,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Wormholes and Averaging over N",
           "authors": "Jonah Kudler-Flam, Edward Witten",
           "arxiv_id": "2605.15180",
@@ -1445,7 +1445,7 @@
           ]
         },
         {
-          "number": 9,
+          "num": 9,
           "title": "All-Electric Quantum State Transfer via Spin-Orbit Phase Matching",
           "authors": "Madhumita Sarkar, Roopayan Ghosh, Charles G. Smith, Maksym Myronov, Sougato Bose",
           "arxiv_id": "2605.13976",
@@ -1460,7 +1460,7 @@
           ]
         },
         {
-          "number": 10,
+          "num": 10,
           "title": "Generalized Model Fractional Quantum Hall States on Lattices",
           "authors": "Guangyue Ji, Jie Wang",
           "arxiv_id": "2605.13978",
@@ -1475,7 +1475,7 @@
           ]
         },
         {
-          "number": 11,
+          "num": 11,
           "title": "How Much Can Gravitons Be Squeezed?",
           "authors": "Panagiotis Dorlis, Nick E. Mavromatos, Sarben Sarkar, Sotirios-Neilos Vlachos",
           "arxiv_id": "2605.14797",
@@ -1490,7 +1490,7 @@
           ]
         },
         {
-          "number": 12,
+          "num": 12,
           "title": "The Smarr Formula is Gauss's Law: A Kerr-Schild Single-Copy Perspective",
           "authors": "Gokhan Alkac",
           "arxiv_id": "2605.14707",
@@ -1510,12 +1510,12 @@
       "date": "2026-05-15",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-15",
-      "sites": "Scientific American + Nautilus",
+      "categories": "Scientific American + Nautilus",
       "items_found": 11,
       "focus": "planetary exploration, deep-Earth mineralogy, quantum thermodynamics, antimatter logistics, biotech therapeutics, space debris, mathematical aesthetics, climate forecasting, cognitive assessment",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "NASA's Psyche Mission is Snapping Photos of Mars on Its Way to an Asteroid",
           "source": "Scientific American / NASA JPL-Caltech/ASU",
           "url": "https://www.scientificamerican.com/article/nasas-psyche-mission-is-snapping-photos-of-mars-on-its-way-to-an-asteroid/",
@@ -1528,7 +1528,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "The Next Quantum Revolution May Require a Helium-3 'Gold Rush' on the Moon",
           "source": "Scientific American / Robin George Andrews",
           "url": "https://www.scientificamerican.com/article/can-helium-3-create-a-gold-rush-on-the-moon/",
@@ -1541,7 +1541,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Deep-Earth Diamonds Reveal Trove of Never-Before-Seen Minerals",
           "source": "Scientific American / James Dinneen, AMNH",
           "url": "https://www.scientificamerican.com/article/deep-earth-diamonds-reveal-trove-of-never-before-seen-minerals/",
@@ -1554,7 +1554,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Mathematicians Uncover 'Golden Rule' in Abstract Art",
           "source": "Scientific American / Stephanie Pappas",
           "url": "https://www.scientificamerican.com/article/golden-rule-in-abstract-art-just-discovered-by-mathematicians/",
@@ -1567,7 +1567,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "Implantable 'Living Materials' That Deliver Drugs on Demand Could Help Fight Infections",
           "source": "Scientific American / Jackie Flynn Mogensen, Harvard/Cornell",
           "url": "https://www.scientificamerican.com/article/implantable-living-materials-that-deliver-drugs-on-demand-could-help-fight-infections/",
@@ -1580,7 +1580,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Almost Half of the Objects in Earth's Orbit Are Junk",
           "source": "Scientific American / Adam Kovac, Accu Report",
           "url": "https://www.scientificamerican.com/article/almost-half-of-the-objects-in-earths-orbit-is-junk-and-thats-only-the-stuff-we-know-about/",
@@ -1593,7 +1593,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "There's an 82 Percent Chance El Niño Will 'Emerge Soon,' NWS Says",
           "source": "Scientific American / Jackie Flynn Mogensen, NOAA/NWS",
           "url": "https://www.scientificamerican.com/article/theres-an-82-percent-chance-el-nino-will-emerge-soon-nws-says/",
@@ -1606,7 +1606,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Depression Scales May Not Work the Same for Highly Intelligent People",
           "source": "Scientific American / Simon Makin",
           "url": "https://www.scientificamerican.com/article/depression-scales-may-not-work-the-same-for-highly-intelligent-people/",
@@ -1619,7 +1619,7 @@
           ]
         },
         {
-          "number": 9,
+          "num": 9,
           "title": "Time Brings Order to the Universe",
           "source": "Nautilus / Robert M. Hazen & Michael L. Wong, Carnegie Institution",
           "url": "https://nautil.us/time-brings-order-to-the-universe-1279584",
@@ -1632,7 +1632,7 @@
           ]
         },
         {
-          "number": 10,
+          "num": 10,
           "title": "You Can Transport Antimatter in a Box Truck",
           "source": "Nautilus / CERN BASE-STEP Project",
           "url": "https://nautil.us/you-can-transport-antimatter-in-a-box-truck-1279273",
@@ -1645,7 +1645,7 @@
           ]
         },
         {
-          "number": 11,
+          "num": 11,
           "title": "Welcome to the Block Universe",
           "source": "Nautilus / Julian Barbour, Max Tegmark, Brian Greene",
           "url": "https://nautil.us/welcome-to-the-block-universe-1278973",
@@ -1668,7 +1668,7 @@
       "focus": "Quantum gravity / LQG, string theory & AdS/CFT, quantum computing hardware & algorithms, black hole thermodynamics & quasinormal modes, quantum cosmology, condensed matter & van der Waals magnetism, social physics & opinion dynamics",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Physical inner product in LQG cosmology via covariant coarse graining",
           "authors": "M. Campiglia, R. Gambini, J. Pullin",
           "arxiv_id": "2605.12392",
@@ -1683,7 +1683,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Neural Network Field Theory: Schwinger–Dyson equations, Ward identities, and anomalies",
           "authors": "P. O'Brien, E. Teh, D. Erhan, R. Easther",
           "arxiv_id": "2605.12488",
@@ -1698,7 +1698,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Silicon color centers as telecom quantum memories: all-optical spin control",
           "authors": "F. Cache, K. V.R., T. Herzig, A. Yu. Kuznetsov, S. Pezzagna, M. Abbarchi, I. Robert-Philip, J.-M. Gérard, G. Cassabois, V. Jacques, A. Dréau",
           "arxiv_id": "2605.12473",
@@ -1713,7 +1713,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Query-optimal quantum simulation of non-Hermitian Hamiltonians via bivariate QSP",
           "authors": "A. Courtney, A. Lund, E. Thamé, D. Jennings",
           "arxiv_id": "2605.12450",
@@ -1728,7 +1728,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "Quasinormal spectra of fields in asymptotically de Sitter black holes in generalized Proca theory",
           "authors": "M. Skvortsova",
           "arxiv_id": "2605.12113",
@@ -1743,7 +1743,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Magnon polaritons in a van der Waals ferromagnet coupled to a superconducting resonator",
           "authors": "A. Bermejillo-Seco, L.J. van der Goot, M. Arfini, Y.M. Blanter, G.A. Steele, H.S.J. van der Zant",
           "arxiv_id": "2605.12298",
@@ -1758,7 +1758,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "Topology-dependent criticality in triplet majority-rule dynamics with collective reversal",
           "authors": "R. Muslim",
           "arxiv_id": "2605.11692",
@@ -1772,7 +1772,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Classifying double copies and multicopies in AdS",
           "authors": "V. Didenko, A. Dosmanbetov",
           "arxiv_id": "2605.12359",
@@ -1792,12 +1792,12 @@
       "date": "2026-05-14",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-14",
-      "sites": "APS News (physics.aps.org) + Physics World (physicsworld.com)",
+      "categories": "APS News (physics.aps.org) + Physics World (physicsworld.com)",
       "items_found": 8,
       "focus": "Quantum error correction hurdles, metamaterial optics, altermagnetism, black hole visualization, particle collider funding, and space sustainability.",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Cleaner Signals from X-Ray Pulses",
           "source": "APS Physics / RIKEN SPring-8 Center",
           "url": "https://physics.aps.org/articles/v19/s56",
@@ -1810,7 +1810,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Surprising Scattering in Stealthy Structures",
           "source": "APS Physics / Pennsylvania State University",
           "url": "https://physics.aps.org/articles/v19/s59",
@@ -1823,7 +1823,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "An Invisibility Cloak with Internal Invisibility",
           "source": "APS Physics / Yiyang Zhang et al.",
           "url": "https://physics.aps.org/articles/v19/s60",
@@ -1836,7 +1836,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Spreading the Altermagnetic Love",
           "source": "APS Physics / Ningbo Oriental University of Science and Technology",
           "url": "https://physics.aps.org/articles/v19/s64",
@@ -1849,7 +1849,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "Quantum Error Correction Faces Another Hurdle",
           "source": "APS Physics / Google Quantum AI",
           "url": "https://physics.aps.org/articles/v19/62",
@@ -1862,7 +1862,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Visualizing the Invisible: The Dark Art of Black Holes",
           "source": "Physics World / Lynn Gamwell",
           "url": "https://physicsworld.com/p/magazine/archive/physics-world-may-2026/",
@@ -1875,7 +1875,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "LHCb Upgrade Threatened by UK Funding Cut",
           "source": "Physics World / CERN & University of Warwick",
           "url": "https://physicsworld.com/a/lhcb-upgrade-cern-collaboration-responds-to-uk-funding-cut/",
@@ -1888,7 +1888,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "A Rubbish Challenge: How Do We Dump Space Junk?",
           "source": "Physics World / Katherine Courtney & Alice Gorman",
           "url": "https://physicsworld.com/a/a-rubbish-challenge-how-do-we-dump-space-junk/",
@@ -1911,7 +1911,7 @@
       "focus": "Wormholes & quantum cosmology, black hole physics, quantum error correction, modified gravity, quantum causality, and condensed matter topology.",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Euclidean Wineglass Wormholes and No-Boundary Instantons",
           "authors": "Jean-Luc Lehners, et al.",
           "arxiv_id": "2605.10548",
@@ -1925,7 +1925,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Quantum Trajectory Simulation of 2D Non-Equilibrium Steady States with a Trapped Ion Quantum Processor",
           "authors": "Anna Dalmasso, Arash Jafarizadeh, Julian Boesl, et al.",
           "arxiv_id": "2605.08350",
@@ -1940,7 +1940,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Gravielectric and Gravimagnetic Fluxes in Nutty Black Holes",
           "authors": "Dmitri Gal'tsov, Rostom Karsanov",
           "arxiv_id": "2605.09786",
@@ -1955,7 +1955,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "DART-Q: A Deadline-Driven Framework for Real-Time QLDPC Decoding",
           "authors": "Ameya S. Bhave, Navnil Choudhury, Kanad Basu",
           "arxiv_id": "2605.09142",
@@ -1969,7 +1969,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "Analytical Solution of Traversable Wormholes with Positive Cosmological Constant",
           "authors": "Rajesh Karmakar, Xian-Hui Ge",
           "arxiv_id": "2605.08205",
@@ -1983,7 +1983,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Non-Abelian Monopoles in Modified Gravity",
           "authors": "Vladimir Dzhunushaliev, Vladimir Folomeev",
           "arxiv_id": "2605.09612",
@@ -1998,7 +1998,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "Quantum Circuits with Quantum Control of Causal Order from Physical Principles",
           "authors": "Matthias Salzger, et al.",
           "arxiv_id": "2605.08351",
@@ -2012,7 +2012,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Altermagnetism on Hyperbolic Lattices",
           "authors": "Eric Petermann, et al.",
           "arxiv_id": "2605.10602",
@@ -2031,12 +2031,12 @@
       "date": "2026-05-13",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-13",
-      "sites": "Quanta Magazine + MIT News",
+      "categories": "Quanta Magazine + MIT News",
       "items_found": 7,
       "focus": "dark matter detection, quantum sensing, exoplanet atmospheres, phase transitions, atmospheric physics, geophysics",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "A New Way to Spot Signs of Dark Matter",
           "source": "MIT News / MIT Department of Physics",
           "url": "https://news.mit.edu/2026/new-way-spot-signs-dark-matter-0512",
@@ -2049,7 +2049,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Improving Circuit Reliability for Quantum Computers",
           "source": "MIT News / Research Laboratory of Electronics",
           "url": "https://news.mit.edu/2026/improving-circuit-reliability-quantum-computers-0512",
@@ -2062,7 +2062,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Astronomers Pin Down Origins of a Planetary \"Odd Couple\"",
           "source": "MIT News / MIT Kavli Institute for Astrophysics and Space Research",
           "url": "https://news.mit.edu/2026/astronomers-pin-down-origins-planetary-odd-couple-0505",
@@ -2074,7 +2074,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Multitasking Quantum Sensors Can Measure Several Properties at Once",
           "source": "MIT News / MIT Department of Nuclear Science and Engineering",
           "url": "https://news.mit.edu/2026/multitasking-quantum-sensors-can-measure-several-properties-0415",
@@ -2087,7 +2087,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "What Causes Lightning? The Answer Keeps Getting More Interesting",
           "source": "Quanta Magazine",
           "url": "https://www.quantamagazine.org/what-causes-lightning-the-answer-keeps-getting-more-interesting-20260506/",
@@ -2099,7 +2099,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Physicists Discover the Most Complex Forms of Ice Yet",
           "source": "Quanta Magazine",
           "url": "https://www.quantamagazine.org/physicists-discover-the-most-complex-forms-of-ice-yet-20260427/",
@@ -2112,7 +2112,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "Will We Ever Be Able to Forecast Volcanic Eruptions Like Weather?",
           "source": "Quanta Magazine / Qualia column",
           "url": "https://www.quantamagazine.org/will-we-ever-be-able-to-forecast-volcanic-eruptions-like-weather-20260508/",
@@ -2134,7 +2134,7 @@
       "items_found": 9,
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Fuzzy-novae: A Loop-Quantum-Gravity-Inspired Phenomenological Model of Gravitational Collapse",
           "authors": "Francesco Fazzini, Waleed Sherif",
           "arxiv_id": "2605.07848",
@@ -2147,7 +2147,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Uncertainty Principles and Maximum Entropic Force",
           "authors": "Jonas Mureika, Elias C. Vagenas",
           "arxiv_id": "2605.07992",
@@ -2160,7 +2160,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Gravitational Wave Memory in Beyond GR Theories",
           "authors": "Silvia Gasparotto",
           "arxiv_id": "2605.07879",
@@ -2173,7 +2173,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Pre-Geometric Gravity, (Lovelock)², and Dynamical Dark Energy",
           "authors": "Daulet Berkimbayev",
           "arxiv_id": "2605.07344",
@@ -2186,7 +2186,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "3D Einstein Gravity with Torus Boundary: Semi-Classical Thermodynamics",
           "authors": "Weam Abou Hamdan",
           "arxiv_id": "2605.08058",
@@ -2199,7 +2199,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Entangled Gottesman-Kitaev-Preskill Qubits via Beamsplitter Interference in Trapped Ions",
           "authors": "Moritz Fontboté-Schmidt, Jeremy Metzner, Florence Berterottière, Ivan Rojkov, Alexander Ferk, Martin Stadler, Bahadir Dönmez, Ralf Berner, Stephan Welte, Daniel Kienzler, Jonathan P. Home",
           "arxiv_id": "2605.08009",
@@ -2211,7 +2211,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "Quantum Learning Theory for Continuous-Variable Systems",
           "authors": "Francesco Anna Mele",
           "arxiv_id": "2605.08082",
@@ -2223,7 +2223,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Fractional Magnetization Plateaus in the Kagome Antiferromagnet Y-kapellasite",
           "authors": "Dipranjan Chatterjee, Paul A. Goddard, Ewan R. P. Thomas, Katharina M. Zoch, Hank C. H. Wu, Benjamin M. Huddart, Cornelius Krellner, Edwin Kermarrec, Mladen Horvatić, Steffen Krämer, Pascal Puphal, John Singleton, Stephen J. Blundell, Fabrice Bert",
           "arxiv_id": "2605.08067",
@@ -2235,7 +2235,7 @@
           ]
         },
         {
-          "number": 9,
+          "num": 9,
           "title": "Two-Body Schrödinger–Newton Model: Entanglement Generation and Self-Localization",
           "authors": "Marcin Płodzień",
           "arxiv_id": "2605.06577",
@@ -2252,11 +2252,11 @@
       "date": "2026-05-12",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-12",
-      "sites": "Phys.org + ScienceDaily",
+      "categories": "Phys.org + ScienceDaily",
       "items_found": 8,
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Charge carrier pairs in cuprate compounds shed light on high-temperature superconductivity",
           "source": "Phys.org / BESSY II",
           "url": "https://phys.org/news/2026-05-carrier-pairs-cuprate-compounds-shed.html",
@@ -2269,7 +2269,7 @@
           ]
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Open-source 'macroscope' offers dynamic luminescence imaging",
           "source": "Phys.org / European research consortium",
           "url": "https://phys.org/news/2026-05-macroscope-dynamic-luminescence-imaging.html",
@@ -2282,7 +2282,7 @@
           ]
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Ultrafast VUV pulses fully characterized for probing valence electron dynamics",
           "source": "Phys.org / Max Born Institute",
           "url": "https://phys.org/news/2026-05-ultrafast-vuv-pulses-fully.html",
@@ -2295,7 +2295,7 @@
           ]
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Single organic molecule triggers Kondo effect in molecular-scale 'Kondo box'",
           "source": "Phys.org / Hefei Institutes of Physical Science, CAS",
           "url": "https://phys.org/news/2026-05-single-organic-molecule-triggers-kondo.html",
@@ -2308,7 +2308,7 @@
           ]
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "How quantum computers can aid the search for room-temperature superconductors",
           "source": "Phys.org / Quantum simulation report",
           "url": "https://phys.org/news/2025-11-quantum-computers-aid-room-temperature-superconductors.html",
@@ -2321,7 +2321,7 @@
           ]
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Scientists finally solve 40-year-old physics puzzle about how things grow",
           "source": "ScienceDaily / University of Cambridge (May 7, 2026)",
           "url": "https://www.sciencedaily.com/releases/2026/05/260507012800.htm",
@@ -2334,7 +2334,7 @@
           ]
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "NASA just tested a powerful new thruster that could send humans to Mars",
           "source": "ScienceDaily / NASA JPL (May 6, 2026)",
           "url": "https://www.sciencedaily.com/releases/2026/05/260506220022.htm",
@@ -2347,7 +2347,7 @@
           ]
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Scientists make stunning discovery that could change our understanding of the Universe",
           "source": "ScienceDaily / Queen Mary University of London (May 8, 2026)",
           "url": "https://www.sciencedaily.com/releases/2026/05/260508022653.htm",
@@ -2370,94 +2370,104 @@
       "focus": "quantum gravity, loop quantum gravity, string theory, quantum computing, black hole thermodynamics, quantum cosmology, condensed matter, social physics",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Variational Quantization of Gravitational Fields via Relative Entropy",
           "authors": "Jianhao M. Yang",
           "arxiv_id": "2605.05239",
           "url": "https://arxiv.org/abs/2605.05239",
           "categories": "quant-ph (cross-list hep-th)",
-          "relevance": "🔥 High — Develops a variational framework for quantizing gravitational fields without the usual operator-ordering ambiguity in canonical quantization. Recovers the Wheeler-DeWitt equation from a generalized stationary action principle incorporating relative entropy. When coupled to a scalar field, recovers a Schrödinger equation with quantum corrections at order $G\\hbar^2$. Explicitly connects to holographic dualities. A fresh foundational take on quantum gravity and quantum cosmology."
+          "relevance": "🔥 High — Develops a variational framework for quantizing gravitational fields without the usual operator-ordering ambiguity in canonical quantization. Recovers the Wheeler-DeWitt equation from a generalized stationary action principle incorporating relative entropy. When coupled to a scalar field, recovers a Schrödinger equation with quantum corrections at order $G\\hbar^2$. Explicitly connects to holographic dualities. A fresh foundational take on quantum gravity and quantum cosmology.",
+          "tags": []
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Semiclassical Singularity Theorem Without Global Hyperbolicity or NEC",
           "authors": "Netta Engelhardt et al.",
           "arxiv_id": "2605.05326",
           "url": "https://arxiv.org/abs/2605.05326",
           "categories": "hep-th (cross-list gr-qc)",
-          "relevance": "🔥 High — Proves a singularity theorem in semiclassical gravity replacing global hyperbolicity with stable causality/past reflectivity, and replacing the null energy condition with the Generalized Second Law. Directly establishes that standard models of evaporating black holes are singular (null geodesically incomplete). A landmark result at the intersection of black hole thermodynamics and quantum gravity."
+          "relevance": "🔥 High — Proves a singularity theorem in semiclassical gravity replacing global hyperbolicity with stable causality/past reflectivity, and replacing the null energy condition with the Generalized Second Law. Directly establishes that standard models of evaporating black holes are singular (null geodesically incomplete). A landmark result at the intersection of black hole thermodynamics and quantum gravity.",
+          "tags": []
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Quantization of Symmetry Reductions of Einstein–Hilbert Gravity",
           "authors": "Poula Tadros et al.",
           "arxiv_id": "2605.05311",
           "url": "https://arxiv.org/abs/2605.05311",
           "categories": "gr-qc (cross-list hep-th)",
-          "relevance": "🔥 High — Systematically quantizes all symmetry reductions of Einstein–Hilbert gravity that satisfy the principle of symmetric criticality: spherical/hyperbolic/planar Schwarzschild, Taub–NUT, Bianchi I/II/VIII/IX, FLRW cosmologies, and near-horizon extreme Kerr. Derives Hamiltonians, conformal symmetries of superspace metrics, and solves the Wheeler–DeWitt equation. Directly relevant to canonical quantum gravity and minisuperspace quantum cosmology."
+          "relevance": "🔥 High — Systematically quantizes all symmetry reductions of Einstein–Hilbert gravity that satisfy the principle of symmetric criticality: spherical/hyperbolic/planar Schwarzschild, Taub–NUT, Bianchi I/II/VIII/IX, FLRW cosmologies, and near-horizon extreme Kerr. Derives Hamiltonians, conformal symmetries of superspace metrics, and solves the Wheeler–DeWitt equation. Directly relevant to canonical quantum gravity and minisuperspace quantum cosmology.",
+          "tags": []
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "No-Boundary Wavefunction on the 3-Torus Favors Large Universe",
           "authors": "Victor Godet et al.",
           "arxiv_id": "2605.05317",
           "url": "https://arxiv.org/abs/2605.05317",
           "categories": "hep-th (cross-list gr-qc)",
-          "relevance": "High — Resolves the long-standing problem that Hartle–Hawking no-boundary wavefunctions on $S^3$ exponentially favor small universes. By changing topology to $T^3$ and summing over SL(3,ℤ) geometries using automorphic forms for GL(3), the wavefunction now favors large inflating universes with $\\mathcal{N} \\gtrsim 250$ e-folds. Also computes corrections to the CMB power spectrum from torus moduli fluctuations. A significant advance in quantum cosmology."
+          "relevance": "High — Resolves the long-standing problem that Hartle–Hawking no-boundary wavefunctions on $S^3$ exponentially favor small universes. By changing topology to $T^3$ and summing over SL(3,ℤ) geometries using automorphic forms for GL(3), the wavefunction now favors large inflating universes with $\\mathcal{N} \\gtrsim 250$ e-folds. Also computes corrections to the CMB power spectrum from torus moduli fluctuations. A significant advance in quantum cosmology.",
+          "tags": []
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "String Theory Flux Vacua: Thin Wafers and the Landscape",
           "authors": "James Halverson et al.",
           "arxiv_id": "2605.05357",
           "url": "https://arxiv.org/abs/2605.05357",
           "categories": "hep-th",
-          "relevance": "High — Proposes a simplified model for the cosmological constant in string theory flux vacua applied to the entire Schöller–Skarke database of Calabi-Yau fourfolds (532,600,483 Hodge number sets). Finds that 99.95% exhibit vacuum energy spacing of $10^{-120}$ or smaller in Planck units. Studies Brown–Teitelboim membrane nucleation and shows bubble transitions are dominated by giant leaps in flux space. A substantial landscape-analysis paper."
+          "relevance": "High — Proposes a simplified model for the cosmological constant in string theory flux vacua applied to the entire Schöller–Skarke database of Calabi-Yau fourfolds (532,600,483 Hodge number sets). Finds that 99.95% exhibit vacuum energy spacing of $10^{-120}$ or smaller in Planck units. Studies Brown–Teitelboim membrane nucleation and shows bubble transitions are dominated by giant leaps in flux space. A substantial landscape-analysis paper.",
+          "tags": []
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "Magic as Intrinsic Quantum Resource in Shor's Factoring Algorithm",
           "authors": "Alessio Paviglianiti et al.",
           "arxiv_id": "2605.05347",
           "url": "https://arxiv.org/abs/2605.05347",
           "categories": "quant-ph",
-          "relevance": "High — Develops an explicit analytic theory demonstrating that non-stabilizerness (magic) is a fundamental resource in Shor's factoring algorithm, maximally exploited in practically relevant regimes. Establishes a direct link between classical algorithmic difficulty and the quantum resource cost. Complements standard circuit-cost analyses with a resource-based metric aligned with real fault-tolerant quantum computing bottlenecks."
+          "relevance": "High — Develops an explicit analytic theory demonstrating that non-stabilizerness (magic) is a fundamental resource in Shor's factoring algorithm, maximally exploited in practically relevant regimes. Establishes a direct link between classical algorithmic difficulty and the quantum resource cost. Complements standard circuit-cost analyses with a resource-based metric aligned with real fault-tolerant quantum computing bottlenecks.",
+          "tags": []
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "Biplanar SPOQC Architecture for Fermi-Hubbard Simulation",
           "authors": "Boris Bourdoncle, Peter-Jan Derks, Théo Dessertaine, Johannes Frank",
           "arxiv_id": "2605.05315",
           "url": "https://arxiv.org/abs/2605.05315",
           "categories": "quant-ph",
-          "relevance": "High — Estimates costs for simulating the 2D Fermi-Hubbard model on a biplanar spin-optical quantum computing (SPOQC) architecture using honeycomb Floquet code. Eliminates fermionic swap operations and reduces Trotter step depth from $6t_{\\text{synth}} + 354$ to $4t_{\\text{synth}} + 90$ logical timesteps. For $L=8$, $U/t=8$, estimates ~2 hour runtime with $1.35 \\times 10^6$ physical qubits. Identifies rotation synthesis as a scalability bottleneck. Concrete architectural co-design for near-term quantum simulation."
+          "relevance": "High — Estimates costs for simulating the 2D Fermi-Hubbard model on a biplanar spin-optical quantum computing (SPOQC) architecture using honeycomb Floquet code. Eliminates fermionic swap operations and reduces Trotter step depth from $6t_{\\text{synth}} + 354$ to $4t_{\\text{synth}} + 90$ logical timesteps. For $L=8$, $U/t=8$, estimates ~2 hour runtime with $1.35 \\times 10^6$ physical qubits. Identifies rotation synthesis as a scalability bottleneck. Concrete architectural co-design for near-term quantum simulation.",
+          "tags": []
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Quantum Resolution of Big Bang Singularity via Page–Wootters",
           "authors": "Malay K. Nandy et al.",
           "arxiv_id": "2605.06093",
           "url": "https://arxiv.org/abs/2605.06093",
           "categories": "gr-qc",
-          "relevance": "High — Investigates the classical big bang singularity in Bianchi type-I within the Wheeler–DeWitt framework, using the Page–Wootters formalism to address the problem of time. Constructs Gaussian superpositions in Misner variables; the conditional probability density vanishes at zero volume for all clock values, indicating quantum singularity resolution. Positivity constraints on the probability density impose admissible clock values depending on wavepacket parameters. A clean demonstration of relational quantum dynamics resolving cosmological singularities."
+          "relevance": "High — Investigates the classical big bang singularity in Bianchi type-I within the Wheeler–DeWitt framework, using the Page–Wootters formalism to address the problem of time. Constructs Gaussian superpositions in Misner variables; the conditional probability density vanishes at zero volume for all clock values, indicating quantum singularity resolution. Positivity constraints on the probability density impose admissible clock values depending on wavepacket parameters. A clean demonstration of relational quantum dynamics resolving cosmological singularities.",
+          "tags": []
         },
         {
-          "number": 9,
+          "num": 9,
           "title": "Navier–Stokes Hydrodynamics from Chaotic XXZ Spin Chain via gEDMD",
           "authors": "Seiki Saito et al.",
           "arxiv_id": "2605.05604",
           "url": "https://arxiv.org/abs/2605.05604",
           "categories": "quant-ph (cross-list from cond-mat)",
-          "relevance": "Medium-High — Introduces a fully data-driven framework combining generalized Extended Dynamic Mode Decomposition (gEDMD) with Mori–Zwanzig projection to extract Navier–Stokes hydrodynamic coefficients from a chaotic XXZ spin chain. Reveals that macroscopic friction and viscosity are not absolute properties but emergent phenomena requiring finite temporal coarse-graining. Mechanical elasticity is derived from exact unitary dynamics, while friction only emerges at observer timescales. Connects to fundamental questions about irreversibility in isolated quantum systems."
+          "relevance": "Medium-High — Introduces a fully data-driven framework combining generalized Extended Dynamic Mode Decomposition (gEDMD) with Mori–Zwanzig projection to extract Navier–Stokes hydrodynamic coefficients from a chaotic XXZ spin chain. Reveals that macroscopic friction and viscosity are not absolute properties but emergent phenomena requiring finite temporal coarse-graining. Mechanical elasticity is derived from exact unitary dynamics, while friction only emerges at observer timescales. Connects to fundamental questions about irreversibility in isolated quantum systems.",
+          "tags": []
         },
         {
-          "number": 10,
+          "num": 10,
           "title": "Laplacian Renormalization of Bipartite Networks: Multiscale Organization",
           "authors": "Ottavia Falconi et al.",
           "arxiv_id": "2605.06208",
           "url": "https://arxiv.org/abs/2605.06208",
           "categories": "cond-mat.stat-mech (cross-list physics.soc-ph)",
-          "relevance": "Medium — Introduces a Laplacian-based renormalization framework operating directly on bipartite network architecture, preserving role differentiation across scales. Applies to empirical bipartite networks and reveals nontrivial multiscale hierarchies. Shows that structural imbalance reshapes organization while leaving scaling properties invariant, demonstrating a separation between universality and geometry. Relevant to social physics (bipartite systems with complementary roles) and complex networks."
+          "relevance": "Medium — Introduces a Laplacian-based renormalization framework operating directly on bipartite network architecture, preserving role differentiation across scales. Applies to empirical bipartite networks and reveals nontrivial multiscale hierarchies. Shows that structural imbalance reshapes organization while leaving scaling properties invariant, demonstrating a separation between universality and geometry. Relevant to social physics (bipartite systems with complementary roles) and complex networks.",
+          "tags": []
         }
       ]
     },
@@ -2465,96 +2475,106 @@
       "date": "2026-05-11",
       "type": "web-science",
       "title": "# Web Science Digest — 2026-05-11",
-      "sites": "Phys.org + ScienceDaily",
+      "categories": "Phys.org + ScienceDaily",
       "items_found": 10,
       "focus": "Error-correcting codes for universal qudit quantum computation, Weak measurement",
       "entries": [
         {
-          "number": 1,
+          "num": 1,
           "title": "Error-correcting codes for universal qudit quantum computation",
           "source": "arXiv",
           "url": "https://arxiv.org/abs/2605.08076",
           "summary": "This work constructs error-correcting codes for universal quantum computation with qudits (d-level quantum systems). The codes enable transversal implementation of a universal gate set, which is crucial for fault-tolerant quantum computing.",
-          "relevance": "Qudit-based quantum computing offers potential advantages over qubit systems, including more efficient use of Hilbert space and natural implementations in certain physical platforms. This work addresses a key challenge in making qudit quantum computers fault-tolerant."
+          "relevance": "Qudit-based quantum computing offers potential advantages over qubit systems, including more efficient use of Hilbert space and natural implementations in certain physical platforms. This work addresses a key challenge in making qudit quantum computers fault-tolerant.",
+          "tags": []
         },
         {
-          "number": 2,
+          "num": 2,
           "title": "Weak measurement based optimal control of quantum systems",
           "source": "arXiv",
           "url": "https://arxiv.org/abs/2605.08009",
           "summary": "Researchers present a framework for optimal quantum control using weak continuous measurements. The approach combines measurement feedback with optimal control theory to steer quantum systems toward desired states with minimal disturbance.",
-          "relevance": "Weak measurement techniques are increasingly important in quantum technologies. This framework could improve quantum state preparation and error correction protocols in quantum computing and quantum sensing applications."
+          "relevance": "Weak measurement techniques are increasingly important in quantum technologies. This framework could improve quantum state preparation and error correction protocols in quantum computing and quantum sensing applications.",
+          "tags": []
         },
         {
-          "number": 3,
+          "num": 3,
           "title": "Quantum resource theory of channel incompatibility",
           "source": "arXiv",
           "url": "https://arxiv.org/abs/2605.08056",
           "summary": "This paper develops a resource theory framework for understanding incompatible quantum channels. The authors quantify the degree of incompatibility and explore its applications in quantum information processing tasks.",
-          "relevance": "Channel incompatibility is fundamental to quantum mechanics and has practical implications for quantum communication and cryptography. A rigorous resource theory could enable better optimization of quantum information protocols."
+          "relevance": "Channel incompatibility is fundamental to quantum mechanics and has practical implications for quantum communication and cryptography. A rigorous resource theory could enable better optimization of quantum information protocols.",
+          "tags": []
         },
         {
-          "number": 4,
+          "num": 4,
           "title": "Quantum error mitigation by Pauli gate conjugation",
           "source": "arXiv",
           "url": "https://arxiv.org/abs/2605.08042",
           "summary": "The authors propose a novel error mitigation technique for quantum circuits based on Pauli gate conjugation. The method reduces the impact of noise without requiring additional qubits, making it suitable for near-term quantum devices.",
-          "relevance": "Error mitigation is essential for practical quantum computing in the NISQ era. This technique offers a resource-efficient approach that could be implemented on current quantum hardware."
+          "relevance": "Error mitigation is essential for practical quantum computing in the NISQ era. This technique offers a resource-efficient approach that could be implemented on current quantum hardware.",
+          "tags": []
         },
         {
-          "number": 5,
+          "num": 5,
           "title": "Out-of-equilibrium scaling of the work distribution in quench dynamics",
           "source": "arXiv",
           "url": "https://arxiv.org/abs/2605.07866",
           "summary": "This study investigates the statistics of work performed during quantum quenches (sudden changes in Hamiltonian parameters). The authors identify universal scaling behaviors in the work distribution that characterize non-equilibrium quantum dynamics.",
-          "relevance": "Understanding quantum thermodynamics and non-equilibrium dynamics is crucial for quantum heat engines and quantum batteries. The universal scaling laws identified here could guide the design of quantum thermodynamic devices."
+          "relevance": "Understanding quantum thermodynamics and non-equilibrium dynamics is crucial for quantum heat engines and quantum batteries. The universal scaling laws identified here could guide the design of quantum thermodynamic devices.",
+          "tags": []
         },
         {
-          "number": 6,
+          "num": 6,
           "title": "DESI Completes Most Detailed 3D Map of the Universe",
           "source": "Nature News",
           "url": "https://www.nature.com/articles/d41586-026-01508-6",
           "summary": "The Dark Energy Spectroscopic Instrument (DESI) has completed its five-year survey, creating the most detailed 3D map of the universe ever made. The dataset includes 40 million galaxies and quasars, providing unprecedented insights into dark energy and cosmic evolution.",
-          "relevance": "DESI's results will constrain cosmological models and our understanding of dark energy, which makes up about 70% of the universe's energy content. This data release marks a major milestone in observational cosmology."
+          "relevance": "DESI's results will constrain cosmological models and our understanding of dark energy, which makes up about 70% of the universe's energy content. This data release marks a major milestone in observational cosmology.",
+          "tags": []
         },
         {
-          "number": 7,
+          "num": 7,
           "title": "'Dark Proteins' Reclassified as 'Peptideins' and Added to Databases",
           "source": "Nature News",
           "url": "https://www.nature.com/articles/d41586-026-01492-x",
           "summary": "Thousands of previously excluded \"dark proteins\" — short proteins with unknown functions — have been officially named \"peptideins\" and added to major gene and protein databases by the TransCODE Consortium. These molecules, encoded by the human genome, had been excluded from catalogs due to their short length and lack of evolutionary relatives.",
-          "relevance": "Some peptideins have been linked to childhood cancers and basic cellular functions. Their formal recognition could spark a new wave of research into previously overlooked biological mechanisms and potential therapeutic targets."
+          "relevance": "Some peptideins have been linked to childhood cancers and basic cellular functions. Their formal recognition could spark a new wave of research into previously overlooked biological mechanisms and potential therapeutic targets.",
+          "tags": []
         },
         {
-          "number": 8,
+          "num": 8,
           "title": "Unconscious Brain Can Learn and Predict Speech",
           "source": "Nature News",
           "url": "https://www.nature.com/articles/d41586-026-01465-0",
           "summary": "A study published in Nature reveals that the hippocampus remains remarkably active under general anesthesia, parsing grammar and meaning of spoken words and even anticipating upcoming words. Neuronal recordings from anaesthetized patients showed comparable performance to awake subjects in language prediction tasks.",
-          "relevance": "This challenges fundamental assumptions about consciousness and complex cognition. The findings could reshape our understanding of anesthesia, consciousness, and the brain's capacity for unconscious learning."
+          "relevance": "This challenges fundamental assumptions about consciousness and complex cognition. The findings could reshape our understanding of anesthesia, consciousness, and the brain's capacity for unconscious learning.",
+          "tags": []
         },
         {
-          "number": 9,
+          "num": 9,
           "title": "Long COVID Blood Biomarker Discovered",
           "source": "Nature News",
           "url": "https://www.nature.com/articles/d41586-026-01481-w",
           "summary": "Researchers have identified a blood biomarker that can distinguish people with long COVID from those who have recovered. The finding, published in Nature, could lead to diagnostic tests and targeted treatments for the condition affecting millions worldwide.",
-          "relevance": "Long COVID remains a major public health challenge with no definitive diagnostic test. A validated biomarker would enable better patient stratification, clinical trial design, and potentially guide therapeutic interventions."
+          "relevance": "Long COVID remains a major public health challenge with no definitive diagnostic test. A validated biomarker would enable better patient stratification, clinical trial design, and potentially guide therapeutic interventions.",
+          "tags": []
         },
         {
-          "number": 10,
+          "num": 10,
           "title": "How Scientists Set Up Next-Generation Mega-Telescopes",
           "source": "Nature News",
           "url": "https://www.nature.com/articles/d41586-026-01497-5",
           "summary": "This feature article explores the engineering and logistical challenges behind building the next generation of extremely large telescopes, including the European Extremely Large Telescope (ELT) and the Thirty Meter Telescope (TMT).",
-          "relevance": "These telescopes will transform astronomy with light-gathering powers far exceeding current facilities. Understanding the technical challenges helps appreciate the scale of modern astronomical infrastructure and the discoveries it will enable."
+          "relevance": "These telescopes will transform astronomy with light-gathering powers far exceeding current facilities. Understanding the technical challenges helps appreciate the scale of modern astronomical infrastructure and the discoveries it will enable.",
+          "tags": []
         }
       ]
     }
   ],
   "stats": {
     "total_digests": 18,
-    "total_entries": 340,
+    "total_entries": 170,
     "unique_tags": {
       "black-hole information": {
         "first_seen": "2026-05-21",
