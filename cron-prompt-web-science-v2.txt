@@ -1,0 +1,27 @@
+Generate today's web science news digest using the CloakBrowser script.
+
+**CRITICAL: Use this exact command to generate the digest:**
+```bash
+cd /home/cloudy/.openclaw/workspace/code/cron-digests && xvfb-run --auto-servernum --server-args='-screen 0 1280x720x24' node scripts/generate-web-science-cloak.mjs
+```
+
+This will create `web-science/YYYY-MM-DD.md` and update the manifest automatically.
+
+**After the script runs:**
+1. Read the generated file to verify it looks correct
+2. Fix any obvious issues (missing headers, bad formatting)
+3. Git add, commit with message `web-science: YYYY-MM-DD`, and push to origin/main
+4. The CI workflow will rebuild the viewer index automatically
+
+**If the CloakBrowser script fails:**
+- Do NOT spend more than 5 minutes trying alternative approaches
+- Use `web_fetch` to manually fetch from Phys.org and ScienceDaily headlines
+- Write whatever you can get in 10 minutes
+- Commit and push anyway — partial digest > no digest
+
+**DO NOT:**
+- Try to fetch APS News or Scientific American directly (they block bots)
+- Loop forever on failed sites
+- Forget to git push — the digest is useless until it's pushed
+
+Current time: {{current_time}}

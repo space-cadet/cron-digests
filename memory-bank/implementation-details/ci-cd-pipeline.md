@@ -1,8 +1,8 @@
 # CI/CD Pipeline for cron-digests
 
 *Created: 2026-05-18 11:25:00 IST*
-*Last Updated: 2026-05-18 11:25:00 IST*
-*Related Task: [T9](../tasks/T9.md)*
+*Last Updated: 2026-05-21 16:45:00 IST*
+*Related Tasks: [T9](../tasks/T9.md), [T10](../tasks/T10.md)*
 
 ## Overview
 
@@ -38,15 +38,23 @@ If `validate-digest.js` finds any errors (malformed headers, wrong item counts, 
 ```yaml
 - name: Build index
   run: node scripts/build-index.js
+  continue-on-error: true
 
-- name: Commit updated index
+- name: Commit all changes
   run: |
-    git add viewer/index.json viewer/index.db
+    git config user.name "github-actions[bot]"
+    git config user.email "github-actions[bot]@users.noreply.github.com"
+    git add -A arxiv/ web-science/ viewer/
     if ! git diff --cached --quiet; then
       git commit -m "chore(viewer): auto-rebuild index [ci skip]"
       git push
     fi
 ```
+
+**Key changes (2026-05-21):**
+- `continue-on-error: true` on build step — index build failures don't block deploy
+- Stages ALL changes (`arxiv/`, `web-science/`, `viewer/`) not just index files — ensures cron-pushed digests are committed even if index build fails
+- `[ci skip]` prevents infinite CI loops
 
 The `[ci skip]` prefix in the commit message prevents the push from triggering another CI run, avoiding infinite loops.
 
