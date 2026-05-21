@@ -118,7 +118,10 @@ function parseDigest(content, digestType) {
   }
 
   // Validate items_found count
-  if (header.items_found != null && header.items_found !== entries.length) {
+  // NOTE: For arxiv digests, items_found is the TOTAL announcement size (all categories),
+  // while entries.length is the number of SELECTED papers. These are intentionally different.
+  // Only validate for web-science digests where items_found should match entries.
+  if (header.items_found != null && digestType !== 'arxiv' && header.items_found !== entries.length) {
     errors.push(`Header says ${header.items_found} items but found ${entries.length} entries.`);
   }
 
