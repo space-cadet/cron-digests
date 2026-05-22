@@ -1,6 +1,266 @@
 {
-  "generated": "2026-05-21T07:12:08.412Z",
+  "generated": "2026-05-22T01:54:42.458Z",
   "digests": [
+    {
+      "date": "2026-05-22",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-05-22",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order, many-body physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Effective spherical symmetry in Loop Quantum Gravity: A path integral approach",
+          "authors": "Juan Carlos Del Águila, Hugo A. Morales",
+          "arxiv_id": "2605.20814",
+          "url": "https://arxivite.org/abs/2605.20814",
+          "categories": "gr-qc",
+          "summary": "This work derives a loop quantum corrected model for spherically symmetric vacuum spacetimes using the path integral method from Loop Quantum Cosmology. The authors find explicit corrections from inverse triad and holonomy effects that modify the Hamiltonian constraint. For inverse triad corrections, the modified geometry describes a black hole with a curvature singularity that does not lead to null geodesic incompleteness. Preliminary arguments suggest holonomy corrections may resolve the singularity entirely.",
+          "relevance": "Direct application of LQG path integral techniques to spherically symmetric spacetimes — a key step toward understanding quantum black holes within the canonical quantization framework.",
+          "tags": [
+            "loop-quantum-gravity",
+            "black-holes",
+            "path-integral",
+            "singularity-resolution"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The fate of Reissner--Nordström--de Sitter black holes: nonequilibrium discharge and evaporation",
+          "authors": "Damien A. Easson",
+          "arxiv_id": "2605.20349",
+          "url": "https://arxivite.org/abs/2605.20349",
+          "categories": "hep-th, gr-qc",
+          "summary": "Easson develops a semiclassical framework for RN-dS evaporation combining 2D dilaton gravity with Polyakov anomaly backreaction. The analysis yields closed adiabatic evolution equations for mass and charge. Analytically, neutral Schwarzschild-dS black holes lose mass monotonically. Schwinger pair production provides rapid discharge, and classical lukewarm/cold/extremal loci are not semiclassical attractors for controlled trajectories — the endpoint is empty de Sitter space.",
+          "relevance": "A rigorous semiclassical treatment of charged black hole evaporation in de Sitter space, directly relevant to black hole thermodynamics and generalized second law studies.",
+          "tags": [
+            "black-hole-thermodynamics",
+            "Reissner-Nordström",
+            "de-Sitter",
+            "evaporation",
+            "semiclassical-gravity"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Two asymptotically flat spinning black holes balanced by their self-interacting, synchronised scalar hair",
+          "authors": "Chen Liang, Carlos Herdeiro, Eugen Radu",
+          "arxiv_id": "2605.20374",
+          "url": "https://arxivite.org/abs/2605.20374",
+          "categories": "gr-qc, hep-th",
+          "summary": "The authors investigate balanced configurations of two spinning black holes with synchronised scalar hair (2sBHs), studying the effects of quartic scalar self-interactions. For 2sBHs, increasing the coupling reshapes the bifurcation structure; repulsive self-interactions cannot make horizons heavier, while attractive ones can. For single black holes with quadrupolar scalar hair, self-interactions broaden the regime where an analytical effective model is accurate.",
+          "relevance": "Multi-black-hole configurations with scalar hair are a frontier in beyond-Standard-Model black hole physics, with implications for gravitational wave signatures and stability.",
+          "tags": [
+            "hairy-black-holes",
+            "scalar-hair",
+            "multi-black-holes",
+            "gravitational-waves"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Electromagnetic duality degeneracy in dynamical black hole mergers",
+          "authors": "José Ferreira, Gabriele Bozzola, Carlos A. R. Herdeiro, Vasileios Paschalidis, Miguel Zilhão",
+          "arxiv_id": "2605.20493",
+          "url": "https://arxivite.org/abs/2605.20493",
+          "categories": "gr-qc, hep-th",
+          "summary": "This paper presents the first fully nonlinear realization of electromagnetic duality in dynamical strong-gravity regimes via numerical relativity simulations of charged black hole mergers. Starting from electrically charged binaries, the authors generate dyonic and magnetically charged configurations via duality rotations. All dual configurations exhibit identical spacetime dynamics, with electromagnetic radiation related by polarization rotation equal to the duality angle.",
+          "relevance": "Establishes electromagnetic duality as an organizing principle for dynamical Einstein-Maxwell solutions, with implications for understanding degeneracies in gravitational-wave observables from charged compact objects.",
+          "tags": [
+            "electromagnetic-duality",
+            "black-hole-mergers",
+            "numerical-relativity",
+            "gravitational-waves"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Wasserstein Space of Quantum Chaos",
+          "authors": "Koji Hashimoto, Norihiro Tanahashi, Kentaroh Yoshida",
+          "arxiv_id": "2605.20995",
+          "url": "https://arxivite.org/abs/2605.20995",
+          "categories": "hep-th, gr-qc, quant-ph",
+          "summary": "The authors find that the effective dimension of the Wasserstein space of energy eigenstates decreases as a quantum system becomes more chaotic. Using Husimi Q-representations and Sinkhorn-regularized optimal transport, they construct an embedding geometry that captures quantum scrambling via folding structures and detects quantum scars via branching. At the inverted harmonic oscillator separatrix, the Wasserstein distance correctly captures the Lyapunov exponent.",
+          "relevance": "Connects optimal transport geometry to quantum chaos, scrambling, and holography — supporting the conjecture that Wasserstein space serves as an emergent holographic space.",
+          "tags": [
+            "quantum-chaos",
+            "optimal-transport",
+            "holography",
+            "quantum-scrambling",
+            "Wasserstein"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Topology sums, sectorwise holography, and horizon normalcy",
+          "authors": "Naman Kumar",
+          "arxiv_id": "2605.20294",
+          "url": "https://arxivite.org/abs/2605.20294",
+          "categories": "hep-th",
+          "summary": "Kumar examines the \"holography of information\" principle when topology sums generate baby-universe sectors. If the baby-universe Hilbert space is nontrivial, HoI refines to an α-sectorwise statement rather than completeness on the full topology-summed space. In a fixed sector, HoI may obstruct AMPS factorization and allow a smooth horizon; in an unconditioned state, sector-independent smoothness requires aligned reconstructions or access to the sector label. The tension with Bousso's expectation of locally determined horizon normalcy is highlighted.",
+          "relevance": "A subtle analysis of how baby-universe sectors affect firewall arguments and the holography of information — directly relevant to the black hole information paradox.",
+          "tags": [
+            "holography-of-information",
+            "baby-universes",
+            "firewalls",
+            "black-hole-information",
+            "AMPS"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Entangling Power: A Probe of Symmetry and Integrability in Quantum Many-Body Systems",
+          "authors": "Ian Low, Pallab Goswami",
+          "arxiv_id": "2605.20661",
+          "url": "https://arxivite.org/abs/2605.20661",
+          "categories": "quant-ph, cond-mat.str-el, hep-ph, hep-th, nucl-th",
+          "summary": "The authors compute the entangling power of anisotropic Heisenberg spin chains and the two-magnon S-matrix. They establish a monotonic hierarchy: entangling power decreases as symmetry grows, reaching minimum at the SU(2) XXX point. Finite-size XXZ chains exhibit sharp dips at SU(2) points Δ=±1 and the free-fermion point Δ=0. In the thermodynamic limit, the S-matrix decomposes into quantum logic gates, with entangling power vanishing at SU(2) points and maximizing at the free-fermion point.",
+          "relevance": "Entangling power serves as an operator-level diagnostic for symmetry and integrability in quantum many-body systems, with implications for quantum simulation of spin chains.",
+          "tags": [
+            "entangling-power",
+            "quantum-many-body",
+            "spin-chains",
+            "integrability",
+            "symmetry"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "An Exponential Sample-Complexity Advantage for Coherent Quantum Inference",
+          "authors": "Zhaoyi Li, Elias Theil, Aram W. Harrow, Isaac Chuang",
+          "arxiv_id": "2605.21457",
+          "url": "https://arxivite.org/abs/2605.21457",
+          "categories": "quant-ph",
+          "summary": "This work studies coherent quantum inference where the desired output remains quantum rather than classical. For quantum purity amplification (QPA) with d-dimensional inputs, coherent processing achieves error ε using O(1/ε) copies, versus Ω(d/ε) copies for any incoherent protocol. The authors establish sharp coherent-incoherent separations and identify an entanglement-breaking limit that gives the optimal incoherent counterpart of each coherent protocol.",
+          "relevance": "Demonstrates an exponential sample-complexity advantage for preserving coherence in quantum inference tasks, with direct implications for quantum computing algorithms and quantum state purification.",
+          "tags": [
+            "quantum-inference",
+            "quantum-purity-amplification",
+            "coherent-processing",
+            "sample-complexity"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Strain-Tuned Incommensurate Kekulé Spiral Order in Twisted Bilayer Graphene: a Quantum Many-Body Study",
+          "authors": "Cheng Huang, Yves H. Kwan, Maksim Ulybyshev, Fakher F. Assaad, Laura Classen, Zi Yang Meng",
+          "arxiv_id": "2605.20677",
+          "url": "https://arxivite.org/abs/2605.20677",
+          "categories": "cond-mat.str-el",
+          "summary": "The authors investigate the strain dependence of the interacting ground state in twisted bilayer graphene at ν=±2 using quantum Monte Carlo, exact diagonalization, and Hartree-Fock. They identify the transition from the Kramers intervalley coherent (KIVC) state to the incommensurate Kekulé spiral state (IKS) under strain, leveraging a combined computational protocol to address the sign problem in projected correlated flat-band systems.",
+          "relevance": "A significant quantum many-body study of the rich phase diagram in twisted bilayer graphene, bridging experiment and theory for strongly correlated flat-band systems.",
+          "tags": [
+            "twisted-bilayer-graphene",
+            "quantum-many-body",
+            "Kekule-spiral",
+            "strongly-correlated-electrons"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Discernible signatures of fractionally charged anyons in a Pfaffian-Laughlin state",
+          "authors": "Vadym Apalkov, Tapash Chakraborty",
+          "arxiv_id": "2605.21462",
+          "url": "https://arxivite.org/abs/2605.21462",
+          "categories": "cond-mat.str-el",
+          "summary": "The authors study a quantum dot coupled to an incompressible Pfaffian fluid to probe the nature of Pfaffian quasihole excitations. They derive the energy dispersion, charge density distribution, and quasihole creation energy for e/4 quasiholes. The results reflect the interaction between the quantum dot and the Pfaffian state, suggesting photoluminescence spectroscopy experiments on the 5/2 state could reveal the energetics of these elusive quasiparticles.",
+          "relevance": "Provides a concrete theoretical framework for experimentally detecting fractionally charged anyons in the Pfaffian-Laughlin state — central to topological quantum computing with non-Abelian anyons.",
+          "tags": [
+            "fractional-anyons",
+            "Pfaffian-state",
+            "topological-order",
+            "quantum-Hall-effect",
+            "photoluminescence"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Observation of a tripartite quantum phase for coexisting extended, localized, and critical states",
+          "authors": "Zhongshu Hu, Yajing Guo, Yu-Dong Wei, Bing-Chen Yao, Zhentian Qian, Xin-Chi Zhou, Bao-Zong Wang, Jianing Yang, Xuzong Chen, Shengjie Jin, Xiong-Jun Liu",
+          "arxiv_id": "2605.21441",
+          "url": "https://arxivite.org/abs/2605.21441",
+          "categories": "cond-mat.quant-gas",
+          "summary": "This work reports the realization of a tripartite phase — where extended, localized, and critical states coexist over finite spectral windows — in a quasi-periodically driven orbital optical lattice with ultracold atoms. The authors develop a two-stage protocol to prepare and detect all three state types, determining their characteristic exponents from expansion dynamics. The study marks a significant advance in exploring unconventional critical phenomena with ultracold atoms.",
+          "relevance": "The first experimental realization of a tripartite quantum phase with coexisting extended, localized, and critical states — a hallmark distinction between quasiperiodic and random disorder.",
+          "tags": [
+            "tripartite-quantum-phase",
+            "ultracold-atoms",
+            "localization",
+            "critical-phenomena",
+            "quasiperiodic"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Quantum Simulation of Gauge Theories for Particle and Nuclear Physics",
+          "authors": "Zohreh Davoudi",
+          "arxiv_id": "2605.20417",
+          "url": "https://arxivite.org/abs/2605.20417",
+          "categories": "hep-lat, hep-ph, nucl-th, quant-ph",
+          "summary": "Davoudi reviews the quantum-computational lattice-field-theory program, motivating the need for quantum simulation to address dense matter and dynamical phenomena that classical lattice QCD cannot tackle due to exponential scaling. She reports on recent progress in theory, algorithms, and hardware co-design for quantum simulation of gauge theories, and discusses challenges and opportunities ahead.",
+          "relevance": "A comprehensive overview of the quantum simulation program for lattice gauge theories — bridging quantum computing with particle and nuclear physics, and addressing problems intractable to classical methods.",
+          "tags": [
+            "quantum-simulation",
+            "lattice-gauge-theory",
+            "quantum-computing",
+            "particle-physics",
+            "nuclear-physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Light Deflection due to Spinoptic Effects in Parametrized and Spherically Symmetric Hairy Black Holes",
+          "authors": "Kelvin S. Alves, Rogerio T. Cavalcanti, Santiago E. Perez Bergliaffa",
+          "arxiv_id": "2605.20524",
+          "url": "https://arxivite.org/abs/2605.20524",
+          "categories": "gr-qc",
+          "summary": "The authors study helicity-dependent light deflection in spherically symmetric hairy black holes using the spinoptics formalism. They examine the Rezzolla-Zhidenko parametrized metric and a hairy regular black hole from gravitational decoupling, finding clear imprints of parametrization coefficients and hair parameters on the deflection angle. They also assess whether the RZ parametrization can mimic regular hairy black holes.",
+          "relevance": "Spinoptic effects provide a novel probe of black hole hair and regularization parameters, with observational implications for light deflection around compact objects.",
+          "tags": [
+            "spinoptics",
+            "hairy-black-holes",
+            "light-deflection",
+            "Rezzolla-Zhidenko",
+            "gravitational-decoupling"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Thermodynamics of homogeneous Universes: de Sitter, Bonnor-Melvin and static Einstein",
+          "authors": "G.E. Volovik",
+          "arxiv_id": "2605.21047",
+          "url": "https://arxivite.org/abs/2605.21047",
+          "categories": "gr-qc, cond-mat.stat-mech",
+          "summary": "Volovik constructs the thermodynamics of homogeneous universes (de Sitter, Bonnor-Melvin-Λ, and static Einstein) by treating the gravitational field as part of matter. Despite different matter content (ordinary matter, magnetic field, gravitational field, vacuum energy), all three share the same thermodynamic properties with energy densities obeying a unified equation containing thermodynamically conjugate variable pairs. In Minkowski vacuum, the approach automatically yields zero cosmological constant.",
+          "relevance": "A unified thermodynamic treatment of homogeneous cosmological solutions that naturally addresses the cosmological constant problem — connecting general relativity, condensed matter, and quantum cosmology.",
+          "tags": [
+            "quantum-cosmology",
+            "thermodynamics",
+            "de-Sitter",
+            "cosmological-constant",
+            "homogeneous-universes"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Universal fusion category symmetries on tensor products of infinite-dimensional Hilbert spaces",
+          "authors": "Ian Bunner, Corey Jones",
+          "arxiv_id": "2605.21327",
+          "url": "https://arxivite.org/abs/2605.21327",
+          "categories": "math-ph, cond-mat.str-el, hep-th, math.OA, math.QA",
+          "summary": "The authors prove that anyon chains, after stabilizing with infinite-dimensional ancilla spaces, factorize locally as tensor products of infinite-dimensional Hilbert spaces. This implies any unitary fusion category can be realized as symmetries on such tensor products. They further show that any two anyon chains with the same symmetry category are related by a symmetry-compatible locality-preserving unitary, yielding a single stable equivalence class for each fusion category. As a corollary, Levin-Wen model boundary algebras are bounded-spread isomorphic after stabilization iff they share the same bulk topological order.",
+          "relevance": "A foundational result on realizing arbitrary fusion category symmetries in infinite-dimensional Hilbert spaces, with direct implications for classifying topological order and Levin-Wen type models in condensed matter and quantum information.",
+          "tags": [
+            "fusion-categories",
+            "topological-order",
+            "anyon-chains",
+            "Levin-Wen-models",
+            "symmetry"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-21",
       "type": "arxiv",
@@ -2572,9 +2832,265 @@
     }
   ],
   "stats": {
-    "total_digests": 18,
-    "total_entries": 170,
+    "total_digests": 19,
+    "total_entries": 185,
     "unique_tags": {
+      "loop-quantum-gravity": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "black-holes": {
+        "first_seen": "2026-05-22",
+        "count": 3
+      },
+      "path-integral": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "singularity-resolution": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "black-hole-thermodynamics": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "Reissner-Nordström": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "de-Sitter": {
+        "first_seen": "2026-05-22",
+        "count": 2
+      },
+      "evaporation": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "semiclassical-gravity": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "hairy-black-holes": {
+        "first_seen": "2026-05-22",
+        "count": 3
+      },
+      "scalar-hair": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "multi-black-holes": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-05-22",
+        "count": 2
+      },
+      "electromagnetic-duality": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "black-hole-mergers": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "numerical-relativity": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "quantum-chaos": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "optimal-transport": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "holography": {
+        "first_seen": "2026-05-22",
+        "count": 2
+      },
+      "quantum-scrambling": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "Wasserstein": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "holography-of-information": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "baby-universes": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "firewalls": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "black-hole-information": {
+        "first_seen": "2026-05-22",
+        "count": 2
+      },
+      "AMPS": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "entangling-power": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "quantum-many-body": {
+        "first_seen": "2026-05-22",
+        "count": 3
+      },
+      "spin-chains": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "integrability": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "symmetry": {
+        "first_seen": "2026-05-22",
+        "count": 2
+      },
+      "quantum-inference": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "quantum-purity-amplification": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "coherent-processing": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "sample-complexity": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "twisted-bilayer-graphene": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "Kekule-spiral": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "strongly-correlated-electrons": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "fractional-anyons": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "Pfaffian-state": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "topological-order": {
+        "first_seen": "2026-05-22",
+        "count": 3
+      },
+      "quantum-Hall-effect": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "photoluminescence": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "tripartite-quantum-phase": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "ultracold-atoms": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "localization": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "critical-phenomena": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "quasiperiodic": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "quantum-simulation": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "lattice-gauge-theory": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "quantum-computing": {
+        "first_seen": "2026-05-22",
+        "count": 2
+      },
+      "particle-physics": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "nuclear-physics": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "spinoptics": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "light-deflection": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "Rezzolla-Zhidenko": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "gravitational-decoupling": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "thermodynamics": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "cosmological-constant": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "homogeneous-universes": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "fusion-categories": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "anyon-chains": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
+      "Levin-Wen-models": {
+        "first_seen": "2026-05-22",
+        "count": 1
+      },
       "black-hole information": {
         "first_seen": "2026-05-21",
         "count": 1
@@ -2610,10 +3126,6 @@
       "Kerr-metric": {
         "first_seen": "2026-05-21",
         "count": 1
-      },
-      "black-holes": {
-        "first_seen": "2026-05-21",
-        "count": 2
       },
       "perturbation-theory": {
         "first_seen": "2026-05-21",
@@ -2651,14 +3163,6 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "black-hole-information": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "hairy-black-holes": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
       "chaos": {
         "first_seen": "2026-05-21",
         "count": 1
@@ -2684,10 +3188,6 @@
         "count": 1
       },
       "string-theory": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "holography": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -2739,19 +3239,11 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "quantum-computing": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
       "query-complexity": {
         "first_seen": "2026-05-21",
         "count": 1
       },
       "Clifford-symmetries": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "quantum-many-body": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -2780,10 +3272,6 @@
         "count": 1
       },
       "quantum-double-models": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "topological-order": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -3713,6 +4201,70 @@
       }
     },
     "tag_counts": {
+      "loop-quantum-gravity": 1,
+      "black-holes": 3,
+      "path-integral": 1,
+      "singularity-resolution": 1,
+      "black-hole-thermodynamics": 1,
+      "Reissner-Nordström": 1,
+      "de-Sitter": 2,
+      "evaporation": 1,
+      "semiclassical-gravity": 1,
+      "hairy-black-holes": 3,
+      "scalar-hair": 1,
+      "multi-black-holes": 1,
+      "gravitational-waves": 2,
+      "electromagnetic-duality": 1,
+      "black-hole-mergers": 1,
+      "numerical-relativity": 1,
+      "quantum-chaos": 1,
+      "optimal-transport": 1,
+      "holography": 2,
+      "quantum-scrambling": 1,
+      "Wasserstein": 1,
+      "holography-of-information": 1,
+      "baby-universes": 1,
+      "firewalls": 1,
+      "black-hole-information": 2,
+      "AMPS": 1,
+      "entangling-power": 1,
+      "quantum-many-body": 3,
+      "spin-chains": 1,
+      "integrability": 1,
+      "symmetry": 2,
+      "quantum-inference": 1,
+      "quantum-purity-amplification": 1,
+      "coherent-processing": 1,
+      "sample-complexity": 1,
+      "twisted-bilayer-graphene": 1,
+      "Kekule-spiral": 1,
+      "strongly-correlated-electrons": 1,
+      "fractional-anyons": 1,
+      "Pfaffian-state": 1,
+      "topological-order": 3,
+      "quantum-Hall-effect": 1,
+      "photoluminescence": 1,
+      "tripartite-quantum-phase": 1,
+      "ultracold-atoms": 1,
+      "localization": 1,
+      "critical-phenomena": 1,
+      "quasiperiodic": 1,
+      "quantum-simulation": 1,
+      "lattice-gauge-theory": 1,
+      "quantum-computing": 2,
+      "particle-physics": 1,
+      "nuclear-physics": 1,
+      "spinoptics": 1,
+      "light-deflection": 1,
+      "Rezzolla-Zhidenko": 1,
+      "gravitational-decoupling": 1,
+      "quantum-cosmology": 1,
+      "thermodynamics": 1,
+      "cosmological-constant": 1,
+      "homogeneous-universes": 1,
+      "fusion-categories": 1,
+      "anyon-chains": 1,
+      "Levin-Wen-models": 1,
       "black-hole information": 1,
       "exotic-compact-objects": 1,
       "fuzzballs": 1,
@@ -3722,7 +4274,6 @@
       "dark-energy": 1,
       "gravitational-energy": 1,
       "Kerr-metric": 1,
-      "black-holes": 2,
       "perturbation-theory": 1,
       "exact-solutions": 1,
       "black-hole-perturbations": 1,
@@ -3732,8 +4283,6 @@
       "Page-curve": 1,
       "entanglement": 1,
       "microcanonical-ensemble": 1,
-      "black-hole-information": 1,
-      "hairy-black-holes": 1,
       "chaos": 1,
       "spinning-test-particles": 1,
       "beyond-GR": 1,
@@ -3741,7 +4290,6 @@
       "enumerative-geometry": 1,
       "resurgence": 1,
       "string-theory": 1,
-      "holography": 1,
       "relative-entropy": 1,
       "modular-theory": 1,
       "spacetime-reconstruction": 1,
@@ -3754,10 +4302,8 @@
       "lattice-cryptography": 1,
       "post-quantum-crypto": 1,
       "nonlinear-PDEs": 1,
-      "quantum-computing": 1,
       "query-complexity": 1,
       "Clifford-symmetries": 1,
-      "quantum-many-body": 1,
       "stabilizer-codes": 1,
       "topological-phases": 1,
       "topological-codes": 1,
@@ -3765,7 +4311,6 @@
       "layer-codes": 1,
       "color-routing": 1,
       "quantum-double-models": 1,
-      "topological-order": 1,
       "Sobolev-inequalities": 1,
       "toric-code": 1,
       "mixing-times": 1,
@@ -4000,6 +4545,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-05-22",
         "2026-05-21",
         "2026-05-20",
         "2026-05-19",
