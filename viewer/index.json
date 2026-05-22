@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-22T01:54:42.458Z",
+  "generated": "2026-05-22T04:48:21.832Z",
   "digests": [
     {
       "date": "2026-05-22",
@@ -257,6 +257,89 @@
             "anyon-chains",
             "Levin-Wen-models",
             "symmetry"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-22",
+      "categories": "Phys.org + ScienceDaily",
+      "items_found": 6,
+      "focus": "General Physics, General Science",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Black holes may avoid singularities when charge and Hawking radiation combine, theoretical physicist argues",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-black-holes-singularities-hawking-combine.html",
+          "summary": "Black holes are regions in space where gravity is so strong that nothing, even light, can escape. Einstein's theory of general relativity breaks down inside black holes, either by the presence of a so-called \"curvature singularity\" ...",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum supremacy just ran into an unexpected rival: An ordinary laptop armed with new math",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-quantum-supremacy-ran-unexpected-rival.html",
+          "summary": "Using a conventional computer and cutting-edge mathematical tools and code, physicists at the Center for Computational Quantum Physics (CCQ) at the Simons Foundation's Flatiron Institute and collaborators at Boston University ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Crystals of space and time: A structural phenomenon that may collapse into tiny black holes",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-crystals-space-phenomenon-collapse-tiny.html",
+          "summary": "A team from Vienna and Frankfurt has found a formula describing a strange phenomenon: Space and time can form a kind of \"crystal\" that may turn into a black hole. The results are described in Physical Review Letters.",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "New Quantum Sensor Could Count Individual Photons and Hunt Dark Matter",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260520093654.htm",
+          "summary": "Researchers in Finland have achieved a major advance in ultra-sensitive measurement technology by detecting an amount of energy smaller than one zeptojoule, less than a trillionth of a billionth of a joule. The breakthrough could improve quantum computing technology, support the search for dark matt",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Scientists Were Wrong About This “Rule-breaking” Particle",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260518041439.htm",
+          "summary": "For decades, a puzzling discrepancy involving a tiny subatomic particle called the muon fueled speculation that physicists might be on the verge of discovering an entirely new force of nature. Now, an international research team led by a Penn State physicist says the mystery appears to have been sol",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Quantum Ghost Imaging Works Using Only Sunlight in Stunning New Experiment",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260517211424.htm",
+          "summary": "Correlated and entangled photon pairs are essential tools in quantum optics. Scientists usually create these photon pairs through a process called spontaneous parametric down-conversion (SPDC), in which a powerful, highly stable laser shines into a nonlinear crystal. Because SPDC depends so heavily",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics",
+            "Experiment & Observation"
           ]
         }
       ]
@@ -2832,8 +2915,8 @@
     }
   ],
   "stats": {
-    "total_digests": 19,
-    "total_entries": 185,
+    "total_digests": 20,
+    "total_entries": 191,
     "unique_tags": {
       "loop-quantum-gravity": {
         "first_seen": "2026-05-22",
@@ -3090,6 +3173,34 @@
       "Levin-Wen-models": {
         "first_seen": "2026-05-22",
         "count": 1
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-05-22",
+        "count": 22
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-05-22",
+        "count": 11
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-05-22",
+        "count": 12
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-05-22",
+        "count": 23
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-05-22",
+        "count": 18
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-05-22",
+        "count": 15
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-05-22",
+        "count": 25
       },
       "black-hole information": {
         "first_seen": "2026-05-21",
@@ -3795,10 +3906,6 @@
         "first_seen": "2026-05-19",
         "count": 2
       },
-      "Quantum Gravity": {
-        "first_seen": "2026-05-19",
-        "count": 20
-      },
       "Renormalization": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -3891,10 +3998,6 @@
         "first_seen": "2026-05-19",
         "count": 1
       },
-      "Optics & Photonics": {
-        "first_seen": "2026-05-19",
-        "count": 9
-      },
       "Science Policy & Education": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -3914,10 +4017,6 @@
       "Quantum Foundations": {
         "first_seen": "2026-05-19",
         "count": 1
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-05-19",
-        "count": 20
       },
       "Infrared Physics": {
         "first_seen": "2026-05-18",
@@ -4115,14 +4214,6 @@
         "first_seen": "2026-05-18",
         "count": 1
       },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-05-18",
-        "count": 17
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-05-18",
-        "count": 24
-      },
       "Information Paradox": {
         "first_seen": "2026-05-15",
         "count": 1
@@ -4166,14 +4257,6 @@
       "Space Sustainability": {
         "first_seen": "2026-05-15",
         "count": 4
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-05-15",
-        "count": 14
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-05-15",
-        "count": 9
       },
       "Cosmology & Early Universe": {
         "first_seen": "2026-05-14",
@@ -4265,6 +4348,13 @@
       "fusion-categories": 1,
       "anyon-chains": 1,
       "Levin-Wen-models": 1,
+      "Quantum Gravity": 22,
+      "Black Hole Physics": 11,
+      "Optics & Photonics": 12,
+      "Quantum Information & Computing": 23,
+      "Many-Body Physics & Condensed Matter": 18,
+      "Science Communication & Policy": 15,
+      "Experiment & Observation": 25,
       "black-hole information": 1,
       "exotic-compact-objects": 1,
       "fuzzballs": 1,
@@ -4441,7 +4531,6 @@
       "Scalar-Tensor Gravity": 1,
       "Quantum Gravity Corrections": 1,
       "Cosmology": 2,
-      "Quantum Gravity": 20,
       "Renormalization": 1,
       "Unitarity": 1,
       "Gravity Research Foundation": 2,
@@ -4465,13 +4554,11 @@
       "Integrable Systems": 1,
       "Stellar Physics": 1,
       "Condensed Matter & Materials": 1,
-      "Optics & Photonics": 9,
       "Science Policy & Education": 1,
       "Meta-Science": 1,
       "High-Energy Physics & Phenomenology": 10,
       "Field Theory & Mathematical Physics": 14,
       "Quantum Foundations": 1,
-      "Quantum Information & Computing": 20,
       "Infrared Physics": 1,
       "Berry Phases": 1,
       "Black Hole Information": 1,
@@ -4521,8 +4608,6 @@
       "Critical Phenomena": 1,
       "Fractals": 1,
       "Universality Classes": 1,
-      "Many-Body Physics & Condensed Matter": 17,
-      "Experiment & Observation": 24,
       "Information Paradox": 1,
       "CMB Phenomenology": 1,
       "String Theory": 1,
@@ -4534,8 +4619,6 @@
       "Double Copy": 1,
       "Classical Gravity": 1,
       "Space Sustainability": 4,
-      "Science Communication & Policy": 14,
-      "Black Hole Physics": 9,
       "Cosmology & Early Universe": 7,
       "Foundations & Interpretations": 8,
       "Gravitational Waves & Astrophysics": 4,
@@ -4557,6 +4640,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-05-22",
         "2026-05-21",
         "2026-05-20",
         "2026-05-19",
