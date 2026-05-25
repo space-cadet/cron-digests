@@ -1,16 +1,29 @@
 # Edit History
+
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-05-18 11:25:00 IST*
+*Last Updated: 2026-05-25 05:25:00 IST*
 
----
+### 2026-05-25
 
-# Edit History
-*Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-05-21 16:45:00 IST*
+#### 05:25:00 IST - T11: arXiv Metadata Hallucination Fix and Pipeline Hardening
+- Modified `arxiv/2026-05-25.md` - Regenerated with fully verified metadata (12 papers, all checked against arXiv API via web_fetch)
+- Modified `TEMPLATE.md` - Fixed example URLs from arxiv.org to arxivite.org
+- Modified `cron-digests` arXiv cron prompt - Added mandatory web_fetch verification and non-negotiable URL rewrite rules
+- Created `memory-bank/tasks/T11.md` - Task file documenting the hallucination incident, root cause, fix, and lessons learned
+- Modified `memory-bank/tasks.md` - Added T11 to completed tasks registry
+- Modified `memory-bank/progress.md` - Updated project status, added T11 completion, noted 22 digests indexed
+- Modified `memory-bank/changelog.md` - Added 2026-05-25 section with verification fix and ES module fix
+- Modified `memory-bank/activeContext.md` - Updated current status with T11 completion, viewer health
+- Created `memory-bank/sessions/2026-05-25-night.md` - Session file for T11 work
+- Modified `memory-bank/session_cache.md` - Updated current session, task registry, session history
+- Modified `.github/workflows/ci.yml` - Removed `continue-on-error: true` from build-index step (now strict)
+- Created `package.json` - Added to resolve ES module conflict (parent workspace has `"type": "module"`)
+- Modified `web-science/manifest.json` - Added missing `2026-05-21.md` entry
+- Modified `scripts/build-index.js` - Verified working after package.json addition (CommonJS now resolves correctly)
+- Modified `scripts/validate-digest.js` - Verified working after package.json addition
+- Modified `viewer/index.json` - Rebuilt index: 22 digests, 209 entries, 384 unique tags
 
----
-
-## 2026-05-21
+### 2026-05-21
 
 #### 16:45:00 IST - T10: Cron Reliability Fix — Validator, CI, and CloakBrowser Integration
 - Modified `scripts/validate-digest.js` - Skip `items_found` accuracy check for arxiv digests (arxiv reports total announcement size, not selected entries)
@@ -25,7 +38,46 @@
 - Created `memory-bank/sessions/2026-05-21-evening.md` - Session file for T10 work
 - Modified `memory-bank/session_cache.md` - Updated current session, task registry, session history
 
-## 2026-05-18
+### 2026-05-18
+
+#### 08:59:00 IST - T4: Digest backfill and format fixes
+- Created `arxiv/2026-05-18.md` - Friday backlog + Monday digest (15 selected from ~340 announcements across hep-th, gr-qc, quant-ph, cond-mat)
+- Modified `arxiv/2026-05-18.md` - Removed category section headers (`## hep-th`, `## gr-qc`, etc.) to match viewer parser expectations
+- Modified `arxiv/2026-05-18.md` - Removed parenthetical from title line to fix card viewer item counter
+- Modified `manifest.json` - Added 2026-05-18 entry
+- Modified `arxiv/manifest.json` - Added 2026-05-18 entry
+
+#### 08:59:00 IST - T6: Schema, validation, and index infrastructure
+- Created `schema/digest.json` - JSON Schema v7 for digest header and entry structure
+- Created `scripts/validate-digest.js` - Markdown parser with items_found count check, sequential numbering validation 1..N, unnumbered ## section header flagging
+- Created `scripts/build-index.js` - Digest parser populating SQLite DB and exporting viewer/index.json
+- Created `viewer/index.db` - SQLite index with digests, entries, tags tables and indexes
+- Created `viewer/index.json` - Pre-computed JSON index (11 digests, 106 entries, 93 unique tags)
+- Modified `arxiv/2026-05-11.md` - Converted `## Honorable Mentions` footer to `###` to pass validation
+- Modified `web-science/2026-05-13.md` - Converted `## Notable Omissions` and `## Methodology` to `###` to pass validation
+
+#### 08:59:00 IST - T7: Viewer UI/UX overhaul
+- Modified `viewer/index.html` - Complete rewrite: CSS variable architecture for light/dark themes, instant index.json loading, tag filter bar, card tag chips, New badge, PDF links, keyboard navigation
+- Modified `viewer/index.html` - Dark mode toggle with localStorage persistence and system preference detection
+- Modified `viewer/index.html` - Tag filter bar with top-20 tags, count badges, active filter state sync
+- Modified `viewer/index.html` - Per-card tag chips (up to 6), clickable to activate filter
+- Modified `viewer/index.html` - New badge on latest digest card
+- Modified `viewer/index.html` - Paper action buttons: Abstract and PDF links in modal
+- Modified `viewer/index.html` - Keyboard navigation: j/k arrows, Enter to open, / to focus search, Esc to close/blur
+- Modified `viewer/index.html` - Mouse hover syncs keyboard focus index
+- Modified `viewer/index.html` - Compact tag chip sizing (smaller padding, font, border-radius)
+- Modified `viewer/index.html` - arxivite.org replaces arxiv.org for all paper abstract and PDF links
+
+#### 08:59:00 IST - Memory bank synchronization
+- Modified `memory-bank/tasks.md` - Updated task registry: added T6, T7, marked all complete, added operational notes
+- Created `memory-bank/tasks/T6.md` - Task detail file for schema/validation/index infrastructure
+- Created `memory-bank/tasks/T7.md` - Task detail file for viewer UI/UX overhaul
+- Modified `memory-bank/activeContext.md` - Updated current status, recent changes, next actions
+- Modified `memory-bank/progress.md` - Updated implementation status, known issues, next priorities
+- Modified `memory-bank/changelog.md` - Added [2026-05-18] section with Added/Changed/Fixed entries
+- Modified `memory-bank/session_cache.md` - Updated session state, task registry, session history
+- Created `memory-bank/sessions/2026-05-18-morning.md` - Session log for T6/T7 completion
+- Modified `memory-bank/edit_history.md` - Regenerated from all edit chunks (old + new)
 
 #### 11:25:00 IST - T8: CloakBrowser integration for web-science digest
 - Created `scripts/generate-web-science-cloak.mjs` - CloakBrowser-based digest generator using stealth Chromium with headed mode via xvfb
@@ -59,76 +111,15 @@
 - Modified `memory-bank/progress.md` - Added T8 and T9 to What Works section, updated In Progress and To Do
 - Created `memory-bank/implementation-details/cloakbrowser-integration.md` - Full implementation documentation for CloakBrowser digest generation
 - Created `memory-bank/implementation-details/ci-cd-pipeline.md` - Full implementation documentation for GitHub Actions workflow
-- Created `memory-bank/sessions/2026-05-18-afternoon.md` - Session file documenting T8 and T9 work
+- Modified `memory-bank/sessions/2026-05-18-afternoon.md` - Created session file documenting T8 and T9 work
 
-#### 08:59:00 IST - T6: Schema, validation, and index infrastructure
-- Created `schema/digest.json` - JSON Schema v7 for digest header and entry structure
-- Created `scripts/validate-digest.js` - Markdown parser with items_found count check, sequential numbering validation 1..N, unnumbered ## section header flagging
-- Created `scripts/build-index.js` - Digest parser populating SQLite DB and exporting viewer/index.json
-- Created `viewer/index.db` - SQLite index with digests, entries, tags tables and indexes
-- Created `viewer/index.json` - Pre-computed JSON index (11 digests, 106 entries, 93 unique tags)
-- Modified `arxiv/2026-05-11.md` - Converted `## Honorable Mentions` footer to `###` to pass validation
-- Modified `web-science/2026-05-13.md` - Converted `## Notable Omissions` and `## Methodology` to `###` to pass validation
+### 2026-05-11
 
-#### 08:59:00 IST - T7: Viewer UI/UX overhaul
-- Modified `viewer/index.html` - Complete rewrite: CSS variable architecture for light/dark themes, instant index.json loading, tag filter bar, card tag chips, New badge, PDF links, keyboard navigation
-- Modified `viewer/index.html` - Dark mode toggle with localStorage persistence and system preference detection
-- Modified `viewer/index.html` - Tag filter bar with top-20 tags, count badges, active filter state sync
-- Modified `viewer/index.html` - Per-card tag chips (up to 6), clickable to activate filter
-- Modified `viewer/index.html` - New badge on latest digest card
-- Modified `viewer/index.html` - Paper action buttons: Abstract and PDF links in modal
-- Modified `viewer/index.html` - Keyboard navigation: j/k arrows, Enter to open, / to focus search, Esc to close/blur
-- Modified `viewer/index.html` - Mouse hover syncs keyboard focus index
-- Modified `viewer/index.html` - Compact tag chip sizing (smaller padding, font, border-radius)
-- Modified `viewer/index.html` - arxivite.org replaces arxiv.org for all paper abstract and PDF links
+#### 17:58:00 IST - T1: Viewer UI improvements completed
+- Modified `viewer/index.html` - Fixed ToC navigation: scrollToItem() now targets paper-${num} IDs correctly
+- Modified `viewer/index.html` - Tightened spacing: reduced .paper-item margins (20->16px), list item gaps (4->2px), line-height (1.5->1.4)
+- Modified `viewer/index.html` - Added per-paper category chips: arXiv papers show categories (hep-th, gr-qc, etc.) inside each card
+- Modified `viewer/index.html` - Added web-science format support: handles ### N. Title under ## Section headers, shows source chips ("arXiv", "Nature News")
+- Modified `memory-bank/activeContext.md` - Updated with today's changes and current focus
+- Modified `memory-bank/progress.md` - Marked viewer UI as complete, added technical details
 
-#### 08:59:00 IST - T4: Digest backfill and format fixes
-- Created `arxiv/2026-05-18.md` - Friday backlog + Monday digest (15 selected from ~340 announcements across hep-th, gr-qc, quant-ph, cond-mat)
-- Modified `arxiv/2026-05-18.md` - Removed category section headers (`## hep-th`, `## gr-qc`, etc.) to match viewer parser expectations
-- Modified `arxiv/2026-05-18.md` - Removed parenthetical from title line to fix card viewer item counter
-- Modified `manifest.json` - Added 2026-05-18 entry
-- Modified `arxiv/manifest.json` - Added 2026-05-18 entry
-
-#### 08:59:00 IST - Memory bank synchronization
-- Modified `memory-bank/tasks.md` - Updated task registry: added T6, T7, marked all complete, added operational notes
-- Created `memory-bank/tasks/T6.md` - Task detail file for schema/validation/index infrastructure
-- Created `memory-bank/tasks/T7.md` - Task detail file for viewer UI/UX overhaul
-- Modified `memory-bank/activeContext.md` - Updated current status, recent changes, next actions
-- Modified `memory-bank/progress.md` - Updated implementation status, known issues, next priorities
-- Modified `memory-bank/changelog.md` - Added [2026-05-18] section with Added/Changed/Fixed entries
-- Modified `memory-bank/session_cache.md` - Updated session state, task registry, session history
-- Created `memory-bank/sessions/2026-05-18-morning.md` - Session log for T6/T7 completion
-- Modified `memory-bank/edit_history.md` - Regenerated from all edit chunks (old + new)
-
----
-
-## 2026-05-12
-
-#### 13:05:52 IST - T1: Install database-native workflow for cron-digests memory bank
-- Created `memory-bank/database/lib/inserts.js` - 8 atomic write functions
-- Created `memory-bank/database/lib/regenerate.js` - 3 markdown generators
-- Created `memory-bank/database/lib/workflow.js` - Single recordSessionWork() call
-- Created `memory-bank/database/lib/sqlite.js` - sql.js wrapper
-- Created `memory-bank/database/schema.sql` - Phase A schema
-- Created `memory-bank/database/init-schema.js` - Schema initialization
-- Created `memory-bank/database/test-workflow.js` - 60-check integration test suite
-- Created `memory-bank/database/package.json` - Project dependencies
-- Updated `memory-bank/activeContext.md` - Documented database-native workflow installation
-- Updated `memory-bank/techContext.md` - Added database workflow documentation
-
-#### 12:56:26 IST - T3: Integration testing of DB-native workflow
-- Created `memory-bank/database/lib/inserts.js` - Insert functions
-- Created `memory-bank/database/lib/regenerate.js` - Regenerate functions
-- Created `memory-bank/database/lib/workflow.js` - Workflow wrapper
-
----
-
-## 2026-05-11
-
-#### 10:28:00 IST - T2: Adopt v6.12 chunk-based protocol
-- Created `memory-bank/MB-PROTOCOL.md` - Protocol document
-- Modified `AGENTS.md` - Added startup sequence
-
-#### 09:02:00 IST - T1: Session startup and memory bank init
-- Created `memory-bank/tasks.md` - Task registry
-- Created `memory-bank/activeContext.md` - Session context

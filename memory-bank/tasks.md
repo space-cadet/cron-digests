@@ -17,6 +17,7 @@
 | T8 | CloakBrowser Integration for Web Science Digest | 2026-05-18 | T6 | [Details](tasks/T8.md) |
 | T9 | CI/CD Pipeline for cron-digests | 2026-05-18 | T6, T7 | [Details](tasks/T9.md) |
 | T10 | Cron Reliability Fix — Validator, CI, CloakBrowser | 2026-05-21 | T6, T8, T9 | [Details](tasks/T10.md) |
+| T11 | arXiv Metadata Hallucination Fix — Verification Pipeline | 2026-05-25 | T6, T10 | [Details](tasks/T11.md) |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)

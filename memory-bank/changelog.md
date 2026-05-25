@@ -1,5 +1,26 @@
 # Changelog
 
+## [2026-05-25]
+
+### Added
+- `package.json` — ES module isolation: overrides parent workspace `"type": "module"` so `build-index.js` and `validate-digest.js` run as CommonJS
+- arXiv cron prompt — mandatory `web_fetch` verification rule: "You may NOT include any paper whose metadata you have not verified via web_fetch"
+- arXiv cron prompt — non-negotiable URL rewrite: all paper links MUST use `https://arxivite.org/abs/<id>` (even though arXiv API returns `arxiv.org` URLs)
+- `arxiv/2026-05-25.md` — Regenerated with fully verified metadata (12 papers, all checked against live arXiv abstract pages)
+
+### Changed
+- `web-science/manifest.json` — Added missing `2026-05-21.md` entry
+- `viewer/index.json` — Rebuilt: 22 digests, 209 entries, 384 unique tags
+- `TEMPLATE.md` — Example URLs updated from `arxiv.org` to `arxivite.org`
+
+### Fixed
+- `scripts/build-index.js` — `ReferenceError: require is not defined` caused by parent workspace ES module setting — fixed by adding local `package.json` without `"type": "module"`
+- `scripts/validate-digest.js` — Same ES module conflict, same fix
+- `.github/workflows/ci.yml` — Removed `continue-on-error: true` from build-index step (was masking real failures silently)
+- arXiv May 25 hallucination — 12 papers had real IDs but invented titles, authors, abstracts. Regenerated with verified metadata.
+
+---
+
 ## [2026-05-18]
 
 ### Added
