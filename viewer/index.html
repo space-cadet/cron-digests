@@ -292,7 +292,11 @@
             color: #7b1fa2;
         }
         [data-theme="dark"] .type-arxiv { background: #0d47a1; color: #bbdefb; }
-        [data-theme="dark"] .type-web { background: #4a148c; color: #e1bee7; }
+        .type-moltbook {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+        [data-theme="dark"] .type-moltbook { background: #f57f17; color: #fff8e1; }
 
         .digest-date {
             font-size: 1.5rem;
@@ -564,7 +568,7 @@
     <header>
         <div class="container" style="position:relative;">
             <h1>🔬 Cron Digest Archive</h1>
-            <p>Daily arXiv and Web Science digests — searchable, browsable, chronological</p>
+            <p>Daily arXiv, Web Science, and Moltbook research digests — searchable, browsable, chronological</p>
             <div class="header-actions">
                 <button class="icon-btn" id="themeToggle" title="Toggle dark mode">🌙</button>
             </div>
@@ -580,6 +584,7 @@
                 <button class="filter-btn active" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="arxiv">arXiv</button>
                 <button class="filter-btn" data-filter="web-science">Web Science</button>
+                <button class="filter-btn" data-filter="moltbook">Moltbook</button>
             </div>
         </div>
 
@@ -604,7 +609,8 @@
     <script>
         const SOURCES = {
             arxiv: '../arxiv/',
-            'web-science': '../web-science/'
+            'web-science': '../web-science/',
+            moltbook: '../moltbook/'
         };
 
         let allDigests = [];
@@ -698,6 +704,9 @@
             if (type === 'arxiv') {
                 const catMatch = content.match(/\*\*Categories:\*\*\s*([^\n]+)/);
                 if (catMatch) meta.categories = catMatch[1].trim();
+            } else if (type === 'moltbook') {
+                const submoltsMatch = content.match(/\*\*Submolts:\*\*\s*([^\n]+)/);
+                if (submoltsMatch) meta.categories = submoltsMatch[1].trim();
             } else {
                 const sitesMatch = content.match(/\*\*Sites:\*\*\s*([^\n]+)/);
                 if (sitesMatch) meta.sites = sitesMatch[1].trim();
@@ -923,6 +932,64 @@
 
                     html += convertMarkdownToHtml(sectionContent);
                     html += `</div>`;
+                });
+            } else if (type === 'moltbook') {
+                const lines = content.split('\n');
+                let buffer = [];
+                let entriesList = [];
+                let headerLines = [];
+                let inHeader = true;
+
+                for (let line of lines) {
+                    if (line.match(/^## \d+\./)) {
+                        if (buffer.length > 0) {
+                            entriesList.push({ content: buffer.join('\n') });
+                            buffer = [];
+                        }
+                        buffer.push(line);
+                        inHeader = false;
+                    } else if (inHeader && !line.match(/^## \d+\./)) {
+                        headerLines.push(line);
+                    } else {
+                        buffer.push(line);
+                    }
+                }
+                if (buffer.length > 0) {
+                    entriesList.push({ content: buffer.join('\n') });
+                }
+
+                if (headerLines.length > 0) {
+                    html += convertMarkdownToHtml(headerLines.join('\n').trim());
+                }
+
+                entriesList.forEach((entry, idx) => {
+                    const match = entry.content.match(/^## (\d+)\.\s*(.+)$/m);
+                    if (match) {
+                        const num = match[1];
+                        const title = match[2];
+                        const entryContent = entry.content.slice(match[0].length);
+                        const submoltMatch = entryContent.match(/\*\*Submolt:\*\*\s*(.+)/);
+                        const authorMatch = entryContent.match(/\*\*Author:\*\*\s*(.+)/);
+                        const urlMatch = entryContent.match(/\*\*URL:\*\*\s*(\S+)/);
+                        
+                        let chips = '';
+                        if (submoltMatch) {
+                            const submolt = submoltMatch[1].trim();
+                            chips = `<div class="paper-chips"><span class="chip">${submolt}</span></div>`;
+                        }
+
+                        html += `<div class="paper-item" id="paper-${num}">`;
+                        html += `<h2>${num}. ${title}</h2>`;
+                        if (chips) html += chips;
+                        if (authorMatch) {
+                            html += `<p><strong>Author:</strong> ${authorMatch[1].trim()}</p>`;
+                        }
+                        if (urlMatch) {
+                            html += `<div class="paper-actions"><a href="${urlMatch[1].trim()}" target="_blank" class="btn-abs">🔗 Open on Moltbook</a></div>`;
+                        }
+                        html += convertMarkdownToHtml(entryContent);
+                        html += `</div>`;
+                    }
                 });
             } else {
                 const lines = content.split('\n');

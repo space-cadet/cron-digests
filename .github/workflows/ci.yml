@@ -53,7 +53,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
           # Stage ALL changes including new digests pushed by cron
-          git add -A arxiv/ web-science/ viewer/
+          git add -A arxiv/ web-science/ moltbook/ viewer/
           
           if git diff --cached --quiet; then
             echo "No changes to commit"

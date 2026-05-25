@@ -239,7 +239,7 @@ function buildJSON(digests) {
 
 function main() {
   const digests = [];
-  const types = ['arxiv', 'web-science'];
+  const types = ['arxiv', 'web-science', 'moltbook'];
 
   for (const t of types) {
     const dir = path.join(ROOT, t);
