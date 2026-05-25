@@ -1,6 +1,6 @@
 /**
  * Memory Bank Workflow Wrapper
- * Single function for agents to record session work and regenerate files
+ * Single function for agents to record session work, with optional regeneration
  * Replaces the 8-step manual markdown editing workflow
  */
 
@@ -22,7 +22,7 @@ import { join } from 'path';
  * 2. Updates task status if changed
  * 3. Creates/completes session record
  * 4. Updates session cache with current counts
- * 5. Regenerates edit_history.md, tasks.md, session_cache.md
+ * 5. Optionally regenerates edit_history.md, tasks.md, session_cache.md
  * 6. Logs the transaction for audit
  *
  * @param {Object} data
@@ -33,6 +33,10 @@ import { join } from 'path';
  * @param {string} [data.session_notes] - Notes about the session
  * @param {string} [data.session_period] - morning, afternoon, evening, night
  * @param {string} [data.output_dir] - Directory to write markdown files (default: memory-bank/)
+ * @param {string} [data.tasks_dir] - Directory for individual task files (e.g., memory-bank/tasks/)
+ * @param {string} [data.sessions_dir] - Directory for session files (e.g., memory-bank/sessions/)
+ * @param {string} [data.edits_dir] - Directory for edit chunks (e.g., memory-bank/edits/)
+ * @param {boolean} [data.regenerate_markdown] - Whether to rewrite markdown files after recording
  * @returns {Promise<Object>} Operation result with generated files and timing
  */
 export async function recordSessionWork({
@@ -42,7 +46,11 @@ export async function recordSessionWork({
   task_status = null,
   session_notes = '',
   session_period = 'morning',
-  output_dir = null
+  output_dir = null,
+  tasks_dir = null,
+  sessions_dir = null,
+  edits_dir = null,
+  regenerate_markdown = false
 }) {
   const startTime = performance.now();
   const transactionId = `tx-${Date.now()}`;
@@ -115,13 +123,16 @@ export async function recordSessionWork({
       completed_count: counts.completed
     });
 
-    // Step 5: Regenerate all markdown files
+    // Step 5: Optionally regenerate all markdown files
     const outDir = output_dir || 'memory-bank';
-    const regenerated = await regenerate.regenerateAll({
-      editHistory: join(outDir, 'edit_history.md'),
-      tasks: join(outDir, 'tasks.md'),
-      sessionCache: join(outDir, 'session_cache.md')
-    });
+    const regenerated = regenerate_markdown
+      ? await regenerateMarkdownState({
+          output_dir: outDir,
+          tasks_dir,
+          sessions_dir,
+          edits_dir
+        })
+      : {};
 
     // Step 6: Log transaction
     const durationMs = Math.round(performance.now() - startTime);
@@ -140,11 +151,13 @@ export async function recordSessionWork({
       entryId,
       sessionId,
       durationMs,
-      filesWritten: [
-        join(outDir, 'edit_history.md'),
-        join(outDir, 'tasks.md'),
-        join(outDir, 'session_cache.md')
-      ],
+      filesWritten: regenerate_markdown
+        ? [
+            join(outDir, 'edit_history.md'),
+            join(outDir, 'tasks.md'),
+            join(outDir, 'session_cache.md')
+          ]
+        : [],
       taskUpdate: taskUpdate || null,
       counts
     };
@@ -162,6 +175,30 @@ export async function recordSessionWork({
 
     throw error;
   }
+}
+
+// ============================================================================
+// REGENERATE MARKDOWN (manual trigger)
+// ============================================================================
+
+/**
+ * Regenerate all markdown files from current DB state.
+ * Call this explicitly when you want to sync text files after bulk DB operations.
+ */
+export async function regenerateMarkdownState({
+  output_dir = 'memory-bank',
+  tasks_dir = null,
+  sessions_dir = null,
+  edits_dir = null
+} = {}) {
+  return regenerate.regenerateAll({
+    editHistory: join(output_dir, 'edit_history.md'),
+    tasks: join(output_dir, 'tasks.md'),
+    sessionCache: join(output_dir, 'session_cache.md'),
+    tasksDir: tasks_dir || join(output_dir, 'tasks'),
+    sessionsDir: sessions_dir || join(output_dir, 'sessions'),
+    editsDir: edits_dir || join(output_dir, 'edits')
+  });
 }
 
 // ============================================================================
