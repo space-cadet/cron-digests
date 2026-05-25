@@ -1,0 +1,6 @@
+{
+  "name": "cron-digests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cron digest archive viewer and automation"
+}

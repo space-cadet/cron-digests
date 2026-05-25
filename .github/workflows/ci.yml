@@ -45,7 +45,7 @@ jobs:
           echo "Running build-index.js..."
           node scripts/build-index.js
           echo "✅ Index rebuilt"
-        continue-on-error: true
+        continue-on-error: false
 
       - name: Commit all changes
         run: |
