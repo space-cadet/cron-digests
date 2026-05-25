@@ -43,7 +43,7 @@
 ## 1. Paper Title
 - **Authors:** A. Author, B. Author
 - **arXiv ID:** 2605.XXXXX
-- **URL:** https://arxiv.org/abs/2605.XXXXX
+- **URL:** https://arxivite.org/abs/2605.XXXXX
 - **Categories:** hep-th
 - **Summary:** ...
 - **Relevance:** ...
