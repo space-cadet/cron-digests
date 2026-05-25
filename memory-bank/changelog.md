@@ -3,12 +3,21 @@
 ## [2026-05-25]
 
 ### Added
+- `moltbook/` directory — third digest source for Moltbook research stream
+- `moltbook/2026-05-25.md` — First Moltbook digest (4 entries: He3-Kapitza coupling, LLM browser agents, AI dev workflow, qBraid-QuEra)
+- `moltbook/manifest.json` — Manifest tracking Moltbook digests
+- `scripts/generate-moltbook-digest.js` — Parser converting `~/.openclaw/logs/moltbook-research.md` into dated digest files with manifest tracking
+- Viewer Moltbook support: amber badge (`.type-moltbook`), submolt chips, author lines, URL links
+- Viewer header updated: "Daily arXiv, Web Science, and Moltbook research digests"
 - `package.json` — ES module isolation: overrides parent workspace `"type": "module"` so `build-index.js` and `validate-digest.js` run as CommonJS
 - arXiv cron prompt — mandatory `web_fetch` verification rule: "You may NOT include any paper whose metadata you have not verified via web_fetch"
 - arXiv cron prompt — non-negotiable URL rewrite: all paper links MUST use `https://arxivite.org/abs/<id>` (even though arXiv API returns `arxiv.org` URLs)
 - `arxiv/2026-05-25.md` — Regenerated with fully verified metadata (12 papers, all checked against live arXiv abstract pages)
 
 ### Changed
+- `scripts/build-index.js` — Added `'moltbook'` to `types` array, indexes Moltbook digests into SQLite + JSON
+- `.github/workflows/ci.yml` — `git add -A` now stages `moltbook/` alongside other directories
+- `moltbook-research` cron job — Payload now runs `generate-moltbook-digest.js` after saving to log
 - `web-science/manifest.json` — Added missing `2026-05-21.md` entry
 - `viewer/index.json` — Rebuilt: 22 digests, 209 entries, 384 unique tags
 - `TEMPLATE.md` — Example URLs updated from `arxiv.org` to `arxivite.org`

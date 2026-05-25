@@ -1,17 +1,19 @@
 # Project Progress
 
-*Last Updated: 2026-05-25 05:25:00 IST*
+*Last Updated: 2026-05-25 07:38:00 IST*
 
 ## What Works
 
 - [x] GitHub CLI (`gh`) installed and authenticated as `space_cadet`
 - [x] Telegram channel enabled and paired (user 849773381)
-- [x] arXiv Morning Digest cron job: Mon-Fri 7:11 IST (with mandatory `web_fetch` verification)
-- [x] Web Science Digest cron job: Mon-Fri 10:17 IST
-- [x] Digest format v2.0: uniform template across arXiv and web-science
+- [x] arXiv Morning Digest cron job: **Tue-Sat** 7:11 IST (with mandatory `web_fetch` verification)
+- [x] Web Science Digest cron job: **Tue-Sat** 10:17 IST
+- [x] **Moltbook personal stream cron**: every 6h on the hour
+- [x] **Moltbook research stream cron**: every 6h at :30
+- [x] Digest format v2.0: uniform template across arXiv, web-science, and Moltbook
 - [x] Viewer UI: card grid, modal with ToC, category chips, search/filter
 - [x] JSON Schema (`schema/digest.json`) formalizes digest structure
-- [x] Validation script (`scripts/validate-digest.js`): 22 files, 0 errors
+- [x] Validation script (`scripts/validate-digest.js`): **23 files, 0 errors**
 - [x] Index builder (`scripts/build-index.js`): SQLite + JSON export
 - [x] Viewer loads `index.json` instantly (1 fetch vs N markdown files)
 - [x] Dark mode with toggle and localStorage persistence
@@ -22,16 +24,29 @@
 - [x] arxivite.org replaces arxiv.org for all paper links
 - [x] CloakBrowser integration: stealth Chromium for bot-resistant web-science fetching
 - [x] CI/CD pipeline: GitHub Actions auto-validates, rebuilds index, deploys to Pages on every push
-- [x] Memory bank fully synchronized with all work through 2026-05-25 05:25 IST
+- [x] Memory bank fully synchronized with all work through **2026-05-25 07:38 IST**
+- [x] **Moltbook research stream integration**: cron → log → generator → digest → index → viewer pipeline live
+- [x] **Moltbook generator** (`scripts/generate-moltbook-digest.js`): parses research log into dated digest files
+- [x] Viewer shows three sources: arXiv (green), Web Science (blue), Moltbook (amber)
+- [x] Moltbook submolt chips and author lines in viewer modal
 - [x] **Metadata verification pipeline**: mandatory `web_fetch` for every arXiv paper before inclusion
 - [x] **ES module isolation**: cron-digests `package.json` overrides parent workspace module type
 
 ## In Progress
 
-- [ ] Operational monitoring of automated cron runs (next: tomorrow 7:11 IST)
+- [ ] Operational monitoring of automated cron runs (next: arXiv ~7:11 IST, Web Science ~10:17 IST, Moltbook research ~:30 past the hour)
 - [ ] `tags.json` sync with new tags from May 21, 22, 25
 
 ## Completed (2026-05-25)
+
+### T13: Moltbook Research Stream Integration into Viewer
+1. Created `moltbook/` directory with first digest (`2026-05-25.md`, 4 entries) and `manifest.json`
+2. Built `scripts/generate-moltbook-digest.js` — 87-line parser that reads `~/.openclaw/logs/moltbook-research.md` and outputs dated digest + manifest update
+3. Updated `scripts/build-index.js` — added `'moltbook'` to `types` array, indexes into SQLite + JSON
+4. Updated `viewer/index.html` — amber badge (`.type-moltbook`), submolt chips, author lines, URL links, three-source header
+5. Updated `.github/workflows/ci.yml` — `git add -A` now stages `moltbook/`
+6. Updated `moltbook-research` cron job payload — runs generator after saving to log
+7. Verified GitHub Pages deployment: 1 moltbook digest with 4 entries live in production
 
 ### T11: arXiv Metadata Hallucination Fix — Verification Pipeline
 1. Identified hallucination: May 25 digest had 12 papers with real IDs but invented metadata
@@ -112,10 +127,11 @@
 
 ## Next Priorities
 
-1. Monitor tomorrow's arXiv cron (~7:11 IST) to verify `web_fetch` verification works
-2. Sync tag registry
-3. Update template to match actual format
+1. Monitor next arXiv cron (~7:11 IST Tue-Sat) to verify `web_fetch` verification works
+2. Monitor next moltbook-research cron to verify generator script runs correctly in isolated context
+3. Sync tag registry
+4. Update template to match actual format
 
 ## Project Status
 
-**Fully Operational** — all infrastructure complete: cron jobs (with verification), validation, indexing, viewer, CI/CD, and CloakBrowser fallback. Awaiting routine cron verification and tag registry sync.
+**Fully Operational** — all infrastructure complete: three cron jobs (arXiv, Web Science, Moltbook), validation, indexing, three-source viewer, CI/CD, CloakBrowser fallback, and metadata verification. Awaiting routine cron verification and tag registry sync.

@@ -1,7 +1,7 @@
 # Session Cache
 
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-05-25 05:25:00 IST*
+*Last Updated: 2026-05-25 07:38:00 IST*
 
 **Started**: 2026-05-25 04:30:00 IST
 **Focus Task**: T11 — arXiv Metadata Hallucination Fix
@@ -67,13 +67,25 @@ None.
 **Completed:** 2026-05-25
 **Dependencies:** T6, T10
 
+### T12: ES Module Fix — package.json for CommonJS scripts
+**Status:** ✅ **COMPLETED**
+**Started:** 2026-05-25
+**Completed:** 2026-05-25
+**Dependencies:** T11
+
+### T13: Moltbook Research Stream Integration into Viewer
+**Status:** ✅ **COMPLETED**
+**Started:** 2026-05-25
+**Completed:** 2026-05-25
+**Dependencies:** T6, T9
+
 ## Session History (Last 5)
 
-1. `sessions/2026-05-25-night.md` — T11: arXiv Metadata Hallucination Fix
-2. `sessions/2026-05-21-evening.md` — T10: Cron Reliability Fix
-3. `sessions/2026-05-18-afternoon.md` — T8/T9: CloakBrowser + CI Pipeline
-4. `sessions/2026-05-12-morning.md` — T4/T5: Format v2.0 + Cron Prompts
-5. `sessions/2026-05-11-evening.md` — T1-T3: Initial setup
+1. `sessions/2026-05-25-morning.md` — T13: Moltbook Research Stream Integration
+2. `sessions/2026-05-25-night.md` — T11: arXiv Metadata Hallucination Fix
+3. `sessions/2026-05-21-evening.md` — T10: Cron Reliability Fix
+4. `sessions/2026-05-18-afternoon.md` — T8/T9: CloakBrowser + CI Pipeline
+5. `sessions/2026-05-12-morning.md` — T4/T5: Format v2.0 + Cron Prompts
 
 ---
-*Updated: 2026-05-25 05:25:00 IST*
+*Updated: 2026-05-25 07:38:00 IST*

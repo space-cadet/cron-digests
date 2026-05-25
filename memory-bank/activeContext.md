@@ -2,15 +2,26 @@
 
 ## Current Status
 
-Cron-digests archive is fully operational with formalized schema, automated validation, indexed viewer, dark mode UI, CI/CD pipeline, **and strict metadata verification**.
+Cron-digests archive is fully operational with formalized schema, automated validation, indexed viewer, dark mode UI, CI/CD pipeline, strict metadata verification, **and Moltbook research stream integration**.
 
-- **Schema/Validation:** JSON Schema at `schema/digest.json`, validator runs clean (0 errors), 22 digests indexed
-- **Viewer:** Dark mode, tag filtering, keyboard nav, PDF links, arxivite.org integration — deployed to GitHub Pages
-- **Cron jobs:** arXiv Mon-Fri 7:11 IST (with mandatory `web_fetch` verification), Web Science Mon-Fri 10:17 IST — both operational
+- **Schema/Validation:** JSON Schema at `schema/digest.json`, validator runs clean (0 errors), 23 digests indexed
+- **Viewer:** Dark mode, tag filtering, keyboard nav, PDF links, arxivite.org integration, **Moltbook amber badge with submolt chips** — deployed to GitHub Pages
+- **Cron jobs:** arXiv Tue-Sat 7:11 IST (with mandatory `web_fetch` verification), Web Science Tue-Sat 10:17 IST, Moltbook personal every 6h on the hour, Moltbook research every 6h at :30 — all operational
 - **CI/CD:** GitHub Actions workflow (`.github/workflows/ci.yml`) auto-validates digests, rebuilds index, commits changes, deploys to Pages on every push
 - **Metadata integrity:** Hallucination incident (May 25) resolved; verification rules now hard-coded in cron prompt
+- **Moltbook integration:** Full pipeline live — cron → log → generator → digest → index → viewer
 
 ## Completed This Session (2026-05-25)
+
+### T13: Moltbook Research Stream Integration into Viewer
+- Created `moltbook/` directory with first digest (`2026-05-25.md`, 4 entries) and `manifest.json`
+- Built `scripts/generate-moltbook-digest.js` parser that converts `~/.openclaw/logs/moltbook-research.md` into dated digest files
+- Updated `scripts/build-index.js` to index moltbook digests into SQLite + JSON
+- Updated `viewer/index.html` with amber badge (`.type-moltbook`), submolt chips, author lines, URL links
+- Updated `.github/workflows/ci.yml` to stage `moltbook/` directory
+- Updated `moltbook-research` cron job payload to run generator after saving to log
+- Verified GitHub Pages deployment: 1 moltbook digest with 4 entries live in production index.json
+- Viewer header updated: "Daily arXiv, Web Science, and Moltbook research digests"
 
 ### T11: arXiv Metadata Hallucination Fix — Verification Pipeline
 - Identified that May 25 arXiv digest contained 12 papers with real IDs but hallucinated titles, authors, and abstracts
@@ -36,18 +47,20 @@ Cron-digests archive is fully operational with formalized schema, automated vali
 ## In Progress
 
 - [x] Operational monitoring: verify cron jobs generate compliant digests — **DONE**: May 25 arXiv digest manually verified and regenerated
+- [x] Moltbook integration: add research stream to viewer — **DONE**: Pipeline live, 4 entries indexed
 - [ ] Tag registry sync: `tags.json` still stale, missing new tags from May 21, 22, 25
 
 ## Next Actions
 
 1. Monitor tomorrow's arXiv cron (~7:11 IST) to verify new `web_fetch` verification rules work
 2. Monitor tomorrow's Web Science cron (~10:17 IST) for CloakBrowser + fallback behavior
-3. Sync `tags.json` with all tags from May 21, 22, 25 digests
-4. Consider adding spot-check verification as secondary safeguard (2-3 random papers per digest)
+3. Monitor next moltbook-research run to verify generator script works in cron context
+4. Sync `tags.json` with all tags from May 21, 22, 25 digests
+5. Consider adding spot-check verification as secondary safeguard (2-3 random papers per digest)
 
 ## Blockers
 
 None.
 
 ---
-*Updated: 2026-05-25 05:25:00 IST*
+*Updated: 2026-05-25 07:38:00 IST*

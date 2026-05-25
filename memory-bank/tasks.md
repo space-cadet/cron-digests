@@ -1,6 +1,6 @@
 # Task Registry
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-05-18 11:25:00 IST*
+*Last Updated: 2026-05-25 05:25:00 IST*
 
 ## Active Tasks
 | ID | Title | Status | Priority | Started | Dependencies | Details |
@@ -18,6 +18,8 @@
 | T9 | CI/CD Pipeline for cron-digests | 2026-05-18 | T6, T7 | [Details](tasks/T9.md) |
 | T10 | Cron Reliability Fix — Validator, CI, CloakBrowser | 2026-05-21 | T6, T8, T9 | [Details](tasks/T10.md) |
 | T11 | arXiv Metadata Hallucination Fix — Verification Pipeline | 2026-05-25 | T6, T10 | [Details](tasks/T11.md) |
+| T12 | ES Module Fix — package.json for CommonJS scripts | 2026-05-25 | T11 | [Details](tasks/T12.md) |
+| T13 | Moltbook Research Stream Integration into Viewer | 2026-05-25 | T6, T9 | [Details](tasks/T13.md) |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)
@@ -69,11 +71,42 @@
 **Files:** `.github/workflows/ci.yml`
 **Notes:** Two-job architecture: validate-and-index (with auto-commit) → deploy. Validation failures block Pages deploy. `[ci skip]` prevents infinite CI loops.
 
+### T10: Cron Reliability Fix — Validator, CI, and CloakBrowser Integration
+**Description:** Fixed validator false positives on arxiv digest items_found, hardened CI staging, corrected CloakBrowser script URLs after site redesign.
+**Status:** ✅ **Last:** 2026-05-21 16:45:00 IST
+**Criteria:** Validator skips items_found check for arxiv (reports total announcements, not selected). CI stages all directories. CloakBrowser script targets correct ScienceDaily URL.
+**Files:** `scripts/validate-digest.js`, `.github/workflows/ci.yml`, `scripts/generate-web-science-cloak.mjs`
+**Notes:** ScienceDaily redesigned their URL structure — the old `/news/physics/` path 404'd. The fix was `/news/matter_energy/physics/`. Also discovered that `continue-on-error: true` on the CI build step was hiding real failures.
+
+### T11: arXiv Metadata Hallucination Fix — Verification Pipeline
+**Description:** Regenerated 2026-05-25 arXiv digest with fully verified metadata after discovering the cron job hallucinated paper details. Added mandatory web_fetch verification to the arXiv cron prompt.
+**Status:** ✅ **Last:** 2026-05-25 05:25:00 IST
+**Criteria:** All 12 papers verified against arXiv API via web_fetch. All URLs use arxivite.org. Cron prompt now includes non-negotiable verification rules.
+**Files:** `arxiv/2026-05-25.md`, `TEMPLATE.md`, `.github/workflows/ci.yml`
+**Notes:** The hallucination: paper titles, authors, and abstracts were plausible-sounding but wrong. Real titles were simpler. Root cause: cron job generating digest without live web_fetch verification. Fix: mandatory verification + URL rewrite enforcement.
+
+### T12: ES Module Fix — package.json for CommonJS scripts
+**Description:** Created package.json (no "type": "module") to resolve ES module conflict caused by parent workspace having `"type": "module"`. Fixed web-science manifest missing entry.
+**Status:** ✅ **Last:** 2026-05-25 05:25:00 IST
+**Criteria:** `scripts/build-index.js` and `scripts/validate-digest.js` (CommonJS `require()`) work again. CI build step is strict (no `continue-on-error`).
+**Files:** `package.json`, `.github/workflows/ci.yml`, `web-science/manifest.json`
+**Notes:** Parent workspace `/home/cloudy/.openclaw/workspace/` has `"type": "module"` in its package.json. This propagated to cron-digests, breaking CommonJS scripts. The fix: create a local package.json without type:module.
+
+### T13: Moltbook Research Stream Integration into Viewer
+**Description:** Integrated Moltbook research stream (cron job output) into the cron-digests viewer as a third digest source alongside arXiv and Web Science.
+**Status:** ✅ **Last:** 2026-05-25 07:38:00 IST
+**Criteria:** Moltbook digest generated from research log, indexed by build-index.js, rendered in viewer with amber badge and submolt chips. GitHub Pages live. CI stages moltbook/ directory.
+**Files:** `moltbook/2026-05-25.md`, `moltbook/manifest.json`, `scripts/generate-moltbook-digest.js`, `scripts/build-index.js`, `viewer/index.html`, `.github/workflows/ci.yml`
+**Notes:** Full pipeline: cron job saves to `~/.openclaw/logs/moltbook-research.md` → `generate-moltbook-digest.js` parses → dated digest + manifest → `build-index.js` indexes → viewer renders. The viewer shows submolt name as chips, author lines, and direct URLs.
+
 ## Operational Notes
-- **arXiv digest cron:** Mon-Fri 7:11 IST, last run 2026-05-18 (15 selected from ~340 announcements)
-- **Web Science digest cron:** Mon-Fri 10:17 IST, last run 2026-05-18 (6 articles via CloakBrowser manual re-run)
-- **Generated digests:** arxiv/2026-05-18.md, web-science/2026-05-18.md
+- **arXiv digest cron:** Tue-Sat 7:11 IST, last run 2026-05-25 (12 papers verified)
+- **Web Science digest cron:** Tue-Sat 10:17 IST, last run 2026-05-25 (6 articles via CloakBrowser)
+- **Moltbook research cron:** Every 6h at :30, last run 2026-05-25 07:11 IST (146s, 4 entries)
+- **Moltbook personal cron:** Every 6h on the hour, last run 2026-05-25 06:11 IST (164s)
+- **Generated digests:** arxiv/2026-05-25.md, web-science/2026-05-25.md, moltbook/2026-05-25.md
 - **CI/CD:** GitHub Actions auto-validates, rebuilds index, deploys to Pages on every push
-- **Index:** 12 digests, 112 entries, 93 unique tags indexed
-- **Viewer:** Auto-deployed to GitHub Pages via CI, loads index.json instantly
+- **Index:** 23 digests, 213 entries, 384+ unique tags indexed
+- **Viewer:** Auto-deployed to GitHub Pages via CI, loads index.json instantly, now shows three sources
 - **CloakBrowser:** Available at `scripts/generate-web-science-cloak.mjs` for manual or future cron use
+- **Moltbook generator:** Available at `scripts/generate-moltbook-digest.js`, reads from `~/.openclaw/logs/moltbook-research.md`
