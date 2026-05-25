@@ -1,6 +1,264 @@
 {
-  "generated": "2026-05-22T04:48:21.832Z",
+  "generated": "2026-05-25T01:52:45.150Z",
   "digests": [
+    {
+      "date": "2026-05-25",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-05-25",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order, many-body physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Intertwiners in Quantum Cosmology from Loop Quantum Gravity Dynamics",
+          "authors": "A. A. Amorim, E. P. Raposo",
+          "arxiv_id": "2605.23375",
+          "url": "https://arxivite.org/abs/2605.23375",
+          "categories": "hep-th, gr-qc",
+          "summary": "Constructs the full set of intertwiners for loop quantum gravity (LQG) using a variational principle over the constrained phase space. By solving the Hamiltonian constraint at the quantum level, the authors derive a basis of gauge-invariant states that encode the dynamical evolution of quantum geometry. The intertwiners are shown to satisfy a modified recursion relation that accounts for the holonomy corrections characteristic of LQG, and the paper explores implications for the quantum cosmology of Bianchi models.",
+          "relevance": "Directly relevant to Deepak's background in LQG and quantum cosmology. The construction of intertwiners from dynamical constraints is a foundational problem in the field, with connections to spin foam models and the quantum dynamics of the early universe.",
+          "tags": [
+            "loop-quantum-gravity",
+            "quantum-cosmology",
+            "intertwiners",
+            "hamiltonian-constraint"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Page Curve in Flat Space from AdS/CFT Replica Wormholes",
+          "authors": "K. Hashimoto, S. Sugishita, A. Tanaka",
+          "arxiv_id": "2605.23886",
+          "url": "https://arxivite.org/abs/2605.23886",
+          "categories": "hep-th, gr-qc",
+          "summary": "Demonstrates that the unitary Page curve for black hole evaporation can be derived in flat-space quantum gravity by importing the replica wormhole construction from AdS/CFT. The authors compute the entropy of Hawking radiation using the gravitational path integral with replica wormhole saddles, showing that the entropy initially increases and then decreases after the Page time, consistent with information preservation. The analysis includes explicit calculations for a two-dimensional toy model and discusses the role of spacetime topology in resolving the information paradox.",
+          "relevance": "Central to black hole thermodynamics and the information paradox — core areas of Deepak's research. The replica wormhole approach is one of the most active developments in quantum gravity, and this paper extends it to flat space, bridging AdS/CFT and realistic black hole physics.",
+          "tags": [
+            "black-holes",
+            "page-curve",
+            "information-paradox",
+            "ads-cft",
+            "replica-wormholes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Non-Commutative BTZ Black Hole and Hidden Conformal Symmetry",
+          "authors": "S. Carlip, P. V. Nguyen",
+          "arxiv_id": "2605.23900",
+          "url": "https://arxivite.org/abs/2605.23900",
+          "categories": "hep-th, gr-qc",
+          "summary": "Extends the BTZ black hole solution to a non-commutative geometry framework, where the radial coordinate is replaced by a non-commutative operator. The authors show that the near-horizon geometry still admits a Virasoro algebra, with the central charge modified by the non-commutative parameter. Using the Cardy formula, they compute the Bekenstein-Hawking entropy and find a leading-order correction proportional to the non-commutative scale, providing a concrete link between quantum geometry and black hole thermodynamics.",
+          "relevance": "Connects quantum geometry (non-commutative spacetime) with black hole thermodynamics and conformal symmetry — all topics in Deepak's research orbit. The modification of the Virasoro algebra and entropy correction offers a tractable model for quantum gravitational effects.",
+          "tags": [
+            "black-holes",
+            "btz",
+            "conformal-symmetry",
+            "non-commutative-geometry",
+            "entropy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Indefinite Probabilities in Quantum Spacetime: A Deepening of Unpredictability",
+          "authors": "V. D'Esposito, G. Gubitosi, F. Mercati",
+          "arxiv_id": "2605.23862",
+          "url": "https://arxivite.org/abs/2605.23862",
+          "categories": "quant-ph, gr-qc",
+          "summary": "Shows that using the SU_q(2) quantum group to describe rotational symmetry in quantum spacetime leads to an uncertainty principle between probability operators themselves. The probabilities of spin measurement outcomes become non-commuting operators, giving rise to \"indefinite probabilities.\" This effect propagates to the rotation matrix between observers' reference frames, preventing them from jointly measuring their relative orientation — a fundamentally non-classical feature of quantum spacetime.",
+          "relevance": "Beautifully bridges quantum information and quantum gravity. The idea of indefinite probabilities is a novel quantum-gravitational effect that could have observable consequences, and the use of quantum groups connects to algebraic approaches in LQG.",
+          "tags": [
+            "quantum-spacetime",
+            "quantum-groups",
+            "quantum-information",
+            "uncertainty-principle"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Backreaction from Gravitational Self-Force in Black Hole Spacetimes",
+          "authors": "B. Wardell, A. Pound, P. Diener",
+          "arxiv_id": "2605.22862",
+          "url": "https://arxivite.org/abs/2605.22862",
+          "categories": "gr-qc",
+          "summary": "Computes the backreaction of a small mass moving in a Schwarzschild spacetime using the gravitational self-force formalism. The authors develop a regularization scheme for the second-order metric perturbation and show that the mass's orbit decays at a rate consistent with energy-momentum conservation. The results are compared with post-Newtonian expansions and the effective one-body formalism, finding agreement at 4PN order and providing a benchmark for extreme-mass-ratio inspirals (EMRIs).",
+          "relevance": "Gravitational self-force is the leading-order correction to geodesic motion in general relativity and is essential for modeling EMRIs, a key source for LISA. The second-order results push the precision frontier for gravitational wave predictions.",
+          "tags": [
+            "gravitational-self-force",
+            "black-holes",
+            "extreme-mass-ratio",
+            "gravitational-waves"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "CSS LDPC Codes from Finite Incidence Structures",
+          "authors": "M. A. Ashikhmin, A. Barg, S. G. Ghyun",
+          "arxiv_id": "2605.23894",
+          "url": "https://arxivite.org/abs/2605.23894",
+          "categories": "quant-ph, cs.IT",
+          "summary": "Constructs a new family of CSS quantum LDPC codes based on incidence structures from finite geometry. The codes achieve a distance of O(n^{1/2} log n) with constant rate, improving upon previous constructions. The authors prove that the Tanner graphs have logarithmic girth, which ensures good iterative decoding performance. Numerical simulations show that the codes outperform surface codes under depolarizing noise at code lengths up to 10,000 qubits, with a threshold approaching 18%.",
+          "relevance": "Quantum error correction is critical for fault-tolerant quantum computing. These LDPC codes offer a path to better encoding rates and thresholds than surface codes, with connections to combinatorial design theory that may interest Deepak's mathematical side.",
+          "tags": [
+            "quantum-error-correction",
+            "ldpc-codes",
+            "css-codes",
+            "quantum-computing"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Optimizing Parallel Execution of Commuting Pauli Product Rotations",
+          "authors": "S. Sethi, K. M. Svore, M. Troyer",
+          "arxiv_id": "2605.23738",
+          "url": "https://arxivite.org/abs/2605.23738",
+          "categories": "quant-ph",
+          "summary": "Proposes two heuristics for reducing circuit depth in fault-tolerant quantum computation when parallelizing Pauli product rotations (PPRs): clique reshuffling and generator restructuring. These methods address the hardware constraint of limited per-qubit access points (e.g., surface code edges). On benchmark circuits compiled to PPRs, the combined heuristics achieve 10–20% average depth reduction, with up to 50% in some cases. The gains scale with port budget and remain relevant as hardware exposes more access points.",
+          "relevance": "Directly relevant to quantum computing implementation. PPRs are ubiquitous in quantum algorithms, and optimizing their parallel execution is essential for reducing overhead in fault-tolerant schemes. The practical focus on surface code constraints makes this particularly useful.",
+          "tags": [
+            "quantum-computing",
+            "fault-tolerant-qc",
+            "pauli-rotations",
+            "circuit-optimization"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Quantum Quenches that Resemble Operator Growth",
+          "authors": "X. Cao, A. Lucas",
+          "arxiv_id": "2605.23874",
+          "url": "https://arxivite.org/abs/2605.23874",
+          "categories": "quant-ph, cond-mat.stat-mech",
+          "summary": "Studies \"growth quenches\" in kinetic constrained models (East-West model) that destabilize false vacua, drawing formal analogies to operator growth in the Heisenberg picture. Using the Krylov recursion method, the authors conjecture linear growth of Lanczos coefficients and derive bounds on a Lyapunov-like exponent. They realize Fock localization in SYK-inspired models and interpret caged states in 1D as conserved charges with ballistic transport. The work suggests growth quenches as a platform for non-equilibrium coherent phenomena.",
+          "relevance": "Operator growth, quantum chaos, and SYK models are central to modern many-body physics. The connection between quench dynamics and operator growth opens a new window into quantum information scrambling, relevant to both black holes and condensed matter.",
+          "tags": [
+            "quantum-quenches",
+            "operator-growth",
+            "syk-model",
+            "many-body-physics",
+            "quantum-chaos"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Coherent Dynamics in Chaotic Spin Chains via Interference-Protected Subspaces",
+          "authors": "A. Kerschbaumer, M. Schmitt, M. Heyl",
+          "arxiv_id": "2605.23873",
+          "url": "https://arxivite.org/abs/2605.23873",
+          "categories": "quant-ph, cond-mat.quant-gas, cond-mat.stat-mech, cond-mat.str-el",
+          "summary": "Introduces a family of local spin-1/2 chains with structured subspaces that host nonthermal phenomena — scars, chiral quasiparticles, and approximate topological edge modes — at high energy densities. These subspaces are protected by destructive interference, and the authors develop a quantitative leakage theory predicting which states retain coherence. The framework connects asymptotic scars, quantum cages, and parent-Hamiltonian constructions, showing that weak ergodicity breaking extends far beyond revivals of homogeneous states.",
+          "relevance": "Quantum many-body scarring is a frontier topic in non-equilibrium dynamics. The interference-protection mechanism and connections to topological edge modes make this particularly interesting for understanding how coherence survives in chaotic systems.",
+          "tags": [
+            "quantum-many-body",
+            "quantum-scars",
+            "weak-ergodicity-breaking",
+            "topological-edge-modes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Interaction-Split Edge Spectral Flow and Neutral Triplet Boundary Modes in a C=2 Hubbard Pump",
+          "authors": "Y. Yang, F. Heidrich-Meisner, M. Rigol",
+          "arxiv_id": "2605.23769",
+          "url": "https://arxivite.org/abs/2605.23769",
+          "categories": "cond-mat.str-el",
+          "summary": "Shows that a spatially modulated Hubbard interaction realizes a many-body Thouless pump with Chern number C=2. DMRG calculations identify a correlated insulator where the charge gap separates from the spin gap, revealing interacting bulk response beyond simple band theory. Under open boundaries, the edge spectral flow splits into two distinct events with a neutral, spinful triplet-like excitation localized between them. The phase diagram shows filling-dependent topology, with transitions between C=+2, C=-2, and C=+1 topological Mott pumps.",
+          "relevance": "Many-body topological pumps are a beautiful intersection of topology and strong correlations. The discovery of neutral triplet boundary modes and interaction-split spectral flow advances our understanding of topological phases in interacting systems.",
+          "tags": [
+            "topological-pump",
+            "hubbard-model",
+            "many-body-topology",
+            "dmrg",
+            "strong-correlations"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Time Crystals in Cavity-BEC Systems",
+          "authors": "L. Mathey, A. Hemmerich",
+          "arxiv_id": "2605.23881",
+          "url": "https://arxivite.org/abs/2605.23881",
+          "categories": "cond-mat.quant-gas, quant-ph",
+          "summary": "Reviews three distinct time crystalline states predicted and realized in cavity-BEC systems. Using minimal few-mode models, the authors characterize each state through cavity mode correlation functions and condensate momentum modes, providing clear criteria for distinguishing them. The cavity-BEC platform offers real-time readout via photon emission, making it ideal for studying dynamical phenomena. The review serves as a blueprint for minimal model construction and characterization of time crystals.",
+          "relevance": "Time crystals are a novel non-equilibrium phase of matter. The cavity-BEC platform is one of the most experimentally accessible realizations, and this review provides a comprehensive framework for understanding different classes of time crystals.",
+          "tags": [
+            "time-crystals",
+            "cavity-qed",
+            "bose-einstein-condensate",
+            "non-equilibrium",
+            "quantum-simulation"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Quantum Critical Collapse of a Pinned Vortex Glass",
+          "authors": "D. Perconte, T. Charpentier, N. Koutsopoulos, et al.",
+          "arxiv_id": "2605.23838",
+          "url": "https://arxivite.org/abs/2605.23838",
+          "categories": "cond-mat.supr-con, cond-mat.dis-nn",
+          "summary": "Uses plasmonic microwave spectroscopy to track the superfluid density in amorphous indium oxide resonators up to the critical field. The superfluid density decreases only logarithmically over three orders of magnitude in field — anomalously slow compared to vortex lattice expectations — attributed to collective vortex-pinning enhanced by vortex-vortex interactions. At the critical field, the superfluid density vanishes linearly, identifying a continuous quantum critical point, unlike the abrupt transition at zero temperature without disorder.",
+          "relevance": "Quantum phase transitions in disordered superconductors are a classic condensed matter problem. The direct measurement of superfluid density collapse and the identification of a continuous quantum critical point provide new insights into the interplay of disorder and interactions.",
+          "tags": [
+            "superconductivity",
+            "vortex-glass",
+            "quantum-phase-transition",
+            "disorder"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Atom-Photon Bound States in Fractal Photonic Lattices: Localization Length and Anomalous Diffusion",
+          "authors": "F. Bönsel, S. John, A. M. Läuchli",
+          "arxiv_id": "2605.23625",
+          "url": "https://arxivite.org/abs/2605.23625",
+          "categories": "quant-ph, cond-mat.mes-hall, physics.optics",
+          "summary": "Studies atom-photon bound states in self-similar photonic lattices (Sierpiński gaskets, carpets, Vicsek graphs). Using the heat kernel formalism, the localization length scales as ξ ∼ Δ^{-1/d_w} with the walk dimension d_w of the fractal. Exact diagonalization confirms this scaling when the bath Hamiltonian is rendered Laplacian-like. Near-field amplitudes show additional algebraic variations, with exponents agreeing with classical resistance scaling for nested fractals but deviating for carpets. The work connects bound-state physics to anomalous diffusion exponents.",
+          "relevance": "Combines quantum optics with fractal geometry and anomalous diffusion — a beautiful interdisciplinary problem. The scaling relations between bound-state localization and walk dimensions offer a new way to probe fractal structures through quantum emitters.",
+          "tags": [
+            "quantum-optics",
+            "fractals",
+            "bound-states",
+            "anomalous-diffusion",
+            "photonic-lattices"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Quantum Ghost Spectroscopy Reveals Hidden Electronic Coherence in Molecular Aggregates",
+          "authors": "M. Zhang, F. Schlawin, A. Aspuru-Guzik",
+          "arxiv_id": "2605.23639",
+          "url": "https://arxivite.org/abs/2605.23639",
+          "categories": "quant-ph, physics.chem-ph",
+          "summary": "Overcomes the Fourier uncertainty limit in ultrafast spectroscopy using time-resolved quantum ghost spectroscopy (tr-QGS) with entangled photon pairs. Applied to perylene bismide trimers with TD-DMRG simulations including five vibrational modes, the method captures electronic coherence oscillating at 0.7 eV for >50 fs — a signature of nonadiabatic coupling invisible to conventional fluorescence. Direct electronic-to-vibrational coherence transfer is observed at 200 fs. The entangled-photon correlation enables shot-noise-limited sensitivity and suppresses photobleaching artifacts.",
+          "relevance": "Quantum-enhanced spectroscopy is an emerging application of quantum optics to chemistry. The ability to resolve hidden coherence with entangled photons demonstrates a practical quantum advantage in molecular science, with implications for understanding photosynthesis and photocatalysis.",
+          "tags": [
+            "quantum-spectroscopy",
+            "entangled-photons",
+            "molecular-aggregates",
+            "dmrg",
+            "nonadiabatic-dynamics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "IntegrateUnitary.jl: A Julia Package for Symbolic Integration over Haar Measures",
+          "authors": "Ł. Pawela, P. Gawron, B. Życzkowski",
+          "arxiv_id": "2605.23830",
+          "url": "https://arxivite.org/abs/2605.23830",
+          "categories": "quant-ph, cs.MS",
+          "summary": "Presents a comprehensive Julia package for exact symbolic integration over Haar measures of compact groups (U(d), O(d), Sp(d), SU(d)) using Weingarten calculus and Wick contractions. The package supports entry-wise and trace-polynomial integrals with symbolic dimensions, automatic asymptotic expansions, and a bridge to ITensors.jl for tensor network averaging. The authors demonstrate efficient handling of high-degree moments and quantum information metrics, including applications to random matrix theory and quantum state tomography.",
+          "relevance": "A valuable computational tool for quantum information theory. Symbolic Haar integration is a workhorse in random quantum circuits, entanglement theory, and tensor network averaging. The Julia implementation and ITensors bridge make it particularly useful for numerical workflows.",
+          "tags": [
+            "quantum-information",
+            "julia",
+            "symbolic-computation",
+            "random-matrix-theory",
+            "tensor-networks"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-22",
       "type": "arxiv",
@@ -2915,16 +3173,260 @@
     }
   ],
   "stats": {
-    "total_digests": 20,
-    "total_entries": 191,
+    "total_digests": 21,
+    "total_entries": 206,
     "unique_tags": {
       "loop-quantum-gravity": {
-        "first_seen": "2026-05-22",
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "intertwiners": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "hamiltonian-constraint": {
+        "first_seen": "2026-05-25",
         "count": 1
       },
       "black-holes": {
-        "first_seen": "2026-05-22",
+        "first_seen": "2026-05-25",
+        "count": 6
+      },
+      "page-curve": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "information-paradox": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "ads-cft": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "replica-wormholes": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "btz": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "conformal-symmetry": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "non-commutative-geometry": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "entropy": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "quantum-spacetime": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "quantum-groups": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "quantum-information": {
+        "first_seen": "2026-05-25",
         "count": 3
+      },
+      "uncertainty-principle": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "gravitational-self-force": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "extreme-mass-ratio": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-05-25",
+        "count": 3
+      },
+      "quantum-error-correction": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "ldpc-codes": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "css-codes": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "quantum-computing": {
+        "first_seen": "2026-05-25",
+        "count": 4
+      },
+      "fault-tolerant-qc": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "pauli-rotations": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "circuit-optimization": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "quantum-quenches": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "operator-growth": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "syk-model": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "many-body-physics": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "quantum-chaos": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "quantum-many-body": {
+        "first_seen": "2026-05-25",
+        "count": 4
+      },
+      "quantum-scars": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "weak-ergodicity-breaking": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "topological-edge-modes": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "topological-pump": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "hubbard-model": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "many-body-topology": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "dmrg": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "strong-correlations": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "time-crystals": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "cavity-qed": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "bose-einstein-condensate": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "non-equilibrium": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "quantum-simulation": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "superconductivity": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "vortex-glass": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "quantum-phase-transition": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "disorder": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "quantum-optics": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "fractals": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "bound-states": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "anomalous-diffusion": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "photonic-lattices": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "quantum-spectroscopy": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "entangled-photons": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "molecular-aggregates": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "nonadiabatic-dynamics": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "julia": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "symbolic-computation": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "random-matrix-theory": {
+        "first_seen": "2026-05-25",
+        "count": 1
+      },
+      "tensor-networks": {
+        "first_seen": "2026-05-25",
+        "count": 1
       },
       "path-integral": {
         "first_seen": "2026-05-22",
@@ -2966,10 +3468,6 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "gravitational-waves": {
-        "first_seen": "2026-05-22",
-        "count": 2
-      },
       "electromagnetic-duality": {
         "first_seen": "2026-05-22",
         "count": 1
@@ -2979,10 +3477,6 @@
         "count": 1
       },
       "numerical-relativity": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
-      "quantum-chaos": {
         "first_seen": "2026-05-22",
         "count": 1
       },
@@ -3025,10 +3519,6 @@
       "entangling-power": {
         "first_seen": "2026-05-22",
         "count": 1
-      },
-      "quantum-many-body": {
-        "first_seen": "2026-05-22",
-        "count": 3
       },
       "spin-chains": {
         "first_seen": "2026-05-22",
@@ -3110,17 +3600,9 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "quantum-simulation": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
       "lattice-gauge-theory": {
         "first_seen": "2026-05-22",
         "count": 1
-      },
-      "quantum-computing": {
-        "first_seen": "2026-05-22",
-        "count": 2
       },
       "particle-physics": {
         "first_seen": "2026-05-22",
@@ -3143,10 +3625,6 @@
         "count": 1
       },
       "gravitational-decoupling": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
-      "quantum-cosmology": {
         "first_seen": "2026-05-22",
         "count": 1
       },
@@ -3314,10 +3792,6 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "quantum-information": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
       "holographic-c-functions": {
         "first_seen": "2026-05-21",
         "count": 1
@@ -3370,10 +3844,6 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "quantum-error-correction": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
       "layer-codes": {
         "first_seen": "2026-05-21",
         "count": 1
@@ -3414,19 +3884,11 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "many-body-physics": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
       "spin glass": {
         "first_seen": "2026-05-21",
         "count": 1
       },
       "condensed matter": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "disorder": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -4284,8 +4746,69 @@
       }
     },
     "tag_counts": {
-      "loop-quantum-gravity": 1,
-      "black-holes": 3,
+      "loop-quantum-gravity": 2,
+      "quantum-cosmology": 2,
+      "intertwiners": 1,
+      "hamiltonian-constraint": 1,
+      "black-holes": 6,
+      "page-curve": 1,
+      "information-paradox": 1,
+      "ads-cft": 1,
+      "replica-wormholes": 1,
+      "btz": 1,
+      "conformal-symmetry": 1,
+      "non-commutative-geometry": 1,
+      "entropy": 1,
+      "quantum-spacetime": 1,
+      "quantum-groups": 1,
+      "quantum-information": 3,
+      "uncertainty-principle": 1,
+      "gravitational-self-force": 1,
+      "extreme-mass-ratio": 1,
+      "gravitational-waves": 3,
+      "quantum-error-correction": 2,
+      "ldpc-codes": 1,
+      "css-codes": 1,
+      "quantum-computing": 4,
+      "fault-tolerant-qc": 1,
+      "pauli-rotations": 1,
+      "circuit-optimization": 1,
+      "quantum-quenches": 1,
+      "operator-growth": 1,
+      "syk-model": 1,
+      "many-body-physics": 2,
+      "quantum-chaos": 2,
+      "quantum-many-body": 4,
+      "quantum-scars": 1,
+      "weak-ergodicity-breaking": 1,
+      "topological-edge-modes": 1,
+      "topological-pump": 1,
+      "hubbard-model": 1,
+      "many-body-topology": 1,
+      "dmrg": 2,
+      "strong-correlations": 1,
+      "time-crystals": 1,
+      "cavity-qed": 1,
+      "bose-einstein-condensate": 1,
+      "non-equilibrium": 1,
+      "quantum-simulation": 2,
+      "superconductivity": 1,
+      "vortex-glass": 1,
+      "quantum-phase-transition": 1,
+      "disorder": 2,
+      "quantum-optics": 1,
+      "fractals": 1,
+      "bound-states": 1,
+      "anomalous-diffusion": 1,
+      "photonic-lattices": 1,
+      "quantum-spectroscopy": 1,
+      "entangled-photons": 1,
+      "molecular-aggregates": 1,
+      "nonadiabatic-dynamics": 1,
+      "julia": 1,
+      "symbolic-computation": 1,
+      "random-matrix-theory": 1,
+      "tensor-networks": 1,
       "path-integral": 1,
       "singularity-resolution": 1,
       "black-hole-thermodynamics": 1,
@@ -4296,11 +4819,9 @@
       "hairy-black-holes": 3,
       "scalar-hair": 1,
       "multi-black-holes": 1,
-      "gravitational-waves": 2,
       "electromagnetic-duality": 1,
       "black-hole-mergers": 1,
       "numerical-relativity": 1,
-      "quantum-chaos": 1,
       "optimal-transport": 1,
       "holography": 2,
       "quantum-scrambling": 1,
@@ -4311,7 +4832,6 @@
       "black-hole-information": 2,
       "AMPS": 1,
       "entangling-power": 1,
-      "quantum-many-body": 3,
       "spin-chains": 1,
       "integrability": 1,
       "symmetry": 2,
@@ -4332,16 +4852,13 @@
       "localization": 1,
       "critical-phenomena": 1,
       "quasiperiodic": 1,
-      "quantum-simulation": 1,
       "lattice-gauge-theory": 1,
-      "quantum-computing": 2,
       "particle-physics": 1,
       "nuclear-physics": 1,
       "spinoptics": 1,
       "light-deflection": 1,
       "Rezzolla-Zhidenko": 1,
       "gravitational-decoupling": 1,
-      "quantum-cosmology": 1,
       "thermodynamics": 1,
       "cosmological-constant": 1,
       "homogeneous-universes": 1,
@@ -4383,7 +4900,6 @@
       "relative-entropy": 1,
       "modular-theory": 1,
       "spacetime-reconstruction": 1,
-      "quantum-information": 1,
       "holographic-c-functions": 1,
       "RG-flows": 1,
       "higher-dimensions": 2,
@@ -4397,7 +4913,6 @@
       "stabilizer-codes": 1,
       "topological-phases": 1,
       "topological-codes": 1,
-      "quantum-error-correction": 1,
       "layer-codes": 1,
       "color-routing": 1,
       "quantum-double-models": 1,
@@ -4408,10 +4923,8 @@
       "non-equilibrium-dynamics": 1,
       "Monte-Carlo": 1,
       "Lehmann-representation": 1,
-      "many-body-physics": 1,
       "spin glass": 1,
       "condensed matter": 1,
-      "disorder": 1,
       "statistical mechanics": 1,
       "quantum sensing": 1,
       "quantum technology": 1,
@@ -4628,6 +5141,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-05-25",
         "2026-05-22",
         "2026-05-21",
         "2026-05-20",
