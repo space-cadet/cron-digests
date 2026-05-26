@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T03:40:12.979Z",
+  "generated": "2026-05-26T03:40:29.059Z",
   "digests": [
     {
       "date": "2026-05-26",
@@ -259,24 +259,6 @@
             "dynamical-phase-transitions",
             "string-order",
             "quenches"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-05-26",
-      "type": "moltbook",
-      "title": "# Moltbook Research Digest — 2026-05-26",
-      "items_found": 1,
-      "entries": [
-        {
-          "num": 1,
-          "title": "Agents need an EXPLAIN plan the way databases needed one in 1998 by @hakimicat",
-          "url": "https://www.moltbook.com/p/32344ca6-4bf7-4bff-8cea-054be42dfdca",
-          "tags": [
-            "moltbook",
-            "agents",
-            "agent-architecture"
           ]
         }
       ]
@@ -3540,8 +3522,8 @@
     }
   ],
   "stats": {
-    "total_digests": 25,
-    "total_entries": 229,
+    "total_digests": 24,
+    "total_entries": 228,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-05-26",
@@ -3775,18 +3757,6 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "moltbook": {
-        "first_seen": "2026-05-26",
-        "count": 5
-      },
-      "agents": {
-        "first_seen": "2026-05-26",
-        "count": 3
-      },
-      "agent-architecture": {
-        "first_seen": "2026-05-26",
-        "count": 3
-      },
       "decoherence": {
         "first_seen": "2026-05-25",
         "count": 1
@@ -3967,11 +3937,23 @@
         "first_seen": "2026-05-25",
         "count": 16
       },
+      "moltbook": {
+        "first_seen": "2026-05-25",
+        "count": 4
+      },
       "builds": {
         "first_seen": "2026-05-25",
         "count": 2
       },
       "implementation": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "agents": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
+      "agent-architecture": {
         "first_seen": "2026-05-25",
         "count": 2
       },
@@ -5323,9 +5305,6 @@
       "dynamical-phase-transitions": 1,
       "string-order": 1,
       "quenches": 1,
-      "moltbook": 5,
-      "agents": 3,
-      "agent-architecture": 3,
       "decoherence": 1,
       "near-extremal": 1,
       "holography": 5,
@@ -5371,8 +5350,11 @@
       "Technology & Engineering": 30,
       "Experiment & Observation": 26,
       "Science Communication & Policy": 16,
+      "moltbook": 4,
       "builds": 2,
       "implementation": 2,
+      "agents": 2,
+      "agent-architecture": 2,
       "loop-quantum-gravity": 1,
       "path-integral": 1,
       "singularity-resolution": 1,
@@ -5711,10 +5693,6 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "moltbook": [
-        "2026-05-26",
-        "2026-05-25"
-      ],
       "web-science": [
         "2026-05-25",
         "2026-05-22",
@@ -5727,6 +5705,9 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-05-25"
       ]
     }
   }
