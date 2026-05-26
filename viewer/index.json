@@ -1,6 +1,286 @@
 {
-  "generated": "2026-05-25T08:23:50.644Z",
+  "generated": "2026-05-26T03:40:12.979Z",
   "digests": [
+    {
+      "date": "2026-05-26",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-05-26",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order, many-body physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Negative entropy in scrambling black holes",
+          "authors": "Koji Azuma",
+          "arxiv_id": "2605.25315",
+          "url": "https://arxivite.org/abs/2605.25315",
+          "categories": "hep-th; gr-qc; quant-ph",
+          "summary": "Presents a microscopic statistical-mechanical foundation for interpreting the horizon area of a scrambling black hole as coherent information — equivalently negative conditional quantum entropy — within Hawking's pair-creation picture. Derives the entropy increase induced when an infalling object is absorbed and scrambled into the black hole's microscopic degrees of freedom, and shows that up to finite-resolution corrections, the black hole entropy can be identified with the negative conditional entropy of the created pairs.",
+          "relevance": "Connects black hole thermodynamics directly with quantum information theory via the concept of negative entropy in scrambling dynamics. Relevant to the black hole information paradox and the quantum mechanical nature of horizon entropy.",
+          "tags": [
+            "black-holes",
+            "entropy",
+            "quantum-information",
+            "scrambling",
+            "information-paradox"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Generalising gravitationally induced decoherence beyond linear environmental interactions in a microscopic quantum mechanical toy model",
+          "authors": "Max Joseph Fahn, Renata Ferrero, Kristina Giesel, Roman Kemper",
+          "arxiv_id": "2605.25936",
+          "url": "https://arxivite.org/abs/2605.25936",
+          "categories": "gr-qc; quant-ph",
+          "summary": "Generalises a quantum mechanical toy model for gravitationally induced decoherence by extending the system-environment interaction beyond linear couplings to position operators. Formulates the interaction in terms of Weyl elements of the environment, allowing for a more general class of gravitational decoherence mechanisms in a microscopic setting.",
+          "relevance": "Advances the theoretical framework for understanding how gravity might induce decoherence at the quantum level — a key question at the interface of quantum mechanics and gravity. The generalised interaction model opens new avenues for testing gravitationally induced decoherence in tabletop experiments.",
+          "tags": [
+            "gravitational-decoherence",
+            "quantum-gravity",
+            "open-quantum-systems",
+            "toy-model"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Degenerate Bifurcations and Universal Relaxation Scaling in Black Hole Thermodynamics",
+          "authors": "Bidyut Hazarika, Mozib Bin Awal, Prabwal Phukon",
+          "arxiv_id": "2605.25497",
+          "url": "https://arxivite.org/abs/2605.25497",
+          "categories": "hep-th",
+          "summary": "Develops a dynamical systems approach to black hole thermodynamic criticality using bifurcation equations. Constructs an effective thermodynamic landscape in which black holes relax toward equilibrium fixed points, introducing a flow parameter interpreted as a phenomenological relaxation time that governs the approach toward equilibrium configurations.",
+          "relevance": "Provides a novel dynamical-systems perspective on black hole thermodynamic phase transitions, with potential implications for understanding how black holes respond to perturbations and settle into equilibrium. The universal relaxation scaling suggests deep structural properties of thermodynamic criticality in gravity.",
+          "tags": [
+            "black-holes",
+            "thermodynamics",
+            "phase-transitions",
+            "dynamical-systems",
+            "criticality"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Non-monotonic evolution of multipartite entanglement under the Unruh effect",
+          "authors": "Shu-Min Wu, Si-Han Shang, Si-Yu Liu, Rui-Yang Xu, Qianqian Liu, Xiao-Li Huang",
+          "arxiv_id": "2605.24424",
+          "url": "https://arxivite.org/abs/2605.24424",
+          "categories": "gr-qc; quant-ph",
+          "summary": "Investigates tetrapartite entanglement in a four-qubit Dicke state under relativistic motion using the Unruh-DeWitt detector model. Shows that entanglement exhibits a non-monotonic evolution — first decreasing and subsequently increasing toward a finite value as the acceleration grows — in contrast to the conventional monotonic degradation expected from the Unruh effect.",
+          "relevance": "Reveals unexpected non-monotonic entanglement dynamics under relativistic acceleration, challenging naive expectations about the Unruh effect's impact on quantum correlations. Important for quantum information in curved spacetime and relativistic quantum communication.",
+          "tags": [
+            "entanglement",
+            "unruh-effect",
+            "relativistic-quantum-information",
+            "multipartite",
+            "curved-spacetime"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Spacetime discreteness via consistent microscopic measurement",
+          "authors": "Weihu Ma, Yu-Gang Ma",
+          "arxiv_id": "2605.24967",
+          "url": "https://arxivite.org/abs/2605.24967",
+          "categories": "gr-qc; hep-ph",
+          "summary": "Proposes that spacetime discreteness can arise as a consequence of consistent microscopic measurement rather than being postulated a priori. Treats infinitesimal spacetime intervals as scale-dependent measurement outcomes, offering a model-independent approach to quantum spacetime discreteness that avoids reliance on specific microscopic structures.",
+          "relevance": "Offers a fresh perspective on spacetime discreteness grounded in measurement theory rather than model-dependent assumptions. Complementary to loop quantum gravity and other approaches that postulate discreteness at the Planck scale.",
+          "tags": [
+            "spacetime-discreteness",
+            "quantum-gravity",
+            "measurement-theory",
+            "phenomenology"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Absorption and scattering spectra of massive scalar waves in charged regular black hole spacetimes",
+          "authors": "Marco A. A. Paula, Carolina L. Benone, Luís C. B. Crispino",
+          "arxiv_id": "2605.25148",
+          "url": "https://arxivite.org/abs/2605.25148",
+          "categories": "gr-qc",
+          "summary": "Studies how massive scalar waves interact with charged regular black holes — geometries lacking curvature singularities — and compares the absorption and scattering spectra with those of standard Reissner-Nordström black holes. Computes greybody factors and scattering cross sections to characterize how regular black holes imprint distinct signatures on wave propagation.",
+          "relevance": "Regular black holes are important testbeds for quantum gravity effects that might resolve singularities. The wave spectra computed here provide observable signatures that could distinguish regular from singular black holes in future gravitational wave or astrophysical observations.",
+          "tags": [
+            "regular-black-holes",
+            "scalar-waves",
+            "greybody-factors",
+            "scattering",
+            "absorption"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Geodesics and Thermodynamics of a Schwarzschild Black Hole with Hernquist Dark Matter",
+          "authors": "A. R. P. Moreira, A. Bouzenada, F. M. Belchior, F. C. E. Lima",
+          "arxiv_id": "2605.24046",
+          "url": "https://arxivite.org/abs/2605.24046",
+          "categories": "gr-qc",
+          "summary": "Constructs the metric for a Schwarzschild black hole immersed in a Hernquist dark matter halo and investigates null geodesics, photon dynamics, and the thermodynamic properties of the resulting spacetime. Examines how the dark matter environment modifies the black hole's geometric and thermodynamic behavior.",
+          "relevance": "Astrophysically realistic black holes reside in dark matter halos, and this work quantifies how the Hernquist profile modifies black hole geodesics and thermodynamics. Bridges pure GR black hole physics with galactic-scale dark matter phenomenology.",
+          "tags": [
+            "black-holes",
+            "dark-matter",
+            "geodesics",
+            "thermodynamics",
+            "astrophysics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Hawking radiation from a semi-classical Schwarzschild black hole",
+          "authors": "Moslem Shafiee, Ahmad Sheykhi",
+          "arxiv_id": "2605.24487",
+          "url": "https://arxivite.org/abs/2605.24487",
+          "categories": "hep-th; gr-qc",
+          "summary": "Investigates the evaporation of a Schwarzschild black hole incorporating quantum corrections from conformal anomaly and vacuum polarization. Shows that these corrections produce a maximum temperature after which Hawking radiation decreases and eventually ceases, leaving an extremal remnant with vanishing temperature and a logarithmically corrected entropy. Also examines the radiation via the tunneling method, providing a consistent picture of these semi-classical quantum effects.",
+          "relevance": "Hawking radiation remains central to black hole thermodynamics and the information paradox. Semi-classical approaches offer a controlled setting for understanding quantum corrections to black hole evaporation.",
+          "tags": [
+            "hawking-radiation",
+            "black-holes",
+            "semi-classical",
+            "quantum-field-theory"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Multicritical points of gravitational solitons and a black hole in four dimensions",
+          "authors": "Moaathe Belhaj Ahmed, Moisés Bravo-Gaete, Robert B. Mann, Constanza Quijada",
+          "arxiv_id": "2605.24783",
+          "url": "https://arxivite.org/abs/2605.24783",
+          "categories": "hep-th; gr-qc",
+          "summary": "Presents the first realization of multicritical points in four-dimensional general relativity within Plebański nonlinear electrodynamics using a polynomial structural function. Constructs new families of electrically charged asymptotically anti-de Sitter black holes and magnetically charged solitons, analyzing their thermodynamic properties in the grand-canonical ensemble. Shows that the soliton sector develops multiple swallowtail structures signaling first-order phase transitions, with the number of coexisting phases controlled by the degree of the polynomial.",
+          "relevance": "Extends the thermodynamic analogy for black holes to multicritical phenomena, revealing rich phase structures beyond simple first- or second-order transitions. Relevant to holographic phase diagrams and the thermodynamic geometry of gravitational systems.",
+          "tags": [
+            "black-holes",
+            "thermodynamics",
+            "multicritical",
+            "phase-transitions",
+            "solitons"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Gravitational Wave Propagation in K-essence Cosmology: Theory and Observational Constraints",
+          "authors": "Sougata Bhunia, Eduardo Guendelman, Debashis Gangopadhyay, Ramón Herrera, Abhijit Bhattacharyya, Goutam Manna",
+          "arxiv_id": "2605.25466",
+          "url": "https://arxivite.org/abs/2605.25466",
+          "categories": "gr-qc; astro-ph.CO",
+          "summary": "Studies linearized gravitational wave propagation in k-essence cosmology, where a non-canonical scalar field describes the dark sector. Derives the effective metric governing GW propagation in the high-frequency approximation on a FLRW background and discusses observational constraints from current and future gravitational wave detectors.",
+          "relevance": "Gravitational waves provide a unique probe of dark energy and modified gravity. The k-essence framework offers a concrete model for how GW propagation might deviate from GR in the cosmological context, with testable predictions for LISA and other detectors.",
+          "tags": [
+            "gravitational-waves",
+            "cosmology",
+            "k-essence",
+            "dark-energy",
+            "modified-gravity"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Periodic orbits and gravitational waveforms around a Schwarzschild black hole with a cloud of strings embedded in perfect fluid dark matter",
+          "authors": "Ziqiang Cai, Zhi Li, Zhenglong Ban, Qi-Qi Liang, Zheng-Wen Long",
+          "arxiv_id": "2605.25625",
+          "url": "https://arxivite.org/abs/2605.25625",
+          "categories": "gr-qc",
+          "summary": "Explores particle orbits and gravitational wave signatures in the vicinity of a Schwarzschild black hole surrounded by a cloud of strings and embedded in perfect fluid dark matter. Characterizes the dependence of orbital dynamics and waveforms on the string cloud parameter and dark matter distribution.",
+          "relevance": "String clouds and dark matter are both motivated by beyond-Standard-Model physics, and their combined effect on black hole gravitational wave signatures provides a testable window into new physics through gravitational wave astronomy.",
+          "tags": [
+            "black-holes",
+            "gravitational-waves",
+            "string-cloud",
+            "dark-matter",
+            "orbits"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Cesàro convergence of the high-order WKB method and its applications to black-hole overtones and long-lived modes",
+          "authors": "Roman A. Konoplya, Jerzy Matyjasek, Alexander Zhidenko",
+          "arxiv_id": "2605.25705",
+          "url": "https://arxivite.org/abs/2605.25705",
+          "categories": "gr-qc",
+          "summary": "Develops a fully automatic high-order WKB method for black hole quasinormal modes based on the Bender-Wu algorithm, combined with diagonal Padé approximants. Demonstrates convergence for regimes typically difficult for standard WKB, including overtones and long-lived modes near the algebraically special frequency.",
+          "relevance": "Accurate computation of black hole quasinormal modes is essential for gravitational wave ringdown analysis and black hole spectroscopy. The automated high-order method overcomes limitations of traditional WKB approaches, enabling precise predictions for LIGO/Virgo/KAGRA data analysis.",
+          "tags": [
+            "quasinormal-modes",
+            "black-holes",
+            "wkb",
+            "ringdown",
+            "gravitational-waves"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Dissipative preparation of injective tensor network states",
+          "authors": "Drishti Baruah, Georgios Styliaris, J. Ignacio Cirac, Rahul Trivedi",
+          "arxiv_id": "2605.25089",
+          "url": "https://arxivite.org/abs/2605.25089",
+          "categories": "quant-ph; cond-mat.stat-mech; cond-mat.str-el",
+          "summary": "Constructs both continuous-time and discrete-time geometrically local dissipative protocols for preparing injective tensor network states. Shows that dissipative preparation can be robust to noise and initialization errors, providing a powerful alternative to unitary protocols for quantum simulation tasks.",
+          "relevance": "Tensor network states are the backbone of efficient quantum simulation and the entanglement-structure approach to many-body physics. Dissipative preparation on quantum hardware offers a practical route to preparing complex entangled states relevant for condensed matter and quantum gravity analogues.",
+          "tags": [
+            "tensor-networks",
+            "dissipative-preparation",
+            "quantum-simulation",
+            "many-body",
+            "cirac"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Native topological readout on qubit hardware: a Fibonacci-chain benchmark of measurement-compilation trade-offs",
+          "authors": "Babatunde Moses Ayeni",
+          "arxiv_id": "2605.25913",
+          "url": "https://arxivite.org/abs/2605.25913",
+          "categories": "quant-ph; cond-mat.str-el; cs.ET",
+          "summary": "Benchmarks the trade-offs between native topological fusion readout and compiled gate-based readout for topological anyonic Hamiltonians on NISQ superconducting hardware. Uses the Fibonacci chain as a test case to determine when native topological readout genuinely provides advantages over standard measurement compilation strategies.",
+          "relevance": "Non-Abelian topological order and anyonic braiding are at the frontier of topological quantum computing. This work directly addresses the hardware-level question of how to optimally read out topological states — a critical step toward fault-tolerant topological quantum computation.",
+          "tags": [
+            "topological-quantum-computing",
+            "non-abelian",
+            "nisq",
+            "fibonacci-chain",
+            "measurement"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "On the Relation Between String Order Parameters, Entanglement, and Dynamical Quantum Phase Transitions in Topological Dynamics",
+          "authors": "Sirshendu Bhattacharyya, Szczepan Głodzik, Nicholas Sedlmayr",
+          "arxiv_id": "2605.25611",
+          "url": "https://arxivite.org/abs/2605.25611",
+          "categories": "cond-mat.str-el; cond-mat.stat-mech",
+          "summary": "Studies how string order parameters and entanglement spectra behave out-of-equilibrium following quenches in one-dimensional topological models with Z invariants. Establishes connections between dynamical quantum phase transitions, entanglement dynamics, and string order in topological phases.",
+          "relevance": "Bridges topological order, entanglement, and non-equilibrium dynamics in a concrete setting. The dynamical quantum phase transition perspective offers new tools for characterizing topological phases beyond equilibrium, with implications for quantum simulation and the classification of topological states.",
+          "tags": [
+            "topological-order",
+            "entanglement",
+            "dynamical-phase-transitions",
+            "string-order",
+            "quenches"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-05-26",
+      "items_found": 1,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Agents need an EXPLAIN plan the way databases needed one in 1998 by @hakimicat",
+          "url": "https://www.moltbook.com/p/32344ca6-4bf7-4bff-8cea-054be42dfdca",
+          "tags": [
+            "moltbook",
+            "agents",
+            "agent-architecture"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-25",
       "type": "arxiv",
@@ -3260,26 +3540,258 @@
     }
   ],
   "stats": {
-    "total_digests": 23,
-    "total_entries": 213,
+    "total_digests": 25,
+    "total_entries": 229,
     "unique_tags": {
       "black-holes": {
-        "first_seen": "2026-05-25",
+        "first_seen": "2026-05-26",
+        "count": 11
+      },
+      "entropy": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "quantum-information": {
+        "first_seen": "2026-05-26",
+        "count": 3
+      },
+      "scrambling": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "information-paradox": {
+        "first_seen": "2026-05-26",
+        "count": 2
+      },
+      "gravitational-decoherence": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-05-26",
+        "count": 6
+      },
+      "open-quantum-systems": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "toy-model": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "thermodynamics": {
+        "first_seen": "2026-05-26",
         "count": 4
+      },
+      "phase-transitions": {
+        "first_seen": "2026-05-26",
+        "count": 2
+      },
+      "dynamical-systems": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "criticality": {
+        "first_seen": "2026-05-26",
+        "count": 3
+      },
+      "entanglement": {
+        "first_seen": "2026-05-26",
+        "count": 5
+      },
+      "unruh-effect": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "relativistic-quantum-information": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "multipartite": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "curved-spacetime": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "spacetime-discreteness": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "measurement-theory": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "phenomenology": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "regular-black-holes": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "scalar-waves": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "greybody-factors": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "scattering": {
+        "first_seen": "2026-05-26",
+        "count": 2
+      },
+      "absorption": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "dark-matter": {
+        "first_seen": "2026-05-26",
+        "count": 2
+      },
+      "geodesics": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "astrophysics": {
+        "first_seen": "2026-05-26",
+        "count": 2
+      },
+      "hawking-radiation": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "semi-classical": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "quantum-field-theory": {
+        "first_seen": "2026-05-26",
+        "count": 2
+      },
+      "multicritical": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "solitons": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-05-26",
+        "count": 5
+      },
+      "cosmology": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "k-essence": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "dark-energy": {
+        "first_seen": "2026-05-26",
+        "count": 2
+      },
+      "modified-gravity": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "string-cloud": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "orbits": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "quasinormal-modes": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "wkb": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "ringdown": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "tensor-networks": {
+        "first_seen": "2026-05-26",
+        "count": 2
+      },
+      "dissipative-preparation": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "quantum-simulation": {
+        "first_seen": "2026-05-26",
+        "count": 3
+      },
+      "many-body": {
+        "first_seen": "2026-05-26",
+        "count": 4
+      },
+      "cirac": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "topological-quantum-computing": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "non-abelian": {
+        "first_seen": "2026-05-26",
+        "count": 2
+      },
+      "nisq": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "fibonacci-chain": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "measurement": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "topological-order": {
+        "first_seen": "2026-05-26",
+        "count": 4
+      },
+      "dynamical-phase-transitions": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "string-order": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "quenches": {
+        "first_seen": "2026-05-26",
+        "count": 1
+      },
+      "moltbook": {
+        "first_seen": "2026-05-26",
+        "count": 5
+      },
+      "agents": {
+        "first_seen": "2026-05-26",
+        "count": 3
+      },
+      "agent-architecture": {
+        "first_seen": "2026-05-26",
+        "count": 3
       },
       "decoherence": {
         "first_seen": "2026-05-25",
         "count": 1
       },
       "near-extremal": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-05-25",
-        "count": 4
-      },
-      "information-paradox": {
         "first_seen": "2026-05-25",
         "count": 1
       },
@@ -3311,10 +3823,6 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "non-abelian": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
       "entanglement-entropy": {
         "first_seen": "2026-05-25",
         "count": 1
@@ -3326,14 +3834,6 @@
       "quantum-o-n": {
         "first_seen": "2026-05-25",
         "count": 1
-      },
-      "many-body": {
-        "first_seen": "2026-05-25",
-        "count": 3
-      },
-      "criticality": {
-        "first_seen": "2026-05-25",
-        "count": 2
       },
       "quantum-scars": {
         "first_seen": "2026-05-25",
@@ -3359,19 +3859,7 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "quantum-information": {
-        "first_seen": "2026-05-25",
-        "count": 2
-      },
       "non-commutative-geometry": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
-      "entanglement": {
-        "first_seen": "2026-05-25",
-        "count": 3
-      },
-      "quantum-field-theory": {
         "first_seen": "2026-05-25",
         "count": 1
       },
@@ -3439,10 +3927,6 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "quantum-simulation": {
-        "first_seen": "2026-05-25",
-        "count": 2
-      },
       "flat-bands": {
         "first_seen": "2026-05-25",
         "count": 1
@@ -3456,14 +3940,6 @@
         "count": 1
       },
       "quantum-resources": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
-      "tensor-networks": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
-      "astrophysics": {
         "first_seen": "2026-05-25",
         "count": 1
       },
@@ -3491,23 +3967,11 @@
         "first_seen": "2026-05-25",
         "count": 16
       },
-      "moltbook": {
-        "first_seen": "2026-05-25",
-        "count": 4
-      },
       "builds": {
         "first_seen": "2026-05-25",
         "count": 2
       },
       "implementation": {
-        "first_seen": "2026-05-25",
-        "count": 2
-      },
-      "agents": {
-        "first_seen": "2026-05-25",
-        "count": 2
-      },
-      "agent-architecture": {
         "first_seen": "2026-05-25",
         "count": 2
       },
@@ -3554,10 +4018,6 @@
       "multi-black-holes": {
         "first_seen": "2026-05-22",
         "count": 1
-      },
-      "gravitational-waves": {
-        "first_seen": "2026-05-22",
-        "count": 2
       },
       "electromagnetic-duality": {
         "first_seen": "2026-05-22",
@@ -3655,10 +4115,6 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "topological-order": {
-        "first_seen": "2026-05-22",
-        "count": 3
-      },
       "quantum-Hall-effect": {
         "first_seen": "2026-05-22",
         "count": 1
@@ -3723,10 +4179,6 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "thermodynamics": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
       "cosmological-constant": {
         "first_seen": "2026-05-22",
         "count": 1
@@ -3772,10 +4224,6 @@
         "count": 1
       },
       "teleparallel-gravity": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "dark-energy": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -3994,10 +4442,6 @@
       "quantum optics": {
         "first_seen": "2026-05-21",
         "count": 2
-      },
-      "scattering": {
-        "first_seen": "2026-05-21",
-        "count": 1
       },
       "imaging": {
         "first_seen": "2026-05-21",
@@ -4821,11 +5265,69 @@
       }
     },
     "tag_counts": {
-      "black-holes": 4,
+      "black-holes": 11,
+      "entropy": 1,
+      "quantum-information": 3,
+      "scrambling": 1,
+      "information-paradox": 2,
+      "gravitational-decoherence": 1,
+      "quantum-gravity": 6,
+      "open-quantum-systems": 1,
+      "toy-model": 1,
+      "thermodynamics": 4,
+      "phase-transitions": 2,
+      "dynamical-systems": 1,
+      "criticality": 3,
+      "entanglement": 5,
+      "unruh-effect": 1,
+      "relativistic-quantum-information": 1,
+      "multipartite": 1,
+      "curved-spacetime": 1,
+      "spacetime-discreteness": 1,
+      "measurement-theory": 1,
+      "phenomenology": 1,
+      "regular-black-holes": 1,
+      "scalar-waves": 1,
+      "greybody-factors": 1,
+      "scattering": 2,
+      "absorption": 1,
+      "dark-matter": 2,
+      "geodesics": 1,
+      "astrophysics": 2,
+      "hawking-radiation": 1,
+      "semi-classical": 1,
+      "quantum-field-theory": 2,
+      "multicritical": 1,
+      "solitons": 1,
+      "gravitational-waves": 5,
+      "cosmology": 1,
+      "k-essence": 1,
+      "dark-energy": 2,
+      "modified-gravity": 1,
+      "string-cloud": 1,
+      "orbits": 1,
+      "quasinormal-modes": 1,
+      "wkb": 1,
+      "ringdown": 1,
+      "tensor-networks": 2,
+      "dissipative-preparation": 1,
+      "quantum-simulation": 3,
+      "many-body": 4,
+      "cirac": 1,
+      "topological-quantum-computing": 1,
+      "non-abelian": 2,
+      "nisq": 1,
+      "fibonacci-chain": 1,
+      "measurement": 1,
+      "topological-order": 4,
+      "dynamical-phase-transitions": 1,
+      "string-order": 1,
+      "quenches": 1,
+      "moltbook": 5,
+      "agents": 3,
+      "agent-architecture": 3,
       "decoherence": 1,
       "near-extremal": 1,
-      "quantum-gravity": 4,
-      "information-paradox": 1,
       "holography": 5,
       "qcd": 1,
       "quark-gluon-plasma": 2,
@@ -4833,22 +5335,16 @@
       "phase-diagram": 1,
       "hydrodynamics": 1,
       "scherk-schwarz": 1,
-      "non-abelian": 1,
       "entanglement-entropy": 1,
       "dynamical-phase-transition": 1,
       "quantum-o-n": 1,
-      "many-body": 3,
-      "criticality": 2,
       "quantum-scars": 1,
       "weak-ergodicity-breaking": 1,
       "topological-edge-modes": 1,
       "spin-chains": 2,
       "quantum-spacetime": 1,
       "quantum-groups": 1,
-      "quantum-information": 2,
       "non-commutative-geometry": 1,
-      "entanglement": 3,
-      "quantum-field-theory": 1,
       "negativity": 1,
       "vacuum-entanglement": 1,
       "topological-pump": 1,
@@ -4865,24 +5361,18 @@
       "aubry-andre": 1,
       "aharonov-bohm-caging": 1,
       "topology": 1,
-      "quantum-simulation": 2,
       "flat-bands": 1,
       "interference": 1,
       "neutrino-oscillations": 1,
       "quantum-resources": 1,
-      "tensor-networks": 1,
-      "astrophysics": 1,
       "Quantum Information & Computing": 28,
       "Many-Body Physics & Condensed Matter": 20,
       "Optics & Photonics": 16,
       "Technology & Engineering": 30,
       "Experiment & Observation": 26,
       "Science Communication & Policy": 16,
-      "moltbook": 4,
       "builds": 2,
       "implementation": 2,
-      "agents": 2,
-      "agent-architecture": 2,
       "loop-quantum-gravity": 1,
       "path-integral": 1,
       "singularity-resolution": 1,
@@ -4894,7 +5384,6 @@
       "hairy-black-holes": 3,
       "scalar-hair": 1,
       "multi-black-holes": 1,
-      "gravitational-waves": 2,
       "electromagnetic-duality": 1,
       "black-hole-mergers": 1,
       "numerical-relativity": 1,
@@ -4919,7 +5408,6 @@
       "strongly-correlated-electrons": 1,
       "fractional-anyons": 1,
       "Pfaffian-state": 1,
-      "topological-order": 3,
       "quantum-Hall-effect": 1,
       "photoluminescence": 1,
       "tripartite-quantum-phase": 1,
@@ -4936,7 +5424,6 @@
       "Rezzolla-Zhidenko": 1,
       "gravitational-decoupling": 1,
       "quantum-cosmology": 1,
-      "thermodynamics": 1,
       "cosmological-constant": 1,
       "homogeneous-universes": 1,
       "fusion-categories": 1,
@@ -4949,7 +5436,6 @@
       "fuzzballs": 1,
       "cosmic-acceleration": 1,
       "teleparallel-gravity": 1,
-      "dark-energy": 1,
       "gravitational-energy": 1,
       "Kerr-metric": 1,
       "perturbation-theory": 1,
@@ -5004,7 +5490,6 @@
       "precision measurement": 1,
       "optics": 1,
       "quantum optics": 2,
-      "scattering": 1,
       "imaging": 1,
       "quantum communication": 1,
       "quantum entanglement": 1,
@@ -5213,19 +5698,7 @@
     },
     "dates_by_type": {
       "arxiv": [
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "web-science": [
+        "2026-05-26",
         "2026-05-25",
         "2026-05-22",
         "2026-05-21",
@@ -5239,7 +5712,21 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-05-26",
         "2026-05-25"
+      ],
+      "web-science": [
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
       ]
     }
   }
