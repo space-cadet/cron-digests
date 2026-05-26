@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T03:40:29.059Z",
+  "generated": "2026-05-26T04:49:13.133Z",
   "digests": [
     {
       "date": "2026-05-26",
@@ -259,6 +259,85 @@
             "dynamical-phase-transitions",
             "string-order",
             "quenches"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-26",
+      "categories": "Phys.org + ScienceDaily",
+      "items_found": 6,
+      "focus": "General Physics, General Science",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Hydrogen puts quantum wormhole conjecture to the test",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-hydrogen-quantum-wormhole-conjecture.html",
+          "summary": "A new Physical Review Letters study places constraints on the ER = EPR conjecture, showing that under the authors' assumptions, the conjecture would imply possible alterations to the hyperfine structure and effective charge ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "'Butterfly' molecule spotted at last, completing a 20-year quantum zoo hunt",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-butterfly-molecule-year-quantum-zoo.html",
+          "summary": "For two decades, physicists have predicted the existence of a remarkable family of exotic molecules: giant atoms bound to ordinary atoms, with an electron so distant from its nucleus that it sculpts the pair into bizarre ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Supercharging solar cells: Quantum dot-molecule hybrid states enable near-maximum efficiency",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-supercharging-solar-cells-quantum-dot.html",
+          "summary": "Solar panels have become more efficient over the years, but even the best designs still lose a large fraction of the energy they absorb. Scientists around the world have been searching for ways to capture more energy from ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "New Quantum Sensor Could Count Individual Photons and Hunt Dark Matter",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260520093654.htm",
+          "summary": "Researchers in Finland have achieved a major advance in ultra-sensitive measurement technology by detecting an amount of energy smaller than one zeptojoule, less than a trillionth of a billionth of a joule. The breakthrough could improve quantum computing technology, support the search for dark matt",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Scientists Discover Atoms Suddenly Spinning Backward in Quantum Experiment",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260523103903.htm",
+          "summary": "An international team of researchers has directly observed how angular momentum moves through a crystal lattice for the first time, revealing an unexpected quantum effect that causes the direction of rotation to reverse. The discovery, made using intense terahertz laser pulses, gives scientists a ne",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Scientists Were Wrong About This “Rule-breaking” Particle",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260518041439.htm",
+          "summary": "For decades, a puzzling discrepancy involving a tiny subatomic particle called the muon fueled speculation that physicists might be on the verge of discovering an entirely new force of nature. Now, an international research team led by a Penn State physicist says the mystery appears to have been sol",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -3522,8 +3601,8 @@
     }
   ],
   "stats": {
-    "total_digests": 24,
-    "total_entries": 228,
+    "total_digests": 25,
+    "total_entries": 234,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-05-26",
@@ -3757,6 +3836,26 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-05-26",
+        "count": 33
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-05-26",
+        "count": 21
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-05-26",
+        "count": 17
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-05-26",
+        "count": 27
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-05-26",
+        "count": 17
+      },
       "decoherence": {
         "first_seen": "2026-05-25",
         "count": 1
@@ -3913,29 +4012,9 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-05-25",
-        "count": 28
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-05-25",
-        "count": 20
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-05-25",
-        "count": 16
-      },
       "Technology & Engineering": {
         "first_seen": "2026-05-25",
         "count": 30
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-05-25",
-        "count": 26
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-05-25",
-        "count": 16
       },
       "moltbook": {
         "first_seen": "2026-05-25",
@@ -5305,6 +5384,11 @@
       "dynamical-phase-transitions": 1,
       "string-order": 1,
       "quenches": 1,
+      "Quantum Information & Computing": 33,
+      "Many-Body Physics & Condensed Matter": 21,
+      "Optics & Photonics": 17,
+      "Experiment & Observation": 27,
+      "Science Communication & Policy": 17,
       "decoherence": 1,
       "near-extremal": 1,
       "holography": 5,
@@ -5344,12 +5428,7 @@
       "interference": 1,
       "neutrino-oscillations": 1,
       "quantum-resources": 1,
-      "Quantum Information & Computing": 28,
-      "Many-Body Physics & Condensed Matter": 20,
-      "Optics & Photonics": 16,
       "Technology & Engineering": 30,
-      "Experiment & Observation": 26,
-      "Science Communication & Policy": 16,
       "moltbook": 4,
       "builds": 2,
       "implementation": 2,
@@ -5694,6 +5773,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-05-26",
         "2026-05-25",
         "2026-05-22",
         "2026-05-21",
