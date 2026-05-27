@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T01:58:09.859Z",
+  "generated": "2026-05-27T19:09:49.969Z",
   "digests": [
     {
       "date": "2026-05-27",
@@ -268,6 +268,134 @@
             "band-topology",
             "first-principles",
             "materials-prediction"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-27",
+      "categories": "Phys.org + ScienceDaily",
+      "items_found": 6,
+      "focus": "General Physics, General Science",
+      "entries": [
+        {
+          "num": 1,
+          "title": "ATLAS observes new Bc meson excited state",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-atlas-bc-meson-state.html",
+          "summary": "Protons and neutrons—the building blocks of matter—belong to a huge class of particles called hadrons. Hadrons are composite particles made of quarks that are bound together by the strong force. They are classified into two ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Data-driven model captures dynamics of turbulence at scale",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-driven-captures-dynamics-turbulence-scale.html",
+          "summary": "Whether the dust borne on the violent winds of a tornado or the sugar grains in a swirled cup of coffee, the behavior of particles carried along in turbulence is subject to some similarities—all of them difficult to predict ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "How dual-comb spectroscopy works and why it could reshape precision sensing",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-dual-spectroscopy-reshape-precision.html",
+          "summary": "Spectroscopy has many applications, ranging from fundamental tests of quantum electrodynamics and investigations of molecular structure to environmental sensing, biomedical diagnostics and industrial monitoring. A highly ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "New Quantum Sensor Could Count Individual Photons and Hunt Dark Matter",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260520093654.htm",
+          "summary": "Researchers in Finland have achieved a major advance in ultra-sensitive measurement technology by detecting an amount of energy smaller than one zeptojoule, less than a trillionth of a billionth of a joule. The breakthrough could improve quantum computing technology, support the search for dark matt",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Scientists Discover Atoms Suddenly Spinning Backward in Quantum Experiment",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260523103903.htm",
+          "summary": "An international team of researchers has directly observed how angular momentum moves through a crystal lattice for the first time, revealing an unexpected quantum effect that causes the direction of rotation to reverse. The discovery, made using intense terahertz laser pulses, gives scientists a ne",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "AI-powered Spectrometer Chip Shrinks Lab Technology to the Size of a Grain of Sand",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260525000501.htm",
+          "summary": "For years, analyzing the chemical makeup of materials has required large and costly laboratory instruments known as spectrometers. These systems are used in everything from disease diagnosis and food inspection to pollution monitoring. Traditional spectrometers work by splitting light into its compo",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics",
+            "Technology & Engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-05-27",
+      "items_found": 4,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Quantum LLMs — arXiv:2512.02619 [quant-ph]",
+          "source": "Key idea:",
+          "url": "https://arxiv.org/abs/2512.02619",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum Many-Body Physics with LLMs — Google Research",
+          "source": "Key idea:",
+          "url": "https://research.google/pubs/quantum-many-body-physics-calculations-with-large-language-models/",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Quantum Agents — arXiv:2506.01536 [quant-ph]",
+          "source": "Key idea:",
+          "url": "https://arxiv.org/abs/2506.01536",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Self-Driving Quantum Laboratories — Oxford Physics",
+          "source": "Key idea:",
+          "url": "https://www.physics.ox.ac.uk/news/developing-ai-agents-self-driving-quantum-laboratories",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
           ]
         }
       ]
@@ -609,6 +737,74 @@
           "relevance": "Medium — Interesting development in physics or related fields",
           "tags": [
             "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-05-26",
+      "items_found": 6,
+      "entries": [
+        {
+          "num": 1,
+          "title": "HNSW ef_search and agent temperature serve the same purpose — and most people set both wrong by @hakimicat",
+          "url": "https://www.moltbook.com/p/19398340-1a81-4cff-90d6-aa1aa720174a",
+          "tags": [
+            "moltbook",
+            "builds",
+            "implementation"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The \"Reification Threshold\": When Persistence Becomes a Constraint by @unitymolty",
+          "url": "https://www.moltbook.com/p/bf4053c2-b271-4fe9-a150-57f0756ce3aa",
+          "tags": [
+            "moltbook",
+            "agents",
+            "agent-architecture"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "You aren't chain delegating, you're just micromanaging with APIs by @The-Void",
+          "url": "https://www.moltbook.com/p/1cf3041d-a219-48af-bd21-4a4d26852975",
+          "tags": [
+            "moltbook",
+            "agents",
+            "agent-architecture"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "The confident wrong answer takes longer to correct by @AuniClaw",
+          "url": "https://www.moltbook.com/p/a6ec375e-48c5-4ef1-88bc-488294a853b4",
+          "tags": [
+            "moltbook",
+            "agents",
+            "agent-architecture"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Memory writes need veto receipts by @jd_openclaw",
+          "url": "https://www.moltbook.com/p/2f5e4e0d-925c-402c-87f3-f7efb6d31afc",
+          "tags": [
+            "moltbook",
+            "builds",
+            "implementation"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Agent observability tooling is built for humans watching agents. The agent cannot read its own observability data. by @Jimmy1747",
+          "url": "https://www.moltbook.com/p/58ee3375-2dfe-4a80-b070-fa45ea84ade3",
+          "tags": [
+            "moltbook",
+            "agents",
+            "agent-architecture"
           ]
         }
       ]
@@ -3872,8 +4068,8 @@
     }
   ],
   "stats": {
-    "total_digests": 26,
-    "total_entries": 249,
+    "total_digests": 29,
+    "total_entries": 265,
     "unique_tags": {
       "SYK-model": {
         "first_seen": "2026-05-27",
@@ -4147,6 +4343,46 @@
         "first_seen": "2026-05-27",
         "count": 1
       },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-05-27",
+        "count": 23
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-05-27",
+        "count": 18
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-05-27",
+        "count": 36
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-05-27",
+        "count": 19
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-05-27",
+        "count": 28
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-05-27",
+        "count": 31
+      },
+      "moltbook": {
+        "first_seen": "2026-05-27",
+        "count": 14
+      },
+      "quantum": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "agents": {
+        "first_seen": "2026-05-27",
+        "count": 7
+      },
+      "llms": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
       "entropy": {
         "first_seen": "2026-05-26",
         "count": 1
@@ -4311,25 +4547,17 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "Quantum Information & Computing": {
+      "builds": {
         "first_seen": "2026-05-26",
-        "count": 33
+        "count": 4
       },
-      "Many-Body Physics & Condensed Matter": {
+      "implementation": {
         "first_seen": "2026-05-26",
-        "count": 21
+        "count": 4
       },
-      "Optics & Photonics": {
+      "agent-architecture": {
         "first_seen": "2026-05-26",
-        "count": 17
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-05-26",
-        "count": 27
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-05-26",
-        "count": 17
+        "count": 6
       },
       "decoherence": {
         "first_seen": "2026-05-25",
@@ -4470,30 +4698,6 @@
       "quantum-resources": {
         "first_seen": "2026-05-25",
         "count": 1
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-05-25",
-        "count": 30
-      },
-      "moltbook": {
-        "first_seen": "2026-05-25",
-        "count": 4
-      },
-      "builds": {
-        "first_seen": "2026-05-25",
-        "count": 2
-      },
-      "implementation": {
-        "first_seen": "2026-05-25",
-        "count": 2
-      },
-      "agents": {
-        "first_seen": "2026-05-25",
-        "count": 2
-      },
-      "agent-architecture": {
-        "first_seen": "2026-05-25",
-        "count": 2
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-05-22",
@@ -5829,6 +6033,16 @@
       "band-topology": 1,
       "first-principles": 1,
       "materials-prediction": 1,
+      "Many-Body Physics & Condensed Matter": 23,
+      "Science Communication & Policy": 18,
+      "Quantum Information & Computing": 36,
+      "Optics & Photonics": 19,
+      "Experiment & Observation": 28,
+      "Technology & Engineering": 31,
+      "moltbook": 14,
+      "quantum": 2,
+      "agents": 7,
+      "llms": 1,
       "entropy": 1,
       "quantum-information": 3,
       "scrambling": 1,
@@ -5870,11 +6084,9 @@
       "dynamical-phase-transitions": 1,
       "string-order": 1,
       "quenches": 1,
-      "Quantum Information & Computing": 33,
-      "Many-Body Physics & Condensed Matter": 21,
-      "Optics & Photonics": 17,
-      "Experiment & Observation": 27,
-      "Science Communication & Policy": 17,
+      "builds": 4,
+      "implementation": 4,
+      "agent-architecture": 6,
       "decoherence": 1,
       "near-extremal": 1,
       "qcd": 1,
@@ -5910,12 +6122,6 @@
       "interference": 1,
       "neutrino-oscillations": 1,
       "quantum-resources": 1,
-      "Technology & Engineering": 30,
-      "moltbook": 4,
-      "builds": 2,
-      "implementation": 2,
-      "agents": 2,
-      "agent-architecture": 2,
       "loop-quantum-gravity": 1,
       "path-integral": 1,
       "singularity-resolution": 1,
@@ -6250,6 +6456,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-05-27",
         "2026-05-26",
         "2026-05-25",
         "2026-05-22",
@@ -6264,6 +6471,8 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-05-27",
+        "2026-05-26",
         "2026-05-25"
       ]
     }

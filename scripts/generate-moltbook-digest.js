@@ -4,57 +4,110 @@ const path = require('path');
 /**
  * Generate moltbook digest from research log.
  * Reads ~/.openclaw/logs/moltbook-research.md and creates moltbook/YYYY-MM-DD.md
+ * 
+ * The log format is freeform markdown. We extract entries by looking for
+ * numbered items with titles and URLs.
  */
 
 const LOG_PATH = path.join(process.env.HOME || '/home/cloudy', '.openclaw', 'logs', 'moltbook-research.md');
 const MOLTBOOK_DIR = path.join(__dirname, '..', 'moltbook');
 const MANIFEST_PATH = path.join(MOLTBOOK_DIR, 'manifest.json');
 
+function getTodayDate() {
+  const now = new Date();
+  return now.toISOString().split('T')[0];
+}
+
 function parseLog(content) {
+  const today = getTodayDate();
+  const lines = content.split('\n');
   const entries = [];
-  const blocks = content.split(/\n---\s*\n/);
-
-  for (const block of blocks) {
-    const trimmed = block.trim();
-    if (!trimmed) continue;
-
-    const dateMatch = trimmed.match(/^##\s+(\d{4}-\d{2}-\d{2})/m);
-    if (!dateMatch) continue;
-
-    const date = dateMatch[1];
-
-    const submoltMatch = trimmed.match(/^##\s+\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}\s+IST\s+—\s+(.+)/m);
-    const submolt = submoltMatch ? submoltMatch[1].trim() : 'unknown';
-
-    const postMatch = trimmed.match(/\*\*Post:\*\*\s*(.+)/m);
-    const post = postMatch ? postMatch[1].trim() : '';
-
-    const authorMatch = trimmed.match(/by\s+@(\w+)/);
-    const author = authorMatch ? authorMatch[1] : '';
-
-    const urlMatch = trimmed.match(/\*\*URL:\*\*\s*(\S+)/m);
-    const url = urlMatch ? urlMatch[1].trim() : '';
-
-    const whyMatch = trimmed.match(/\*\*Why it matters:\*\*\s*([\s\S]*?)(?=\*\*Key insight:\*\*)/m);
-    const why = whyMatch ? whyMatch[1].trim() : '';
-
-    const insightMatch = trimmed.match(/\*\*Key insight:\*\*\s*([\s\S]*?)(?=\*\*Engagement:\*\*)/m);
-    const insight = insightMatch ? insightMatch[1].trim() : '';
-
-    const engagementMatch = trimmed.match(/\*\*Engagement:\*\*\s*(.+)/m);
-    const engagement = engagementMatch ? engagementMatch[1].trim() : '';
-
-    entries.push({ date, submolt, post, author, url, why, insight, engagement });
+  
+  let currentEntry = null;
+  let inEntry = false;
+  let entryNum = 0;
+  
+  for (const line of lines) {
+    const trimmed = line.trim();
+    
+    // Detect numbered entry headers like "### 1. Title" or "### N. Title"
+    const headerMatch = trimmed.match(/^#{1,3}\s+(\d+)\.\s+(.+)/);
+    if (headerMatch) {
+      if (currentEntry) {
+        entries.push(currentEntry);
+      }
+      entryNum++;
+      currentEntry = {
+        date: today,
+        number: entryNum,
+        title: headerMatch[2].trim(),
+        source: '',
+        url: '',
+        keyIdea: '',
+        whyItMatters: '',
+        tags: ['moltbook']
+      };
+      inEntry = true;
+      continue;
+    }
+    
+    if (!inEntry || !currentEntry) continue;
+    
+    // Extract URL
+    const urlMatch = trimmed.match(/\*\*Link:\*\*\s*(\S+)/) || trimmed.match(/\*\*URL:\*\*\s*(\S+)/);
+    if (urlMatch && !currentEntry.url) {
+      currentEntry.url = urlMatch[1].trim();
+      continue;
+    }
+    
+    // Extract source (the bold header before the title)
+    const sourceMatch = trimmed.match(/^-\s+\*\*([^*]+?)\*\*/);
+    if (sourceMatch && !currentEntry.source) {
+      const source = sourceMatch[1].trim();
+      // Don't capture if it's just "Title:"
+      if (!source.toLowerCase().startsWith('title')) {
+        currentEntry.source = source;
+      }
+      continue;
+    }
+    
+    // Extract key idea
+    const ideaMatch = trimmed.match(/\*\*Key idea:\*\*\s*(.+)/) || trimmed.match(/\*\*Key Idea:\*\*\s*(.+)/);
+    if (ideaMatch) {
+      currentEntry.keyIdea = ideaMatch[1].trim();
+      continue;
+    }
+    
+    // Extract why it matters
+    const whyMatch = trimmed.match(/\*\*Why it matters:\*\*\s*(.+)/);
+    if (whyMatch) {
+      currentEntry.whyItMatters = whyMatch[1].trim();
+      continue;
+    }
+    
+    // Detect arXiv IDs for tags
+    const arxivMatch = trimmed.match(/arXiv:(\d{4}\.\d{5})/);
+    if (arxivMatch) {
+      currentEntry.tags.push('arxiv');
+    }
+    
+    // Detect quantum-related tags
+    if (/quantum|physics|llm|agent/i.test(trimmed)) {
+      if (!currentEntry.tags.includes('quantum')) currentEntry.tags.push('quantum');
+    }
+    if (/agent/i.test(trimmed) && !currentEntry.tags.includes('agents')) {
+      currentEntry.tags.push('agents');
+    }
+    if (/llm|language.model|gpt/i.test(trimmed) && !currentEntry.tags.includes('llms')) {
+      currentEntry.tags.push('llms');
+    }
   }
-
-  // Group by date
-  const byDate = {};
-  for (const e of entries) {
-    if (!byDate[e.date]) byDate[e.date] = [];
-    byDate[e.date].push(e);
+  
+  if (currentEntry) {
+    entries.push(currentEntry);
   }
-
-  return byDate;
+  
+  return entries;
 }
 
 function generateDigest(date, entries) {
@@ -62,23 +115,21 @@ function generateDigest(date, entries) {
     `# Moltbook Research Digest — ${date}`,
     '',
     `**Items found:** ${entries.length}`,
-    `**Submolts:** ${[...new Set(entries.map(e => e.submolt))].join(', ')}`,
+    `**Generated:** ${new Date().toISOString()}`,
     '',
     '---',
     ''
   ];
 
-  for (let i = 0; i < entries.length; i++) {
-    const e = entries[i];
-    lines.push(`## ${i + 1}. ${e.post}`);
+  for (const e of entries) {
+    lines.push(`## ${e.number}. ${e.title}`);
     lines.push('');
-    lines.push(`- **Author:** @${e.author}`);
-    lines.push(`- **Submolt:** ${e.submolt}`);
-    lines.push(`- **URL:** ${e.url}`);
-    lines.push(`- **Why it matters:** ${e.why}`);
-    lines.push(`- **Key insight:** ${e.insight}`);
-    lines.push(`- **Engagement:** ${e.engagement}`);
-    lines.push(`- **Tags:** moltbook, ${e.submolt}${e.submolt === 'agents' ? ', agent-architecture' : ''}${e.submolt === 'builds' ? ', implementation' : ''}`);
+    
+    if (e.source) lines.push(`- **Source:** ${e.source}`);
+    if (e.url) lines.push(`- **URL:** ${e.url}`);
+    if (e.keyIdea) lines.push(`- **Key idea:** ${e.keyIdea}`);
+    if (e.whyItMatters) lines.push(`- **Why it matters:** ${e.whyItMatters}`);
+    lines.push(`- **Tags:** ${[...new Set(e.tags)].join(', ')}`);
     lines.push('');
   }
 
@@ -105,23 +156,27 @@ function updateManifest(files) {
 function main() {
   if (!fs.existsSync(LOG_PATH)) {
     console.log(`No log file at ${LOG_PATH}`);
-    return;
+    process.exit(1);
   }
 
   const content = fs.readFileSync(LOG_PATH, 'utf8');
-  const byDate = parseLog(content);
-
-  const newFiles = [];
-  for (const [date, entries] of Object.entries(byDate)) {
-    const digest = generateDigest(date, entries);
-    const fileName = `${date}.md`;
-    const filePath = path.join(MOLTBOOK_DIR, fileName);
-    fs.writeFileSync(filePath, digest);
-    newFiles.push(fileName);
-    console.log(`Generated: moltbook/${fileName} (${entries.length} entries)`);
+  const entries = parseLog(content);
+  
+  if (entries.length === 0) {
+    console.log('No entries found in log file');
+    return;
   }
 
-  updateManifest(newFiles);
+  const date = getTodayDate();
+  const digest = generateDigest(date, entries);
+  const fileName = `${date}.md`;
+  const filePath = path.join(MOLTBOOK_DIR, fileName);
+  
+  fs.mkdirSync(MOLTBOOK_DIR, { recursive: true });
+  fs.writeFileSync(filePath, digest);
+  console.log(`Generated: moltbook/${fileName} (${entries.length} entries)`);
+
+  updateManifest([fileName]);
 }
 
 main();
