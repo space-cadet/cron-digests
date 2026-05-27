@@ -1,6 +1,277 @@
 {
-  "generated": "2026-05-26T04:49:13.133Z",
+  "generated": "2026-05-27T01:57:03.061Z",
   "digests": [
+    {
+      "date": "2026-05-27",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-05-27",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, condensed matter, topological order, many-body physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Pseudorandom Dynamics in the SYK Model and Cryptographic Censorship in JT Gravity",
+          "authors": "Pouya Golmohammadi",
+          "arxiv_id": "2605.25178",
+          "url": "https://arxivite.org/abs/2605.25178",
+          "categories": "hep-th; quant-ph",
+          "summary": "Proves that the SYK model acts as an approximate unitary design and connects this property to horizon formation in JT gravity duals, establishing a concrete link between quantum complexity and black hole interior geometry.",
+          "relevance": "SYK/JT gravity is a cornerstone of quantum gravity research, connecting random matrix theory, holography, and black hole information. This work ties pseudorandomness to horizon formation — directly relevant to the black hole information paradox and complexity=volume.",
+          "tags": [
+            "SYK-model",
+            "JT-gravity",
+            "holography",
+            "black-holes",
+            "quantum-complexity",
+            "pseudorandomness"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "A pre-merger-informed spectral-level ringdown inference framework for black-hole spectroscopy",
+          "authors": "Shitong Guo, Yan-Gang Miao",
+          "arxiv_id": "2605.25623",
+          "url": "https://arxivite.org/abs/2605.25623",
+          "categories": "gr-qc; hep-th",
+          "summary": "Introduces SPRING, a framework that incorporates pre-merger gravitational-wave data into ringdown inference to improve black hole spectroscopy without assuming specific theory-dependent QNM relations.",
+          "relevance": "Black hole spectroscopy tests the no-hair theorem and searches for beyond-GR effects. This method improves spectral inference by using pre-merger information — a significant methodological advance for LIGO/Virgo/KAGRA data analysis.",
+          "tags": [
+            "black-holes",
+            "gravitational-waves",
+            "ringdown",
+            "spectroscopy",
+            "quasinormal-modes",
+            "LIGO"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Hairy Kiselev black hole with quintessential matter: thermodynamic properties, sparsity of Hawking radiation, and greybody factors",
+          "authors": "Faizuddin Ahmed, Fernando M. Belchior, Allan R. P. Moreira, Abdelmalek Bouzenada",
+          "arxiv_id": "2605.25245",
+          "url": "https://arxivite.org/abs/2605.25245",
+          "categories": "gr-qc; hep-th",
+          "summary": "Studies a hairy black hole with quintessence and cosmological constant, analyzing thermodynamic phase transitions, the intermittent nature of Hawking radiation, and greybody factors for scalar perturbations.",
+          "relevance": "Hairy black holes and their thermodynamics are important testbeds for quantum gravity effects. The analysis of Hawking radiation sparsity and greybody factors connects to observable signatures and black hole evaporation physics.",
+          "tags": [
+            "black-holes",
+            "hairy-black-holes",
+            "thermodynamics",
+            "hawking-radiation",
+            "greybody-factors",
+            "phase-transitions"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Field Sources for Dark Matter Black Holes",
+          "authors": "G. Alencar, C. R. Muniz, Francisco Tello-Ortiz",
+          "arxiv_id": "2605.25071",
+          "url": "https://arxivite.org/abs/2605.25071",
+          "categories": "gr-qc; hep-th",
+          "summary": "Reconstructs regular black hole geometries from dark matter halo profiles using nonlinear electrodynamics, showing that halo distributions with finite central density yield de Sitter cores and Schwarzschild asymptotics.",
+          "relevance": "Bridges astrophysical dark matter phenomenology with regular black hole physics — relevant to understanding how dark matter environments modify black hole structure and to singularity resolution in quantum gravity.",
+          "tags": [
+            "black-holes",
+            "dark-matter",
+            "regular-black-holes",
+            "nonlinear-electrodynamics",
+            "astrophysics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Electromagnetic emission from a black-to-white hole transition -- Photospheric emission",
+          "authors": "Mattia Villani",
+          "arxiv_id": "2605.25709",
+          "url": "https://arxivite.org/abs/2605.25709",
+          "categories": "gr-qc",
+          "summary": "Proposes a photospheric emission model for gamma-ray bursts from black-to-white hole transitions and estimates the cosmological density of lunar-mass primordial black holes.",
+          "relevance": "Black-to-white hole transitions are predicted in loop quantum cosmology and other quantum gravity approaches as a resolution of singularities. The observational signatures calculated here provide a pathway to testing quantum gravitational effects.",
+          "tags": [
+            "black-holes",
+            "white-holes",
+            "quantum-gravity",
+            "gamma-rays",
+            "primordial-black-holes",
+            "loop-quantum-cosmology"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Grey-Body Factors and Thermodynamics of Asymptotically de Sitter Black Holes in Generalized Proca Theory",
+          "authors": "Bekir Can Lütfüoğlu, Javlon Rayimbaev, Nuriddin Kurbonov, Sardor Murodov, Faisal Javed",
+          "arxiv_id": "2605.25076",
+          "url": "https://arxivite.org/abs/2605.25076",
+          "categories": "gr-qc",
+          "summary": "Computes greybody factors and absorption cross-sections for various test fields on vector-hair black holes in generalized Proca theory with effective de Sitter asymptotics, analyzing how field parameters modify transmission and thermodynamics.",
+          "relevance": "Modified gravity theories with hairy black holes offer alternatives to standard GR and probe how extra degrees of freedom alter black hole thermodynamics and observable spectra — relevant to beyond-GR phenomenology.",
+          "tags": [
+            "black-holes",
+            "modified-gravity",
+            "greybody-factors",
+            "thermodynamics",
+            "de-sitter",
+            "proca-theory"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Graviton scattering in the null surface formulation. Part III: Fourth-order Bondi shear and the tree-level amplitude",
+          "authors": "C. N. Kozameh, G. O. Depaola",
+          "arxiv_id": "2605.24512",
+          "url": "https://arxivite.org/abs/2605.24512",
+          "categories": "hep-th",
+          "summary": "Completes the NSF graviton scattering program by computing the fourth-order Bondi shear, proving UV finiteness at all loop orders, and deriving a generalized Jordan-Pauli relation for systematic perturbative calculations.",
+          "relevance": "The null surface formulation offers a nonperturbative framework for quantum gravity. The UV finiteness result is significant for understanding graviton scattering and the perturbative structure of quantum general relativity.",
+          "tags": [
+            "quantum-gravity",
+            "graviton-scattering",
+            "null-surface-formulation",
+            "UV-finiteness",
+            "perturbative-gravity"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Bulk Motion in Global AdS$_3$ from the Boundary Energy-Density Perspective",
+          "authors": "Shiki Yoshikawa",
+          "arxiv_id": "2605.25481",
+          "url": "https://arxivite.org/abs/2605.25481",
+          "categories": "hep-th",
+          "summary": "Shows that bulk null propagation in global AdS3 is precisely encoded in boundary CFT energy densities as periodic chiral peaks, establishing a direct bulk-boundary dictionary for localized excitations.",
+          "relevance": "AdS/CFT correspondence is central to holographic quantum gravity. This work provides a concrete mapping between bulk geodesics and boundary observables in global AdS3 — foundational for understanding holographic bulk reconstruction.",
+          "tags": [
+            "AdS-CFT",
+            "holography",
+            "bulk-reconstruction",
+            "conformal-field-theory",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Krylov Complexity for Plane Wave Matrix Model",
+          "authors": "Dibakar Roychowdhury",
+          "arxiv_id": "2605.26055",
+          "url": "https://arxivite.org/abs/2605.26055",
+          "categories": "hep-th; quant-ph",
+          "summary": "Analyzes Krylov complexity in the BMN matrix model, finding linear scaling of Lanczos coefficients with mass deformation and quadratic early-time corrections to complexity growth.",
+          "relevance": "Krylov complexity is an emerging probe of quantum chaos and holographic complexity. The matrix model is a toy model for M-theory and AdS/CFT, making this relevant to quantum gravity and black hole interior dynamics.",
+          "tags": [
+            "krylov-complexity",
+            "matrix-model",
+            "quantum-chaos",
+            "AdS-CFT",
+            "BMN"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Homomorphic Quantum Error Correction",
+          "authors": "Kornikar Sen, Miguel A. Martin-Delgado",
+          "arxiv_id": "2605.25692",
+          "url": "https://arxivite.org/abs/2605.25692",
+          "categories": "quant-ph",
+          "summary": "Establishes compatibility criteria between quantum homomorphic encryption and quantum error correction, analyzing stabilizer codes, CSS codes, and 3D color codes, and proposing solutions for non-Clifford gate implementation on encrypted encoded data.",
+          "relevance": "Combining quantum error correction with homomorphic encryption is essential for secure cloud quantum computing. This work provides the algebraic framework needed to process protected quantum data in server environments.",
+          "tags": [
+            "quantum-error-correction",
+            "homomorphic-encryption",
+            "stabilizer-codes",
+            "quantum-computing",
+            "cloud-computing"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "A Variational Dissipative Framework for Quantum Algorithms",
+          "authors": "Yuan Yao, Ruipeng Xing, Yongjian Gu, Yiming Huang, Xiao Yuan",
+          "arxiv_id": "2605.25841",
+          "url": "https://arxivite.org/abs/2605.25841",
+          "categories": "quant-ph",
+          "summary": "Introduces a variational framework that integrates engineered dissipative channels into quantum circuits via ancilla assistance, enabling preparation of mixed states and improving ground-state search and noise recovery.",
+          "relevance": "Dissipation is usually treated as noise to be eliminated, but this framework turns it into a resource for variational quantum algorithms. Relevant to NISQ-era quantum computing and open quantum systems control.",
+          "tags": [
+            "variational-quantum-algorithms",
+            "dissipation-engineering",
+            "NISQ",
+            "quantum-simulation",
+            "open-quantum-systems"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Extracting Universal Entanglement Scaling from Mixed Fermionic Gaussian States via Entanglement Projected Entropy",
+          "authors": "Jia-Wen Tao, Hui-Ke Jin",
+          "arxiv_id": "2605.25102",
+          "url": "https://arxivite.org/abs/2605.25102",
+          "categories": "quant-ph; cond-mat.stat-mech",
+          "summary": "Introduces entanglement projected entropy to extract universal entanglement scaling from mixed fermionic Gaussian states, successfully recovering conformal $c/3$ scaling in 1D and Dirac-governed scaling in 2D.",
+          "relevance": "Entanglement is central to many-body physics and quantum gravity (e.g., Ryu-Takayanagi). This work provides a practical tool for isolating entanglement from thermal noise in fermionic systems — highly relevant to quantum simulation and condensed matter.",
+          "tags": [
+            "entanglement-entropy",
+            "mixed-states",
+            "fermionic-systems",
+            "conformal-field-theory",
+            "many-body-physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Local Impurity Induced Growth and Scrambling in Clean Free Fermions",
+          "authors": "Qucheng Gao, Vikram Ravindranath, Xiao Chen",
+          "arxiv_id": "2605.24335",
+          "url": "https://arxivite.org/abs/2605.24335",
+          "categories": "quant-ph",
+          "summary": "Shows that a single impurity in a free fermion system can act as a branching source for operator growth and quantum scrambling, with feedback-driven transitions between saturation and sustained growth.",
+          "relevance": "Quantum scrambling and operator growth are key to understanding chaos, thermalization, and holography. This work reveals how minimal impurities generate complex dynamics — relevant to quantum information and many-body physics.",
+          "tags": [
+            "quantum-scrambling",
+            "operator-growth",
+            "free-fermions",
+            "impurities",
+            "thermalization",
+            "many-body"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Substitution modulated transition from semimetal to superconductor in ZrTe$_{2-x}$Se$_x$ with coexistence of nontrivial electronic topology",
+          "authors": "V. M. Fim, C. F. Schuch, L. R. de Faria, F. A. Santos, M. S. da Luz, S. S. Tsirkin, L. T. F. Eleno, A. J. S. Machado",
+          "arxiv_id": "2605.25906",
+          "url": "https://arxivite.org/abs/2605.25906",
+          "categories": "cond-mat.supr-con; cond-mat.mtrl-sci",
+          "summary": "Reports superconductivity up to 4.8 K in Se-substituted ZrTe2 with a phase diagram showing coexistence of Dirac semimetal and superconducting states, suggesting a platform for topological superconductivity.",
+          "relevance": "Topological superconductors hosting Majorana modes are key to topological quantum computing. The semimetal-superconductor coexistence with nontrivial Z2 topology makes this a promising experimental platform.",
+          "tags": [
+            "topological-superconductivity",
+            "semimetal",
+            "zirconium-telluride",
+            "topological-order",
+            "majorana"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Prediction of 1:1 kagome metals with superconductivity and band topology",
+          "authors": "Na Jiao, Shu-Xiang Qiao, Pan Zhou, Hong-Yan Lu, Ping Zhang",
+          "arxiv_id": "2605.24822",
+          "url": "https://arxivite.org/abs/2605.24822",
+          "categories": "cond-mat.supr-con",
+          "summary": "Predicts a family of 1:1 kagome metal stannides (MSn) that combine intrinsic phonon-mediated superconductivity with nontrivial topological band structures, identifying specific candidates for experimental synthesis.",
+          "relevance": "Kagome metals are at the frontier of topological quantum materials. Integrating superconductivity with nontrivial topology in a single material platform is a major goal for topological quantum computing and condensed matter physics.",
+          "tags": [
+            "kagome-metals",
+            "topological-superconductivity",
+            "band-topology",
+            "first-principles",
+            "materials-prediction"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-26",
       "type": "arxiv",
@@ -3601,12 +3872,280 @@
     }
   ],
   "stats": {
-    "total_digests": 25,
-    "total_entries": 234,
+    "total_digests": 26,
+    "total_entries": 249,
     "unique_tags": {
+      "SYK-model": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "JT-gravity": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "holography": {
+        "first_seen": "2026-05-27",
+        "count": 7
+      },
       "black-holes": {
-        "first_seen": "2026-05-26",
-        "count": 11
+        "first_seen": "2026-05-27",
+        "count": 17
+      },
+      "quantum-complexity": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "pseudorandomness": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-05-27",
+        "count": 6
+      },
+      "ringdown": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "spectroscopy": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "quasinormal-modes": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "LIGO": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "hairy-black-holes": {
+        "first_seen": "2026-05-27",
+        "count": 4
+      },
+      "thermodynamics": {
+        "first_seen": "2026-05-27",
+        "count": 6
+      },
+      "hawking-radiation": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "greybody-factors": {
+        "first_seen": "2026-05-27",
+        "count": 3
+      },
+      "phase-transitions": {
+        "first_seen": "2026-05-27",
+        "count": 3
+      },
+      "dark-matter": {
+        "first_seen": "2026-05-27",
+        "count": 3
+      },
+      "regular-black-holes": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "nonlinear-electrodynamics": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "astrophysics": {
+        "first_seen": "2026-05-27",
+        "count": 3
+      },
+      "white-holes": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-05-27",
+        "count": 9
+      },
+      "gamma-rays": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "primordial-black-holes": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "loop-quantum-cosmology": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "modified-gravity": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "de-sitter": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "proca-theory": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "graviton-scattering": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "null-surface-formulation": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "UV-finiteness": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "perturbative-gravity": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "AdS-CFT": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "bulk-reconstruction": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "conformal-field-theory": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "krylov-complexity": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "matrix-model": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "quantum-chaos": {
+        "first_seen": "2026-05-27",
+        "count": 4
+      },
+      "BMN": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "quantum-error-correction": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "homomorphic-encryption": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "stabilizer-codes": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "quantum-computing": {
+        "first_seen": "2026-05-27",
+        "count": 3
+      },
+      "cloud-computing": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "variational-quantum-algorithms": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "dissipation-engineering": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "NISQ": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "quantum-simulation": {
+        "first_seen": "2026-05-27",
+        "count": 4
+      },
+      "open-quantum-systems": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "entanglement-entropy": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "mixed-states": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "fermionic-systems": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "many-body-physics": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "quantum-scrambling": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "operator-growth": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "free-fermions": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "impurities": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "thermalization": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "many-body": {
+        "first_seen": "2026-05-27",
+        "count": 5
+      },
+      "topological-superconductivity": {
+        "first_seen": "2026-05-27",
+        "count": 2
+      },
+      "semimetal": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "zirconium-telluride": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "topological-order": {
+        "first_seen": "2026-05-27",
+        "count": 5
+      },
+      "majorana": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "kagome-metals": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "band-topology": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "first-principles": {
+        "first_seen": "2026-05-27",
+        "count": 1
+      },
+      "materials-prediction": {
+        "first_seen": "2026-05-27",
+        "count": 1
       },
       "entropy": {
         "first_seen": "2026-05-26",
@@ -3628,25 +4167,9 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "quantum-gravity": {
-        "first_seen": "2026-05-26",
-        "count": 6
-      },
-      "open-quantum-systems": {
-        "first_seen": "2026-05-26",
-        "count": 1
-      },
       "toy-model": {
         "first_seen": "2026-05-26",
         "count": 1
-      },
-      "thermodynamics": {
-        "first_seen": "2026-05-26",
-        "count": 4
-      },
-      "phase-transitions": {
-        "first_seen": "2026-05-26",
-        "count": 2
       },
       "dynamical-systems": {
         "first_seen": "2026-05-26",
@@ -3688,15 +4211,7 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "regular-black-holes": {
-        "first_seen": "2026-05-26",
-        "count": 1
-      },
       "scalar-waves": {
-        "first_seen": "2026-05-26",
-        "count": 1
-      },
-      "greybody-factors": {
         "first_seen": "2026-05-26",
         "count": 1
       },
@@ -3708,19 +4223,7 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "dark-matter": {
-        "first_seen": "2026-05-26",
-        "count": 2
-      },
       "geodesics": {
-        "first_seen": "2026-05-26",
-        "count": 1
-      },
-      "astrophysics": {
-        "first_seen": "2026-05-26",
-        "count": 2
-      },
-      "hawking-radiation": {
         "first_seen": "2026-05-26",
         "count": 1
       },
@@ -3740,10 +4243,6 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "gravitational-waves": {
-        "first_seen": "2026-05-26",
-        "count": 5
-      },
       "cosmology": {
         "first_seen": "2026-05-26",
         "count": 1
@@ -3756,10 +4255,6 @@
         "first_seen": "2026-05-26",
         "count": 2
       },
-      "modified-gravity": {
-        "first_seen": "2026-05-26",
-        "count": 1
-      },
       "string-cloud": {
         "first_seen": "2026-05-26",
         "count": 1
@@ -3768,15 +4263,7 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "quasinormal-modes": {
-        "first_seen": "2026-05-26",
-        "count": 1
-      },
       "wkb": {
-        "first_seen": "2026-05-26",
-        "count": 1
-      },
-      "ringdown": {
         "first_seen": "2026-05-26",
         "count": 1
       },
@@ -3787,14 +4274,6 @@
       "dissipative-preparation": {
         "first_seen": "2026-05-26",
         "count": 1
-      },
-      "quantum-simulation": {
-        "first_seen": "2026-05-26",
-        "count": 3
-      },
-      "many-body": {
-        "first_seen": "2026-05-26",
-        "count": 4
       },
       "cirac": {
         "first_seen": "2026-05-26",
@@ -3819,10 +4298,6 @@
       "measurement": {
         "first_seen": "2026-05-26",
         "count": 1
-      },
-      "topological-order": {
-        "first_seen": "2026-05-26",
-        "count": 4
       },
       "dynamical-phase-transitions": {
         "first_seen": "2026-05-26",
@@ -3864,10 +4339,6 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "holography": {
-        "first_seen": "2026-05-25",
-        "count": 5
-      },
       "qcd": {
         "first_seen": "2026-05-25",
         "count": 1
@@ -3889,10 +4360,6 @@
         "count": 1
       },
       "scherk-schwarz": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
-      "entanglement-entropy": {
         "first_seen": "2026-05-25",
         "count": 1
       },
@@ -3964,17 +4431,9 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "operator-growth": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
       "syk-model": {
         "first_seen": "2026-05-25",
         "count": 1
-      },
-      "quantum-chaos": {
-        "first_seen": "2026-05-25",
-        "count": 3
       },
       "observational-entropy": {
         "first_seen": "2026-05-25",
@@ -4068,10 +4527,6 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "hairy-black-holes": {
-        "first_seen": "2026-05-22",
-        "count": 3
-      },
       "scalar-hair": {
         "first_seen": "2026-05-22",
         "count": 1
@@ -4093,10 +4548,6 @@
         "count": 1
       },
       "optimal-transport": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
-      "quantum-scrambling": {
         "first_seen": "2026-05-22",
         "count": 1
       },
@@ -4207,10 +4658,6 @@
       "lattice-gauge-theory": {
         "first_seen": "2026-05-22",
         "count": 1
-      },
-      "quantum-computing": {
-        "first_seen": "2026-05-22",
-        "count": 2
       },
       "particle-physics": {
         "first_seen": "2026-05-22",
@@ -4408,19 +4855,11 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "stabilizer-codes": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
       "topological-phases": {
         "first_seen": "2026-05-21",
         "count": 1
       },
       "topological-codes": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "quantum-error-correction": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -4461,10 +4900,6 @@
         "count": 1
       },
       "Lehmann-representation": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "many-body-physics": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -5326,17 +5761,80 @@
       }
     },
     "tag_counts": {
-      "black-holes": 11,
+      "SYK-model": 1,
+      "JT-gravity": 1,
+      "holography": 7,
+      "black-holes": 17,
+      "quantum-complexity": 1,
+      "pseudorandomness": 1,
+      "gravitational-waves": 6,
+      "ringdown": 2,
+      "spectroscopy": 1,
+      "quasinormal-modes": 2,
+      "LIGO": 1,
+      "hairy-black-holes": 4,
+      "thermodynamics": 6,
+      "hawking-radiation": 2,
+      "greybody-factors": 3,
+      "phase-transitions": 3,
+      "dark-matter": 3,
+      "regular-black-holes": 2,
+      "nonlinear-electrodynamics": 1,
+      "astrophysics": 3,
+      "white-holes": 1,
+      "quantum-gravity": 9,
+      "gamma-rays": 1,
+      "primordial-black-holes": 1,
+      "loop-quantum-cosmology": 1,
+      "modified-gravity": 2,
+      "de-sitter": 1,
+      "proca-theory": 1,
+      "graviton-scattering": 1,
+      "null-surface-formulation": 1,
+      "UV-finiteness": 1,
+      "perturbative-gravity": 1,
+      "AdS-CFT": 2,
+      "bulk-reconstruction": 1,
+      "conformal-field-theory": 2,
+      "krylov-complexity": 1,
+      "matrix-model": 1,
+      "quantum-chaos": 4,
+      "BMN": 1,
+      "quantum-error-correction": 2,
+      "homomorphic-encryption": 1,
+      "stabilizer-codes": 2,
+      "quantum-computing": 3,
+      "cloud-computing": 1,
+      "variational-quantum-algorithms": 1,
+      "dissipation-engineering": 1,
+      "NISQ": 1,
+      "quantum-simulation": 4,
+      "open-quantum-systems": 2,
+      "entanglement-entropy": 2,
+      "mixed-states": 1,
+      "fermionic-systems": 1,
+      "many-body-physics": 2,
+      "quantum-scrambling": 2,
+      "operator-growth": 2,
+      "free-fermions": 1,
+      "impurities": 1,
+      "thermalization": 1,
+      "many-body": 5,
+      "topological-superconductivity": 2,
+      "semimetal": 1,
+      "zirconium-telluride": 1,
+      "topological-order": 5,
+      "majorana": 1,
+      "kagome-metals": 1,
+      "band-topology": 1,
+      "first-principles": 1,
+      "materials-prediction": 1,
       "entropy": 1,
       "quantum-information": 3,
       "scrambling": 1,
       "information-paradox": 2,
       "gravitational-decoherence": 1,
-      "quantum-gravity": 6,
-      "open-quantum-systems": 1,
       "toy-model": 1,
-      "thermodynamics": 4,
-      "phase-transitions": 2,
       "dynamical-systems": 1,
       "criticality": 3,
       "entanglement": 5,
@@ -5347,40 +5845,28 @@
       "spacetime-discreteness": 1,
       "measurement-theory": 1,
       "phenomenology": 1,
-      "regular-black-holes": 1,
       "scalar-waves": 1,
-      "greybody-factors": 1,
       "scattering": 2,
       "absorption": 1,
-      "dark-matter": 2,
       "geodesics": 1,
-      "astrophysics": 2,
-      "hawking-radiation": 1,
       "semi-classical": 1,
       "quantum-field-theory": 2,
       "multicritical": 1,
       "solitons": 1,
-      "gravitational-waves": 5,
       "cosmology": 1,
       "k-essence": 1,
       "dark-energy": 2,
-      "modified-gravity": 1,
       "string-cloud": 1,
       "orbits": 1,
-      "quasinormal-modes": 1,
       "wkb": 1,
-      "ringdown": 1,
       "tensor-networks": 2,
       "dissipative-preparation": 1,
-      "quantum-simulation": 3,
-      "many-body": 4,
       "cirac": 1,
       "topological-quantum-computing": 1,
       "non-abelian": 2,
       "nisq": 1,
       "fibonacci-chain": 1,
       "measurement": 1,
-      "topological-order": 4,
       "dynamical-phase-transitions": 1,
       "string-order": 1,
       "quenches": 1,
@@ -5391,14 +5877,12 @@
       "Science Communication & Policy": 17,
       "decoherence": 1,
       "near-extremal": 1,
-      "holography": 5,
       "qcd": 1,
       "quark-gluon-plasma": 2,
       "transport-coefficients": 1,
       "phase-diagram": 1,
       "hydrodynamics": 1,
       "scherk-schwarz": 1,
-      "entanglement-entropy": 1,
       "dynamical-phase-transition": 1,
       "quantum-o-n": 1,
       "quantum-scars": 1,
@@ -5416,9 +5900,7 @@
       "dmrg": 1,
       "strong-correlations": 1,
       "quantum-quenches": 1,
-      "operator-growth": 1,
       "syk-model": 1,
-      "quantum-chaos": 3,
       "observational-entropy": 1,
       "kicked-rotor": 1,
       "aubry-andre": 1,
@@ -5442,14 +5924,12 @@
       "de-Sitter": 2,
       "evaporation": 1,
       "semiclassical-gravity": 1,
-      "hairy-black-holes": 3,
       "scalar-hair": 1,
       "multi-black-holes": 1,
       "electromagnetic-duality": 1,
       "black-hole-mergers": 1,
       "numerical-relativity": 1,
       "optimal-transport": 1,
-      "quantum-scrambling": 1,
       "Wasserstein": 1,
       "holography-of-information": 1,
       "baby-universes": 1,
@@ -5477,7 +5957,6 @@
       "critical-phenomena": 1,
       "quasiperiodic": 1,
       "lattice-gauge-theory": 1,
-      "quantum-computing": 2,
       "particle-physics": 1,
       "nuclear-physics": 1,
       "spinoptics": 1,
@@ -5527,10 +6006,8 @@
       "nonlinear-PDEs": 1,
       "query-complexity": 1,
       "Clifford-symmetries": 1,
-      "stabilizer-codes": 1,
       "topological-phases": 1,
       "topological-codes": 1,
-      "quantum-error-correction": 1,
       "layer-codes": 1,
       "color-routing": 1,
       "quantum-double-models": 1,
@@ -5541,7 +6018,6 @@
       "non-equilibrium-dynamics": 1,
       "Monte-Carlo": 1,
       "Lehmann-representation": 1,
-      "many-body-physics": 1,
       "spin glass": 1,
       "condensed matter": 1,
       "disorder": 1,
@@ -5759,6 +6235,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-05-27",
         "2026-05-26",
         "2026-05-25",
         "2026-05-22",
