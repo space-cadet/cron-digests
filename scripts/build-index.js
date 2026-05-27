@@ -67,6 +67,7 @@ function parseDigest(content, digestType) {
     const body = e.lines.join('\n');
     delete e.lines;
 
+    // ArXiv-style fields
     const authors = body.match(/^- \*\*Authors:\*\*\s*(.+)/m);
     if (authors) e.authors = authors[1].trim();
 
@@ -79,12 +80,15 @@ function parseDigest(content, digestType) {
     const url = body.match(/^- \*\*URL:\*\*\s*(\S+)/m);
     if (url) e.url = url[1].trim();
 
+    // ArXiv-style categories
     const cats = body.match(/^- \*\*Categories:\*\*\s*(.+)/m);
     if (cats) e.categories = cats[1].trim();
 
+    // ArXiv-style summary
     const summary = body.match(/^- \*\*Summary:\*\*\s*(.+)/m);
     if (summary) e.summary = summary[1].trim();
 
+    // ArXiv-style relevance
     const relevance = body.match(/^- \*\*Relevance:\*\*\s*(.+)/m);
     if (relevance) e.relevance = relevance[1].trim();
     else {
@@ -92,6 +96,15 @@ function parseDigest(content, digestType) {
       if (rm) e.relevance = rm[1].trim();
     }
 
+    // Moltbook-style key idea (maps to summary)
+    const keyIdea = body.match(/^- \*\*Key idea:\*\*\s*(.+)/m) || body.match(/^- \*\*Key Idea:\*\*\s*(.+)/m);
+    if (keyIdea && !e.summary) e.summary = keyIdea[1].trim();
+
+    // Moltbook-style why it matters (maps to relevance)
+    const whyMatters = body.match(/^- \*\*Why it matters:\*\*\s*(.+)/m);
+    if (whyMatters && !e.relevance) e.relevance = whyMatters[1].trim();
+
+    // Tags
     const tags = body.match(/^- \*\*Tags:\*\*\s*(.+)/m);
     if (tags) {
       e.tags = tags[1].split(',').map(t => t.trim()).filter(Boolean);
