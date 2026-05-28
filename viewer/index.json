@@ -1,6 +1,275 @@
 {
-  "generated": "2026-05-27T20:26:57.415Z",
+  "generated": "2026-05-28T01:49:14.131Z",
   "digests": [
+    {
+      "date": "2026-05-28",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-05-28",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole thermodynamics, holography, quantum computing, topological order, many-body physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Probing Spacetime Topology and Superposition with Accelerated Detectors",
+          "authors": "Anwesha Chakraborty",
+          "arxiv_id": "2605.26490",
+          "url": "https://arxivite.org/abs/2605.26490",
+          "categories": "gr-qc; hep-th; quant-ph",
+          "summary": "Investigates how spacetime topology (compactification) and superposition affect entanglement harvesting by accelerated detectors, finding that compactification boosts entanglement while superposition creates interference effects that expand the harvesting region.",
+          "relevance": "Entanglement in curved and superposed spacetimes bridges quantum information with quantum gravity, relevant to understanding how quantum correlations behave in non-trivial gravitational backgrounds.",
+          "tags": [
+            "entanglement-harvesting",
+            "quantum-gravity",
+            "curved-spacetime",
+            "quantum-information",
+            "Unruh-effect"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Universal Thermodynamic Topological Classes of BTZ Black Holes in Einstein and F(R) Gravity",
+          "authors": "Yudie Wan",
+          "arxiv_id": "2605.26481",
+          "url": "https://arxivite.org/abs/2605.26481",
+          "categories": "gr-qc",
+          "summary": "Classifies BTZ black holes into universal thermodynamic topological classes, showing that F(R) gravity modifications and matter fields alter topological classifications, with ensemble choice also playing a key role.",
+          "relevance": "Black hole thermodynamics and topological classification are central to quantum gravity. This work extends topological understanding to modified gravity, relevant to holography and beyond-GR scenarios.",
+          "tags": [
+            "black-holes",
+            "BTZ",
+            "thermodynamics",
+            "topological-classification",
+            "modified-gravity",
+            "holography"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Canonical quantization of massive vector field in Schwarzschild black hole background",
+          "authors": "Rajesh Karmakar",
+          "arxiv_id": "2605.27047",
+          "url": "https://arxivite.org/abs/2605.27047",
+          "categories": "gr-qc",
+          "summary": "Provides the first canonical quantization of a massive Proca vector field in Schwarzschild spacetime, deriving Hawking spectra and showing that a Proca condensate forms near the horizon.",
+          "relevance": "Quantum field theory in black hole backgrounds is foundational for Hawking radiation and black hole thermodynamics. The Proca field introduces new polarization dynamics that modify quantum observables near horizons.",
+          "tags": [
+            "black-holes",
+            "Proca-field",
+            "quantum-field-theory",
+            "Hawking-radiation",
+            "canonical-quantization",
+            "Schwarzschild"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "On a mixed-state extension of the holographic signal inequality",
+          "authors": "Joydeep Naskar",
+          "arxiv_id": "2605.26617",
+          "url": "https://arxivite.org/abs/2605.26617",
+          "categories": "hep-th",
+          "summary": "Generalizes a recent holographic entanglement inequality to mixed states and identifies holographic geometries that violate it, then conjectures a revised inequality for tripartite holographic states.",
+          "relevance": "Holographic entanglement inequalities constrain the allowed structure of quantum correlations in AdS/CFT. This work probes the boundaries of such constraints and their validity for mixed states.",
+          "tags": [
+            "holography",
+            "entanglement",
+            "AdS-CFT",
+            "mixed-states",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Thermal conformal partial waves from flat-space and defect CFT",
+          "authors": "Semyon Mandrygin",
+          "arxiv_id": "2605.27256",
+          "url": "https://arxivite.org/abs/2605.27256",
+          "categories": "hep-th",
+          "summary": "Derives thermal conformal blocks from flat-space and defect CFT data using the shadow formalism, establishing a systematic correspondence that yields the thermal Casimir equation without chemical potentials.",
+          "relevance": "Conformal blocks are the building blocks of CFT correlation functions and holographic calculations. Understanding thermal blocks is essential for finite-temperature holography and black hole physics.",
+          "tags": [
+            "conformal-field-theory",
+            "thermal-blocks",
+            "holography",
+            "AdS-CFT",
+            "conformal-bootstrap"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Diffeomorphism-Like Symmetry in Gravitoelectromagnetism",
+          "authors": "Alesandro Santos",
+          "arxiv_id": "2605.27125",
+          "url": "https://arxivite.org/abs/2605.27125",
+          "categories": "gr-qc",
+          "summary": "Analyzes gauge symmetry in gravitoelectromagnetism within the Weyl formalism, deriving the propagator structure and showing that a Lorentz-like gauge preserves gauge independence while de Donder gauge is incompatible with the symmetry.",
+          "relevance": "Gravitoelectromagnetism provides a field-theoretic framework for understanding gravity-matter interactions. The gauge structure and Ward identities are foundational for consistent quantization and effective field theory approaches to gravity.",
+          "tags": [
+            "gravitoelectromagnetism",
+            "gauge-theory",
+            "quantum-gravity",
+            "linearized-gravity",
+            "Ward-identities"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Basis-Adaptive Sparse-State Simulation of Quantum Circuits",
+          "authors": "Sangkha Borah",
+          "arxiv_id": "2605.27285",
+          "url": "https://arxivite.org/abs/2605.27285",
+          "categories": "quant-ph",
+          "summary": "Introduces BASS, a basis-adaptive classical simulation algorithm for quantum circuits that rotates qubits into their natural-orbital basis before truncation, achieving up to an order of magnitude improvement in fidelity.",
+          "relevance": "Classical simulation of quantum circuits is essential for benchmarking and algorithm design. Adaptive basis techniques push the boundary of what can be efficiently simulated classically, directly relevant to quantum computing research.",
+          "tags": [
+            "quantum-computing",
+            "classical-simulation",
+            "tensor-networks",
+            "quantum-circuits",
+            "NISQ"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Deterministic Mapping of Topological Phases via Autoregressive Exogenous Neural Networks",
+          "authors": "Graciana Puentes",
+          "arxiv_id": "2605.27300",
+          "url": "https://arxivite.org/abs/2605.27300",
+          "categories": "quant-ph",
+          "summary": "Uses machine learning to map topological phase transitions in weak-measurement-induced geometric phases, achieving numerical-precision prediction and demonstrating deterministic structure in topological data.",
+          "relevance": "Machine learning for topological phases is an emerging frontier. This work shows that neural networks can discover exact mathematical relationships in topological quantum systems, relevant to quantum computing and condensed matter.",
+          "tags": [
+            "machine-learning",
+            "topological-phases",
+            "quantum-computing",
+            "geometric-phases",
+            "neural-networks"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Time Crystals on Quantum Devices",
+          "authors": "Gonzalo Camacho",
+          "arxiv_id": "2605.27211",
+          "url": "https://arxivite.org/abs/2605.27211",
+          "categories": "quant-ph; cond-mat.str-el",
+          "summary": "Reviews and classifies time crystal realizations on quantum devices, proposing a framework that includes discrete, continuous, topological, and quasiperiodic time-crystalline phases.",
+          "relevance": "Time crystals are a novel phase of matter with potential applications in quantum memory and precision sensing. This review surveys the rapidly evolving experimental landscape on quantum processors.",
+          "tags": [
+            "time-crystals",
+            "quantum-devices",
+            "nonequilibrium-phases",
+            "quantum-computing",
+            "topological-phases"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Nonasymptotic bounds for quantum purity amplification",
+          "authors": "Jack Spilecki",
+          "arxiv_id": "2605.27262",
+          "url": "https://arxivite.org/abs/2605.27262",
+          "categories": "quant-ph",
+          "summary": "Derives finite-sample bounds for quantum purity amplification, showing how many copies of a noisy state are needed to extract k pure copies with high fidelity, independent of dimension.",
+          "relevance": "Purity amplification is a core primitive for quantum information processing. Nonasymptotic bounds are crucial for practical quantum computing where resources are limited.",
+          "tags": [
+            "quantum-information",
+            "purity-amplification",
+            "finite-sample-bounds",
+            "quantum-states",
+            "quantum-computing"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Quantum fluctuations and chaos in fully connected spin models",
+          "authors": "Aleksandr Mikheev",
+          "arxiv_id": "2605.27199",
+          "url": "https://arxivite.org/abs/2605.27199",
+          "categories": "cond-mat.stat-mech; cond-mat.quant-gas; quant-ph",
+          "summary": "Uses the 2PI effective action formalism to study how quantum fluctuations regularize chaotic dynamics in a fully connected SU(3) spin model, bridging microscopic correlations and macroscopic behavior.",
+          "relevance": "Quantum chaos and thermalization are central to many-body physics and holography. This work provides a nonperturbative framework (2PI) for understanding how fluctuations modify chaotic classical trajectories.",
+          "tags": [
+            "quantum-chaos",
+            "many-body-physics",
+            "2PI-formalism",
+            "thermalization",
+            "SU(3)"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Algebras of order parameters in one-dimensional spin systems",
+          "authors": "Clement Delcamp",
+          "arxiv_id": "2605.27193",
+          "url": "https://arxivite.org/abs/2605.27193",
+          "categories": "cond-mat.str-el; hep-th; math-ph",
+          "summary": "Classifies string order parameters in 1D gapped phases using Lagrangian algebras in the Drinfel'd centre and tensor network techniques, extending the framework to symmetric mixed states.",
+          "relevance": "Topological order and symmetry-protected phases in 1D are foundational for understanding quantum phases of matter. The algebraic framework using Drinfel'd centres connects to categorical quantum mechanics and topological quantum computing.",
+          "tags": [
+            "topological-order",
+            "string-order-parameters",
+            "tensor-networks",
+            "Drinfeld-centre",
+            "symmetry-protected-phases"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Autonomous oscillations in quantum electromechanics: tensor network treatment",
+          "authors": "Mahasweta Pandit",
+          "arxiv_id": "2605.27326",
+          "url": "https://arxivite.org/abs/2605.27326",
+          "categories": "quant-ph; cond-mat.mes-hall; cond-mat.stat-mech",
+          "summary": "Develops a tensor-network framework for autonomous electromechanical oscillations in nanoscale devices, demonstrating self-sustained oscillatory behavior without external periodic driving.",
+          "relevance": "Tensor network methods for open quantum systems are advancing rapidly. This work applies them to a challenging nanoscale electromechanics problem, relevant to quantum devices and nonequilibrium transport.",
+          "tags": [
+            "tensor-networks",
+            "electromechanics",
+            "open-quantum-systems",
+            "nonequilibrium",
+            "nanoscale-physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Semiclassical foundation of universality in chaotic quantum circuits",
+          "authors": "Maximilian Friedrich Irenäus Kieler",
+          "arxiv_id": "2605.27052",
+          "url": "https://arxivite.org/abs/2605.27052",
+          "categories": "quant-ph; nlin.CD",
+          "summary": "Develops a periodic orbit theory for many-body chaotic quantum circuits, showing how random matrix universality emerges from synchronized time translations of subsystem periodic orbits.",
+          "relevance": "Quantum chaos and random matrix universality are key to understanding thermalization, information scrambling, and holographic duality. This semiclassical foundation bridges single-particle and many-body chaos.",
+          "tags": [
+            "quantum-chaos",
+            "random-matrix-theory",
+            "semiclassical",
+            "quantum-circuits",
+            "thermalization",
+            "many-body"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Thermal Casimir Effect in A Schwarzschild-like Wormhole Spacetime",
+          "authors": "Apriadi Salim Adam",
+          "arxiv_id": "2605.26743",
+          "url": "https://arxivite.org/abs/2605.26743",
+          "categories": "hep-th; gr-qc; quant-ph",
+          "summary": "Computes the thermal Casimir effect for a scalar field in a Schwarzschild-like wormhole, finding that thermal corrections become geometry-independent in the comoving frame while thermodynamic quantities show distinct temperature dependence.",
+          "relevance": "The Casimir effect in curved spacetime probes quantum vacuum structure in gravitational backgrounds, relevant to semiclassical quantum gravity and wormhole physics.",
+          "tags": [
+            "Casimir-effect",
+            "wormhole",
+            "quantum-field-theory",
+            "curved-spacetime",
+            "thermodynamics",
+            "quantum-gravity"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-27",
       "type": "arxiv",
@@ -4082,9 +4351,245 @@
     }
   ],
   "stats": {
-    "total_digests": 29,
-    "total_entries": 265,
+    "total_digests": 30,
+    "total_entries": 280,
     "unique_tags": {
+      "entanglement-harvesting": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-05-28",
+        "count": 13
+      },
+      "curved-spacetime": {
+        "first_seen": "2026-05-28",
+        "count": 3
+      },
+      "quantum-information": {
+        "first_seen": "2026-05-28",
+        "count": 5
+      },
+      "Unruh-effect": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "black-holes": {
+        "first_seen": "2026-05-28",
+        "count": 19
+      },
+      "BTZ": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "thermodynamics": {
+        "first_seen": "2026-05-28",
+        "count": 8
+      },
+      "topological-classification": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "modified-gravity": {
+        "first_seen": "2026-05-28",
+        "count": 3
+      },
+      "holography": {
+        "first_seen": "2026-05-28",
+        "count": 10
+      },
+      "Proca-field": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "quantum-field-theory": {
+        "first_seen": "2026-05-28",
+        "count": 4
+      },
+      "Hawking-radiation": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "canonical-quantization": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "Schwarzschild": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "entanglement": {
+        "first_seen": "2026-05-28",
+        "count": 6
+      },
+      "AdS-CFT": {
+        "first_seen": "2026-05-28",
+        "count": 4
+      },
+      "mixed-states": {
+        "first_seen": "2026-05-28",
+        "count": 2
+      },
+      "conformal-field-theory": {
+        "first_seen": "2026-05-28",
+        "count": 3
+      },
+      "thermal-blocks": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "conformal-bootstrap": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "gravitoelectromagnetism": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "gauge-theory": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "linearized-gravity": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "Ward-identities": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "quantum-computing": {
+        "first_seen": "2026-05-28",
+        "count": 7
+      },
+      "classical-simulation": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "tensor-networks": {
+        "first_seen": "2026-05-28",
+        "count": 5
+      },
+      "quantum-circuits": {
+        "first_seen": "2026-05-28",
+        "count": 2
+      },
+      "NISQ": {
+        "first_seen": "2026-05-28",
+        "count": 2
+      },
+      "machine-learning": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "topological-phases": {
+        "first_seen": "2026-05-28",
+        "count": 3
+      },
+      "geometric-phases": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "neural-networks": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "time-crystals": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "quantum-devices": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "nonequilibrium-phases": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "purity-amplification": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "finite-sample-bounds": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "quantum-states": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "quantum-chaos": {
+        "first_seen": "2026-05-28",
+        "count": 6
+      },
+      "many-body-physics": {
+        "first_seen": "2026-05-28",
+        "count": 3
+      },
+      "2PI-formalism": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "thermalization": {
+        "first_seen": "2026-05-28",
+        "count": 3
+      },
+      "SU(3)": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "topological-order": {
+        "first_seen": "2026-05-28",
+        "count": 6
+      },
+      "string-order-parameters": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "Drinfeld-centre": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "symmetry-protected-phases": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "electromechanics": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "open-quantum-systems": {
+        "first_seen": "2026-05-28",
+        "count": 3
+      },
+      "nonequilibrium": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "nanoscale-physics": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "random-matrix-theory": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "semiclassical": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "many-body": {
+        "first_seen": "2026-05-28",
+        "count": 6
+      },
+      "Casimir-effect": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
+      "wormhole": {
+        "first_seen": "2026-05-28",
+        "count": 1
+      },
       "SYK-model": {
         "first_seen": "2026-05-27",
         "count": 1
@@ -4092,14 +4597,6 @@
       "JT-gravity": {
         "first_seen": "2026-05-27",
         "count": 1
-      },
-      "holography": {
-        "first_seen": "2026-05-27",
-        "count": 7
-      },
-      "black-holes": {
-        "first_seen": "2026-05-27",
-        "count": 17
       },
       "quantum-complexity": {
         "first_seen": "2026-05-27",
@@ -4133,10 +4630,6 @@
         "first_seen": "2026-05-27",
         "count": 4
       },
-      "thermodynamics": {
-        "first_seen": "2026-05-27",
-        "count": 6
-      },
       "hawking-radiation": {
         "first_seen": "2026-05-27",
         "count": 2
@@ -4169,10 +4662,6 @@
         "first_seen": "2026-05-27",
         "count": 1
       },
-      "quantum-gravity": {
-        "first_seen": "2026-05-27",
-        "count": 9
-      },
       "gamma-rays": {
         "first_seen": "2026-05-27",
         "count": 1
@@ -4184,10 +4673,6 @@
       "loop-quantum-cosmology": {
         "first_seen": "2026-05-27",
         "count": 1
-      },
-      "modified-gravity": {
-        "first_seen": "2026-05-27",
-        "count": 2
       },
       "de-sitter": {
         "first_seen": "2026-05-27",
@@ -4213,17 +4698,9 @@
         "first_seen": "2026-05-27",
         "count": 1
       },
-      "AdS-CFT": {
-        "first_seen": "2026-05-27",
-        "count": 2
-      },
       "bulk-reconstruction": {
         "first_seen": "2026-05-27",
         "count": 1
-      },
-      "conformal-field-theory": {
-        "first_seen": "2026-05-27",
-        "count": 2
       },
       "krylov-complexity": {
         "first_seen": "2026-05-27",
@@ -4232,10 +4709,6 @@
       "matrix-model": {
         "first_seen": "2026-05-27",
         "count": 1
-      },
-      "quantum-chaos": {
-        "first_seen": "2026-05-27",
-        "count": 4
       },
       "BMN": {
         "first_seen": "2026-05-27",
@@ -4253,10 +4726,6 @@
         "first_seen": "2026-05-27",
         "count": 2
       },
-      "quantum-computing": {
-        "first_seen": "2026-05-27",
-        "count": 3
-      },
       "cloud-computing": {
         "first_seen": "2026-05-27",
         "count": 1
@@ -4269,33 +4738,17 @@
         "first_seen": "2026-05-27",
         "count": 1
       },
-      "NISQ": {
-        "first_seen": "2026-05-27",
-        "count": 1
-      },
       "quantum-simulation": {
         "first_seen": "2026-05-27",
         "count": 4
-      },
-      "open-quantum-systems": {
-        "first_seen": "2026-05-27",
-        "count": 2
       },
       "entanglement-entropy": {
         "first_seen": "2026-05-27",
         "count": 2
       },
-      "mixed-states": {
-        "first_seen": "2026-05-27",
-        "count": 1
-      },
       "fermionic-systems": {
         "first_seen": "2026-05-27",
         "count": 1
-      },
-      "many-body-physics": {
-        "first_seen": "2026-05-27",
-        "count": 2
       },
       "quantum-scrambling": {
         "first_seen": "2026-05-27",
@@ -4313,14 +4766,6 @@
         "first_seen": "2026-05-27",
         "count": 1
       },
-      "thermalization": {
-        "first_seen": "2026-05-27",
-        "count": 1
-      },
-      "many-body": {
-        "first_seen": "2026-05-27",
-        "count": 5
-      },
       "topological-superconductivity": {
         "first_seen": "2026-05-27",
         "count": 2
@@ -4332,10 +4777,6 @@
       "zirconium-telluride": {
         "first_seen": "2026-05-27",
         "count": 1
-      },
-      "topological-order": {
-        "first_seen": "2026-05-27",
-        "count": 5
       },
       "majorana": {
         "first_seen": "2026-05-27",
@@ -4401,10 +4842,6 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "quantum-information": {
-        "first_seen": "2026-05-26",
-        "count": 3
-      },
       "scrambling": {
         "first_seen": "2026-05-26",
         "count": 1
@@ -4429,10 +4866,6 @@
         "first_seen": "2026-05-26",
         "count": 3
       },
-      "entanglement": {
-        "first_seen": "2026-05-26",
-        "count": 5
-      },
       "unruh-effect": {
         "first_seen": "2026-05-26",
         "count": 1
@@ -4442,10 +4875,6 @@
         "count": 1
       },
       "multipartite": {
-        "first_seen": "2026-05-26",
-        "count": 1
-      },
-      "curved-spacetime": {
         "first_seen": "2026-05-26",
         "count": 1
       },
@@ -4481,10 +4910,6 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "quantum-field-theory": {
-        "first_seen": "2026-05-26",
-        "count": 2
-      },
       "multicritical": {
         "first_seen": "2026-05-26",
         "count": 1
@@ -4516,10 +4941,6 @@
       "wkb": {
         "first_seen": "2026-05-26",
         "count": 1
-      },
-      "tensor-networks": {
-        "first_seen": "2026-05-26",
-        "count": 2
       },
       "dissipative-preparation": {
         "first_seen": "2026-05-26",
@@ -5070,10 +5491,6 @@
         "count": 1
       },
       "Clifford-symmetries": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "topological-phases": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -5979,10 +6396,67 @@
       }
     },
     "tag_counts": {
+      "entanglement-harvesting": 1,
+      "quantum-gravity": 13,
+      "curved-spacetime": 3,
+      "quantum-information": 5,
+      "Unruh-effect": 1,
+      "black-holes": 19,
+      "BTZ": 1,
+      "thermodynamics": 8,
+      "topological-classification": 1,
+      "modified-gravity": 3,
+      "holography": 10,
+      "Proca-field": 1,
+      "quantum-field-theory": 4,
+      "Hawking-radiation": 1,
+      "canonical-quantization": 1,
+      "Schwarzschild": 1,
+      "entanglement": 6,
+      "AdS-CFT": 4,
+      "mixed-states": 2,
+      "conformal-field-theory": 3,
+      "thermal-blocks": 1,
+      "conformal-bootstrap": 1,
+      "gravitoelectromagnetism": 1,
+      "gauge-theory": 1,
+      "linearized-gravity": 1,
+      "Ward-identities": 1,
+      "quantum-computing": 7,
+      "classical-simulation": 1,
+      "tensor-networks": 5,
+      "quantum-circuits": 2,
+      "NISQ": 2,
+      "machine-learning": 1,
+      "topological-phases": 3,
+      "geometric-phases": 1,
+      "neural-networks": 1,
+      "time-crystals": 1,
+      "quantum-devices": 1,
+      "nonequilibrium-phases": 1,
+      "purity-amplification": 1,
+      "finite-sample-bounds": 1,
+      "quantum-states": 1,
+      "quantum-chaos": 6,
+      "many-body-physics": 3,
+      "2PI-formalism": 1,
+      "thermalization": 3,
+      "SU(3)": 1,
+      "topological-order": 6,
+      "string-order-parameters": 1,
+      "Drinfeld-centre": 1,
+      "symmetry-protected-phases": 1,
+      "electromechanics": 1,
+      "open-quantum-systems": 3,
+      "nonequilibrium": 1,
+      "nanoscale-physics": 1,
+      "random-matrix-theory": 1,
+      "semiclassical": 1,
+      "many-body": 6,
+      "Casimir-effect": 1,
+      "wormhole": 1,
       "SYK-model": 1,
       "JT-gravity": 1,
-      "holography": 7,
-      "black-holes": 17,
       "quantum-complexity": 1,
       "pseudorandomness": 1,
       "gravitational-waves": 6,
@@ -5991,7 +6465,6 @@
       "quasinormal-modes": 2,
       "LIGO": 1,
       "hairy-black-holes": 4,
-      "thermodynamics": 6,
       "hawking-radiation": 2,
       "greybody-factors": 3,
       "phase-transitions": 3,
@@ -6000,48 +6473,35 @@
       "nonlinear-electrodynamics": 1,
       "astrophysics": 3,
       "white-holes": 1,
-      "quantum-gravity": 9,
       "gamma-rays": 1,
       "primordial-black-holes": 1,
       "loop-quantum-cosmology": 1,
-      "modified-gravity": 2,
       "de-sitter": 1,
       "proca-theory": 1,
       "graviton-scattering": 1,
       "null-surface-formulation": 1,
       "UV-finiteness": 1,
       "perturbative-gravity": 1,
-      "AdS-CFT": 2,
       "bulk-reconstruction": 1,
-      "conformal-field-theory": 2,
       "krylov-complexity": 1,
       "matrix-model": 1,
-      "quantum-chaos": 4,
       "BMN": 1,
       "quantum-error-correction": 2,
       "homomorphic-encryption": 1,
       "stabilizer-codes": 2,
-      "quantum-computing": 3,
       "cloud-computing": 1,
       "variational-quantum-algorithms": 1,
       "dissipation-engineering": 1,
-      "NISQ": 1,
       "quantum-simulation": 4,
-      "open-quantum-systems": 2,
       "entanglement-entropy": 2,
-      "mixed-states": 1,
       "fermionic-systems": 1,
-      "many-body-physics": 2,
       "quantum-scrambling": 2,
       "operator-growth": 2,
       "free-fermions": 1,
       "impurities": 1,
-      "thermalization": 1,
-      "many-body": 5,
       "topological-superconductivity": 2,
       "semimetal": 1,
       "zirconium-telluride": 1,
-      "topological-order": 5,
       "majorana": 1,
       "kagome-metals": 1,
       "band-topology": 1,
@@ -6058,18 +6518,15 @@
       "agents": 7,
       "llms": 1,
       "entropy": 1,
-      "quantum-information": 3,
       "scrambling": 1,
       "information-paradox": 2,
       "gravitational-decoherence": 1,
       "toy-model": 1,
       "dynamical-systems": 1,
       "criticality": 3,
-      "entanglement": 5,
       "unruh-effect": 1,
       "relativistic-quantum-information": 1,
       "multipartite": 1,
-      "curved-spacetime": 1,
       "spacetime-discreteness": 1,
       "measurement-theory": 1,
       "phenomenology": 1,
@@ -6078,7 +6535,6 @@
       "absorption": 1,
       "geodesics": 1,
       "semi-classical": 1,
-      "quantum-field-theory": 2,
       "multicritical": 1,
       "solitons": 1,
       "cosmology": 1,
@@ -6087,7 +6543,6 @@
       "string-cloud": 1,
       "orbits": 1,
       "wkb": 1,
-      "tensor-networks": 2,
       "dissipative-preparation": 1,
       "cirac": 1,
       "topological-quantum-computing": 1,
@@ -6226,7 +6681,6 @@
       "nonlinear-PDEs": 1,
       "query-complexity": 1,
       "Clifford-symmetries": 1,
-      "topological-phases": 1,
       "topological-codes": 1,
       "layer-codes": 1,
       "color-routing": 1,
@@ -6455,6 +6909,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-05-28",
         "2026-05-27",
         "2026-05-26",
         "2026-05-25",
