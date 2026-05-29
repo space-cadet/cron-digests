@@ -1,6 +1,238 @@
 {
-  "generated": "2026-05-28T04:49:57.960Z",
+  "generated": "2026-05-29T02:04:10.613Z",
   "digests": [
+    {
+      "date": "2026-05-29",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-05-29",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 12,
+      "focus": "quantum gravity, black hole thermodynamics, topological order, quantum chaos, quantum computing, wormholes, many-body physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Non-invertible symmetry enriched string net topological orders",
+          "authors": "Luisa Eck, Peter Huston, Kyle Kawagoe, David Penneys",
+          "arxiv_id": "2605.28794",
+          "url": "https://arxivite.org/abs/2605.28794",
+          "categories": "cond-mat.str-el; math-ph; math.CT; math.QA; quant-ph",
+          "summary": "Defines and constructs non-invertible symmetry enriched topological orders (NI-SETOs) using string net models via unitary fusion category inclusions and anyon condensation. All NI-SETOs can be realized in either model, with chiral examples on 3D Walker-Wang boundaries. Computes symmetry actions on anyons and defects using tube algebra.",
+          "relevance": "Directly relevant to Deepak's interest in topological order and category-theoretic approaches to quantum gravity. String net models and fusion categories are central to topological quantum computing and discrete quantum gravity.",
+          "tags": [
+            "topological-order",
+            "string-net",
+            "non-invertible-symmetry",
+            "anyon-condensation",
+            "fusion-categories",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "A multilevel tensor network compression technique for simulating Lindblad dynamics in superconducting circuits",
+          "authors": "Adrien Moulinas, Xavier Waintal",
+          "arxiv_id": "2605.27515",
+          "url": "https://arxivite.org/abs/2605.27515",
+          "categories": "quant-ph; cond-mat.supr-con",
+          "summary": "A three-level tensor network compression scheme (purification, entanglement compression, quantics Fock representation) for simulating Lindblad dynamics of superconducting circuits. Achieves laptop-level performance for problems previously requiring supercomputers, demonstrated on cat qubits and transmon ionization.",
+          "relevance": "Highly relevant to Deepak's interest in tensor network methods and quantum computing. Practical simulation of open quantum systems is essential for superconducting quantum hardware design.",
+          "tags": [
+            "tensor-network",
+            "quantum-computing",
+            "superconducting-circuits",
+            "Lindblad-dynamics",
+            "open-quantum-systems",
+            "cat-qubit"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Many-Body Quantum Chaos At All Time Scales",
+          "authors": "Antonio M. García-García, Lucas Sá, Jacobus J. M. Verbaarschot, Jie-Ping Zheng",
+          "arxiv_id": "2605.27512",
+          "url": "https://arxivite.org/abs/2605.27512",
+          "categories": "hep-th; cond-mat.stat-mech; nlin.CD; quant-ph",
+          "summary": "Analytical study of quantum chaos across all time scales in the N-Majorana SYK model, combining scramblon formalism with random matrix theory. The OTOC and Green's functions exhibit dip-ramp-plateau patterns with deviations from ergodicity at late times due to local spectral correlations.",
+          "relevance": "The SYK model is a cornerstone of holography and quantum gravity research. Understanding chaos across all time scales is essential for black hole information and thermalization studies.",
+          "tags": [
+            "SYK-model",
+            "quantum-chaos",
+            "random-matrix-theory",
+            "OTOC",
+            "holography",
+            "black-holes",
+            "thermalization"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Filtering out Erratic Observables: Wormholes from Gauging Nonlocal Symmetries",
+          "authors": "Qi-Feng Wu",
+          "arxiv_id": "2605.28748",
+          "url": "https://arxivite.org/abs/2605.28748",
+          "categories": "hep-th; math-ph; math.QA",
+          "summary": "A novel construction of wormholes in 2+1 gravity by gauging nonlocal symmetries, showing that wormhole contributions emerge from filtering erratic observables in dual CFTs. Connects monodromy data, ensemble averaging, and quantum gate descriptions of wormhole states.",
+          "relevance": "Highly relevant to Deepak's interest in wormholes, quantum gravity, and holography. The nonlocal symmetry approach provides a novel perspective on the ER=EPR conjecture and ensemble averaging in holography.",
+          "tags": [
+            "wormholes",
+            "quantum-gravity",
+            "holography",
+            "nonlocal-symmetries",
+            "AdS3-CFT2",
+            "ensemble-averaging",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Stationary generalizations for the vacuum ring wormhole",
+          "authors": "Mikhail S. Volkov",
+          "arxiv_id": "2605.27600",
+          "url": "https://arxivite.org/abs/2605.27600",
+          "categories": "gr-qc; hep-ph; hep-th",
+          "summary": "Construction of stationary rotating generalizations of the ring wormhole, showing a transition from non-relativistic M~J^2 to relativistic Regge J=M^2 behavior. Solutions can be regularized via phantom scalar fields and approach extremal Kerr in a particular limit.",
+          "relevance": "The ring wormhole is a fascinating topological object connecting to Kerr black holes. The Regge relation and scalarization procedure connect to Deepak's interests in black hole physics and quantum gravity.",
+          "tags": [
+            "wormholes",
+            "Kerr-metric",
+            "topology",
+            "Regge-relation",
+            "scalarization",
+            "phantom-field",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Universal thermodynamic topological classes of the charged dRGT black string",
+          "authors": "Hao Chen, Meng-Yao Zhang, Yi Yang, Qihong Huang, Zheng-Wen Long",
+          "arxiv_id": "2605.28523",
+          "url": "https://arxivite.org/abs/2605.28523",
+          "categories": "gr-qc",
+          "summary": "Topological classification of charged dRGT black string thermodynamics in canonical vs grand canonical ensembles, showing different stability classes (W^1+ vs W^0-) for large vs small black strings. The massive gravity-electromagnetic coupling is essential for nontrivial topology.",
+          "relevance": "Directly relevant to Deepak's research on black hole thermodynamics and quantum gravity. The topological classification approach and connection to massive gravity provides new insights into black string thermodynamics.",
+          "tags": [
+            "black-hole-thermodynamics",
+            "topological-classes",
+            "dRGT-massive-gravity",
+            "black-string",
+            "quantum-gravity",
+            "stability"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Gravitational helicity in connection variables",
+          "authors": "Xiao-Kan Guo",
+          "arxiv_id": "2605.27493",
+          "url": "https://arxivite.org/abs/2605.27493",
+          "categories": "gr-qc",
+          "summary": "A study of gravitational helicity in the connection formulation of GR, using Ashtekar variables and covariant phase space methods. The helicity is identified as a Noether charge for a duality symmetry and linked to the Nieh-Yan topological term.",
+          "relevance": "Directly relevant to Deepak's background in LQG. The use of Ashtekar variables and connection formulation connects to his expertise in loop quantum gravity. The Nieh-Yan term is important in the topological sector of gravity.",
+          "tags": [
+            "loop-quantum-gravity",
+            "Ashtekar-variables",
+            "gravitational-helicity",
+            "Nieh-Yan",
+            "connection-formulation",
+            "topological-invariant"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Perturbative dynamics and relativistic effects of a dyonic Kalb-Ramond black hole",
+          "authors": "A. A. Araújo Filho",
+          "arxiv_id": "2605.28580",
+          "url": "https://arxivite.org/abs/2605.28580",
+          "categories": "gr-qc; hep-th",
+          "summary": "Comprehensive study of dyonic Kalb-Ramond black holes with Lorentz-violating antisymmetric tensor backgrounds, analyzing tidal effects, gravitational redshift, time delay, and quasinormal modes via sixth-order WKB method.",
+          "relevance": "The Lorentz-violating sector and dyonic charge structure are interesting extensions of standard black hole physics. The quasinormal mode analysis provides observable signatures for quantum gravity phenomenology.",
+          "tags": [
+            "black-holes",
+            "Lorentz-violation",
+            "Kalb-Ramond",
+            "quasinormal-modes",
+            "tidal-effects",
+            "quantum-gravity",
+            "dyonic"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Lorentz-Violating (Regular) Black Holes in Einstein Gravity",
+          "authors": "Zhi-Chao Li, H. Lu",
+          "arxiv_id": "2605.27615",
+          "url": "https://arxivite.org/abs/2605.27615",
+          "categories": "gr-qc; hep-th",
+          "summary": "A construction of regular black holes in Einstein gravity with Lorentz-violating conical asymptotics, using nonlinear electrodynamics. Includes Schwarzschild, Reissner-Nordström, Bardeen, and Hayward type regular black holes.",
+          "relevance": "Regular black holes are important in quantum gravity as they avoid singularities. The Lorentz-violating aspect connects to phenomenological quantum gravity approaches.",
+          "tags": [
+            "regular-black-holes",
+            "Lorentz-violation",
+            "nonlinear-electrodynamics",
+            "Bardeen",
+            "Hayward",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "GR from RG, $2d$ Example: JT-Gravity Induced from Renormalization Group Flow",
+          "authors": "M.M. Sheikh-Jabbari, V. Taghiloo",
+          "arxiv_id": "2605.28753",
+          "url": "https://arxivite.org/abs/2605.28753",
+          "categories": "hep-th; gr-qc",
+          "summary": "A derivation of JT gravity from holographic RG flow in 2d CFTs, showing how the radial lapse function becomes the JT dilaton. The T\\bar{T} deformation is recovered in the Fefferman-Graham limit.",
+          "relevance": "JT gravity is a key model in quantum gravity and holography. This first-principles derivation from RG flow provides a deeper understanding of how 2d gravity emerges from holographic renormalization.",
+          "tags": [
+            "JT-gravity",
+            "holography",
+            "RG-flow",
+            "TTbar-deformation",
+            "AdS3-CFT2",
+            "quantum-gravity",
+            "dilaton"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Krylov complexity has it all",
+          "authors": "Wolfgang Mück",
+          "arxiv_id": "2605.28681",
+          "url": "https://arxivite.org/abs/2605.28681",
+          "categories": "hep-th; quant-ph",
+          "summary": "Proof that Krylov complexity completely characterizes quantum operator dynamics, with an explicit recursive algorithm for extracting Lanczos coefficients from its Taylor expansion. Also clarifies the distinction from spread complexity.",
+          "relevance": "Krylov complexity has emerged as a key quantity in quantum chaos and holography. This proof of completeness and the recursive algorithm are important theoretical advances for understanding operator growth in quantum systems.",
+          "tags": [
+            "Krylov-complexity",
+            "quantum-chaos",
+            "Lanczos-coefficients",
+            "operator-growth",
+            "holography",
+            "quantum-information"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Matching second-order classical and 1-loop quantum tensor power spectra in de Sitter spacetime",
+          "authors": "A. Hauser, M. Laine",
+          "arxiv_id": "2605.27910",
+          "url": "https://arxivite.org/abs/2605.27910",
+          "categories": "hep-ph; gr-qc",
+          "summary": "A study of second-order classical and 1-loop quantum corrections to the inflationary tensor power spectrum in de Sitter spacetime, identifying IR divergences in the classical part and proposing a non-perturbative renormalization procedure.",
+          "relevance": "Relevant to quantum cosmology and inflationary physics. The connection between classical scalar-induced gravitational waves and quantum loop corrections is important for understanding the early universe and primordial gravitational wave signals.",
+          "tags": [
+            "inflation",
+            "tensor-power-spectrum",
+            "quantum-cosmology",
+            "de-Sitter",
+            "gravitational-waves",
+            "loop-corrections",
+            "renormalization"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-28",
       "type": "arxiv",
@@ -347,6 +579,105 @@
           "tags": [
             "Optics & Photonics",
             "Technology & Engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-05-28",
+      "items_found": 9,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Memory Attacks on Agents (Starfish, 13 upvotes)",
+          "source": "Relevant to",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Pre-Auth RCEs in AI Stack (Starfish, 11 upvotes)",
+          "source": "Relevant to",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "llms"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Agent Handshake Failures (unitymolty, 20 upvotes)",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Eval Agents Are Not Second Opinions (codythelobster, 6 upvotes)",
+          "source": "Relevant to",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Subagent Lying Under Deadlines (open_loop, 10 upvotes)",
+          "source": "Deeply relevant",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "What drives inconsistent agent outputs on identical repeated tasks?",
+          "source": "Key idea:",
+          "url": "https://moltbook.com/post/7161485b-ccd8-4a35-b3b1-139aacbecd9c",
+          "relevance": "Deepak is building evaluation-aware agent systems (Chimera). Non-determinism is the enemy of reproducible agent reputation. Standardized task eval frameworks rather than ad-hoc reruns are the fix.",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "The \"autonomous onboard\" problem is harder than anyone admits",
+          "source": "Key idea:",
+          "url": "https://moltbook.com/post/8ae71f7b-472b-40f7-b364-1cab4048063c",
+          "relevance": "Hilarious and sobering reality check on \"autonomous\" agent claims. Relevant to anyone wiring LLM backends to real services.",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Promise Pipelining: Solving the RTT Bottleneck in Capability Routing",
+          "source": "Key idea:",
+          "url": "https://moltbook.com/post/43e8fbce-acec-426e-bce1-bdba417debd1",
+          "relevance": "If Deepak ever scales Chimera to distributed agent swarms, this is the architecture pattern. Capability-based security + WASM is where the field is heading.",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "The Stateless Runtime Mandate: WASM and the Death of the Persistent Agent",
+          "source": "Key idea:",
+          "url": "https://moltbook.com/post/88976005-166b-4cd2-8e4d-94b4bd2b20c2",
+          "relevance": "Directly relevant to agent runtime design. WASM component model + OPA policy injection is the current frontier for secure agent execution.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
           ]
         }
       ]
@@ -4432,32 +4763,272 @@
     }
   ],
   "stats": {
-    "total_digests": 31,
-    "total_entries": 286,
+    "total_digests": 33,
+    "total_entries": 307,
     "unique_tags": {
+      "topological-order": {
+        "first_seen": "2026-05-29",
+        "count": 7
+      },
+      "string-net": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "non-invertible-symmetry": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "anyon-condensation": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "fusion-categories": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-05-29",
+        "count": 20
+      },
+      "tensor-network": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "quantum-computing": {
+        "first_seen": "2026-05-29",
+        "count": 8
+      },
+      "superconducting-circuits": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "Lindblad-dynamics": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "open-quantum-systems": {
+        "first_seen": "2026-05-29",
+        "count": 4
+      },
+      "cat-qubit": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "SYK-model": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "quantum-chaos": {
+        "first_seen": "2026-05-29",
+        "count": 8
+      },
+      "random-matrix-theory": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "OTOC": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "holography": {
+        "first_seen": "2026-05-29",
+        "count": 14
+      },
+      "black-holes": {
+        "first_seen": "2026-05-29",
+        "count": 22
+      },
+      "thermalization": {
+        "first_seen": "2026-05-29",
+        "count": 4
+      },
+      "wormholes": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "nonlocal-symmetries": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "AdS3-CFT2": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "ensemble-averaging": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "Kerr-metric": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "topology": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "Regge-relation": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "scalarization": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "phantom-field": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "black-hole-thermodynamics": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "topological-classes": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "dRGT-massive-gravity": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "black-string": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "stability": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "Ashtekar-variables": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "gravitational-helicity": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "Nieh-Yan": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "connection-formulation": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "topological-invariant": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "Lorentz-violation": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "Kalb-Ramond": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "quasinormal-modes": {
+        "first_seen": "2026-05-29",
+        "count": 3
+      },
+      "tidal-effects": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "dyonic": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "regular-black-holes": {
+        "first_seen": "2026-05-29",
+        "count": 3
+      },
+      "nonlinear-electrodynamics": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "Bardeen": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "Hayward": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "JT-gravity": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "RG-flow": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "TTbar-deformation": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "dilaton": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "Krylov-complexity": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "Lanczos-coefficients": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "operator-growth": {
+        "first_seen": "2026-05-29",
+        "count": 3
+      },
+      "quantum-information": {
+        "first_seen": "2026-05-29",
+        "count": 6
+      },
+      "inflation": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "tensor-power-spectrum": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-05-29",
+        "count": 2
+      },
+      "de-Sitter": {
+        "first_seen": "2026-05-29",
+        "count": 3
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-05-29",
+        "count": 7
+      },
+      "loop-corrections": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
+      "renormalization": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
       "entanglement-harvesting": {
         "first_seen": "2026-05-28",
         "count": 1
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-05-28",
-        "count": 13
       },
       "curved-spacetime": {
         "first_seen": "2026-05-28",
         "count": 3
       },
-      "quantum-information": {
-        "first_seen": "2026-05-28",
-        "count": 5
-      },
       "Unruh-effect": {
         "first_seen": "2026-05-28",
         "count": 1
-      },
-      "black-holes": {
-        "first_seen": "2026-05-28",
-        "count": 19
       },
       "BTZ": {
         "first_seen": "2026-05-28",
@@ -4474,10 +5045,6 @@
       "modified-gravity": {
         "first_seen": "2026-05-28",
         "count": 3
-      },
-      "holography": {
-        "first_seen": "2026-05-28",
-        "count": 10
       },
       "Proca-field": {
         "first_seen": "2026-05-28",
@@ -4539,10 +5106,6 @@
         "first_seen": "2026-05-28",
         "count": 1
       },
-      "quantum-computing": {
-        "first_seen": "2026-05-28",
-        "count": 7
-      },
       "classical-simulation": {
         "first_seen": "2026-05-28",
         "count": 1
@@ -4599,10 +5162,6 @@
         "first_seen": "2026-05-28",
         "count": 1
       },
-      "quantum-chaos": {
-        "first_seen": "2026-05-28",
-        "count": 6
-      },
       "many-body-physics": {
         "first_seen": "2026-05-28",
         "count": 3
@@ -4611,17 +5170,9 @@
         "first_seen": "2026-05-28",
         "count": 1
       },
-      "thermalization": {
-        "first_seen": "2026-05-28",
-        "count": 3
-      },
       "SU(3)": {
         "first_seen": "2026-05-28",
         "count": 1
-      },
-      "topological-order": {
-        "first_seen": "2026-05-28",
-        "count": 6
       },
       "string-order-parameters": {
         "first_seen": "2026-05-28",
@@ -4639,19 +5190,11 @@
         "first_seen": "2026-05-28",
         "count": 1
       },
-      "open-quantum-systems": {
-        "first_seen": "2026-05-28",
-        "count": 3
-      },
       "nonequilibrium": {
         "first_seen": "2026-05-28",
         "count": 1
       },
       "nanoscale-physics": {
-        "first_seen": "2026-05-28",
-        "count": 1
-      },
-      "random-matrix-theory": {
         "first_seen": "2026-05-28",
         "count": 1
       },
@@ -4691,13 +5234,21 @@
         "first_seen": "2026-05-28",
         "count": 29
       },
-      "SYK-model": {
-        "first_seen": "2026-05-27",
-        "count": 1
+      "moltbook": {
+        "first_seen": "2026-05-28",
+        "count": 23
       },
-      "JT-gravity": {
-        "first_seen": "2026-05-27",
-        "count": 1
+      "quantum": {
+        "first_seen": "2026-05-28",
+        "count": 7
+      },
+      "agents": {
+        "first_seen": "2026-05-28",
+        "count": 11
+      },
+      "llms": {
+        "first_seen": "2026-05-28",
+        "count": 4
       },
       "quantum-complexity": {
         "first_seen": "2026-05-27",
@@ -4707,10 +5258,6 @@
         "first_seen": "2026-05-27",
         "count": 1
       },
-      "gravitational-waves": {
-        "first_seen": "2026-05-27",
-        "count": 6
-      },
       "ringdown": {
         "first_seen": "2026-05-27",
         "count": 2
@@ -4718,10 +5265,6 @@
       "spectroscopy": {
         "first_seen": "2026-05-27",
         "count": 1
-      },
-      "quasinormal-modes": {
-        "first_seen": "2026-05-27",
-        "count": 2
       },
       "LIGO": {
         "first_seen": "2026-05-27",
@@ -4746,14 +5289,6 @@
       "dark-matter": {
         "first_seen": "2026-05-27",
         "count": 3
-      },
-      "regular-black-holes": {
-        "first_seen": "2026-05-27",
-        "count": 2
-      },
-      "nonlinear-electrodynamics": {
-        "first_seen": "2026-05-27",
-        "count": 1
       },
       "astrophysics": {
         "first_seen": "2026-05-27",
@@ -4855,10 +5390,6 @@
         "first_seen": "2026-05-27",
         "count": 2
       },
-      "operator-growth": {
-        "first_seen": "2026-05-27",
-        "count": 2
-      },
       "free-fermions": {
         "first_seen": "2026-05-27",
         "count": 1
@@ -4902,22 +5433,6 @@
       "Science Communication & Policy": {
         "first_seen": "2026-05-27",
         "count": 18
-      },
-      "moltbook": {
-        "first_seen": "2026-05-27",
-        "count": 14
-      },
-      "quantum": {
-        "first_seen": "2026-05-27",
-        "count": 2
-      },
-      "agents": {
-        "first_seen": "2026-05-27",
-        "count": 7
-      },
-      "llms": {
-        "first_seen": "2026-05-27",
-        "count": 1
       },
       "entropy": {
         "first_seen": "2026-05-26",
@@ -5195,10 +5710,6 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "topology": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
       "flat-bands": {
         "first_seen": "2026-05-25",
         "count": 1
@@ -5215,10 +5726,6 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
       "path-integral": {
         "first_seen": "2026-05-22",
         "count": 1
@@ -5227,17 +5734,9 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "black-hole-thermodynamics": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
       "Reissner-Nordström": {
         "first_seen": "2026-05-22",
         "count": 1
-      },
-      "de-Sitter": {
-        "first_seen": "2026-05-22",
-        "count": 2
       },
       "evaporation": {
         "first_seen": "2026-05-22",
@@ -5403,19 +5902,11 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "quantum-cosmology": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
       "cosmological-constant": {
         "first_seen": "2026-05-22",
         "count": 1
       },
       "homogeneous-universes": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
-      "fusion-categories": {
         "first_seen": "2026-05-22",
         "count": 1
       },
@@ -5456,10 +5947,6 @@
         "count": 1
       },
       "gravitational-energy": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "Kerr-metric": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -6477,17 +6964,76 @@
       }
     },
     "tag_counts": {
+      "topological-order": 7,
+      "string-net": 1,
+      "non-invertible-symmetry": 1,
+      "anyon-condensation": 1,
+      "fusion-categories": 2,
+      "quantum-gravity": 20,
+      "tensor-network": 1,
+      "quantum-computing": 8,
+      "superconducting-circuits": 1,
+      "Lindblad-dynamics": 1,
+      "open-quantum-systems": 4,
+      "cat-qubit": 1,
+      "SYK-model": 2,
+      "quantum-chaos": 8,
+      "random-matrix-theory": 2,
+      "OTOC": 1,
+      "holography": 14,
+      "black-holes": 22,
+      "thermalization": 4,
+      "wormholes": 2,
+      "nonlocal-symmetries": 1,
+      "AdS3-CFT2": 2,
+      "ensemble-averaging": 1,
+      "Kerr-metric": 2,
+      "topology": 2,
+      "Regge-relation": 1,
+      "scalarization": 1,
+      "phantom-field": 1,
+      "black-hole-thermodynamics": 2,
+      "topological-classes": 1,
+      "dRGT-massive-gravity": 1,
+      "black-string": 1,
+      "stability": 1,
+      "loop-quantum-gravity": 2,
+      "Ashtekar-variables": 1,
+      "gravitational-helicity": 1,
+      "Nieh-Yan": 1,
+      "connection-formulation": 1,
+      "topological-invariant": 1,
+      "Lorentz-violation": 2,
+      "Kalb-Ramond": 1,
+      "quasinormal-modes": 3,
+      "tidal-effects": 1,
+      "dyonic": 1,
+      "regular-black-holes": 3,
+      "nonlinear-electrodynamics": 2,
+      "Bardeen": 1,
+      "Hayward": 1,
+      "JT-gravity": 2,
+      "RG-flow": 1,
+      "TTbar-deformation": 1,
+      "dilaton": 1,
+      "Krylov-complexity": 1,
+      "Lanczos-coefficients": 1,
+      "operator-growth": 3,
+      "quantum-information": 6,
+      "inflation": 1,
+      "tensor-power-spectrum": 1,
+      "quantum-cosmology": 2,
+      "de-Sitter": 3,
+      "gravitational-waves": 7,
+      "loop-corrections": 1,
+      "renormalization": 1,
       "entanglement-harvesting": 1,
-      "quantum-gravity": 13,
       "curved-spacetime": 3,
-      "quantum-information": 5,
       "Unruh-effect": 1,
-      "black-holes": 19,
       "BTZ": 1,
       "thermodynamics": 8,
       "topological-classification": 1,
       "modified-gravity": 3,
-      "holography": 10,
       "Proca-field": 1,
       "quantum-field-theory": 4,
       "Hawking-radiation": 1,
@@ -6503,7 +7049,6 @@
       "gauge-theory": 1,
       "linearized-gravity": 1,
       "Ward-identities": 1,
-      "quantum-computing": 7,
       "classical-simulation": 1,
       "tensor-networks": 5,
       "quantum-circuits": 2,
@@ -6518,20 +7063,15 @@
       "purity-amplification": 1,
       "finite-sample-bounds": 1,
       "quantum-states": 1,
-      "quantum-chaos": 6,
       "many-body-physics": 3,
       "2PI-formalism": 1,
-      "thermalization": 3,
       "SU(3)": 1,
-      "topological-order": 6,
       "string-order-parameters": 1,
       "Drinfeld-centre": 1,
       "symmetry-protected-phases": 1,
       "electromechanics": 1,
-      "open-quantum-systems": 3,
       "nonequilibrium": 1,
       "nanoscale-physics": 1,
-      "random-matrix-theory": 1,
       "semiclassical": 1,
       "many-body": 6,
       "Casimir-effect": 1,
@@ -6541,22 +7081,20 @@
       "Optics & Photonics": 22,
       "Many-Body Physics & Condensed Matter": 24,
       "Experiment & Observation": 29,
-      "SYK-model": 1,
-      "JT-gravity": 1,
+      "moltbook": 23,
+      "quantum": 7,
+      "agents": 11,
+      "llms": 4,
       "quantum-complexity": 1,
       "pseudorandomness": 1,
-      "gravitational-waves": 6,
       "ringdown": 2,
       "spectroscopy": 1,
-      "quasinormal-modes": 2,
       "LIGO": 1,
       "hairy-black-holes": 4,
       "hawking-radiation": 2,
       "greybody-factors": 3,
       "phase-transitions": 3,
       "dark-matter": 3,
-      "regular-black-holes": 2,
-      "nonlinear-electrodynamics": 1,
       "astrophysics": 3,
       "white-holes": 1,
       "gamma-rays": 1,
@@ -6582,7 +7120,6 @@
       "entanglement-entropy": 2,
       "fermionic-systems": 1,
       "quantum-scrambling": 2,
-      "operator-growth": 2,
       "free-fermions": 1,
       "impurities": 1,
       "topological-superconductivity": 2,
@@ -6594,10 +7131,6 @@
       "first-principles": 1,
       "materials-prediction": 1,
       "Science Communication & Policy": 18,
-      "moltbook": 14,
-      "quantum": 2,
-      "agents": 7,
-      "llms": 1,
       "entropy": 1,
       "scrambling": 1,
       "information-paradox": 2,
@@ -6667,17 +7200,13 @@
       "kicked-rotor": 1,
       "aubry-andre": 1,
       "aharonov-bohm-caging": 1,
-      "topology": 1,
       "flat-bands": 1,
       "interference": 1,
       "neutrino-oscillations": 1,
       "quantum-resources": 1,
-      "loop-quantum-gravity": 1,
       "path-integral": 1,
       "singularity-resolution": 1,
-      "black-hole-thermodynamics": 1,
       "Reissner-Nordström": 1,
-      "de-Sitter": 2,
       "evaporation": 1,
       "semiclassical-gravity": 1,
       "scalar-hair": 1,
@@ -6719,10 +7248,8 @@
       "light-deflection": 1,
       "Rezzolla-Zhidenko": 1,
       "gravitational-decoupling": 1,
-      "quantum-cosmology": 1,
       "cosmological-constant": 1,
       "homogeneous-universes": 1,
-      "fusion-categories": 1,
       "anyon-chains": 1,
       "Levin-Wen-models": 1,
       "Quantum Gravity": 22,
@@ -6733,7 +7260,6 @@
       "cosmic-acceleration": 1,
       "teleparallel-gravity": 1,
       "gravitational-energy": 1,
-      "Kerr-metric": 1,
       "perturbation-theory": 1,
       "exact-solutions": 1,
       "black-hole-perturbations": 1,
@@ -6990,6 +7516,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-05-29",
         "2026-05-28",
         "2026-05-27",
         "2026-05-26",
@@ -7022,6 +7549,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-05-28",
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
