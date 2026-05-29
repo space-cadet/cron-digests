@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T04:12:27.617Z",
+  "generated": "2026-05-29T04:48:32.512Z",
   "digests": [
     {
       "date": "2026-05-29",
@@ -229,6 +229,88 @@
             "gravitational-waves",
             "loop-corrections",
             "renormalization"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-05-29",
+      "categories": "Phys.org + ScienceDaily",
+      "items_found": 6,
+      "focus": "General Physics, General Science",
+      "entries": [
+        {
+          "num": 1,
+          "title": "The generation of massive Schrödinger cat states using ultracold atoms",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-generation-massive-schrdinger-cat-states.html",
+          "summary": "Quantum mechanics is a physics framework that describes how matter and energy behave at an extremely small scale, specifically at the scale of atoms and subatomic particles. An effect predicted by the laws of quantum mechanics ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum pendulum clock overcomes classical accuracy limits and sheds light on quantum to classical transitions",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-quantum-pendulum-clock-classical-accuracy.html",
+          "summary": "In a grandfather clock, a pendulum swings back and forth and this periodic motion is maintained using the energy stored in its suspended weights. This is done with the help of the escapement mechanism, which converts the ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Quantum vibronics research points to future energy and computing technologies",
+          "source": "General Physics",
+          "url": "https://phys.org/news/2026-05-quantum-vibronics-future-energy-technologies.html",
+          "summary": "Scientists at the University of California, Riverside are making breakthroughs in understanding how quantum wave functions move across ultra-thin materials—research that could eventually improve solar energy technologies ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "New Quantum Sensor Could Count Individual Photons and Hunt Dark Matter",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260520093654.htm",
+          "summary": "Researchers in Finland have achieved a major advance in ultra-sensitive measurement technology by detecting an amount of energy smaller than one zeptojoule, less than a trillionth of a billionth of a joule. The breakthrough could improve quantum computing technology, support the search for dark matt",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Scientists Discover Atoms Suddenly Spinning Backward in Quantum Experiment",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260523103903.htm",
+          "summary": "An international team of researchers has directly observed how angular momentum moves through a crystal lattice for the first time, revealing an unexpected quantum effect that causes the direction of rotation to reverse. The discovery, made using intense terahertz laser pulses, gives scientists a ne",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "AI-powered Spectrometer Chip Shrinks Lab Technology to the Size of a Grain of Sand",
+          "source": "General Science",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260525000501.htm",
+          "summary": "For years, analyzing the chemical makeup of materials has required large and costly laboratory instruments known as spectrometers. These systems are used in everything from disease diagnosis and food inspection to pollution monitoring. Traditional spectrometers work by splitting light into its compo",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics",
+            "Technology & Engineering"
           ]
         }
       ]
@@ -4763,8 +4845,8 @@
     }
   ],
   "stats": {
-    "total_digests": 33,
-    "total_entries": 307,
+    "total_digests": 34,
+    "total_entries": 313,
     "unique_tags": {
       "topological-order": {
         "first_seen": "2026-05-29",
@@ -5018,6 +5100,26 @@
         "first_seen": "2026-05-29",
         "count": 1
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-05-29",
+        "count": 45
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-05-29",
+        "count": 26
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-05-29",
+        "count": 25
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-05-29",
+        "count": 30
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-05-29",
+        "count": 34
+      },
       "entanglement-harvesting": {
         "first_seen": "2026-05-28",
         "count": 1
@@ -5213,26 +5315,6 @@
       "wormhole": {
         "first_seen": "2026-05-28",
         "count": 1
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-05-28",
-        "count": 40
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-05-28",
-        "count": 33
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-05-28",
-        "count": 22
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-05-28",
-        "count": 24
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-05-28",
-        "count": 29
       },
       "moltbook": {
         "first_seen": "2026-05-28",
@@ -7027,6 +7109,11 @@
       "gravitational-waves": 7,
       "loop-corrections": 1,
       "renormalization": 1,
+      "Quantum Information & Computing": 45,
+      "Many-Body Physics & Condensed Matter": 26,
+      "Optics & Photonics": 25,
+      "Experiment & Observation": 30,
+      "Technology & Engineering": 34,
       "entanglement-harvesting": 1,
       "curved-spacetime": 3,
       "Unruh-effect": 1,
@@ -7076,11 +7163,6 @@
       "many-body": 6,
       "Casimir-effect": 1,
       "wormhole": 1,
-      "Quantum Information & Computing": 40,
-      "Technology & Engineering": 33,
-      "Optics & Photonics": 22,
-      "Many-Body Physics & Condensed Matter": 24,
-      "Experiment & Observation": 29,
       "moltbook": 23,
       "quantum": 7,
       "agents": 11,
@@ -7533,6 +7615,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-05-29",
         "2026-05-28",
         "2026-05-27",
         "2026-05-26",
