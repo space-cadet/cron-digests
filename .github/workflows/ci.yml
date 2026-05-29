@@ -40,6 +40,12 @@ jobs:
           fi
           echo "✅ All digests validated"
 
+      - name: Copy digest files to viewer
+        run: |
+          echo "Copying digest directories to viewer/..."
+          cp -r arxiv web-science moltbook viewer/
+          echo "✅ Copied arxiv/, web-science/, moltbook/ into viewer/"
+
       - name: Build index
         run: |
           echo "Running build-index.js..."
