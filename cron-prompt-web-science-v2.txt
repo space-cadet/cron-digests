@@ -7,6 +7,12 @@ cd /home/cloudy/.openclaw/workspace/code/cron-digests && xvfb-run --auto-servern
 
 This will create `web-science/YYYY-MM-DD.md` and update the manifest automatically.
 
+**What the script does:**
+- Fetches from 6 sources: Phys.org, ScienceDaily, Nature News, Physics World, Quanta Magazine, arXiv
+- Deduplicates against previously seen URLs (`web-science/seen-urls.json`)
+- Scores articles by physics relevance and diversifies source selection
+- If no new articles are found, it skips generation (no empty digest)
+
 **After the script runs:**
 1. Read the generated file to verify it looks correct
 2. Fix any obvious issues (missing headers, bad formatting)
@@ -23,5 +29,6 @@ This will create `web-science/YYYY-MM-DD.md` and update the manifest automatical
 - Try to fetch APS News or Scientific American directly (they block bots)
 - Loop forever on failed sites
 - Forget to git push — the digest is useless until it's pushed
+- Manually add articles that are already in `seen-urls.json` (check first)
 
 Current time: {{current_time}}
