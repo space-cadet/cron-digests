@@ -1,6 +1,248 @@
 {
-  "generated": "2026-05-29T05:00:40.900Z",
+  "generated": "2026-05-30T01:53:36.742Z",
   "digests": [
+    {
+      "date": "2026-05-30",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-05-30",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 13,
+      "focus": "loop quantum gravity, primordial black holes, black hole thermodynamics, holography, asymptotic safety, quantum computing, quantum synchronization, Kondo physics, spin selectivity, modified gravity",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Signatures of loop quantum gravity in primordial black hole cosmologies",
+          "authors": "Antoine Dierckx",
+          "arxiv_id": "2605.28953",
+          "url": "https://arxivite.org/abs/2605.28953",
+          "categories": "gr-qc; astro-ph.CO",
+          "summary": "Investigates LQG-suggested Planckian relics from primordial black holes as dark matter candidates, deriving constraints on PBH abundances and identifying observational signatures in gravitational waves.",
+          "relevance": "Directly connects LQG phenomenology to observable cosmology — exactly the kind of bridge between fundamental theory and experiment that matters for quantum gravity research.",
+          "tags": [
+            "loop-quantum-gravity",
+            "primordial-black-holes",
+            "dark-matter",
+            "gravitational-waves",
+            "cosmology"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Modified Entropy from Action Principle",
+          "authors": "Amin Dehyadegari",
+          "arxiv_id": "2605.29814",
+          "url": "https://arxivite.org/abs/2605.29814",
+          "categories": "gr-qc",
+          "summary": "Proposes a modified gravity theory using Ricci and Kretschmann scalars, derives modified Friedmann equations, and connects them to generalized entropy via the gravity-thermodynamics conjecture.",
+          "relevance": "The gravity-thermodynamics connection is central to understanding black hole entropy and horizons. This work extends the framework to modified gravity, relevant for quantum gravity phenomenology.",
+          "tags": [
+            "black-hole-thermodynamics",
+            "modified-gravity",
+            "entropy",
+            "gravity-thermodynamics",
+            "cosmology"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Carr criterion and mass gaps in non-singular primordial black hole formation",
+          "authors": "Jens Boos",
+          "arxiv_id": "2605.30340",
+          "url": "https://arxivite.org/abs/2605.30340",
+          "categories": "gr-qc",
+          "summary": "Shows that non-singular gravity regulators induce a primordial black hole mass gap and a modified Carr criterion, connecting PBH abundance to quantum gravitational effects.",
+          "relevance": "Non-singular theories are key to resolving black hole singularities. The mass gap prediction provides a testable signature linking quantum gravity to early universe cosmology.",
+          "tags": [
+            "primordial-black-holes",
+            "non-singular-gravity",
+            "quantum-cosmology",
+            "Carr-criterion",
+            "mass-gap"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Self-dual holography: four-point AdS/CFT correlators in higher-spin gravity",
+          "authors": "Evgeny Skvortsov D",
+          "arxiv_id": "2605.30276",
+          "url": "https://arxivite.org/abs/2605.30276",
+          "categories": "hep-th",
+          "summary": "Develops the holographic dictionary for self-dual higher-spin gravity, computing bulk-to-bulk propagators and three- and four-point AdS/CFT correlators as steps toward a self-dual holography framework.",
+          "relevance": "Higher-spin holography is a fascinating frontier connecting string theory, AdS/CFT, and self-dual field theories. The UV-finiteness of self-dual theories makes them particularly attractive for quantum gravity.",
+          "tags": [
+            "holography",
+            "higher-spin-gravity",
+            "AdS-CFT",
+            "self-dual",
+            "Yang-Mills",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Asymptotically Safe Gravitational Form Factors from the Proper-Time Flow Equation",
+          "authors": "Emiliano Maria Glaviano",
+          "arxiv_id": "2605.29159",
+          "url": "https://arxivite.org/abs/2605.29159",
+          "categories": "hep-th",
+          "summary": "Constructs asymptotically safe gravitational form factors using proper-time RG flow, finding UV power-law and IR logarithmic behavior, with the Planck scale naturally emerging as the renormalization scale.",
+          "relevance": "Asymptotic safety is a major contender for quantum gravity. The proper-time formalism and form factor reconstruction provide concrete tools for understanding the UV completion of gravity.",
+          "tags": [
+            "asymptotic-safety",
+            "quantum-gravity",
+            "renormalization-group",
+            "form-factors",
+            "proper-time",
+            "UV-completion"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Quantum transitions of vector vortex light in gravitational waves",
+          "authors": "Xi-Long Fan",
+          "arxiv_id": "2605.29519",
+          "url": "https://arxivite.org/abs/2605.29519",
+          "categories": "gr-qc; astro-ph.IM",
+          "summary": "Develops a quantum framework for vector vortex light interacting with gravitational waves, identifying fourteen transition channels and proposing a cavity-based detection scheme insensitive to seismic noise.",
+          "relevance": "A beautiful intersection of quantum optics and gravitational wave physics. The proposed cavity-based detection using quantum transitions is novel and could open new frequency bands for GW observation.",
+          "tags": [
+            "gravitational-waves",
+            "quantum-optics",
+            "orbital-angular-momentum",
+            "spin-angular-momentum",
+            "quantum-transitions",
+            "detection"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Light rings and optical appearances of naked singularities, solitons, and black holes in beyond Horndeski gravity",
+          "authors": "Hyat Huang",
+          "arxiv_id": "2605.29974",
+          "url": "https://arxivite.org/abs/2605.29974",
+          "categories": "gr-qc; hep-th",
+          "summary": "Explores compact objects in beyond Horndeski gravity, finding that optical appearances are governed by the photon potential rather than horizon structure, with distinct branches potentially mimicking each other observationally.",
+          "relevance": "Modified gravity compact objects and their optical signatures are crucial for distinguishing black holes from alternatives. The degeneracy between horizonless and multi-horizon objects is a key observational challenge.",
+          "tags": [
+            "black-holes",
+            "modified-gravity",
+            "Horndeski",
+            "naked-singularities",
+            "light-rings",
+            "optical-appearance",
+            "shadow"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Primary Constraints of Newer General Relativity",
+          "authors": "Maria-Jose Guzman",
+          "arxiv_id": "2605.30221",
+          "url": "https://arxivite.org/abs/2605.30221",
+          "categories": "gr-qc; hep-th",
+          "summary": "Analyzes the Hamiltonian constraint structure of Newer General Relativity (symmetric teleparallel gravity), identifying previously unreported scalar sector degeneracies that yield one or two primary constraints depending on Lagrangian parameters.",
+          "relevance": "Teleparallel and symmetric teleparallel gravity are alternative formulations of GR that may offer new insights for quantization. The constraint structure is fundamental for canonical quantization approaches.",
+          "tags": [
+            "teleparallel-gravity",
+            "symmetric-teleparallel",
+            "constraints",
+            "Hamiltonian",
+            "canonical-quantization",
+            "modified-gravity"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Improved sample complexity bound for sample-based Lindbladian simulation",
+          "authors": "Siheon Park",
+          "arxiv_id": "2605.30301",
+          "url": "https://arxivite.org/abs/2605.30301",
+          "categories": "quant-ph",
+          "summary": "Derives improved sample complexity bounds for Lindbladian simulation, showing a sharp dichotomy between typical-case $O(t^2/\\varepsilon)$ and worst-case $\\Omega(dt^2/\\varepsilon)$ complexity, with dimensional overhead avoidable for random operators.",
+          "relevance": "Open quantum system simulation is essential for quantum computing and many-body physics. The WML algorithm and its sample complexity analysis provide rigorous foundations for simulating dissipative quantum dynamics.",
+          "tags": [
+            "quantum-computing",
+            "Lindbladian",
+            "open-quantum-systems",
+            "sample-complexity",
+            "quantum-simulation",
+            "dissipation"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Indefinite Causal Order Reverses the Real-Complex Hierarchy",
+          "authors": "Jacopo Surace",
+          "arxiv_id": "2605.30238",
+          "url": "https://arxivite.org/abs/2605.30238",
+          "categories": "quant-ph",
+          "summary": "Proves that under indefinite causal order, real quantum theory achieves strictly more correlations than complex quantum theory — reversing the usual hierarchy — while finite unitary symmetries do not enlarge the process cone.",
+          "relevance": "Indefinite causal order is a fascinating quantum foundational concept with implications for quantum gravity (where causal structure may be dynamical). The real-complex reversal is a surprising structural insight.",
+          "tags": [
+            "indefinite-causal-order",
+            "quantum-foundations",
+            "process-matrix",
+            "real-quantum-theory",
+            "complex-quantum-theory",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Non-Abelian Mixer for QAOA on Hybrid Oscillator-Qubit Quantum Processors",
+          "authors": "Thinh Le",
+          "arxiv_id": "2605.30234",
+          "url": "https://arxivite.org/abs/2605.30234",
+          "categories": "quant-ph",
+          "summary": "Proposes a non-Abelian mixer for QAOA on hybrid oscillator-qubit processors, demonstrating consistent improvements in approximation ratio and optimal-solution probability over standard transverse-field mixers on Erdős-Rényi graphs.",
+          "relevance": "Hybrid CV-DV quantum processors are an emerging platform. The QAOA application with non-Abelian mixers is a concrete algorithmic advance that could be tested on near-term hardware.",
+          "tags": [
+            "quantum-computing",
+            "QAOA",
+            "hybrid-quantum-processor",
+            "oscillator-qubit",
+            "non-Abelian",
+            "optimization"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Spectroscopic evidence for a molecular orbital Kondo insulator",
+          "authors": "Ke-Jun Xu, Kuan H. Hsu, Nathan Giles-Donovan, Christopher T. Parzyck, Gi-Hyeok Lee, Wanli Yang, Jun Okamoto, Hsiao-Yu Huang, Di-Jing Huang, Joshua J. Kas, John Vinson, Zhi-Xun Shen, Dung-Hai Lee, Thomas P. Devereaux, Wei-Sheng Lee, Robert J. Birgeneau",
+          "arxiv_id": "2605.30293",
+          "url": "https://arxivite.org/abs/2605.30293",
+          "categories": "cond-mat.str-el; cond-mat.mtrl-sci",
+          "summary": "Demonstrates a new molecular orbital paradigm for Kondo insulators in FeSb2 using RIXS spectroscopy, revealing hybridized states and propagating collective modes that could enable high-temperature Kondo phases.",
+          "relevance": "Kondo insulators are exemplary highly entangled many-body states. The molecular orbital paradigm offers a new route to engineering Kondo physics at higher temperatures, with implications for quantum materials and topological phases.",
+          "tags": [
+            "Kondo-insulator",
+            "many-body-physics",
+            "strongly-correlated-electrons",
+            "RIXS",
+            "molecular-orbital",
+            "quantum-materials"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Electronic correlations driving Chirality-Induced Spin Selectivity",
+          "authors": "Jacek Herbrych",
+          "arxiv_id": "2605.30240",
+          "url": "https://arxivite.org/abs/2605.30240",
+          "categories": "cond-mat.str-el",
+          "summary": "Shows that strong electronic correlations in helical organic molecules can stabilize non-collinear magnetic order and produce spin selectivity at temperatures far above the spin-orbit scale, without requiring long-range magnetic order.",
+          "relevance": "Chirality-induced spin selectivity (CISS) is a remarkable phenomenon with potential applications in spintronics and connections to quantum transport. The correlation-driven mechanism provides a theoretical foundation for this effect.",
+          "tags": [
+            "chirality-induced-spin-selectivity",
+            "strongly-correlated-electrons",
+            "spintronics",
+            "DMRG",
+            "p-wave-magnetism",
+            "organic-molecules"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-29",
       "type": "arxiv",
@@ -4845,9 +5087,277 @@
     }
   ],
   "stats": {
-    "total_digests": 34,
-    "total_entries": 313,
+    "total_digests": 35,
+    "total_entries": 326,
     "unique_tags": {
+      "loop-quantum-gravity": {
+        "first_seen": "2026-05-30",
+        "count": 3
+      },
+      "primordial-black-holes": {
+        "first_seen": "2026-05-30",
+        "count": 3
+      },
+      "dark-matter": {
+        "first_seen": "2026-05-30",
+        "count": 4
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-05-30",
+        "count": 9
+      },
+      "cosmology": {
+        "first_seen": "2026-05-30",
+        "count": 3
+      },
+      "black-hole-thermodynamics": {
+        "first_seen": "2026-05-30",
+        "count": 3
+      },
+      "modified-gravity": {
+        "first_seen": "2026-05-30",
+        "count": 6
+      },
+      "entropy": {
+        "first_seen": "2026-05-30",
+        "count": 2
+      },
+      "gravity-thermodynamics": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "non-singular-gravity": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-05-30",
+        "count": 3
+      },
+      "Carr-criterion": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "mass-gap": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "holography": {
+        "first_seen": "2026-05-30",
+        "count": 15
+      },
+      "higher-spin-gravity": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "AdS-CFT": {
+        "first_seen": "2026-05-30",
+        "count": 5
+      },
+      "self-dual": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "Yang-Mills": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-05-30",
+        "count": 23
+      },
+      "asymptotic-safety": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "renormalization-group": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "form-factors": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "proper-time": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "UV-completion": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "quantum-optics": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "orbital-angular-momentum": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "spin-angular-momentum": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "quantum-transitions": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "detection": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "black-holes": {
+        "first_seen": "2026-05-30",
+        "count": 23
+      },
+      "Horndeski": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "naked-singularities": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "light-rings": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "optical-appearance": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "shadow": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "teleparallel-gravity": {
+        "first_seen": "2026-05-30",
+        "count": 2
+      },
+      "symmetric-teleparallel": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "constraints": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "Hamiltonian": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "canonical-quantization": {
+        "first_seen": "2026-05-30",
+        "count": 2
+      },
+      "quantum-computing": {
+        "first_seen": "2026-05-30",
+        "count": 10
+      },
+      "Lindbladian": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "open-quantum-systems": {
+        "first_seen": "2026-05-30",
+        "count": 5
+      },
+      "sample-complexity": {
+        "first_seen": "2026-05-30",
+        "count": 2
+      },
+      "quantum-simulation": {
+        "first_seen": "2026-05-30",
+        "count": 5
+      },
+      "dissipation": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "indefinite-causal-order": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "quantum-foundations": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "process-matrix": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "real-quantum-theory": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "complex-quantum-theory": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "QAOA": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "hybrid-quantum-processor": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "oscillator-qubit": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "non-Abelian": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "optimization": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "Kondo-insulator": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "many-body-physics": {
+        "first_seen": "2026-05-30",
+        "count": 4
+      },
+      "strongly-correlated-electrons": {
+        "first_seen": "2026-05-30",
+        "count": 3
+      },
+      "RIXS": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "molecular-orbital": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "quantum-materials": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "chirality-induced-spin-selectivity": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "spintronics": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "DMRG": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "p-wave-magnetism": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
+      "organic-molecules": {
+        "first_seen": "2026-05-30",
+        "count": 1
+      },
       "topological-order": {
         "first_seen": "2026-05-29",
         "count": 7
@@ -4868,17 +5378,9 @@
         "first_seen": "2026-05-29",
         "count": 2
       },
-      "quantum-gravity": {
-        "first_seen": "2026-05-29",
-        "count": 20
-      },
       "tensor-network": {
         "first_seen": "2026-05-29",
         "count": 1
-      },
-      "quantum-computing": {
-        "first_seen": "2026-05-29",
-        "count": 8
       },
       "superconducting-circuits": {
         "first_seen": "2026-05-29",
@@ -4887,10 +5389,6 @@
       "Lindblad-dynamics": {
         "first_seen": "2026-05-29",
         "count": 1
-      },
-      "open-quantum-systems": {
-        "first_seen": "2026-05-29",
-        "count": 4
       },
       "cat-qubit": {
         "first_seen": "2026-05-29",
@@ -4911,14 +5409,6 @@
       "OTOC": {
         "first_seen": "2026-05-29",
         "count": 1
-      },
-      "holography": {
-        "first_seen": "2026-05-29",
-        "count": 14
-      },
-      "black-holes": {
-        "first_seen": "2026-05-29",
-        "count": 22
       },
       "thermalization": {
         "first_seen": "2026-05-29",
@@ -4960,10 +5450,6 @@
         "first_seen": "2026-05-29",
         "count": 1
       },
-      "black-hole-thermodynamics": {
-        "first_seen": "2026-05-29",
-        "count": 2
-      },
       "topological-classes": {
         "first_seen": "2026-05-29",
         "count": 1
@@ -4979,10 +5465,6 @@
       "stability": {
         "first_seen": "2026-05-29",
         "count": 1
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-05-29",
-        "count": 2
       },
       "Ashtekar-variables": {
         "first_seen": "2026-05-29",
@@ -5080,17 +5562,9 @@
         "first_seen": "2026-05-29",
         "count": 1
       },
-      "quantum-cosmology": {
-        "first_seen": "2026-05-29",
-        "count": 2
-      },
       "de-Sitter": {
         "first_seen": "2026-05-29",
         "count": 3
-      },
-      "gravitational-waves": {
-        "first_seen": "2026-05-29",
-        "count": 7
       },
       "loop-corrections": {
         "first_seen": "2026-05-29",
@@ -5144,10 +5618,6 @@
         "first_seen": "2026-05-28",
         "count": 1
       },
-      "modified-gravity": {
-        "first_seen": "2026-05-28",
-        "count": 3
-      },
       "Proca-field": {
         "first_seen": "2026-05-28",
         "count": 1
@@ -5160,10 +5630,6 @@
         "first_seen": "2026-05-28",
         "count": 1
       },
-      "canonical-quantization": {
-        "first_seen": "2026-05-28",
-        "count": 1
-      },
       "Schwarzschild": {
         "first_seen": "2026-05-28",
         "count": 1
@@ -5171,10 +5637,6 @@
       "entanglement": {
         "first_seen": "2026-05-28",
         "count": 6
-      },
-      "AdS-CFT": {
-        "first_seen": "2026-05-28",
-        "count": 4
       },
       "mixed-states": {
         "first_seen": "2026-05-28",
@@ -5263,10 +5725,6 @@
       "quantum-states": {
         "first_seen": "2026-05-28",
         "count": 1
-      },
-      "many-body-physics": {
-        "first_seen": "2026-05-28",
-        "count": 3
       },
       "2PI-formalism": {
         "first_seen": "2026-05-28",
@@ -5368,10 +5826,6 @@
         "first_seen": "2026-05-27",
         "count": 3
       },
-      "dark-matter": {
-        "first_seen": "2026-05-27",
-        "count": 3
-      },
       "astrophysics": {
         "first_seen": "2026-05-27",
         "count": 3
@@ -5381,10 +5835,6 @@
         "count": 1
       },
       "gamma-rays": {
-        "first_seen": "2026-05-27",
-        "count": 1
-      },
-      "primordial-black-holes": {
         "first_seen": "2026-05-27",
         "count": 1
       },
@@ -5456,10 +5906,6 @@
         "first_seen": "2026-05-27",
         "count": 1
       },
-      "quantum-simulation": {
-        "first_seen": "2026-05-27",
-        "count": 4
-      },
       "entanglement-entropy": {
         "first_seen": "2026-05-27",
         "count": 2
@@ -5515,10 +5961,6 @@
       "Science Communication & Policy": {
         "first_seen": "2026-05-27",
         "count": 18
-      },
-      "entropy": {
-        "first_seen": "2026-05-26",
-        "count": 1
       },
       "scrambling": {
         "first_seen": "2026-05-26",
@@ -5593,10 +6035,6 @@
         "count": 1
       },
       "solitons": {
-        "first_seen": "2026-05-26",
-        "count": 1
-      },
-      "cosmology": {
         "first_seen": "2026-05-26",
         "count": 1
       },
@@ -5904,19 +6342,11 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "sample-complexity": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
       "twisted-bilayer-graphene": {
         "first_seen": "2026-05-22",
         "count": 1
       },
       "Kekule-spiral": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
-      "strongly-correlated-electrons": {
         "first_seen": "2026-05-22",
         "count": 1
       },
@@ -6021,10 +6451,6 @@
         "count": 1
       },
       "cosmic-acceleration": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "teleparallel-gravity": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -7046,24 +7472,86 @@
       }
     },
     "tag_counts": {
+      "loop-quantum-gravity": 3,
+      "primordial-black-holes": 3,
+      "dark-matter": 4,
+      "gravitational-waves": 9,
+      "cosmology": 3,
+      "black-hole-thermodynamics": 3,
+      "modified-gravity": 6,
+      "entropy": 2,
+      "gravity-thermodynamics": 1,
+      "non-singular-gravity": 1,
+      "quantum-cosmology": 3,
+      "Carr-criterion": 1,
+      "mass-gap": 1,
+      "holography": 15,
+      "higher-spin-gravity": 1,
+      "AdS-CFT": 5,
+      "self-dual": 1,
+      "Yang-Mills": 1,
+      "quantum-gravity": 23,
+      "asymptotic-safety": 1,
+      "renormalization-group": 1,
+      "form-factors": 1,
+      "proper-time": 1,
+      "UV-completion": 1,
+      "quantum-optics": 1,
+      "orbital-angular-momentum": 1,
+      "spin-angular-momentum": 1,
+      "quantum-transitions": 1,
+      "detection": 1,
+      "black-holes": 23,
+      "Horndeski": 1,
+      "naked-singularities": 1,
+      "light-rings": 1,
+      "optical-appearance": 1,
+      "shadow": 1,
+      "teleparallel-gravity": 2,
+      "symmetric-teleparallel": 1,
+      "constraints": 1,
+      "Hamiltonian": 1,
+      "canonical-quantization": 2,
+      "quantum-computing": 10,
+      "Lindbladian": 1,
+      "open-quantum-systems": 5,
+      "sample-complexity": 2,
+      "quantum-simulation": 5,
+      "dissipation": 1,
+      "indefinite-causal-order": 1,
+      "quantum-foundations": 1,
+      "process-matrix": 1,
+      "real-quantum-theory": 1,
+      "complex-quantum-theory": 1,
+      "QAOA": 1,
+      "hybrid-quantum-processor": 1,
+      "oscillator-qubit": 1,
+      "non-Abelian": 1,
+      "optimization": 1,
+      "Kondo-insulator": 1,
+      "many-body-physics": 4,
+      "strongly-correlated-electrons": 3,
+      "RIXS": 1,
+      "molecular-orbital": 1,
+      "quantum-materials": 1,
+      "chirality-induced-spin-selectivity": 1,
+      "spintronics": 1,
+      "DMRG": 1,
+      "p-wave-magnetism": 1,
+      "organic-molecules": 1,
       "topological-order": 7,
       "string-net": 1,
       "non-invertible-symmetry": 1,
       "anyon-condensation": 1,
       "fusion-categories": 2,
-      "quantum-gravity": 20,
       "tensor-network": 1,
-      "quantum-computing": 8,
       "superconducting-circuits": 1,
       "Lindblad-dynamics": 1,
-      "open-quantum-systems": 4,
       "cat-qubit": 1,
       "SYK-model": 2,
       "quantum-chaos": 8,
       "random-matrix-theory": 2,
       "OTOC": 1,
-      "holography": 14,
-      "black-holes": 22,
       "thermalization": 4,
       "wormholes": 2,
       "nonlocal-symmetries": 1,
@@ -7074,12 +7562,10 @@
       "Regge-relation": 1,
       "scalarization": 1,
       "phantom-field": 1,
-      "black-hole-thermodynamics": 2,
       "topological-classes": 1,
       "dRGT-massive-gravity": 1,
       "black-string": 1,
       "stability": 1,
-      "loop-quantum-gravity": 2,
       "Ashtekar-variables": 1,
       "gravitational-helicity": 1,
       "Nieh-Yan": 1,
@@ -7104,9 +7590,7 @@
       "quantum-information": 6,
       "inflation": 1,
       "tensor-power-spectrum": 1,
-      "quantum-cosmology": 2,
       "de-Sitter": 3,
-      "gravitational-waves": 7,
       "loop-corrections": 1,
       "renormalization": 1,
       "Quantum Information & Computing": 45,
@@ -7120,14 +7604,11 @@
       "BTZ": 1,
       "thermodynamics": 8,
       "topological-classification": 1,
-      "modified-gravity": 3,
       "Proca-field": 1,
       "quantum-field-theory": 4,
       "Hawking-radiation": 1,
-      "canonical-quantization": 1,
       "Schwarzschild": 1,
       "entanglement": 6,
-      "AdS-CFT": 4,
       "mixed-states": 2,
       "conformal-field-theory": 3,
       "thermal-blocks": 1,
@@ -7150,7 +7631,6 @@
       "purity-amplification": 1,
       "finite-sample-bounds": 1,
       "quantum-states": 1,
-      "many-body-physics": 3,
       "2PI-formalism": 1,
       "SU(3)": 1,
       "string-order-parameters": 1,
@@ -7176,11 +7656,9 @@
       "hawking-radiation": 2,
       "greybody-factors": 3,
       "phase-transitions": 3,
-      "dark-matter": 3,
       "astrophysics": 3,
       "white-holes": 1,
       "gamma-rays": 1,
-      "primordial-black-holes": 1,
       "loop-quantum-cosmology": 1,
       "de-sitter": 1,
       "proca-theory": 1,
@@ -7198,7 +7676,6 @@
       "cloud-computing": 1,
       "variational-quantum-algorithms": 1,
       "dissipation-engineering": 1,
-      "quantum-simulation": 4,
       "entanglement-entropy": 2,
       "fermionic-systems": 1,
       "quantum-scrambling": 2,
@@ -7213,7 +7690,6 @@
       "first-principles": 1,
       "materials-prediction": 1,
       "Science Communication & Policy": 18,
-      "entropy": 1,
       "scrambling": 1,
       "information-paradox": 2,
       "gravitational-decoherence": 1,
@@ -7233,7 +7709,6 @@
       "semi-classical": 1,
       "multicritical": 1,
       "solitons": 1,
-      "cosmology": 1,
       "k-essence": 1,
       "dark-energy": 2,
       "string-cloud": 1,
@@ -7310,10 +7785,8 @@
       "quantum-inference": 1,
       "quantum-purity-amplification": 1,
       "coherent-processing": 1,
-      "sample-complexity": 1,
       "twisted-bilayer-graphene": 1,
       "Kekule-spiral": 1,
-      "strongly-correlated-electrons": 1,
       "fractional-anyons": 1,
       "Pfaffian-state": 1,
       "quantum-Hall-effect": 1,
@@ -7340,7 +7813,6 @@
       "exotic-compact-objects": 1,
       "fuzzballs": 1,
       "cosmic-acceleration": 1,
-      "teleparallel-gravity": 1,
       "gravitational-energy": 1,
       "perturbation-theory": 1,
       "exact-solutions": 1,
@@ -7598,6 +8070,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-05-30",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
