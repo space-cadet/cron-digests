@@ -1,6 +1,108 @@
 {
-  "generated": "2026-05-30T01:54:21.788Z",
+  "generated": "2026-06-01T04:49:37.784Z",
   "digests": [
+    {
+      "date": "2026-06-01",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-01",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Topological states emerge in quantum Hall-superconductor devices with multiple channels",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-05-topological-states-emerge-quantum-hall.html",
+          "summary": "Topological phases are unusual states of matter that give rise to properties protected by a material's overall structure (i.e., \"topology\"), as opposed to microscopic details. These phases are of great interest for the development ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "This Strange New Phase of Matter Could Transform Quantum Technology",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260529043638.htm",
+          "summary": "Researchers from Brown University and the University of Michigan have achieved something that scientists had only imagined until now. By carefully arranging tiny particles of silver into custom-built structures, they created and stabilized a previously elusive state of matter that had existed only i",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Quantum light gives a 20-fold boost to ultrafast laser processes",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-05-quantum-boost-ultrafast-laser.html",
+          "summary": "Nonlinear interactions between light and matter are at the heart of some of the most powerful tools in modern optics, but pushing these processes to their limits has long been hampered by a fundamental constraint: the stronger ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Antihydrogen mirrors hydrogen in upgraded spectrum test, narrowing cosmic mystery",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-05-antihydrogen-mirrors-hydrogen-spectrum-narrowing.html",
+          "summary": "University of Calgary researchers are a part of a group who just got one step closer to solving a mystery of the universe. Dr. Timothy Friesen, Ph.D., an associate professor of Physics and Astronomy in the Faculty of Science, ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "First pig liver and kidneys transplanted into a person — could ease organ shortages",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01708-0",
+          "summary": "Organs from genetically modified pigs are being used in trials in China and the US.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Building a better laser on the Moon",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/building-a-better-laser-on-the-moon/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "How We See the Beautiful, Violent Sun",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/how-we-see-the-beautiful-violent-sun-20260528/",
+          "summary": "Over hundreds of years, increasingly sophisticated instruments have revealed — and continue to reveal — the secrets of our star.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Diamond quantum sensor could reveal elusive altermagnets",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-05-diamond-quantum-sensor-reveal-elusive.html",
+          "summary": "For nearly a century, there were two known kinds of magnets. Ferromagnets are the classic magnets that attract metal and keep pictures stuck to the refrigerator. Antiferromagnets hide their magnetism at the atomic scale but ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-30",
       "type": "arxiv",
@@ -5087,9 +5189,29 @@
     }
   ],
   "stats": {
-    "total_digests": 35,
-    "total_entries": 326,
+    "total_digests": 36,
+    "total_entries": 334,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-06-01",
+        "count": 49
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-06-01",
+        "count": 29
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-06-01",
+        "count": 36
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-06-01",
+        "count": 26
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-01",
+        "count": 22
+      },
       "loop-quantum-gravity": {
         "first_seen": "2026-05-30",
         "count": 3
@@ -5574,25 +5696,9 @@
         "first_seen": "2026-05-29",
         "count": 1
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-05-29",
-        "count": 45
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-05-29",
-        "count": 26
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-05-29",
-        "count": 25
-      },
       "Experiment & Observation": {
         "first_seen": "2026-05-29",
         "count": 30
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-05-29",
-        "count": 34
       },
       "entanglement-harvesting": {
         "first_seen": "2026-05-28",
@@ -5957,10 +6063,6 @@
       "materials-prediction": {
         "first_seen": "2026-05-27",
         "count": 1
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-05-27",
-        "count": 18
       },
       "scrambling": {
         "first_seen": "2026-05-26",
@@ -7472,6 +7574,11 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 49,
+      "Many-Body Physics & Condensed Matter": 29,
+      "Technology & Engineering": 36,
+      "Optics & Photonics": 26,
+      "Science Communication & Policy": 22,
       "loop-quantum-gravity": 3,
       "primordial-black-holes": 3,
       "dark-matter": 4,
@@ -7593,11 +7700,7 @@
       "de-Sitter": 3,
       "loop-corrections": 1,
       "renormalization": 1,
-      "Quantum Information & Computing": 45,
-      "Many-Body Physics & Condensed Matter": 26,
-      "Optics & Photonics": 25,
       "Experiment & Observation": 30,
-      "Technology & Engineering": 34,
       "entanglement-harvesting": 1,
       "curved-spacetime": 3,
       "Unruh-effect": 1,
@@ -7689,7 +7792,6 @@
       "band-topology": 1,
       "first-principles": 1,
       "materials-prediction": 1,
-      "Science Communication & Policy": 18,
       "scrambling": 1,
       "information-paradox": 2,
       "gravitational-decoherence": 1,
@@ -8069,8 +8171,8 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
-      "arxiv": [
-        "2026-05-30",
+      "web-science": [
+        "2026-06-01",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
@@ -8087,7 +8189,8 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "web-science": [
+      "arxiv": [
+        "2026-05-30",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
