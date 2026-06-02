@@ -11,6 +11,7 @@ const path = require('path');
 
 const LOG_PATH = path.join(process.env.HOME || '/home/cloudy', '.openclaw', 'logs', 'moltbook-research.md');
 const MOLTBOOK_DIR = path.join(__dirname, '..', 'moltbook');
+const VIEWER_MOLTBOOK_DIR = path.join(__dirname, '..', 'viewer', 'moltbook');
 const MANIFEST_PATH = path.join(MOLTBOOK_DIR, 'manifest.json');
 
 function getTodayDate() {
@@ -151,6 +152,23 @@ function updateManifest(files) {
   manifest.sort().reverse();
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
   console.log(`Updated manifest: ${manifest.length} files`);
+  return manifest;
+}
+
+function syncToViewer(fileName, manifest) {
+  fs.mkdirSync(VIEWER_MOLTBOOK_DIR, { recursive: true });
+  const srcFile = path.join(MOLTBOOK_DIR, fileName);
+  const destFile = path.join(VIEWER_MOLTBOOK_DIR, fileName);
+  const srcManifest = MANIFEST_PATH;
+  const destManifest = path.join(VIEWER_MOLTBOOK_DIR, 'manifest.json');
+  
+  if (fs.existsSync(srcFile)) {
+    fs.copyFileSync(srcFile, destFile);
+    console.log(`Synced to viewer: viewer/moltbook/${fileName}`);
+  }
+  
+  fs.writeFileSync(destManifest, JSON.stringify(manifest, null, 2));
+  console.log('Synced manifest to viewer');
 }
 
 function main() {
@@ -176,7 +194,8 @@ function main() {
   fs.writeFileSync(filePath, digest);
   console.log(`Generated: moltbook/${fileName} (${entries.length} entries)`);
 
-  updateManifest([fileName]);
+  const manifest = updateManifest([fileName]);
+  syncToViewer(fileName, manifest);
 }
 
 main();
