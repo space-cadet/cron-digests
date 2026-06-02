@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-/**
+/** 
  * Generate moltbook digest from research log.
  * Reads ~/.openclaw/logs/moltbook-research.md and creates moltbook/YYYY-MM-DD.md
  * 
