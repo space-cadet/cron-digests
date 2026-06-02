@@ -1,6 +1,142 @@
 {
-  "generated": "2026-06-01T04:49:37.784Z",
+  "generated": "2026-06-02T04:49:31.585Z",
   "digests": [
+    {
+      "date": "2026-06-02",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-02",
+      "items_found": 10,
+      "entries": [
+        {
+          "num": 1,
+          "title": "One of our planets may be missing, and it could explain why the solar system looks the way it does",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-planets-solar.html",
+          "summary": "Our solar system has two ice giants, Uranus and Neptune, but there may have been a third. According to a new study published in the journal Icarus, this extra world might have triggered a violent planetary shuffling billions of years ago that shaped the architecture we see today.",
+          "relevance": "🔥 High — Planetary dynamics and solar system formation are foundational astrophysics",
+          "tags": [
+            "Astrophysics & Cosmology",
+            "Solar System"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Tiny-armed alvarezsauroid dinosaurs might have been insect eaters, fossil scans suggest",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-tiny-armed-alvarezsauroid-dinosaurs-insect.html",
+          "summary": "Dinosaurs are estimated to have roamed Earth for over 165 million years. Among the fascinating groups are the alvarezsauroids — tiny-armed dinosaurs that might have evolved to specialize in eating insects, according to new fossil scan evidence.",
+          "relevance": "Medium — Interesting evolutionary biology finding",
+          "tags": [
+            "Paleontology",
+            "Evolutionary Biology"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "NASA completes Roman telescope's massive infrared mirror for flight",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-roman-telescope-massive-infrared-mirror.html",
+          "summary": "NASA has completed its final inspection of the primary mirror on the Roman Space Telescope, which measures 2.4 meters in diameter and contains a layer of silver hundreds of times thinner than a human hair. The telescope is expected to revolutionize wide-field infrared astronomy.",
+          "relevance": "🔥 High — Major upcoming space observatory with implications for dark energy, exoplanets, and cosmology",
+          "tags": [
+            "Astrophysics & Cosmology",
+            "Space Telescopes",
+            "Dark Energy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "ESA selects two new scout-class Earth observation missions",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-esa-scout-class-missions.html",
+          "summary": "The European Space Agency has selected two new small-scale scout missions focused on understanding Earth and our changing environment from space, continuing the push for satellite-based planetary monitoring that transcends national boundaries.",
+          "relevance": "Medium — Earth science and climate monitoring from space",
+          "tags": [
+            "Earth Science",
+            "Climate",
+            "Space Missions"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Scientists unveil ten-year roadmap for building synthetic cells",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-scientists-unveil-ten-year-roadmap.html",
+          "summary": "Scientists from six Asian countries have launched an ambitious 10-year effort to build synthetic cells from non-living molecules, marking the region's first coordinated push to create an artificial single-celled biological system from the ground up.",
+          "relevance": "Medium — Synthetic biology at the boundary of physics and biology",
+          "tags": [
+            "Synthetic Biology",
+            "Biophysics",
+            "Molecular Biology"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Chip integrates light generation, steering, and reading in one device",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260602043638.htm",
+          "summary": "Scientists have created a tiny chip that can generate, steer, and read light-based information all in one device, marking a major leap toward ultra-fast, energy-efficient computing. The breakthrough uses atomically thin materials and nanoscale engineering.",
+          "relevance": "🔥 High — Photonics and quantum-adjacent computing technology",
+          "tags": [
+            "Optics & Photonics",
+            "Nanotechnology",
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "NASA's X-59 jet prepares to break the sound barrier for the first time",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260601043638.htm",
+          "summary": "After a successful series of test flights that pushed the aircraft to near-supersonic speeds, engineers are preparing to fly NASA's futuristic X-59 jet through the sound barrier for the first time, testing quiet supersonic flight technology.",
+          "relevance": "Medium — Aerospace engineering and fluid dynamics",
+          "tags": [
+            "Technology & Engineering",
+            "Fluid Dynamics",
+            "Aerospace"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Messier 88: A spiral galaxy racing through the Virgo Cluster",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260601043638.htm",
+          "summary": "A stunning spiral galaxy called Messier 88 is racing through the crowded Virgo Cluster on a journey that will dramatically reshape its future. At its heart lies a supermassive black hole about 100 million times the mass of the Sun.",
+          "relevance": "🔥 High — Active galactic nuclei and galaxy evolution",
+          "tags": [
+            "Astrophysics & Cosmology",
+            "Black Holes",
+            "Galaxy Evolution"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Roman Space Telescope could discover ~100,000 exoplanets",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260601043638.htm",
+          "summary": "NASA's Roman Space Telescope could revolutionize the search for alien worlds by discovering around 100,000 exoplanets — far more than all previous missions combined — by looking deep into unexplored parts of the Milky Way.",
+          "relevance": "🔥 High — Exoplanet science and statistical astronomy",
+          "tags": [
+            "Astrophysics & Cosmology",
+            "Exoplanets",
+            "Space Telescopes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "A giant moon and a steam atmosphere built the recipe for life on Earth",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-giant-moon-steam-atmosphere-built.html",
+          "summary": "4.5 billion years ago, Earth had a thick, toxic atmosphere and a freshly formed, much larger-appearing moon. New research suggests this combination of a giant moon and a steam atmosphere created the chemical conditions that enabled life to emerge.",
+          "relevance": "Medium — Origins of life and early Earth geophysics",
+          "tags": [
+            "Astrobiology",
+            "Earth Science",
+            "Planetary Atmospheres"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-01",
       "type": "web-science",
@@ -5189,24 +5325,104 @@
     }
   ],
   "stats": {
-    "total_digests": 36,
-    "total_entries": 334,
+    "total_digests": 37,
+    "total_entries": 344,
     "unique_tags": {
+      "Astrophysics & Cosmology": {
+        "first_seen": "2026-06-02",
+        "count": 4
+      },
+      "Solar System": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Paleontology": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Evolutionary Biology": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Space Telescopes": {
+        "first_seen": "2026-06-02",
+        "count": 2
+      },
+      "Dark Energy": {
+        "first_seen": "2026-06-02",
+        "count": 3
+      },
+      "Earth Science": {
+        "first_seen": "2026-06-02",
+        "count": 2
+      },
+      "Climate": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Space Missions": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Synthetic Biology": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Biophysics": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Molecular Biology": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-06-02",
+        "count": 27
+      },
+      "Nanotechnology": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
       "Quantum Information & Computing": {
-        "first_seen": "2026-06-01",
-        "count": 49
+        "first_seen": "2026-06-02",
+        "count": 50
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-06-02",
+        "count": 37
+      },
+      "Fluid Dynamics": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Aerospace": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Black Holes": {
+        "first_seen": "2026-06-02",
+        "count": 3
+      },
+      "Galaxy Evolution": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Exoplanets": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Astrobiology": {
+        "first_seen": "2026-06-02",
+        "count": 1
+      },
+      "Planetary Atmospheres": {
+        "first_seen": "2026-06-02",
+        "count": 1
       },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-06-01",
         "count": 29
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-06-01",
-        "count": 36
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-06-01",
-        "count": 26
       },
       "Science Communication & Policy": {
         "first_seen": "2026-06-01",
@@ -6820,10 +7036,6 @@
         "first_seen": "2026-05-20",
         "count": 2
       },
-      "Dark Energy": {
-        "first_seen": "2026-05-20",
-        "count": 2
-      },
       "Mass-Varying Neutrinos": {
         "first_seen": "2026-05-20",
         "count": 1
@@ -7324,10 +7536,6 @@
         "first_seen": "2026-05-18",
         "count": 1
       },
-      "Black Holes": {
-        "first_seen": "2026-05-18",
-        "count": 2
-      },
       "Rotating Solutions": {
         "first_seen": "2026-05-18",
         "count": 1
@@ -7574,10 +7782,30 @@
       }
     },
     "tag_counts": {
-      "Quantum Information & Computing": 49,
+      "Astrophysics & Cosmology": 4,
+      "Solar System": 1,
+      "Paleontology": 1,
+      "Evolutionary Biology": 1,
+      "Space Telescopes": 2,
+      "Dark Energy": 3,
+      "Earth Science": 2,
+      "Climate": 1,
+      "Space Missions": 1,
+      "Synthetic Biology": 1,
+      "Biophysics": 1,
+      "Molecular Biology": 1,
+      "Optics & Photonics": 27,
+      "Nanotechnology": 1,
+      "Quantum Information & Computing": 50,
+      "Technology & Engineering": 37,
+      "Fluid Dynamics": 1,
+      "Aerospace": 1,
+      "Black Holes": 3,
+      "Galaxy Evolution": 1,
+      "Exoplanets": 1,
+      "Astrobiology": 1,
+      "Planetary Atmospheres": 1,
       "Many-Body Physics & Condensed Matter": 29,
-      "Technology & Engineering": 36,
-      "Optics & Photonics": 26,
       "Science Communication & Policy": 22,
       "loop-quantum-gravity": 3,
       "primordial-black-holes": 3,
@@ -7981,7 +8209,6 @@
       "sunlight": 1,
       "Loop Quantum Cosmology": 1,
       "Inflation": 2,
-      "Dark Energy": 2,
       "Mass-Varying Neutrinos": 1,
       "Quantum Bounce": 1,
       "Black Hole Thermodynamics": 6,
@@ -8107,7 +8334,6 @@
       "Berry Phases": 1,
       "Black Hole Information": 1,
       "Kaluza-Klein": 1,
-      "Black Holes": 2,
       "Rotating Solutions": 1,
       "Supergravity": 1,
       "Solution-Generating Techniques": 1,
@@ -8172,6 +8398,7 @@
     },
     "dates_by_type": {
       "web-science": [
+        "2026-06-02",
         "2026-06-01",
         "2026-05-29",
         "2026-05-28",
