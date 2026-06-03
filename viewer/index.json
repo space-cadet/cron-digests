@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T01:20:20.785Z",
+  "generated": "2026-06-03T04:49:55.454Z",
   "digests": [
     {
       "date": "2026-06-03",
@@ -246,6 +246,105 @@
             "Thouless-pumping",
             "cold-atoms",
             "topological-phases"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-03",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "New Light-powered Chip Could Accelerate AI and Quantum Computing",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260601025343.htm",
+          "summary": "Scientists at Monash University have created a tiny new circuit that can generate, direct, and read information carried by light, all within a single chip.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "A Quantum Metasurface Breakthrough Could Finally Close the Terahertz Gap",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260530053416.htm",
+          "summary": "Detecting light and radiation is essential across the electromagnetic spectrum, but some regions remain especially challenging. One of those is the terahertz (THz) range, which sits between microwaves and infrared light. Existing detectors for these frequencies are often slow, lack sensitivity, or depend on large, costly equipment that frequently requires cryogenic cooling. Researchers have now developed a compact new detector that combines quantum physics with a specially engineered metasurface.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Stanford Quantum Computing Breakthrough Uses Twisted Light to Work Without Extreme Cooling",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
+          "summary": "No summary available",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Polymarket vs science: why researchers are sceptical of the prediction-market hype",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01688-1",
+          "summary": "Online prediction markets are taking bets on everything from climate change to quantum computing. But researchers question their accuracy.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Jessica Dempsey takes up post as head of the Square Kilometre Array Observatory",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/jessica-dempsey-takes-up-post-as-head-of-the-square-kilometre-array-observatory/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "When Quiet Undersea Volcanoes Turn Disruptive",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/when-quiet-undersea-volcanoes-turn-disruptive-20260526/",
+          "summary": "Earth’s largest volcanic system, hidden in mountain chains under the sea, has long been assumed to erupt only quietly. The shallow seafloor off Iceland tells another story.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "This Strange Crystal Acts Like Metal and Glass at the Same Time",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260601025322.htm",
+          "summary": "Creating nearly invisible wearable technologies such as smart contact lenses and ultrathin augmented reality (AR) glasses will require a radical redesign of conventional optical components. Instead of relying on bulky lenses and hardware, researchers are exploring materials that can manipulate light",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Ordinary WiFi Can Now Identify People with Near Perfect Accuracy",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260522023127.htm",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -6070,8 +6169,8 @@
     }
   ],
   "stats": {
-    "total_digests": 43,
-    "total_entries": 393,
+    "total_digests": 44,
+    "total_entries": 401,
     "unique_tags": {
       "quantum-cosmology": {
         "first_seen": "2026-06-03",
@@ -6333,6 +6432,18 @@
         "first_seen": "2026-06-03",
         "count": 1
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-06-03",
+        "count": 54
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-06-03",
+        "count": 31
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-03",
+        "count": 25
+      },
       "Astrophysics & Cosmology": {
         "first_seen": "2026-06-02",
         "count": 4
@@ -6381,17 +6492,9 @@
         "first_seen": "2026-06-02",
         "count": 1
       },
-      "Optics & Photonics": {
-        "first_seen": "2026-06-02",
-        "count": 27
-      },
       "Nanotechnology": {
         "first_seen": "2026-06-02",
         "count": 1
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-06-02",
-        "count": 50
       },
       "Technology & Engineering": {
         "first_seen": "2026-06-02",
@@ -6444,10 +6547,6 @@
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-06-01",
         "count": 29
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-01",
-        "count": 22
       },
       "primordial-black-holes": {
         "first_seen": "2026-05-30",
@@ -8756,6 +8855,9 @@
       "Chern-number": 1,
       "Thouless-pumping": 1,
       "cold-atoms": 1,
+      "Quantum Information & Computing": 54,
+      "Optics & Photonics": 31,
+      "Science Communication & Policy": 25,
       "Astrophysics & Cosmology": 4,
       "Solar System": 1,
       "Paleontology": 1,
@@ -8768,9 +8870,7 @@
       "Synthetic Biology": 1,
       "Biophysics": 1,
       "Molecular Biology": 1,
-      "Optics & Photonics": 27,
       "Nanotechnology": 1,
-      "Quantum Information & Computing": 50,
       "Technology & Engineering": 37,
       "Fluid Dynamics": 1,
       "Aerospace": 1,
@@ -8784,7 +8884,6 @@
       "agents": 36,
       "llms": 23,
       "Many-Body Physics & Condensed Matter": 29,
-      "Science Communication & Policy": 22,
       "primordial-black-holes": 3,
       "dark-matter": 4,
       "gravitational-waves": 9,
@@ -9367,6 +9466,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-06-03",
         "2026-06-02",
         "2026-06-01",
         "2026-05-29",
