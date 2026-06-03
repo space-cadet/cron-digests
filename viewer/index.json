@@ -1,6 +1,255 @@
 {
-  "generated": "2026-06-02T19:35:18.750Z",
+  "generated": "2026-06-03T01:19:59.151Z",
   "digests": [
+    {
+      "date": "2026-06-03",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-06-03",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 14,
+      "focus": "quantum cosmology, loop quantum gravity, black hole thermodynamics, quantum information, topological order, fractionalization, many-body physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Teleocosmology and quantum post-selection",
+          "authors": "Paul C.W. Davies, João Magueijo",
+          "arxiv_id": "2606.02514",
+          "url": "https://arxivite.org/abs/2606.02514",
+          "categories": "gr-qc",
+          "summary": "Proposes that cosmic acceleration can arise purely from quantum post-selection (initial and final boundary conditions on the wave function of the universe), without invoking a cosmological constant or new fields. The construction uses connection variables and a Chern-Simons soliton final state in minisuperspace quantum cosmology.",
+          "relevance": "Directly connects quantum cosmology and post-selection to the observed cosmic acceleration. The use of connection variables and Chern-Simons solitons makes this especially relevant for loop quantum gravity approaches.",
+          "tags": [
+            "quantum-cosmology",
+            "post-selection",
+            "cosmic-acceleration",
+            "loop-quantum-gravity",
+            "Chern-Simons"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Analytical Solutions to the Wheeler-DeWitt Equation in Rosen-Lagrangian Cosmology via the Eisenhart Lift",
+          "authors": "Narakorn Kaewkhao, Suparat Marit, Phongpichit Channuie",
+          "arxiv_id": "2606.01500",
+          "url": "https://arxivite.org/abs/2606.01500",
+          "categories": "gr-qc",
+          "summary": "Uses the Eisenhart lift formalism to transform the Wheeler-DeWitt equation into a tractable form in Rosen-Lagrangian cosmology, obtaining analytic solutions relevant for both inflationary and late-time accelerated epochs.",
+          "relevance": "The Wheeler-DeWitt equation is the central equation of canonical quantum cosmology. Finding analytical solutions through geometric methods like the Eisenhart lift is a valuable tool for quantum cosmology.",
+          "tags": [
+            "quantum-cosmology",
+            "Wheeler-DeWitt",
+            "Eisenhart-lift",
+            "dark-energy",
+            "cosmology"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Effective dynamics of a homogeneous and isotropic universe with quantum curvature",
+          "authors": "Ilkka Mäkinen",
+          "arxiv_id": "2606.01930",
+          "url": "https://arxivite.org/abs/2606.01930",
+          "categories": "gr-qc",
+          "summary": "Introduces a new LQC model with a Lorentzian scalar curvature term motivated by quantum-reduced loop gravity. The effective dynamics still resolve the singularity via a quantum bounce, but at a significantly lower volume than standard LQC.",
+          "relevance": "Directly relevant to loop quantum cosmology and the singularity resolution mechanism. The connection to quantum-reduced loop gravity provides a bridge to full LQG approaches.",
+          "tags": [
+            "loop-quantum-cosmology",
+            "quantum-bounce",
+            "singularity-resolution",
+            "quantum-reduced-loop-gravity",
+            "effective-dynamics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Classical Corrections to Black Hole Entropy II",
+          "authors": "Daulet Berkimbayev, Martin Blaschke",
+          "arxiv_id": "2605.31211",
+          "url": "https://arxivite.org/abs/2605.31211",
+          "categories": "gr-qc",
+          "summary": "Reconsiders black hole growth as a discrete recursion, deriving area scaling and logarithmic corrections for Schwarzschild-Tangherlini and Reissner-Nordström black holes, with the coefficient depending on dimension and charge.",
+          "relevance": "Logarithmic corrections to black hole entropy are a key testing ground for quantum gravity. The discrete recursion approach and the separation of different entropy types offer a novel perspective.",
+          "tags": [
+            "black-hole-entropy",
+            "logarithmic-corrections",
+            "Reissner-Nordström",
+            "discrete-recursion",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Dirac-Field Black Hole Entropy in f(Q) Gravity from the RVB Residue Method",
+          "authors": "Wen-Xiang Chen",
+          "arxiv_id": "2605.31012",
+          "url": "https://arxivite.org/abs/2605.31012",
+          "categories": "gr-qc",
+          "summary": "Computes Dirac-field entropy in f(Q) gravity using the RVB residue method combined with thin-film state counting, showing the entropy remains area-proportional but with a modified coefficient.",
+          "relevance": "f(Q) gravity is an alternative gravitational theory. Understanding how black hole entropy is modified in such theories, especially for fermionic fields, is important for quantum gravity phenomenology.",
+          "tags": [
+            "black-hole-entropy",
+            "fQ-gravity",
+            "Dirac-field",
+            "RVB-method",
+            "modified-gravity"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Bekenstein-Hawking temperature from the Schwarzian",
+          "authors": "Donato Bini, Giampiero Esposito",
+          "arxiv_id": "2606.00911",
+          "url": "https://arxivite.org/abs/2606.00911",
+          "categories": "gr-qc; hep-th",
+          "summary": "Shows that the Bekenstein-Hawking temperature is determined by the projective structure of Killing horizons via the Schwarzian derivative, with extensions to Schwarzschild, Kerr, and variable-mass spacetimes.",
+          "relevance": "The projective geometry of horizons is deeply connected to black hole thermodynamics. This work provides a mathematical foundation linking the Schwarzian derivative to Hawking temperature.",
+          "tags": [
+            "black-hole-thermodynamics",
+            "Schwarzian",
+            "projective-geometry",
+            "Killing-horizon",
+            "surface-gravity"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Modular theory and affine representations on the Rindler horizon",
+          "authors": "Michele Arzano, Paolo Palumbo",
+          "arxiv_id": "2606.01071",
+          "url": "https://arxivite.org/abs/2606.01071",
+          "categories": "hep-th; gr-qc; quant-ph",
+          "summary": "Provides a group-theoretic interpretation of the Unruh effect via affine symmetry on a light ray, connecting it to modular theory and showing that the affine group is the minimal symmetry underlying thermality on the Rindler horizon.",
+          "relevance": "Modular theory is central to understanding black hole thermodynamics in algebraic quantum field theory. The affine group structure offers a minimal symmetry foundation for horizon thermality.",
+          "tags": [
+            "Unruh-effect",
+            "modular-theory",
+            "affine-group",
+            "Rindler-horizon",
+            "black-hole-thermodynamics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Black holes with quantum corrections in 3d: The case of Page curve in Lindblad, greybody factor, and Lyapunov exponent",
+          "authors": "Mahdis Ghodrati",
+          "arxiv_id": "2606.01025",
+          "url": "https://arxivite.org/abs/2606.01025",
+          "categories": "hep-th",
+          "summary": "Studies black holes with quantum corrections as open quantum systems using the Lindblad formalism, analyzing the Page curve, greybody factors, and Lyapunov exponents in 3d Cotler-Jensen theory.",
+          "relevance": "The black hole information paradox and Page curve are central problems in quantum gravity. The Lindblad approach and exceptional points provide a novel open-system perspective.",
+          "tags": [
+            "black-hole-information",
+            "Page-curve",
+            "Lindblad",
+            "quantum-corrections",
+            "AdS3",
+            "Lyapunov-exponent"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Information Hierarchy in Many-Body Berry Phase",
+          "authors": "Kai Watanabe",
+          "arxiv_id": "2606.02155",
+          "url": "https://arxivite.org/abs/2606.02155",
+          "categories": "quant-ph; cond-mat.mes-hall; cond-mat.str-el; hep-th",
+          "summary": "Establishes that global Berry phases in interacting many-body systems cannot be determined from any finite set of local density correlators, except in special cases like quasi-free or symmetry-constrained models.",
+          "relevance": "Many-body topology and Berry phases are fundamental to understanding topological phases of matter. The information hierarchy result has deep implications for what local measurements can reveal about global topological properties.",
+          "tags": [
+            "many-body-topology",
+            "Berry-phase",
+            "information-hierarchy",
+            "local-correlators",
+            "topological-phases"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Information scrambling in all-to-all interacting models",
+          "authors": "Abhik Kumar Saha, Tanay Pathak, Masaki Tezuka",
+          "arxiv_id": "2606.02207",
+          "url": "https://arxivite.org/abs/2606.02207",
+          "categories": "quant-ph; cond-mat.dis-nn; hep-th",
+          "summary": "Investigates information scrambling in the SYK-q model using entanglement measures, finding rapid entropy growth, universal relations between mutual information and negativity, and Page-curve-like behavior.",
+          "relevance": "The SYK model is a paradigmatic model for quantum chaos and black hole physics. Information scrambling is directly connected to the black hole information paradox and holography.",
+          "tags": [
+            "SYK-model",
+            "information-scrambling",
+            "quantum-chaos",
+            "entanglement",
+            "Page-curve"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Coherent Exchange and Decoherence in Dirac-Spin-Liquid Quantum Interconnects",
+          "authors": "Dibakar Yadav, Rana Pratap",
+          "arxiv_id": "2606.01807",
+          "url": "https://arxivite.org/abs/2606.01807",
+          "categories": "quant-ph; cond-mat.str-el",
+          "summary": "Develops a theory for qubits coupled through a Dirac spin-liquid bath, showing that the spin susceptibility controls both coherent exchange and decoherence, with algebraic exchange and pseudogap-suppressed relaxation.",
+          "relevance": "Dirac spin liquids are candidate topological phases with fractionalized excitations. Using them as quantum interconnects connects many-body physics to quantum computing applications.",
+          "tags": [
+            "Dirac-spin-liquid",
+            "quantum-interconnect",
+            "spin-susceptibility",
+            "decoherence",
+            "topological-order"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Anisotropic Moiré Fractional Chern Insulators and Their Phase Transitions",
+          "authors": "Bo Peng, Jin-Xin Hu",
+          "arxiv_id": "2606.02094",
+          "url": "https://arxivite.org/abs/2606.02094",
+          "categories": "cond-mat.str-el",
+          "summary": "Studies the effect of lattice anisotropy on fractional Chern insulators in moiré materials, showing that moderate anisotropy preserves the FCI phase while strong anisotropy drives transitions to CDW and Fermi liquid phases.",
+          "relevance": "Fractional Chern insulators are the zero-magnetic-field analogues of fractional quantum Hall states. Understanding their stability and phase transitions is crucial for topological quantum computing.",
+          "tags": [
+            "fractional-Chern-insulator",
+            "moiré-materials",
+            "topological-order",
+            "quantum-phase-transition",
+            "anisotropy"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Electrical observation via spin Seebeck effect of fractionalized excitations in a magnetic insulator",
+          "authors": "Nan Tang, Josef Willsher, Stephan Glamsch, Aisha Aqeel, Ludwig Scheuchenpflug, Michael Schulze, Christoph Liebald, Daniel Rytz, Christo Guguschev, Manfred Albrecht, Roderich Moessner, Philipp Gegenwart",
+          "arxiv_id": "2606.02501",
+          "url": "https://arxivite.org/abs/2606.02501",
+          "categories": "cond-mat.str-el; cond-mat.mes-hall",
+          "summary": "Uses the spin Seebeck effect to electrically detect emergent magnetic monopoles in the spin ice Dy$_2$Ti$_2$O$_7$, showing a pronounced signal at monopole proliferation.",
+          "relevance": "Fractionalized magnetic monopoles in spin ice are a canonical example of emergent topological excitations. Electrical detection via spintronics opens new experimental avenues.",
+          "tags": [
+            "fractionalized-excitations",
+            "spin-ice",
+            "magnetic-monopoles",
+            "spin-Seebeck",
+            "spintronics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Thouless Pumping of Large Chern Numbers in Optical Floquet Quasicrystals",
+          "authors": "Shien Wan, Zecheng Li, Bo Song",
+          "arxiv_id": "2606.02489",
+          "url": "https://arxivite.org/abs/2606.02489",
+          "categories": "cond-mat.quant-gas; cond-mat.mes-hall; quant-ph",
+          "summary": "Proposes a scheme to realize large Chern numbers in optical Floquet quasicrystals with cold atoms, using Thouless pumping to directly measure the topological charge.",
+          "relevance": "Large Chern numbers in Floquet systems could lead to richer topological phases and fractional Chern insulators, relevant for quantum simulation and topological quantum computing.",
+          "tags": [
+            "Floquet-quasicrystal",
+            "Chern-number",
+            "Thouless-pumping",
+            "cold-atoms",
+            "topological-phases"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-02",
       "type": "web-science",
@@ -5821,9 +6070,269 @@
     }
   ],
   "stats": {
-    "total_digests": 42,
-    "total_entries": 379,
+    "total_digests": 43,
+    "total_entries": 393,
     "unique_tags": {
+      "quantum-cosmology": {
+        "first_seen": "2026-06-03",
+        "count": 5
+      },
+      "post-selection": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "cosmic-acceleration": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-06-03",
+        "count": 4
+      },
+      "Chern-Simons": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Wheeler-DeWitt": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Eisenhart-lift": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "dark-energy": {
+        "first_seen": "2026-06-03",
+        "count": 3
+      },
+      "cosmology": {
+        "first_seen": "2026-06-03",
+        "count": 4
+      },
+      "loop-quantum-cosmology": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "quantum-bounce": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "singularity-resolution": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "quantum-reduced-loop-gravity": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "effective-dynamics": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "black-hole-entropy": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "logarithmic-corrections": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Reissner-Nordström": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "discrete-recursion": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-06-03",
+        "count": 24
+      },
+      "fQ-gravity": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Dirac-field": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "RVB-method": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "modified-gravity": {
+        "first_seen": "2026-06-03",
+        "count": 7
+      },
+      "black-hole-thermodynamics": {
+        "first_seen": "2026-06-03",
+        "count": 5
+      },
+      "Schwarzian": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "projective-geometry": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Killing-horizon": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "surface-gravity": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Unruh-effect": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "modular-theory": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "affine-group": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Rindler-horizon": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "black-hole-information": {
+        "first_seen": "2026-06-03",
+        "count": 3
+      },
+      "Page-curve": {
+        "first_seen": "2026-06-03",
+        "count": 3
+      },
+      "Lindblad": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "quantum-corrections": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "AdS3": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Lyapunov-exponent": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "many-body-topology": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "Berry-phase": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "information-hierarchy": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "local-correlators": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "topological-phases": {
+        "first_seen": "2026-06-03",
+        "count": 5
+      },
+      "SYK-model": {
+        "first_seen": "2026-06-03",
+        "count": 3
+      },
+      "information-scrambling": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "quantum-chaos": {
+        "first_seen": "2026-06-03",
+        "count": 9
+      },
+      "entanglement": {
+        "first_seen": "2026-06-03",
+        "count": 7
+      },
+      "Dirac-spin-liquid": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "quantum-interconnect": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "spin-susceptibility": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "decoherence": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "topological-order": {
+        "first_seen": "2026-06-03",
+        "count": 9
+      },
+      "fractional-Chern-insulator": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "moiré-materials": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "quantum-phase-transition": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "anisotropy": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "fractionalized-excitations": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "spin-ice": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "magnetic-monopoles": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "spin-Seebeck": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "spintronics": {
+        "first_seen": "2026-06-03",
+        "count": 2
+      },
+      "Floquet-quasicrystal": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Chern-number": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "Thouless-pumping": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
+      "cold-atoms": {
+        "first_seen": "2026-06-03",
+        "count": 1
+      },
       "Astrophysics & Cosmology": {
         "first_seen": "2026-06-02",
         "count": 4
@@ -5940,10 +6449,6 @@
         "first_seen": "2026-06-01",
         "count": 22
       },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-05-30",
-        "count": 3
-      },
       "primordial-black-holes": {
         "first_seen": "2026-05-30",
         "count": 3
@@ -5956,18 +6461,6 @@
         "first_seen": "2026-05-30",
         "count": 9
       },
-      "cosmology": {
-        "first_seen": "2026-05-30",
-        "count": 3
-      },
-      "black-hole-thermodynamics": {
-        "first_seen": "2026-05-30",
-        "count": 3
-      },
-      "modified-gravity": {
-        "first_seen": "2026-05-30",
-        "count": 6
-      },
       "entropy": {
         "first_seen": "2026-05-30",
         "count": 2
@@ -5979,10 +6472,6 @@
       "non-singular-gravity": {
         "first_seen": "2026-05-30",
         "count": 1
-      },
-      "quantum-cosmology": {
-        "first_seen": "2026-05-30",
-        "count": 3
       },
       "Carr-criterion": {
         "first_seen": "2026-05-30",
@@ -6011,10 +6500,6 @@
       "Yang-Mills": {
         "first_seen": "2026-05-30",
         "count": 1
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-05-30",
-        "count": 23
       },
       "asymptotic-safety": {
         "first_seen": "2026-05-30",
@@ -6192,10 +6677,6 @@
         "first_seen": "2026-05-30",
         "count": 1
       },
-      "spintronics": {
-        "first_seen": "2026-05-30",
-        "count": 1
-      },
       "DMRG": {
         "first_seen": "2026-05-30",
         "count": 1
@@ -6207,10 +6688,6 @@
       "organic-molecules": {
         "first_seen": "2026-05-30",
         "count": 1
-      },
-      "topological-order": {
-        "first_seen": "2026-05-29",
-        "count": 7
       },
       "string-net": {
         "first_seen": "2026-05-29",
@@ -6243,14 +6720,6 @@
       "cat-qubit": {
         "first_seen": "2026-05-29",
         "count": 1
-      },
-      "SYK-model": {
-        "first_seen": "2026-05-29",
-        "count": 2
-      },
-      "quantum-chaos": {
-        "first_seen": "2026-05-29",
-        "count": 8
       },
       "random-matrix-theory": {
         "first_seen": "2026-05-29",
@@ -6436,10 +6905,6 @@
         "first_seen": "2026-05-28",
         "count": 3
       },
-      "Unruh-effect": {
-        "first_seen": "2026-05-28",
-        "count": 1
-      },
       "BTZ": {
         "first_seen": "2026-05-28",
         "count": 1
@@ -6467,10 +6932,6 @@
       "Schwarzschild": {
         "first_seen": "2026-05-28",
         "count": 1
-      },
-      "entanglement": {
-        "first_seen": "2026-05-28",
-        "count": 6
       },
       "mixed-states": {
         "first_seen": "2026-05-28",
@@ -6523,10 +6984,6 @@
       "machine-learning": {
         "first_seen": "2026-05-28",
         "count": 1
-      },
-      "topological-phases": {
-        "first_seen": "2026-05-28",
-        "count": 3
       },
       "geometric-phases": {
         "first_seen": "2026-05-28",
@@ -6653,10 +7110,6 @@
         "count": 1
       },
       "gamma-rays": {
-        "first_seen": "2026-05-27",
-        "count": 1
-      },
-      "loop-quantum-cosmology": {
         "first_seen": "2026-05-27",
         "count": 1
       },
@@ -6856,10 +7309,6 @@
         "first_seen": "2026-05-26",
         "count": 1
       },
-      "dark-energy": {
-        "first_seen": "2026-05-26",
-        "count": 2
-      },
       "string-cloud": {
         "first_seen": "2026-05-26",
         "count": 1
@@ -6923,10 +7372,6 @@
       "agent-architecture": {
         "first_seen": "2026-05-26",
         "count": 6
-      },
-      "decoherence": {
-        "first_seen": "2026-05-25",
-        "count": 1
       },
       "near-extremal": {
         "first_seen": "2026-05-25",
@@ -7008,10 +7453,6 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "many-body-topology": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
       "dmrg": {
         "first_seen": "2026-05-25",
         "count": 1
@@ -7064,14 +7505,6 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "singularity-resolution": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
-      "Reissner-Nordström": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
       "evaporation": {
         "first_seen": "2026-05-22",
         "count": 1
@@ -7119,10 +7552,6 @@
       "firewalls": {
         "first_seen": "2026-05-22",
         "count": 1
-      },
-      "black-hole-information": {
-        "first_seen": "2026-05-22",
-        "count": 2
       },
       "AMPS": {
         "first_seen": "2026-05-22",
@@ -7264,10 +7693,6 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "cosmic-acceleration": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
       "gravitational-energy": {
         "first_seen": "2026-05-21",
         "count": 1
@@ -7293,10 +7718,6 @@
         "count": 1
       },
       "Hamiltonian-formalism": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "Page-curve": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -7333,10 +7754,6 @@
         "count": 1
       },
       "relative-entropy": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "modular-theory": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -8072,10 +8489,6 @@
         "first_seen": "2026-05-18",
         "count": 1
       },
-      "Schwarzian": {
-        "first_seen": "2026-05-18",
-        "count": 1
-      },
       "JT Gravity": {
         "first_seen": "2026-05-18",
         "count": 1
@@ -8278,6 +8691,71 @@
       }
     },
     "tag_counts": {
+      "quantum-cosmology": 5,
+      "post-selection": 1,
+      "cosmic-acceleration": 2,
+      "loop-quantum-gravity": 4,
+      "Chern-Simons": 1,
+      "Wheeler-DeWitt": 1,
+      "Eisenhart-lift": 1,
+      "dark-energy": 3,
+      "cosmology": 4,
+      "loop-quantum-cosmology": 2,
+      "quantum-bounce": 1,
+      "singularity-resolution": 2,
+      "quantum-reduced-loop-gravity": 1,
+      "effective-dynamics": 1,
+      "black-hole-entropy": 2,
+      "logarithmic-corrections": 1,
+      "Reissner-Nordström": 2,
+      "discrete-recursion": 1,
+      "quantum-gravity": 24,
+      "fQ-gravity": 1,
+      "Dirac-field": 1,
+      "RVB-method": 1,
+      "modified-gravity": 7,
+      "black-hole-thermodynamics": 5,
+      "Schwarzian": 2,
+      "projective-geometry": 1,
+      "Killing-horizon": 1,
+      "surface-gravity": 1,
+      "Unruh-effect": 2,
+      "modular-theory": 2,
+      "affine-group": 1,
+      "Rindler-horizon": 1,
+      "black-hole-information": 3,
+      "Page-curve": 3,
+      "Lindblad": 1,
+      "quantum-corrections": 1,
+      "AdS3": 1,
+      "Lyapunov-exponent": 1,
+      "many-body-topology": 2,
+      "Berry-phase": 1,
+      "information-hierarchy": 1,
+      "local-correlators": 1,
+      "topological-phases": 5,
+      "SYK-model": 3,
+      "information-scrambling": 1,
+      "quantum-chaos": 9,
+      "entanglement": 7,
+      "Dirac-spin-liquid": 1,
+      "quantum-interconnect": 1,
+      "spin-susceptibility": 1,
+      "decoherence": 2,
+      "topological-order": 9,
+      "fractional-Chern-insulator": 1,
+      "moiré-materials": 1,
+      "quantum-phase-transition": 1,
+      "anisotropy": 1,
+      "fractionalized-excitations": 1,
+      "spin-ice": 1,
+      "magnetic-monopoles": 1,
+      "spin-Seebeck": 1,
+      "spintronics": 2,
+      "Floquet-quasicrystal": 1,
+      "Chern-number": 1,
+      "Thouless-pumping": 1,
+      "cold-atoms": 1,
       "Astrophysics & Cosmology": 4,
       "Solar System": 1,
       "Paleontology": 1,
@@ -8307,17 +8785,12 @@
       "llms": 23,
       "Many-Body Physics & Condensed Matter": 29,
       "Science Communication & Policy": 22,
-      "loop-quantum-gravity": 3,
       "primordial-black-holes": 3,
       "dark-matter": 4,
       "gravitational-waves": 9,
-      "cosmology": 3,
-      "black-hole-thermodynamics": 3,
-      "modified-gravity": 6,
       "entropy": 2,
       "gravity-thermodynamics": 1,
       "non-singular-gravity": 1,
-      "quantum-cosmology": 3,
       "Carr-criterion": 1,
       "mass-gap": 1,
       "holography": 15,
@@ -8325,7 +8798,6 @@
       "AdS-CFT": 5,
       "self-dual": 1,
       "Yang-Mills": 1,
-      "quantum-gravity": 23,
       "asymptotic-safety": 1,
       "renormalization-group": 1,
       "form-factors": 1,
@@ -8370,11 +8842,9 @@
       "molecular-orbital": 1,
       "quantum-materials": 1,
       "chirality-induced-spin-selectivity": 1,
-      "spintronics": 1,
       "DMRG": 1,
       "p-wave-magnetism": 1,
       "organic-molecules": 1,
-      "topological-order": 7,
       "string-net": 1,
       "non-invertible-symmetry": 1,
       "anyon-condensation": 1,
@@ -8383,8 +8853,6 @@
       "superconducting-circuits": 1,
       "Lindblad-dynamics": 1,
       "cat-qubit": 1,
-      "SYK-model": 2,
-      "quantum-chaos": 8,
       "random-matrix-theory": 2,
       "OTOC": 1,
       "thermalization": 4,
@@ -8431,7 +8899,6 @@
       "Experiment & Observation": 30,
       "entanglement-harvesting": 1,
       "curved-spacetime": 3,
-      "Unruh-effect": 1,
       "BTZ": 1,
       "thermodynamics": 8,
       "topological-classification": 1,
@@ -8439,7 +8906,6 @@
       "quantum-field-theory": 4,
       "Hawking-radiation": 1,
       "Schwarzschild": 1,
-      "entanglement": 6,
       "mixed-states": 2,
       "conformal-field-theory": 3,
       "thermal-blocks": 1,
@@ -8453,7 +8919,6 @@
       "quantum-circuits": 2,
       "NISQ": 2,
       "machine-learning": 1,
-      "topological-phases": 3,
       "geometric-phases": 1,
       "neural-networks": 1,
       "time-crystals": 1,
@@ -8486,7 +8951,6 @@
       "astrophysics": 3,
       "white-holes": 1,
       "gamma-rays": 1,
-      "loop-quantum-cosmology": 1,
       "de-sitter": 1,
       "proca-theory": 1,
       "graviton-scattering": 1,
@@ -8536,7 +9000,6 @@
       "multicritical": 1,
       "solitons": 1,
       "k-essence": 1,
-      "dark-energy": 2,
       "string-cloud": 1,
       "orbits": 1,
       "wkb": 1,
@@ -8553,7 +9016,6 @@
       "builds": 4,
       "implementation": 4,
       "agent-architecture": 6,
-      "decoherence": 1,
       "near-extremal": 1,
       "qcd": 1,
       "quark-gluon-plasma": 2,
@@ -8574,7 +9036,6 @@
       "vacuum-entanglement": 1,
       "topological-pump": 1,
       "hubbard-model": 1,
-      "many-body-topology": 1,
       "dmrg": 1,
       "strong-correlations": 1,
       "quantum-quenches": 1,
@@ -8588,8 +9049,6 @@
       "neutrino-oscillations": 1,
       "quantum-resources": 1,
       "path-integral": 1,
-      "singularity-resolution": 1,
-      "Reissner-Nordström": 1,
       "evaporation": 1,
       "semiclassical-gravity": 1,
       "scalar-hair": 1,
@@ -8602,7 +9061,6 @@
       "holography-of-information": 1,
       "baby-universes": 1,
       "firewalls": 1,
-      "black-hole-information": 2,
       "AMPS": 1,
       "entangling-power": 1,
       "quantum-many-body": 3,
@@ -8638,7 +9096,6 @@
       "black-hole information": 1,
       "exotic-compact-objects": 1,
       "fuzzballs": 1,
-      "cosmic-acceleration": 1,
       "gravitational-energy": 1,
       "perturbation-theory": 1,
       "exact-solutions": 1,
@@ -8646,7 +9103,6 @@
       "master-functions": 1,
       "Darboux-transformations": 1,
       "Hamiltonian-formalism": 1,
-      "Page-curve": 1,
       "microcanonical-ensemble": 1,
       "chaos": 1,
       "spinning-test-particles": 1,
@@ -8656,7 +9112,6 @@
       "resurgence": 1,
       "string-theory": 1,
       "relative-entropy": 1,
-      "modular-theory": 1,
       "spacetime-reconstruction": 1,
       "holographic-c-functions": 1,
       "RG-flows": 1,
@@ -8840,7 +9295,6 @@
       "Operator Algebras": 1,
       "Rényi Entropy": 1,
       "Chern-Simons Gravity": 1,
-      "Schwarzian": 1,
       "JT Gravity": 1,
       "Dimensional Reduction": 1,
       "Chiral Anomalies": 1,
@@ -8893,6 +9347,25 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "arxiv": [
+        "2026-06-03",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "web-science": [
         "2026-06-02",
         "2026-06-01",
@@ -8922,24 +9395,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "arxiv": [
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
