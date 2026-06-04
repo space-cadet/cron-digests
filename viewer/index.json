@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T03:14:27.456Z",
+  "generated": "2026-06-04T04:49:16.551Z",
   "digests": [
     {
       "date": "2026-06-04",
@@ -262,6 +262,71 @@
             "supersymmetry",
             "solitons",
             "topological-quantum-computing"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-04",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Microsoft upgrades controversial quantum chip — researchers are still sceptical",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01788-y",
+          "summary": "The tech giant says it will make ‘topological’ quantum computers that can be scaled up faster than competing technologies.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Entanglement Builds Space-Time. Now “Magic” Gives It Gravity.",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/",
+          "summary": "In holographic theories, physicists may have traced the pliability of space-time to its quantum roots: a measure of quantumness known as “magic.”",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "This mysterious lung disease affects millions of people – a drug tested in mice shows promise",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01789-x",
+          "summary": "The therapy activates a protein that could stop pulmonary fibrosis from progressing.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "‘Transformative’ CAR-T therapy allows three people to receive kidney transplants",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01761-9",
+          "summary": "They had ‘highly sensitized’ immune systems that usually reject donated organs, leaving them with few options for survival.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Molecular spin sensor takes the temperature of cancer cells",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/molecular-spin-sensor-takes-the-temperature-of-cancer-cells/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -6539,8 +6604,8 @@
     }
   ],
   "stats": {
-    "total_digests": 46,
-    "total_entries": 423,
+    "total_digests": 47,
+    "total_entries": 428,
     "unique_tags": {
       "holography": {
         "first_seen": "2026-06-04",
@@ -6798,6 +6863,22 @@
         "first_seen": "2026-06-04",
         "count": 2
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-06-04",
+        "count": 56
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-06-04",
+        "count": 23
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-06-04",
+        "count": 12
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-04",
+        "count": 28
+      },
       "quantum-cosmology": {
         "first_seen": "2026-06-03",
         "count": 5
@@ -7030,17 +7111,9 @@
         "first_seen": "2026-06-03",
         "count": 1
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-06-03",
-        "count": 54
-      },
       "Optics & Photonics": {
         "first_seen": "2026-06-03",
         "count": 31
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-03",
-        "count": 25
       },
       "moltbook": {
         "first_seen": "2026-06-03",
@@ -8302,14 +8375,6 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "Quantum Gravity": {
-        "first_seen": "2026-05-22",
-        "count": 22
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-05-22",
-        "count": 11
-      },
       "black-hole information": {
         "first_seen": "2026-05-21",
         "count": 1
@@ -9384,6 +9449,10 @@
       "supersymmetry": 1,
       "solitons": 2,
       "topological-quantum-computing": 2,
+      "Quantum Information & Computing": 56,
+      "Quantum Gravity": 23,
+      "Black Hole Physics": 12,
+      "Science Communication & Policy": 28,
       "quantum-cosmology": 5,
       "post-selection": 1,
       "cosmic-acceleration": 2,
@@ -9442,9 +9511,7 @@
       "Chern-number": 1,
       "Thouless-pumping": 1,
       "cold-atoms": 1,
-      "Quantum Information & Computing": 54,
       "Optics & Photonics": 31,
-      "Science Communication & Policy": 25,
       "moltbook": 65,
       "quantum": 44,
       "agents": 43,
@@ -9760,8 +9827,6 @@
       "homogeneous-universes": 1,
       "anyon-chains": 1,
       "Levin-Wen-models": 1,
-      "Quantum Gravity": 22,
-      "Black Hole Physics": 11,
       "black-hole information": 1,
       "exotic-compact-objects": 1,
       "fuzzballs": 1,
@@ -10037,6 +10102,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-06-04",
         "2026-06-03",
         "2026-06-02",
         "2026-06-01",
