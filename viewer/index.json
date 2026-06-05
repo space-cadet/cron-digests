@@ -1,269 +1,218 @@
 {
-  "generated": "2026-06-05T06:03:19.282Z",
+  "generated": "2026-06-05T15:09:46.826Z",
   "digests": [
     {
       "date": "2026-06-05",
       "type": "arxiv",
-      "title": "# arXiv Morning Digest — 2026-06-05",
+      "title": "# arXiv Digest — 2026-06-05",
       "categories": "hep-th, gr-qc, quant-ph, cond-mat",
-      "items_found": 15,
-      "focus": "quantum gravity, loop quantum gravity, black hole physics, topological order, quantum computing, many-body physics, holography",
+      "items_found": 12,
+      "focus": "quantum gravity, black hole physics, quantum computing, condensed matter, dark energy, superconductivity",
       "entries": [
         {
           "num": 1,
-          "title": "Smooth horizons from topology change in canonical quantum gravity",
-          "authors": "Venkatesa Chandrasekaran",
-          "arxiv_id": "2606.06404",
-          "url": "https://arxivite.org/abs/2606.06404",
-          "categories": "hep-th; gr-qc",
-          "summary": "Proposes a resolution of the firewall paradox in JT gravity using topology change in canonical quantization. The gravitational Hamiltonian acts via pair-of-pants interactions, and Page-time evolution selects a branch where the firewall is annihilated by constraints.",
-          "relevance": "Directly addresses the firewall paradox — one of the deepest puzzles in quantum gravity — using canonical quantization and topology change. The edge-mode formalism and crossed-product algebra provide a rigorous framework connecting horizon dynamics to information recovery.",
+          "title": "Ideal Quantum Geometry for Fractional Chern Insulators",
+          "authors": "Jennifer Cano, Jie Wang",
+          "arxiv_id": "2606.05496",
+          "url": "https://arxivite.org/abs/2606.05496",
+          "categories": "cond-mat.str-el",
+          "summary": "Surveys the role of quantum geometry in condensed matter, focusing on the Berry curvature and quantum metric, and their connection to the lowest Landau level and fractionalized phases in moiré materials.",
+          "relevance": "Directly connects to the QHE-BHE correspondence — the quantum geometry of Bloch bands and the lowest Landau level structure are central to understanding fractional quantum Hall physics. The connection to moiré materials makes it experimentally relevant.",
           "tags": [
-            "firewall-paradox",
-            "quantum-gravity",
-            "black-hole-information",
-            "canonical-quantization",
-            "topology-change",
-            "JT-gravity"
+            "quantum-geometry",
+            "fractional-Chern-insulators",
+            "quantum-Hall-effect",
+            "moiré-materials",
+            "Berry-curvature"
           ]
         },
         {
           "num": 2,
-          "title": "Quantum Geometry from Area Fluctuations",
-          "authors": "Jerzy Kowalski-Glikman, Ludovic Varrin",
-          "arxiv_id": "2606.06372",
-          "url": "https://arxivite.org/abs/2606.06372",
-          "categories": "hep-th; gr-qc",
-          "summary": "Constructs a quantum-statistical analogue of Einstein's fluctuation argument for causal-diamond geometry, showing that area fluctuations of a stretched horizon exhibit a linear term with Verlinde-Zurek scaling — interpreted as evidence for discrete quanta of geometry.",
-          "relevance": "Provides independent statistical evidence for quantum area degrees of freedom, echoing Einstein's original photon argument. The embadon picture of null quantum geometry is a fresh perspective on the discrete structure of spacetime at the Planck scale.",
+          "title": "Gauging the Spacetime Code",
+          "authors": "Gideon Lee",
+          "arxiv_id": "2606.05664",
+          "url": "https://arxivite.org/abs/2606.05664",
+          "categories": "quant-ph",
+          "summary": "Introduces a lattice gauge theory by \"gauging the spacetime code,\" connecting quantum error correction, measurement-based quantum computation, topologically ordered mixed states, and learning theory.",
+          "relevance": "Bridges quantum error correction, topological order, and quantum computation — all themes central to Deepak's interests in quantum computing and topological quantum information.",
           "tags": [
-            "quantum-geometry",
-            "area-fluctuations",
-            "causal-diamond",
-            "Verlinde-Zurek-scaling",
-            "discrete-spacetime"
+            "quantum-error-correction",
+            "topological-order",
+            "lattice-gauge-theory",
+            "measurement-based-computation",
+            "spacetime-code"
           ]
         },
         {
           "num": 3,
-          "title": "Dirichlet walls and the end of time",
-          "authors": "Hanako Helton, Gary T. Horowitz, Donald Marolf",
-          "arxiv_id": "2606.05505",
-          "url": "https://arxivite.org/abs/2606.05505",
-          "categories": "hep-th; gr-qc",
-          "summary": "Shows that Einstein-Hilbert gravity with Dirichlet boundary conditions on finite surfaces can lead to evolution terminating in finite time as singularities reach the boundary, with examples in cosmologies and BTZ black holes.",
-          "relevance": "Horowitz and Marolf are major figures in quantum gravity. The study of boundary conditions and singularities in gravity is fundamental to understanding the classical limit and the predictability of general relativity.",
+          "title": "Superconductivity beyond band geometry: emergence of pair quantum geometry",
+          "authors": "Mehmet Akif Keskiner, Menderes Işkın",
+          "arxiv_id": "2606.06017",
+          "url": "https://arxivite.org/abs/2606.06017",
+          "categories": "cond-mat.supr-con",
+          "summary": "Extends the concept of quantum geometry from single-particle states to Cooper pairs, showing that pair quantum geometry contributes significantly to the effective mass in superconductors beyond conventional band geometry.",
+          "relevance": "Quantum geometry is emerging as a fundamental concept in both condensed matter and quantum gravity. The extension to paired states connects to the role of geometry in many-body quantum systems.",
           "tags": [
-            "singularities",
-            "boundary-conditions",
-            "Dirichlet",
-            "BTZ-black-hole",
-            "classical-gravity"
+            "superconductivity",
+            "quantum-geometry",
+            "Cooper-pairs",
+            "effective-mass",
+            "multiband-Hubbard"
           ]
         },
         {
           "num": 4,
-          "title": "Charting the different phases of Yang-Mills-Chern-Simons-Higgs theories",
-          "authors": "Daniel O. R. Azevedo, Gustavo P. de Brito, Philipe De Fabritiis, Antonio D. Pereira",
-          "arxiv_id": "2606.05562",
-          "url": "https://arxivite.org/abs/2606.05562",
-          "categories": "hep-th; hep-ph",
-          "summary": "Maps the phase diagram of Yang-Mills-Chern-Simons-Higgs theories in 3D, identifying confining and deconfined phases through the interplay of Higgs, Chern-Simons, and Gribov mass parameters with the Gribov gap equation.",
-          "relevance": "Chern-Simons theory is central to topological quantum field theory and the QHE-BHE correspondence. Understanding the phase structure of Yang-Mills-Chern-Simons-Higgs theories has implications for both condensed matter and high-energy physics.",
+          "title": "The first decade of gravitational-wave measurements of black hole spins",
+          "authors": "Sylvia Biscoveanu",
+          "arxiv_id": "2606.06209",
+          "url": "https://arxivite.org/abs/2606.06209",
+          "categories": "gr-qc",
+          "summary": "Reviews the first decade of gravitational-wave measurements of black hole spins, covering formation channels, waveform imprints, and population-level constraints from over 100 confirmed events.",
+          "relevance": "Black hole spin is a key observable connecting astrophysics to quantum gravity. The population-level constraints inform models of black hole formation and evolution, which are relevant to the QHE-BHE correspondence and black hole thermodynamics.",
           "tags": [
-            "Chern-Simons",
-            "Yang-Mills",
-            "topological-field-theory",
-            "confinement",
-            "Gribov-copies",
-            "phase-transitions"
+            "gravitational-waves",
+            "black-hole-spins",
+            "binary-black-holes",
+            "population-astrophysics",
+            "LIGO"
           ]
         },
         {
           "num": 5,
-          "title": "$E_\\infty^{1,2}$-type Lieb-Schultz-Mattis anomalies, deconfined quantum critical points, and non-invertible symmetry breaking",
-          "authors": "Hao-Ran Zhang, Hanlin Lin, Shuo Yang, Qing-Rui Wang",
-          "arxiv_id": "2606.06343",
-          "url": "https://arxivite.org/abs/2606.06343",
-          "categories": "cond-mat.str-el; hep-th; math-ph",
-          "summary": "Characterizes LSM anomalies via spectral sequences and shows that gauging internal symmetries with $E_\\infty^{1,2}$ anomalies produces non-invertible dual symmetries, giving a general mechanism for type-II deconfined quantum critical points.",
-          "relevance": "Deconfined quantum criticality is a frontier topic connecting condensed matter physics to high-energy and mathematical physics. The spectral sequence formalism and non-invertible symmetries provide powerful tools for classifying quantum phase transitions.",
+          "title": "Running Vacuum in the expanding Universe: a unified QFT paradigm for Inflation and Dark Energy",
+          "authors": "Joan Solà Peracaula",
+          "arxiv_id": "2606.05352",
+          "url": "https://arxivite.org/abs/2606.05352",
+          "categories": "gr-qc",
+          "summary": "Proposes a running vacuum model (RVM) based on QFT in curved spacetime that unifies inflation and dark energy through a dynamically evolving vacuum energy density, without requiring an inflaton field.",
+          "relevance": "Offers a unified QFT framework for both inflation and dark energy through quantum effects in curved spacetime. The connection to DESI measurements and evolving fundamental constants makes it observationally relevant.",
           "tags": [
-            "deconfined-quantum-criticality",
-            "LSM-anomaly",
-            "non-invertible-symmetry",
-            "spectral-sequence",
-            "spin-chains"
+            "dark-energy",
+            "inflation",
+            "quantum-field-theory",
+            "curved-spacetime",
+            "running-vacuum",
+            "DESI"
           ]
         },
         {
           "num": 6,
-          "title": "Detecting Topological Transitions and Anisotropy through Multipartite Entanglement in Holographic Weyl Semimetals",
-          "authors": "Xiantong Chen, Xuanting Ji, Wen-Peng Li, Ya-Wen Sun",
-          "arxiv_id": "2606.05757",
-          "url": "https://arxivite.org/abs/2606.05757",
-          "categories": "hep-th; cond-mat.str-el",
-          "summary": "Uses multipartite holographic entanglement measures (conditional mutual information, entanglement wedge cross sections, Markov gap) to diagnose topological quantum phase transitions and anisotropy in holographic Weyl semimetals.",
-          "relevance": "Connects holography to topological condensed matter in a concrete way. The use of multipartite entanglement as a probe of topological transitions bridges quantum information, high-energy, and condensed matter physics.",
+          "title": "Improved unimodular black holes with self-consistent renormalization scale identification",
+          "authors": "Christopher D. Carone",
+          "arxiv_id": "2606.05507",
+          "url": "https://arxivite.org/abs/2606.05507",
+          "categories": "gr-qc",
+          "summary": "Constructs non-singular unimodular black hole metrics through renormalization group improvement, with self-consistent identification of the renormalization scale.",
+          "relevance": "Non-singular black hole metrics are a key area in quantum gravity phenomenology. The renormalization group approach connects quantum field theory methods to black hole spacetime structure.",
           "tags": [
-            "holography",
-            "Weyl-semimetal",
-            "topological-phase-transitions",
-            "multipartite-entanglement",
-            "entanglement-wedge"
+            "black-holes",
+            "non-singular-metrics",
+            "renormalization-group",
+            "unimodular-gravity",
+            "quantum-gravity-phenomenology"
           ]
         },
         {
           "num": 7,
-          "title": "Polymer quantum mechanics on compact configuration spaces",
-          "authors": "Maxwell R. Siebersma, Basie Seibert, Samuel Shuman, David A. Craig",
-          "arxiv_id": "2606.06019",
-          "url": "https://arxiv.org/abs/2606.06019",
-          "categories": "quant-ph; gr-qc",
-          "summary": "Develops polymer quantization for compact configuration spaces (particle on a ring, particle in a box), finding exact eigenvalues and eigenfunctions on finite graphs and exploring the continuum limit.",
-          "relevance": "Polymer quantization is the foundational framework of loop quantum cosmology. Extending it to compact spaces and studying the continuum limit is directly relevant to understanding the semiclassical regime of LQG.",
+          "title": "Chiral symmetry breaking in models with unconventional supersymmetry",
+          "authors": "Pedro D. Alvarez, Cristian Villavicencio, Jorge Zanelli",
+          "arxiv_id": "2606.06221",
+          "url": "https://arxivite.org/abs/2606.06221",
+          "categories": "hep-th",
+          "summary": "Shows that chiral symmetry breaking and fermion mass generation emerge dynamically from the geometric structure of a gauge theory based on the super Lie algebra su(2,2|3), without elementary scalars.",
+          "relevance": "Unifies gravity, Yang-Mills fields, and fermions through a single gauge connection based on a super Lie algebra. The geometric origin of mass generation is a deep structural result connecting supersymmetry to phenomenology.",
           "tags": [
-            "polymer-quantization",
-            "loop-quantum-gravity",
-            "compact-spaces",
-            "semiclassical-limit",
-            "quantum-cosmology"
+            "supersymmetry",
+            "chiral-symmetry-breaking",
+            "gauge-theory",
+            "super-Lie-algebra",
+            "mass-generation"
           ]
         },
         {
           "num": 8,
-          "title": "The Atacama Cosmology Telescope: Probing new signatures of ultralight axions with gravitational lensing",
-          "authors": "Alex Laguë, Keir K. Rogers, Mathew S. Madhavacheril, J. Richard Bond, Erminia Calabrese, Mark J. Devlin, Jo Dunkley, Vera Gluscevic, Renée Hložek, Hidde T. Jense, Thibaut Louis, Frank J. Qu, Bernardita Ried Guachalla, Neelima Sehgal, Blake D. Sherwin, Suzanne T. Staggs, Alexander van Engelen",
-          "arxiv_id": "2606.06410",
-          "url": "https://arxivite.org/abs/2606.06410",
-          "categories": "astro-ph.CO; gr-qc",
-          "summary": "Uses CMB lensing data from Planck, ACT, and SPT-3G to constrain ultralight axion dark matter in the mass range $10^{-26}$ to $10^{-24.5}$ eV, finding the strongest constraints yet and a slight $2.1\\sigma$ preference at $10^{-24.5}$ eV.",
-          "relevance": "Ultralight axions are a well-motivated dark matter candidate with connections to string theory and quantum gravity. The combination of CMB lensing and nonlinear clustering models provides observational constraints on quantum gravity phenomenology.",
+          "title": "Phenomenology of Inflaton-Driven Early QCD Confinement and Solution to Axion Isocurvature Problem",
+          "authors": "Evangelos I. Sfakianakis, Barmak Shams Es Haghi, Katherine Freese",
+          "arxiv_id": "2606.06484",
+          "url": "https://arxivite.org/abs/2606.06484",
+          "categories": "astro-ph.CO",
+          "summary": "Proposes that inflaton-gluon coupling drives early QCD confinement during inflation, suppressing axion isocurvature perturbations and generating dark matter abundance through deconfinement dynamics.",
+          "relevance": "Connects inflation, QCD confinement, axion dark matter, and supersymmetry in a unified phenomenological framework. The interplay between high-energy physics and cosmology is central to understanding the early universe.",
           "tags": [
-            "ultralight-axions",
-            "dark-matter",
-            "CMB-lensing",
-            "ACT",
-            "cosmology"
+            "inflation",
+            "axion-dark-matter",
+            "QCD-confinement",
+            "isocurvature-problem",
+            "supersymmetry"
           ]
         },
         {
           "num": 9,
-          "title": "Symmetry-adapted qubit encoding with complete active space and Bravyi--Kitaev mapping for quantum chemistry on a quantum computer",
-          "authors": "Dario Picozzi",
-          "arxiv_id": "2606.05865",
-          "url": "https://arxivite.org/abs/2606.05865",
+          "title": "Forbidden transitions in superconducting artificial atoms",
+          "authors": "Alberto Del Ángel Medina, Théo Sépulcre, Ricardo Gutiérrez-Jáuregui, Anton Frisk Kockum",
+          "arxiv_id": "2606.06069",
+          "url": "https://arxivite.org/abs/2606.06069",
           "categories": "quant-ph",
-          "summary": "Introduces a symmetry-adapted qubit encoding with complete active space (SAE-CAS) for quantum chemistry, integrating Bravyi-Kitaev mapping and point-group symmetries to reduce qubit requirements and accelerate VQE convergence.",
-          "relevance": "Quantum chemistry on quantum computers is a major application area for quantum computing. The SAE-CAS encoding reduces resource requirements significantly, making near-term molecular simulations more practical.",
+          "summary": "Develops a microscopic theory for Josephson junctions in electromagnetic fields, showing that quadrupole transitions can drive the junction even where the electric field vanishes.",
+          "relevance": "Superconducting artificial atoms are a key platform for quantum computing and quantum optics. The microscopic theory of field-junction interactions advances the understanding of quantum control in these devices.",
           "tags": [
-            "quantum-computing",
-            "quantum-chemistry",
-            "VQE",
-            "Bravyi-Kitaev",
-            "symmetry-adapted-encoding"
+            "superconducting-circuits",
+            "Josephson-junctions",
+            "quantum-optics",
+            "artificial-atoms",
+            "quadrupole-transitions"
           ]
         },
         {
           "num": 10,
-          "title": "Symmetries and overparametrization properties of Hamiltonian variational ansatzes for the $(1+1)$d $\\mathbb{Z}_2$ lattice gauge theory",
-          "authors": "Yutaro Iiyama",
-          "arxiv_id": "2606.05719",
-          "url": "https://arxivite.org/abs/2606.05719",
-          "categories": "quant-ph; hep-lat",
-          "summary": "Studies Hamiltonian variational ansatzes for 1+1D Z2 lattice gauge theory, analyzing dynamical Lie algebra dimensions, quantum Fisher information, and overparametrization effects in VQE optimization.",
-          "relevance": "Lattice gauge theory is a cornerstone of quantum field theory. Using VQE to study gauge theories on quantum computers is a promising direction, and understanding overparametrization is crucial for practical algorithm design.",
+          "title": "Superconducting triode effect in a quantum-dot Josephson junction with a biased top gate",
+          "authors": "Yu-Hang Li, Xiaan Du, Hua Jiang, X. C. Xie",
+          "arxiv_id": "2606.06465",
+          "url": "https://arxivite.org/abs/2606.06465",
+          "categories": "cond-mat.mes-hall",
+          "summary": "Proposes a superconducting triode effect in a quantum-dot Josephson junction with a top gate, achieving non-reciprocal supercurrent with time-reversal symmetry preserved.",
+          "relevance": "Superconducting devices with non-reciprocal effects are promising for quantum electronics and topological quantum computing. The triode effect provides a new tuning mechanism for supercurrent control.",
           "tags": [
-            "quantum-computing",
-            "lattice-gauge-theory",
-            "VQE",
-            "overparametrization",
-            "Hamiltonian-variational-ansatz"
+            "superconducting-diode-effect",
+            "Josephson-junction",
+            "non-reciprocal-supercurrent",
+            "quantum-dot",
+            "Shapiro-steps"
           ]
         },
         {
           "num": 11,
-          "title": "Information-Geometric Bound on the Robustness of Entanglement Generation",
-          "authors": "Zain Saleem",
-          "arxiv_id": "2606.05696",
-          "url": "https://arxivite.org/abs/2606.05696",
-          "categories": "quant-ph",
-          "summary": "Establishes a direct connection between the robustness of entanglement generation and quantum Fisher information, showing that concurrence reduction due to interaction fluctuations is bounded by QFI.",
-          "relevance": "Entanglement is the core resource for quantum computing and quantum gravity (e.g., ER=EPR). Understanding its robustness under imperfections is essential for both practical quantum devices and theoretical frameworks.",
+          "title": "Fast gravitational waveform models for quasi-circular coalescences of neutron star--black hole binaries",
+          "authors": "Felip A. Ramis Vidal, Adrian Abac, Marta Colleoni, Tim Dietrich et al.",
+          "arxiv_id": "2606.04810",
+          "url": "https://arxivite.org/abs/2606.04810",
+          "categories": "gr-qc",
+          "summary": "Introduces the first frequency-domain gravitational-wave models for neutron star–black hole binaries including higher-order modes and tidal effects, calibrated to numerical relativity.",
+          "relevance": "Gravitational-wave astronomy provides unique observational windows into compact objects. The NSBH models with higher-order modes improve parameter estimation and waveform accuracy for real events.",
           "tags": [
-            "entanglement",
-            "quantum-Fisher-information",
-            "robustness",
-            "quantum-information",
-            "concurrence"
+            "gravitational-waves",
+            "neutron-star-black-hole",
+            "numerical-relativity",
+            "waveform-models",
+            "higher-order-modes"
           ]
         },
         {
           "num": 12,
-          "title": "1/3 Fractional and Gapless Integer Quantum Anomalous Hall States in Rhombohedral Graphene",
-          "authors": "Jackson Butler, T. C. B. (and others - full author list in paper)",
-          "arxiv_id": "2606.06450",
-          "url": "https://arxivite.org/abs/2606.06450",
-          "categories": "cond-mat.mes-hall",
-          "summary": "Reports the first observation of the ν=1/3 fractional quantum anomalous Hall state in rhombohedral graphene/hBN moiré superlattices, with thermodynamic evidence for anyon braiding and non-Abelian quasiparticles at zero magnetic field.",
-          "relevance": "The fractional quantum Hall effect is central to Deepak's QHE-BHE correspondence. This experimental realization in a new platform (moiré graphene) provides another avenue for studying topological order and anyon braiding — directly connected to quantum computing and quantum gravity.",
+          "title": "First Constraints on the Ellipticities of Self-Interacting Fermionic Dark Matter Admixed Neutron Stars from Continuous Gravitational-Wave Searches",
+          "authors": "Premachand Mahapatra, Andrew L. Miller, Prasanta Kumar Das",
+          "arxiv_id": "2606.05082",
+          "url": "https://arxivite.org/abs/2606.05082",
+          "categories": "astro-ph.CO",
+          "summary": "Places first constraints on dark matter-induced deformations (\"dark mountains\") in neutron stars using continuous gravitational-wave searches from LIGO O3 data, and projects sensitivities for future detectors.",
+          "relevance": "Dark matter and neutron stars are both relevant to quantum gravity phenomenology. The gravitational-wave constraints on self-interacting dark matter connect particle physics to astrophysical observations.",
           "tags": [
-            "fractional-quantum-Hall",
-            "moiré-graphene",
-            "anyons",
-            "topological-order",
-            "non-Abelian-quasiparticles"
-          ]
-        },
-        {
-          "num": 13,
-          "title": "Odd-parity magnons in the Haldane-Hubbard model from topological exciton condensation",
-          "authors": "Rintaro Eto, T. C. B. (and others - full author list in paper)",
-          "arxiv_id": "2606.05837",
-          "url": "https://arxivite.org/abs/2606.05837",
-          "categories": "cond-mat.str-el; cond-mat.mes-hall; cond-mat.mtrl-sci",
-          "summary": "Identifies topological excitons in the Haldane-Hubbard model and their condensation into a Néel state with odd-parity magnons, revealing topology changes and enlarged spin splitting.",
-          "relevance": "The Haldane-Hubbard model is a paradigmatic model for topological many-body physics. Understanding topological excitons and odd-parity magnons enriches the toolkit for engineering topological states in quantum materials.",
-          "tags": [
-            "Haldane-Hubbard",
-            "topological-excitons",
-            "magnons",
-            "odd-parity",
-            "many-body-physics"
-          ]
-        },
-        {
-          "num": 14,
-          "title": "Majorana-like fermion physics: Emergence of topologically protected vortical states in graphene interacting with an electromagnetic field",
-          "authors": "George Krylov, V. A. (and others - full author list in paper)",
-          "arxiv_id": "2606.05746",
-          "url": "https://arxivite.org/abs/2606.05746",
-          "categories": "cond-mat.mes-hall; cond-mat.str-el",
-          "summary": "Proposes a quasi-relativistic model of graphene with Majorana-like quasiparticle excitations, showing that vortex states with nonzero Zak phases appear in the optical response under electromagnetic fields.",
-          "relevance": "Majorana zero modes are a cornerstone of topological quantum computing. This work provides a graphene-based platform for realizing Majorana-like modes with topological protection, connecting to both condensed matter and high-energy physics (neutrino oscillations).",
-          "tags": [
-            "Majorana-modes",
-            "graphene",
-            "topological-protection",
-            "Zak-phase",
-            "topological-quantum-computing"
-          ]
-        },
-        {
-          "num": 15,
-          "title": "Black Bounce Solutions from a Self-Interacting 3-Form Field in General Relativity",
-          "authors": "Francisco S.N. Lobo, Manuel E. Rodrigues",
-          "arxiv_id": "2606.05508",
-          "url": "https://arxivite.org/abs/2606.05508",
-          "categories": "gr-qc; astro-ph.HE; hep-th",
-          "summary": "Constructs exact black-bounce solutions interpolating between black holes and traversable wormholes, sourced by a self-interacting 3-form field in general relativity, with two classes of globally regular solutions.",
-          "relevance": "Black bounce solutions are regular black hole alternatives that avoid singularities. Using 3-form fields (which arise naturally in string theory) to source these solutions provides a physically motivated framework within pure GR.",
-          "tags": [
-            "black-bounce",
-            "regular-black-holes",
-            "3-form-field",
-            "wormholes",
-            "string-theory"
+            "dark-matter",
+            "neutron-stars",
+            "gravitational-waves",
+            "continuous-waves",
+            "LIGO",
+            "self-interacting-dark-matter"
           ]
         }
       ]
@@ -7014,157 +6963,213 @@
   ],
   "stats": {
     "total_digests": 50,
-    "total_entries": 453,
+    "total_entries": 450,
     "unique_tags": {
-      "firewall-paradox": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-06-05",
-        "count": 28
-      },
-      "black-hole-information": {
-        "first_seen": "2026-06-05",
-        "count": 5
-      },
-      "canonical-quantization": {
-        "first_seen": "2026-06-05",
-        "count": 3
-      },
-      "topology-change": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "JT-gravity": {
-        "first_seen": "2026-06-05",
-        "count": 3
-      },
       "quantum-geometry": {
         "first_seen": "2026-06-05",
-        "count": 2
+        "count": 3
       },
-      "area-fluctuations": {
+      "fractional-Chern-insulators": {
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "causal-diamond": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "Verlinde-Zurek-scaling": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "discrete-spacetime": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "singularities": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "boundary-conditions": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "Dirichlet": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "BTZ-black-hole": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "classical-gravity": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "Chern-Simons": {
-        "first_seen": "2026-06-05",
-        "count": 2
-      },
-      "Yang-Mills": {
-        "first_seen": "2026-06-05",
-        "count": 2
-      },
-      "topological-field-theory": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "confinement": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "Gribov-copies": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "phase-transitions": {
-        "first_seen": "2026-06-05",
-        "count": 5
-      },
-      "deconfined-quantum-criticality": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "LSM-anomaly": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "non-invertible-symmetry": {
-        "first_seen": "2026-06-05",
-        "count": 2
-      },
-      "spectral-sequence": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "spin-chains": {
+      "quantum-Hall-effect": {
         "first_seen": "2026-06-05",
         "count": 3
       },
-      "holography": {
+      "moiré-materials": {
         "first_seen": "2026-06-05",
-        "count": 20
+        "count": 2
       },
-      "Weyl-semimetal": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "topological-phase-transitions": {
+      "Berry-curvature": {
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "multipartite-entanglement": {
+      "quantum-error-correction": {
+        "first_seen": "2026-06-05",
+        "count": 3
+      },
+      "topological-order": {
+        "first_seen": "2026-06-05",
+        "count": 11
+      },
+      "lattice-gauge-theory": {
+        "first_seen": "2026-06-05",
+        "count": 2
+      },
+      "measurement-based-computation": {
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "entanglement-wedge": {
+      "spacetime-code": {
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "polymer-quantization": {
+      "superconductivity": {
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-06-05",
-        "count": 6
-      },
-      "compact-spaces": {
+      "Cooper-pairs": {
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "semiclassical-limit": {
+      "effective-mass": {
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "quantum-cosmology": {
+      "multiband-Hubbard": {
         "first_seen": "2026-06-05",
-        "count": 6
+        "count": 1
       },
-      "ultralight-axions": {
+      "gravitational-waves": {
+        "first_seen": "2026-06-05",
+        "count": 12
+      },
+      "black-hole-spins": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "binary-black-holes": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "population-astrophysics": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "LIGO": {
+        "first_seen": "2026-06-05",
+        "count": 3
+      },
+      "dark-energy": {
+        "first_seen": "2026-06-05",
+        "count": 4
+      },
+      "inflation": {
+        "first_seen": "2026-06-05",
+        "count": 3
+      },
+      "quantum-field-theory": {
+        "first_seen": "2026-06-05",
+        "count": 5
+      },
+      "curved-spacetime": {
+        "first_seen": "2026-06-05",
+        "count": 4
+      },
+      "running-vacuum": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "DESI": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "black-holes": {
+        "first_seen": "2026-06-05",
+        "count": 25
+      },
+      "non-singular-metrics": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "renormalization-group": {
+        "first_seen": "2026-06-05",
+        "count": 2
+      },
+      "unimodular-gravity": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "quantum-gravity-phenomenology": {
+        "first_seen": "2026-06-05",
+        "count": 2
+      },
+      "supersymmetry": {
+        "first_seen": "2026-06-05",
+        "count": 3
+      },
+      "chiral-symmetry-breaking": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "gauge-theory": {
+        "first_seen": "2026-06-05",
+        "count": 2
+      },
+      "super-Lie-algebra": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "mass-generation": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "axion-dark-matter": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "QCD-confinement": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "isocurvature-problem": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "superconducting-circuits": {
+        "first_seen": "2026-06-05",
+        "count": 2
+      },
+      "Josephson-junctions": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "quantum-optics": {
+        "first_seen": "2026-06-05",
+        "count": 2
+      },
+      "artificial-atoms": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "quadrupole-transitions": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "superconducting-diode-effect": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "Josephson-junction": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "non-reciprocal-supercurrent": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "quantum-dot": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "Shapiro-steps": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "neutron-star-black-hole": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "numerical-relativity": {
+        "first_seen": "2026-06-05",
+        "count": 2
+      },
+      "waveform-models": {
+        "first_seen": "2026-06-05",
+        "count": 1
+      },
+      "higher-order-modes": {
         "first_seen": "2026-06-05",
         "count": 1
       },
@@ -7172,149 +7177,17 @@
         "first_seen": "2026-06-05",
         "count": 5
       },
-      "CMB-lensing": {
+      "neutron-stars": {
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "ACT": {
+      "continuous-waves": {
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "cosmology": {
-        "first_seen": "2026-06-05",
-        "count": 5
-      },
-      "quantum-computing": {
-        "first_seen": "2026-06-05",
-        "count": 12
-      },
-      "quantum-chemistry": {
+      "self-interacting-dark-matter": {
         "first_seen": "2026-06-05",
         "count": 1
-      },
-      "VQE": {
-        "first_seen": "2026-06-05",
-        "count": 2
-      },
-      "Bravyi-Kitaev": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "symmetry-adapted-encoding": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "lattice-gauge-theory": {
-        "first_seen": "2026-06-05",
-        "count": 2
-      },
-      "overparametrization": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "Hamiltonian-variational-ansatz": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "entanglement": {
-        "first_seen": "2026-06-05",
-        "count": 10
-      },
-      "quantum-Fisher-information": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "robustness": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "quantum-information": {
-        "first_seen": "2026-06-05",
-        "count": 8
-      },
-      "concurrence": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "fractional-quantum-Hall": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "moiré-graphene": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "anyons": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "topological-order": {
-        "first_seen": "2026-06-05",
-        "count": 11
-      },
-      "non-Abelian-quasiparticles": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "Haldane-Hubbard": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "topological-excitons": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "magnons": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "odd-parity": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "many-body-physics": {
-        "first_seen": "2026-06-05",
-        "count": 5
-      },
-      "Majorana-modes": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "graphene": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "topological-protection": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "Zak-phase": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "topological-quantum-computing": {
-        "first_seen": "2026-06-05",
-        "count": 3
-      },
-      "black-bounce": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "regular-black-holes": {
-        "first_seen": "2026-06-05",
-        "count": 4
-      },
-      "3-form-field": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
-      "wormholes": {
-        "first_seen": "2026-06-05",
-        "count": 4
-      },
-      "string-theory": {
-        "first_seen": "2026-06-05",
-        "count": 2
       },
       "Optics & Photonics": {
         "first_seen": "2026-06-05",
@@ -7324,6 +7197,10 @@
         "first_seen": "2026-06-05",
         "count": 30
       },
+      "holography": {
+        "first_seen": "2026-06-04",
+        "count": 19
+      },
       "black-hole-thermodynamics": {
         "first_seen": "2026-06-04",
         "count": 8
@@ -7331,6 +7208,10 @@
       "AdS-CFT": {
         "first_seen": "2026-06-04",
         "count": 7
+      },
+      "phase-transitions": {
+        "first_seen": "2026-06-04",
+        "count": 4
       },
       "off-shell-thermodynamics": {
         "first_seen": "2026-06-04",
@@ -7384,6 +7265,10 @@
         "first_seen": "2026-06-04",
         "count": 1
       },
+      "quantum-gravity": {
+        "first_seen": "2026-06-04",
+        "count": 27
+      },
       "cosmological-constant": {
         "first_seen": "2026-06-04",
         "count": 2
@@ -7408,13 +7293,25 @@
         "first_seen": "2026-06-04",
         "count": 1
       },
-      "black-holes": {
+      "quantum-information": {
         "first_seen": "2026-06-04",
-        "count": 24
+        "count": 7
       },
       "ER=EPR": {
         "first_seen": "2026-06-04",
         "count": 1
+      },
+      "entanglement": {
+        "first_seen": "2026-06-04",
+        "count": 9
+      },
+      "wormholes": {
+        "first_seen": "2026-06-04",
+        "count": 3
+      },
+      "black-hole-information": {
+        "first_seen": "2026-06-04",
+        "count": 4
       },
       "emergent-gravity": {
         "first_seen": "2026-06-04",
@@ -7476,6 +7373,10 @@
         "first_seen": "2026-06-04",
         "count": 1
       },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-06-04",
+        "count": 5
+      },
       "hyperbolic-geometry": {
         "first_seen": "2026-06-04",
         "count": 1
@@ -7483,10 +7384,6 @@
       "gravitational-decoherence": {
         "first_seen": "2026-06-04",
         "count": 2
-      },
-      "quantum-gravity-phenomenology": {
-        "first_seen": "2026-06-04",
-        "count": 1
       },
       "macroscopic-superpositions": {
         "first_seen": "2026-06-04",
@@ -7499,10 +7396,6 @@
       "decoherence": {
         "first_seen": "2026-06-04",
         "count": 3
-      },
-      "quantum-Hall-effect": {
-        "first_seen": "2026-06-04",
-        "count": 2
       },
       "topological-insulator": {
         "first_seen": "2026-06-04",
@@ -7528,11 +7421,11 @@
         "first_seen": "2026-06-04",
         "count": 3
       },
-      "supersymmetry": {
-        "first_seen": "2026-06-04",
-        "count": 1
-      },
       "solitons": {
+        "first_seen": "2026-06-04",
+        "count": 2
+      },
+      "topological-quantum-computing": {
         "first_seen": "2026-06-04",
         "count": 2
       },
@@ -7564,6 +7457,10 @@
         "first_seen": "2026-06-04",
         "count": 31
       },
+      "quantum-cosmology": {
+        "first_seen": "2026-06-03",
+        "count": 5
+      },
       "post-selection": {
         "first_seen": "2026-06-03",
         "count": 1
@@ -7571,6 +7468,10 @@
       "cosmic-acceleration": {
         "first_seen": "2026-06-03",
         "count": 2
+      },
+      "Chern-Simons": {
+        "first_seen": "2026-06-03",
+        "count": 1
       },
       "Wheeler-DeWitt": {
         "first_seen": "2026-06-03",
@@ -7580,9 +7481,9 @@
         "first_seen": "2026-06-03",
         "count": 1
       },
-      "dark-energy": {
+      "cosmology": {
         "first_seen": "2026-06-03",
-        "count": 3
+        "count": 4
       },
       "loop-quantum-cosmology": {
         "first_seen": "2026-06-03",
@@ -7736,10 +7637,6 @@
         "first_seen": "2026-06-03",
         "count": 1
       },
-      "moiré-materials": {
-        "first_seen": "2026-06-03",
-        "count": 1
-      },
       "quantum-phase-transition": {
         "first_seen": "2026-06-03",
         "count": 1
@@ -7876,10 +7773,6 @@
         "first_seen": "2026-05-30",
         "count": 3
       },
-      "gravitational-waves": {
-        "first_seen": "2026-05-30",
-        "count": 9
-      },
       "entropy": {
         "first_seen": "2026-05-30",
         "count": 2
@@ -7908,11 +7801,11 @@
         "first_seen": "2026-05-30",
         "count": 1
       },
-      "asymptotic-safety": {
+      "Yang-Mills": {
         "first_seen": "2026-05-30",
         "count": 1
       },
-      "renormalization-group": {
+      "asymptotic-safety": {
         "first_seen": "2026-05-30",
         "count": 1
       },
@@ -7925,10 +7818,6 @@
         "count": 1
       },
       "UV-completion": {
-        "first_seen": "2026-05-30",
-        "count": 1
-      },
-      "quantum-optics": {
         "first_seen": "2026-05-30",
         "count": 1
       },
@@ -7983,6 +7872,14 @@
       "Hamiltonian": {
         "first_seen": "2026-05-30",
         "count": 1
+      },
+      "canonical-quantization": {
+        "first_seen": "2026-05-30",
+        "count": 2
+      },
+      "quantum-computing": {
+        "first_seen": "2026-05-30",
+        "count": 10
       },
       "Lindbladian": {
         "first_seen": "2026-05-30",
@@ -8048,6 +7945,10 @@
         "first_seen": "2026-05-30",
         "count": 1
       },
+      "many-body-physics": {
+        "first_seen": "2026-05-30",
+        "count": 4
+      },
       "strongly-correlated-electrons": {
         "first_seen": "2026-05-30",
         "count": 3
@@ -8084,6 +7985,10 @@
         "first_seen": "2026-05-29",
         "count": 1
       },
+      "non-invertible-symmetry": {
+        "first_seen": "2026-05-29",
+        "count": 1
+      },
       "anyon-condensation": {
         "first_seen": "2026-05-29",
         "count": 1
@@ -8093,10 +7998,6 @@
         "count": 2
       },
       "tensor-network": {
-        "first_seen": "2026-05-29",
-        "count": 1
-      },
-      "superconducting-circuits": {
         "first_seen": "2026-05-29",
         "count": 1
       },
@@ -8208,6 +8109,10 @@
         "first_seen": "2026-05-29",
         "count": 1
       },
+      "regular-black-holes": {
+        "first_seen": "2026-05-29",
+        "count": 3
+      },
       "nonlinear-electrodynamics": {
         "first_seen": "2026-05-29",
         "count": 2
@@ -8219,6 +8124,10 @@
       "Hayward": {
         "first_seen": "2026-05-29",
         "count": 1
+      },
+      "JT-gravity": {
+        "first_seen": "2026-05-29",
+        "count": 2
       },
       "RG-flow": {
         "first_seen": "2026-05-29",
@@ -8240,10 +8149,6 @@
         "first_seen": "2026-05-29",
         "count": 3
       },
-      "inflation": {
-        "first_seen": "2026-05-29",
-        "count": 1
-      },
       "tensor-power-spectrum": {
         "first_seen": "2026-05-29",
         "count": 1
@@ -8264,10 +8169,6 @@
         "first_seen": "2026-05-28",
         "count": 1
       },
-      "curved-spacetime": {
-        "first_seen": "2026-05-28",
-        "count": 3
-      },
       "BTZ": {
         "first_seen": "2026-05-28",
         "count": 1
@@ -8283,10 +8184,6 @@
       "Proca-field": {
         "first_seen": "2026-05-28",
         "count": 1
-      },
-      "quantum-field-theory": {
-        "first_seen": "2026-05-28",
-        "count": 4
       },
       "Hawking-radiation": {
         "first_seen": "2026-05-28",
@@ -8313,10 +8210,6 @@
         "count": 1
       },
       "gravitoelectromagnetism": {
-        "first_seen": "2026-05-28",
-        "count": 1
-      },
-      "gauge-theory": {
         "first_seen": "2026-05-28",
         "count": 1
       },
@@ -8444,10 +8337,6 @@
         "first_seen": "2026-05-27",
         "count": 1
       },
-      "LIGO": {
-        "first_seen": "2026-05-27",
-        "count": 1
-      },
       "hairy-black-holes": {
         "first_seen": "2026-05-27",
         "count": 4
@@ -8511,10 +8400,6 @@
       "BMN": {
         "first_seen": "2026-05-27",
         "count": 1
-      },
-      "quantum-error-correction": {
-        "first_seen": "2026-05-27",
-        "count": 2
       },
       "homomorphic-encryption": {
         "first_seen": "2026-05-27",
@@ -8760,6 +8645,10 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
+      "spin-chains": {
+        "first_seen": "2026-05-25",
+        "count": 2
+      },
       "quantum-spacetime": {
         "first_seen": "2026-05-25",
         "count": 1
@@ -8853,10 +8742,6 @@
         "count": 1
       },
       "black-hole-mergers": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
-      "numerical-relativity": {
         "first_seen": "2026-05-22",
         "count": 1
       },
@@ -9053,6 +8938,10 @@
         "count": 1
       },
       "resurgence": {
+        "first_seen": "2026-05-21",
+        "count": 1
+      },
+      "string-theory": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -9994,85 +9883,68 @@
       }
     },
     "tag_counts": {
-      "firewall-paradox": 1,
-      "quantum-gravity": 28,
-      "black-hole-information": 5,
-      "canonical-quantization": 3,
-      "topology-change": 1,
-      "JT-gravity": 3,
-      "quantum-geometry": 2,
-      "area-fluctuations": 1,
-      "causal-diamond": 1,
-      "Verlinde-Zurek-scaling": 1,
-      "discrete-spacetime": 1,
-      "singularities": 1,
-      "boundary-conditions": 1,
-      "Dirichlet": 1,
-      "BTZ-black-hole": 1,
-      "classical-gravity": 1,
-      "Chern-Simons": 2,
-      "Yang-Mills": 2,
-      "topological-field-theory": 1,
-      "confinement": 1,
-      "Gribov-copies": 1,
-      "phase-transitions": 5,
-      "deconfined-quantum-criticality": 1,
-      "LSM-anomaly": 1,
-      "non-invertible-symmetry": 2,
-      "spectral-sequence": 1,
-      "spin-chains": 3,
-      "holography": 20,
-      "Weyl-semimetal": 1,
-      "topological-phase-transitions": 1,
-      "multipartite-entanglement": 1,
-      "entanglement-wedge": 1,
-      "polymer-quantization": 1,
-      "loop-quantum-gravity": 6,
-      "compact-spaces": 1,
-      "semiclassical-limit": 1,
-      "quantum-cosmology": 6,
-      "ultralight-axions": 1,
-      "dark-matter": 5,
-      "CMB-lensing": 1,
-      "ACT": 1,
-      "cosmology": 5,
-      "quantum-computing": 12,
-      "quantum-chemistry": 1,
-      "VQE": 2,
-      "Bravyi-Kitaev": 1,
-      "symmetry-adapted-encoding": 1,
-      "lattice-gauge-theory": 2,
-      "overparametrization": 1,
-      "Hamiltonian-variational-ansatz": 1,
-      "entanglement": 10,
-      "quantum-Fisher-information": 1,
-      "robustness": 1,
-      "quantum-information": 8,
-      "concurrence": 1,
-      "fractional-quantum-Hall": 1,
-      "moiré-graphene": 1,
-      "anyons": 1,
+      "quantum-geometry": 3,
+      "fractional-Chern-insulators": 1,
+      "quantum-Hall-effect": 3,
+      "moiré-materials": 2,
+      "Berry-curvature": 1,
+      "quantum-error-correction": 3,
       "topological-order": 11,
-      "non-Abelian-quasiparticles": 1,
-      "Haldane-Hubbard": 1,
-      "topological-excitons": 1,
-      "magnons": 1,
-      "odd-parity": 1,
-      "many-body-physics": 5,
-      "Majorana-modes": 1,
-      "graphene": 1,
-      "topological-protection": 1,
-      "Zak-phase": 1,
-      "topological-quantum-computing": 3,
-      "black-bounce": 1,
-      "regular-black-holes": 4,
-      "3-form-field": 1,
-      "wormholes": 4,
-      "string-theory": 2,
+      "lattice-gauge-theory": 2,
+      "measurement-based-computation": 1,
+      "spacetime-code": 1,
+      "superconductivity": 1,
+      "Cooper-pairs": 1,
+      "effective-mass": 1,
+      "multiband-Hubbard": 1,
+      "gravitational-waves": 12,
+      "black-hole-spins": 1,
+      "binary-black-holes": 1,
+      "population-astrophysics": 1,
+      "LIGO": 3,
+      "dark-energy": 4,
+      "inflation": 3,
+      "quantum-field-theory": 5,
+      "curved-spacetime": 4,
+      "running-vacuum": 1,
+      "DESI": 1,
+      "black-holes": 25,
+      "non-singular-metrics": 1,
+      "renormalization-group": 2,
+      "unimodular-gravity": 1,
+      "quantum-gravity-phenomenology": 2,
+      "supersymmetry": 3,
+      "chiral-symmetry-breaking": 1,
+      "gauge-theory": 2,
+      "super-Lie-algebra": 1,
+      "mass-generation": 1,
+      "axion-dark-matter": 1,
+      "QCD-confinement": 1,
+      "isocurvature-problem": 1,
+      "superconducting-circuits": 2,
+      "Josephson-junctions": 1,
+      "quantum-optics": 2,
+      "artificial-atoms": 1,
+      "quadrupole-transitions": 1,
+      "superconducting-diode-effect": 1,
+      "Josephson-junction": 1,
+      "non-reciprocal-supercurrent": 1,
+      "quantum-dot": 1,
+      "Shapiro-steps": 1,
+      "neutron-star-black-hole": 1,
+      "numerical-relativity": 2,
+      "waveform-models": 1,
+      "higher-order-modes": 1,
+      "dark-matter": 5,
+      "neutron-stars": 1,
+      "continuous-waves": 1,
+      "self-interacting-dark-matter": 1,
       "Optics & Photonics": 32,
       "Science Communication & Policy": 30,
+      "holography": 19,
       "black-hole-thermodynamics": 8,
       "AdS-CFT": 7,
+      "phase-transitions": 4,
       "off-shell-thermodynamics": 1,
       "Hawking-temperature": 1,
       "dilaton": 2,
@@ -10086,14 +9958,18 @@
       "SymTFT": 1,
       "quantum-codes": 1,
       "supersymmetry-breaking": 1,
+      "quantum-gravity": 27,
       "cosmological-constant": 2,
       "causal-structure": 1,
       "light-cones": 1,
       "semiclassical-gravity": 2,
       "quantum-matter": 1,
       "holographic-complexity": 1,
-      "black-holes": 24,
+      "quantum-information": 7,
       "ER=EPR": 1,
+      "entanglement": 9,
+      "wormholes": 3,
+      "black-hole-information": 4,
       "emergent-gravity": 1,
       "Jacobson-thermodynamics": 1,
       "entropy-production": 1,
@@ -10109,21 +9985,20 @@
       "Rényi-entropy": 1,
       "6j-symbols": 1,
       "spin-networks": 1,
+      "loop-quantum-gravity": 5,
       "hyperbolic-geometry": 1,
       "gravitational-decoherence": 2,
-      "quantum-gravity-phenomenology": 1,
       "macroscopic-superpositions": 1,
       "influence-functional": 1,
       "decoherence": 3,
-      "quantum-Hall-effect": 2,
       "topological-insulator": 1,
       "Dirac-surface-states": 1,
       "vacancy-engineering": 1,
       "condensed-matter-experiment": 1,
       "Majorana-fermions": 1,
       "topological-superconductivity": 3,
-      "supersymmetry": 1,
       "solitons": 2,
+      "topological-quantum-computing": 2,
       "Quantum Information & Computing": 56,
       "Quantum Gravity": 23,
       "Black Hole Physics": 12,
@@ -10131,11 +10006,13 @@
       "quantum": 51,
       "agents": 50,
       "llms": 31,
+      "quantum-cosmology": 5,
       "post-selection": 1,
       "cosmic-acceleration": 2,
+      "Chern-Simons": 1,
       "Wheeler-DeWitt": 1,
       "Eisenhart-lift": 1,
-      "dark-energy": 3,
+      "cosmology": 4,
       "loop-quantum-cosmology": 2,
       "quantum-bounce": 1,
       "singularity-resolution": 2,
@@ -10174,7 +10051,6 @@
       "quantum-interconnect": 1,
       "spin-susceptibility": 1,
       "fractional-Chern-insulator": 1,
-      "moiré-materials": 1,
       "quantum-phase-transition": 1,
       "anisotropy": 1,
       "fractionalized-excitations": 1,
@@ -10209,7 +10085,6 @@
       "Planetary Atmospheres": 1,
       "Many-Body Physics & Condensed Matter": 29,
       "primordial-black-holes": 3,
-      "gravitational-waves": 9,
       "entropy": 2,
       "gravity-thermodynamics": 1,
       "non-singular-gravity": 1,
@@ -10217,12 +10092,11 @@
       "mass-gap": 1,
       "higher-spin-gravity": 1,
       "self-dual": 1,
+      "Yang-Mills": 1,
       "asymptotic-safety": 1,
-      "renormalization-group": 1,
       "form-factors": 1,
       "proper-time": 1,
       "UV-completion": 1,
-      "quantum-optics": 1,
       "orbital-angular-momentum": 1,
       "spin-angular-momentum": 1,
       "quantum-transitions": 1,
@@ -10236,6 +10110,8 @@
       "symmetric-teleparallel": 1,
       "constraints": 1,
       "Hamiltonian": 1,
+      "canonical-quantization": 2,
+      "quantum-computing": 10,
       "Lindbladian": 1,
       "open-quantum-systems": 5,
       "sample-complexity": 2,
@@ -10252,6 +10128,7 @@
       "non-Abelian": 1,
       "optimization": 1,
       "Kondo-insulator": 1,
+      "many-body-physics": 4,
       "strongly-correlated-electrons": 3,
       "RIXS": 1,
       "molecular-orbital": 1,
@@ -10261,10 +10138,10 @@
       "p-wave-magnetism": 1,
       "organic-molecules": 1,
       "string-net": 1,
+      "non-invertible-symmetry": 1,
       "anyon-condensation": 1,
       "fusion-categories": 2,
       "tensor-network": 1,
-      "superconducting-circuits": 1,
       "Lindblad-dynamics": 1,
       "cat-qubit": 1,
       "random-matrix-theory": 2,
@@ -10292,26 +10169,25 @@
       "quasinormal-modes": 3,
       "tidal-effects": 1,
       "dyonic": 1,
+      "regular-black-holes": 3,
       "nonlinear-electrodynamics": 2,
       "Bardeen": 1,
       "Hayward": 1,
+      "JT-gravity": 2,
       "RG-flow": 1,
       "TTbar-deformation": 1,
       "Krylov-complexity": 1,
       "Lanczos-coefficients": 1,
       "operator-growth": 3,
-      "inflation": 1,
       "tensor-power-spectrum": 1,
       "loop-corrections": 1,
       "renormalization": 1,
       "Experiment & Observation": 30,
       "entanglement-harvesting": 1,
-      "curved-spacetime": 3,
       "BTZ": 1,
       "thermodynamics": 8,
       "topological-classification": 1,
       "Proca-field": 1,
-      "quantum-field-theory": 4,
       "Hawking-radiation": 1,
       "Schwarzschild": 1,
       "mixed-states": 2,
@@ -10319,7 +10195,6 @@
       "thermal-blocks": 1,
       "conformal-bootstrap": 1,
       "gravitoelectromagnetism": 1,
-      "gauge-theory": 1,
       "linearized-gravity": 1,
       "Ward-identities": 1,
       "classical-simulation": 1,
@@ -10351,7 +10226,6 @@
       "pseudorandomness": 1,
       "ringdown": 2,
       "spectroscopy": 1,
-      "LIGO": 1,
       "hairy-black-holes": 4,
       "hawking-radiation": 2,
       "greybody-factors": 3,
@@ -10368,7 +10242,6 @@
       "krylov-complexity": 1,
       "matrix-model": 1,
       "BMN": 1,
-      "quantum-error-correction": 2,
       "homomorphic-encryption": 1,
       "stabilizer-codes": 2,
       "cloud-computing": 1,
@@ -10430,6 +10303,7 @@
       "quantum-scars": 1,
       "weak-ergodicity-breaking": 1,
       "topological-edge-modes": 1,
+      "spin-chains": 2,
       "quantum-spacetime": 1,
       "quantum-groups": 1,
       "non-commutative-geometry": 1,
@@ -10454,7 +10328,6 @@
       "multi-black-holes": 1,
       "electromagnetic-duality": 1,
       "black-hole-mergers": 1,
-      "numerical-relativity": 1,
       "optimal-transport": 1,
       "Wasserstein": 1,
       "holography-of-information": 1,
@@ -10504,6 +10377,7 @@
       "black-rings": 1,
       "enumerative-geometry": 1,
       "resurgence": 1,
+      "string-theory": 1,
       "relative-entropy": 1,
       "spacetime-reconstruction": 1,
       "holographic-c-functions": 1,
