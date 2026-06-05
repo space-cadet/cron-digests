@@ -1,7 +1,16 @@
 # Edit History
 
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-05-25 07:38:00 IST*
+*Last Updated: 2026-06-05 21:33:00 IST*
+
+### 2026-06-05
+
+#### 21:33:00 IST - T14: arXiv Digest Throttled Rerun — 429 Error Prevention
+- Modified `scripts/fetch-arxiv-html.py` - Added `import time` and `time.sleep(3)` between category fetch requests to prevent rate limiting
+- Modified `arxiv/2026-06-05.md` - Rewritten with 12 new papers, all abstracts verified against live arxiv.org pages
+- Modified `arxiv/seen-urls.json` - Updated with 12 new paper IDs
+- Created `/tmp/fetch-abstracts.py` - Throttled abstract fetcher with 3-second delays between curl requests
+- Created `/tmp/arxiv-abstracts.json` - Fetched abstracts for all 12 papers (deleted after use)
 
 ### 2026-05-25
 

@@ -20,6 +20,7 @@
 | T11 | arXiv Metadata Hallucination Fix — Verification Pipeline | 2026-05-25 | T6, T10 | [Details](tasks/T11.md) |
 | T12 | ES Module Fix — package.json for CommonJS scripts | 2026-05-25 | T11 | [Details](tasks/T12.md) |
 | T13 | Moltbook Research Stream Integration into Viewer | 2026-05-25 | T6, T9 | [Details](tasks/T13.md) |
+| T14 | arXiv Digest Throttled Rerun — 429 Error Prevention | 2026-06-05 | — | [Details](tasks/T14.md) |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)

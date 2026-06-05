@@ -10,18 +10,14 @@ Cron-digests archive is fully operational with formalized schema, automated vali
 - **CI/CD:** GitHub Actions workflow (`.github/workflows/ci.yml`) auto-validates digests, rebuilds index, commits changes, deploys to Pages on every push
 - **Metadata integrity:** Hallucination incident (May 25) resolved; verification rules now hard-coded in cron prompt
 - **Moltbook integration:** Full pipeline live — cron → log → generator → digest → index → viewer
+- **Throttling fix (2026-06-05):** Added 3-second sleep between arXiv category fetches in `fetch-arxiv-html.py` to prevent 429 errors
 
-## Completed This Session (2026-05-25)
+## Completed This Session (2026-06-05)
 
-### T13: Moltbook Research Stream Integration into Viewer
-- Created `moltbook/` directory with first digest (`2026-05-25.md`, 4 entries) and `manifest.json`
-- Built `scripts/generate-moltbook-digest.js` parser that converts `~/.openclaw/logs/moltbook-research.md` into dated digest files
-- Updated `scripts/build-index.js` to index moltbook digests into SQLite + JSON
-- Updated `viewer/index.html` with amber badge (`.type-moltbook`), submolt chips, author lines, URL links
-- Updated `.github/workflows/ci.yml` to stage `moltbook/` directory
-- Updated `moltbook-research` cron job payload to run generator after saving to log
-- Verified GitHub Pages deployment: 1 moltbook digest with 4 entries live in production index.json
-- Viewer header updated: "Daily arXiv, Web Science, and Moltbook research digests"
+### T14: arXiv Digest Throttled Rerun — 429 Error Prevention
+- Added `time.sleep(3)` between category requests in `scripts/fetch-arxiv-html.py`
+- Reran 2026-06-05 digest with 12 papers, all abstracts verified, zero 429 errors
+- Updated `seen-urls.json` with 12 new paper IDs
 
 ### T11: arXiv Metadata Hallucination Fix — Verification Pipeline
 - Identified that May 25 arXiv digest contained 12 papers with real IDs but hallucinated titles, authors, and abstracts
@@ -49,10 +45,11 @@ Cron-digests archive is fully operational with formalized schema, automated vali
 - [x] Operational monitoring: verify cron jobs generate compliant digests — **DONE**: May 25 arXiv digest manually verified and regenerated
 - [x] Moltbook integration: add research stream to viewer — **DONE**: Pipeline live, 4 entries indexed
 - [ ] Tag registry sync: `tags.json` still stale, missing new tags from May 21, 22, 25
+- [x] Throttling fix: verify 3-second sleep prevents 429 errors — **DONE**: 2026-06-05 evening rerun successful
 
 ## Next Actions
 
-1. Monitor tomorrow's arXiv cron (~7:11 IST) to verify new `web_fetch` verification rules work
+1. Monitor tomorrow's arXiv cron (~7:11 IST) to verify new throttling works in production
 2. Monitor tomorrow's Web Science cron (~10:17 IST) for CloakBrowser + fallback behavior
 3. Monitor next moltbook-research run to verify generator script works in cron context
 4. Sync `tags.json` with all tags from May 21, 22, 25 digests
@@ -63,4 +60,4 @@ Cron-digests archive is fully operational with formalized schema, automated vali
 None.
 
 ---
-*Updated: 2026-05-25 07:38:00 IST*
+*Updated: 2026-06-05 21:33:00 IST*
