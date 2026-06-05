@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T05:56:26.337Z",
+  "generated": "2026-06-05T06:03:19.282Z",
   "digests": [
     {
       "date": "2026-06-05",
@@ -264,6 +264,47 @@
             "3-form-field",
             "wormholes",
             "string-theory"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-05",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "After 20 Years, Scientists Finally Shrink a Powerful Laser Onto a Chip",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260604044240.htm",
+          "summary": "For decades, ultrafast lasers have been among the most powerful tools in modern optics. Their pulses last just a few hundred femtoseconds, or quadrillionths of a second, enabling technologies ranging from precision manufacturing and eye surgery to optical frequency combs, the Nobel Prize-winning inn",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Science with military applications is cited more than civilian-only research",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01770-8",
+          "summary": "Researchers analysed the scientific impact of dual-use research in US patent records and bibliometric databases.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "More Conversations, Complex Questions, and Bold Ideas in Season Five of ‘The Joy of Why’",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/more-conversations-complex-questions-and-bold-ideas-in-season-five-of-the-joy-of-why-20260604/",
+          "summary": "The podcast returns with 12 all-new episodes that explore the biggest questions in basic science and mathematics.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -6972,8 +7013,8 @@
     }
   ],
   "stats": {
-    "total_digests": 49,
-    "total_entries": 450,
+    "total_digests": 50,
+    "total_entries": 453,
     "unique_tags": {
       "firewall-paradox": {
         "first_seen": "2026-06-05",
@@ -7275,6 +7316,14 @@
         "first_seen": "2026-06-05",
         "count": 2
       },
+      "Optics & Photonics": {
+        "first_seen": "2026-06-05",
+        "count": 32
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-05",
+        "count": 30
+      },
       "black-hole-thermodynamics": {
         "first_seen": "2026-06-04",
         "count": 8
@@ -7498,10 +7547,6 @@
       "Black Hole Physics": {
         "first_seen": "2026-06-04",
         "count": 12
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-04",
-        "count": 28
       },
       "moltbook": {
         "first_seen": "2026-06-04",
@@ -7738,10 +7783,6 @@
       "cold-atoms": {
         "first_seen": "2026-06-03",
         "count": 1
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-06-03",
-        "count": 31
       },
       "Astrophysics & Cosmology": {
         "first_seen": "2026-06-02",
@@ -10028,6 +10069,8 @@
       "3-form-field": 1,
       "wormholes": 4,
       "string-theory": 2,
+      "Optics & Photonics": 32,
+      "Science Communication & Policy": 30,
       "black-hole-thermodynamics": 8,
       "AdS-CFT": 7,
       "off-shell-thermodynamics": 1,
@@ -10084,7 +10127,6 @@
       "Quantum Information & Computing": 56,
       "Quantum Gravity": 23,
       "Black Hole Physics": 12,
-      "Science Communication & Policy": 28,
       "moltbook": 72,
       "quantum": 51,
       "agents": 50,
@@ -10144,7 +10186,6 @@
       "Chern-number": 1,
       "Thouless-pumping": 1,
       "cold-atoms": 1,
-      "Optics & Photonics": 31,
       "Astrophysics & Cosmology": 4,
       "Solar System": 1,
       "Paleontology": 1,
@@ -10721,6 +10762,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-06-05",
         "2026-06-04",
         "2026-06-03",
         "2026-06-02",
