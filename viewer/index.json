@@ -1,6 +1,271 @@
 {
-  "generated": "2026-06-05T16:13:31.456Z",
+  "generated": "2026-06-06T01:45:34.445Z",
   "digests": [
+    {
+      "date": "2026-06-06",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-06-06",
+      "categories": "hep-th, gr-qc, quant-ph, cond-mat",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole thermodynamics, quantum cosmology, quantum computing, topological order, quantum geometry, many-body physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "BlackHawk v3.0: Hawking Radiation from Regular Black Holes",
+          "authors": "Alexandre Arbey, Marco Calzà, Léa Malacher, Davide Pedrotti, Yuber F. Perez-Gonzalez",
+          "arxiv_id": "2606.06355",
+          "url": "https://arxivite.org/abs/2606.06355",
+          "categories": "gr-qc, astro-ph.CO, hep-ph",
+          "summary": "A major update to the BlackHawk code for computing Hawking radiation spectra, now supporting regular black holes, black-bounces, and black hole-to-white hole metrics with enhanced numerical precision.",
+          "relevance": "Black hole thermodynamics and Hawking radiation are central to quantum gravity. The inclusion of regular black holes and black-bounces connects to non-singular spacetime geometries, relevant for understanding the endpoint of black hole evaporation and quantum gravity phenomenology.",
+          "tags": [
+            "Black-Hole-Thermodynamics",
+            "Hawking-Radiation",
+            "Regular-Black-Holes",
+            "Quantum-Gravity-Phenomenology",
+            "Greybody-Factors"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum Circuit Complexity as a Measure of Particle Creation in Bouncing Cosmologies",
+          "authors": "Samak Boonpan",
+          "arxiv_id": "2606.05235",
+          "url": "https://arxivite.org/abs/2606.05235",
+          "categories": "gr-qc",
+          "summary": "Uses exact non-perturbative methods to show that quantum circuit complexity in bouncing cosmologies correlates strongly with particle production, with complexity acting as a geometric memory of the bounce transition.",
+          "relevance": "Bouncing cosmologies and quantum circuit complexity are both central to quantum cosmology. The connection between complexity and particle creation in curved spacetime has deep implications for information theory in quantum gravity.",
+          "tags": [
+            "Quantum-Cosmology",
+            "Bouncing-Cosmologies",
+            "Circuit-Complexity",
+            "Particle-Creation",
+            "Quantum-Gravity"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Asymptotically-flat Black holes in Bumblebee gravity: Exact solutions and Thermodynamics",
+          "authors": "Jinbo Yang, Zhan-Feng Mai, Dicong Liang, Lijing Shao",
+          "arxiv_id": "2606.05801",
+          "url": "https://arxivite.org/abs/2606.05801",
+          "categories": "gr-qc",
+          "summary": "Constructs exact asymptotically flat black hole solutions in bumblebee gravity and analyzes their thermodynamics, revealing traversable wormholes, non-monotonic Hawking temperatures, and divergent heat capacities.",
+          "relevance": "Modified gravity theories provide alternative frameworks for understanding black hole thermodynamics. The exact solutions and thermodynamic analysis offer concrete tests of Lorentz-violating gravity theories against observations.",
+          "tags": [
+            "Black-Holes",
+            "Modified-Gravity",
+            "Bumblebee-Gravity",
+            "Black-Hole-Thermodynamics",
+            "Wormholes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Breakeven demonstration of quantum low-density parity-check codes",
+          "authors": "Edwin Tham, Michael L. Goldman, Shantanu Debnath, Ashay N. Patel, Jyothi Saraladevi, Jason Nguyen, Erik Nielsen, Neal Pisenti, Kenneth Wright, John Gamble, Nicolas Delfosse",
+          "arxiv_id": "2606.06455",
+          "url": "https://arxivite.org/abs/2606.06455",
+          "categories": "quant-ph, cs.IT",
+          "summary": "Demonstrates breakeven performance of qLDPC codes on a trapped-ion quantum computer, achieving 9× better logical error rates than superconducting implementations and supporting multiple code families without hardware reconfiguration.",
+          "relevance": "Quantum error correction is essential for practical quantum computing. The breakeven demonstration of qLDPC codes on trapped-ion hardware represents a significant milestone toward fault-tolerant quantum computation.",
+          "tags": [
+            "Quantum-Error-Correction",
+            "qLDPC",
+            "Trapped-Ion",
+            "Fault-Tolerant-Computing",
+            "Breakeven"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "A framework for low-overhead quantum fault tolerance via spacetime lifting",
+          "authors": "Yijia Xu, Yixu Wang, Zi-Wen Liu",
+          "arxiv_id": "2606.06365",
+          "url": "https://arxivite.org/abs/2606.06365",
+          "categories": "quant-ph",
+          "summary": "Introduces \"spacetime lifting\" for constructing fault complexes with almost-linear fault distance, substantially outperforming existing quantum fault-tolerant protocols and enabling more efficient error correction.",
+          "relevance": "The spacetime/homological perspective on quantum fault tolerance is deeply connected to topological quantum field theory and the mathematics underlying topological quantum computing — areas central to Deepak's research interests.",
+          "tags": [
+            "Quantum-Fault-Tolerance",
+            "Spacetime-Lifting",
+            "Homological-Error-Correction",
+            "Topological-Quantum-Computing",
+            "Cluster-States"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Barbell Codes: qLDPC Codes for Superconducting Quantum Hardware",
+          "authors": "Shin Ho Choe, Vincent Steffan, Florian Vigneau, Pedro Parrado-Rodríguez, Hsiang-Sheng Ku, Martin Leib, Francisco Revson Fernandes Pereira, Fedor Šimkovic IV",
+          "arxiv_id": "2606.06062",
+          "url": "https://arxivite.org/abs/2606.06062",
+          "categories": "quant-ph",
+          "summary": "Introduces \"barbell\" qLDPC codes with a realistic superconducting chip layout where hardware complexity remains constant as code distance increases, achieving trillions of QEC cycles at modest overhead.",
+          "relevance": "Practical implementation of qLDPC codes on superconducting hardware is a major milestone for fault-tolerant quantum computing. The constant hardware complexity scaling makes these codes genuinely viable for near-term devices.",
+          "tags": [
+            "qLDPC",
+            "Superconducting-Hardware",
+            "Quantum-Error-Correction",
+            "Fault-Tolerance",
+            "Barbell-Codes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Revealing quantum geometry effects in magic angle twisted bilayer graphene using the circular photogalvanic effect",
+          "authors": "Eylon Persky, Leonie Parisot, Minhao He, Jiaqi Cai, Takashi Taniguchi, Kenji Watanabe, Pierre A. Pantaleon, Francisco Guinea, Xiaodong Xu, Aharon Kapitulnik",
+          "arxiv_id": "2606.06389",
+          "url": "https://arxivite.org/abs/2606.06389",
+          "categories": "cond-mat.str-el",
+          "summary": "Observes a circular photogalvanic effect in twisted bilayer graphene that reveals Berry curvature dipole physics, with a vanishing regime suggesting novel symmetry breaking near ν=-2.",
+          "relevance": "Quantum geometry and Berry curvature are fundamental to understanding fractional quantum Hall physics and the QHE-BHE correspondence. The experimental observation of Berry curvature dipole effects in moiré materials connects directly to the geometry of Bloch bands.",
+          "tags": [
+            "Quantum-Geometry",
+            "Twisted-Bilayer-Graphene",
+            "Berry-Curvature",
+            "Photogalvanic-Effect",
+            "Moiré-Materials"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Enhancement of charge correlations and real-space topological marker on an interacting non-Hermitian Su-Schrieffer-Heeger model",
+          "authors": "Sebastião dos A. Sousa-Júnior, Pedro B. Melo, Rubem Mondaini, Arnob Kumar Ghosh, Rodrigo Arouca",
+          "arxiv_id": "2606.06466",
+          "url": "https://arxivite.org/abs/2606.06466",
+          "categories": "cond-mat.str-el, cond-mat.mes-hall, quant-ph",
+          "summary": "Shows that non-Hermiticity enhances interaction effects and charge correlations in the SSH model, with topological markers robustly diagnosing topological phases even with interactions and near exceptional points.",
+          "relevance": "Non-Hermitian topological physics and interacting systems are emerging frontiers in condensed matter. The interplay between topology, non-Hermiticity, and interactions provides a rich testbed for understanding quantum phase transitions beyond the Landau paradigm.",
+          "tags": [
+            "Non-Hermitian-Topology",
+            "SSH-Model",
+            "Charge-Density-Wave",
+            "Interactions",
+            "Exceptional-Points"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Quantum Thermal Logic Gates",
+          "authors": "Shuvadip Ghosh, Arnab Ghosh, Bivas Dutta, Papiya Maity",
+          "arxiv_id": "2606.06432",
+          "url": "https://arxivite.org/abs/2606.06432",
+          "categories": "cond-mat.mes-hall, cond-mat.mtrl-sci, cond-mat.str-el, quant-ph",
+          "summary": "Proposes quantum thermal logic gates using heat currents in quantum-dot systems, establishing a direct correspondence with classical electronic logic gates and presenting a realizable nano-electronic architecture.",
+          "relevance": "Quantum thermodynamics and the control of heat currents at the nanoscale are relevant to quantum computing architectures and the fundamental limits of information processing. The one-to-one correspondence with classical logic gates suggests a unified framework for quantum thermal computing.",
+          "tags": [
+            "Quantum-Thermodynamics",
+            "Thermal-Logic-Gates",
+            "Quantum-Dots",
+            "Heat-Current",
+            "Nanoelectronics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "xCPS: an xAct package for covariant phase space, Noether charges, and entropy",
+          "authors": "Juan Margalef-Bentabol",
+          "arxiv_id": "2606.05204",
+          "url": "https://arxivite.org/abs/2606.05204",
+          "categories": "math-ph, gr-qc, hep-th, physics.comp-ph",
+          "summary": "An xAct package automating covariant phase space computations, including Noether charges, symplectic currents, and Wald entropy, for gauge theories and higher-derivative gravity models.",
+          "relevance": "The covariant phase space formalism is the modern framework for deriving black hole entropy and thermodynamics. This tool automates the computation of Wald entropy and Noether charges, directly relevant to black hole thermodynamics and quantum gravity research.",
+          "tags": [
+            "Covariant-Phase-Space",
+            "Noether-Charges",
+            "Wald-Entropy",
+            "Black-Hole-Thermodynamics",
+            "xAct"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Krylov Complexity: Flat bands and Carroll breaking deformations",
+          "authors": "Aritra Banerjee, Arpan Bhattacharyya, Rudranil Basu, Sayan Das",
+          "arxiv_id": "2606.05303",
+          "url": "https://arxivite.org/abs/2606.05303",
+          "categories": "hep-th, cond-mat.str-el, quant-ph",
+          "summary": "Explores Krylov complexity in flat-band systems with Carrollian symmetries, showing how complexity growth resolves phase-dependent resilience against perturbations and exhibits UV/IR mixing in continuum Carroll field theory.",
+          "relevance": "Krylov complexity is emerging as a key probe for understanding quantum chaos and information scrambling. The connection to Carrollian symmetries and UV/IR mixing bridges condensed matter physics, quantum gravity, and holography.",
+          "tags": [
+            "Krylov-Complexity",
+            "Carroll-Symmetries",
+            "Flat-Bands",
+            "UV-IR-Mixing",
+            "Quantum-Chaos"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Complexity of the Laughlin wave function from the Dyson-orbital perspective",
+          "authors": "J. M. Zhang, Y. Liu",
+          "arxiv_id": "2606.05502",
+          "url": "https://arxivite.org/abs/2606.05502",
+          "categories": "cond-mat.str-el, quant-ph",
+          "summary": "Uses Dyson orbitals to characterize the complexity of the Laughlin wave function, providing quantitative evidence that it describes a strongly correlated non-Fermi liquid state.",
+          "relevance": "The Laughlin wave function is the paradigmatic state of the fractional quantum Hall effect. The QHE-BHE correspondence connects this physics to black hole thermodynamics, making any new characterization of the Laughlin state directly relevant to Deepak's research program.",
+          "tags": [
+            "Laughlin-Wave-Function",
+            "Fractional-Quantum-Hall-Effect",
+            "Dyson-Orbitals",
+            "Non-Fermi-Liquid",
+            "Strong-Correlations"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Short Gravitational-Wave Transients as Probes of Cosmic Domain Walls",
+          "authors": "Tore Boybeyi, Doga Veske, David Maibach",
+          "arxiv_id": "2606.06478",
+          "url": "https://arxivite.org/abs/2606.06478",
+          "categories": "gr-qc, astro-ph.CO, hep-ph",
+          "summary": "Tests whether massive binary black hole gravitational-wave events could instead be cosmic domain wall signals from topological dark matter, finding a morphological degeneracy that could mask genuine domain wall signatures.",
+          "relevance": "Topological dark matter and domain walls are novel dark matter candidates. The gravitational-wave analysis reveals how exotic topological structures could mimic astrophysical signals, with implications for both dark matter searches and gravitational-wave data interpretation.",
+          "tags": [
+            "Gravitational-Waves",
+            "Topological-Dark-Matter",
+            "Domain-Walls",
+            "LIGO",
+            "Binary-Black-Holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Detecting Tidal Resonances in Binary Neutron Stars",
+          "authors": "Fabian Gittins, Harsh Narola, Thibeau Wouters, Peter T. H. Pang, Tanja Hinderer, Chris Van Den Broeck",
+          "arxiv_id": "2606.06376",
+          "url": "https://arxivite.org/abs/2606.06376",
+          "categories": "gr-qc, astro-ph.HE",
+          "summary": "The first Bayesian study showing that the Einstein Telescope can detect tidal resonances in binary neutron star inspirals, with sensitivity to phase shifts as small as 0.03 radians, enabling neutron star asteroseismology.",
+          "relevance": "Neutron star interiors and their equation of state are central to understanding dense matter and the QHE-BHE correspondence. Tidal resonances as probes of stellar structure provide a new observational window into the physics of ultra-dense matter.",
+          "tags": [
+            "Neutron-Stars",
+            "Tidal-Resonances",
+            "Gravitational-Waves",
+            "Einstein-Telescope",
+            "Asteroseismology"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Understanding deconfined quantum critical points from crystalline categorical Landau paradigm",
+          "authors": "Hiromi Ebisu, Bo Han, Weiguang Cao",
+          "arxiv_id": "2606.05856",
+          "url": "https://arxivite.org/abs/2606.05856",
+          "categories": "cond-mat.str-el, hep-th",
+          "summary": "Shows that deconfined quantum critical points can be understood through a crystalline categorical Landau paradigm after gauging anomalous symmetries, with distinct F-symbols encoding the universal categorical structure.",
+          "relevance": "Deconfined quantum criticality and categorical symmetries are at the frontier of quantum many-body physics. The connection to fusion categories and non-invertible symmetries is deeply connected to topological quantum field theory and the mathematical structure of topological order.",
+          "tags": [
+            "Deconfined-Quantum-Criticality",
+            "Categorical-Symmetries",
+            "Fusion-Categories",
+            "Non-Invertible-Symmetries",
+            "Topological-Order"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-05",
       "type": "arxiv",
@@ -6962,9 +7227,289 @@
     }
   ],
   "stats": {
-    "total_digests": 50,
-    "total_entries": 450,
+    "total_digests": 51,
+    "total_entries": 465,
     "unique_tags": {
+      "Black-Hole-Thermodynamics": {
+        "first_seen": "2026-06-06",
+        "count": 3
+      },
+      "Hawking-Radiation": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Regular-Black-Holes": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Quantum-Gravity-Phenomenology": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Greybody-Factors": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Quantum-Cosmology": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Bouncing-Cosmologies": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Circuit-Complexity": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Particle-Creation": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Quantum-Gravity": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Black-Holes": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Modified-Gravity": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Bumblebee-Gravity": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Wormholes": {
+        "first_seen": "2026-06-06",
+        "count": 3
+      },
+      "Quantum-Error-Correction": {
+        "first_seen": "2026-06-06",
+        "count": 2
+      },
+      "qLDPC": {
+        "first_seen": "2026-06-06",
+        "count": 2
+      },
+      "Trapped-Ion": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Fault-Tolerant-Computing": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Breakeven": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Quantum-Fault-Tolerance": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Spacetime-Lifting": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Homological-Error-Correction": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Topological-Quantum-Computing": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Cluster-States": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Superconducting-Hardware": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Fault-Tolerance": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Barbell-Codes": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Quantum-Geometry": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Twisted-Bilayer-Graphene": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Berry-Curvature": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Photogalvanic-Effect": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Moiré-Materials": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Non-Hermitian-Topology": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "SSH-Model": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Charge-Density-Wave": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Interactions": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Exceptional-Points": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Quantum-Thermodynamics": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Thermal-Logic-Gates": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Quantum-Dots": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Heat-Current": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Nanoelectronics": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Covariant-Phase-Space": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Noether-Charges": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Wald-Entropy": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "xAct": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Krylov-Complexity": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Carroll-Symmetries": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Flat-Bands": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "UV-IR-Mixing": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Quantum-Chaos": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Laughlin-Wave-Function": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Fractional-Quantum-Hall-Effect": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Dyson-Orbitals": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Non-Fermi-Liquid": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Strong-Correlations": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Gravitational-Waves": {
+        "first_seen": "2026-06-06",
+        "count": 2
+      },
+      "Topological-Dark-Matter": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Domain-Walls": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "LIGO": {
+        "first_seen": "2026-06-06",
+        "count": 4
+      },
+      "Binary-Black-Holes": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Neutron-Stars": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Tidal-Resonances": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Einstein-Telescope": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Asteroseismology": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Deconfined-Quantum-Criticality": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Categorical-Symmetries": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Fusion-Categories": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Non-Invertible-Symmetries": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
+      "Topological-Order": {
+        "first_seen": "2026-06-06",
+        "count": 1
+      },
       "quantum-geometry": {
         "first_seen": "2026-06-05",
         "count": 3
@@ -7036,10 +7581,6 @@
       "population-astrophysics": {
         "first_seen": "2026-06-05",
         "count": 1
-      },
-      "LIGO": {
-        "first_seen": "2026-06-05",
-        "count": 3
       },
       "dark-energy": {
         "first_seen": "2026-06-05",
@@ -9557,10 +10098,6 @@
         "first_seen": "2026-05-19",
         "count": 2
       },
-      "Wormholes": {
-        "first_seen": "2026-05-19",
-        "count": 2
-      },
       "Higher Curvature Gravity": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -9883,6 +10420,76 @@
       }
     },
     "tag_counts": {
+      "Black-Hole-Thermodynamics": 3,
+      "Hawking-Radiation": 1,
+      "Regular-Black-Holes": 1,
+      "Quantum-Gravity-Phenomenology": 1,
+      "Greybody-Factors": 1,
+      "Quantum-Cosmology": 1,
+      "Bouncing-Cosmologies": 1,
+      "Circuit-Complexity": 1,
+      "Particle-Creation": 1,
+      "Quantum-Gravity": 1,
+      "Black-Holes": 1,
+      "Modified-Gravity": 1,
+      "Bumblebee-Gravity": 1,
+      "Wormholes": 3,
+      "Quantum-Error-Correction": 2,
+      "qLDPC": 2,
+      "Trapped-Ion": 1,
+      "Fault-Tolerant-Computing": 1,
+      "Breakeven": 1,
+      "Quantum-Fault-Tolerance": 1,
+      "Spacetime-Lifting": 1,
+      "Homological-Error-Correction": 1,
+      "Topological-Quantum-Computing": 1,
+      "Cluster-States": 1,
+      "Superconducting-Hardware": 1,
+      "Fault-Tolerance": 1,
+      "Barbell-Codes": 1,
+      "Quantum-Geometry": 1,
+      "Twisted-Bilayer-Graphene": 1,
+      "Berry-Curvature": 1,
+      "Photogalvanic-Effect": 1,
+      "Moiré-Materials": 1,
+      "Non-Hermitian-Topology": 1,
+      "SSH-Model": 1,
+      "Charge-Density-Wave": 1,
+      "Interactions": 1,
+      "Exceptional-Points": 1,
+      "Quantum-Thermodynamics": 1,
+      "Thermal-Logic-Gates": 1,
+      "Quantum-Dots": 1,
+      "Heat-Current": 1,
+      "Nanoelectronics": 1,
+      "Covariant-Phase-Space": 1,
+      "Noether-Charges": 1,
+      "Wald-Entropy": 1,
+      "xAct": 1,
+      "Krylov-Complexity": 1,
+      "Carroll-Symmetries": 1,
+      "Flat-Bands": 1,
+      "UV-IR-Mixing": 1,
+      "Quantum-Chaos": 1,
+      "Laughlin-Wave-Function": 1,
+      "Fractional-Quantum-Hall-Effect": 1,
+      "Dyson-Orbitals": 1,
+      "Non-Fermi-Liquid": 1,
+      "Strong-Correlations": 1,
+      "Gravitational-Waves": 2,
+      "Topological-Dark-Matter": 1,
+      "Domain-Walls": 1,
+      "LIGO": 4,
+      "Binary-Black-Holes": 1,
+      "Neutron-Stars": 1,
+      "Tidal-Resonances": 1,
+      "Einstein-Telescope": 1,
+      "Asteroseismology": 1,
+      "Deconfined-Quantum-Criticality": 1,
+      "Categorical-Symmetries": 1,
+      "Fusion-Categories": 1,
+      "Non-Invertible-Symmetries": 1,
+      "Topological-Order": 1,
       "quantum-geometry": 3,
       "fractional-Chern-insulators": 1,
       "quantum-Hall-effect": 3,
@@ -9901,7 +10508,6 @@
       "black-hole-spins": 1,
       "binary-black-holes": 1,
       "population-astrophysics": 1,
-      "LIGO": 3,
       "dark-energy": 4,
       "inflation": 3,
       "quantum-field-theory": 5,
@@ -10531,7 +11137,6 @@
       "Ricci Flow": 1,
       "Information Geometry": 1,
       "Quantum Field Theory": 2,
-      "Wormholes": 2,
       "Higher Curvature Gravity": 1,
       "Energy Conditions": 1,
       "General Relativity": 1,
@@ -10615,6 +11220,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-06-06",
         "2026-06-05",
         "2026-06-04",
         "2026-06-03",
