@@ -1,6 +1,80 @@
 {
-  "generated": "2026-06-07T18:19:57.663Z",
+  "generated": "2026-06-08T04:49:27.291Z",
   "digests": [
+    {
+      "date": "2026-06-08",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-08",
+      "items_found": 6,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Scientists Found a Surprisingly Simple Way to Create Powerful Quantum States",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260606075510.htm",
+          "summary": "Many of the most promising quantum technologies, including advanced sensors and future quantum computers, depend on a phenomenon known as entanglement, where particles become deeply connected and influence one another in ways that cannot be explained by classical physics. Creating the complex entang",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "A Tiny Atomic Shift Gives Scientists Powerful Control over Metals",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260605023415.htm",
+          "summary": "Researchers at the University of Minnesota Twin Cities have demonstrated an unexpected new way to change how a metal behaves electronically. By carefully engineering the atomic interactions where two materials come into contact, the team was able to significantly alter the properties of a metallic m",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "First precise genome editing of human embryos triggers praise and alarm",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01827-8",
+          "summary": "The ‘base editing’ technique that researchers used is far from ready for the clinic, but critics worry it will spur a rush to commercialization.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Europe is ditching US tech — what does this mean for researchers?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01610-9",
+          "summary": "European governments are choosing European digital tools — and some universities and researchers are doing the same.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Pigeons’ immune system can sense Earth’s magnetic field, study suggests",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/pigeons-immune-system-can-sense-earths-magnetic-field-study-suggests/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "See a helicopter destined for Mars and a spectacular flowery frame for the Milky Way — May’s best science images",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01609-2",
+          "summary": "The month’s sharpest science shots, selected by Nature’s photo team.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-06",
       "type": "arxiv",
@@ -7227,9 +7301,21 @@
     }
   ],
   "stats": {
-    "total_digests": 51,
-    "total_entries": 465,
+    "total_digests": 52,
+    "total_entries": 471,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-06-08",
+        "count": 57
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-06-08",
+        "count": 38
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-08",
+        "count": 34
+      },
       "Black-Hole-Thermodynamics": {
         "first_seen": "2026-06-06",
         "count": 3
@@ -7734,10 +7820,6 @@
         "first_seen": "2026-06-05",
         "count": 32
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-05",
-        "count": 30
-      },
       "holography": {
         "first_seen": "2026-06-04",
         "count": 19
@@ -7969,10 +8051,6 @@
       "topological-quantum-computing": {
         "first_seen": "2026-06-04",
         "count": 2
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-06-04",
-        "count": 56
       },
       "Quantum Gravity": {
         "first_seen": "2026-06-04",
@@ -8273,10 +8351,6 @@
       "Nanotechnology": {
         "first_seen": "2026-06-02",
         "count": 1
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-06-02",
-        "count": 37
       },
       "Fluid Dynamics": {
         "first_seen": "2026-06-02",
@@ -10420,6 +10494,9 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 57,
+      "Technology & Engineering": 38,
+      "Science Communication & Policy": 34,
       "Black-Hole-Thermodynamics": 3,
       "Hawking-Radiation": 1,
       "Regular-Black-Holes": 1,
@@ -10546,7 +10623,6 @@
       "continuous-waves": 1,
       "self-interacting-dark-matter": 1,
       "Optics & Photonics": 32,
-      "Science Communication & Policy": 30,
       "holography": 19,
       "black-hole-thermodynamics": 8,
       "AdS-CFT": 7,
@@ -10605,7 +10681,6 @@
       "topological-superconductivity": 3,
       "solitons": 2,
       "topological-quantum-computing": 2,
-      "Quantum Information & Computing": 56,
       "Quantum Gravity": 23,
       "Black Hole Physics": 12,
       "moltbook": 72,
@@ -10681,7 +10756,6 @@
       "Biophysics": 1,
       "Molecular Biology": 1,
       "Nanotechnology": 1,
-      "Technology & Engineering": 37,
       "Fluid Dynamics": 1,
       "Aerospace": 1,
       "Black Holes": 3,
@@ -11219,12 +11293,13 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
-      "arxiv": [
-        "2026-06-06",
+      "web-science": [
+        "2026-06-08",
         "2026-06-05",
         "2026-06-04",
         "2026-06-03",
-        "2026-05-30",
+        "2026-06-02",
+        "2026-06-01",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
@@ -11241,12 +11316,12 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "web-science": [
+      "arxiv": [
+        "2026-06-06",
         "2026-06-05",
         "2026-06-04",
         "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
+        "2026-05-30",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
