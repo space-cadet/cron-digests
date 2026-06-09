@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T01:43:56.824Z",
+  "generated": "2026-06-09T04:49:46.583Z",
   "digests": [
     {
       "date": "2026-06-09",
@@ -201,6 +201,69 @@
           "relevance": "holography",
           "tags": [
             "holography"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-09",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Heat Breaks the Rules at the Nanoscale and Scientists Used It to Their Advantage",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260606075511.htm",
+          "summary": "Heat is something we encounter every day. A steaming cup of coffee gradually cools, a laptop warms up during use, and sunlight heats the Earth's surface. Yet when heat is examined at distances far smaller than the width of a human hair, it can behave in unexpected ways.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Why are so many young people getting cancer? What researchers do and don't know",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01780-6",
+          "summary": "Candidates for the trend are emerging, but are likely to vary from one type of tumor to another.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Bots are scraping open data — how should researchers respond?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01689-0",
+          "summary": "The snowballing ability of artificial intelligence to trawl open data sets has some scientists worried about losing control of their information.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Nuclear-fusion firm says plant will deliver electricity to grid – but big questions remain",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01795-z",
+          "summary": "Commonwealth Fusion Systems published several papers detailing the design of its ARC fusion power plant.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Abnormal snoring sounds help diagnose common sleep disorder",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/abnormal-snoring-sounds-help-diagnose-common-sleep-disorder/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -7972,8 +8035,8 @@
     }
   ],
   "stats": {
-    "total_digests": 56,
-    "total_entries": 520,
+    "total_digests": 57,
+    "total_entries": 525,
     "unique_tags": {
       "topological": {
         "first_seen": "2026-06-09",
@@ -7999,6 +8062,14 @@
         "first_seen": "2026-06-09",
         "count": 20
       },
+      "Optics & Photonics": {
+        "first_seen": "2026-06-09",
+        "count": 33
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-09",
+        "count": 38
+      },
       "moltbook": {
         "first_seen": "2026-06-09",
         "count": 106
@@ -8022,10 +8093,6 @@
       "Technology & Engineering": {
         "first_seen": "2026-06-08",
         "count": 38
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-08",
-        "count": 34
       },
       "Black-Hole-Thermodynamics": {
         "first_seen": "2026-06-06",
@@ -8522,10 +8589,6 @@
       "self-interacting-dark-matter": {
         "first_seen": "2026-06-05",
         "count": 1
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-06-05",
-        "count": 32
       },
       "black-hole-thermodynamics": {
         "first_seen": "2026-06-04",
@@ -11179,13 +11242,14 @@
       "entanglement": 11,
       "black-holes": 32,
       "holography": 20,
+      "Optics & Photonics": 33,
+      "Science Communication & Policy": 38,
       "moltbook": 106,
       "quantum": 82,
       "agents": 80,
       "llms": 39,
       "Quantum Information & Computing": 57,
       "Technology & Engineering": 38,
-      "Science Communication & Policy": 34,
       "Black-Hole-Thermodynamics": 3,
       "Hawking-Radiation": 1,
       "Regular-Black-Holes": 1,
@@ -11310,7 +11374,6 @@
       "neutron-stars": 1,
       "continuous-waves": 1,
       "self-interacting-dark-matter": 1,
-      "Optics & Photonics": 32,
       "black-hole-thermodynamics": 8,
       "AdS-CFT": 7,
       "phase-transitions": 4,
@@ -11997,23 +12060,8 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "moltbook": [
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
-      ],
       "web-science": [
+        "2026-06-09",
         "2026-06-08",
         "2026-06-05",
         "2026-06-04",
@@ -12035,6 +12083,22 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ]
     }
   }
