@@ -54,12 +54,12 @@ def score(p):
     if 'quant-ph' in cats: s += 1
     return s
 
-scored = [(score(p), p) for p in unique]
+scored = [(score(p), i, p) for i, p in enumerate(unique)]
 scored.sort(reverse=True)
 selected = scored[:15]
 
 selection = {
-    'selected': [p for _, p in selected],
+    'selected': [p for _, _, p in selected],
     'total_unique': len(unique),
     'selected_count': len(selected),
     'date': datetime.now(timezone.utc).strftime('%Y-%m-%d')
@@ -113,16 +113,30 @@ from datetime import datetime, timezone
 selection = json.load(open('/tmp/arxiv-selection.json'))
 papers = selection['selected']
 
+if not os.path.exists('arxiv'):
+    os.makedirs('arxiv')
+
 today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
-if not os.path.exists('TEMPLATE.md'):
-    print("ERROR: TEMPLATE.md not found")
-    sys.exit(1)
+categories = sorted(set(cat for p in papers for cat in p.get('categories', [])))
+focus_keywords = []
+text_all = ' '.join(p.get('title', '') + ' ' + p.get('abstract', '') for p in papers).lower()
+for kw in ['quantum gravity', 'loop quantum', 'black hole', 'quantum cosmology', 'quantum computing', 'holograph', 'string theory', 'topological', 'many-body', 'entanglement', 'tensor network', 'condensed matter']:
+    if kw in text_all:
+        focus_keywords.append(kw)
+focus = ', '.join(focus_keywords[:6]) if focus_keywords else 'physics'
 
-template = open('TEMPLATE.md').read()
+header = f"""# arXiv Morning Digest — {today}
+
+**Categories:** {', '.join(categories)}
+**Items found:** {len(papers)}
+**Focus:** {focus}
+
+---
+"""
 
 sections = []
-for p in papers:
+for idx, p in enumerate(papers, 1):
     aid = p['arxiv_id']
     title = p.get('title', 'Untitled')
     authors = ', '.join(p.get('authors', [])[:3])
@@ -148,20 +162,22 @@ for p in papers:
     }
     for kw, tag in tag_map.items():
         if kw in text:
-            tags.append(f'`{tag}`')
+            tags.append(tag)
     if not tags:
-        tags = ['`physics`']
+        tags = ['physics']
     
-    section = f"""### [{title}](https://arxivite.org/abs/{aid})
-**Authors:** {authors}
-**arXiv:** {aid} | **Categories:** {cats}
-**Abstract:** {abstract}
-**Summary:** {summary}
-**Relevance:** {', '.join(tags)}
-"""
+    section = f"""## {idx}. {title}
+- **Authors:** {authors}
+- **arXiv ID:** {aid}
+- **URL:** https://arxivite.org/abs/{aid}
+- **Categories:** {cats}
+- **Abstract:** {abstract}
+- **Summary:** {summary}
+- **Relevance:** {', '.join(tags)}
+- **Tags:** {', '.join(tags)}"""
     sections.append(section)
 
-digest = template.replace('{{date}}', today).replace('{{papers}}', '\n\n'.join(sections))
+digest = header + '\n\n---\n\n'.join(sections) + '\n'
 
 out_file = f'arxiv/{today}.md'
 open(out_file, 'w').write(digest)
