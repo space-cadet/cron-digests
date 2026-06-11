@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T01:41:41.397Z",
+  "generated": "2026-06-11T04:49:47.544Z",
   "digests": [
     {
       "date": "2026-06-11",
@@ -201,6 +201,47 @@
           "relevance": "string-theory",
           "tags": [
             "string-theory"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-11",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Human migration has surged since 2000 — these maps reveal where people are going",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01796-y",
+          "summary": "Modelling with artificial-intelligence tools has filled gaps in migration data, revealing detailed global population movements from 1990 to 2023.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Chinese detector edges closer to solving the mystery of neutrino mass",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01851-8",
+          "summary": "Physicists hope that the JUNO facility can determine which type of neutrino has the highest mass.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Rocks falling from melting icebergs host deep-sea oases of biodiversity",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01835-8",
+          "summary": "A ripple effect of climate change is providing habitat for corals, sponges and other Arctic animals.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -8745,8 +8786,8 @@
     }
   ],
   "stats": {
-    "total_digests": 62,
-    "total_entries": 576,
+    "total_digests": 63,
+    "total_entries": 579,
     "unique_tags": {
       "physics": {
         "first_seen": "2026-06-11",
@@ -8776,6 +8817,10 @@
         "first_seen": "2026-06-11",
         "count": 2
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-11",
+        "count": 44
+      },
       "moltbook": {
         "first_seen": "2026-06-11",
         "count": 124
@@ -8791,10 +8836,6 @@
       "llms": {
         "first_seen": "2026-06-11",
         "count": 50
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-10",
-        "count": 41
       },
       "many-body": {
         "first_seen": "2026-06-09",
@@ -11953,11 +11994,11 @@
       "holography": 21,
       "topological": 5,
       "string-theory": 2,
+      "Science Communication & Policy": 44,
       "moltbook": 124,
       "quantum": 100,
       "agents": 98,
       "llms": 50,
-      "Science Communication & Policy": 41,
       "many-body": 7,
       "Optics & Photonics": 33,
       "Quantum Information & Computing": 57,
@@ -12772,25 +12813,8 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "moltbook": [
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
-      ],
       "web-science": [
+        "2026-06-11",
         "2026-06-10",
         "2026-06-09",
         "2026-06-08",
@@ -12814,6 +12838,24 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ]
     }
   }
