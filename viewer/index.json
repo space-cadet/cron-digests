@@ -1,6 +1,70 @@
 {
-  "generated": "2026-06-13T01:41:58.791Z",
+  "generated": "2026-06-15T04:49:36.528Z",
   "digests": [
+    {
+      "date": "2026-06-15",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-15",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "One-way Quantum Synchronization Could Make Quantum Computers More Reliable",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260611024619.htm",
+          "summary": "A team of theoretical physicists at RIKEN has proposed a new way to achieve one-way quantum synchronization of phonons, the particles associated with sound. The approach remains highly effective even in the face of manufacturing imperfections and environmental noise, potentially paving the way for more reliable quantum processors and protected quantum information processing.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Giant Underground Neutrino Detector Brings Scientists Closer to Cracking the Neutrino Puzzle",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260612032026.htm",
+          "summary": "The Jiangmen Underground Neutrino Observatory (JUNO) has achieved its first major scientific milestone. On June 10, Nature published the experiment's debut physics result as a cover article.",
+          "relevance": "Medium — New experimental results that may constrain theoretical models",
+          "tags": [
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Novel gravitational-wave model sheds light on dark matter",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/novel-gravitational-wave-model-sheds-light-on-dark-matter/",
+          "summary": "Physicists have developed a model predicting how gravitational-wave emission changes when a binary black hole system moves through dark matter. An international team used numerical relativity simulations to construct a novel waveform model, then applied it to 28 LVK events. One event (GW190728) showed a slight preference for the dark-matter model, demonstrating a promising new method to probe dark matter through gravitational-wave signatures.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Humans outperform AI at this highly rigorous mathematics test",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01888-9",
+          "summary": "A new benchmark pitting AI against previously unseen maths problems shows systems still fall short of top human expertise.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Where Did Earth Get Its Oceans? Maybe It Made Them Itself.",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/",
+          "summary": "At first, scientists thought Earth’s water came from comets. Then, asteroids. Now, they wonder if Earth’s water is homegrown.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-13",
       "type": "arxiv",
@@ -9308,9 +9372,29 @@
     }
   ],
   "stats": {
-    "total_digests": 68,
-    "total_entries": 619,
+    "total_digests": 69,
+    "total_entries": 624,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-06-15",
+        "count": 58
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-06-15",
+        "count": 31
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-06-15",
+        "count": 30
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-06-15",
+        "count": 34
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-15",
+        "count": 51
+      },
       "loop-quantum-gravity": {
         "first_seen": "2026-06-13",
         "count": 7
@@ -9359,21 +9443,9 @@
         "first_seen": "2026-06-12",
         "count": 3
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-12",
-        "count": 49
-      },
       "holography": {
         "first_seen": "2026-06-11",
         "count": 21
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-06-09",
-        "count": 33
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-06-08",
-        "count": 57
       },
       "Technology & Engineering": {
         "first_seen": "2026-06-08",
@@ -10403,10 +10475,6 @@
         "first_seen": "2026-06-02",
         "count": 1
       },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-06-01",
-        "count": 29
-      },
       "primordial-black-holes": {
         "first_seen": "2026-05-30",
         "count": 3
@@ -10798,10 +10866,6 @@
       "renormalization": {
         "first_seen": "2026-05-29",
         "count": 1
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-05-29",
-        "count": 30
       },
       "entanglement-harvesting": {
         "first_seen": "2026-05-28",
@@ -12509,6 +12573,11 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 58,
+      "Experiment & Observation": 31,
+      "Many-Body Physics & Condensed Matter": 30,
+      "Optics & Photonics": 34,
+      "Science Communication & Policy": 51,
       "loop-quantum-gravity": 7,
       "black-holes": 60,
       "quantum-gravity": 32,
@@ -12521,10 +12590,7 @@
       "physics": 4,
       "many-body": 9,
       "string-theory": 3,
-      "Science Communication & Policy": 49,
       "holography": 21,
-      "Optics & Photonics": 33,
-      "Quantum Information & Computing": 57,
       "Technology & Engineering": 38,
       "Black-Hole-Thermodynamics": 3,
       "Hawking-Radiation": 1,
@@ -12782,7 +12848,6 @@
       "Exoplanets": 1,
       "Astrobiology": 1,
       "Planetary Atmospheres": 1,
-      "Many-Body Physics & Condensed Matter": 29,
       "primordial-black-holes": 3,
       "entropy": 2,
       "gravity-thermodynamics": 1,
@@ -12881,7 +12946,6 @@
       "tensor-power-spectrum": 1,
       "loop-corrections": 1,
       "renormalization": 1,
-      "Experiment & Observation": 30,
       "entanglement-harvesting": 1,
       "BTZ": 1,
       "thermodynamics": 8,
@@ -13310,6 +13374,34 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "arxiv": [
         "2026-06-13",
         "2026-06-12",
@@ -13356,33 +13448,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "web-science": [
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
