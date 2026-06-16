@@ -1,7 +1,27 @@
 # Edit History
 
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-06-05 21:33:00 IST*
+*Last Updated: 2026-06-16 08:20:00 IST*
+
+### 2026-06-16
+
+#### 08:20:00 IST - T15: arXiv HTML Structure Fix — Abstract and Category Extraction
+- Modified `scripts/arxiv-digest-full.sh` — Updated abstract extraction regex to handle arXiv HTML change (removed `<p>` tags around abstracts). Added new pattern matching after `<span class="descriptor">Abstract:</span>` with old pattern as fallback.
+- Modified `scripts/fetch-arxiv-html.py` — Fixed category extraction regex to extract codes from within parentheses (e.g., `(hep-th)`). Old regex greedily consumed text before parentheses, causing all categories to be empty.
+- Modified `arxiv/2026-06-09.md` — Re-fetched all 15 abstracts using fixed regex. Restored from git history after accidental corruption from first repair attempt.
+- Modified `arxiv/2026-06-10.md` — Re-fetched all 15 abstracts using fixed regex.
+- Modified `arxiv/2026-06-11.md` — Re-fetched all 15 abstracts using fixed regex.
+- Modified `arxiv/2026-06-12.md` — Re-fetched all 15 abstracts using fixed regex.
+- Modified `arxiv/2026-06-13.md` — Re-fetched all 15 abstracts using fixed regex.
+- Modified `arxiv/2026-06-16.md` — Re-fetched all 15 abstracts using fixed regex.
+- Modified `viewer/arxiv/2026-06-09.md` through `viewer/arxiv/2026-06-16.md` — Submodule updated with corrected digests.
+- Modified `viewer/index.db` — Rebuilt with corrected abstracts.
+- Modified `viewer/index.json` — Rebuilt with corrected abstracts.
+- Created `memory-bank/tasks/T15.md` — Task file documenting the HTML structure change, root cause, fixes, and lessons learned.
+- Created `memory-bank/sessions/2026-06-16-morning.md` — Session file for T15 work.
+- Modified `memory-bank/tasks.md` — Added T15 to completed tasks registry.
+- Modified `memory-bank/activeContext.md` — Updated current status with T15 completion.
+- Modified `memory-bank/session_cache.md` — Updated session history, task registry, session history.
 
 ### 2026-06-05
 

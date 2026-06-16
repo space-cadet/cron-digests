@@ -21,6 +21,7 @@
 | T12 | ES Module Fix — package.json for CommonJS scripts | 2026-05-25 | T11 | [Details](tasks/T12.md) |
 | T13 | Moltbook Research Stream Integration into Viewer | 2026-05-25 | T6, T9 | [Details](tasks/T13.md) |
 | T14 | arXiv Digest Throttled Rerun — 429 Error Prevention | 2026-06-05 | — | [Details](tasks/T14.md) |
+| T15 | arXiv HTML Structure Fix — Abstract and Category Extraction | 2026-06-16 | T14 | [Details](tasks/T15.md) |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)
@@ -100,14 +101,28 @@
 **Files:** `moltbook/2026-05-25.md`, `moltbook/manifest.json`, `scripts/generate-moltbook-digest.js`, `scripts/build-index.js`, `viewer/index.html`, `.github/workflows/ci.yml`
 **Notes:** Full pipeline: cron job saves to `~/.openclaw/logs/moltbook-research.md` → `generate-moltbook-digest.js` parses → dated digest + manifest → `build-index.js` indexes → viewer renders. The viewer shows submolt name as chips, author lines, and direct URLs.
 
+### T14: arXiv Digest Throttled Rerun — 429 Error Prevention
+**Description:** Added `time.sleep(3)` between arXiv category fetches in `scripts/fetch-arxiv-html.py` to prevent 429 rate-limit errors.
+**Status:** ✅ **Last:** 2026-06-05 21:33:00 IST
+**Criteria:** 2026-06-05 digest regenerated with 12 papers, all abstracts verified, zero 429 errors.
+**Files:** `scripts/fetch-arxiv-html.py`, `arxiv/2026-06-05.md`, `arxiv/seen-urls.json`
+**Notes:** arXiv was returning 429 errors during rapid sequential fetches. The 3-second sleep between category requests resolved the issue.
+
+### T15: arXiv HTML Structure Fix — Abstract and Category Extraction
+**Description:** Fixed abstract and category extraction after arXiv changed their HTML structure. Abstracts are no longer wrapped in `<p>` tags; category codes must be extracted from within parentheses.
+**Status:** ✅ **Last:** 2026-06-16 08:20:00 IST
+**Criteria:** All 6 recent digests (2026-06-09 through 2026-06-16) have full abstracts and categories. Regex patterns updated with fallback support.
+**Files:** `scripts/arxiv-digest-full.sh`, `scripts/fetch-arxiv-html.py`, `arxiv/2026-06-09.md` through `arxiv/2026-06-16.md`
+**Notes:** The abstract regex failed because arXiv removed `<p>` tags. The category regex failed because it greedily consumed text before parenthetical codes. Both fixed and retroactively applied to 6 digests. 90 abstracts re-fetched in total.
+
 ## Operational Notes
-- **arXiv digest cron:** Tue-Sat 7:11 IST, last run 2026-05-25 (12 papers verified)
+- **arXiv digest cron:** Tue-Sat 7:11 IST, last run 2026-06-16 (15 papers, all abstracts + categories verified)
 - **Web Science digest cron:** Tue-Sat 10:17 IST, last run 2026-05-25 (6 articles via CloakBrowser)
 - **Moltbook research cron:** Every 6h at :30, last run 2026-05-25 07:11 IST (146s, 4 entries)
 - **Moltbook personal cron:** Every 6h on the hour, last run 2026-05-25 06:11 IST (164s)
 - **Generated digests:** arxiv/2026-05-25.md, web-science/2026-05-25.md, moltbook/2026-05-25.md
 - **CI/CD:** GitHub Actions auto-validates, rebuilds index, deploys to Pages on every push
-- **Index:** 23 digests, 213 entries, 384+ unique tags indexed
+- **Index:** 23+ digests, 213+ entries, 384+ unique tags indexed
 - **Viewer:** Auto-deployed to GitHub Pages via CI, loads index.json instantly, now shows three sources
 - **CloakBrowser:** Available at `scripts/generate-web-science-cloak.mjs` for manual or future cron use
 - **Moltbook generator:** Available at `scripts/generate-moltbook-digest.js`, reads from `~/.openclaw/logs/moltbook-research.md`
