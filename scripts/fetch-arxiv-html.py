@@ -105,15 +105,21 @@ def extract_papers(html, category):
         )
         if cat_match:
             cat_text = cat_match.group(1)
-            # Look for category codes like gr-qc, hep-th, quant-ph, cond-mat, math.NA, astro-ph.HE
-            for cat in re.finditer(r'([a-zA-Z\-]+(?:\.[a-zA-Z\-]+)?)(?:\s*\([^)]+\))?', cat_text):
+            # Extract category codes from parenthetical expressions like (hep-th), (gr-qc), (math-ph)
+            # arXiv format: "High Energy Physics - Theory (hep-th)"
+            for cat in re.finditer(r'\(([a-zA-Z\-]+(?:\.[a-zA-Z\-]+)?)\)', cat_text):
                 c = cat.group(1)
-                # Filter out non-category strings and CSS class names
-                skip = {'primary-subject', 'descriptor', 'span', 'class', 'div', 'http', 'https'}
-                if c.lower() in skip:
-                    continue
                 if len(c) > 2 and (c.count('-') >= 1 or c.count('.') >= 1):
                     categories.append(c)
+            # Fallback: also match bare codes (not in parentheses) if no parens found
+            if not categories:
+                for cat in re.finditer(r'(?<![a-zA-Z.])([a-zA-Z\-]+(?:\.[a-zA-Z\-]+)?)(?![a-zA-Z.])', cat_text):
+                    c = cat.group(1)
+                    skip = {'primary-subject', 'descriptor', 'span', 'class', 'div', 'http', 'https'}
+                    if c.lower() in skip:
+                        continue
+                    if len(c) > 2 and (c.count('-') >= 1 or c.count('.') >= 1):
+                        categories.append(c)
         paper["categories"] = list(set(categories))
         
         # Abstract link
