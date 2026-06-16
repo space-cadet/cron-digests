@@ -88,7 +88,11 @@ for p in papers:
             req = urllib.request.Request(url, headers={'User-Agent': 'Cloudy-Bot/1.0'})
             with urllib.request.urlopen(req, timeout=15) as resp:
                 html = resp.read().decode('utf-8', errors='replace')
-            m = re.search(r'<blockquote class="abstract mathjax">.*?<p>(.*?)</p>.*?</blockquote>', html, re.DOTALL)
+            # arXiv HTML changed: abstract is no longer wrapped in <p> tags
+            # Try new pattern first (direct text after span), fallback to old pattern
+            m = re.search(r'<blockquote class="abstract mathjax">.*?<span class="descriptor">Abstract:</span>(.*?)</blockquote>', html, re.DOTALL)
+            if not m:
+                m = re.search(r'<blockquote class="abstract mathjax">.*?<p>(.*?)</p>.*?</blockquote>', html, re.DOTALL)
             if m:
                 abstract = re.sub(r'<[^>]+>', '', m.group(1)).strip()
                 p['abstract'] = abstract
