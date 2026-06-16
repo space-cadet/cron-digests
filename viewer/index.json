@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T02:27:14.631Z",
+  "generated": "2026-06-16T04:49:29.431Z",
   "digests": [
     {
       "date": "2026-06-16",
@@ -201,6 +201,81 @@
           "relevance": "black-holes",
           "tags": [
             "black-holes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-16",
+      "items_found": 6,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Oxford Physicists Just Made Schrödinger’s Cat Even Stranger",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260614011848.htm",
+          "summary": "Oxford physicists have created an entirely new type of Schrödinger's cat-like quantum state using components that are themselves highly quantum in nature. The advance could open new possibilities for more resilient quantum computers and deeper insights into the strange rules that govern the quantum universe.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "How Many Elementary Particles Are There, Really?",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/",
+          "summary": "Plausible answers range from 17 to — in all seriousness — 995.5.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "The latest benefit of obesity drugs: boosting testosterone and sperm quality",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01867-0",
+          "summary": "Preliminary study finds that testosterone levels increase or stabilize in people taking GLP-1 medications.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "‘Every box has been opened’: London botanic gardens digitizes 7 million specimens",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01917-7",
+          "summary": "As Kew Botanic Gardens completes a scan of its collections, AI tools could help in the fight against biodiversity loss.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Asymmetric weather pattern reveals exoplanet’s true atmosphere",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/asymmetric-weather-pattern-reveals-exoplanets-true-atmosphere/",
+          "summary": "Astronomers have observed an asymmetric weather pattern on an exoplanet that reveals the true composition of its atmosphere, offering a new method to study distant worlds.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "At-home brain implant gives man with motor neuron disease his daily life back",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01863-4",
+          "summary": "The device has helped a man with motor neuron disease communicate and control his computer for nearly two years.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Technology & Engineering"
           ]
         }
       ]
@@ -9753,8 +9828,8 @@
     }
   ],
   "stats": {
-    "total_digests": 72,
-    "total_entries": 653,
+    "total_digests": 73,
+    "total_entries": 659,
     "unique_tags": {
       "tensor-networks": {
         "first_seen": "2026-06-16",
@@ -9777,12 +9852,20 @@
         "count": 33
       },
       "Quantum Information & Computing": {
-        "first_seen": "2026-06-15",
-        "count": 58
+        "first_seen": "2026-06-16",
+        "count": 59
       },
       "Experiment & Observation": {
-        "first_seen": "2026-06-15",
-        "count": 31
+        "first_seen": "2026-06-16",
+        "count": 32
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-16",
+        "count": 55
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-06-16",
+        "count": 39
       },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-06-15",
@@ -9791,10 +9874,6 @@
       "Optics & Photonics": {
         "first_seen": "2026-06-15",
         "count": 34
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-15",
-        "count": 51
       },
       "moltbook": {
         "first_seen": "2026-06-15",
@@ -9839,10 +9918,6 @@
       "holography": {
         "first_seen": "2026-06-11",
         "count": 21
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-06-08",
-        "count": 38
       },
       "Black-Hole-Thermodynamics": {
         "first_seen": "2026-06-06",
@@ -12963,11 +13038,12 @@
       "quantum-computing": 13,
       "black-holes": 67,
       "quantum-gravity": 33,
-      "Quantum Information & Computing": 58,
-      "Experiment & Observation": 31,
+      "Quantum Information & Computing": 59,
+      "Experiment & Observation": 32,
+      "Science Communication & Policy": 55,
+      "Technology & Engineering": 39,
       "Many-Body Physics & Condensed Matter": 30,
       "Optics & Photonics": 34,
-      "Science Communication & Policy": 51,
       "moltbook": 143,
       "quantum": 119,
       "llms": 57,
@@ -12979,7 +13055,6 @@
       "many-body": 9,
       "string-theory": 3,
       "holography": 21,
-      "Technology & Engineering": 38,
       "Black-Hole-Thermodynamics": 3,
       "Hawking-Radiation": 1,
       "Regular-Black-Holes": 1,
@@ -13789,6 +13864,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-06-16",
         "2026-06-15",
         "2026-06-12",
         "2026-06-11",
