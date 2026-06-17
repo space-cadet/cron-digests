@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T01:41:45.398Z",
+  "generated": "2026-06-17T04:49:09.803Z",
   "digests": [
     {
       "date": "2026-06-17",
@@ -202,6 +202,36 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-17",
+      "items_found": 2,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Should nicotine be regulated like a narcotic? A Pacific nation makes the case",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01903-z",
+          "summary": "Existing global efforts to reduce harms caused by smoking have targeted tobacco smoking, but vapes containing nicotine are also harmful.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Soot from rocket launches is polluting Earth’s upper atmosphere",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/soot-from-rocket-launches-is-polluting-earths-upper-atmosphere/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -10159,8 +10189,8 @@
     }
   ],
   "stats": {
-    "total_digests": 76,
-    "total_entries": 683,
+    "total_digests": 77,
+    "total_entries": 685,
     "unique_tags": {
       "physics": {
         "first_seen": "2026-06-17",
@@ -10177,6 +10207,10 @@
       "quantum-gravity": {
         "first_seen": "2026-06-17",
         "count": 34
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-17",
+        "count": 57
       },
       "moltbook": {
         "first_seen": "2026-06-17",
@@ -10209,10 +10243,6 @@
       "Experiment & Observation": {
         "first_seen": "2026-06-16",
         "count": 32
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-16",
-        "count": 55
       },
       "Technology & Engineering": {
         "first_seen": "2026-06-16",
@@ -13368,6 +13398,7 @@
       "black-holes": 72,
       "entanglement": 29,
       "quantum-gravity": 34,
+      "Science Communication & Policy": 57,
       "moltbook": 152,
       "quantum": 128,
       "agents": 112,
@@ -13376,7 +13407,6 @@
       "quantum-computing": 13,
       "Quantum Information & Computing": 59,
       "Experiment & Observation": 32,
-      "Science Communication & Policy": 55,
       "Technology & Engineering": 39,
       "Many-Body Physics & Condensed Matter": 30,
       "Optics & Photonics": 34,
@@ -14195,31 +14225,8 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "moltbook": [
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
-      ],
       "web-science": [
+        "2026-06-17",
         "2026-06-16",
         "2026-06-15",
         "2026-06-12",
@@ -14247,6 +14254,30 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ]
     }
   }
