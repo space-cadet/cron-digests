@@ -563,6 +563,10 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YrEzHgEbXgPpP+r2mlYJ8W/LYTnY4Rv0mU+0A" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqt+117bE3lgC6U7UvV6N5hD7Y/G+1YrPtmwLF/9jHjTXO33++" crossorigin="anonymous"
+        onload="renderMathInElement(document.getElementById('modalBody'), {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}, {left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false}]});"></script>
 </head>
 <body>
     <header>
@@ -1045,6 +1049,19 @@
             body.innerHTML = tocHtml + html;
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
+
+            // Render LaTeX math in modal
+            if (typeof renderMathInElement === 'function') {
+                renderMathInElement(body, {
+                    delimiters: [
+                        {left: '$$', right: '$$', display: true},
+                        {left: '$', right: '$', display: false},
+                        {left: '\\[', right: '\\]', display: true},
+                        {left: '\\(', right: '\\)', display: false}
+                    ],
+                    throwOnError: false
+                });
+            }
         }
 
         function extractArxivId(text) {
