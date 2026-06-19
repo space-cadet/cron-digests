@@ -814,6 +814,19 @@
             focusedCardIndex = visibleCards.length > 0 ? 0 : -1;
             updateFocus();
 
+            // Render LaTeX math in card previews
+            if (typeof renderMathInElement === 'function') {
+                renderMathInElement(document.getElementById('digestContainer'), {
+                    delimiters: [
+                        {left: '$$', right: '$$', display: true},
+                        {left: '$', right: '$', display: false},
+                        {left: '\\[', right: '\\]', display: true},
+                        {left: '\\(', right: '\\)', display: false}
+                    ],
+                    throwOnError: false
+                });
+            }
+
             // Click handlers
             document.querySelectorAll('.digest-card').forEach(card => {
                 card.addEventListener('click', () => openCard(card));
