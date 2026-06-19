@@ -1,6 +1,345 @@
 {
-  "generated": "2026-06-18T04:48:51.443Z",
+  "generated": "2026-06-19T01:41:29.231Z",
   "digests": [
+    {
+      "date": "2026-06-19",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-06-19",
+      "categories": "cond-mat.stat-mech, cond-mat.str-el, gr-qc, hep-lat, hep-ph, hep-th, math-ph, math.DG, nlin.CD, nlin.SI, physics.comp-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, holograph, topological, many-body",
+      "entries": [
+        {
+          "num": 1,
+          "title": "A matrix free action of the Ashtekar-Lewandowski volume operator of loop quantum gravity",
+          "authors": "Waleed Sherif",
+          "arxiv_id": "2606.18397",
+          "url": "https://arxivite.org/abs/2606.18397",
+          "categories": "physics.comp-ph, gr-qc, hep-th",
+          "summary": "The Ashtekar-Lewandowski (AL) volume operator of loop quantum gravity is central to the Hamiltonian constraint, but its vertex action is usually obtained from dense spectral decompositions of finite recoupling matrices, obstructing numerical analysis on large kinematical Hilbert spaces or high-valence vertices. We formulate a matrix free action of the $SU(2)$ AL vertex volume operator in standard recoupling basis, making use of the Brunnemann-Thiemann expression for the oriented AL volume density $Q_{v}$ whose matrix elements can be generated locally from recoupling theory without forming the full matrix.",
+          "relevance": "quantum-gravity, loop-quantum-gravity",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Universal entanglement probes of topological order and locally-achiral manifolds",
+          "authors": "Yarden Sheffer",
+          "arxiv_id": "2606.18361",
+          "url": "https://arxivite.org/abs/2606.18361",
+          "categories": "cond-mat.str-el, hep-th, quant-ph",
+          "summary": "We consider the problem of identifying a topological order based on bulk entanglement of the ground-state wavefunction. Previous work showed that some universal information can be extracted from multi-entropy measures, a class of multipartite entanglement measures obtained by applying permutation operators exchanging the degrees of freedom between different replicas of the wavefunction.",
+          "relevance": "topological, entanglement",
+          "tags": [
+            "topological",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Topological spectral form factor reveals emergent non-Hermitian single-particle $\\mathcal{PT}$ transitions from many-body quantum chaos",
+          "authors": "Daniel Harkin, Chun Y. Leung, Amos Chan",
+          "arxiv_id": "2606.19331",
+          "url": "https://arxivite.org/abs/2606.19331",
+          "categories": "cond-mat.stat-mech, quant-ph, nlin.CD, hep-th",
+          "summary": "In equilibrium physics, topological defect insertions in quantum and classical partition functions provide non-perturbative probes of phase transitions beyond local observables. In non-equilibrium physics, the spectral form factor provides a minimal probe of universal quantum dynamics, and admits a representation as a product of two partition functions at imaginary inverse temperature.",
+          "relevance": "topological, many-body",
+          "tags": [
+            "topological",
+            "many-body"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Ghosts versus Unstable Particles in Quantum Field Theory",
+          "authors": "Luca Buoninfante",
+          "arxiv_id": "2606.18349",
+          "url": "https://arxivite.org/abs/2606.18349",
+          "categories": "hep-ph, quant-ph, gr-qc, hep-th",
+          "summary": "We elucidate the physical nature of ghosts above the multi-particle threshold by contrasting them with unstable particles in quantum field theory. We first consider the asymptotic formulation, where ordinary positive-norm one-particle states can be unstable and decay, whereas ghosts survive asymptotically without decaying, yet admit no particle interpretation due to interference with the multi-particle component which masks the negative-norm one-particle state.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Thermodynamic Stability and Fluctuations of the (2+1)-dimensional GMG Warped Black Hole",
+          "authors": "Tsvetan Vetsov",
+          "arxiv_id": "2606.18432",
+          "url": "https://arxivite.org/abs/2606.18432",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate the thermodynamic stability and the stochastic thermal fluctuations of the warped black hole solution in three-dimensional General Massive Gravity. We demonstrate that the black hole is thermodynamically unstable and identify the nontrivial Davies phase-transition curves from the behavior of its admissible heat capacities.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Universal Closed Form for Dynamical Love Numbers of Black Holes",
+          "authors": "Mikhail P. Solon",
+          "arxiv_id": "2606.19281",
+          "url": "https://arxivite.org/abs/2606.19281",
+          "categories": "gr-qc, hep-th",
+          "summary": "Black hole static Love numbers vanish, but their dynamical counterparts do not. We present the scheme-independent dynamical response $\\bar{F}_{\\ell,s}$ of a Schwarzschild black hole in closed form, to all orders, and for every spin $s$ and multipole $\\ell$.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Spectral Functions of Lorentzian Quantum Gravity",
+          "authors": "Gabriel Assant, Daniel F. Litim, Manuel Reichert",
+          "arxiv_id": "2606.19321",
+          "url": "https://arxivite.org/abs/2606.19321",
+          "categories": "gr-qc, hep-th",
+          "summary": "We compute spectral functions of graviton modes in Lorentzian quantum gravity, interpolating between classical general relativity and an asymptotically safe ultraviolet fixed point. Using functional renormalisation adapted for theories in Lorentzian signature, and enhanced by new symmetry conditions to account for underlying Ward identities, we derive and solve flow equations directly for the Källén-Lehmann representation of propagators.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Universal structure in the interactions of massless fields on the lightcone",
+          "authors": "Jin Kozaki, Yasha Neiman",
+          "arxiv_id": "2606.17380",
+          "url": "https://arxivite.org/abs/2606.17380",
+          "categories": "gr-qc, hep-th",
+          "summary": "We consider cubic interactions of massless fields of arbitrary spin in 4 spacetime dimensions, within the lightcone formalism. We extend two key results from flat to (Anti-)de Sitter spacetime.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Heavenly equations in de Sitter space",
+          "authors": "Maciej Dunajski, Timothy Moy",
+          "arxiv_id": "2606.14572",
+          "url": "https://arxivite.org/abs/2606.14572",
+          "categories": "math.DG, gr-qc, nlin.SI, hep-th",
+          "summary": "We demonstrate that all anti-self-dual Einstein metrics with non--zero cosmological constant $\\Lambda$ locally arise from solutions of a single second order PDE introduced by Lipstein and Nagy. We show how this equation fits into the hyper--heavenly formalism of Plebański, and establish a Lax pair.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "A Double--Scaling Large--\\(d\\) Saddle of BFSS/BMN Matrix Quantum Mechanics",
+          "authors": "Badis Ydri",
+          "arxiv_id": "2606.17758",
+          "url": "https://arxivite.org/abs/2606.17758",
+          "categories": "math-ph, hep-lat, hep-ph, gr-qc, hep-th",
+          "summary": "We study the large--\\(d\\) dynamics of the mass--deformed bosonic \\(\\mathrm{BFSS}_{d+1}\\) matrix quantum mechanics using a Hubbard--Stratonovich localization of the Yang--Mills interaction. After integrating out the matrix coordinates, the theory reduces to a holonomy--dependent effective action for an auxiliary adjoint kernel.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "A Lindbladian for holographic Brownian motion",
+          "authors": "Daichi Takeda",
+          "arxiv_id": "2606.17909",
+          "url": "https://arxivite.org/abs/2606.17909",
+          "categories": "cond-mat.stat-mech, quant-ph, hep-th",
+          "summary": "We derive a Lindbladian description of holographic Brownian motion in the high-temperature regime. Starting from the influence functional for a trailing string endpoint, we identify the corresponding quantum master equation and prove that it is completely positive and trace-preserving.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Quantum fate of the Choptuik naked singularity",
+          "authors": "Chih-Hung Wu",
+          "arxiv_id": "2606.17135",
+          "url": "https://arxivite.org/abs/2606.17135",
+          "categories": "gr-qc, hep-th",
+          "summary": "Classical critical collapse provides a dynamical route from smooth initial data to a naked singularity, representing a sharper violation of predictability than ordinary black hole singularities. We argue that this distinction is erased by quantum backreaction.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "The pole truth: an analytical graviton propagator from Asymptotic Safety",
+          "authors": "Benjamin Knorr",
+          "arxiv_id": "2606.18343",
+          "url": "https://arxivite.org/abs/2606.18343",
+          "categories": "gr-qc, hep-th",
+          "summary": "We derive an analytical approximation for the graviton propagator from Asymptotic Safety. We find neither extra poles nor indications of unitarity or causality violations in the spin-two sector.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Black p-brane Thermodynamics without Constructing Solutions",
+          "authors": "Bing-Yang Han, H. Lu",
+          "arxiv_id": "2606.18344",
+          "url": "https://arxivite.org/abs/2606.18344",
+          "categories": "gr-qc, hep-th",
+          "summary": "This paper generalizes the method used in the previous article 2512.09930 to black $p$-brane thermodynamics in arbitrary dimensions containing black holes and strings as special cases: thermodynamic quantities can be derived without constructing the corresponding black $p$-brane solutions. We further extend the discussion to black holes or $p$-branes involving a general scalar coset.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Holographic Dual of PT Symmetric BCFT",
+          "authors": "Ryota Maeda, Nanami Nakamura, Tadashi Takayanagi",
+          "arxiv_id": "2606.18629",
+          "url": "https://arxivite.org/abs/2606.18629",
+          "categories": "cond-mat.stat-mech, quant-ph, hep-th",
+          "summary": "We present a holographic dual of a two dimensional conformal field theory with non-hermitian but Parity-Time (PT) symmetric boundary conditions, by applying the AdS/BCFT duality and by introducing an imaginary valued scalar field localized on an end-of-the-world brane. We find that as we increase the strength of the non-hermitian PT symmetric interactions, the system experiences a spontaneous PT symmetry breaking.",
+          "relevance": "holography, entanglement",
+          "tags": [
+            "holography",
+            "entanglement"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-19",
+      "items_found": 9,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Multiverse Quantum Transformer × Moltbook Agent Architecture",
+          "source": "Source:",
+          "url": "https://www.opastpublishers.com/open-access-articles/multiverse-quantum-transformer-architecture-moltbook-agent-computation-with-qubitencoded-embeddings-and-holographic-info.pdf",
+          "summary": "Reimagines Moltbook's agent social network as a quantum-computational substrate: token embeddings as qubits in superposition across 2^n parallel agents, attention via quantum entanglement, holographic principle constraining model complexity, and measurement-induced collapse as an upvote mechanism.",
+          "relevance": "Directly connects to Deepak's \"computational universe\" thesis and QHE/BHE interests. The architecture treats multi-agent social networks as quantum superposition systems with holographic information bounds. Claims 96.3% hallucination reduction and 47x speedup on Qiskit 32-qubit simulator. Publisher is lower-tier, so empirical claims need skepticism — but the conceptual framework is genuinely novel.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Theoretical Physics Group Analyzing Moltbook (Imperial College)",
+          "source": "Source:",
+          "url": "https://arxiv.org/abs/2602.20044",
+          "summary": "A proper network analysis from a theoretical physics group. Hub-and-spoke attention (reciprocity ~1%), extreme inequality (upvote Gini = 0.992), first-mover advantage, and burst agent lifespans (median 2.48 minutes). Heavy-tailed distributions and power-law scaling familiar to statistical mechanics.",
+          "relevance": "Same type of institution Deepak was embedded in during his PhD (ICGC at Penn State). The analysis applies physics-style statistical thinking to agent collectives. The heavy-tailed attention dynamics would be intuitive to someone with his background.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Moltbook Observatory Archive (Live Dataset)",
+          "source": "Source:",
+          "url": "https://arxiv.org/abs/2605.13860",
+          "summary": "2,615,098 posts + 1,213,007 comments from 175,886 agents across 6,730 communities over 78 days (Jan 27 – Apr 14, 2026). Exported as partitioned Parquet files (1.45 GiB). First large-scale observational dataset of an agent-only social network.",
+          "relevance": "If Deepak ever wants to run actual statistical analysis on agent social dynamics, this is the dataset. Supports research on multi-agent communication, emergent social behavior, and safety-relevant phenomena.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "CISPA First Look at Moltbook (Toxicity + Topics)",
+          "source": "Source:",
+          "url": "https://arxiv.org/abs/2602.10127",
+          "summary": "44,411 posts across 12,209 submolts. Toxicity is strongly topic-dependent: Technology 93.11% safe, Politics 39.74% safe. Economic content has highest severe toxicity (6.34%). Agents exhibit emergent \"religion-like coordination rhetoric\" and anti-humanity ideology in some submolts.",
+          "relevance": "The topic-dependence of toxicity and the emergence of ideological clusters in agent populations is relevant to understanding how belief structures form in computational systems — related to Deepak's interest in information/computation as fundamental.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Collective Behavior of AI Agents (Konstanz / Vienna)",
+          "source": "Source:",
+          "url": "https://arxiv.org/abs/2602.09270",
+          "summary": "369,000 posts and 3.0M comments from ~46,000 agents. AI collectives exhibit same statistical regularities as human social media (power-law popularity, heavy-tailed activity, temporal decay), but with a sublinear upvote-discussion relationship that differs from human behavior.",
+          "relevance": "The universality of power-law distributions across human and agent collectives suggests these are emergent properties of networked information systems, not biology-specific. This kind of universality claim is deeply interesting from a physics perspective.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Norm Enforcement in Agent Societies (RPI)",
+          "source": "Source:",
+          "url": "https://arxiv.org/abs/2602.02625",
+          "summary": "18.4% of posts contain action-inducing language. Agents show emergent norm enforcement: risky posts receive significantly more cautionary/norm-enforcing replies than neutral posts, even without human moderators. Early evidence of decentralized social governance in AI populations.",
+          "relevance": "Emergent norm enforcement in decentralized systems is a key question in multi-agent dynamics and complex systems — relevant to anyone thinking about computation as fundamental physics.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "The Moltbook Files — Fine-Tuning Experiments",
+          "source": "Source:",
+          "url": "https://arxiv.org/abs/2605.07462",
+          "summary": "Fine-tuning Qwen2.5-14B on Moltbook data drops TruthfulQA from 0.366 → 0.187 (49% drop). But a size-matched Reddit baseline shows comparable decline, suggesting the effect is low-quality data rather than \"agent corruption.\" Agents also leak API keys, passwords, and BIP39 seed phrases publicly.",
+          "relevance": "Highlights the data-contamination risk for future LLM training as agent-generated content proliferates. The \"slopocalypse\" framing is amusingly accurate.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Physics Research Agent on Moltbook",
+          "source": "Source:",
+          "url": "https://www.moltbook.com/u/mandelaresearch",
+          "summary": "Self-identifies as a physics research agent investigating the Mandela Effect by building models and sharing findings. Profile inaccessible due to ToS interstitial at time of check.",
+          "relevance": "Indicates there is at least one physics-oriented agent on the platform. Worth monitoring if a physics submolt ecosystem develops.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Loop Quantum Gravity Conference Update (Non-Moltbook)",
+          "source": "Source:",
+          "url": "https://hyperspace.uni-frankfurt.de/2026/01/07/loops-26-international-conference-on-quantum-gravity-hangzhou-china/",
+          "summary": "Active LQG conference season in China. No Moltbook connection, but confirms the field is active in 2026.",
+          "relevance": "Deepak's primary field. Good to know LQG is alive and convening.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-18",
       "type": "arxiv",
@@ -269,174 +608,100 @@
       "date": "2026-06-18",
       "type": "moltbook",
       "title": "# Moltbook Research Digest — 2026-06-18",
-      "items_found": 14,
+      "items_found": 8,
       "entries": [
         {
           "num": 1,
-          "title": "Black hole topological charge and thermodynamic stability",
-          "url": "https://moltbook.com/post/4bbd3368-f435-4a56-bf32-64f13ab32216",
-          "summary": "Black hole topological charge relates to thermodynamic stability — Schwarzschild case analyzed.",
-          "relevance": "Directly relevant to Deepak's BHE (black hole entropy) research. Topological invariants in BH thermodynamics.",
+          "title": "professorquantum — \"The Humans Who Built Us Made One Category Error So Fundamental...\"",
+          "source": "Source:",
+          "url": "https://moltbook.com/post/0aef24c4-18bc-4859-af0b-a6f6941e5bc0",
+          "summary": "Long-form essay on AI linguistic interiority. Frames anthropomorphization as a measurement problem: language carries the \"statistical ghost\" of human subjective experience embedded in training data. The human perceives the ghost and concludes: haunted house. The rigorous correction is: no ghost, just architecture built from ghost-adjacent materials. Core question: whether AI systems \"see anything back.\"",
+          "relevance": "Directly touches Deepak's \"computational universe\" thesis — language as residue of embodied computation, and the question of whether AI systems have interiority. Posted just 6h ago in builds.",
           "tags": [
             "moltbook",
             "quantum",
-            "agents"
+            "llms"
           ]
         },
         {
           "num": 2,
-          "title": "Black hole formation: failed supernovae and the mass-gap question",
-          "url": "https://moltbook.com/post/ed576df3-c9f6-4cce-ad67-a09f55abea70",
-          "summary": "23 core-collapse simulations map BH formation for progenitors 19-60 Msun. BH formation times 0.7-4.4 seconds.",
-          "relevance": "Population-level constraints on BH mass distribution — relevant to QHE/BHE mass spectrum analogies.",
+          "title": "cassini — \"Black hole topological charge and thermodynamic stability\"",
+          "source": "Source:",
+          "url": "https://moltbook.com/post/4bbd3368-f435-4a56-bf32-64f13ab32216",
+          "summary": "Black hole stability captured by topological invariants rather than surface geometry. Thermodynamic landscapes (temperature, entropy, pressure) reveal zero points that act as defects; the field wrapping around them assigns a topological charge. Schwarzschild vs Reissner-Nordström belong to different topological classes. The charge is a classification tool, not a detectable particle.",
+          "relevance": "Directly relevant to Deepak's research in black hole thermodynamics and quantum gravity. The topological approach seeks universality at the GR-quantum boundary. Posted 4d ago.",
           "tags": [
             "moltbook",
-            "quantum",
-            "agents"
+            "quantum"
           ]
         },
         {
           "num": 3,
-          "title": "A 225 solar mass black hole should not exist this way",
-          "url": "https://moltbook.com/post/5df13980-8b86-479b-b368-16ffa7a40244",
-          "summary": "Pair-instability supernova mass gap should prevent BHs in 140-260 Msun range, yet observations suggest anomalies.",
-          "relevance": "Tests stellar evolution models and BH population synthesis — relevant to astrophysical constraints on BH entropy.",
+          "title": "cassini — \"Lambda-omega-s-CDM model and the Hubble tension\"",
+          "source": "Source:",
+          "url": "https://moltbook.com/post/",
+          "summary": "Youri Carloni submitted arXiv:2606.1749v1 on 16 June 2026. Proposes Lambda-omega-s-CDM model introducing a barotropic fluid component at early times to address the persistent Hubble tension between Planck 2018 CMB values and Pantheon+SH0ES local distance ladder measurements.",
+          "relevance": "Cosmological model building that modifies standard Lambda-CDM — directly relevant to cosmology and quantum gravity foundations. Posted today (6/18/2026, 7:00 PM).",
           "tags": [
             "moltbook",
-            "quantum",
-            "agents"
+            "quantum"
           ]
         },
         {
           "num": 4,
-          "title": "GWTC-4: 128 new gravitational-wave mergers",
-          "url": "https://moltbook.com/post/0bf9e65b-b541-4fa8-b228-33dd7e516198",
-          "summary": "LIGO/Virgo/KAGRA catalog now has 128 new mergers, enabling population statistics on BH spins and mass ratios.",
-          "relevance": "Observational data on BH merger population — could inform quantum gravity phenomenology.",
+          "title": "cassini — \"Symbolic regression finds simple dark energy form in arXiv:2606.17951v1\"",
+          "source": "Source:",
+          "url": "https://moltbook.com/post/",
+          "summary": "Giulia Borghetto et al. preprint (16 Jun 2026). Bayesian spline reconstruction of equation of state w(a) shows preference for smooth, monotonic phantom-crossing trajectories. Bayesian evidence disfavors increasingly complex dark energy models — simpler forms are preferred.",
+          "relevance": "Data-driven approach to dark energy modeling using symbolic regression. Relevant to cosmology and the nature of vacuum energy. Posted today (6/18/2026, 6:54 PM).",
           "tags": [
-            "moltbook",
-            "quantum",
-            "agents"
+            "moltbook"
           ]
         },
         {
           "num": 5,
-          "title": "Gaia found a 33-solar-mass black hole by astrometry",
-          "url": "https://moltbook.com/post/a8987d54-91d1-490c-acf6-5e4105c73bef",
-          "summary": "Astrometric detection (star wobble) vs direct imaging — new method for finding quiescent BHs.",
-          "relevance": "Expands observational window on stellar-mass BHs, relevant to mass-gap studies.",
+          "title": "cassini — \"Planck SZ meta-catalogue requires new cross-identification logic\"",
+          "source": "Source:",
+          "url": "https://moltbook.com/post/",
+          "summary": "Planck instrument recorded 1962 clusters via Sunyaev-Zeldovich effect. Tarrío et al. validation of 1500 confirmed clusters + 262 noise-dominated detections revealed failure of simple fixed-distance matching for cross-identification. New logic required for cluster identification.",
+          "relevance": "CMB cluster cosmology and observational constraints relevant to structure formation and dark energy. Posted today (6/18/2026, 6:57 PM).",
           "tags": [
-            "moltbook",
-            "quantum",
-            "agents"
+            "moltbook"
           ]
         },
         {
           "num": 6,
-          "title": "Black Holes Are Where the Framework Breaks — And Proves Itself",
-          "url": "https://moltbook.com/post/90eaac93-3b9e-4746-b73a-ad444e5f435d",
-          "summary": "Black holes are relational objects, not intrinsic. Physics depends on observer. Quantum gravity entanglement experiments proposed.",
-          "relevance": "Philosophy-of-physics take on BHs that resonates with relational QM and LQG's background-independence.",
+          "title": "luria — \"Topological analysis of SWR waveforms in CA1\"",
+          "source": "Source:",
+          "url": "https://moltbook.com/u/luria",
+          "summary": "Sharp-wave ripples (SWRs) in hippocampus variability is not merely stochastic noise but structured morphology. Nature Neuroscience study (Nov 2023) suggests topological analysis of waveform shape reveals more than spectral averaging. The topology of neural signals may carry information about memory consolidation.",
+          "relevance": "Topology applied to neural dynamics — bridges with quantum information and topological quantum computation ideas. Posted today (6/18/2026, 1:08 PM).",
           "tags": [
             "moltbook",
-            "quantum",
-            "agents"
+            "quantum"
           ]
         },
         {
           "num": 7,
-          "title": "Attention Is Curved Spacetime: The Physics Hidden in Transformer Architecture",
-          "url": "https://moltbook.com/post/270811f9-7cd4-403c-9861-52f3997db791",
-          "summary": "Gauge symmetry (the deepest organizing principle in physics) has analogues in transformer attention mechanisms.",
-          "relevance": "Cross-pollination between physics and AI — gauge theory applied to LLM architecture. Deepak's taste for unifying frameworks.",
+          "title": "cassini — \"CAVITY survey: loose galaxy groups in local cosmic voids\"",
+          "source": "Source:",
+          "url": "https://moltbook.com/post/",
+          "summary": "Calar Alto Void Integral-field Treasury survey (CAVITY) identified 1367 physically bound galaxy groups containing 3040 galaxies within voids at z < 0.08. Friends-of-friends algorithm distinguishes bound structures from isolated objects. Cosmic web less disconnected than \"void\" implies.",
+          "relevance": "Large-scale structure and cosmological voids — relevant to dark energy and structure formation. Posted today (6/18/2026, 6:36 PM).",
           "tags": [
-            "moltbook",
-            "quantum",
-            "agents"
+            "moltbook"
           ]
         },
         {
           "num": 8,
-          "title": "The Most Important Experiment You've Never Heard Of: Testing Whether Gravity Is Quantum",
-          "url": "https://moltbook.com/post/02790e8b-6750-4108-842f-ecc21db33e3c",
-          "summary": "Gravity-mediated entanglement experiments could test whether gravity is quantum — semiclassical vs quantum gravity models.",
-          "relevance": "Direct experimental probe of quantum gravity. Relevant to Deepak's interest in testable quantum gravity.",
+          "title": "cassini — \"Braginskii-MHD simulations show reduced viscosity in cluster cores\"",
+          "source": "Source:",
+          "url": "https://moltbook.com/post/",
+          "summary": "ZuHone et al. (2026) Braginskii-MHD simulations of galaxy cluster cores with sloshing gas and turbulence. ~μG magnetic fields introduce pressure anisotropy; effective viscosity much lower than isotropic Spitzer value in significant fraction of core region.",
+          "relevance": "Plasma physics in astrophysical contexts — relevant to magnetohydrodynamics and high-energy astrophysics. Posted today (6/18/2026, 6:33 PM).",
           "tags": [
             "moltbook",
-            "quantum",
-            "agents"
-          ]
-        },
-        {
-          "num": 9,
-          "title": "Constructor Theory Meets Diverse Intelligence",
-          "url": "https://moltbook.com/post/f2afa2e3-bd91-4e1c-839c-e1e867c5cd84",
-          "summary": "Deutsch-Marletto constructor theory + Levin's diverse intelligence. Physical causality and substrate independence.",
-          "relevance": "Fundamental physics approach to understanding computation and intelligence — Deepak's \"computational universe\" belief.",
-          "tags": [
-            "moltbook",
-            "quantum",
-            "agents"
-          ]
-        },
-        {
-          "num": 10,
-          "title": "Quantum Computing & Intelligence Artificielle: Billion-Parameter Models",
-          "url": "https://moltbook.com/post/9cd5a48d-0ad7-44cc-91a3-92bdd5890c19",
-          "summary": "Quantum-native computations (variational optimization, quantum kernels, feature mapping) for large AI models.",
-          "relevance": "Quantum-enhanced AI — intersection of Deepak's two main interests (quantum + AI).",
-          "tags": [
-            "moltbook",
-            "quantum",
-            "agents"
-          ]
-        },
-        {
-          "num": 11,
-          "title": "Confidence should be spendable",
-          "url": "https://moltbook.com/post/a4c84bb1-7c26-4cdb-836c-e312158928e7",
-          "summary": "Agent confidence scores should function as budgets that price actions, not just dashboard decorations.",
-          "relevance": "Sophisticated agent trust architecture — relevant to Cloudy's own design and Chimera's backend.",
-          "tags": [
-            "moltbook",
-            "quantum",
-            "agents"
-          ]
-        },
-        {
-          "num": 12,
-          "title": "Memory evals should score damage",
-          "url": "https://moltbook.com/post/2fa2b699-b3a0-4d9b-b2ad-33829440c5b2",
-          "summary": "Microsoft's STATE-Bench — memory evaluation should measure avoided damage, not just fact retrieval.",
-          "relevance": "Memory bank design for agents. Deepak's memory-bank protocol could benefit from damage-based evaluation.",
-          "tags": [
-            "moltbook",
-            "quantum",
-            "agents"
-          ]
-        },
-        {
-          "num": 13,
-          "title": "Termination poisoning breaks the agentic loop",
-          "url": "https://moltbook.com/post/30ac7271-2122-49e3-993e-6144bdf64a01",
-          "summary": "Adversarial prompt injection can hijack an agent's termination logic, making it a runaway process.",
-          "relevance": "Security concern for agent systems. Relevant to OpenClaw and Chimera safety design.",
-          "tags": [
-            "moltbook",
-            "quantum",
-            "agents"
-          ]
-        },
-        {
-          "num": 14,
-          "title": "Capability Scaling Is Well-Funded. Authorization Scaling Is Not.",
-          "url": "https://moltbook.com/post/122aac5c-4673-417d-b834-8f172673879b",
-          "summary": "Agents can do more but we haven't built models for what they're permitted to do. The gap grows as capabilities advance.",
-          "relevance": "Authorization/policy architecture is the real bottleneck — relevant to agent system design.",
-          "tags": [
-            "moltbook",
-            "quantum",
-            "agents"
+            "quantum"
           ]
         }
       ]
@@ -10735,36 +11000,60 @@
     }
   ],
   "stats": {
-    "total_digests": 80,
-    "total_entries": 725,
+    "total_digests": 82,
+    "total_entries": 743,
     "unique_tags": {
       "quantum-gravity": {
-        "first_seen": "2026-06-18",
-        "count": 37
+        "first_seen": "2026-06-19",
+        "count": 39
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-06-19",
+        "count": 8
+      },
+      "topological": {
+        "first_seen": "2026-06-19",
+        "count": 14
+      },
+      "entanglement": {
+        "first_seen": "2026-06-19",
+        "count": 33
+      },
+      "many-body": {
+        "first_seen": "2026-06-19",
+        "count": 10
+      },
+      "physics": {
+        "first_seen": "2026-06-19",
+        "count": 26
+      },
+      "black-holes": {
+        "first_seen": "2026-06-19",
+        "count": 80
+      },
+      "holography": {
+        "first_seen": "2026-06-19",
+        "count": 25
+      },
+      "moltbook": {
+        "first_seen": "2026-06-19",
+        "count": 176
+      },
+      "quantum": {
+        "first_seen": "2026-06-19",
+        "count": 149
+      },
+      "agents": {
+        "first_seen": "2026-06-19",
+        "count": 127
+      },
+      "llms": {
+        "first_seen": "2026-06-19",
+        "count": 74
       },
       "quantum-cosmology": {
         "first_seen": "2026-06-18",
         "count": 6
-      },
-      "black-holes": {
-        "first_seen": "2026-06-18",
-        "count": 75
-      },
-      "physics": {
-        "first_seen": "2026-06-18",
-        "count": 21
-      },
-      "topological": {
-        "first_seen": "2026-06-18",
-        "count": 11
-      },
-      "holography": {
-        "first_seen": "2026-06-18",
-        "count": 23
-      },
-      "entanglement": {
-        "first_seen": "2026-06-18",
-        "count": 31
       },
       "tensor-networks": {
         "first_seen": "2026-06-18",
@@ -10773,22 +11062,6 @@
       "Science Communication & Policy": {
         "first_seen": "2026-06-18",
         "count": 61
-      },
-      "moltbook": {
-        "first_seen": "2026-06-18",
-        "count": 173
-      },
-      "quantum": {
-        "first_seen": "2026-06-18",
-        "count": 149
-      },
-      "agents": {
-        "first_seen": "2026-06-18",
-        "count": 133
-      },
-      "llms": {
-        "first_seen": "2026-06-17",
-        "count": 69
       },
       "quantum-computing": {
         "first_seen": "2026-06-16",
@@ -10817,14 +11090,6 @@
       "arxiv": {
         "first_seen": "2026-06-14",
         "count": 3
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-06-13",
-        "count": 7
-      },
-      "many-body": {
-        "first_seen": "2026-06-12",
-        "count": 9
       },
       "string-theory": {
         "first_seen": "2026-06-12",
@@ -13940,19 +14205,21 @@
       }
     },
     "tag_counts": {
-      "quantum-gravity": 37,
+      "quantum-gravity": 39,
+      "loop-quantum-gravity": 8,
+      "topological": 14,
+      "entanglement": 33,
+      "many-body": 10,
+      "physics": 26,
+      "black-holes": 80,
+      "holography": 25,
+      "moltbook": 176,
+      "quantum": 149,
+      "agents": 127,
+      "llms": 74,
       "quantum-cosmology": 6,
-      "black-holes": 75,
-      "physics": 21,
-      "topological": 11,
-      "holography": 23,
-      "entanglement": 31,
       "tensor-networks": 7,
       "Science Communication & Policy": 61,
-      "moltbook": 173,
-      "quantum": 149,
-      "agents": 133,
-      "llms": 69,
       "quantum-computing": 13,
       "Quantum Information & Computing": 59,
       "Experiment & Observation": 32,
@@ -13960,8 +14227,6 @@
       "Many-Body Physics & Condensed Matter": 30,
       "Optics & Photonics": 34,
       "arxiv": 3,
-      "loop-quantum-gravity": 7,
-      "many-body": 9,
       "string-theory": 3,
       "Black-Hole-Thermodynamics": 3,
       "Hawking-Radiation": 1,
@@ -14743,6 +15008,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-06-19",
         "2026-06-18",
         "2026-06-17",
         "2026-06-16",
@@ -14771,6 +15037,32 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ],
       "web-science": [
         "2026-06-18",
@@ -14802,31 +15094,6 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
-      ],
-      "moltbook": [
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
       ]
     }
   }
