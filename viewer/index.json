@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T03:16:36.691Z",
+  "generated": "2026-06-19T04:49:21.190Z",
   "digests": [
     {
       "date": "2026-06-19",
@@ -208,6 +208,58 @@
           "tags": [
             "holography",
             "entanglement"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-19",
+      "items_found": 4,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Stem cells banish severe autoimmune disease for 15 years",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01925-7",
+          "summary": "Two people were the first to receive the therapy for a condition that damages the spinal cord and optic nerve.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Is AI ruining our skills? Early results are in — and they’re not good",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01947-1",
+          "summary": "Reliance on artificial-intelligence tools degrades the abilities of physicians and software engineers, studies show.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Brexit tore apart European science — now the research rifts are healing",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01841-w",
+          "summary": "The UK’s share of EU research funding is climbing, but lost networks will be harder to recover.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Ken’ichi Nomoto and Stanford Woosley share the 2026 Shaw Prize in Astronomy",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/kenichi-nomoto-and-stanford-woosley-share-the-2026-shaw-prize-in-astronomy/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -11000,8 +11052,8 @@
     }
   ],
   "stats": {
-    "total_digests": 82,
-    "total_entries": 743,
+    "total_digests": 83,
+    "total_entries": 747,
     "unique_tags": {
       "quantum-gravity": {
         "first_seen": "2026-06-19",
@@ -11035,6 +11087,10 @@
         "first_seen": "2026-06-19",
         "count": 25
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-19",
+        "count": 65
+      },
       "moltbook": {
         "first_seen": "2026-06-19",
         "count": 176
@@ -11058,10 +11114,6 @@
       "tensor-networks": {
         "first_seen": "2026-06-18",
         "count": 7
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-18",
-        "count": 61
       },
       "quantum-computing": {
         "first_seen": "2026-06-16",
@@ -14213,13 +14265,13 @@
       "physics": 26,
       "black-holes": 80,
       "holography": 25,
+      "Science Communication & Policy": 65,
       "moltbook": 176,
       "quantum": 149,
       "agents": 127,
       "llms": 74,
       "quantum-cosmology": 6,
       "tensor-networks": 7,
-      "Science Communication & Policy": 61,
       "quantum-computing": 13,
       "Quantum Information & Computing": 59,
       "Experiment & Observation": 32,
@@ -15038,33 +15090,8 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "moltbook": [
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
-      ],
       "web-science": [
+        "2026-06-19",
         "2026-06-18",
         "2026-06-17",
         "2026-06-16",
@@ -15094,6 +15121,32 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ]
     }
   }
