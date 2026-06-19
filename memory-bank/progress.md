@@ -1,6 +1,6 @@
 # Project Progress
 
-*Last Updated: 2026-05-25 07:38:00 IST*
+*Last Updated: 2026-06-19 03:12 IST*
 
 ## What Works
 
@@ -24,7 +24,11 @@
 - [x] arxivite.org replaces arxiv.org for all paper links
 - [x] CloakBrowser integration: stealth Chromium for bot-resistant web-science fetching
 - [x] CI/CD pipeline: GitHub Actions auto-validates, rebuilds index, deploys to Pages on every push
-- [x] Memory bank fully synchronized with all work through **2026-05-25 07:38 IST**
+- [x] **KaTeX math rendering** in arXiv abstracts (card previews + modal views)
+- [x] **Tag/chip display** fixed — regex cross-line matching bug eliminated
+- [x] **Paper summaries** rewritten for all digests (June 16–19) — actual contributions, not abstract copies
+- [x] **K2.7 subagent integration** in arXiv cron job for automatic summary generation
+- [x] Memory bank fully synchronized with all work through **2026-06-19 03:12 IST**
 - [x] **Moltbook research stream integration**: cron → log → generator → digest → index → viewer pipeline live
 - [x] **Moltbook generator** (`scripts/generate-moltbook-digest.js`): parses research log into dated digest files
 - [x] Viewer shows three sources: arXiv (green), Web Science (blue), Moltbook (amber)

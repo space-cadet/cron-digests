@@ -21,7 +21,8 @@
 | T12 | ES Module Fix — package.json for CommonJS scripts | 2026-05-25 | T11 | [Details](tasks/T12.md) |
 | T13 | Moltbook Research Stream Integration into Viewer | 2026-05-25 | T6, T9 | [Details](tasks/T13.md) |
 | T14 | arXiv Digest Throttled Rerun — 429 Error Prevention | 2026-06-05 | — | [Details](tasks/T14.md) |
-| T15 | arXiv HTML Structure Fix — Abstract and Category Extraction | 2026-06-16 | T14 | [Details](tasks/T15.md) |
+| T16 | Cron-Digests Bug Fixes — Math, Tags, Summaries | 2026-06-19 | T15 | [Details](tasks/T16.md) |
+| T17 | arXiv Digest Summary Pipeline — K2.7 Subagent Integration | 2026-06-19 | T16 | [Details](tasks/T17.md) |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)
