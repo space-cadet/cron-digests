@@ -33,16 +33,16 @@ function parseDigest(content, digestType) {
     if (!line && lineNum < 10) continue;
 
     // Header fields
-    const catMatch = line.match(/^\*\*Categories:\*\*\s*(.+)/);
+    const catMatch = line.match(/^\*\*Categories:\*\*[ \t]*([^\n]*)/);
     if (catMatch) header.categories = catMatch[1].trim();
 
-    const sitesMatch = line.match(/^\*\*Sites:\*\*\s*(.+)/);
+    const sitesMatch = line.match(/^\*\*Sites:\*\*[ \t]*([^\n]*)/);
     if (sitesMatch) header.sites = sitesMatch[1].trim();
 
     const itemsMatch = line.match(/^\*\*Items found:\*\*\s*(\d+)/);
     if (itemsMatch) header.items_found = parseInt(itemsMatch[1], 10);
 
-    const focusMatch = line.match(/^\*\*Focus:\*\*\s*(.+)/);
+    const focusMatch = line.match(/^\*\*Focus:\*\*[ \t]*([^\n]*)/);
     if (focusMatch) header.focus = focusMatch[1].trim();
 
     // Entry start: ## N. Title
@@ -91,10 +91,10 @@ function parseDigest(content, digestType) {
     const url = body.match(/^- \*\*URL:\*\*\s*(\S+)/m);
     if (url) e.url = url[1].trim();
 
-    const cats = body.match(/^- \*\*Categories:\*\*\s*(.+)/m);
+    const cats = body.match(/^- \*\*Categories:\*\*[ \t]*([^\n]*)/m);
     if (cats) e.categories = cats[1].trim();
 
-    const summary = body.match(/^- \*\*Summary:\*\*\s*(.+)/m);
+    const summary = body.match(/^- \*\*Summary:\*\*[ \t]*([^\n]*)/m);
     if (summary) e.summary = summary[1].trim();
     else {
       // Multi-line summary
@@ -102,14 +102,14 @@ function parseDigest(content, digestType) {
       if (sm) e.summary = sm[1].trim();
     }
 
-    const relevance = body.match(/^- \*\*Relevance:\*\*\s*(.+)/m);
+    const relevance = body.match(/^- \*\*Relevance:\*\*[ \t]*([^\n]*)/m);
     if (relevance) e.relevance = relevance[1].trim();
     else {
       const rm = body.match(/^- \*\*Relevance:\*\*\s*([\s\S]*?)(?=^- \*\*Tags:|$)/m);
       if (rm) e.relevance = rm[1].trim();
     }
 
-    const tags = body.match(/^- \*\*Tags:\*\*\s*(.+)/m);
+    const tags = body.match(/^- \*\*Tags:\*\*[ \t]*([^\n]*)/m);
     if (tags) {
       e.tags = tags[1].split(',').map(t => t.trim()).filter(Boolean);
     }

@@ -1082,7 +1082,7 @@
         }
 
         function extractCategoryChips(text) {
-            const catMatch = text.match(/\*\*Categories:\*\*\s*(.+)/);
+            const catMatch = text.match(/\*\*Categories:\*\*[ \t]*([^\n]*)/);
             if (!catMatch) return '';
             const cats = catMatch[1].split(',').map(c => c.trim().split(' ')[0]).filter(c => c);
             if (cats.length === 0) return '';
