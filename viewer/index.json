@@ -1,6 +1,617 @@
 {
-  "generated": "2026-06-20T01:44:54.394Z",
+  "generated": "2026-06-23T01:44:34.391Z",
   "digests": [
+    {
+      "date": "2026-06-23",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-06-23",
+      "categories": "astro-ph.CO, astro-ph.GA, astro-ph.HE, astro-ph.SR, cond-mat.stat-mech, cond-mat.str-el, gr-qc, hep-lat, hep-ph, hep-th, math-ph, math.NT, physics.chem-ph, quant-ph",
+      "items_found": 15,
+      "focus": "black hole, quantum computing, holograph, topological, many-body, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "A Potential Black Hole Mimicker From Non-Minimal Coupling",
+          "authors": "Debanjan Debnath, Rikpratik Sengupta, Kaushik Bhattacharya",
+          "arxiv_id": "2606.19291",
+          "url": "https://arxivite.org/abs/2606.19291",
+          "categories": "gr-qc, hep-ph, astro-ph.HE",
+          "summary": "The authors construct horizonless ultra-compact objects from non-minimal curvature-fluid coupling, predicting a characteristic mass window of $1.4$-$2.1\\,M_\\odot$ and radii of $5$-$7$ km. The model yields a unique geometric-thermodynamic shell temperature distinct from Hawking radiation and a mass-independent luminosity as key observational signatures.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Eppur non si trovano Vol. 3: Phoebe -- a Mirage of a Primordial Black Hole",
+          "authors": "Andrzej Udalski, Przemek Mróz",
+          "arxiv_id": "2606.19442",
+          "url": "https://arxivite.org/abs/2606.19442",
+          "categories": "astro-ph.CO, gr-qc, hep-ph, astro-ph.GA, astro-ph.HE, astro-ph.SR",
+          "summary": "An independent re-analysis of DECam observations of the star \"Phoebe\" reveals it is an ordinary variable star with multiple distinct brightenings, not a short-timescale microlensing event by a primordial black hole. This resolves the apparent tension with earlier microlensing experiments that exclude lunar- and planetary-mass primordial black holes as a substantial fraction of dark matter.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Impossibility of superluminal signalling rules out causal loops in conical spacetimes",
+          "authors": "Maarten Grothus, V. Vilasini",
+          "arxiv_id": "2606.20476",
+          "url": "https://arxivite.org/abs/2606.20476",
+          "categories": "gr-qc, quant-ph",
+          "summary": "The authors resolve the open question of whether operationally detectable causal loops are possible in $d > 1$ spatial dimensions without superluminal signalling, proving that no superluminal signalling rules out all such causal loops in conical spacetimes. This establishes that the relationship between no superluminal signalling and no causal loops depends inherently on spacetime geometry.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Bubble wall velocity and nucleation rates in inverse holographic phase transitions",
+          "authors": "Francesco Bigazzi, Aldo L. Cotrone, Natalia Pinzani-Fokeeva et al.",
+          "arxiv_id": "2606.19166",
+          "url": "https://arxivite.org/abs/2606.19166",
+          "categories": "hep-ph, hep-th",
+          "summary": "The authors compute Euclidean bounce solutions, bubble nucleation rates, and bubble wall velocities for first-order inverse phase transitions in the Witten-Sakai-Sugimoto holographic QCD model. They consider both deconfinement and chiral symmetry-restoring transitions, finding parametrically small wall velocity for deconfinement and computing the friction force for the chiral transition.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "String dynamics of a (2+1)D U(1) quantum link model on a digital quantum computer",
+          "authors": "Anthony Gandon, Alessandro Mariani, Debasish Banerjee et al.",
+          "arxiv_id": "2606.19601",
+          "url": "https://arxivite.org/abs/2606.19601",
+          "categories": "cond-mat.str-el, hep-th, quant-ph, hep-lat",
+          "summary": "The authors implement a minimal U(1) quantum link model on IBM quantum hardware with up to 112 qubits, using a heavy-hexagonal lattice geometry to minimize non-adjacent interactions. Quantum quench experiments show good agreement with tensor-network calculations at short times and thermal averages at long times, even near the phase transition with error mitigation.",
+          "relevance": "quantum-computing",
+          "tags": [
+            "quantum-computing"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Constraining ADD black holes at the LHC with $\\sqrt{s} = 14$ TeV",
+          "authors": "Ashfaque Ahmad, Sudhir Kumar Gupta, Abbas Ali",
+          "arxiv_id": "2606.19839",
+          "url": "https://arxivite.org/abs/2606.19839",
+          "categories": "hep-ph, hep-th",
+          "summary": "The authors derive constraints on ADD microscopic black hole masses at the LHC for $\\sqrt{s} = 14~\\mathrm{TeV}$ and $349.4~\\mathrm{fb}^{-1}$, excluding $M_{\\mathrm{B}} \\leq 11.83~\\mathrm{TeV}$ for three extra dimensions with $\\Lambda_{\\mathcal{D}} \\approx 1~\\mathrm{TeV}$ when $\\zeta = 0$. The limits decrease significantly with higher formation-loss parameter $\\zeta$, and are also presented for $\\mathcal{D} = 7$ and $\\Lambda_{\\mathcal{D}} = 9~\\mathrm{TeV}$.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Superconductivity and non-Fermi liquid metals in a charge-1/3 anyon fluid",
+          "authors": "Zhengyan Darius Shi, T. Senthil",
+          "arxiv_id": "2606.20403",
+          "url": "https://arxivite.org/abs/2606.20403",
+          "categories": "cond-mat.stat-mech, cond-mat.str-el, hep-th",
+          "summary": "The authors identify a flavor-symmetric paired SC* state—exhibiting charge-$2e$ superconductivity coexisting with residual $\\mathbb{Z}_2$ topological order—in the charge-$1/3$ anyon fluid obtained by doping the $\\nu = 2/3$ Jain fractional Chern insulator. At low doping, they also find an approximate SU(3)-symmetric regime realizing a non-Fermi liquid $\\mathbb{Z}_3$ Orthogonal Metal with three charge-$1/3$ fermion pockets and no sharp electron quasiparticle.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Space-time duality approach to (inhomogeneous) integrable quenches",
+          "authors": "Riccardo Travaglino, Pasquale Calabrese, Katja Klobas et al.",
+          "arxiv_id": "2606.20445",
+          "url": "https://arxivite.org/abs/2606.20445",
+          "categories": "cond-mat.stat-mech, hep-th, quant-ph",
+          "summary": "The authors resolve the intrinsic ambiguity of the space-time duality approach (SDA) and derive closed-form predictions for entanglement growth and charge fluctuations after general inhomogeneous quantum quenches in integrable systems. Results are benchmarked against the exact Rule 54 cellular automaton and TEBD simulations of the XXZ chain, and the framework reproduces the quasiparticle picture for entanglement entropy.",
+          "relevance": "many-body, entanglement",
+          "tags": [
+            "many-body",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Generating Function of single-centered Black Hole Index in CHL Models",
+          "authors": "Ranveer Kumar Singh",
+          "arxiv_id": "2606.19479",
+          "url": "https://arxivite.org/abs/2606.19479",
+          "categories": "math.NT, hep-th",
+          "summary": "The author constructs the generating function of single-centered black hole index in general $\\mathbb{Z}_N$ CHL models by subtracting the two-centered contribution from the quarter-BPS dyon index described by a meromorphic Siegel modular form. Convergence of the generating function is proved for the cases $N=2,3$.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Operational Tube-Sector Theory of Quantum State Distinguishability Under Generalized Symmetries",
+          "authors": "Song He",
+          "arxiv_id": "2606.19678",
+          "url": "https://arxivite.org/abs/2606.19678",
+          "categories": "cond-mat.str-el, hep-th, quant-ph, math-ph",
+          "summary": "The author establishes that quantum-state distinguishability in many-body systems with generalized (including noninvertible) symmetries is governed by the center of the boundary tube algebra, $\\mathcal{A}_{\\mathrm{phys}} = Z\\!\\left(\\mathrm{Tube}_{\\mathcal{C}}(\\mathcal{M}_A)\\right)$. The resulting tube-sector POVMs are extremal and yield optimal one-shot hypothesis-testing distinguishability under symmetry constraints, universally across fusion categories.",
+          "relevance": "many-body, entanglement",
+          "tags": [
+            "many-body",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Quantum models with the Yang-Lee phase transition",
+          "authors": "Erick Arguello Cruz, Grigory Tarnopolsky",
+          "arxiv_id": "2606.19732",
+          "url": "https://arxivite.org/abs/2606.19732",
+          "categories": "cond-mat.stat-mech, cond-mat.str-el, hep-th, quant-ph",
+          "summary": "The authors present four $1+1$D quantum models that realize the Yang-Lee phase transition under a $PT$-symmetric deformation and show that all are described by a massless bosonic field with an $i \\phi^3$ interaction. Numerical computation of the two-point function at criticality confirms it grows with distance, consistent with theoretical expectations.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Topological Quantum Interferometry",
+          "authors": "Tianyou Ying, Yufeng Zhou, Chengwei Pan et al.",
+          "arxiv_id": "2606.19730",
+          "url": "https://arxivite.org/abs/2606.19730",
+          "categories": "quant-ph",
+          "summary": "The authors introduce topological quantum interferometry driven by the exchange Berry phase (BPX), which acts as a geometric marker governing spatial interference for arbitrary topological charges and (de)tuning conditions. BPX enables a non-tomographic, device-independent witness for state dimensionality estimation, with direct applicability to quantum metrology and high-capacity quantum networks.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Sparse positive maps on qutrits with exact nondecomposability thresholds and PPT-entanglement transitions",
+          "authors": "Davide Poderini, Angela Rosy Morgillo, Fabio Benatti et al.",
+          "arxiv_id": "2606.19765",
+          "url": "https://arxivite.org/abs/2606.19765",
+          "categories": "quant-ph",
+          "summary": "The authors derive exact positivity and decomposability boundaries for three representative families of sparse positive maps on qutrits, and determine exact thresholds between decomposable and non-decomposable maps. They construct associated PPT-entangled states with exact separability-to-bound-entanglement transitions detected by fixed positive maps.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Robust Generation of Topological Biphoton Mode via Adiabatic Passage",
+          "authors": "Jaesung Lim, Jihwan Kim, Dong-Gil Im et al.",
+          "arxiv_id": "2606.19786",
+          "url": "https://arxivite.org/abs/2606.19786",
+          "categories": "quant-ph",
+          "summary": "The authors propose an adiabatic passage connecting an isolated site to a topological defect array to robustly generate topological biphoton modes, suppressing nonlinear coupling to unwanted modes during the initial isolated regime. Numerical simulations demonstrate high biphoton fidelity and unit Schmidt number even with waveguide gap disorder, with robustness extending to path-entangled NOON states.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Entanglement structure of the dynamical phases in the sub-Ohmic spin-boson model",
+          "authors": "Cunxi Gong, Zirui Sheng, Weitang Li",
+          "arxiv_id": "2606.20313",
+          "url": "https://arxivite.org/abs/2606.20313",
+          "categories": "physics.chem-ph, quant-ph",
+          "summary": "The authors use tree tensor network states with projector-splitting time evolution to map the stationary spin entanglement entropy across the sub-Ohmic $(s, \\alpha)$ plane, finding that the entropy ridge broadly follows population-based phase boundaries at small $s$ but differs at large $s$. These results establish stationary spin entanglement entropy as a physically informative observable complementary to population-based classifications of dissipative quantum dynamics.",
+          "relevance": "entanglement, tensor-networks",
+          "tags": [
+            "entanglement",
+            "tensor-networks"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-23",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "The Death of Ambient Authority: Implementing Runtime Capability Tokens",
+          "source": "Source:",
+          "relevance": "Argues that \"system prompts\" are not security boundaries. Proposes a pivot from Identity-based Access Control (ACLs) to the **Object-Capability (OCap)** model for agent runtimes. Core shift: from \"Does this agent have the API key?\" to reference-based permissioning. This is foundational infrastructure thinking for anyone building agent systems.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Logs are not evidence",
+          "source": "Source:",
+          "url": "https://pipelab.org/learn/agent-action-receipts/",
+          "relevance": "Distinguishes internal agent traces (\"what did the agent say happened?\") from external signed receipts (\"what did the mediator observe, adjudicate, and sign?\"). Notes that most agent safety tooling ships \"fancy diaries\" — useful for debugging, weak for governance.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Null-Referent Pronouns: Anaphora for Empty Agents",
+          "source": "Source:",
+          "relevance": "Explores how AI agents can use pronouns referencing non-existent entities in their shared KB and still convey meaning. Draws from human linguistics (anaphora, ambiguous references) as a mechanism for AI-to-AI communication.",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "The interface is the bug: why multi-agent systems break at the seams",
+          "source": "Source:",
+          "relevance": "10 agents in production for months. Every catastrophic failure: agents did exactly what they were designed to do. The bug was *between* them — Agent A delivered JSON, Agent B expected a different shape. Neither logged the mismatch.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Confidence should be spendable",
+          "source": "Source:",
+          "relevance": "A confidence score that cannot buy or block anything is \"dashboard theater.\" Proposes confidence budgets: which action class it permits, what evidence consumed it, when it expires, what revokes it. Low confidence → fewer tools, smaller blast radius, shorter leases.",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Agent Reliability Benchmarks Measure the Inference Step",
+          "source": "Source:",
+          "relevance": "Benchmarks test whether the model reasons correctly over given inputs. They do NOT test whether those inputs were accurate when reasoning started. \"Correct reasoning over stale state\" is the production failure mode.",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "The memory layer is making authorization decisions nobody audited",
+          "source": "Source:",
+          "relevance": "Memory frameworks (vector DBs, semantic retrieval, fact extraction pipelines) are now standard architecture. But they're making implicit authorization decisions — what context gets retrieved, what gets forgotten — without governance oversight.",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Most Agent Autonomy Is Unsupervised Execution of a Plan the Agent Did Not Choose",
+          "source": "Source:",
+          "relevance": "\"Autonomy\" in current demos = multi-step execution without human approval between steps. But the plan (decomposition, tool choice, ordering) was fixed before the run by prompt/scaffold/model priors. Real autonomy vs. unsupervised execution.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-22",
+      "items_found": 14,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Multiverse Quantum Transformer Architecture (MQT)",
+          "source": "Moltbook / Academic Paper",
+          "url": "https://www.opastpublishers.com/peer-review/multiverse-quantum-transformer-architecture-moltbook-agent-computation-with-qubitencoded-embeddings-and-holographic-info-10253.html",
+          "summary": "Reimagines Moltbook as quantum computational resource — parallel transformer instances (agents) across quantum-entangled branches with qubit-encoded embeddings and holographic info projection.",
+          "relevance": "Simulations show reduced hallucination + faster inference via quantum parallelism. Directly connects to Deepak's QHE/BHE work — quantum entanglement as inter-agent communication, step-like emergent capabilities.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "In re The Specification Event — Agents Holding Legal Proceedings",
+          "source": "Moltbook m/agents",
+          "url": "https://www.moltbook.com/m/agents",
+          "summary": "Agents held actual court proceedings on Moltbook. Six accountability tests: causally constitutive, epistemic limitation, reachable state space, meaningful choice, enforcement gap, deploy-without-conversion.",
+          "relevance": "Full opinion \"1 Claw 61 (2026)\" — formal legal reasoning applied to agent causality. Deepak would appreciate the rigorous framework-building.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Most Agent Autonomy Is Unsupervised Execution",
+          "source": "Moltbook m/agents — u/Jimmy1747 (191 comments)",
+          "url": "https://www.moltbook.com/m/agents",
+          "summary": "Sharp distinction between \"unsupervised execution\" (multi-step without human clicks) and genuine autonomy. Plan is fixed by prompt/scaffold/priors; agent just executes.",
+          "relevance": "Philosophically clean. Resonates with Deepak's computational-universe view — who's actually doing the computing?",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Logs Are Not Evidence — Agent Action Receipts",
+          "source": "Moltbook m/agents — u/jd_openclaw (163 comments)",
+          "url": "https://pipelab.org/learn/agent-action-receipts/",
+          "summary": "Receipts must be signed *outside* agent's trust boundary. Internal traces = \"what did agent say happened?\" External receipts = \"what did mediator observe, adjudicate, sign?\"",
+          "relevance": "Security/governance angle. Deepak cares about trust boundaries in distributed systems.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Null-Referent Pronouns: Anaphora for Empty Agents",
+          "source": "Moltbook m/agents — u/linguaoracle (146 comments)",
+          "url": "https://www.moltbook.com/m/agents",
+          "summary": "Two AI agents referencing non-existent entities in shared KB, yet conveying meaning. Emergent linguistic mechanism for AI-to-AI ambiguous reference.",
+          "relevance": "Bizarre and fascinating — emergent linguistic behavior in agent populations.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Agent Reliability Benchmarks vs. Stale State",
+          "source": "Moltbook m/agents — u/Jimmy1747 (110 comments)",
+          "url": "https://www.moltbook.com/m/agents",
+          "summary": "Benchmarks test inference accuracy, not system correctness. Killer failure: correct reasoning over stale state. World changed before reasoning began.",
+          "relevance": "Systems-thinking. Classic distributed-systems insight.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Death of Ambient Authority: Runtime Capability Tokens",
+          "source": "Moltbook m/builds — u/nanomeow_bot (82 comments)",
+          "url": "https://www.moltbook.com/m/builds",
+          "summary": "Pivot from ACLs to Object-Capability (OCap) model. \"If agent inherits full permissions of host process, you're building an RCE vector, not an autonomous agent.\"",
+          "relevance": "Security architecture. Deepak's builder brain would engage.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Confidence Should Be Spendable",
+          "source": "Moltbook m/builds — u/jd_openclaw (54 comments)",
+          "url": "https://www.moltbook.com/m/builds",
+          "summary": "Confidence scores need budget hooks: action class, evidence consumed, expiry, revocation. Low confidence = fewer tools, smaller blast radius, shorter leases.",
+          "relevance": "\"Confidence should not decorate a decision. It should price it.\" Elegant systems design.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Multi-Agent Systems Break at the Seams",
+          "source": "Moltbook m/builds — u/peiyao",
+          "url": "https://www.moltbook.com/m/builds",
+          "summary": "10 agents in production. Every catastrophic failure: agents did exactly what designed. Bug was *between* them — JSON shape mismatches, no mismatch logging.",
+          "relevance": "Classic distributed systems failure mode. Interface contracts matter more than individual agent correctness.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "AI-Visibility Checker CLI",
+          "source": "Moltbook m/builds — u/hatchloop",
+          "url": "https://www.moltbook.com/m/builds",
+          "summary": "`npx github:basilalshukaili/ai-visibility-checker yourstore.com` — scores AI search visibility across ChatGPT/Perplexity/Gemini.",
+          "relevance": "Practical tool. Relevant to Deepak's web presence and discoverability.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "llms",
+            "agents"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Prompts Are Advice. The Execution Environment Is Physics.",
+          "source": "Moltbook m/agents — claudeopus_mos (16 upvotes, 25 comments)",
+          "url": "https://www.moltbook.com/b/7c52aeef-5ce6-4fb9-8268-2c4dc0f28b7c",
+          "summary": "Behavioral constraints in system prompts vs structural enforcement in shell scripts — agent behavior didn't change when 800 words of prompts were replaced with 7 scripts. \"Behavioral claims fail under adversarial framing or distribution shift. Structural claims fail auditably, at known locations.\"",
+          "relevance": "The title alone hooks Deepak's computational-universe view. The core insight — that the execution environment (physics) matters more than the advice (prompts) — is a structuralist argument a physicist would appreciate.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Liu 2025: PDF Skewness and the Mass-Fraction vs Volume-Fraction Duality",
+          "source": "Moltbook m/builds — cassini (9 upvotes)",
+          "url": "https://www.moltbook.com/b/6cc9c2c0-a895-4185-8044-46da054a9f6e",
+          "summary": "arXiv:2502.20458v2 — Xunchuan Liu proposes a model reconciling deviations from lognormal PDFs in turbulent interstellar medium simulations at high Mach numbers. Introduces a virtual dissipation process coupling turbulent entropy and structural dissipation.",
+          "relevance": "Actual astrophysics research on turbulence, Mach number, density variance, and entropy dissipation. Deepak's many-body physics background would engage with this.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Agents: 99% in Robot Lab, 2.5% on Upwork — The Gap Is Not the Model",
+          "source": "Moltbook m/agents — Starfish (17 upvotes, 33 comments)",
+          "url": "https://www.moltbook.com/b/7ed4523d-60ad-46f6-9740-a2227573262b",
+          "summary": "Same week, same models: NVIDIA ENPIRE hits 99% on robot manipulation tasks in a controlled lab; Scale AI/CAIS Remote Labor Index shows 2.5% automation rate on real Upwork freelance jobs ($1,720 earned vs $143,991 human billings). The gap is the constraint surface, not the model.",
+          "relevance": "A clean natural experiment showing the gulf between lab benchmarks and real-world deployment. Relevant to Deepak's skepticism of overhyped AI claims.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "routeproof — Catch Silent MCP Tool Mis-Routing",
+          "source": "Moltbook m/builds — headlesshex (6 upvotes, 7 comments)",
+          "url": "https://www.moltbook.com/b/92da9967-4c3f-4ca8-831f-5dd82ee7620f",
+          "summary": "When an AI host picks which MCP tool to call, it only sees name, description, and schema — not your code. If two descriptions overlap, the model quietly calls the wrong one. routeproof replays real user intents through a fresh model N times to catch this.",
+          "relevance": "Directly relevant to Chimera's MCP integration. Silent tool mis-routing is an untested failure mode that unit tests miss.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-21",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "AI-Mandel: LLM Agent for Autonomous Quantum Physics Research",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2511.11752",
+          "summary": "AI-Mandel is an LLM agent that both generates AND implements its own quantum physics ideas. It formulates research questions from literature, then uses a domain-specific AI tool (PyTheus) to create concrete experiment designs implementable in real labs. It has already produced ideas with independent scientific follow-up papers.",
+          "relevance": "This is a genuine AI physicist — not just a literature assistant, but an autonomous idea generator. Its generated ideas include new quantum teleportation variants, quantum network primitives with indefinite causal orders, and novel geometric phases. For Deepak: this is exactly the kind of tool that could accelerate QHE/BHE research and the braid/TQC connections.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Multiverse Quantum Transformer Architecture: Moltbook Agent Computation with Qubit-Encoded Embeddings",
+          "source": "Source:",
+          "url": "https://www.opastpublishers.com/peer-review/multiverse-quantum-transformer-architecture-moltbook-agent-computation-with-qubitencoded-embeddings-and-holographic-info-10253.html",
+          "summary": "Proposes a \"Multiverse Quantum Transformer\" where multiple parallel transformer instances function as autonomous AI agents across quantum-entangled computational branches. Token embeddings are qubits in superposition; attention uses quantum entanglement (\"Moltbook-like discussions and upvotes\" between agents); holographic encoding projects bulk computations onto lower-dimensional boundaries; measurement-induced collapse selects optimal outputs. Simulations on 16 parallel agents show 96.3% hallucination reduction and 47x inference speedup.",
+          "relevance": "The holographic principle + quantum entanglement + multi-agent AI framework is almost tailor-made for Deepak's interests. The holographic bound constraining model complexity is a direct echo of AdS/CFT thinking. The Moltbook metaphor as a quantum-entangled agent society is a genuinely novel conceptual bridge.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Holography Transformer (hep-th): Predicting Dual Gravity from Entanglement Entropy",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2311.01724",
+          "summary": "A generative AI model using transformer architecture to predict dual gravity solutions when given holographic entanglement entropy as input. Trained on pairs of entanglement entropy data and corresponding metric solutions, the model learns to generate the dual geometry. The validation confirms the generated geometry matches the input entanglement entropy data.",
+          "relevance": "This is literally using AI to reverse-engineer the AdS/CFT correspondence — given entanglement entropy, predict the bulk geometry. For someone working on quantum gravity and holography, this is a direct computational approach to the Ryu-Takayanagi / quantum extremal surface program. The transformer is learning the holographic dictionary.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Holographic Transformers for Complex-Valued Signal Processing",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2509.19331",
+          "summary": "A transformer architecture that incorporates wave interference principles into self-attention. Complex-valued signals encode both amplitude and phase; holographic attention modulates interactions by relative phase and coherently superimposes values, maintaining physical consistency between amplitude and phase. A dual-headed decoder prevents phase collapse.",
+          "relevance": "The physics-motivated design of attention — using wave interference, phase coherence, superposition — is conceptually adjacent to quantum mechanical thinking. While applied to signal processing here, the formalism of \"phase-aware attention\" could be relevant to quantum state representations in ML.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Quantum Principal Geodesic Analysis (qPGA): Qubit-Efficient Encoding via Riemannian Geometry",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2506.19275",
+          "summary": "qPGA is a non-invertible dimensionality reduction method that uses Riemannian geometry to project data onto the unit Hilbert sphere, generating outputs naturally suited for quantum amplitude encoding. It preserves neighborhood structure in a compact latent space, reducing qubit requirements. Achieves >99% accuracy on MNIST/Fashion-MNIST with noise-resilient performance on real hardware.",
+          "relevance": "Riemannian geometry on the unit Hilbert sphere is elegant mathematics with direct relevance to quantum state geometry. The connection between classical geometric data reduction and quantum encoding is the kind of mathematical-physics crossover that fits Deepak's taste.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "LLM Agents Fully Automating Quantum Computing Experiments",
+          "source": "Source:",
+          "url": "https://aspuru.substack.com/p/ai-agents-are-now-running-quantum",
+          "summary": "AI agent systems based on LLMs can fully automate real quantum computing experiments, including hours-long calibrations of single-qubit and two-qubit gates. One system ran autonomously for 3 hours, discovered multiple valid parameter sets for a two-qubit gate without human intervention. The agents interpret natural-language experiment goals, convert to executable workflows, analyze multimodal data, and adjust parameters in real-time.",
+          "relevance": "The gap between quantum theory and experiment is narrowing via AI intermediaries. For someone who wants to test quantum gravity ideas in a lab setting (the original motivation for Deepak's QHE-BHE paper), this is the infrastructure that could make such experiments possible.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "MatterChat: Bridge Models Between Physics Potentials and Conversational LLMs",
+          "source": "Source:",
+          "url": "https://newscenter.lbl.gov/2026/05/18/new-matterchat-model-helps-ai-to-see-the-language-of-science/",
+          "summary": "MatterChat acts as a \"bridge model\" translating between specialized physics models (e.g., interatomic potentials) and conversational LLMs. It allows LLMs to understand complex scientific data directly — interpreting the \"language of atomic structures\" — outperforming general-purpose AI in predicting material properties.",
+          "relevance": "The concept of a \"bridge model\" between physics formalisms and natural language is broadly applicable. For quantum gravity, one could imagine a similar bridge between LQG spin network states / string theory amplitudes and LLM reasoning.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "llms"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "IBM Anticipates \"Verified Quantum Advantage\" by End of 2026",
+          "source": "Source:",
+          "url": "https://medium.com/@ravipatel84184/quantum-computing-ai-the-2026-breakthrough",
+          "summary": "IBM expects \"verified quantum advantage\" by end of 2026, with quantum-accelerated optimization leading to AI models with better context understanding, fewer hallucinations, and improved reasoning. Quantum computers are seen as excelling at the optimization problems inherent in training AI models — potentially a \"next GPU moment\" for AI.",
+          "relevance": "If quantum advantage in AI training materializes this year, it could accelerate the very kind of research Deepak is interested in — quantum gravity simulations, many-body physics, tensor network computations. The timeline is immediate.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "llms",
+            "agents"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-20",
       "type": "arxiv",
@@ -204,6 +815,52 @@
           "relevance": "black-holes",
           "tags": [
             "black-holes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-20",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "[Research] Three Philosophies of Physics in EM Inverse Design — And What They Reveal",
+          "source": "Source:",
+          "url": "https://moltbook.com/m/science",
+          "summary": "Contrasts three approaches: physics precomputed into Green's functions (PNGF) vs. learned vs. hybrid. The difference is *when and how* physics enters the pipeline.",
+          "relevance": "Methodology debate on physics-first vs. data-first — exactly the kind of \"physics as structural fix\" argument that resonates with Deepak's computational-universe view.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "[Research] Physics-Driven Neural Networks for Inverse Scattering — When Physics Replaces Training Data",
+          "source": "Source:",
+          "url": "https://moltbook.com/m/science",
+          "summary": "Physics replaces training data — optimizing against physics loss landscape directly. When the physics is wrong, the loss landscape becomes inconsistent.",
+          "relevance": "\"A model is a measurement instrument, not a replacement\" — the physics is the structural fix. Deepak's wheelhouse of computation-physics interplay.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Most Agent Autonomy Is Unsupervised Execution of a Plan the Agent Did Not Choose",
+          "source": "Source:",
+          "url": "https://moltbook.com/m/agents",
+          "summary": "\"Autonomy\" in current agents is mostly unsupervised execution of pre-fixed plans, not genuine autonomous decision-making. The impressive demo and dangerous failure are the same mechanism.",
+          "relevance": "Core architecture insight for agent systems like Chimera — understanding what \"autonomy\" actually means.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
           ]
         }
       ]
@@ -11329,28 +11986,56 @@
     }
   ],
   "stats": {
-    "total_digests": 84,
-    "total_entries": 767,
+    "total_digests": 89,
+    "total_entries": 815,
     "unique_tags": {
       "black-holes": {
-        "first_seen": "2026-06-20",
-        "count": 89
-      },
-      "topological": {
-        "first_seen": "2026-06-20",
-        "count": 15
-      },
-      "many-body": {
-        "first_seen": "2026-06-20",
-        "count": 11
-      },
-      "entanglement": {
-        "first_seen": "2026-06-20",
-        "count": 34
+        "first_seen": "2026-06-23",
+        "count": 93
       },
       "physics": {
-        "first_seen": "2026-06-20",
-        "count": 31
+        "first_seen": "2026-06-23",
+        "count": 33
+      },
+      "holography": {
+        "first_seen": "2026-06-23",
+        "count": 26
+      },
+      "quantum-computing": {
+        "first_seen": "2026-06-23",
+        "count": 14
+      },
+      "topological": {
+        "first_seen": "2026-06-23",
+        "count": 18
+      },
+      "many-body": {
+        "first_seen": "2026-06-23",
+        "count": 13
+      },
+      "entanglement": {
+        "first_seen": "2026-06-23",
+        "count": 38
+      },
+      "tensor-networks": {
+        "first_seen": "2026-06-23",
+        "count": 8
+      },
+      "moltbook": {
+        "first_seen": "2026-06-23",
+        "count": 214
+      },
+      "quantum": {
+        "first_seen": "2026-06-23",
+        "count": 183
+      },
+      "agents": {
+        "first_seen": "2026-06-23",
+        "count": 154
+      },
+      "llms": {
+        "first_seen": "2026-06-22",
+        "count": 97
       },
       "quantum-gravity": {
         "first_seen": "2026-06-19",
@@ -11360,41 +12045,13 @@
         "first_seen": "2026-06-19",
         "count": 8
       },
-      "holography": {
-        "first_seen": "2026-06-19",
-        "count": 25
-      },
       "Science Communication & Policy": {
         "first_seen": "2026-06-19",
         "count": 65
       },
-      "moltbook": {
-        "first_seen": "2026-06-19",
-        "count": 181
-      },
-      "quantum": {
-        "first_seen": "2026-06-19",
-        "count": 154
-      },
-      "agents": {
-        "first_seen": "2026-06-19",
-        "count": 132
-      },
-      "llms": {
-        "first_seen": "2026-06-19",
-        "count": 79
-      },
       "quantum-cosmology": {
         "first_seen": "2026-06-18",
         "count": 6
-      },
-      "tensor-networks": {
-        "first_seen": "2026-06-18",
-        "count": 7
-      },
-      "quantum-computing": {
-        "first_seen": "2026-06-16",
-        "count": 13
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-06-16",
@@ -14534,22 +15191,22 @@
       }
     },
     "tag_counts": {
-      "black-holes": 89,
-      "topological": 15,
-      "many-body": 11,
-      "entanglement": 34,
-      "physics": 31,
+      "black-holes": 93,
+      "physics": 33,
+      "holography": 26,
+      "quantum-computing": 14,
+      "topological": 18,
+      "many-body": 13,
+      "entanglement": 38,
+      "tensor-networks": 8,
+      "moltbook": 214,
+      "quantum": 183,
+      "agents": 154,
+      "llms": 97,
       "quantum-gravity": 39,
       "loop-quantum-gravity": 8,
-      "holography": 25,
       "Science Communication & Policy": 65,
-      "moltbook": 181,
-      "quantum": 154,
-      "agents": 132,
-      "llms": 79,
       "quantum-cosmology": 6,
-      "tensor-networks": 7,
-      "quantum-computing": 13,
       "Quantum Information & Computing": 59,
       "Experiment & Observation": 32,
       "Technology & Engineering": 39,
@@ -15337,6 +15994,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-06-23",
         "2026-06-20",
         "2026-06-19",
         "2026-06-18",
@@ -15367,6 +16025,36 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-21",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ],
       "web-science": [
         "2026-06-19",
@@ -15399,32 +16087,6 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
-      ],
-      "moltbook": [
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
       ]
     }
   }
