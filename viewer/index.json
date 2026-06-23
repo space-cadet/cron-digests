@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T09:59:54.963Z",
+  "generated": "2026-06-23T11:02:17.047Z",
   "digests": [
     {
       "date": "2026-06-23",
@@ -392,6 +392,103 @@
             "moltbook",
             "quantum",
             "agents"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-22",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "One-way Quantum Synchronization Could Make Quantum Computers More Reliable",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260611024619.htm",
+          "summary": "A team of theoretical physicists at RIKEN has proposed a new way to achieve one-way quantum synchronization of phonons, the particles associated with sound. The approach stands out because it remains highly effective even in the face of real-world challenges such as manufacturing imperfections and e",
+          "relevance": "🔥 High - Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Oxford Physicists Just Made Schrödinger's Cat Even Stranger",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260614011848.htm",
+          "summary": "Researchers at the University of Oxford have created a new type of quantum superposition, a phenomenon often associated with the famous Schrödinger's cat thought experiment. Unlike previous versions, these newly demonstrated states are built from highly nonclassical quantum components. The achieveme",
+          "relevance": "🔥 High - Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Giant Underground Neutrino Detector Brings Scientists Closer to Cracking the Neutrino Puzzle",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260612032026.htm",
+          "summary": "The Jiangmen Underground Neutrino Observatory (JUNO) has achieved its first major scientific milestone. On June 10, Nature published the experiment's debut physics result as a cover article.",
+          "relevance": "Medium - New experimental results that may constrain theoretical models",
+          "tags": [
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "AI Could Uncover New Physics Faster but There's a Surprising Catch",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260611024557.htm",
+          "summary": "Artificial intelligence is already playing a major role in helping cosmologists study the universe. Now, new research suggests a machine learning technique called transfer learning could make the search for new physics much faster and less expensive. However, the study also uncovered a surprising do",
+          "relevance": "Medium - Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Stem cells banish severe autoimmune disease for 15 years",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01925-7",
+          "summary": "Two people were the first to receive the therapy for a condition that damages the spinal cord and optic nerve.",
+          "relevance": "Medium - Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Venus flytraps snap shut by rapid cell-wall softening",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/venus-flytraps-snap-shut-by-rapid-cell-wall-softening/",
+          "summary": "The trap lobes of the Venus flytrap snap shut by the rapid softening of their outer walls, a discovery by researchers in France that contradicts previous hypotheses involving water transport.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Scientists Found a Surprisingly Simple Way to Create Powerful Quantum States",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260606075510.htm",
+          "summary": "A team at the University of Chicago has discovered a surprisingly simple way to create powerful quantum states. By making small adjustments to the energy levels of atoms inside an optical cavity, researchers can generate a wide variety of highly entangled states without adding complicated hardware.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "MIT's New Spacecraft Engine Could Send Tiny Satellites to Mars",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260610003051.htm",
+          "summary": "MIT researchers have shown that one fuel can power both chemical and electric spacecraft thrusters, potentially transforming what small satellites can do. The approach combines quick bursts of speed with highly efficient long-range propulsion in a single compact system.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -12084,8 +12181,8 @@
     }
   ],
   "stats": {
-    "total_digests": 90,
-    "total_entries": 823,
+    "total_digests": 91,
+    "total_entries": 831,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-06-23",
@@ -12121,7 +12218,7 @@
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-06-23",
-        "count": 62
+        "count": 65
       },
       "Quantum Gravity": {
         "first_seen": "2026-06-23",
@@ -12133,7 +12230,7 @@
       },
       "Science Communication & Policy": {
         "first_seen": "2026-06-23",
-        "count": 70
+        "count": 74
       },
       "moltbook": {
         "first_seen": "2026-06-23",
@@ -12146,6 +12243,10 @@
       "agents": {
         "first_seen": "2026-06-23",
         "count": 154
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-06-22",
+        "count": 34
       },
       "llms": {
         "first_seen": "2026-06-22",
@@ -12162,10 +12263,6 @@
       "quantum-cosmology": {
         "first_seen": "2026-06-18",
         "count": 6
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-06-16",
-        "count": 32
       },
       "Technology & Engineering": {
         "first_seen": "2026-06-16",
@@ -15297,18 +15394,18 @@
       "many-body": 13,
       "entanglement": 38,
       "tensor-networks": 8,
-      "Quantum Information & Computing": 62,
+      "Quantum Information & Computing": 65,
       "Quantum Gravity": 24,
       "Black Hole Physics": 13,
-      "Science Communication & Policy": 70,
+      "Science Communication & Policy": 74,
       "moltbook": 214,
       "quantum": 183,
       "agents": 154,
+      "Experiment & Observation": 34,
       "llms": 97,
       "quantum-gravity": 39,
       "loop-quantum-gravity": 8,
       "quantum-cosmology": 6,
-      "Experiment & Observation": 32,
       "Technology & Engineering": 39,
       "Many-Body Physics & Condensed Matter": 30,
       "Optics & Photonics": 34,
@@ -16126,6 +16223,7 @@
       ],
       "web-science": [
         "2026-06-23",
+        "2026-06-22",
         "2026-06-19",
         "2026-06-18",
         "2026-06-17",

@@ -19,7 +19,7 @@ function parseDigest(content, digestType) {
 
     // Title line
     if (lineNum === 1) {
-      const m = line.match(/^# (.+) Digest — (\d{4}-\d{2}-\d{2})$/);
+      const m = line.match(/^# (.+) Digest [-\u2014] (\d{4}-\d{2}-\d{2})$/);
       if (!m) {
         errors.push(`Line ${lineNum}: Invalid title. Expected "# {Type} Digest — YYYY-MM-DD"`);
         continue;

@@ -23,7 +23,7 @@ function parseDigest(content, digestType) {
     const line = rawLine.trimEnd();
 
     if (lineNum === 1) {
-      const m = line.match(/^# (.+) Digest — (\d{4}-\d{2}-\d{2})$/);
+      const m = line.match(/^# (.+) Digest [\-—] (\d{4}-\d{2}-\d{2})$/);
       if (m) {
         header.title = line;
         header.date = m[2];
