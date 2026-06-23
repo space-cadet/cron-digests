@@ -268,10 +268,11 @@ function main() {
   }
 
   // Sort by date descending
-  digests.sort((a, b) => b.parsed.header.date.localeCompare(a.parsed.header.date));
+  const validDigests = digests.filter(d => d.parsed && d.parsed.header && d.parsed.header.date)
+    .sort((a, b) => b.parsed.header.date.localeCompare(a.parsed.header.date));
 
-  buildSQLite(digests);
-  buildJSON(digests);
+  buildSQLite(validDigests);
+  buildJSON(validDigests);
 }
 
 main();

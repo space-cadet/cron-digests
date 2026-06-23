@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T01:44:34.391Z",
+  "generated": "2026-06-23T09:59:54.963Z",
   "digests": [
     {
       "date": "2026-06-23",
@@ -205,6 +205,104 @@
           "tags": [
             "entanglement",
             "tensor-networks"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-23",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Entanglement Builds Space-Time. Now “Magic” Gives It Gravity.",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/",
+          "summary": "In holographic theories, physicists may have traced the pliability of space-time to its quantum roots: a measure of quantumness known as “magic.”",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Broken time-reversal symmetry phase in kagome metals may establish conditions for superconductivity",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-broken-reversal-symmetry-phase-kagome.html",
+          "summary": "Physicists have long suspected that a peculiar quantum state lurks inside a class of materials known as kagome metals, but proving its existence has been elusive. Now, a team led by Yeongkwan Kim at the Korea Advanced Institute ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Poo emoji, earthworm castings and pasta all obey the same coiling theory, physicists find",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-poo-emoji-earthworm-pasta-obey.html",
+          "summary": "Ask a child to draw some poo, and the shape will invariably be the same: a coil, broad at the base and pointy at the top, similar to a spiral swirl of soft-serve ice cream. In fact, the often-used poo emoji has this exact ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "A minimal model for how a cell takes shape from the inside",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-minimal-cell.html",
+          "summary": "Researchers at the University of Twente and Utrecht University have packed rigid, rod-shaped particles into soft lipid containers the size of a living cell and watched the container and its contents reshape each other. The ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Heat Breaks the Rules at the Nanoscale and Scientists Used It to Their Advantage",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260606075511.htm",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "A spacecraft is falling to its doom — can NASA save it?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01949-z",
+          "summary": "A successful rescue of the Swift space observatory could be a good omen for the Hubble Space Telescope.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Jessica Dempsey takes up post as head of the Square Kilometre Array Observatory",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/jessica-dempsey-takes-up-post-as-head-of-the-square-kilometre-array-observatory/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Investigating quantum and molecular plumbing in nanofluidics research",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-quantum-molecular-plumbing-nanofluidics.html",
+          "summary": "Our body contains an intricate system of tiny vessels through which blood, water and other molecules flow. When the size of the pipes shrinks to the nanoscale, where only a few molecules can fit side by side, the classical ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
           ]
         }
       ]
@@ -11986,8 +12084,8 @@
     }
   ],
   "stats": {
-    "total_digests": 89,
-    "total_entries": 815,
+    "total_digests": 90,
+    "total_entries": 823,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-06-23",
@@ -12021,6 +12119,22 @@
         "first_seen": "2026-06-23",
         "count": 8
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-06-23",
+        "count": 62
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-06-23",
+        "count": 24
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-06-23",
+        "count": 13
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-23",
+        "count": 70
+      },
       "moltbook": {
         "first_seen": "2026-06-23",
         "count": 214
@@ -12045,17 +12159,9 @@
         "first_seen": "2026-06-19",
         "count": 8
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-19",
-        "count": 65
-      },
       "quantum-cosmology": {
         "first_seen": "2026-06-18",
         "count": 6
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-06-16",
-        "count": 59
       },
       "Experiment & Observation": {
         "first_seen": "2026-06-16",
@@ -12792,14 +12898,6 @@
       "topological-quantum-computing": {
         "first_seen": "2026-06-04",
         "count": 2
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-06-04",
-        "count": 23
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-06-04",
-        "count": 12
       },
       "post-selection": {
         "first_seen": "2026-06-03",
@@ -15199,15 +15297,17 @@
       "many-body": 13,
       "entanglement": 38,
       "tensor-networks": 8,
+      "Quantum Information & Computing": 62,
+      "Quantum Gravity": 24,
+      "Black Hole Physics": 13,
+      "Science Communication & Policy": 70,
       "moltbook": 214,
       "quantum": 183,
       "agents": 154,
       "llms": 97,
       "quantum-gravity": 39,
       "loop-quantum-gravity": 8,
-      "Science Communication & Policy": 65,
       "quantum-cosmology": 6,
-      "Quantum Information & Computing": 59,
       "Experiment & Observation": 32,
       "Technology & Engineering": 39,
       "Many-Body Physics & Condensed Matter": 30,
@@ -15392,8 +15492,6 @@
       "topological-superconductivity": 3,
       "solitons": 2,
       "topological-quantum-computing": 2,
-      "Quantum Gravity": 23,
-      "Black Hole Physics": 12,
       "post-selection": 1,
       "cosmic-acceleration": 2,
       "Chern-Simons": 1,
@@ -16026,37 +16124,8 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "moltbook": [
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-21",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
-      ],
       "web-science": [
+        "2026-06-23",
         "2026-06-19",
         "2026-06-18",
         "2026-06-17",
@@ -16087,6 +16156,36 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-21",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ]
     }
   }
