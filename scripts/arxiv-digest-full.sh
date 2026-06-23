@@ -208,7 +208,16 @@ PYEOF
 # Step 5: Build index
 node scripts/build-index.js
 
-# Step 6: Git commit and push
+# Step 6: Verify digest renders correctly
+TODAY=$(date +%Y-%m-%d)
+if bash scripts/verify-digest.sh arxiv "$TODAY"; then
+    echo "✅ Digest verification passed"
+else
+    echo "⚠️ Digest verification failed — check above for details"
+    # Don't fail the whole pipeline; just warn
+fi
+
+# Step 7: Git commit and push
 git add -A
 git commit -m "arxiv: $(date +%Y-%m-%d)" || true
 git push origin main || true

@@ -1,7 +1,26 @@
 # Edit History
 
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-06-16 08:20:00 IST*
+*Last Updated: 2026-06-23 10:30:00 IST*
+
+### 2026-06-23
+
+#### 10:28:00 IST - T18: Post-Generation Verification Pipeline
+- Created `scripts/verify-digest.sh` - Executable 8-checkpoint digest validation script
+- Modified `scripts/arxiv-digest-full.sh` - Inserted Step 6: runs verify-digest.sh after build-index.js, non-blocking
+- Modified `scripts/build-index.js` - Fixed validation to filter invalid digests before sorting
+- Created `moltbook/2026-06-20.md` through `moltbook/2026-06-23.md` - Backfilled missing moltbook digests
+- Created `viewer/moltbook/2026-06-20.md` through `viewer/moltbook/2026-06-23.md` - Viewer copies for GitHub Pages
+- Modified `viewer/index.json` - Rebuilt with 90 digests, 823 entries, 800 unique tags
+- Modified `viewer/index.db` - Rebuilt SQLite index with moltbook entries
+- Modified `moltbook/manifest.json` - Added 4 new digest entries
+- Modified `arxiv/manifest.json` - Verified entry integrity
+- Modified `web-science/manifest.json` - Verified entry integrity
+- Created `memory-bank/tasks/T18.md` - Task file for verification pipeline
+- Modified `memory-bank/tasks.md` - Added T18 to active tasks registry
+- Modified `memory-bank/activeContext.md` - Updated with T18 progress and current status
+- Created `memory-bank/sessions/2026-06-23-morning.md` - Session file for T18 work
+- Modified `memory-bank/session_cache.md` - Updated session history, task registry, active tasks
 
 ### 2026-06-16
 

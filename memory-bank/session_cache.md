@@ -1,32 +1,48 @@
 # Session Cache
 
-*Last Updated: 2026-06-19 03:12 IST*
+*Last Updated: 2026-06-23 10:30 IST*
 
-**Started**: 2026-06-19 01:52 IST
-**Focus Task**: T16 — Cron-Digests Bug Fixes (Math, Tags, Summaries) + T17 — K2.7 Subagent Integration
-**Session File**: `sessions/2026-06-19-early.md`
-**Status**: ✅ Active: 0, Paused: 0, Completed: 12
+**Started**: 2026-06-23 10:00 IST
+**Focus Task**: T18 — Post-Generation Verification Pipeline
+**Session File**: `sessions/2026-06-23-morning.md`
+**Status**: 🔄 Active: 1, Paused: 0, Completed: 0
 
 ## Overview
 
-- Active: 0 | Paused: 0 | Completed: 12
+- Active: 1 | Paused: 0 | Completed: 17
 - Last Session: 2026-06-19 early morning
-- Current Period: early morning
+- Current Period: morning
 
-## Completed Tasks
+## Active Tasks
 
-### T16: Cron-Digests Bug Fixes — Math, Tags, Summaries
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-06-19 01:52 IST
-**Completed:** 2026-06-19 03:12 IST
+### T18: Post-Generation Verification Pipeline
+**Status:** 🔄 **IN PROGRESS**
+**Priority:** HIGH
+**Started:** 2026-06-23 10:00 IST
+**Context**: Building non-blocking verification to ensure digests render correctly before commit/push
+**Files**: `scripts/verify-digest.sh`, `scripts/arxiv-digest-full.sh`, `scripts/build-index.js`
+**Progress**:
+1. ✅ Created verify-digest.sh (8 checkpoints)
+2. ✅ Tested on arxiv 2026-06-23 (all passed)
+3. ✅ Integrated into arxiv-digest-full.sh (non-blocking)
+4. ✅ Committed moltbook digests 2026-06-20 through 2026-06-23
+5. ✅ Fixed build-index.js validation filter
+6. ⬜ Integrate into web-science cron
+7. ⬜ Integrate into moltbook wrapper (if exists)
 
-Three bugs fixed in the cron-digests viewer:
+## Completed Tasks (Last 5)
+1. T17: arXiv Summary Pipeline — 2026-06-19 ✅
+2. T16: Bug Fixes (Math, Tags, Summaries) — 2026-06-19 ✅
+3. T15: arXiv HTML Structure Fix — 2026-06-16 ✅
+4. T14: Throttled Rerun — 2026-06-05 ✅
+5. T13: Moltbook Integration — 2026-05-25 ✅
 
-1. **KaTeX math rendering** — Added KaTeX CSS + JS to viewer/index.html with correct SRI hashes. Math now renders in both card previews and modal views.
-2. **Tag/chip display** — Fixed regex `\s*` cross-line matching bug. When Categories field was empty, regex consumed newline and captured Abstract line, producing garbage chips like "a", "or", "causal". Changed to `[ \t]*([^\n]*)` in viewer/index.html, build-index.js, and validate-digest.js.
-3. **Summaries** — 60 papers across June 16–19 digests rewritten from "first 2 sentences of abstract" to actual contribution/result/method summaries. Done via K2.7 subagents.
-
-**Commits:** `946aaab`, `1f111cb`, `12fc902`, `390f03a`, `11a7672`, `aab18ae`, `88ed690`, `b042899`, `4947607`
+## Session History (Last 5)
+1. `sessions/2026-06-19-early.md` — T16/T17 bug fixes and K2.7 subagent
+2. `sessions/2026-06-16-morning.md` — T15 arXiv HTML fix
+3. `sessions/2026-06-05-afternoon.md` — T14 throttled rerun
+4. `sessions/2026-05-25-morning.md` — T13 moltbook integration
+5. `sessions/2026-05-21-afternoon.md` — T10/T11 reliability fixes
 
 ### T17: arXiv Digest Summary Pipeline — K2.7 Subagent Integration
 **Status:** ✅ **COMPLETED**

@@ -5,7 +5,7 @@
 ## Active Tasks
 | ID | Title | Status | Priority | Started | Dependencies | Details |
 |----|-------|--------|----------|---------|--------------|---------|
-| — | — | — | — | — | — | — |
+| T18 | Post-Generation Verification Pipeline | 🔄 | HIGH | 2026-06-23 | T17 | [Details](tasks/T18.md) |
 
 ## Completed Tasks
 | ID | Title | Completed | Related Tasks | Details |
