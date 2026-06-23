@@ -4,16 +4,19 @@
 
 ## What Works
 
+- [x] **Post-generation verification pipeline** (T18): `verify-digest.sh` (8 checkpoints), `digest-health-check.sh` (pipeline), enhanced `viewer/test.js` (10 Playwright tests)
+- [x] **Robust header parsing**: `build-index.js` and `validate-digest.js` accept both `-` and `—` in headers, preventing silent parsing failures
+- [x] **Viewer URL clarification**: `https://space-cadet.github.io/cron-digests/` (root, no `/viewer/` prefix) — CI deploys `viewer/` directory as Pages root
 - [x] GitHub CLI (`gh`) installed and authenticated as `space_cadet`
 - [x] Telegram channel enabled and paired (user 849773381)
-- [x] arXiv Morning Digest cron job: **Tue-Sat** 7:11 IST (with mandatory `web_fetch` verification)
-- [x] Web Science Digest cron job: **Tue-Sat** 10:17 IST
+- [x] arXiv Morning Digest cron job: **Tue-Sat** 7:11 IST (with mandatory `web_fetch` verification + K2.7 subagent summary rewrite)
+- [x] Web Science Digest cron job: **Mon-Fri** 10:17 IST
 - [x] **Moltbook personal stream cron**: every 6h on the hour
 - [x] **Moltbook research stream cron**: every 6h at :30
 - [x] Digest format v2.0: uniform template across arXiv, web-science, and Moltbook
 - [x] Viewer UI: card grid, modal with ToC, category chips, search/filter
 - [x] JSON Schema (`schema/digest.json`) formalizes digest structure
-- [x] Validation script (`scripts/validate-digest.js`): **23 files, 0 errors**
+- [x] Validation script (`scripts/validate-digest.js`): **91+ files, 0 errors**
 - [x] Index builder (`scripts/build-index.js`): SQLite + JSON export
 - [x] Viewer loads `index.json` instantly (1 fetch vs N markdown files)
 - [x] Dark mode with toggle and localStorage persistence
@@ -28,18 +31,39 @@
 - [x] **Tag/chip display** fixed — regex cross-line matching bug eliminated
 - [x] **Paper summaries** rewritten for all digests (June 16–19) — actual contributions, not abstract copies
 - [x] **K2.7 subagent integration** in arXiv cron job for automatic summary generation
-- [x] Memory bank fully synchronized with all work through **2026-06-19 03:12 IST**
+- [x] Memory bank fully synchronized with all work through **2026-06-23 16:25 IST**
 - [x] **Moltbook research stream integration**: cron → log → generator → digest → index → viewer pipeline live
 - [x] **Moltbook generator** (`scripts/generate-moltbook-digest.js`): parses research log into dated digest files
 - [x] Viewer shows three sources: arXiv (green), Web Science (blue), Moltbook (amber)
 - [x] Moltbook submolt chips and author lines in viewer modal
 - [x] **Metadata verification pipeline**: mandatory `web_fetch` for every arXiv paper before inclusion
 - [x] **ES module isolation**: cron-digests `package.json` overrides parent workspace module type
+- [x] **arXiv HTML structure fix** (T15): abstracts + categories extracting correctly after arXiv HTML changes
+- [x] **arXiv throttling** (T14): 3-second sleep between category fetches prevents 429 errors
 
 ## In Progress
 
-- [ ] Operational monitoring of automated cron runs (next: arXiv ~7:11 IST, Web Science ~10:17 IST, Moltbook research ~:30 past the hour)
-- [ ] `tags.json` sync with new tags from May 21, 22, 25
+- [ ] Operational monitoring of automated cron runs (next: arXiv ~7:11 IST Tue-Sat, Web Science ~10:17 IST Mon-Fri, Moltbook research ~:30 past the hour)
+- [ ] `tags.json` sync with new tags from May 21, 22, 25, June 16-23
+
+## Completed (2026-06-23)
+
+### T18: Post-Generation Verification Pipeline
+1. Created `scripts/verify-digest.sh` — executable 8-checkpoint validation per digest (header, items, entries, index, JSON, DB, manifest, viewer)
+2. Created `scripts/digest-health-check.sh` — 150-line comprehensive pipeline health check
+3. Fixed `build-index.js` and `validate-digest.js` — regex now accepts both `-` and `—` in headers, preventing silent parsing failures
+4. Enhanced `viewer/test.js` — 10 comprehensive Playwright tests (cards, modals, search, filters, responsive, tags)
+5. Updated `scripts/arxiv-digest-full.sh` — verification runs after index rebuild, non-blocking
+6. Updated arXiv cron job payload — subagent only rewrites summaries, main job handles build-index + git push separately
+7. Tested on arXiv 2026-06-23: all 5 checks passed (15 files, 31 DB entries)
+8. Health check: 0 exit code, all types synced (91 digests, 831 entries, 800 tags)
+
+### T19: Viewer 404 Fix & URL Clarification
+1. Diagnosed user was using wrong URL: `/viewer/index.html` instead of root `/`
+2. Explained CI deploys `viewer/` directory as Pages root — no `/viewer/` prefix in URL
+3. Correct URL: `https://space-cadet.github.io/cron-digests/`
+4. Cleaned up accidental duplicate `viewer/arxiv/` and `viewer/web-science/` directories
+5. Verified site live: 91 digests, latest 2026-06-23, all three types present
 
 ## Completed (2026-05-25)
 
@@ -125,17 +149,24 @@
 
 ## Known Issues
 
-- `tags.json` stale since May 14 — missing new tags from May 21, 22, 25
+- `tags.json` stale since May 14 — missing new tags from May 21, 22, 25, and June 16-23
 - `TEMPLATE.md` specifies `**Source:**` but actual digests use `**Authors:**`, `**arXiv ID:**` etc.
+- Playwright tests in `viewer/test.js` show `⏭️ skipped` on gateway (no Playwright installed) — would need `npm install playwright-core` to enable automated CI testing
 - Disk at 92% (67 GB droplet) — journal vacuumed, CloakBrowser binary ~206 MB added
 
 ## Next Priorities
 
-1. Monitor next arXiv cron (~7:11 IST Tue-Sat) to verify `web_fetch` verification works
-2. Monitor next moltbook-research cron to verify generator script runs correctly in isolated context
-3. Sync tag registry
-4. Update template to match actual format
+1. Monitor tomorrow's arXiv cron (~7:11 IST Tue-Sat) to verify K2.7 subagent + verification pipeline works in production
+2. Integrate `verify-digest.sh` into web-science cron payload
+3. Check if moltbook digest generation has a cron wrapper; add verification if so
+4. Sync `tags.json` with all tags from May 21, 22, 25, and June 16-23
+5. Update `TEMPLATE.md` to match de-facto v2.0 format (Authors, arXiv ID, etc.)
+6. Consider adding arXiv API as fallback for abstract extraction if HTML scraping fails
+7. Install Playwright on gateway to enable automated `viewer/test.js` runs in CI
 
 ## Project Status
 
 **Fully Operational** — all infrastructure complete: three cron jobs (arXiv, Web Science, Moltbook), validation, indexing, three-source viewer, CI/CD, CloakBrowser fallback, and metadata verification. Awaiting routine cron verification and tag registry sync.
+
+---
+*Updated: 2026-06-23 16:25:00 IST*

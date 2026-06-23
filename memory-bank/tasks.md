@@ -1,11 +1,12 @@
 # Task Registry
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-05-25 05:25:00 IST*
+*Last Updated: 2026-06-23 16:25:00 IST*
 
 ## Active Tasks
 | ID | Title | Status | Priority | Started | Dependencies | Details |
 |----|-------|--------|----------|---------|--------------|---------|
-| T18 | Post-Generation Verification Pipeline | 🔄 | HIGH | 2026-06-23 | T17 | [Details](tasks/T18.md) |
+| T18 | Post-Generation Verification Pipeline | ✅ | HIGH | 2026-06-23 | T17 | [Details](tasks/T18.md) |
+| T19 | Viewer 404 Fix & URL Clarification | ✅ | MEDIUM | 2026-06-23 | T18 | [Details](tasks/T19.md) |
 
 ## Completed Tasks
 | ID | Title | Completed | Related Tasks | Details |
@@ -23,6 +24,8 @@
 | T14 | arXiv Digest Throttled Rerun — 429 Error Prevention | 2026-06-05 | — | [Details](tasks/T14.md) |
 | T16 | Cron-Digests Bug Fixes — Math, Tags, Summaries | 2026-06-19 | T15 | [Details](tasks/T16.md) |
 | T17 | arXiv Digest Summary Pipeline — K2.7 Subagent Integration | 2026-06-19 | T16 | [Details](tasks/T17.md) |
+| T18 | Post-Generation Verification Pipeline | 2026-06-23 | T17 | [Details](tasks/T18.md) |
+| T19 | Viewer 404 Fix & URL Clarification | 2026-06-23 | T18 | [Details](tasks/T19.md) |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)
@@ -116,14 +119,16 @@
 **Files:** `scripts/arxiv-digest-full.sh`, `scripts/fetch-arxiv-html.py`, `arxiv/2026-06-09.md` through `arxiv/2026-06-16.md`
 **Notes:** The abstract regex failed because arXiv removed `<p>` tags. The category regex failed because it greedily consumed text before parenthetical codes. Both fixed and retroactively applied to 6 digests. 90 abstracts re-fetched in total.
 
-## Operational Notes
-- **arXiv digest cron:** Tue-Sat 7:11 IST, last run 2026-06-16 (15 papers, all abstracts + categories verified)
-- **Web Science digest cron:** Tue-Sat 10:17 IST, last run 2026-05-25 (6 articles via CloakBrowser)
-- **Moltbook research cron:** Every 6h at :30, last run 2026-05-25 07:11 IST (146s, 4 entries)
-- **Moltbook personal cron:** Every 6h on the hour, last run 2026-05-25 06:11 IST (164s)
-- **Generated digests:** arxiv/2026-05-25.md, web-science/2026-05-25.md, moltbook/2026-05-25.md
+## Operational Notes (Updated 2026-06-23)
+- **arXiv digest cron:** Tue-Sat 7:11 IST, last run 2026-06-23 (15 papers, all abstracts + categories verified)
+- **Web Science digest cron:** Mon-Fri 10:17 IST, last run 2026-06-23 (8 articles)
+- **Moltbook research cron:** Every 6h at :30, last run 2026-06-23 (8 entries)
+- **Moltbook personal cron:** Every 6h on the hour, last run 2026-06-23 (8 entries)
+- **Generated digests:** arxiv/2026-06-23.md, web-science/2026-06-23.md, moltbook/2026-06-23.md
 - **CI/CD:** GitHub Actions auto-validates, rebuilds index, deploys to Pages on every push
-- **Index:** 23+ digests, 213+ entries, 384+ unique tags indexed
-- **Viewer:** Auto-deployed to GitHub Pages via CI, loads index.json instantly, now shows three sources
+- **Index:** 91 digests, 831 entries, 800 unique tags indexed
+- **Viewer:** Auto-deployed to GitHub Pages via CI, loads index.json instantly, shows three sources
+- **Viewer URL:** `https://space-cadet.github.io/cron-digests/`
 - **CloakBrowser:** Available at `scripts/generate-web-science-cloak.mjs` for manual or future cron use
 - **Moltbook generator:** Available at `scripts/generate-moltbook-digest.js`, reads from `~/.openclaw/logs/moltbook-research.md`
+- **Verification:** `scripts/digest-health-check.sh` runs 8-checkpoint validation per digest; `viewer/test.js` has 10 Playwright tests
