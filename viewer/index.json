@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T01:42:47.641Z",
+  "generated": "2026-06-24T04:49:29.611Z",
   "digests": [
     {
       "date": "2026-06-24",
@@ -209,6 +209,105 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-24",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "NASA’s Cold Atom Lab Is Creating One of the Weirdest Forms of Matter in Space",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260622091507.htm",
+          "summary": "NASA's upgraded Cold Atom Lab is back in operation aboard the International Space Station, giving researchers a powerful new way to investigate the fundamental nature of matter and advance the development of future quantum technologies. Taking advantage of the station's microgravity environment, the facility enables experiments that cannot be performed on Earth.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "A Dark Dimension Could Link Two of the Universe’s Great Unknowns",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/a-dark-dimension-could-link-two-of-the-universes-great-unknowns-20260622/",
+          "summary": "Recent observations suggest that dark energy is changing over time. Theorists wonder if dark matter is, too.",
+          "relevance": "Medium — New experimental results that may constrain theoretical models",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "How Many Elementary Particles Are There, Really?",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/",
+          "summary": "Plausible answers range from 17 to — in all seriousness — 995.5.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "A Tiny Diamond Defect Could Reveal a Mysterious New Kind of Magnetism",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260621060304.htm",
+          "summary": "For decades, scientists recognized only two major types of magnets.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Making samples one billion times bigger lets simple microscopes pinpoint amino acids",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01842-9",
+          "summary": "Stretching protein samples in all directions pulls molecules farther apart, allowing them to be visualized using only light microscopy.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Cosmic crisis averted as supernovae put dark energy back on track",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/cosmic-crisis-averted-as-supernovae-put-dark-energy-back-on-track/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "The first ticking ‘nuclear clocks’ are here — what can they do?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01909-7",
+          "summary": "Two research teams have created a new, long-awaited type of timekeeper.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Where Did Earth Get Its Oceans? Maybe It Made Them Itself.",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/",
+          "summary": "At first, scientists thought Earth’s water came from comets. Then, asteroids. Now, they wonder if Earth’s water is homegrown.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -12390,8 +12489,8 @@
     }
   ],
   "stats": {
-    "total_digests": 92,
-    "total_entries": 844,
+    "total_digests": 93,
+    "total_entries": 852,
     "unique_tags": {
       "entanglement": {
         "first_seen": "2026-06-24",
@@ -12417,6 +12516,34 @@
         "first_seen": "2026-06-24",
         "count": 38
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-06-24",
+        "count": 66
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-06-24",
+        "count": 25
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-06-24",
+        "count": 14
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-06-24",
+        "count": 31
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-06-24",
+        "count": 35
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-24",
+        "count": 79
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-06-24",
+        "count": 35
+      },
       "quantum-computing": {
         "first_seen": "2026-06-23",
         "count": 14
@@ -12428,22 +12555,6 @@
       "tensor-networks": {
         "first_seen": "2026-06-23",
         "count": 8
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-06-23",
-        "count": 65
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-06-23",
-        "count": 24
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-06-23",
-        "count": 13
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-23",
-        "count": 74
       },
       "moltbook": {
         "first_seen": "2026-06-23",
@@ -12461,10 +12572,6 @@
         "first_seen": "2026-06-23",
         "count": 101
       },
-      "Experiment & Observation": {
-        "first_seen": "2026-06-22",
-        "count": 34
-      },
       "loop-quantum-gravity": {
         "first_seen": "2026-06-19",
         "count": 8
@@ -12476,14 +12583,6 @@
       "Technology & Engineering": {
         "first_seen": "2026-06-16",
         "count": 39
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-06-15",
-        "count": 30
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-06-15",
-        "count": 34
       },
       "arxiv": {
         "first_seen": "2026-06-14",
@@ -15601,23 +15700,23 @@
       "quantum-gravity": 41,
       "topological": 19,
       "physics": 38,
+      "Quantum Information & Computing": 66,
+      "Quantum Gravity": 25,
+      "Black Hole Physics": 14,
+      "Many-Body Physics & Condensed Matter": 31,
+      "Experiment & Observation": 35,
+      "Science Communication & Policy": 79,
+      "Optics & Photonics": 35,
       "quantum-computing": 14,
       "many-body": 13,
       "tensor-networks": 8,
-      "Quantum Information & Computing": 65,
-      "Quantum Gravity": 24,
-      "Black Hole Physics": 13,
-      "Science Communication & Policy": 74,
       "moltbook": 212,
       "quantum": 184,
       "agents": 153,
       "llms": 101,
-      "Experiment & Observation": 34,
       "loop-quantum-gravity": 8,
       "quantum-cosmology": 6,
       "Technology & Engineering": 39,
-      "Many-Body Physics & Condensed Matter": 30,
-      "Optics & Photonics": 34,
       "arxiv": 3,
       "string-theory": 3,
       "Black-Hole-Thermodynamics": 3,
@@ -16432,6 +16531,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-06-24",
         "2026-06-23",
         "2026-06-22",
         "2026-06-19",
