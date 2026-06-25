@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T01:42:15.806Z",
+  "generated": "2026-06-25T04:51:55.783Z",
   "digests": [
     {
       "date": "2026-06-25",
@@ -203,6 +203,69 @@
           "tags": [
             "black-holes",
             "topological"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-25",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "How Physicists Track and Trap the Elusive Neutrino",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/",
+          "summary": "The hunt for these ghostly particles has required some of the most audacious experimental setups ever built.",
+          "relevance": "Medium — New experimental results that may constrain theoretical models",
+          "tags": [
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "New Superconducting X-ray Detector Is Up to 1,000 Times More Sensitive",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260623083108.htm",
+          "summary": "A major new tool for X-ray research has entered service at BESSY II. Developed through a collaboration between HZB, MPI-CEC (Mühlheim-an-der-Ruhr, Germany), and NIST (Boulder CO, USA), the instrument is the first and only TES spectrometer operating at a synchrotron facility in Europe.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Antibiotic cocktail made by soil bacteria can kill superbugs",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01990-y",
+          "summary": "Four antibiotic compounds produced in Streptomyces bacteria attack multiple parts of an essential metabolic pathway.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Can we create a shield to protect Earth from solar storms?",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/can-we-create-a-shield-to-protect-earth-from-solar-storms/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "More Conversations, Complex Questions, and Bold Ideas in Season Five of ‘The Joy of Why’",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/more-conversations-complex-questions-and-bold-ideas-in-season-five-of-the-joy-of-why-20260604/",
+          "summary": "The podcast returns with 12 all-new episodes that explore the biggest questions in basic science and mathematics.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -12695,8 +12758,8 @@
     }
   ],
   "stats": {
-    "total_digests": 94,
-    "total_entries": 867,
+    "total_digests": 95,
+    "total_entries": 872,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-06-25",
@@ -12713,6 +12776,14 @@
       "topological": {
         "first_seen": "2026-06-25",
         "count": 20
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-06-25",
+        "count": 36
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-25",
+        "count": 83
       },
       "entanglement": {
         "first_seen": "2026-06-24",
@@ -12737,14 +12808,6 @@
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-06-24",
         "count": 31
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-06-24",
-        "count": 35
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-24",
-        "count": 79
       },
       "Optics & Photonics": {
         "first_seen": "2026-06-24",
@@ -15904,14 +15967,14 @@
       "quantum-gravity": 42,
       "physics": 44,
       "topological": 20,
+      "Experiment & Observation": 36,
+      "Science Communication & Policy": 83,
       "entanglement": 41,
       "holography": 29,
       "Quantum Information & Computing": 66,
       "Quantum Gravity": 25,
       "Black Hole Physics": 14,
       "Many-Body Physics & Condensed Matter": 31,
-      "Experiment & Observation": 35,
-      "Science Communication & Policy": 79,
       "Optics & Photonics": 35,
       "quantum-computing": 14,
       "many-body": 13,
@@ -16738,6 +16801,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-06-25",
         "2026-06-24",
         "2026-06-23",
         "2026-06-22",
