@@ -4,8 +4,9 @@
  * Matches the exact format expected by parsers and agents
  */
 
-import * as sqlite from './sqlite.js';
+import { join } from 'path';
 import { writeFileSync, mkdirSync, existsSync } from 'fs';
+import * as sqlite from './sqlite.js';
 
 // ============================================================================
 // EDIT HISTORY
@@ -75,7 +76,7 @@ export async function regenerateEditHistory(outputPath) {
  */
 export async function regenerateTasks(outputPath) {
   const allTasks = await sqlite.queryAll(
-    `SELECT id, title, status, priority, started, last_updated, details
+    `SELECT id, title, status, priority, started, updated, details
      FROM task_items
      ORDER BY id`
   );
@@ -117,7 +118,7 @@ export async function regenerateTasks(outputPath) {
     md += '|----|-------|--------|----------|---------|-----------|--------------|---------|\n';
     for (const t of completed) {
       const depList = deps.filter(d => d.task_id === t.id).map(d => d.depends_on).join(', ') || '-';
-      const completedDate = t.last_updated ? t.last_updated.slice(0, 10) : '-';
+      const completedDate = t.updated ? t.updated.slice(0, 10) : '-';
       md += `| ${t.id} | ${t.title} | ✅ | ${t.priority.toUpperCase()} | ${t.started} | ${completedDate} | ${depList} | [Details](tasks/${t.id}.md) |\n`;
     }
     md += '\n';
@@ -178,15 +179,18 @@ export async function regenerateTasks(outputPath) {
  */
 export async function regenerateSessionCache(outputPath) {
   const cache = await sqlite.queryGet(
-    `SELECT * FROM session_cache WHERE id = 1`
+    `SELECT * FROM session_cache WHERE session_id = 'current'`
   );
 
-  const currentSession = cache?.current_session_id
-    ? await sqlite.queryGet(`SELECT * FROM sessions WHERE id = ?`, [cache.current_session_id])
-    : null;
+  const cacheMeta = parseSessionCacheMetadata(cache?.raw_content);
+  const currentSession = cacheMeta.current_session_id
+    ? await sqlite.queryGet(`SELECT * FROM sessions WHERE id = ?`, [cacheMeta.current_session_id])
+    : await getCurrentSession(cache?.focus_task || null);
 
-  const focusTask = cache?.current_focus_task
-    ? await sqlite.queryGet(`SELECT * FROM task_items WHERE id = ?`, [cache.current_focus_task])
+  const latestSession = currentSession || await getLatestSession();
+  const focusTaskId = cache?.focus_task || activeFocusTaskId(cache?.focus_task, currentSession);
+  const focusTask = focusTaskId
+    ? await sqlite.queryGet(`SELECT * FROM task_items WHERE id = ?`, [focusTaskId])
     : null;
 
   const activeTasks = await sqlite.queryAll(
@@ -207,16 +211,16 @@ export async function regenerateSessionCache(outputPath) {
   md += `*Created: ${now}*\n`;
   md += `*Last Updated: ${now}*\n\n`;
 
-  const started = currentSession?.start_time
-    ? new Date(currentSession.start_time).toISOString().replace('T', ' ').slice(0, 19) + ' IST'
+  const started = latestSession?.created_at
+    ? `${latestSession.created_at} IST`
     : now;
 
   const focusName = focusTask
     ? `${focusTask.id}: ${focusTask.title}`
     : (activeTasks[0] ? `${activeTasks[0].id}: ${activeTasks[0].title}` : 'None');
 
-  const sessionFile = currentSession
-    ? `sessions/${currentSession.session_date}-${currentSession.session_period}.md`
+  const sessionFile = latestSession
+    ? `sessions/${latestSession.date}-${latestSession.period}.md`
     : 'sessions/latest.md';
 
   const statusText = cache
@@ -231,8 +235,8 @@ export async function regenerateSessionCache(outputPath) {
   // Overview
   md += '## Overview\n\n';
   md += `- Active: ${activeTasks.length} | Paused: ${pausedTasks.length} | Completed: ${completedTasks.length}\n`;
-  md += `- Last Session: ${currentSession?.session_date || '-'}\n`;
-  md += `- Current Period: ${currentSession?.session_period || 'morning'}\n\n`;
+  md += `- Last Session: ${latestSession?.date || '-'}\n`;
+  md += `- Current Period: ${latestSession?.period || 'morning'}\n\n`;
 
   // Active Tasks
   if (activeTasks.length > 0) {
@@ -260,7 +264,7 @@ export async function regenerateSessionCache(outputPath) {
       md += `### ${t.id}: ${t.title}\n`;
       md += `**Status:** ✅ **COMPLETED**\n`;
       md += `**Started:** ${t.started}\n`;
-      md += `**Completed:** ${t.last_updated?.slice(0, 10) || '-'}\n\n`;
+      md += `**Completed:** ${t.updated?.slice(0, 10) || '-'}\n\n`;
     }
   }
 
@@ -299,6 +303,9 @@ export async function regenerateSessionCache(outputPath) {
  * @param {string} paths.editHistory - Path for edit_history.md
  * @param {string} paths.tasks - Path for tasks.md
  * @param {string} paths.sessionCache - Path for session_cache.md
+ * @param {string} [paths.tasksDir] - Directory for individual task files
+ * @param {string} [paths.sessionsDir] - Directory for session files
+ * @param {string} [paths.editsDir] - Directory for edit chunks
  * @returns {Promise<{editHistory:string,tasks:string,sessionCache:string}>}
  */
 export async function regenerateAll(paths) {
@@ -307,6 +314,21 @@ export async function regenerateAll(paths) {
     regenerateTasks(paths.tasks),
     regenerateSessionCache(paths.sessionCache)
   ]);
+
+  // Generate individual task files
+  if (paths.tasksDir) {
+    await regenerateTaskFiles(paths.tasksDir);
+  }
+
+  // Generate session file
+  if (paths.sessionsDir) {
+    await regenerateSessionFile(paths.sessionsDir);
+  }
+
+  // Generate edit chunk
+  if (paths.editsDir) {
+    await regenerateEditChunk(paths.editsDir);
+  }
 
   return { editHistory, tasks, sessionCache };
 }
@@ -333,4 +355,211 @@ function ensureDir(filePath) {
   if (parentDir && !existsSync(parentDir)) {
     mkdirSync(parentDir, { recursive: true });
   }
+}
+
+async function getCurrentSession(focusTaskId = null) {
+  if (focusTaskId) {
+    const focused = await sqlite.queryGet(
+      `SELECT * FROM sessions
+       WHERE status = 'active' AND focus = ?
+       ORDER BY created_at DESC, id DESC
+       LIMIT 1`,
+      [focusTaskId]
+    );
+    if (focused) return focused;
+  }
+
+  const active = await sqlite.queryGet(
+    `SELECT * FROM sessions
+     WHERE status = 'active'
+     ORDER BY created_at DESC, id DESC
+     LIMIT 1`
+  );
+  if (active) return active;
+
+  return null;
+}
+
+function parseSessionCacheMetadata(rawContent) {
+  if (!rawContent) {
+    return { current_session_id: null };
+  }
+
+  try {
+    const parsed = JSON.parse(rawContent);
+    return {
+      current_session_id: parsed?.current_session_id || null
+    };
+  } catch {
+    return { current_session_id: null };
+  }
+}
+
+async function getLatestSession() {
+  return sqlite.queryGet(
+    `SELECT * FROM sessions
+     ORDER BY created_at DESC, id DESC
+     LIMIT 1`
+  );
+}
+
+function activeFocusTaskId(cacheFocusTask, currentSession) {
+  if (cacheFocusTask) {
+    return cacheFocusTask;
+  }
+  if (currentSession?.status === 'active') {
+    return currentSession.focus || null;
+  }
+  return null;
+}
+
+// ============================================================================
+// EXTENDED REGENERATION (Task Files, Session Files, Edit Chunks)
+// ============================================================================
+
+/**
+ * Generate individual task files from database
+ * @param {string} tasksDir - Directory to write task files (e.g., memory-bank/tasks/)
+ */
+export async function regenerateTaskFiles(tasksDir) {
+  const tasks = await sqlite.queryAll(
+    `SELECT id, title, status, priority, started, updated, details FROM task_items ORDER BY id`
+  );
+
+  for (const task of tasks) {
+    const filePath = join(tasksDir, `${task.id}.md`);
+
+    let md = `# ${task.id}: ${task.title}\n\n`;
+    md += `*Created: ${task.started || '-'}*\n`;
+    md += `*Last Updated: ${task.updated || '-'}*\n\n`;
+    md += `**Status**: ${statusEmoji(task.status)} **${task.status.toUpperCase()}**\n`;
+    md += `**Priority**: ${task.priority || 'MEDIUM'}\n\n`;
+
+    if (task.details) {
+      md += `## Details\n\n${task.details}\n\n`;
+    }
+
+    // Get subtasks (gracefully handle missing table)
+    let subtasks = [];
+    try {
+      subtasks = await sqlite.queryAll(
+        `SELECT section, text, checked FROM task_subtasks WHERE task_id = ? ORDER BY position`,
+        [task.id]
+      );
+    } catch (err) {
+      if (!err.message.includes('no such table')) throw err;
+      // Table doesn't exist — skip subtasks
+    }
+
+    if (subtasks.length > 0) {
+      md += `## Subtasks\n\n`;
+      for (const st of subtasks) {
+        const checkbox = st.checked ? '[x]' : '[ ]';
+        md += `- ${checkbox} ${st.text}\n`;
+      }
+      md += '\n';
+    }
+
+    // Get dependencies
+    const deps = await sqlite.queryAll(
+      `SELECT depends_on FROM task_dependencies WHERE task_id = ?`,
+      [task.id]
+    );
+
+    if (deps.length > 0) {
+      md += `## Dependencies\n\n`;
+      for (const d of deps) {
+        md += `- ${d.depends_on}\n`;
+      }
+      md += '\n';
+    }
+
+    ensureDir(filePath);
+    writeFileSync(filePath, md, 'utf-8');
+  }
+
+  return tasks.length;
+}
+
+/**
+ * Generate session file from database
+ * @param {string} sessionsDir - Directory to write session files (e.g., memory-bank/sessions/)
+ */
+export async function regenerateSessionFile(sessionsDir) {
+  let sessions;
+  try {
+    sessions = await sqlite.queryAll(
+      `SELECT id, date, period, focus, status, content, start_time, end_time, created_at
+       FROM sessions
+       ORDER BY date DESC, created_at DESC, id DESC`
+    );
+  } catch (err) {
+    if (!err.message.includes('no such column')) throw err;
+    sessions = await sqlite.queryAll(
+      `SELECT id, date, period, focus, status, content, created_at
+       FROM sessions
+       ORDER BY date DESC, created_at DESC, id DESC`
+    );
+  }
+
+  for (const session of sessions) {
+    const fileName = `${session.date}-${session.period}.md`;
+    const filePath = join(sessionsDir, fileName);
+
+    let md = `# Session: ${session.date} ${session.period.charAt(0).toUpperCase() + session.period.slice(1)}\n\n`;
+    md += `**Started**: ${session.start_time || session.created_at || '-'}\n`;
+    md += `**Focus Task**: ${session.focus || 'None'}\n`;
+    md += `**Status**: ${session.status === 'active' || session.status === 'in_progress' ? '🔄' : '✅'} ${session.status.toUpperCase()}\n\n`;
+
+    if (session.content) {
+      md += `## Work Done\n\n${session.content}\n\n`;
+    }
+
+    ensureDir(filePath);
+    writeFileSync(filePath, md, 'utf-8');
+  }
+
+  return sessions.length;
+}
+
+/**
+ * Generate edit chunk file from most recent edit entry
+ * @param {string} editsDir - Directory to write edit chunks (e.g., memory-bank/edits/)
+ */
+export async function regenerateEditChunk(editsDir) {
+  const entry = await sqlite.queryGet(
+    `SELECT id, date, time, timezone, task_id, task_description
+     FROM edit_entries
+     ORDER BY id DESC LIMIT 1`
+  );
+
+  if (!entry) return 0;
+
+  const dateDir = join(editsDir, entry.date);
+  const timeStr = entry.time.replace(/:/g, '');
+  const fileName = `${timeStr}-${entry.task_id || 'general'}-edit-chunk.md`;
+  const filePath = join(dateDir, fileName);
+
+  // Get file modifications
+  const mods = await sqlite.queryAll(
+    `SELECT action, file_path, description FROM file_modifications WHERE edit_entry_id = ? ORDER BY id`,
+    [entry.id]
+  );
+
+  let md = `# Edit Chunk: ${entry.date} ${entry.time} ${entry.timezone || ''}\n\n`;
+  md += `## Task: ${entry.task_id || 'General'}\n\n`;
+  md += `### Work Done\n\n${entry.task_description}\n\n`;
+
+  if (mods.length > 0) {
+    md += `### Files Modified\n\n`;
+    for (const mod of mods) {
+      md += `- ${mod.action} \`${mod.file_path}\` — ${mod.description}\n`;
+    }
+    md += '\n';
+  }
+
+  ensureDir(filePath);
+  writeFileSync(filePath, md, 'utf-8');
+
+  return 1;
 }

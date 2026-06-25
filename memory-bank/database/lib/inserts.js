@@ -4,6 +4,7 @@
  * Uses sql.js via lib/sqlite.js (async API)
  */
 
+import { createHash, randomBytes } from 'crypto';
 import * as sqlite from './sqlite.js';
 
 // ============================================================================
@@ -31,7 +32,7 @@ export async function insertEditEntry({ date, time, timezone = null, task_id = n
     const { lastInsertRowid: entryId } = await sqlite.execRun(
       `INSERT INTO edit_entries (date, time, timezone, timestamp, task_id, task_description)
        VALUES (?, ?, ?, ?, ?, ?)`,
-      [date, time, timezone, timestamp, task_id, task_description]
+      [date, time, timezone ?? null, timestamp, task_id ?? null, task_description]
     );
 
     // Insert file modifications
@@ -85,7 +86,7 @@ export async function insertEditEntries(entries) {
 export async function upsertTask({ id, title, status, priority, started, details = '' }) {
   const now = new Date().toISOString();
   const { changes } = await sqlite.execRun(
-    `INSERT INTO task_items (id, title, status, priority, started, details, last_updated)
+    `INSERT INTO task_items (id, title, status, priority, started, details, updated)
      VALUES (?, ?, ?, ?, ?, ?, ?)
      ON CONFLICT(id) DO UPDATE SET
        title = excluded.title,
@@ -93,7 +94,7 @@ export async function upsertTask({ id, title, status, priority, started, details
        priority = excluded.priority,
        started = excluded.started,
        details = excluded.details,
-       last_updated = excluded.last_updated`,
+       updated = excluded.updated`,
     [id, title, status, priority, started, details, now]
   );
   return { id, changes };
@@ -110,10 +111,26 @@ export async function upsertTask({ id, title, status, priority, started, details
 export async function updateTaskStatus(taskId, newStatus, detailsUpdate = null) {
   const now = new Date().toISOString();
 
+  // Check if task exists
+  const existing = await sqlite.queryGet(
+    `SELECT id FROM task_items WHERE id = ?`,
+    [taskId]
+  );
+
+  if (!existing) {
+    // Auto-create task if it doesn't exist
+    const { lastInsertRowid } = await sqlite.execRun(
+      `INSERT INTO task_items (id, title, status, priority, started, updated, details)
+       VALUES (?, ?, ?, ?, ?, ?, ?)`,
+      [taskId, detailsUpdate || taskId, newStatus, 'medium', now.slice(0, 10), now, detailsUpdate || 'Auto-created task']
+    );
+    return { taskId, newStatus, changes: 1, created: true };
+  }
+
   if (detailsUpdate) {
     const { changes } = await sqlite.execRun(
       `UPDATE task_items
-       SET status = ?, last_updated = ?, details = COALESCE(details, '') || '\n\n' || ?
+       SET status = ?, updated = ?, details = COALESCE(details, '') || '\n\n' || ?
        WHERE id = ?`,
       [newStatus, now, detailsUpdate, taskId]
     );
@@ -121,7 +138,7 @@ export async function updateTaskStatus(taskId, newStatus, detailsUpdate = null) 
   } else {
     const { changes } = await sqlite.execRun(
       `UPDATE task_items
-       SET status = ?, last_updated = ?
+       SET status = ?, updated = ?
        WHERE id = ?`,
       [newStatus, now, taskId]
     );
@@ -192,11 +209,13 @@ export async function addTaskSubtasks(taskId, subtasks) {
  * @param {string} [data.notes] - Session notes
  * @returns {Promise<{sessionId:number}>}
  */
-export async function createSession({ session_date, session_period, focus_task = null, start_time, end_time = null, status = 'in_progress', notes = '' }) {
-  const { lastInsertRowid: sessionId } = await sqlite.execRun(
-    `INSERT INTO sessions (session_date, session_period, focus_task, start_time, end_time, status, notes)
-     VALUES (?, ?, ?, ?, ?, ?, ?)`,
-    [session_date, session_period, focus_task, start_time, end_time, status, notes]
+export async function createSession({ id = null, date, period, focus = null, status = 'active', content = '' }) {
+  const normalizedStatus = status === 'in_progress' ? 'active' : status;
+  const sessionId = id || buildSessionId(date, period);
+  await sqlite.execRun(
+    `INSERT INTO sessions (id, date, period, focus, status, content)
+     VALUES (?, ?, ?, ?, ?, ?)`,
+    [sessionId, date, period, focus, normalizedStatus, content]
   );
   return { sessionId };
 }
@@ -209,21 +228,20 @@ export async function createSession({ session_date, session_period, focus_task =
  * @returns {Promise<{changes:number}>}
  */
 export async function completeSession(sessionId, notes = null) {
-  const now = new Date().toISOString();
   if (notes) {
     const { changes } = await sqlite.execRun(
       `UPDATE sessions
-       SET status = 'completed', end_time = ?, notes = COALESCE(notes, '') || '\n\n' || ?
+       SET status = 'completed', content = COALESCE(content, '') || '\n\n' || ?
        WHERE id = ?`,
-      [now, notes, sessionId]
+      [notes, sessionId]
     );
     return { sessionId, changes };
   } else {
     const { changes } = await sqlite.execRun(
       `UPDATE sessions
-       SET status = 'completed', end_time = ?
+       SET status = 'completed'
        WHERE id = ?`,
-      [now, sessionId]
+      [sessionId]
     );
     return { sessionId, changes };
   }
@@ -240,19 +258,22 @@ export async function completeSession(sessionId, notes = null) {
  * @param {number} [data.completed_count]
  * @returns {Promise<{changes:number}>}
  */
-export async function updateSessionCache({ current_session_id = null, current_focus_task = null, active_count = 0, paused_count = 0, completed_count = 0 }) {
+export async function updateSessionCache({ current_session_id = null, current_focus_task = null, active_tasks_count = 0, paused_tasks_count = 0, completed_tasks_count = 0 }) {
   const now = new Date().toISOString();
+  const rawContent = JSON.stringify({
+    current_session_id: current_session_id ?? null,
+    updated_at: now
+  });
   const { changes } = await sqlite.execRun(
-    `INSERT INTO session_cache (id, current_session_id, current_focus_task, active_count, paused_count, completed_count, last_updated)
-     VALUES (1, ?, ?, ?, ?, ?, ?)
-     ON CONFLICT(id) DO UPDATE SET
-       current_session_id = excluded.current_session_id,
-       current_focus_task = excluded.current_focus_task,
-       active_count = excluded.active_count,
-       paused_count = excluded.paused_count,
-       completed_count = excluded.completed_count,
-       last_updated = excluded.last_updated`,
-    [current_session_id, current_focus_task, active_count, paused_count, completed_count, now]
+    `INSERT INTO session_cache (session_id, status, focus_task, active_tasks_count, paused_tasks_count, completed_tasks_count, raw_content)
+     VALUES ('current', 'active', ?, ?, ?, ?, ?)
+     ON CONFLICT(session_id) DO UPDATE SET
+       focus_task = excluded.focus_task,
+       active_tasks_count = excluded.active_tasks_count,
+       paused_tasks_count = excluded.paused_tasks_count,
+       completed_tasks_count = excluded.completed_tasks_count,
+       raw_content = excluded.raw_content`,
+    [current_focus_task ?? null, active_tasks_count ?? 0, paused_tasks_count ?? 0, completed_tasks_count ?? 0, rawContent]
   );
   return { changes };
 }
@@ -317,14 +338,37 @@ export async function logTransaction({ transaction_id, operation_type, affected_
  * Compute ISO timestamp from date, time, timezone
  */
 function computeTimestamp(date, time, timezone) {
-  const tz = timezone ? ` ${timezone}` : '';
-  const isoString = `${date}T${time}${tz}`;
+  const isoString = `${date}T${time}${timezoneOffset(timezone)}`;
   try {
     const d = new Date(isoString);
     return d.toISOString();
   } catch {
     return new Date().toISOString();
   }
+}
+
+function timezoneOffset(timezone) {
+  if (!timezone) return '';
+
+  const normalized = String(timezone).trim().toUpperCase();
+  if (normalized === 'IST') return '+05:30';
+  if (/^[+-]\d{2}:\d{2}$/.test(normalized)) return normalized;
+  return '';
+}
+
+function buildSessionId(date, period) {
+  const now = new Date();
+  const time = formatLocalTime(now);
+  const entropy = `${date}-${period}-${time}-${randomBytes(8).toString('hex')}`;
+  const shortHash = createHash('sha1').update(entropy).digest('hex').slice(0, 6);
+  return `${date}-${period}-${time}-${shortHash}`;
+}
+
+function formatLocalTime(date) {
+  const hours = String(date.getHours()).padStart(2, '0');
+  const minutes = String(date.getMinutes()).padStart(2, '0');
+  const seconds = String(date.getSeconds()).padStart(2, '0');
+  return `${hours}${minutes}${seconds}`;
 }
 
 /**
