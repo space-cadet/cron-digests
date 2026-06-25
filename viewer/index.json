@@ -1,6 +1,212 @@
 {
-  "generated": "2026-06-24T04:49:29.611Z",
+  "generated": "2026-06-25T01:41:52.025Z",
   "digests": [
+    {
+      "date": "2026-06-25",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-06-25",
+      "categories": "astro-ph.CO, astro-ph.HE, astro-ph.IM, gr-qc, hep-ph, hep-th, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, topological",
+      "entries": [
+        {
+          "num": 1,
+          "title": "New Rotating Black Hole in Electromagnetic Fields: Cosmological Horizon without Cosmological Constant",
+          "authors": "Liang Ma, H. Lu",
+          "arxiv_id": "2606.23782",
+          "url": "https://arxivite.org/abs/2606.23782",
+          "categories": "gr-qc, hep-th",
+          "summary": "We obtain a new electrovacuum and related background spacetime that contains a cosmological horizon supported entirely by the electromagnetic field. We further construct an exact solution describing a Kerr black hole in this background.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Black Hole Ringdown Nonlinearities in the Large-D Limit",
+          "authors": "Roberto Emparan, Amanda Green-Salinas, David Pereñiguez et al.",
+          "arxiv_id": "2606.23804",
+          "url": "https://arxivite.org/abs/2606.23804",
+          "categories": "gr-qc, hep-th",
+          "summary": "We initiate the study of nonlinear effects in the ringdown phase of black hole mergers using the effective theory of black hole dynamics in the large-D limit. This framework offers several advantages: the quasinormal mode spectrum, including nonlinear corrections, is analytically tractable; numerical simulations of collisions are computationally inexpensive; and the extraction and analysis of the ringdown signal are clean and controlled.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Primordial Black Holes: A Review of Formation and Evolution",
+          "authors": "S. Shankaranarayanan, Soumya Bhattacharya, Archit Vidyarthi",
+          "arxiv_id": "2606.23846",
+          "url": "https://arxivite.org/abs/2606.23846",
+          "categories": "astro-ph.CO, gr-qc, hep-ph, hep-th",
+          "summary": "Primordial Black Holes (PBHs) have emerged as a leading non-particulate candidate for dark matter and a unique cosmological probe, a paradigm shift accelerated by the detection of anomalous binary mergers by the LIGO-Virgo-KAGRA (LVK) collaboration. While the literature is rich with phenomenological constraints, the fundamental quantum and relativistic underpinnings governing PBH genesis and evolution often receive comparatively less emphasis.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Energy Extraction via Magnetic Reconnection from a Rotating Dyonic Black Hole in $N = 2, \\ U(1)^2$ Gauged Supergravity",
+          "authors": "Raid M Suleiman, Shanshan Rodriguez, Dominic O. Chang et al.",
+          "arxiv_id": "2606.23862",
+          "url": "https://arxivite.org/abs/2606.23862",
+          "categories": "astro-ph.HE, gr-qc, hep-th",
+          "summary": "We study energy extraction via magnetic reconnection from a rotating dyonic black hole in four-dimensional $N=2$, $U(1)^2$ gauged supergravity. Using the Comisso-Asenjo mechanism in the ZAMO frame, we derive the asymptotic hydrodynamic energy per unit enthalpy $\\epsilon^{\\infty}_\\pm$ and determine when reconnection outflows attained negative energy at infinity.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Fermionic Love number of higher-dimensional Reissner-Nordström black holes",
+          "authors": "Xiankai Pang, Yu Tian, Hongbao Zhang et al.",
+          "arxiv_id": "2606.24365",
+          "url": "https://arxivite.org/abs/2606.24365",
+          "categories": "gr-qc, hep-th",
+          "summary": "In this paper, we generalize our previous work on the fermionic tidal Love numbers (TLNs) to higher-dimensional Reissner-Nordström black holes. The massless Dirac equation is solved in $D$-dimensional spacetime using ingoing Eddington coordinates and regular tetrads.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Binary black hole scattering with generic spins",
+          "authors": "Adam Clark, Geraint Pratten, Patricia Schmidt",
+          "arxiv_id": "2606.24432",
+          "url": "https://arxivite.org/abs/2606.24432",
+          "categories": "gr-qc, hep-th",
+          "summary": "In this Letter, we confront high-order post-Minkowskian (PM) predictions for generic-spin black-hole scattering with numerical-relativity (NR) simulations for the first time, targeting improvements for eccentric and precessing waveform modelling. We extract azimuthal and polar scattering angles from NR and relate them to the PM spin-kick observable.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "The $ω$-Effect from a Multimode Squeezed Graviton State",
+          "authors": "Nick E. Mavromatos, Sarben Sarkar",
+          "arxiv_id": "2606.24613",
+          "url": "https://arxivite.org/abs/2606.24613",
+          "categories": "gr-qc, hep-ph, quant-ph, hep-th",
+          "summary": "The $\\omega$-effect in entangled neutral-meson systems provides a sensitive probe of CPT violation induced by quantum-gravitational environments. In open quantum systems, interactions with inaccessible gravitational degrees of freedom can render the reduced meson dynamics non-unitary, causing the CPT operator to become ill-defined, even when the underlying microscopic Hamiltonian is CPT invariant.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Non-perturbative, background independent Fock representations for canonical quantum gravity",
+          "authors": "T. Thiemann",
+          "arxiv_id": "2606.24858",
+          "url": "https://arxivite.org/abs/2606.24858",
+          "categories": "gr-qc, hep-th",
+          "summary": "A UV complete quantum field theory of general relativity is believed to require a non-perturbative approach. Moreover, background independence of classical general relativity supplies a physical selection for suitable Hilbert space representations of the quantum geometry and matter fields.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Orientation matters: Consequences for gravitational-wave background detectability",
+          "authors": "Nelson Christensen, Joseph D.Romano, Mairi Sakellariadou et al.",
+          "arxiv_id": "2606.22985",
+          "url": "https://arxivite.org/abs/2606.22985",
+          "categories": "astro-ph.CO, gr-qc, astro-ph.IM, hep-th",
+          "summary": "Cross-correlation searches for gravitational-wave backgrounds depend on the geometrical configuration (physical separation and relative orientation) of the detectors comprising the network. Applying standard techniques to a few simple examples, we illustrate how the relative orientation of a pair of Earth-based L-shaped laser interferometers can drastically impact the detectability of both isotropic and anisotropic gravitational-wave backgrounds.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Dark matter from the quadratic spinor Lagrangian II: A spin-3/2 no-go and the uniqueness of the spin-1/2 candidate",
+          "authors": "Roh-Suan Tung",
+          "arxiv_id": "2606.23273",
+          "url": "https://arxivite.org/abs/2606.23273",
+          "categories": "gr-qc, hep-th",
+          "summary": "The composite Quadratic Spinor Lagrangian (QSL) propagates a spin-1/2 Dirac fermion whose mass is generated geometrically by cosmological trace torsion. It is natural to ask whether promoting the spinor 1-form $\\Psi_\\mu$ to an \\emph{independent} Dirac-vector field yields a genuine spin-3/2 dark-matter candidate.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Spacetime torsion fixes the mass and spin of gravitationally produced dark matter",
+          "authors": "Roh-Suan Tung",
+          "arxiv_id": "2606.23418",
+          "url": "https://arxivite.org/abs/2606.23418",
+          "categories": "gr-qc, hep-th",
+          "summary": "The gravitational production of dark matter from stochastic gravitational waves requires the produced fermion to acquire a mass by unspecified late-time physics. We show that this mass is supplied by spacetime torsion alone -- no Higgs sector and no free mass parameter.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Dark matter from the quadratic spinor Lagrangian I: Geometric mass for a gravitationally produced spin-1/2 fermion",
+          "authors": "Roh-Suan Tung",
+          "arxiv_id": "2606.23447",
+          "url": "https://arxivite.org/abs/2606.23447",
+          "categories": "gr-qc, hep-th",
+          "summary": "The gravitational-wave induced freeze-in of Maleknejad and Kopp (2026) produces dark fermions from a stochastic gravitational-wave background, but requires them to acquire mass by separate means. We develop the Quadratic Spinor Lagrangian (QSL) formulation of general relativity, extended to Einstein--Cartan, as a framework that supplies this mass geometrically.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Affine quantization of the dynamical Reissner--Nordström region",
+          "authors": "Morteza Bajand, Babak Vakili",
+          "arxiv_id": "2606.23552",
+          "url": "https://arxivite.org/abs/2606.23552",
+          "categories": "gr-qc, hep-th",
+          "summary": "We study the quantum dynamics of the dynamical region of the Reissner--Nordström geometry using a minisuperspace reduction and affine quantization, which is naturally suited for positive-definite geometrical variables. The resulting Wheeler--DeWitt equation becomes separable, yielding Hermite-polynomial modes in one sector and Gaussian-like radial solutions in the other.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Equatorial Periodic Orbits and Gravitational Wave Phenomenology around Spherically-symmetric vacuum solution in Freund-Nambu scalar-tensor gravity",
+          "authors": "Dhruba Jyoti Gogoi, Jyatsnasree Bora, Himanshu Chaudhary et al.",
+          "arxiv_id": "2606.23635",
+          "url": "https://arxivite.org/abs/2606.23635",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate test particle dynamics and gravitational wave (GW) phenomenology in an exact spherically symmetric vacuum solution of Freund - Nambu scalar - tensor gravity. This framework generalizes the Janis - Newman - Winicour (JNW) naked singularity via a geometric non - linear coupling $q$ and a direct scalar - particle coupling $g_s$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Quintic Modification to Lifshitz Quasi-topological Black Holes",
+          "authors": "A. Bazrafshan, A. R. Olamaei, M. Ghanaatian",
+          "arxiv_id": "2606.24835",
+          "url": "https://arxivite.org/abs/2606.24835",
+          "categories": "gr-qc",
+          "summary": "We extend the analysis of Lifshitz black holes to quintic order in five-dimensional quasi-topological gravity coupled to a massive Abelian vector field. Starting from a static ansatz with a constant-curvature horizon, we derive the reduced field equations and identify the radially conserved quantity of the one-dimensional effective system.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-24",
       "type": "arxiv",
@@ -16,7 +222,7 @@
           "arxiv_id": "2606.21901",
           "url": "https://arxivite.org/abs/2606.21901",
           "categories": "hep-ph, gr-qc, hep-th, quant-ph",
-          "summary": "Scalar-induced gravitational waves are usually modeled as a classical stochastic background sourced by primordial curvature perturbations. We investigate whether residual quantum-information properties of the scalar sector can survive decoherence and leave imprints in the induced tensor background.",
+          "summary": "Using the covariance-matrix formalism, we show that anomalous scalar coherence surviving decoherence transfers to opposite-mode tensor coherence, generating a connected power covariance $\\kappa(k)\\propto |\\gamma_k|^2/\\alpha_k^2$ and phase-sensitive observables that provide a new probe of primordial quantum correlations beyond entanglement.",
           "relevance": "entanglement",
           "tags": [
             "entanglement"
@@ -29,7 +235,7 @@
           "arxiv_id": "2606.21079",
           "url": "https://arxivite.org/abs/2606.21079",
           "categories": "gr-qc, hep-th",
-          "summary": "The holographic time-like entanglement entropy (TEE) extends entanglement to time-like boundary subregions. While its definitive holographic dictionary remains debated, one concrete proposal utilizes piece-wise extremal surfaces.",
+          "summary": "We show that a critical extremal surface $\\mathcal{A}_c$ inside the event horizon governs the late-time linear growth of time-like entanglement entropy in asymptotically AdS black holes with space-like singularities, and that Schwarzschild-AdS geometry bounds the growth rate of the real and imaginary parts under energy conditions.",
           "relevance": "black-holes, holography, entanglement",
           "tags": [
             "black-holes",
@@ -44,7 +250,7 @@
           "arxiv_id": "2606.20931",
           "url": "https://arxivite.org/abs/2606.20931",
           "categories": "gr-qc, hep-th",
-          "summary": "We study the dynamical and scattering properties for the Euler-Heisenberg BH surrounded by perfect fluid dark matter. The geometry contains a compact non-linear electrodynamic correction governed by the EH coupling and a logarithmic dark-matter contribution governed by the surrounding PFDM halo.",
+          "summary": "We compute quasinormal modes (13th-order WKB with Padé resummation), exact greybody factors, Hawking spectra, and neutrino energy deposition for Euler-Heisenberg black holes surrounded by perfect fluid dark matter, finding that the PFDM parameter contracts the optical structure and enhances damping while the EH correction yields weaker near-horizon deformation.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -57,7 +263,7 @@
           "arxiv_id": "2606.21549",
           "url": "https://arxivite.org/abs/2606.21549",
           "categories": "gr-qc, hep-th",
-          "summary": "We investigate the head-on coalescence of charged binary black holes in Einstein-Maxwell-Scalar (EMS) theory using numerical relativity. The binaries are built from charged puncture initial data representing two Reissner-Nordström black holes immersed in a purely kinetic scalar perturbation: the scalar field initially vanishes, while its conjugate momentum provides a small seed for the instability.",
+          "summary": "Using numerical relativity, we show that nonminimal electromagnetic-scalar coupling can dynamically trigger scalar hair growth during charged binary black hole coalescence, with the remnant either descalarizing or approaching a scalarized configuration depending on the coupling strength and retained charge.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -70,7 +276,7 @@
           "arxiv_id": "2606.21835",
           "url": "https://arxivite.org/abs/2606.21835",
           "categories": "hep-ph, gr-qc, hep-th, quant-ph",
-          "summary": "Scalar-induced gravitational waves are usually treated as a classical stochastic background sourced by phase-random curvature perturbations. We show that this description can miss residual quantum information.",
+          "summary": "We derive transfer relations from scalar anomalous coherence to the covariance matrix of induced tensor modes, showing that tensor discord and connected power covariance can persist as probes of primordial quantum coherence even after scalar entanglement has vanished.",
           "relevance": "entanglement",
           "tags": [
             "entanglement"
@@ -83,7 +289,7 @@
           "arxiv_id": "2606.22431",
           "url": "https://arxivite.org/abs/2606.22431",
           "categories": "gr-qc, astro-ph.CO, hep-th",
-          "summary": "This dissertation aims to put forth a systematic construction of a fractional-calculus extension of holographic dark energy (HDE). We show that linking late-time cosmic acceleration to non-local or memory effects encoded in a fractional (Riesz) derivative within black hole thermodynamics produces deviations from standard HDE and can address some challenges of the Hubble cutoff.",
+          "summary": "We construct a Fractional Holographic Dark Energy framework by introducing a Riesz fractional spatial derivative into the Wheeler--DeWitt equation, yielding fractionally-corrected Bekenstein--Hawking entropy governed by the Lévy index $\\alpha$, and explore its cosmological implications and late-time singularities across multiple modified gravity theories.",
           "relevance": "quantum-gravity, black-holes, holography",
           "tags": [
             "quantum-gravity",
@@ -98,7 +304,7 @@
           "arxiv_id": "2606.21522",
           "url": "https://arxivite.org/abs/2606.21522",
           "categories": "hep-ph, gr-qc, hep-th",
-          "summary": "Asymptotically safe quantum gravity is an approach to quantum gravity. It is based on the premise that quantum field theory can describe the quantum nature of gravity in our universe.",
+          "summary": "This review surveys the current status of asymptotically safe quantum gravity, covering robust evidence for the Reuter fixed point in four-dimensional pure gravity, matter studies including the Standard Model, recent progress on Lorentzian spacetime signature, and predictive pathways for particle physics, black holes, and cosmology.",
           "relevance": "quantum-gravity, black-holes",
           "tags": [
             "quantum-gravity",
@@ -112,7 +318,7 @@
           "arxiv_id": "2606.21537",
           "url": "https://arxivite.org/abs/2606.21537",
           "categories": "gr-qc, hep-th",
-          "summary": "If one extends the AdS/CFT extrapolate dictionary to large but finite $N$, we are expected to obtain non-perturbative violations of bulk micro-causality. Previously this was achieved by implementing a late boundary time cut-off, while smearing the boundary operator via the HKLL kernel.",
+          "summary": "We perform explicit bulk reconstructions in near-horizon modified AdS$_2$ and BTZ black holes and recover non-perturbative violations of bulk micro-causality controlled by a throat parameter, while in three dimensions probe dynamics exhibits a dip-ramp-plateau structure in the spectral form factor.",
           "relevance": "black-holes, holography",
           "tags": [
             "black-holes",
@@ -126,7 +332,7 @@
           "arxiv_id": "2606.23450",
           "url": "https://arxivite.org/abs/2606.23450",
           "categories": "gr-qc, hep-th",
-          "summary": "We compute the next-to-leading order (NLO) angular impulse (spin kick) in the scattering of Kerr black holes using the Kosower--Maybee--O&#39;Connell (KMOC) formalism. Our approach is based on on-shell scattering amplitudes and leading singularities, allowing for a direct extraction of classical observables from quantum amplitudes.",
+          "summary": "We compute the next-to-leading order angular impulse (spin kick) for Kerr black hole scattering using the KMOC formalism and leading singularities, deriving compact expressions valid to all orders in spin and extracting the corresponding non-relativistic gravitational potential from triangle leading singularities.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -139,7 +345,7 @@
           "arxiv_id": "2606.23624",
           "url": "https://arxivite.org/abs/2606.23624",
           "categories": "gr-qc, hep-th",
-          "summary": "We study the decay of de Sitter space into black holes whose horizons are dressed by BPS vortices of a $\\mathrm{CP}^1$ action. The process is mediated by a regular Euclidean instanton obtained as a vortex-deformed generalization of the Nariai instanton.",
+          "summary": "We show that de Sitter space can decay into black holes with BPS vortex-deformed horizons via a regular Euclidean instanton generalizing the Nariai solution, with decay rates controlled by a discrete topological charge that organizes a new family of decay channels.",
           "relevance": "black-holes, topological",
           "tags": [
             "black-holes",
@@ -153,7 +359,7 @@
           "arxiv_id": "2606.20730",
           "url": "https://arxivite.org/abs/2606.20730",
           "categories": "gr-qc, hep-th",
-          "summary": "We derive the general cubic action for perturbations about a cosmological background in the quadratic subclass of degenerate higher-order scalar-tensor (DHOST) theories, focusing on scalar-scalar-tensor interactions. We adopt a fully covariant formulation and implement unitary gauge at the level of perturbations.",
+          "summary": "We derive the general cubic action for scalar-scalar-tensor perturbations in the quadratic subclass of DHOST theories using a covariant formulation with unitary gauge, providing the key ingredient for estimating the decay rate of gravitational waves into two scalar excitations.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -166,7 +372,7 @@
           "arxiv_id": "2606.20766",
           "url": "https://arxivite.org/abs/2606.20766",
           "categories": "hep-ph, gr-qc, hep-th",
-          "summary": "In the decay of quantum particles under field theoretic consideration, the decay rate is typically a convolution of the density of modes the primary field is allowed to decay into and the allowed probability density for the field to decay into such modes. In free space, though many such processes show high amplitude of such transitions towards the infrared sector, the depletion of allowed mode density in that regime arrests the efficacy of such decays at low energies.",
+          "summary": "We show that cavity boundary conditions can significantly boost infrared mode support and enhance low-energy decay rates through resonant geometry, offering a controlled-environment substitute for studying QED processes and exotic new physics that would otherwise require high energies.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -179,7 +385,7 @@
           "arxiv_id": "2606.20778",
           "url": "https://arxivite.org/abs/2606.20778",
           "categories": "gr-qc, astro-ph.CO, hep-th",
-          "summary": "We present a pedagogical introduction to the cosmological constant problem that requires only basic knowledge of quantum field theory and general relativity. A massive real scalar field is used to illustrate how the quantum vacuum energy density and pressure can be calculated both in flat spacetime and in an expanding universe.",
+          "summary": "We present a pedagogical review of the cosmological constant problem, using a massive scalar field to illustrate vacuum energy calculations in flat and expanding spacetime with dimensional, cutoff, and adiabatic regularizations, while emphasizing both the large theoretical discrepancy and conceptual challenges related to cosmic expansion.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -192,7 +398,7 @@
           "arxiv_id": "2606.20806",
           "url": "https://arxivite.org/abs/2606.20806",
           "categories": "gr-qc, hep-th",
-          "summary": "This work presents a comprehensive account of a gravitational model based on the gauging of the $\\mathrm{ISIM}(2)$ Lorentz subgroup parameters through the so-called soft algebra formalism. After presenting a closed form for $\\mathfrak{sim}(2)$ and its inhomogeneous extension, we proceed to develop a complete torsionless gravitational model, culminating in an invariant action.",
+          "summary": "We construct a complete torsionless gravitational model by gauging the $\\mathrm{ISIM}(2)$ Lorentz subgroup through the soft algebra formalism, presenting closed-form expressions for $\\mathfrak{sim}(2)$ and its inhomogeneous extension and culminating in an invariant action.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -205,7 +411,7 @@
           "arxiv_id": "2606.20894",
           "url": "https://arxivite.org/abs/2606.20894",
           "categories": "gr-qc, hep-th",
-          "summary": "We investigate a K-essence like cosmological model whose scalar-field potential is constructed from a negative power-law Sáez--Ballester potential. By means of a suitable field redefinition from $\\phi$ to $\\varphi$, we show that the resulting field equations acquire a mathematical structure analogous to that of a previously solved Friedmann-Lemaître-Robertson-Walker (FLRW) cosmological model.",
+          "summary": "By a field redefinition mapping the equations to a previously solved FLRW structure, we obtain exact classical and Wheeler-DeWitt quantum solutions for a K-essence model with a negative power-law Sáez--Ballester potential, showing late-time accelerated expansion approaching a de Sitter phase.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -12489,32 +12695,32 @@
     }
   ],
   "stats": {
-    "total_digests": 93,
-    "total_entries": 852,
+    "total_digests": 94,
+    "total_entries": 867,
     "unique_tags": {
+      "black-holes": {
+        "first_seen": "2026-06-25",
+        "count": 109
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-06-25",
+        "count": 42
+      },
+      "physics": {
+        "first_seen": "2026-06-25",
+        "count": 44
+      },
+      "topological": {
+        "first_seen": "2026-06-25",
+        "count": 20
+      },
       "entanglement": {
         "first_seen": "2026-06-24",
         "count": 41
       },
-      "black-holes": {
-        "first_seen": "2026-06-24",
-        "count": 101
-      },
       "holography": {
         "first_seen": "2026-06-24",
         "count": 29
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-06-24",
-        "count": 41
-      },
-      "topological": {
-        "first_seen": "2026-06-24",
-        "count": 19
-      },
-      "physics": {
-        "first_seen": "2026-06-24",
-        "count": 38
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-06-24",
@@ -15694,12 +15900,12 @@
       }
     },
     "tag_counts": {
+      "black-holes": 109,
+      "quantum-gravity": 42,
+      "physics": 44,
+      "topological": 20,
       "entanglement": 41,
-      "black-holes": 101,
       "holography": 29,
-      "quantum-gravity": 41,
-      "topological": 19,
-      "physics": 38,
       "Quantum Information & Computing": 66,
       "Quantum Gravity": 25,
       "Black Hole Physics": 14,
@@ -16497,6 +16703,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-06-25",
         "2026-06-24",
         "2026-06-23",
         "2026-06-20",
