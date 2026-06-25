@@ -181,14 +181,15 @@ function main() {
   const entries = parseLog(content);
   
   if (entries.length === 0) {
-    console.log('No entries found in log file');
-    return;
+    console.log('No entries found in log file, creating empty digest');
   }
 
   const date = getTodayDate();
-  const digest = generateDigest(date, entries);
   const fileName = `${date}.md`;
   const filePath = path.join(MOLTBOOK_DIR, fileName);
+  
+  // Remove early return - always create digest even with 0 entries
+  console.log(`Generating digest: ${fileName} (${entries.length} entries)`);
   
   fs.mkdirSync(MOLTBOOK_DIR, { recursive: true });
   fs.writeFileSync(filePath, digest);
