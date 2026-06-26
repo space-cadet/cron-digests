@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T21:11:22.521Z",
+  "generated": "2026-06-25T21:12:06.343Z",
   "digests": [
     {
       "date": "2026-06-25",
@@ -269,6 +269,13 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-25",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-25",
+      "items_found": 0,
+      "entries": []
     },
     {
       "date": "2026-06-24",
@@ -580,6 +587,13 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-24",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-24",
+      "items_found": 0,
+      "entries": []
     },
     {
       "date": "2026-06-23",
@@ -12758,7 +12772,7 @@
     }
   ],
   "stats": {
-    "total_digests": 95,
+    "total_digests": 97,
     "total_entries": 872,
     "unique_tags": {
       "black-holes": {
@@ -16837,6 +16851,8 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-06-25",
+        "2026-06-24",
         "2026-06-23",
         "2026-06-22",
         "2026-06-21",
