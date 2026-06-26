@@ -5,7 +5,7 @@
  * Creates fresh memory_bank.db with Phase A schema for T21 workflow testing
  */
 
-import Database from 'better-sqlite3';
+import * as sqlite from './lib/sqlite.js';
 import { readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -13,7 +13,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-function initializeDatabase() {
+async function initializeDatabase() {
   const dbPath = join(__dirname, 'memory_bank.db');
   const schemaPath = join(__dirname, 'schema.sql');
 
@@ -21,53 +21,29 @@ function initializeDatabase() {
     console.log('\n🔄 Initializing Phase A Database...\n');
 
     // Create database
-    const db = new Database(dbPath);
+    await sqlite.initSqlJsModule();
+    await sqlite.openDb(dbPath);
     console.log('✅ Database file created:', dbPath);
 
-    // Read and execute schema
+    // Read and execute schema as single block (preserve index statements)
     const schema = readFileSync(schemaPath, 'utf-8');
-    const statements = schema
-      .split(';')
-      .map(s => s.trim())
-      .filter(s => s.length > 0 && !s.startsWith('--'));
-
-    let tableCount = 0;
-    let indexCount = 0;
-
-    for (const statement of statements) {
-      try {
-        db.exec(statement);
-        
-        if (statement.toUpperCase().startsWith('CREATE TABLE')) {
-          tableCount++;
-          const tableName = statement.match(/CREATE TABLE (\w+)/i)?.[1] || 'unknown';
-          console.log(`  📋 Created table: ${tableName}`);
-        } else if (statement.toUpperCase().startsWith('CREATE INDEX')) {
-          indexCount++;
-          const indexName = statement.match(/CREATE INDEX (\w+)/i)?.[1] || 'unknown';
-          console.log(`  🔑 Created index: ${indexName}`);
-        }
-      } catch (err) {
-        console.error(`❌ Error executing statement:\n${statement}\n${err.message}`);
-        throw err;
-      }
-    }
+    await sqlite.exec(schema);
 
     // Verify schema
     console.log('\n✅ Schema verification:\n');
 
-    const tables = db.prepare("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name").all();
+    const tables = sqlite.prepare("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name").all();
     console.log(`  📊 Tables created: ${tables.length}`);
     tables.forEach(t => console.log(`    - ${t.name}`));
 
-    const indexes = db.prepare("SELECT name FROM sqlite_master WHERE type='index' ORDER BY name").all();
+    const indexes = sqlite.prepare("SELECT name FROM sqlite_master WHERE type='index' ORDER BY name").all();
     console.log(`\n  🔑 Indexes created: ${indexes.length}`);
     indexes.forEach(idx => console.log(`    - ${idx.name}`));
 
     // Show table schemas
     console.log('\n📋 Table Schemas:\n');
     tables.forEach(t => {
-      const schema = db.prepare('PRAGMA table_info(' + t.name + ')').all();
+      const schema = sqlite.prepare('PRAGMA table_info(' + t.name + ')').all();
       console.log(`  ${t.name}:`);
       schema.forEach(col => {
         const notNull = col.notnull ? ' NOT NULL' : '';
@@ -76,7 +52,7 @@ function initializeDatabase() {
       });
     });
 
-    db.close();
+    await sqlite.closeDb();
 
     console.log('\n✅ Phase A Database initialized successfully!\n');
     console.log('📁 Database location:', dbPath);
@@ -90,4 +66,4 @@ function initializeDatabase() {
   }
 }
 
-initializeDatabase();
+await initializeDatabase();
