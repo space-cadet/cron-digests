@@ -1,6 +1,221 @@
 {
-  "generated": "2026-06-25T21:12:06.343Z",
+  "generated": "2026-06-26T01:41:47.995Z",
   "digests": [
+    {
+      "date": "2026-06-26",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-06-26",
+      "categories": "astro-ph.CO, cond-mat.mes-hall, gr-qc, hep-ph, hep-th, math-ph, math.DG, math.OA, quant-ph",
+      "items_found": 15,
+      "focus": "black hole, holograph, string theory, topological, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Obstructions to Minimal Regular Black Hole Cosmologies",
+          "authors": "Damien A. Easson",
+          "arxiv_id": "2606.25023",
+          "url": "https://arxivite.org/abs/2606.25023",
+          "categories": "hep-th, gr-qc",
+          "summary": "We derive an obstruction to FRW daughter cosmologies from static, asymptotically flat regular black holes. The trapped region of such a parent is Kantowski--Sachs rather than FRW, so the daughter must be introduced as a separate matched region.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Removing Ostrogradsky modes in multi-field higher-order scalar-tensor theories",
+          "authors": "Hamed Bouzari Nezhad",
+          "arxiv_id": "2606.23734",
+          "url": "https://arxivite.org/abs/2606.23734",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study multi-field higher-order scalar-tensor theories and examine how the unwanted Ostrogradsky modes can be removed. For a general class of theories with an arbitrary number $\\mathcal{N}$ of scalar fields and quadratic dependence on their second derivatives, we perform an ADM decomposition and develop the Hamiltonian analysis in the branch where the metric kinetic block is invertible.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Late-Time Oscillating Quintessence in Light of DESI",
+          "authors": "Jun-Qian Jiang, Mustafa A. Amin, Arman Shafieloo",
+          "arxiv_id": "2606.24221",
+          "url": "https://arxivite.org/abs/2606.24221",
+          "categories": "hep-th, gr-qc, astro-ph.CO",
+          "summary": "Recent DESI baryon acoustic oscillation measurements, especially when combined with Type Ia supernova and CMB data, sharpen the case for possible low-redshift dynamics in the dark energy sector. We study a simple and physically transparent realization of such dynamics: a quintessence field that is Hubble frozen for most of cosmic history and starts to oscillate around its minimum recently (at a redshift $z\\approx 0.1$).",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "On Chen-Teo geometries with cosmological constant",
+          "authors": "Bernardo Araneda",
+          "arxiv_id": "2606.24761",
+          "url": "https://arxivite.org/abs/2606.24761",
+          "categories": "math.DG, hep-th, gr-qc",
+          "summary": "The Chen-Teo geometry is a Riemannian, Ricci-flat ALF 4-manifold, containing an AF gravitational instanton that gives the first counterexample to the Euclidean black hole uniqueness conjecture. We investigate the problem of constructing an Einstein analogue with a non-zero cosmological constant $\\lambda$.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Radial Mirror Scattering and the QNM Convergence Region",
+          "authors": "Alex Kehagias, Antonio Riotto",
+          "arxiv_id": "2606.24812",
+          "url": "https://arxivite.org/abs/2606.24812",
+          "categories": "hep-th, gr-qc, hep-ph",
+          "summary": "We revisit the convergence region of the quasinormal modes expansion of Schwarzschild retarded Green functions from a radial scattering viewpoint. The tortoise coordinate admits a natural reflection about a distinguished point, which maps the original Regge-Wheeler problem to a mirror radial problem with the same quasinormal mode spectrum.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "The Topology of the Universe",
+          "authors": "Craig J. Copi, Deyan P. Mihaylov, Anna Negro et al.",
+          "arxiv_id": "2606.24886",
+          "url": "https://arxivite.org/abs/2606.24886",
+          "categories": "hep-th, gr-qc, astro-ph.CO",
+          "summary": "Is the Universe infinite in all directions? The only way to know is to look.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Excitability of Gaussian states with VEVs",
+          "authors": "Jacqueline Caminiti, Federico Capeccia, Jonathan Sorce",
+          "arxiv_id": "2606.23779",
+          "url": "https://arxivite.org/abs/2606.23779",
+          "categories": "hep-th, math.OA, math-ph, gr-qc",
+          "summary": "In arXiv:2604.19861, we gave general criteria for when one zero-mean Gaussian state can be excited out of another in a (generalized) free field theory. Here we extend this analysis to the case of nonzero mean, i.e., to Gaussian states with vacuum expectation values (VEVs).",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Equivariant Interpolations in Topological Holography",
+          "authors": "Jan Troost",
+          "arxiv_id": "2606.24272",
+          "url": "https://arxivite.org/abs/2606.24272",
+          "categories": "hep-th",
+          "summary": "We revisit equivariant Gromov-Witten theories on P1 and on P1 x C2. One can introduce three equivariant parameters associated to rotations of the sphere as well as the two planes.",
+          "relevance": "topological, holography, string-theory",
+          "tags": [
+            "topological",
+            "holography",
+            "string-theory"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Cosmological gravitational particle production in multifield inflation",
+          "authors": "Edward W. Kolb, Sarunas Verner, Jingyuan Wang",
+          "arxiv_id": "2606.25015",
+          "url": "https://arxivite.org/abs/2606.25015",
+          "categories": "hep-th, astro-ph.CO, gr-qc, hep-ph",
+          "summary": "We study cosmological gravitational particle production (CGPP) of dark matter in two-field inflationary backgrounds with both flat and curved field-space geometries. As a concrete realization of broader multifield mechanisms, we adopt a Starobinsky+quadratic potential and construct benchmark scenarios that interpolate between the flat field-space limit and the sidetracked attractor on a hyperbolic field space, and we compute the production spectrum of a gravitationally coupled spectator scalar for both minimal ($\\xi = 0$) and conformal ($\\xi = 1/6$) coupling to the Ricci scalar.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Diffeomorphic Scalar Duality",
+          "authors": "Claudia de Rham, Andrew J. Tolley",
+          "arxiv_id": "2606.25154",
+          "url": "https://arxivite.org/abs/2606.25154",
+          "categories": "hep-th, gr-qc",
+          "summary": "We show that every local scalar effective field theory admits a new kind of duality to an infinite class of local scalar field theories with distinct Lagrangians. The duality map takes the form of a field-dependent diffeomorphism, and cannot be obtained via purely local field redefinitions, nevertheless the dual theory has an identical $S$-matrix.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Holonomies and Boundary Symmetries in the Discrete BF Formulation of Carroll Dilaton Gravity",
+          "authors": "H.T.Özer, Aytül Filiz",
+          "arxiv_id": "2606.25499",
+          "url": "https://arxivite.org/abs/2606.25499",
+          "categories": "hep-th, math-ph, gr-qc",
+          "summary": "We construct a discrete realization of two-dimensional Carroll dilaton gravity based on a BF-type gauge structure with holonomy variables on lattice links. The bulk theory remains topological, while the physical dynamics is encoded in boundary degrees of freedom.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Long-lasting Topological Entanglement in a Monitored Rashba Nanowire",
+          "authors": "Emanuele Guida, Giulia Salatino, Gianluca Passarelli et al.",
+          "arxiv_id": "2606.25653",
+          "url": "https://arxivite.org/abs/2606.25653",
+          "categories": "cond-mat.mes-hall, quant-ph",
+          "summary": "We study the topological properties of a monitored Rashba chain along quantum-jump trajectories, investigating the persistence of the initial topological value of the disconnected entanglement entropy (DEE). We find that the DEE persists in its topological value for a time linear in the system size, even if the dissipation acts on the boundary and affects the topological Majorana modes.",
+          "relevance": "topological, entanglement",
+          "tags": [
+            "topological",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Physical properties of charged black holes from the nonlinear electrodynamics model based on electric potential regularization",
+          "authors": "S. Habib Mazharimousavi",
+          "arxiv_id": "2606.23746",
+          "url": "https://arxivite.org/abs/2606.23746",
+          "categories": "gr-qc",
+          "summary": "We investigate static, spherically symmetric black hole solutions arising from Einstein gravity minimally coupled to a nonlinear electrodynamics (NED) model constructed from a regularized electric potential of a point charge. The resulting spacetime is characterized by three parameters, namely, the ADM mass $% M $, the electric charge $Q$, and the nonlinear scale $r_{0}$.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "EGUP effects on the thermodynamic properties of the Kerr-Newman black hole surrounded by quintessence",
+          "authors": "Aheibam Boycha Meitei, Yenshembam Priyobarta Singh, T. Ibungochouba Singh et al.",
+          "arxiv_id": "2606.23756",
+          "url": "https://arxivite.org/abs/2606.23756",
+          "categories": "gr-qc, hep-ph",
+          "summary": "In this paper, we investigate the effects of the Extended Generalized Uncertainty Principle (EGUP) on the thermodynamic quantities of the Kerr-Newman black hole surrounded by quintessence (KNBHQ). Additionally, we conduct a comparative analysis of the outcomes derived from the Generalized Uncertainty Principle (GUP) and the Extended Uncertainty Principle (EUP).",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Nonrotating and rotating black holes with secondary disformal hair in a ghost-free metric-affine parity-violating scalar-torsion theory",
+          "authors": "E. Brito, G. Macedo, J. R. Nascimento et al.",
+          "arxiv_id": "2606.24041",
+          "url": "https://arxivite.org/abs/2606.24041",
+          "categories": "gr-qc",
+          "summary": "In this paper, we formulate a ghost-free metric-affine scalar-torsion model in which a pseudoscalar field is coupled to the Nieh--Yan density and derivatively coupled to the Einstein-Palatini tensor. The theory is projectively invariant and, in the shift-symmetric sector, depends on the scalar only through its gradient.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-26",
+      "items_found": 0,
+      "entries": []
+    },
     {
       "date": "2026-06-25",
       "type": "arxiv",
@@ -12772,24 +12987,36 @@
     }
   ],
   "stats": {
-    "total_digests": 97,
-    "total_entries": 872,
+    "total_digests": 99,
+    "total_entries": 887,
     "unique_tags": {
       "black-holes": {
-        "first_seen": "2026-06-25",
-        "count": 109
+        "first_seen": "2026-06-26",
+        "count": 114
+      },
+      "physics": {
+        "first_seen": "2026-06-26",
+        "count": 51
+      },
+      "topological": {
+        "first_seen": "2026-06-26",
+        "count": 23
+      },
+      "holography": {
+        "first_seen": "2026-06-26",
+        "count": 30
+      },
+      "string-theory": {
+        "first_seen": "2026-06-26",
+        "count": 4
+      },
+      "entanglement": {
+        "first_seen": "2026-06-26",
+        "count": 42
       },
       "quantum-gravity": {
         "first_seen": "2026-06-25",
         "count": 42
-      },
-      "physics": {
-        "first_seen": "2026-06-25",
-        "count": 44
-      },
-      "topological": {
-        "first_seen": "2026-06-25",
-        "count": 20
       },
       "Experiment & Observation": {
         "first_seen": "2026-06-25",
@@ -12798,14 +13025,6 @@
       "Science Communication & Policy": {
         "first_seen": "2026-06-25",
         "count": 83
-      },
-      "entanglement": {
-        "first_seen": "2026-06-24",
-        "count": 41
-      },
-      "holography": {
-        "first_seen": "2026-06-24",
-        "count": 29
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-06-24",
@@ -12869,10 +13088,6 @@
       },
       "arxiv": {
         "first_seen": "2026-06-14",
-        "count": 3
-      },
-      "string-theory": {
-        "first_seen": "2026-06-12",
         "count": 3
       },
       "Black-Hole-Thermodynamics": {
@@ -15977,14 +16192,15 @@
       }
     },
     "tag_counts": {
-      "black-holes": 109,
+      "black-holes": 114,
+      "physics": 51,
+      "topological": 23,
+      "holography": 30,
+      "string-theory": 4,
+      "entanglement": 42,
       "quantum-gravity": 42,
-      "physics": 44,
-      "topological": 20,
       "Experiment & Observation": 36,
       "Science Communication & Policy": 83,
-      "entanglement": 41,
-      "holography": 29,
       "Quantum Information & Computing": 66,
       "Quantum Gravity": 25,
       "Black Hole Physics": 14,
@@ -16001,7 +16217,6 @@
       "quantum-cosmology": 6,
       "Technology & Engineering": 39,
       "arxiv": 3,
-      "string-theory": 3,
       "Black-Hole-Thermodynamics": 3,
       "Hawking-Radiation": 1,
       "Regular-Black-Holes": 1,
@@ -16780,6 +16995,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-06-26",
         "2026-06-25",
         "2026-06-24",
         "2026-06-23",
@@ -16813,6 +17029,39 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-21",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ],
       "web-science": [
         "2026-06-25",
@@ -16849,38 +17098,6 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
-      ],
-      "moltbook": [
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-21",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
       ]
     }
   }
