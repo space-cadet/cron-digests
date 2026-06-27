@@ -1,6 +1,221 @@
 {
-  "generated": "2026-06-26T04:49:43.843Z",
+  "generated": "2026-06-27T01:41:43.621Z",
   "digests": [
+    {
+      "date": "2026-06-27",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-06-27",
+      "categories": "astro-ph.CO, astro-ph.GA, astro-ph.HE, gr-qc, hep-ph, hep-th, quant-ph",
+      "items_found": 15,
+      "focus": "black hole, holograph, string theory, topological, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Bipartite entanglement of the primordial Majorana during inflation",
+          "authors": "Ai-chen Li, Han-Qing Shi, Keyun Wu",
+          "arxiv_id": "2606.26869",
+          "url": "https://arxivite.org/abs/2606.26869",
+          "categories": "gr-qc, hep-th, quant-ph",
+          "summary": "We use a primordial Majorana field as a fermionic probe of quantum correlations during inflation. Working in a torsion-free FLRW spacetime, we derive the two-component Majorana mode equations in an axion-inflation background and construct the corresponding quadratic Hamiltonian in the paired momentum basis.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Observable strong field effects of extra spacetime dimension in the braneworld black hole",
+          "authors": "K. K. Nandi, R. N. Izmailov, R. Kh. Karimov et al.",
+          "arxiv_id": "2606.26152",
+          "url": "https://arxivite.org/abs/2606.26152",
+          "categories": "gr-qc, hep-th, astro-ph.HE",
+          "summary": "Inspired by the string theory, the braneworld picture introduces extra dimensions beyond the four that may have observable non-trivial effects in short distance (strong field) gravity experiments. A case in point is the Randall-Sundrum braneworld picture that projects the $5d$ bulk Weyl tensor onto the $3d$ brane providing a stress tensor in the effective Einstein field equations on the brane.",
+          "relevance": "black-holes, string-theory",
+          "tags": [
+            "black-holes",
+            "string-theory"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Images of Braneworld black holes with radiatively inefficient accretion flows",
+          "authors": "Chengjia Chen, Yin Hao, Zelin Zhang et al.",
+          "arxiv_id": "2606.26166",
+          "url": "https://arxivite.org/abs/2606.26166",
+          "categories": "gr-qc, hep-th, astro-ph.HE",
+          "summary": "Horizon-scale imaging acts as a transformative tool for probing spacetime geometry, enabling stringent tests of gravitational theories in the strong-field regime. The Casadio-Fabbri-Mazzacurati(CFM) black hole in braneworld contains an extra parameter that characterizes the tidal effects from the bulk geometry, making it highly valuable for this task.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Electrically Charged Distorted Black Holes: Thermodynamics, Particle Dynamics, and Quasinormal Signatures",
+          "authors": "Gamal G.L. Nashed, Salvatore Capozziello",
+          "arxiv_id": "2606.26174",
+          "url": "https://arxivite.org/abs/2606.26174",
+          "categories": "gr-qc, hep-th, astro-ph.HE",
+          "summary": "We construct an exact solution for the electrically charged extension of a distorted black hole spacetime within Einstein-Maxwell theory using the Harrison transformation. The resulting solution represents a charged deformation of a static distorted vacuum geometry in which the electromagnetic field is introduced through a nonlinear transformation preserving the radial structure of the seed spacetime.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Extended Thermodynamics and Throttling Process of Charged AdS Black Holes in ModMax-dRGT Massive Gravity with Sharma-Mittal Entropy",
+          "authors": "Naba Jyoti Gogoi, Hassan Hassanabadi, Himasri Pinapothu et al.",
+          "arxiv_id": "2606.26210",
+          "url": "https://arxivite.org/abs/2606.26210",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate the extended thermodynamics, including the Joule-Thomson expansion and $P-V$ criticality, of a four-dimensional charged anti-de Sitter (AdS) black hole within the combined framework of ModMax nonlinear electrodynamics and dRGT-like massive gravity. Operating in the extended phase space and employing the generalised Sharma-Mittal entropy to account for non-extensive statistical correlations, we derive exact analytical expressions for the modified Hawking temperature, specific heat, Joule-Thomson coefficient, and the equation of state.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Effect of the magnetic monopole charge on Dirac entanglement and Bell non-locality in Hayward spacetime",
+          "authors": "Abdessamie Chhieb, Mohamed Ouchrif",
+          "arxiv_id": "2606.26372",
+          "url": "https://arxivite.org/abs/2606.26372",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate bipartite quantum correlations of Dirac fields in the spacetime of a Hayward regular black hole. Using the Wootters concurrence and the CHSH Bell parameter, we analyze the influence of Hawking radiation on an entangled state shared by an inertial observer and a near-horizon observer.",
+          "relevance": "black-holes, entanglement",
+          "tags": [
+            "black-holes",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Endpoint Control of Thermodynamic Topological Classes for Fixed Charge \\texorpdfstring{$d$}{d}-dimensional Reissner--Nordström Black Holes in a Cavity",
+          "authors": "Rongrong Zhai",
+          "arxiv_id": "2606.27236",
+          "url": "https://arxivite.org/abs/2606.27236",
+          "categories": "gr-qc",
+          "summary": "We study thermodynamic topological classes of $d$-dimensional Reissner--Nordström (RN) black holes in a cavity at fixed charge. Starting from the reduced Euclidean action, we use the quasilocal energy, entropy, and on-shell inverse temperature to construct the off-shell vector field.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Thermodynamics of thin-shell wormholes",
+          "authors": "Francisco S. N. Lobo, Manuel E. Rodrigues",
+          "arxiv_id": "2606.26370",
+          "url": "https://arxivite.org/abs/2606.26370",
+          "categories": "gr-qc, hep-th, astro-ph.HE",
+          "summary": "We develop a unified thermodynamic description of dynamic thin-shell wormholes, starting from the transparent (vacuum bulk) case and then relaxing the transparency condition to include bulk matter crossing the throat. For isolated shells, we show that the entropy is conserved under transparent evolution, $TdS=0$, which holds for arbitrary dynamical motion of the throat within the assumptions of the thin-shell formalism.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Conservation law of super-Lorentz charges",
+          "authors": "Geoffrey Compère, Sébastien Robert",
+          "arxiv_id": "2606.26848",
+          "url": "https://arxivite.org/abs/2606.26848",
+          "categories": "gr-qc, hep-th",
+          "summary": "Under assumptions compatible with generic gravitational scattering, the vacuum relativistic gravitational field is entirely determined at leading order in the large radius expansion at spatial infinity by its supermomentum, its dual supermomentum and its global supertranslation frame. At subleading order, the gravitational field is determined by three additional sets of charges: the super-Lorentz charges, the leading tail charges and the leading peeling-breaking charges.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "HALO II: Constraining Hubble constant $H_{0}$ through continuum delay fitting of Fairall 9",
+          "authors": "Amit Kumar Mandal, Francisco Pozo Nuñez, Vikram Kumar Jaiswal et al.",
+          "arxiv_id": "2606.27195",
+          "url": "https://arxivite.org/abs/2606.27195",
+          "categories": "gr-qc, hep-ph, astro-ph.GA, hep-th, astro-ph.CO",
+          "summary": "The Hubble tension remains one of the most significant unresolved problems in modern cosmology. A key question is whether it may arise from underestimated systematic uncertainties in the different measurement techniques.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Conserved charges and $L_\\infty$ algebras",
+          "authors": "Vinícius Bernardes, Theodore Erler, Atakan Hilmi Fırat",
+          "arxiv_id": "2606.26224",
+          "url": "https://arxivite.org/abs/2606.26224",
+          "categories": "gr-qc, hep-th",
+          "summary": "We give a formula for conserved charges in an arbitrary Lagrangian field theory expressed in the framework of $L_\\infty$ algebras. The formula is expressed in terms of the theory&#39;s $L_\\infty$ data alone, without reference to the derivative structure of the Lagrangian.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "An observer&#39;s quantization of 3d de Sitter",
+          "authors": "Andreas Blommaert, Damiano Tietto, Herman Verlinde",
+          "arxiv_id": "2606.26241",
+          "url": "https://arxivite.org/abs/2606.26241",
+          "categories": "gr-qc, hep-th",
+          "summary": "What is the density of states of the de Sitter static patch? We propose a definition and calculation of such a density in 3d dS.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Index saddle for the D1-D5-P black string and its decoupling limit",
+          "authors": "Kanhu Kishore Nanda, P Shanmugapriya, Amitabh Virmani",
+          "arxiv_id": "2606.27093",
+          "url": "https://arxivite.org/abs/2606.27093",
+          "categories": "gr-qc, hep-th",
+          "summary": "Boruch, Emparan, Iliesiu, and Murthy recently discussed index saddles for 5d black strings, showing that the black string saddle admits a decoupling limit to a complex, finite-temperature BTZ \\times S^2 saddle that computes the index of the dual CFT. In this paper, we pursue an analogous construction for the D1-D5-P black string.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Universal Lichnerowicz Lifting of Near-Horizon Soft Modes",
+          "authors": "Peng Cheng, Yu-Qi Liu",
+          "arxiv_id": "2606.27308",
+          "url": "https://arxivite.org/abs/2606.27308",
+          "categories": "gr-qc, hep-th",
+          "summary": "A remarkable universality appears in the low-temperature quantum thermodynamics of near-extremal black holes, where distinct parent geometries often lead to the same logarithmic temperature dependence at one loop. In this work, we study the Lichnerowicz spectral origin of this infrared universality and understand why the relevant spectral data become insensitive to the details of the parent geometry.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Laplace Space for Cosmological Correlators",
+          "authors": "Nathan Belrhali, Arthur Poisson, Sébastien Renaux-Petel",
+          "arxiv_id": "2606.27309",
+          "url": "https://arxivite.org/abs/2606.27309",
+          "categories": "gr-qc, hep-th, astro-ph.CO",
+          "summary": "Deep inside the horizon, every cosmological mode oscillates as a flat-space plane wave. A Laplace transform turns this fact into a general method: it resolves each curved-space mode into a superposition of plane waves dressed by a kernel that encodes the spacetime geometry, field content and dynamics, collapsing the time integrals onto flat-space ones.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-27",
+      "items_found": 0,
+      "entries": []
+    },
     {
       "date": "2026-06-26",
       "type": "arxiv",
@@ -13028,32 +13243,32 @@
     }
   ],
   "stats": {
-    "total_digests": 100,
-    "total_entries": 890,
+    "total_digests": 102,
+    "total_entries": 905,
     "unique_tags": {
+      "entanglement": {
+        "first_seen": "2026-06-27",
+        "count": 44
+      },
       "black-holes": {
-        "first_seen": "2026-06-26",
-        "count": 114
-      },
-      "physics": {
-        "first_seen": "2026-06-26",
-        "count": 51
-      },
-      "topological": {
-        "first_seen": "2026-06-26",
-        "count": 23
-      },
-      "holography": {
-        "first_seen": "2026-06-26",
-        "count": 30
+        "first_seen": "2026-06-27",
+        "count": 122
       },
       "string-theory": {
-        "first_seen": "2026-06-26",
-        "count": 4
+        "first_seen": "2026-06-27",
+        "count": 5
       },
-      "entanglement": {
-        "first_seen": "2026-06-26",
-        "count": 42
+      "topological": {
+        "first_seen": "2026-06-27",
+        "count": 24
+      },
+      "physics": {
+        "first_seen": "2026-06-27",
+        "count": 56
+      },
+      "holography": {
+        "first_seen": "2026-06-27",
+        "count": 31
       },
       "Science Communication & Policy": {
         "first_seen": "2026-06-26",
@@ -16233,12 +16448,12 @@
       }
     },
     "tag_counts": {
-      "black-holes": 114,
-      "physics": 51,
-      "topological": 23,
-      "holography": 30,
-      "string-theory": 4,
-      "entanglement": 42,
+      "entanglement": 44,
+      "black-holes": 122,
+      "string-theory": 5,
+      "topological": 24,
+      "physics": 56,
+      "holography": 31,
       "Science Communication & Policy": 86,
       "quantum-gravity": 42,
       "Experiment & Observation": 36,
@@ -17036,6 +17251,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-06-27",
         "2026-06-26",
         "2026-06-25",
         "2026-06-24",
@@ -17070,6 +17286,40 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-21",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ],
       "web-science": [
         "2026-06-26",
@@ -17107,39 +17357,6 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
-      ],
-      "moltbook": [
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-21",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
       ]
     }
   }
