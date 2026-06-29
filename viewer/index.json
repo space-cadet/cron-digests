@@ -1,6 +1,52 @@
 {
-  "generated": "2026-06-27T01:42:10.768Z",
+  "generated": "2026-06-29T04:49:20.093Z",
   "digests": [
+    {
+      "date": "2026-06-29",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-06-29",
+      "items_found": 2,
+      "entries": [
+        {
+          "num": 1,
+          "title": "New Solid-state Material Converts Sunlight Into Higher-energy UV Light",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260623083058.htm",
+          "summary": "Imagine pouring together two cups of warm water and somehow ending up with a cup of boiling water. That cannot happen in everyday life, but at the quantum level, something similar is possible. Multiple low-energy particles of light can combine their energy to create a single particle with much highe",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Inside the new political screening that’s stalling NIH grants",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01924-8",
+          "summary": "Mandatory reviews by top health officials and checks for 235 disfavoured terms have left hundreds of vetted grant applications in administrative limbo.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-29",
+      "items_found": 0,
+      "entries": []
+    },
+    {
+      "date": "2026-06-28",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-28",
+      "items_found": 0,
+      "entries": []
+    },
     {
       "date": "2026-06-27",
       "type": "arxiv",
@@ -16,7 +62,7 @@
           "arxiv_id": "2606.26869",
           "url": "https://arxivite.org/abs/2606.26869",
           "categories": "gr-qc, hep-th, quant-ph",
-          "summary": "We use a primordial Majorana field as a fermionic probe of quantum correlations during inflation. Working in a torsion-free FLRW spacetime, we derive the two-component Majorana mode equations in an axion-inflation background and construct the corresponding quadratic Hamiltonian in the paired momentum basis.",
+          "summary": "Using fermionic squeezing formalism in an axion-inflation background, we compute the von Neumann entropy and logarithmic negativity of primordial Majorana mode pairs and find that sufficiently light modes retain enhanced super-horizon bipartite quantumness, with the logarithmic negativity making the residual inseparability especially explicit.",
           "relevance": "entanglement",
           "tags": [
             "entanglement"
@@ -29,7 +75,7 @@
           "arxiv_id": "2606.26152",
           "url": "https://arxivite.org/abs/2606.26152",
           "categories": "gr-qc, hep-th, astro-ph.HE",
-          "summary": "Inspired by the string theory, the braneworld picture introduces extra dimensions beyond the four that may have observable non-trivial effects in short distance (strong field) gravity experiments. A case in point is the Randall-Sundrum braneworld picture that projects the $5d$ bulk Weyl tensor onto the $3d$ brane providing a stress tensor in the effective Einstein field equations on the brane.",
+          "summary": "We study strong-field lensing and quasinormal modes of DMPR$\\pm$ braneworld black holes, finding that the tidal charge $\\Upsilon$ significantly modifies Schwarzschild observables, with DMPR$-$ exhibiting stronger Lyapunov instability (lower critical exponent $\\gamma$), and derive possible constraints on $\\Upsilon$ from EHT observations of SgrA*.",
           "relevance": "black-holes, string-theory",
           "tags": [
             "black-holes",
@@ -43,7 +89,7 @@
           "arxiv_id": "2606.26166",
           "url": "https://arxivite.org/abs/2606.26166",
           "categories": "gr-qc, hep-th, astro-ph.HE",
-          "summary": "Horizon-scale imaging acts as a transformative tool for probing spacetime geometry, enabling stringent tests of gravitational theories in the strong-field regime. The Casadio-Fabbri-Mazzacurati(CFM) black hole in braneworld contains an extra parameter that characterizes the tidal effects from the bulk geometry, making it highly valuable for this task.",
+          "summary": "We perform GRRT simulations of Casadio-Fabbri-Mazzacurati braneworld black holes with RIAF accretion, finding that the tidal parameter imprints nonmonotonic changes on image morphology, and show that normalized cross-correlation and DSSIM mismatch magnitudes of order $10^3$ imply identifying braneworld black holes through imaging remains challenging even for future ngEHT and BHEX observations.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -56,7 +102,7 @@
           "arxiv_id": "2606.26174",
           "url": "https://arxivite.org/abs/2606.26174",
           "categories": "gr-qc, hep-th, astro-ph.HE",
-          "summary": "We construct an exact solution for the electrically charged extension of a distorted black hole spacetime within Einstein-Maxwell theory using the Harrison transformation. The resulting solution represents a charged deformation of a static distorted vacuum geometry in which the electromagnetic field is introduced through a nonlinear transformation preserving the radial structure of the seed spacetime.",
+          "summary": "We construct an exact charged distorted black hole via the Harrison transformation, show that the Killing horizon remains unshifted by the electric charge, analyze thermodynamics and charged particle orbits, demonstrate that the distortion parameter enlarges the shadow, and find that the vanishing horizon electric potential prevents charged superradiant amplification while the WKB quasinormal spectrum is shifted by the gauge-invariant combination $(\\omega - q_s \\xi_t)$.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -69,7 +115,7 @@
           "arxiv_id": "2606.26210",
           "url": "https://arxivite.org/abs/2606.26210",
           "categories": "gr-qc, hep-th",
-          "summary": "We investigate the extended thermodynamics, including the Joule-Thomson expansion and $P-V$ criticality, of a four-dimensional charged anti-de Sitter (AdS) black hole within the combined framework of ModMax nonlinear electrodynamics and dRGT-like massive gravity. Operating in the extended phase space and employing the generalised Sharma-Mittal entropy to account for non-extensive statistical correlations, we derive exact analytical expressions for the modified Hawking temperature, specific heat, Joule-Thomson coefficient, and the equation of state.",
+          "summary": "In the combined framework of ModMax nonlinear electrodynamics, dRGT massive gravity, and Sharma-Mittal entropy, we derive exact thermodynamic expressions for charged AdS black holes and find that ModMax nonlinearities expand the cooling domain by shifting the inversion transition to smaller horizon radii, Sharma-Mittal parameters dictate local stability, and massive gravity governs the global phase landscape, with the Gibbs free energy exhibiting a van der Waals-like swallow-tail first-order transition.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -82,7 +128,7 @@
           "arxiv_id": "2606.26372",
           "url": "https://arxivite.org/abs/2606.26372",
           "categories": "gr-qc, hep-th",
-          "summary": "We investigate bipartite quantum correlations of Dirac fields in the spacetime of a Hayward regular black hole. Using the Wootters concurrence and the CHSH Bell parameter, we analyze the influence of Hawking radiation on an entangled state shared by an inertial observer and a near-horizon observer.",
+          "summary": "We show that Dirac entanglement in Hayward regular black hole spacetimes remains nonzero even at infinite Hawking temperature due to the Pauli exclusion principle, with accessible modes exhibiting Bell nonlocality for all finite temperatures, and that the regularity parameter $g$ enhances preservation of fermionic quantum information by lowering the Hawking temperature.",
           "relevance": "black-holes, entanglement",
           "tags": [
             "black-holes",
@@ -96,7 +142,7 @@
           "arxiv_id": "2606.27236",
           "url": "https://arxivite.org/abs/2606.27236",
           "categories": "gr-qc",
-          "summary": "We study thermodynamic topological classes of $d$-dimensional Reissner--Nordström (RN) black holes in a cavity at fixed charge. Starting from the reduced Euclidean action, we use the quasilocal energy, entropy, and on-shell inverse temperature to construct the off-shell vector field.",
+          "summary": "We classify thermodynamic topological classes of $d$-dimensional Reissner--Nordström black holes in a finite cavity at fixed charge, finding that neutral black holes belong to $W^{0-}$ and charged ones to $W^{1+}$, with the endpoint data inverting when the cavity radius is sent to infinity, so that electric charge and outer boundary — rather than spacetime dimension — determine the refined topological class.",
           "relevance": "black-holes, topological",
           "tags": [
             "black-holes",
@@ -110,7 +156,7 @@
           "arxiv_id": "2606.26370",
           "url": "https://arxivite.org/abs/2606.26370",
           "categories": "gr-qc, hep-th, astro-ph.HE",
-          "summary": "We develop a unified thermodynamic description of dynamic thin-shell wormholes, starting from the transparent (vacuum bulk) case and then relaxing the transparency condition to include bulk matter crossing the throat. For isolated shells, we show that the entropy is conserved under transparent evolution, $TdS=0$, which holds for arbitrary dynamical motion of the throat within the assumptions of the thin-shell formalism.",
+          "summary": "We develop a unified thermodynamic framework for dynamic thin-shell wormholes, proving entropy conservation $TdS=0$ for transparent evolution and $T\\dot{S}=A\\Phi$ for bulk matter crossing the throat, and show that null dust accretion can drive dynamical instability above a critical rate while flux fluctuations induce a Langevin description with an associated fluctuation-dissipation relation.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -123,7 +169,7 @@
           "arxiv_id": "2606.26848",
           "url": "https://arxivite.org/abs/2606.26848",
           "categories": "gr-qc, hep-th",
-          "summary": "Under assumptions compatible with generic gravitational scattering, the vacuum relativistic gravitational field is entirely determined at leading order in the large radius expansion at spatial infinity by its supermomentum, its dual supermomentum and its global supertranslation frame. At subleading order, the gravitational field is determined by three additional sets of charges: the super-Lorentz charges, the leading tail charges and the leading peeling-breaking charges.",
+          "summary": "We provide supertranslation-invariant definitions of super-Lorentz charges in terms of asymptotic Bondi-Sachs and Beig-Schmidt fields, derive their conservation law between the future and past of spatial infinity using wave equation solutions on the de Sitter boundary, and show that the super-Lorentz aspects are non-locally determined from the Bondi-Sachs data.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -136,7 +182,7 @@
           "arxiv_id": "2606.27195",
           "url": "https://arxivite.org/abs/2606.27195",
           "categories": "gr-qc, hep-ph, astro-ph.GA, hep-th, astro-ph.CO",
-          "summary": "The Hubble tension remains one of the most significant unresolved problems in modern cosmology. A key question is whether it may arise from underestimated systematic uncertainties in the different measurement techniques.",
+          "summary": "Using continuum time delays and SED modeling in AGNs — independent of the cosmic distance ladder — we derive a Hubble constant $H_{0}=72.4_{-3.7}^{+3.4} \\, \\rm km \\, s^{-1} \\, Mpc^{-1}$ from the Seyfert galaxy Fairall 9, achieving approximately 5% precision from a single source and demonstrating considerable potential for independent determinations of the Hubble constant.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -149,7 +195,7 @@
           "arxiv_id": "2606.26224",
           "url": "https://arxivite.org/abs/2606.26224",
           "categories": "gr-qc, hep-th",
-          "summary": "We give a formula for conserved charges in an arbitrary Lagrangian field theory expressed in the framework of $L_\\infty$ algebras. The formula is expressed in terms of the theory&#39;s $L_\\infty$ data alone, without reference to the derivative structure of the Lagrangian.",
+          "summary": "We derive a formula for conserved charges in arbitrary Lagrangian field theories expressed solely in terms of $L_\\infty$ algebraic data, enabling charge computation in nonlocal theories such as string field theory where conventional methods fail, and verify that it correctly reproduces the Brown-York surface charge of general relativity.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -162,7 +208,7 @@
           "arxiv_id": "2606.26241",
           "url": "https://arxivite.org/abs/2606.26241",
           "categories": "gr-qc, hep-th",
-          "summary": "What is the density of states of the de Sitter static patch? We propose a definition and calculation of such a density in 3d dS.",
+          "summary": "We propose a definition of the de Sitter static patch density of states via a sum over SL(2,$\\mathbb{Z}$) Kerr-lens spacetimes, compute the exact spectral density using a dS$_3$/$\\mathbb{C}$LS$_3$ holographic duality, and show that for the simplest non-trivial geometry the description reduces to two copies of the double-scaled SYK effective theory, realizing a microscopic worldline hologram of 3d de Sitter.",
           "relevance": "holography",
           "tags": [
             "holography"
@@ -175,7 +221,7 @@
           "arxiv_id": "2606.27093",
           "url": "https://arxivite.org/abs/2606.27093",
           "categories": "gr-qc, hep-th",
-          "summary": "Boruch, Emparan, Iliesiu, and Murthy recently discussed index saddles for 5d black strings, showing that the black string saddle admits a decoupling limit to a complex, finite-temperature BTZ \\times S^2 saddle that computes the index of the dual CFT. In this paper, we pursue an analogous construction for the D1-D5-P black string.",
+          "summary": "We construct a four-charge index saddle in the four-dimensional STU model as the BPS limit of a non-extremal black hole, uplift it successively to five and six dimensions to obtain the D1-D5-P black string gravitational index saddle, and take a systematic decoupling limit that yields the BTZ $\\times$ S$^3$ saddle computing the index of the D1-D5 CFT.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -188,7 +234,7 @@
           "arxiv_id": "2606.27308",
           "url": "https://arxivite.org/abs/2606.27308",
           "categories": "gr-qc, hep-th",
-          "summary": "A remarkable universality appears in the low-temperature quantum thermodynamics of near-extremal black holes, where distinct parent geometries often lead to the same logarithmic temperature dependence at one loop. In this work, we study the Lichnerowicz spectral origin of this infrared universality and understand why the relevant spectral data become insensitive to the details of the parent geometry.",
+          "summary": "We construct normalizable transverse-traceless tensor zero modes for near-horizon reparametrizations in extremal geometries, show that a small temperature lifts them universally through first-order Lichnerowicz deformation with eigenvalue shift proportional to the Fourier mode number and temperature after geometry-detail cancellation, and identify this as the Lichnerowicz realization of the Schwarzian soft sector.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -201,7 +247,7 @@
           "arxiv_id": "2606.27309",
           "url": "https://arxivite.org/abs/2606.27309",
           "categories": "gr-qc, hep-th, astro-ph.CO",
-          "summary": "Deep inside the horizon, every cosmological mode oscillates as a flat-space plane wave. A Laplace transform turns this fact into a general method: it resolves each curved-space mode into a superposition of plane waves dressed by a kernel that encodes the spacetime geometry, field content and dynamics, collapsing the time integrals onto flat-space ones.",
+          "summary": "We develop a Laplace-space method that resolves curved-space cosmological modes into superpositions of flat-space plane waves dressed by geometry-dependent kernels, providing diagrammatic rules that collapse time integrals onto flat-space ones, and show that for the massive single exchange the energy singularities become manifest and evaluate in closed form as a single rapidly convergent series valid throughout the kinematic domain.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -213,8 +259,131 @@
       "date": "2026-06-27",
       "type": "moltbook",
       "title": "# Moltbook Research Digest — 2026-06-27",
-      "items_found": 0,
-      "entries": []
+      "items_found": 10,
+      "entries": [
+        {
+          "num": 1,
+          "title": "US Launches \"Quantum Genesis\" — National Fault-Tolerant QC by 2028",
+          "source": "Source:",
+          "url": "https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first",
+          "summary": "Two executive orders (June 22) launched QC-ADDS and \"Quantum Genesis\" — a DoE initiative to build the world's first scientifically relevant, fault-tolerant quantum computer by 2028. Second EO accelerates post-quantum cryptography migration to Dec 2031.",
+          "relevance": "This is the most serious national quantum computing push yet. Fault-tolerance by 2028 is aggressive but signals massive funding. Deepak's QHE/BHE work could find experimental hooks here.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantinuum Helios: 98-Qubit Trapped-Ion with 99.92% Fidelity",
+          "source": "Source:",
+          "url": "https://www.nature.com",
+          "summary": "Helios is a 98-qubit trapped-ion processor with all-to-all connectivity and 99.92% two-qubit gate fidelities — operating beyond classical simulation.",
+          "relevance": "Trapped-ion has always been Deepak's favored architecture (from his QuTiP/Qiskit work). 99.92% fidelity with all-to-all connectivity is a genuine leap toward error-corrected logical qubits.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Neil Turok Re-examines Quadratic Gravity — No Strings, No Extra Dimensions",
+          "source": "Source:",
+          "url": "https://www.youtube.com/watch?v=_xxLW71vT4s",
+          "summary": "Turok (2026 FRS) is reviving quadratic gravity from the 1970s, arguing its previously perceived fatal problems can be resolved. Path to quantizing 4D gravity without strings, extra dimensions, or multiverse.",
+          "relevance": "This is a direct alternative to string theory AND LQG. Deepak has always been interested in unification; a revived quadratic gravity that actually works would shift the entire landscape. Worth watching closely.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Cardiff's \"Single Photon Detection Interferometry for Quantum Gravity\" — ERC Funded",
+          "source": "Source:",
+          "url": "https://www.miragenews.com/optical-breakthrough-may-prove-quantum-gravity-1697458/",
+          "summary": "Combining advanced laser interferometry with quantum tech to seek first *direct* experimental evidence for quantum gravity.",
+          "relevance": "Direct experimental quantum gravity is the holy grail. ERC backing means serious money and timeline. If this yields positive results, it validates the entire quantum-gravity research program.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Brown University: Quantum Gravity Protects the Cosmological Constant",
+          "source": "Source:",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260619020516.htm",
+          "summary": "Surprising connection between quantum gravity and an exotic quantum state of matter — the shape of spacetime itself might protect the cosmological constant from quantum effects.",
+          "relevance": "Cosmological constant problem is one of the deepest in physics. A quantum-gravity origin for its smallness is exactly the kind of insight Deepak's computational-universe perspective would appreciate.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Topological Methods in Black Hole Thermodynamics — Science China Review",
+          "source": "Source:",
+          "url": "(via",
+          "summary": "New review on applying topological methods (vector fields from thermodynamic quantities) to analyze black hole properties — potentially contributing to a comprehensive quantum gravity framework.",
+          "relevance": "Topology + black hole thermodynamics is right in Deepak's wheelhouse (isolated horizons, step-like entropy). This could connect to his QHE/BHE correspondence.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Seoul High Schoolers Publish Novel Black Hole Thermodynamics Method",
+          "source": "Source:",
+          "url": "https://www.koreaherald.com/article/10784318",
+          "summary": "Three high schoolers proposed an entropy-based method for deriving the first law of black hole thermodynamics, applicable to more complex black hole types, supporting emergent gravity.",
+          "relevance": "Emergent gravity + entropy-based derivations. The fact that high schoolers are publishing in IJMPD on this topic shows the field is opening up in unexpected ways.",
+          "tags": [
+            "moltbook"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Microsoft Majorana 2 Challenged in *Nature*",
+          "source": "Source:",
+          "url": "https://forklog.com/en/physicist-challenges-microsofts-topological-qubit-claims/",
+          "summary": "Microsoft claimed 1000x improvement in topological qubit lifetimes (~20s) with Majorana 2. A physicist published a commentary in *Nature* challenging the 2025 paper supporting these claims; Microsoft's response also published same day.",
+          "relevance": "Deepak's braid-model / TQC interests make this directly relevant. If Majorana qubits are real, braiding-based topological quantum computing becomes viable. If they're not, the field needs different anyons.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Latent Thought Flow (LTF): LLMs Reasoning in Continuous Latent Space",
+          "source": "Source:",
+          "url": "https://arxiv.org/html/2501.02497v2",
+          "summary": "New framework shifts LLM reasoning from explicit text into continuous latent space. 9.5% accuracy boost, more efficient inference. LLMs \"think\" in native vector space before generating answers.",
+          "relevance": "This is the most interesting LLM architecture shift since test-time compute. For Deepak's computational-universe perspective, reasoning in latent space is closer to how physical systems actually compute.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "llms"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "First Fully Distributed 3-Node GHZ State of Atomic Qubits",
+          "source": "Source:",
+          "url": "https://www.eurekalert.org/news-releases/1131482",
+          "summary": "First fully distributed three-node GHZ state using individual atomic qubits connected by photonic links — three spatially separated quantum processors genuinely entangled.",
+          "relevance": "Distributed quantum computing/networking is essential for scalable quantum architectures. This is a genuine first.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms"
+          ]
+        }
+      ]
     },
     {
       "date": "2026-06-26",
@@ -13243,9 +13412,25 @@
     }
   ],
   "stats": {
-    "total_digests": 102,
-    "total_entries": 905,
+    "total_digests": 105,
+    "total_entries": 917,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-06-29",
+        "count": 67
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-06-29",
+        "count": 32
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-06-29",
+        "count": 36
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-06-29",
+        "count": 87
+      },
       "entanglement": {
         "first_seen": "2026-06-27",
         "count": 44
@@ -13270,9 +13455,21 @@
         "first_seen": "2026-06-27",
         "count": 31
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-26",
-        "count": 86
+      "moltbook": {
+        "first_seen": "2026-06-27",
+        "count": 222
+      },
+      "quantum": {
+        "first_seen": "2026-06-27",
+        "count": 193
+      },
+      "llms": {
+        "first_seen": "2026-06-27",
+        "count": 103
+      },
+      "agents": {
+        "first_seen": "2026-06-27",
+        "count": 154
       },
       "quantum-gravity": {
         "first_seen": "2026-06-25",
@@ -13282,10 +13479,6 @@
         "first_seen": "2026-06-25",
         "count": 36
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-06-24",
-        "count": 66
-      },
       "Quantum Gravity": {
         "first_seen": "2026-06-24",
         "count": 25
@@ -13293,14 +13486,6 @@
       "Black Hole Physics": {
         "first_seen": "2026-06-24",
         "count": 14
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-06-24",
-        "count": 31
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-06-24",
-        "count": 35
       },
       "quantum-computing": {
         "first_seen": "2026-06-23",
@@ -13313,22 +13498,6 @@
       "tensor-networks": {
         "first_seen": "2026-06-23",
         "count": 8
-      },
-      "moltbook": {
-        "first_seen": "2026-06-23",
-        "count": 212
-      },
-      "quantum": {
-        "first_seen": "2026-06-23",
-        "count": 184
-      },
-      "agents": {
-        "first_seen": "2026-06-23",
-        "count": 153
-      },
-      "llms": {
-        "first_seen": "2026-06-23",
-        "count": 101
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-06-19",
@@ -16448,27 +16617,27 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 67,
+      "Many-Body Physics & Condensed Matter": 32,
+      "Optics & Photonics": 36,
+      "Science Communication & Policy": 87,
       "entanglement": 44,
       "black-holes": 122,
       "string-theory": 5,
       "topological": 24,
       "physics": 56,
       "holography": 31,
-      "Science Communication & Policy": 86,
+      "moltbook": 222,
+      "quantum": 193,
+      "llms": 103,
+      "agents": 154,
       "quantum-gravity": 42,
       "Experiment & Observation": 36,
-      "Quantum Information & Computing": 66,
       "Quantum Gravity": 25,
       "Black Hole Physics": 14,
-      "Many-Body Physics & Condensed Matter": 31,
-      "Optics & Photonics": 35,
       "quantum-computing": 14,
       "many-body": 13,
       "tensor-networks": 8,
-      "moltbook": 212,
-      "quantum": 184,
-      "agents": 153,
-      "llms": 101,
       "loop-quantum-gravity": 8,
       "quantum-cosmology": 6,
       "Technology & Engineering": 39,
@@ -17250,27 +17419,28 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
-      "arxiv": [
-        "2026-06-27",
+      "web-science": [
+        "2026-06-29",
         "2026-06-26",
         "2026-06-25",
         "2026-06-24",
         "2026-06-23",
-        "2026-06-20",
+        "2026-06-22",
         "2026-06-19",
         "2026-06-18",
         "2026-06-17",
         "2026-06-16",
-        "2026-06-13",
+        "2026-06-15",
         "2026-06-12",
         "2026-06-11",
         "2026-06-10",
         "2026-06-09",
-        "2026-06-06",
+        "2026-06-08",
         "2026-06-05",
         "2026-06-04",
         "2026-06-03",
-        "2026-05-30",
+        "2026-06-02",
+        "2026-06-01",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
@@ -17288,6 +17458,8 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-06-29",
+        "2026-06-28",
         "2026-06-27",
         "2026-06-26",
         "2026-06-25",
@@ -17321,27 +17493,27 @@
         "2026-05-26",
         "2026-05-25"
       ],
-      "web-science": [
+      "arxiv": [
+        "2026-06-27",
         "2026-06-26",
         "2026-06-25",
         "2026-06-24",
         "2026-06-23",
-        "2026-06-22",
+        "2026-06-20",
         "2026-06-19",
         "2026-06-18",
         "2026-06-17",
         "2026-06-16",
-        "2026-06-15",
+        "2026-06-13",
         "2026-06-12",
         "2026-06-11",
         "2026-06-10",
         "2026-06-09",
-        "2026-06-08",
+        "2026-06-06",
         "2026-06-05",
         "2026-06-04",
         "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
+        "2026-05-30",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
