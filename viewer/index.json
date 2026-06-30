@@ -1,6 +1,221 @@
 {
-  "generated": "2026-06-29T04:49:20.093Z",
+  "generated": "2026-06-30T01:41:51.805Z",
   "digests": [
+    {
+      "date": "2026-06-30",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-06-30",
+      "categories": "astro-ph.CO, astro-ph.HE, gr-qc, hep-ex, hep-ph, hep-th, math-ph, math.CA, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, holograph, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Large Quantum Gravity Fluctuations of BTZ Black Holes",
+          "authors": "Ben Freivogel, Upamanyu Moitra",
+          "arxiv_id": "2606.28160",
+          "url": "https://arxivite.org/abs/2606.28160",
+          "categories": "gr-qc, hep-th",
+          "summary": "We study the quantum fluctuations of the black hole horizon in three-dimensional Anti-de Sitter (AdS) spacetime. We define a precise protocol to calculate the horizon fluctuations and define a corresponding ``quantum width&#39;&#39; of the horizon.",
+          "relevance": "quantum-gravity, black-holes, holography",
+          "tags": [
+            "quantum-gravity",
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum typicality survives non-Abelian gauge constraints: exact analytical prediction confirmed in $SU(2)$ lattice gauge theory",
+          "authors": "Zhi-Wei Wang, Samuel L. Braunstein",
+          "arxiv_id": "2606.27402",
+          "url": "https://arxivite.org/abs/2606.27402",
+          "categories": "gr-qc, math-ph, hep-th, quant-ph",
+          "summary": "Arguments for emergent spacetime require that quantum typicality, the generic absence of inter-subsystem correlations, persists on the physical Hilbert space of a gauge theory, where non-Abelian constraints could in principle inject geometry-supporting entanglement. Using $SU(2)$ lattice gauge theory on two-dimensional tori ($d_{\\mathrm{phys}}$ up to $4{,}193$), we show that it does: the typical mutual information between strictly disjoint links matches an exact parameter-free analytical prediction combining a microcanonical baseline with Haar-random fluctuations.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Probing Two Dark Dimensions through Primordial Black Holes, Gravitational Waves, and Colliders",
+          "authors": "Waqas Ahmed, George K. Leontaris",
+          "arxiv_id": "2606.27992",
+          "url": "https://arxivite.org/abs/2606.27992",
+          "categories": "hep-ph, gr-qc, hep-th",
+          "summary": "We study primordial-black-hole (PBH) dark matter in the two-dark-dimensions (2DD) framework, a six-dimensional brane-world scenario with two compact extra dimensions and a fundamental gravity scale of order $10\\,\\mathrm{TeV}$. We calculate the evolution of higher-dimensional PBHs including the recently proposed quantum-gravitational memory-burden effect.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Multi--black holes in Bertotti--Robinson spacetime",
+          "authors": "Hideo Furugori, Jun-ichi Sakamoto, Shinya Tomizawa",
+          "arxiv_id": "2606.28232",
+          "url": "https://arxivite.org/abs/2606.28232",
+          "categories": "gr-qc, hep-th",
+          "summary": "We construct a new class of exact solutions describing multi-black holes in the Bertotti--Robinson spacetime, using the monodromy-matrix formalism associated with integrable sigma models. Starting from the extremal Reissner--Nordström black hole in the Bertotti--Robinson background, we derive the corresponding coset and monodromy matrices and show that they are governed by nilpotent algebraic structures.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Quantum Fluctuations of the Black Hole Horizon",
+          "authors": "Ben Freivogel, Antony Speranza, Erik Verlinde",
+          "arxiv_id": "2606.28243",
+          "url": "https://arxivite.org/abs/2606.28243",
+          "categories": "gr-qc, hep-th",
+          "summary": "Classical black holes have sharply defined event horizons, but quantum mechanically the horizon acquires a quantum uncertainty, called the `quantum width&#39; by Marolf. We propose a definition of the quantum width by a physical experiment involving the last moment a signal emitted from an ingoing light ray can escape to infinity.",
+          "relevance": "quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Massive Cosmological Correlators from Flat Space: a Laplace-Space Approach",
+          "authors": "Nathan Belrhali, Arthur Poisson, Sébastien Renaux-Petel",
+          "arxiv_id": "2606.27311",
+          "url": "https://arxivite.org/abs/2606.27311",
+          "categories": "astro-ph.CO, gr-qc, hep-th",
+          "summary": "We develop a new approach to cosmological correlators, built on a simple physical fact: deep inside the Hubble radius every mode oscillates as a flat-space plane wave, the curvature of spacetime making itself felt only as the mode is stretched towards the horizon. A Laplace transform turns this observation into a computational tool, resolving each curved-space mode function into a continuous superposition of plane waves labelled by a dual variable and dressed by a kernel that encodes the spacetime geometry, field content and dynamics.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Massive scalar fields in eccentric regime: Detectability and constraints from LISA observations of extreme mass-ratio inspirals",
+          "authors": "Tieguang Zi, Shailesh Kumar, Jun-Kun Zhao et al.",
+          "arxiv_id": "2606.27429",
+          "url": "https://arxivite.org/abs/2606.27429",
+          "categories": "gr-qc, astro-ph.HE, hep-th",
+          "summary": "Extreme mass-ratio inspirals (EMRIs) are among the prime sources for future space-borne gravitational wave (GW) observatories and provide a useful setting for testing the presence of fundamental fields and possible deviations from general relativity (GR) in both strong and weak gravity regimes. In this work, we study the effect of a massive scalar field on eccentric equatorial EMRI dynamics around Kerr black holes.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Quantum fluxes and $\\langle\\hatΦ^2\\rangle$ for a non-minimally coupled scalar field: ringdown and tail on approaching the polar Kerr inner horizon",
+          "authors": "Maria Alberti, Noa Zilberman, Marc Casals et al.",
+          "arxiv_id": "2606.27859",
+          "url": "https://arxivite.org/abs/2606.27859",
+          "categories": "gr-qc, hep-th",
+          "summary": "We compute $\\langle\\hat{\\Phi}^{2}\\rangle_\\text{ren}$ as well as the energy fluxes $\\langle \\hat{T}_{uu}\\rangle_\\text{ren}$ and $\\langle \\hat{T}_{vv}\\rangle_\\text{ren}$ (where $u$ and $v$ are the standard Eddington-Finkelstein coordinates) associated with a quantum massless real scalar field $\\hat{\\Phi}$, with a general curvature coupling constant $\\xi$, near the inner horizon (IH) of a Kerr black hole, along the axis of rotation. The quantum field is in the Unruh state, corresponding to an evaporating black hole.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "UV artefacts in ultra-slow-roll models of inflation",
+          "authors": "Gerald Barnert, Laura Iacconi, Hooshyar Assadullahi et al.",
+          "arxiv_id": "2606.28005",
+          "url": "https://arxivite.org/abs/2606.28005",
+          "categories": "hep-ph, astro-ph.CO, gr-qc, hep-th",
+          "summary": "Within single-field inflation, primordial black hole and scalar-induced gravitational wave production from enhanced primordial perturbations typically requires a transient non-attractor phase, such as ultra-slow roll. We investigate the physical consistency of modeling such scenarios through analytical Hubble-flow parametrisation.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Quantum Correlations in the Decay of $B^0$ meson and Entanglement Entropy",
+          "authors": "Divya Sharma, Vaibhav Rawoot, Sudip Kumar Haldar",
+          "arxiv_id": "2606.28034",
+          "url": "https://arxivite.org/abs/2606.28034",
+          "categories": "hep-ph, quant-ph, hep-th, hep-ex",
+          "summary": "We present a phenomenological study of quantum correlations in the decay of $B^0$ mesons into a system of two vector mesons. The decay of the $B^0$ meson into two vector mesons constitutes a bipartite system of two qutrits.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Cancellation of one-loop time dependence in superhorizon curvature perturbations from all scales",
+          "authors": "Keisuke Inomata",
+          "arxiv_id": "2606.28247",
+          "url": "https://arxivite.org/abs/2606.28247",
+          "categories": "hep-ph, astro-ph.CO, gr-qc, hep-th",
+          "summary": "We show the conservation of the superhorizon curvature perturbations at one-loop level in spatially-flat gauge, including contributions from loop wavenumbers on all scales. In contrast to previous works, we do not assume a hierarchy $k \\gg q$ between the wavenumber of the loop integral, $k$, and that of the power spectrum, $q$, and we explicitly include the regime $k \\lesssim q$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Which Saddles Contribute? The South-East Rule for Multidimensional Integrals",
+          "authors": "Inês Aniceto, Job Feldbrugge, Christopher J. Howls",
+          "arxiv_id": "2606.28271",
+          "url": "https://arxivite.org/abs/2606.28271",
+          "categories": "math-ph, gr-qc, hep-th, math.CA",
+          "summary": "In this paper, we introduce and demonstrate a simple geometric algorithm to determine which critical points, both complex as well as real, contribute to the asymptotic evaluation of multiple integrals with exponential integrands of the form $e^{ikf(\\boldsymbol{x})}$ over $\\mathbb R^d$, for finite $d\\ge 1$ and $f$ is analytic. In so doing, the algorithm removes the need to compute the flows of $-\\text{Re} (i\\nabla f)$ in $\\mathbb C^d$ that is required to identify such relevant critical points in Picard-Lefschetz approaches to the derivation of such asymptotic expansions.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Generalizing the interacting dilatonic ghost condensate as a dark energy model",
+          "authors": "Manuel Gonzalez-Espinoza, Ramon Herrera, Johan Casimiro",
+          "arxiv_id": "2606.28288",
+          "url": "https://arxivite.org/abs/2606.28288",
+          "categories": "gr-qc, astro-ph.CO, hep-th",
+          "summary": "In this article, we study the cosmic evolution of a generalized dilatonic ghost condensate field as a dark energy candidate, formulated from a Lagrangian density with two dominant kinetic terms; one linear and one of arbitrary integer $n&gt;2$ in combination with an exponential potential, which interacts with dark matter through a source term. We analyzed three scenarios: the non-interacting situation $Q=0$ and two different interaction models, $Q\\propto\\rho_m\\dot{\\phi}$ and $Q\\propto \\rho_m H$ to describe the evolution of the present universe.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Continuation of Force-Free Electrodynamics upon the loss of magnetic dominance",
+          "authors": "Morifumi Mizuno",
+          "arxiv_id": "2606.28317",
+          "url": "https://arxivite.org/abs/2606.28317",
+          "categories": "gr-qc, astro-ph.HE, hep-th",
+          "summary": "Force-Free Electrodynamics (FFE) describes the evolution of the electromagnetic field in magnetically dominated plasmas, but ceases to be hyperbolic once the magnetic dominance condition $F^{ab}F_{ab}&gt;0$ is lost. We demonstrate that, after the loss of magnetic dominance, FFE may be replaced by a theory of null fields, $F^{ab}F_{ab}=0=F^{ab}\\tilde{F}_{ab}$, characterized by the condition that its principal null direction is tangent to a geodesic congruence.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Observing Massive Scattering from Null Infinity",
+          "authors": "Walker Melton, Kyrill Michaelsen, Romain Ruzziconi",
+          "arxiv_id": "2606.27421",
+          "url": "https://arxivite.org/abs/2606.27421",
+          "categories": "gr-qc, hep-th",
+          "summary": "Because massive particles asymptote to timelike rather than null infinity, current flat space holographic proposals such as celestial or Carrollian holography struggle to describe scattering processes with massive external states. We take a step toward addressing this limitation by studying how information about massive scattering amplitudes is carried to the late-time limit of null infinity by soft graviton radiation.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-06-30",
+      "items_found": 0,
+      "entries": []
+    },
     {
       "date": "2026-06-29",
       "type": "web-science",
@@ -13412,9 +13627,29 @@
     }
   ],
   "stats": {
-    "total_digests": 105,
-    "total_entries": 917,
+    "total_digests": 107,
+    "total_entries": 932,
     "unique_tags": {
+      "quantum-gravity": {
+        "first_seen": "2026-06-30",
+        "count": 44
+      },
+      "black-holes": {
+        "first_seen": "2026-06-30",
+        "count": 129
+      },
+      "holography": {
+        "first_seen": "2026-06-30",
+        "count": 33
+      },
+      "entanglement": {
+        "first_seen": "2026-06-30",
+        "count": 46
+      },
+      "physics": {
+        "first_seen": "2026-06-30",
+        "count": 61
+      },
       "Quantum Information & Computing": {
         "first_seen": "2026-06-29",
         "count": 67
@@ -13431,14 +13666,6 @@
         "first_seen": "2026-06-29",
         "count": 87
       },
-      "entanglement": {
-        "first_seen": "2026-06-27",
-        "count": 44
-      },
-      "black-holes": {
-        "first_seen": "2026-06-27",
-        "count": 122
-      },
       "string-theory": {
         "first_seen": "2026-06-27",
         "count": 5
@@ -13446,14 +13673,6 @@
       "topological": {
         "first_seen": "2026-06-27",
         "count": 24
-      },
-      "physics": {
-        "first_seen": "2026-06-27",
-        "count": 56
-      },
-      "holography": {
-        "first_seen": "2026-06-27",
-        "count": 31
       },
       "moltbook": {
         "first_seen": "2026-06-27",
@@ -13470,10 +13689,6 @@
       "agents": {
         "first_seen": "2026-06-27",
         "count": 154
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-06-25",
-        "count": 42
       },
       "Experiment & Observation": {
         "first_seen": "2026-06-25",
@@ -16617,21 +16832,21 @@
       }
     },
     "tag_counts": {
+      "quantum-gravity": 44,
+      "black-holes": 129,
+      "holography": 33,
+      "entanglement": 46,
+      "physics": 61,
       "Quantum Information & Computing": 67,
       "Many-Body Physics & Condensed Matter": 32,
       "Optics & Photonics": 36,
       "Science Communication & Policy": 87,
-      "entanglement": 44,
-      "black-holes": 122,
       "string-theory": 5,
       "topological": 24,
-      "physics": 56,
-      "holography": 31,
       "moltbook": 222,
       "quantum": 193,
       "llms": 103,
       "agents": 154,
-      "quantum-gravity": 42,
       "Experiment & Observation": 36,
       "Quantum Gravity": 25,
       "Black Hole Physics": 14,
@@ -17419,28 +17634,28 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
-      "web-science": [
-        "2026-06-29",
+      "arxiv": [
+        "2026-06-30",
+        "2026-06-27",
         "2026-06-26",
         "2026-06-25",
         "2026-06-24",
         "2026-06-23",
-        "2026-06-22",
+        "2026-06-20",
         "2026-06-19",
         "2026-06-18",
         "2026-06-17",
         "2026-06-16",
-        "2026-06-15",
+        "2026-06-13",
         "2026-06-12",
         "2026-06-11",
         "2026-06-10",
         "2026-06-09",
-        "2026-06-08",
+        "2026-06-06",
         "2026-06-05",
         "2026-06-04",
         "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
+        "2026-05-30",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
@@ -17458,6 +17673,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-06-30",
         "2026-06-29",
         "2026-06-28",
         "2026-06-27",
@@ -17493,27 +17709,28 @@
         "2026-05-26",
         "2026-05-25"
       ],
-      "arxiv": [
-        "2026-06-27",
+      "web-science": [
+        "2026-06-29",
         "2026-06-26",
         "2026-06-25",
         "2026-06-24",
         "2026-06-23",
-        "2026-06-20",
+        "2026-06-22",
         "2026-06-19",
         "2026-06-18",
         "2026-06-17",
         "2026-06-16",
-        "2026-06-13",
+        "2026-06-15",
         "2026-06-12",
         "2026-06-11",
         "2026-06-10",
         "2026-06-09",
-        "2026-06-06",
+        "2026-06-08",
         "2026-06-05",
         "2026-06-04",
         "2026-06-03",
-        "2026-05-30",
+        "2026-06-02",
+        "2026-06-01",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
