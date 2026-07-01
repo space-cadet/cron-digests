@@ -1,6 +1,219 @@
 {
-  "generated": "2026-06-30T04:49:21.203Z",
+  "generated": "2026-07-01T01:41:42.547Z",
   "digests": [
+    {
+      "date": "2026-07-01",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-01",
+      "categories": "astro-ph.CO, cond-mat.stat-mech, gr-qc, hep-ex, hep-ph, hep-th, math-ph, nucl-th, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, holograph, topological, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Scalar Vacuum Polarization in Loop Quantum Gravity Black Holes",
+          "authors": "Antonino Flachi, Marco Pasini",
+          "arxiv_id": "2606.29307",
+          "url": "https://arxivite.org/abs/2606.29307",
+          "categories": "hep-th, gr-qc",
+          "summary": "A quantum macroscopic ``Kruskal&#39;&#39; black hole solution that incorporates quantum geometry effects has been derived in Loop Quantum Gravity as the counterpart to the classical Schwarzschild solution with a distinct imprint outside the event horizon, even at scales much larger than the Planck length. This resulting black hole quantum geometry is supported by an effective energy density of quantum origin, outside the horizon, which prevents asymptotic flatness at large distances and confines massive particles to finite radii, thereby preventing their escape to infinity.",
+          "relevance": "quantum-gravity, loop-quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum Black Hole Chemistry from Double Holography",
+          "authors": "Naman Kumar",
+          "arxiv_id": "2606.28408",
+          "url": "https://arxivite.org/abs/2606.28408",
+          "categories": "hep-th, gr-qc",
+          "summary": "Extended black hole thermodynamics exposes a sharp tension in the usual holographic dictionary: at fixed boundary conformal frame, changing the AdS radius changes both the central charge and the spatial volume of the CFT, apparently locking the color and volume sectors of the first law. We show that this degeneracy is naturally removed for quantum black holes in Karch--Randall double holography.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Dissipative Effects in Transmission Line Analogues of Hawking Radiation",
+          "authors": "Elián Urtubey, Fernando C. Lombardo, Paula I. Villar",
+          "arxiv_id": "2606.28505",
+          "url": "https://arxivite.org/abs/2606.28505",
+          "categories": "hep-th, gr-qc, quant-ph",
+          "summary": "Hawking radiation is a fundamental result of quantum field theory in curved spacetime, yet its direct observation remains beyond current experimental capabilities. Circuit quantum electrodynamics provides a practical platform for realizing analogue systems where Hawking-like radiation may be studied under controlled laboratory conditions.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Non-perturbative, background independent canonical quantum gravity in Fock representations",
+          "authors": "Thomas Thiemann",
+          "arxiv_id": "2606.28788",
+          "url": "https://arxivite.org/abs/2606.28788",
+          "categories": "hep-th, gr-qc",
+          "summary": "It is commonly believed that a quantum field theory of General Relativity requires a non-perturbative formulation. In addition, the background independence of classical General Relativity supplies a physical selection criterion for suitable Hilbert space representations of the corresponding quantum field theory.",
+          "relevance": "quantum-gravity, loop-quantum-gravity",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Krylov Complexity in Non-Inertial Quantum Systems",
+          "authors": "Ming-Qi Ma, Shi-Cheng Liu, Lei-Hua Liu et al.",
+          "arxiv_id": "2606.29770",
+          "url": "https://arxivite.org/abs/2606.29770",
+          "categories": "hep-th, gr-qc, quant-ph, hep-ph",
+          "summary": "In this work, we formulate the Krylov complexity in non-In an inertial quantum system, the direct emergence of the $SU(1,1)$ sector from the Klein-Gordon symplectic form dictates that the Rindler pair-number sector naturally forms the Krylov basis for uniformly accelerating observers. Under this construction, we generalize the Bogoliubov coefficients by exploiting the $SU(1,1)$ group-structured Hamiltonian.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Mass-Varying Dark Matter Induced Scalarization and Scalar Clouds around Black Holes",
+          "authors": "H. Mohseni Sadjadi, M. Navid Gasemi Zad",
+          "arxiv_id": "2606.29864",
+          "url": "https://arxivite.org/abs/2606.29864",
+          "categories": "hep-th, gr-qc",
+          "summary": "We consider a black hole solution embedded in a mass varying dark matter halo and study scalarization induced by dark matter. We derive the required conditions on the scalar dark matter coupling that allow for a regular bound state scalar cloud.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Quantum corrections to symmetron fifth forces for planar sources",
+          "authors": "Peter Millington, Michael Udemba",
+          "arxiv_id": "2606.28423",
+          "url": "https://arxivite.org/abs/2606.28423",
+          "categories": "astro-ph.CO, gr-qc, hep-th",
+          "summary": "We provide a semi-analytic calculation of the first quantum corrections to the symmetron fifth force around a planar source with nonzero thickness. We find a suppression of the fifth force compared with the classical prediction within a Compton wavelength of the source, which is of order 10% in the parameter region relevant to experiments like CANNEX, while the fifth force is enhanced at larger distances from the source.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Reverse Isoperimetric Conjecture as a Noether-Charge Stability Theorem",
+          "authors": "Naman Kumar",
+          "arxiv_id": "2606.28427",
+          "url": "https://arxivite.org/abs/2606.28427",
+          "categories": "hep-th, gr-qc, math-ph",
+          "summary": "The reverse isoperimetric conjecture asserts that, at fixed thermodynamic volume, Schwarzschild--AdS black holes maximize entropy. We prove that this statement is the fixed-volume form of a boundary-completed Noether-charge stability theorem.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Vacuum stability in Geometric Trinity of Gravity",
+          "authors": "Vincenzo Branchina, Salvatore Capozziello, Filippo Contino et al.",
+          "arxiv_id": "2606.28956",
+          "url": "https://arxivite.org/abs/2606.28956",
+          "categories": "hep-th, gr-qc",
+          "summary": "The decay of a metastable (false) vacuum plays a crucial role in constraining Standard Model and beyond the Standard Model physics. In particular, it has been shown that gravity can have a significant impact on the calculation of the decay rate.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Pseudo entropy and topological phases of matter",
+          "authors": "Pramod Kamal Kharel, Manghang Limbu, Nabaraj Khatri et al.",
+          "arxiv_id": "2606.29311",
+          "url": "https://arxivite.org/abs/2606.29311",
+          "categories": "hep-th, quant-ph, cond-mat.stat-mech",
+          "summary": "Entanglement entropy has proven to be a powerful probe of phenomena such as quantum chaos and phase transitions. Pseudo entropy is a recently proposed time-like generalization of an entanglement measure, motivated by de Sitter holography.",
+          "relevance": "topological, holography, entanglement",
+          "tags": [
+            "topological",
+            "holography",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Soft-Radiation-Induced Decoherence of Heavy-Quark Spin Entanglement at the Electron-Ion Collider",
+          "authors": "Sanskriti Agrawal, Muneeb Zahoor, Raktim Abir",
+          "arxiv_id": "2606.29944",
+          "url": "https://arxivite.org/abs/2606.29944",
+          "categories": "hep-th, hep-ph, hep-ex, quant-ph, nucl-th",
+          "summary": "Using the soft-gluon theorem, we identify a soft-recoil mechanism by which unresolved gluon radiation induces decoherence in the spin correlations of heavy quark-antiquark pairs produced in deep-inelastic scattering. We show the eikonal soft contribution preserves the Born spin structure, whereas the subleading soft term generates stochastic recoil-induced rotations of the spin-correlation plane.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "On Padmanabhan&#39;s duality invariance and the quantum of length",
+          "authors": "P. Fernandez de Cordoba, J.M. Isidro, A. Pereira Garcia",
+          "arxiv_id": "2606.29318",
+          "url": "https://arxivite.org/abs/2606.29318",
+          "categories": "hep-th, gr-qc",
+          "summary": "We provide a field-theoretic construction of Padmanabhan&#39;s duality-invariant Feynman propagator for a massive point particle in Euclidean space $\\mathbb{R}^D$. Padmanabhan&#39;s propagator includes quantum-gravity effects due to the existence of a quantum of length $\\ell$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Bounded Chaos in a Ghost-Coupled Hamiltonian System",
+          "authors": "Zahra Molaee, Soleyman Fatholahzadeh",
+          "arxiv_id": "2606.29342",
+          "url": "https://arxivite.org/abs/2606.29342",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study the dynamics of a Hamiltonian system with a ghost degree of freedom, characterized by a negative kinetic-energy contribution and the possibility of runaway behavior due to an indefinite energy functional. We present numerical evidence that a nonlinear interaction term, together with a saturating exponential potential $V_c$, can suppress phase-space escape over the parameter ranges explored in this work.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Velocity dependence of holographic entanglement entropy in a charged plasma",
+          "authors": "V. Esrafilian, M. Ali-Akbari",
+          "arxiv_id": "2606.29549",
+          "url": "https://arxivite.org/abs/2606.29549",
+          "categories": "hep-th",
+          "summary": "We have studied holographic entanglement entropy in a moving thermal gauge theory with a non-zero chemical potential. A sufficiently high velocity enhances the holographic entanglement entropy, particularly for larger values of the chemical potential.",
+          "relevance": "holography, entanglement",
+          "tags": [
+            "holography",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "CFT Constraints on the Weak Gravity Conjecture",
+          "authors": "Saeed Noori Gashti, Behnam Pourhassan, İzzet Sakallı",
+          "arxiv_id": "2606.29896",
+          "url": "https://arxivite.org/abs/2606.29896",
+          "categories": "hep-th, gr-qc",
+          "summary": "The Weak Gravity Conjecture (WGC) is a swampland criterion of long standing: any consistent theory of quantum gravity must contain a charged particle whose charge-to-mass ratio exceeds that of an extremal black hole, so that gravity remains the weakest force. The AdS/CFT correspondence offers a calculable boundary handle on bulk gravity, and the imaginary parts of bulk quasinormal modes are read off the boundary as poles of a retarded Green&#39;s function.",
+          "relevance": "quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "black-holes"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-30",
       "type": "arxiv",
@@ -14,9 +227,9 @@
           "title": "Large Quantum Gravity Fluctuations of BTZ Black Holes",
           "authors": "Ben Freivogel, Upamanyu Moitra",
           "arxiv_id": "2606.28160",
-          "url": "https://arxivite.org/abs/2606.28160",
+          "url": "https://arxivivite.org/abs/2606.28160",
           "categories": "gr-qc, hep-th",
-          "summary": "We study the quantum fluctuations of the black hole horizon in three-dimensional Anti-de Sitter (AdS) spacetime. We define a precise protocol to calculate the horizon fluctuations and define a corresponding ``quantum width&#39;&#39; of the horizon.",
+          "summary": "Working in perturbative quantum gravity, we find the BTZ horizon's quantum width scales as $(G_\\mathrm{N} L_{\\mathrm{AdS}}^3)^{1/4}$, parametrically larger than the Planck scale, with a logarithmic UV divergence. This provides the most rigorous evidence to date of gauge-invariant fluctuations well above the Planck scale.",
           "relevance": "quantum-gravity, black-holes, holography",
           "tags": [
             "quantum-gravity",
@@ -29,9 +242,9 @@
           "title": "Quantum typicality survives non-Abelian gauge constraints: exact analytical prediction confirmed in $SU(2)$ lattice gauge theory",
           "authors": "Zhi-Wei Wang, Samuel L. Braunstein",
           "arxiv_id": "2606.27402",
-          "url": "https://arxivite.org/abs/2606.27402",
+          "url": "https://arxivivite.org/abs/2606.27402",
           "categories": "gr-qc, math-ph, hep-th, quant-ph",
-          "summary": "Arguments for emergent spacetime require that quantum typicality, the generic absence of inter-subsystem correlations, persists on the physical Hilbert space of a gauge theory, where non-Abelian constraints could in principle inject geometry-supporting entanglement. Using $SU(2)$ lattice gauge theory on two-dimensional tori ($d_{\\mathrm{phys}}$ up to $4{,}193$), we show that it does: the typical mutual information between strictly disjoint links matches an exact parameter-free analytical prediction combining a microcanonical baseline with Haar-random fluctuations.",
+          "summary": "Using $SU(2)$ lattice gauge theory on 2D tori (physical dimension up to 4,193), we show that quantum typicality persists on the physical Hilbert space: typical mutual information between disjoint links matches an exact parameter-free analytical prediction. The Kogut-Susskind Hamiltonian generates correlations only from non-generic initial states, establishing that geometry-supporting entanglement requires a non-generic initial condition.",
           "relevance": "entanglement",
           "tags": [
             "entanglement"
@@ -42,9 +255,9 @@
           "title": "Probing Two Dark Dimensions through Primordial Black Holes, Gravitational Waves, and Colliders",
           "authors": "Waqas Ahmed, George K. Leontaris",
           "arxiv_id": "2606.27992",
-          "url": "https://arxivite.org/abs/2606.27992",
+          "url": "https://arxivivite.org/abs/2606.27992",
           "categories": "hep-ph, gr-qc, hep-th",
-          "summary": "We study primordial-black-hole (PBH) dark matter in the two-dark-dimensions (2DD) framework, a six-dimensional brane-world scenario with two compact extra dimensions and a fundamental gravity scale of order $10\\,\\mathrm{TeV}$. We calculate the evolution of higher-dimensional PBHs including the recently proposed quantum-gravitational memory-burden effect.",
+          "summary": "For memory exponent $p=2$ in the quantum-gravitational memory-burden effect, higher-dimensional PBH evaporation is strongly suppressed, allowing PBHs as light as $\\sim10^{-3}\\,\\mathrm{g}$ to survive to the present and account for all dark matter over $10^{-3}$ to $10^{21}\\,\\mathrm{g}$. The resulting stochastic gravitational-wave background is detectable by LISA, DECIGO, and pulsar timing arrays, and microscopic black holes could be produced at future colliders.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -55,9 +268,9 @@
           "title": "Multi--black holes in Bertotti--Robinson spacetime",
           "authors": "Hideo Furugori, Jun-ichi Sakamoto, Shinya Tomizawa",
           "arxiv_id": "2606.28232",
-          "url": "https://arxivite.org/abs/2606.28232",
+          "url": "https://arxivivite.org/abs/2606.28232",
           "categories": "gr-qc, hep-th",
-          "summary": "We construct a new class of exact solutions describing multi-black holes in the Bertotti--Robinson spacetime, using the monodromy-matrix formalism associated with integrable sigma models. Starting from the extremal Reissner--Nordström black hole in the Bertotti--Robinson background, we derive the corresponding coset and monodromy matrices and show that they are governed by nilpotent algebraic structures.",
+          "summary": "Using the monodromy-matrix formalism for integrable sigma models, we construct exact multi-center black hole solutions in Bertotti--Robinson spacetime governed by nilpotent algebraic structures. Each center corresponds to a regular extremal black hole with $\\mathrm{AdS}_2 \\times S^2$ near-horizon geometry, and the framework extends to stationary and Israel--Wilson--Perjés-type configurations.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -68,9 +281,9 @@
           "title": "Quantum Fluctuations of the Black Hole Horizon",
           "authors": "Ben Freivogel, Antony Speranza, Erik Verlinde",
           "arxiv_id": "2606.28243",
-          "url": "https://arxivite.org/abs/2606.28243",
+          "url": "https://arxivivite.org/abs/2606.28243",
           "categories": "gr-qc, hep-th",
-          "summary": "Classical black holes have sharply defined event horizons, but quantum mechanically the horizon acquires a quantum uncertainty, called the `quantum width&#39; by Marolf. We propose a definition of the quantum width by a physical experiment involving the last moment a signal emitted from an ingoing light ray can escape to infinity.",
+          "summary": "We propose a physical definition of the horizon's ``quantum width'' via an escape-time experiment and find it depends on the probe's resolution, often far exceeding the Planck scale. For Schwarzschild black holes in 4D, a horizon patch of size $\\sigma_\\perp$ has quantum width roughly $\\sqrt{l_P r_s^2/\\sigma_\\perp}$.",
           "relevance": "quantum-gravity, black-holes",
           "tags": [
             "quantum-gravity",
@@ -82,9 +295,9 @@
           "title": "Massive Cosmological Correlators from Flat Space: a Laplace-Space Approach",
           "authors": "Nathan Belrhali, Arthur Poisson, Sébastien Renaux-Petel",
           "arxiv_id": "2606.27311",
-          "url": "https://arxivite.org/abs/2606.27311",
+          "url": "https://arxivivite.org/abs/2606.27311",
           "categories": "astro-ph.CO, gr-qc, hep-th",
-          "summary": "We develop a new approach to cosmological correlators, built on a simple physical fact: deep inside the Hubble radius every mode oscillates as a flat-space plane wave, the curvature of spacetime making itself felt only as the mode is stretched towards the horizon. A Laplace transform turns this observation into a computational tool, resolving each curved-space mode function into a continuous superposition of plane waves labelled by a dual variable and dressed by a kernel that encodes the spacetime geometry, field content and dynamics.",
+          "summary": "A Laplace-space approach resolves cosmological mode functions into superpositions of flat-space plane waves, reducing every time integral to an elementary flat-space integral and yielding simple diagrammatic rules. Applied to the massive single-exchange correlator, it produces a single closed-form, rapidly convergent series valid throughout the full kinematic domain.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -95,9 +308,9 @@
           "title": "Massive scalar fields in eccentric regime: Detectability and constraints from LISA observations of extreme mass-ratio inspirals",
           "authors": "Tieguang Zi, Shailesh Kumar, Jun-Kun Zhao et al.",
           "arxiv_id": "2606.27429",
-          "url": "https://arxivite.org/abs/2606.27429",
+          "url": "https://arxivivite.org/abs/2606.27429",
           "categories": "gr-qc, astro-ph.HE, hep-th",
-          "summary": "Extreme mass-ratio inspirals (EMRIs) are among the prime sources for future space-borne gravitational wave (GW) observatories and provide a useful setting for testing the presence of fundamental fields and possible deviations from general relativity (GR) in both strong and weak gravity regimes. In this work, we study the effect of a massive scalar field on eccentric equatorial EMRI dynamics around Kerr black holes.",
+          "summary": "We compute relativistic fluxes for eccentric equatorial EMRIs around Kerr with a massive scalar charge and find that massive scalar radiation produces significant GW dephasing that grows with orbital eccentricity, though the scalar flux is suppressed for larger field masses. Fisher-matrix analysis indicates LISA can meaningfully constrain both the scalar charge and scalar field mass, providing a strong-field test of scalar-tensor gravity.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -105,12 +318,12 @@
         },
         {
           "num": 8,
-          "title": "Quantum fluxes and $\\langle\\hatΦ^2\\rangle$ for a non-minimally coupled scalar field: ringdown and tail on approaching the polar Kerr inner horizon",
+          "title": "Quantum fluxes and $\\langle\\hat\\Phi^2\\rangle$ for a non-minimally coupled scalar field: ringdown and tail on approaching the polar Kerr inner horizon",
           "authors": "Maria Alberti, Noa Zilberman, Marc Casals et al.",
           "arxiv_id": "2606.27859",
-          "url": "https://arxivite.org/abs/2606.27859",
+          "url": "https://arxivivite.org/abs/2606.27859",
           "categories": "gr-qc, hep-th",
-          "summary": "We compute $\\langle\\hat{\\Phi}^{2}\\rangle_\\text{ren}$ as well as the energy fluxes $\\langle \\hat{T}_{uu}\\rangle_\\text{ren}$ and $\\langle \\hat{T}_{vv}\\rangle_\\text{ren}$ (where $u$ and $v$ are the standard Eddington-Finkelstein coordinates) associated with a quantum massless real scalar field $\\hat{\\Phi}$, with a general curvature coupling constant $\\xi$, near the inner horizon (IH) of a Kerr black hole, along the axis of rotation. The quantum field is in the Unruh state, corresponding to an evaporating black hole.",
+          "summary": "For a quantum massless scalar field with general curvature coupling $\\xi$ near the Kerr inner horizon in the Unruh state, we find that $\\langle\\hat{\\Phi}^{2}\\rangle_\\text{ren}$ approaches a finite limit via a ringdown phase (with complex frequencies matching twice the quasinormal-mode frequencies) followed by an inverse-power tail $r_{*}^{-2\\ell-3}$ in the tortoise coordinate. This generalizes earlier minimal-coupling results and exposes the full asymptotic structure near the inner horizon.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -121,9 +334,9 @@
           "title": "UV artefacts in ultra-slow-roll models of inflation",
           "authors": "Gerald Barnert, Laura Iacconi, Hooshyar Assadullahi et al.",
           "arxiv_id": "2606.28005",
-          "url": "https://arxivite.org/abs/2606.28005",
+          "url": "https://arxivivite.org/abs/2606.28005",
           "categories": "hep-ph, astro-ph.CO, gr-qc, hep-th",
-          "summary": "Within single-field inflation, primordial black hole and scalar-induced gravitational wave production from enhanced primordial perturbations typically requires a transient non-attractor phase, such as ultra-slow roll. We investigate the physical consistency of modeling such scenarios through analytical Hubble-flow parametrisation.",
+          "summary": "Reconstructing the scalar potential from Hubble-flow parametrisations reveals that even slow transitions in slow-roll parameters can hide sharp, localized spikes in higher-order derivatives at the ultra-slow-roll to slow-roll transition. A UV-filtering procedure shows that removing these artefacts typically restores Wands duality invariance, calling into question the robustness of simple analytical Hubble-flow parametrisations for non-attractor inflation.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -134,9 +347,9 @@
           "title": "Quantum Correlations in the Decay of $B^0$ meson and Entanglement Entropy",
           "authors": "Divya Sharma, Vaibhav Rawoot, Sudip Kumar Haldar",
           "arxiv_id": "2606.28034",
-          "url": "https://arxivite.org/abs/2606.28034",
+          "url": "https://arxivivite.org/abs/2606.28034",
           "categories": "hep-ph, quant-ph, hep-th, hep-ex",
-          "summary": "We present a phenomenological study of quantum correlations in the decay of $B^0$ mesons into a system of two vector mesons. The decay of the $B^0$ meson into two vector mesons constitutes a bipartite system of two qutrits.",
+          "summary": "Using experimental polarization amplitudes from LHCb, ATLAS, and Belle, we find that entanglement entropy in $B^0$ decays to two vector mesons shows a strong phase dependence, and that the von Neumann entropy correlates with branching fractions, suggesting a link between weak/strong interaction dynamics and quantum entanglement generation. A comprehensive suite of entanglement measures (Rényi, Hartley, linear entropy, I-concurrence, tangle, negativity) is evaluated across multiple decay channels.",
           "relevance": "entanglement",
           "tags": [
             "entanglement"
@@ -147,9 +360,9 @@
           "title": "Cancellation of one-loop time dependence in superhorizon curvature perturbations from all scales",
           "authors": "Keisuke Inomata",
           "arxiv_id": "2606.28247",
-          "url": "https://arxivite.org/abs/2606.28247",
+          "url": "https://arxivivite.org/abs/2606.28247",
           "categories": "hep-ph, astro-ph.CO, gr-qc, hep-th",
-          "summary": "We show the conservation of the superhorizon curvature perturbations at one-loop level in spatially-flat gauge, including contributions from loop wavenumbers on all scales. In contrast to previous works, we do not assume a hierarchy $k \\gg q$ between the wavenumber of the loop integral, $k$, and that of the power spectrum, $q$, and we explicitly include the regime $k \\lesssim q$.",
+          "summary": "We prove that the apparent time dependence of the superhorizon curvature power spectrum at one-loop level in spatially-flat gauge cancels completely when all loop-wavenumber contributions---including the regime $k \\lesssim q$ and boundary terms---are combined consistently. This extends previous results that assumed $k \\gg q$ and establishes conservation of superhorizon curvature perturbations at one-loop order from all scales.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -160,9 +373,9 @@
           "title": "Which Saddles Contribute? The South-East Rule for Multidimensional Integrals",
           "authors": "Inês Aniceto, Job Feldbrugge, Christopher J. Howls",
           "arxiv_id": "2606.28271",
-          "url": "https://arxivite.org/abs/2606.28271",
+          "url": "https://arxivivite.org/abs/2606.28271",
           "categories": "math-ph, gr-qc, hep-th, math.CA",
-          "summary": "In this paper, we introduce and demonstrate a simple geometric algorithm to determine which critical points, both complex as well as real, contribute to the asymptotic evaluation of multiple integrals with exponential integrands of the form $e^{ikf(\\boldsymbol{x})}$ over $\\mathbb R^d$, for finite $d\\ge 1$ and $f$ is analytic. In so doing, the algorithm removes the need to compute the flows of $-\\text{Re} (i\\nabla f)$ in $\\mathbb C^d$ that is required to identify such relevant critical points in Picard-Lefschetz approaches to the derivation of such asymptotic expansions.",
+          "summary": "We introduce a geometric ``South-East rule'' algorithm that determines which complex and real critical points contribute to asymptotic multidimensional integrals, eliminating the need for Picard-Lefschetz flow computations in $\\mathbb C^d$. The method combines critical-point values in the Borel plane, adjacency from resurgence theory, and a simple geometric ordering, with direct implications for Wick rotations and real-time path integrals.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -173,9 +386,9 @@
           "title": "Generalizing the interacting dilatonic ghost condensate as a dark energy model",
           "authors": "Manuel Gonzalez-Espinoza, Ramon Herrera, Johan Casimiro",
           "arxiv_id": "2606.28288",
-          "url": "https://arxivite.org/abs/2606.28288",
+          "url": "https://arxivivite.org/abs/2606.28288",
           "categories": "gr-qc, astro-ph.CO, hep-th",
-          "summary": "In this article, we study the cosmic evolution of a generalized dilatonic ghost condensate field as a dark energy candidate, formulated from a Lagrangian density with two dominant kinetic terms; one linear and one of arbitrary integer $n&gt;2$ in combination with an exponential potential, which interacts with dark matter through a source term. We analyzed three scenarios: the non-interacting situation $Q=0$ and two different interaction models, $Q\\propto\\rho_m\\dot{\\phi}$ and $Q\\propto \\rho_m H$ to describe the evolution of the present universe.",
+          "summary": "A generalized dilatonic ghost condensate with two kinetic terms and an exponential potential exhibits late-time dark-energy-dominated attractors with quintessence or phantom behavior depending on the sign of the coupling parameter $\\alpha$. Joint likelihood analysis with Cosmic Chronometers, PantheonPlus, and DESI finds that for $Q \\propto \\dot{\\phi}\\rho_m$ the energy flow direction depends on $\\alpha$, while for $Q \\propto H\\rho_m$ it is always from dark matter to dark energy.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -186,9 +399,9 @@
           "title": "Continuation of Force-Free Electrodynamics upon the loss of magnetic dominance",
           "authors": "Morifumi Mizuno",
           "arxiv_id": "2606.28317",
-          "url": "https://arxivite.org/abs/2606.28317",
+          "url": "https://arxivivite.org/abs/2606.28317",
           "categories": "gr-qc, astro-ph.HE, hep-th",
-          "summary": "Force-Free Electrodynamics (FFE) describes the evolution of the electromagnetic field in magnetically dominated plasmas, but ceases to be hyperbolic once the magnetic dominance condition $F^{ab}F_{ab}&gt;0$ is lost. We demonstrate that, after the loss of magnetic dominance, FFE may be replaced by a theory of null fields, $F^{ab}F_{ab}=0=F^{ab}\\tilde{F}_{ab}$, characterized by the condition that its principal null direction is tangent to a geodesic congruence.",
+          "summary": "After magnetic dominance is lost in Force-Free Electrodynamics, we replace it with a null-field theory ($F^{ab}F_{ab}=0=F^{ab}\\tilde{F}_{ab}$) whose principal null direction is tangent to a geodesic congruence. This continuation shows remarkable macroscopic agreement with 1D PIC simulations, correctly capturing the birth of the null region and current-sheet formation, and is validated against Adhikari's exact type-changing solution.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -199,9 +412,9 @@
           "title": "Observing Massive Scattering from Null Infinity",
           "authors": "Walker Melton, Kyrill Michaelsen, Romain Ruzziconi",
           "arxiv_id": "2606.27421",
-          "url": "https://arxivite.org/abs/2606.27421",
+          "url": "https://arxivivite.org/abs/2606.27421",
           "categories": "gr-qc, hep-th",
-          "summary": "Because massive particles asymptote to timelike rather than null infinity, current flat space holographic proposals such as celestial or Carrollian holography struggle to describe scattering processes with massive external states. We take a step toward addressing this limitation by studying how information about massive scattering amplitudes is carried to the late-time limit of null infinity by soft graviton radiation.",
+          "summary": "We show that the late-time limit of the Bondi mass aspect at null infinity acts as a detector operator for massive outgoing radiation, with in-in correlation functions at $\\mathscr{I}^+_+$ related to weighted sums of scattering cross sections. This enables an observer at null infinity to extract information about massive scattering processes, and we interpret the Bondi mass aspect as a Carrollian stress-tensor component and derive its Ward identities.",
           "relevance": "holography",
           "tags": [
             "holography"
@@ -13657,28 +13870,36 @@
     }
   ],
   "stats": {
-    "total_digests": 108,
-    "total_entries": 934,
+    "total_digests": 109,
+    "total_entries": 949,
     "unique_tags": {
       "quantum-gravity": {
-        "first_seen": "2026-06-30",
-        "count": 44
+        "first_seen": "2026-07-01",
+        "count": 47
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-07-01",
+        "count": 10
       },
       "black-holes": {
-        "first_seen": "2026-06-30",
-        "count": 129
+        "first_seen": "2026-07-01",
+        "count": 135
       },
       "holography": {
-        "first_seen": "2026-06-30",
-        "count": 33
-      },
-      "entanglement": {
-        "first_seen": "2026-06-30",
-        "count": 46
+        "first_seen": "2026-07-01",
+        "count": 36
       },
       "physics": {
-        "first_seen": "2026-06-30",
-        "count": 61
+        "first_seen": "2026-07-01",
+        "count": 66
+      },
+      "topological": {
+        "first_seen": "2026-07-01",
+        "count": 25
+      },
+      "entanglement": {
+        "first_seen": "2026-07-01",
+        "count": 49
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-06-30",
@@ -13699,10 +13920,6 @@
       "string-theory": {
         "first_seen": "2026-06-27",
         "count": 5
-      },
-      "topological": {
-        "first_seen": "2026-06-27",
-        "count": 24
       },
       "moltbook": {
         "first_seen": "2026-06-27",
@@ -13742,10 +13959,6 @@
       },
       "tensor-networks": {
         "first_seen": "2026-06-23",
-        "count": 8
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-06-19",
         "count": 8
       },
       "quantum-cosmology": {
@@ -16862,17 +17075,18 @@
       }
     },
     "tag_counts": {
-      "quantum-gravity": 44,
-      "black-holes": 129,
-      "holography": 33,
-      "entanglement": 46,
-      "physics": 61,
+      "quantum-gravity": 47,
+      "loop-quantum-gravity": 10,
+      "black-holes": 135,
+      "holography": 36,
+      "physics": 66,
+      "topological": 25,
+      "entanglement": 49,
       "Quantum Information & Computing": 68,
       "Science Communication & Policy": 88,
       "Many-Body Physics & Condensed Matter": 32,
       "Optics & Photonics": 36,
       "string-theory": 5,
-      "topological": 24,
       "moltbook": 222,
       "quantum": 193,
       "llms": 103,
@@ -16883,7 +17097,6 @@
       "quantum-computing": 14,
       "many-body": 13,
       "tensor-networks": 8,
-      "loop-quantum-gravity": 8,
       "quantum-cosmology": 6,
       "Technology & Engineering": 39,
       "arxiv": 3,
@@ -17665,6 +17878,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-07-01",
         "2026-06-30",
         "2026-06-27",
         "2026-06-26",
