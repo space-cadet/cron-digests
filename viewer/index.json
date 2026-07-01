@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T01:42:07.291Z",
+  "generated": "2026-07-01T04:49:20.664Z",
   "digests": [
     {
       "date": "2026-07-01",
@@ -210,6 +210,103 @@
           "tags": [
             "quantum-gravity",
             "black-holes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-01",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Quantum computer simulates hadronization, reproducing string breaking with 104 qubits",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-quantum-simulates-hadronization-qubits.html",
+          "summary": "By remotely accessing an IBM quantum computer, a research scientist at Lawrence Berkeley National Laboratory has successfully simulated a key process in particle physics: hadronization. Although based on a simplified model ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "New superconductors identified, unlocking process that could yield thousands more",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-superconductors-yield-thousands.html",
+          "summary": "An international team of quantum researchers has shown how machine learning can be used to filter a practically infinite number of possible material combinations to identify candidates for superconductivity. Thanks to the ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Plutonium compound unlocks rare topological quantum behavior with potential nuclear science applications",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-plutonium-compound-rare-topological-quantum.html",
+          "summary": "Plutonium is one of the most complex elements in the periodic table. First synthesized and isolated in 1940 by scientists at the University of California, Berkeley, plutonium has been studied closely for more than eight decades. ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "World's largest particle smasher halts for upgrade to boost hunt for dark matter",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-world-largest-particle-smasher-halts.html",
+          "summary": "The world's most powerful particle accelerator will shutter operations Monday for four years of renovations to dramatically boost its collision capacity and the potential for unlocking one of the greatest mysteries of the ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Coffee is under threat: how scientists are fighting to save it from extinction",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01965-z",
+          "summary": "Coffee plants are critically endangered by climate change. Researchers are finding solutions to keep scientists supplied with their favourite discovery fuel.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Vera C Rubin Observatory kicks off 10-year quest to map the cosmos",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/vera-c-rubin-observatory-kicks-off-10-year-quest-to-map-the-cosmos/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Physicists demonstrate Hong–Ou–Mandel interference with more than 10 atoms",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-physicists-hongoumandel-atoms.html",
+          "summary": "In a new study published in Nature Physics, researchers have demonstrated the Hong–Ou–Mandel (HOM) effect with up to 12 indistinguishable neutral atoms—an effect that has been predominantly observed in photonic systems.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "First-of-a-kind laser spring opens up new avenues for plasma control",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-kind-laser-avenues-plasma.html",
+          "summary": "When a high-intensity laser interacts with plasma, the charged particles typically oscillate back and forth like waves on the ocean. But what if the laser itself could twist like a whirlpool? Researchers have now demonstrated ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -13870,8 +13967,8 @@
     }
   ],
   "stats": {
-    "total_digests": 109,
-    "total_entries": 949,
+    "total_digests": 110,
+    "total_entries": 957,
     "unique_tags": {
       "quantum-gravity": {
         "first_seen": "2026-07-01",
@@ -13902,20 +13999,20 @@
         "count": 49
       },
       "Quantum Information & Computing": {
-        "first_seen": "2026-06-30",
-        "count": 68
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-06-30",
-        "count": 88
+        "first_seen": "2026-07-01",
+        "count": 71
       },
       "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-06-29",
-        "count": 32
+        "first_seen": "2026-07-01",
+        "count": 34
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-01",
+        "count": 91
       },
       "Optics & Photonics": {
-        "first_seen": "2026-06-29",
-        "count": 36
+        "first_seen": "2026-07-01",
+        "count": 37
       },
       "string-theory": {
         "first_seen": "2026-06-27",
@@ -17082,10 +17179,10 @@
       "physics": 66,
       "topological": 25,
       "entanglement": 49,
-      "Quantum Information & Computing": 68,
-      "Science Communication & Policy": 88,
-      "Many-Body Physics & Condensed Matter": 32,
-      "Optics & Photonics": 36,
+      "Quantum Information & Computing": 71,
+      "Many-Body Physics & Condensed Matter": 34,
+      "Science Communication & Policy": 91,
+      "Optics & Photonics": 37,
       "string-theory": 5,
       "moltbook": 222,
       "quantum": 193,
@@ -17917,6 +18014,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-01",
         "2026-06-30",
         "2026-06-29",
         "2026-06-26",
