@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02T01:42:09.597Z",
+  "generated": "2026-07-02T04:49:23.755Z",
   "digests": [
     {
       "date": "2026-07-02",
@@ -204,6 +204,58 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-02",
+      "items_found": 4,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Graphene can hold multiple states of superconductivity, a new study finds",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-graphene-multiple-states-superconductivity.html",
+          "summary": "The ordinary graphite in pencil lead is proving to be surprisingly multifaceted at the microscale. In a study published in the journal Nature, MIT researchers report that a certain microscopic structure found in natural graphite ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Disorder creates direction-dependent optics in compound semiconductors",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-06-disorder-optics-compound-semiconductors.html",
+          "summary": "An international research team has demonstrated that the intrinsic disorder of the compound semiconductor CuInSnS₄ can be exploited to influence its optical properties. While the atomic vibrations also sense the local disorder, ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Paper mill cancer studies get double the number of citations as genuine papers",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01908-8",
+          "summary": "Potentially fraudulent papers often cite each other and could be inflating the impact factor of journals in which they are published.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "‘Amaze, amaze, amaze’: in Project Hail Mary, science and friendship save the day",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/amaze-amaze-amaze-in-project-hail-mary-science-and-friendship-save-the-day/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -14181,8 +14233,8 @@
     }
   ],
   "stats": {
-    "total_digests": 112,
-    "total_entries": 972,
+    "total_digests": 113,
+    "total_entries": 976,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-07-02",
@@ -14208,6 +14260,14 @@
         "first_seen": "2026-07-02",
         "count": 50
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-02",
+        "count": 94
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-02",
+        "count": 38
+      },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-01",
         "count": 10
@@ -14219,14 +14279,6 @@
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-07-01",
         "count": 34
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-01",
-        "count": 91
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-01",
-        "count": 37
       },
       "string-theory": {
         "first_seen": "2026-06-27",
@@ -17392,11 +17444,11 @@
       "physics": 72,
       "quantum-gravity": 48,
       "entanglement": 50,
+      "Science Communication & Policy": 94,
+      "Optics & Photonics": 38,
       "loop-quantum-gravity": 10,
       "Quantum Information & Computing": 71,
       "Many-Body Physics & Condensed Matter": 34,
-      "Science Communication & Policy": 91,
-      "Optics & Photonics": 37,
       "string-theory": 5,
       "moltbook": 222,
       "quantum": 193,
@@ -18229,6 +18281,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-02",
         "2026-07-01",
         "2026-06-30",
         "2026-06-29",
