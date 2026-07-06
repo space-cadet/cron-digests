@@ -1,6 +1,107 @@
 {
-  "generated": "2026-07-03T01:41:59.188Z",
+  "generated": "2026-07-06T04:49:11.899Z",
   "digests": [
+    {
+      "date": "2026-07-06",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-06",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Quantum gravity tests may mistake ordinary spacetime for superposition",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-gravity-ordinary-spacetime-superposition.html",
+          "summary": "Everything around us, from atoms and molecules to planets and galaxies, is governed by two extraordinarily successful theories of physics: quantum mechanics and gravity. Quantum mechanics explains the behavior of the microscopic ...",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Information & Computing",
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Ultrafast scanning tunneling microscopy reaches the quantum mechanical space-time limit for the first time",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-ultrafast-scanning-tunneling-microscopy-quantum.html",
+          "summary": "Werner Heisenberg's famous uncertainty principle describes one of the most intriguing features of quantum physics: certain pairs of physical quantities describing a particle, such as position and momentum, cannot simultaneously ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Analog gravity advance offers new insights into Hawking radiation from black holes",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-analog-gravity-advance-insights-hawking.html",
+          "summary": "Hawking radiation is a form of radiation emitted by black holes, as theoretically predicted by Stephen Hawking. It suggests that black holes do not merely swallow matter—as had previously been assumed—but also emit very faint ...",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Quantum semiconductor design could expand search for dark matter",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-semiconductor-dark.html",
+          "summary": "Dark matter accounts for 85% of the matter in the universe, but scientists still do not know what it is made of. A study, published in Physical Review Letters, by Rice University researchers proposes a detector design that ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Quantum Mechanics Once Baffled Scientists. Now It's Changing the World",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260624025516.htm",
+          "summary": "For much of the early 20th century, quantum mechanics was one of the most puzzling ideas in science. The theory challenged conventional thinking and left even leading physicists struggling to make sense of its implications. A century later, it has become the foundation of technologies that influence",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "China boosts prestigious grants for young scientists — will it ease competition?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01989-5",
+          "summary": "The National Natural Science Foundation of China says it will fund an extra 12,000 projects from this year.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Wearable pacemaker uses ultrasound to control heart rhythm",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/wearable-pacemaker-uses-ultrasound-to-control-heart-rhythm/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Scientists Make Quantum Time Flow Backward in Stunning Physics Breakthrough",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
+          "summary": "Scientists have developed a new way to control quantum systems that can make their behavior appear more consistent with time moving backward rather than forward. The research, published in Physical Review X, introduces quantum control protocols that reshape a system's \"arrow of time,\" the concept th",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-03",
       "type": "arxiv",
@@ -14447,9 +14548,29 @@
     }
   ],
   "stats": {
-    "total_digests": 115,
-    "total_entries": 991,
+    "total_digests": 116,
+    "total_entries": 999,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-06",
+        "count": 76
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-07-06",
+        "count": 27
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-07-06",
+        "count": 16
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-07-06",
+        "count": 36
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-06",
+        "count": 96
+      },
       "black-holes": {
         "first_seen": "2026-07-03",
         "count": 148
@@ -14482,10 +14603,6 @@
         "first_seen": "2026-07-02",
         "count": 48
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-02",
-        "count": 94
-      },
       "Optics & Photonics": {
         "first_seen": "2026-07-02",
         "count": 38
@@ -14493,14 +14610,6 @@
       "loop-quantum-gravity": {
         "first_seen": "2026-07-01",
         "count": 10
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-01",
-        "count": 71
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-07-01",
-        "count": 34
       },
       "moltbook": {
         "first_seen": "2026-06-27",
@@ -14521,14 +14630,6 @@
       "Experiment & Observation": {
         "first_seen": "2026-06-25",
         "count": 36
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-06-24",
-        "count": 25
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-06-24",
-        "count": 14
       },
       "quantum-computing": {
         "first_seen": "2026-06-23",
@@ -17652,6 +17753,11 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 76,
+      "Quantum Gravity": 27,
+      "Black Hole Physics": 16,
+      "Many-Body Physics & Condensed Matter": 36,
+      "Science Communication & Policy": 96,
       "black-holes": 148,
       "physics": 78,
       "holography": 39,
@@ -17660,18 +17766,13 @@
       "many-body": 14,
       "topological": 26,
       "quantum-gravity": 48,
-      "Science Communication & Policy": 94,
       "Optics & Photonics": 38,
       "loop-quantum-gravity": 10,
-      "Quantum Information & Computing": 71,
-      "Many-Body Physics & Condensed Matter": 34,
       "moltbook": 222,
       "quantum": 193,
       "llms": 103,
       "agents": 154,
       "Experiment & Observation": 36,
-      "Quantum Gravity": 25,
-      "Black Hole Physics": 14,
       "quantum-computing": 14,
       "tensor-networks": 8,
       "quantum-cosmology": 6,
@@ -18454,6 +18555,48 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-07-06",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "arxiv": [
         "2026-07-03",
         "2026-07-02",
@@ -18479,47 +18622,6 @@
         "2026-06-04",
         "2026-06-03",
         "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "web-science": [
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
