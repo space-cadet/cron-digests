@@ -1,6 +1,217 @@
 {
-  "generated": "2026-07-06T04:49:11.899Z",
+  "generated": "2026-07-07T01:42:11.941Z",
   "digests": [
+    {
+      "date": "2026-07-07",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-07",
+      "categories": "astro-ph.CO, astro-ph.HE, cond-mat.str-el, gr-qc, hep-ph, hep-th, math-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, quantum cosmology, topological, many-body",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Can Primordial Black Holes Be Seeds for Early Galaxies in Models Satisfying the Covariant Entropy Bound?",
+          "authors": "Sidan A, Tom Banks, Willy Fischler",
+          "arxiv_id": "2607.01292",
+          "url": "https://arxivite.org/abs/2607.01292",
+          "categories": "hep-ph, astro-ph.CO, gr-qc, hep-th",
+          "summary": "We argue that cosmological models obeying the Covariant Entropy Bound (CEB) mathematically favor states with no localized excitations or one large black hole containing all the energy in a constrained initial state. In order to get a long radiation-dominated era, one must postulate that at a very early time, most horizon volumes of the universe contained tiny black holes that decayed into radiation.",
+          "relevance": "quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Rotating Black Holes and the Kerr/CFT Correspondence in Einstein-Bumblebee Gravity",
+          "authors": "Yu-Qi Chen, Jin-Yang Shen, Hai-Shan Liu",
+          "arxiv_id": "2607.01884",
+          "url": "https://arxivite.org/abs/2607.01884",
+          "categories": "gr-qc, hep-th",
+          "summary": "We constructed rotating black holes with equal angular momentum in five dimensional Einstein-Bumblebee gravity with and without cosmological constant. Their thermodynamic properties are examined via two distinct methods: the Wald formalism and the Komar integral.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Chaotic behaviors of particles around the black hole with an anisotropic matter immersed in a magnetic field",
+          "authors": "Khusan Alibekov, Hocheol Lee, Yovqochev Pahlavon et al.",
+          "arxiv_id": "2607.01910",
+          "url": "https://arxivite.org/abs/2607.01910",
+          "categories": "gr-qc, hep-th",
+          "summary": "We present an exact solution to the Einstein-Maxwell equations that describes a static black hole coexisting with anisotropic matter immersed in an external magnetic field, obtained via the Harrison transformation. Our findings reveal that an increase in the anisotropic matter parameter systematically suppresses the local chaotic behavior, as indicated by a reduction in the Lyapunov exponent.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Phase Transitions with Lyapunov Exponents under Einstein and String Frames in Dilatonic Reissner--Nordström--AdS Black Holes",
+          "authors": "Hocheol Lee, Bogeun Gwak",
+          "arxiv_id": "2607.01912",
+          "url": "https://arxivite.org/abs/2607.01912",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate Lyapunov exponents as dynamical probes of black hole phase transitions in dilatonic Reissner--Nordström--AdS black holes within Einstein--Maxwell--dilaton theory. The thermodynamic quantities and the Lyapunov exponent of charged probe particles were analyzed in both the Einstein and string frames, thus providing a direct comparison between the thermodynamic phase structure of the black hole and that captured by the Lyapunov exponent.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Lubkin-Page typicality bounds for Type~II von~Neumann factors",
+          "authors": "Zhi-Wei Wang, Samuel L. Braunstein",
+          "arxiv_id": "2607.01873",
+          "url": "https://arxivite.org/abs/2607.01873",
+          "categories": "quant-ph, math-ph, gr-qc, hep-th",
+          "summary": "Typicality arguments for emergent spacetime rely on the Lubkin-Page bounds, which show that generic quantum states have vanishing correlations between subsystems. These bounds assume a tensor-product Hilbert space (a Type~I von~Neumann algebra), but the observable algebras in quantum field theory and quantum gravity are generically Type~II or Type~III, raising the question of whether the bounds survive.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Classical and Loop Quantum Cosmology of Interacting Dark Energy: A Dynamical System Analysis with Superfluid Dark Matter and Dust Matter",
+          "authors": "Mohd Shahalam, K. Yerzhanov, G. Bauyrzhan et al.",
+          "arxiv_id": "2607.01724",
+          "url": "https://arxivite.org/abs/2607.01724",
+          "categories": "gr-qc",
+          "summary": "We study the cosmological dynamics of interacting dark energy and dark matter in Classical Einstein Gravity and Loop Quantum Cosmology. Two dark matter scenarios are considered: superfluid dark matter described by a generalized cubic equation of state and the standard pressureless fluid.",
+          "relevance": "loop-quantum-gravity, quantum-cosmology",
+          "tags": [
+            "loop-quantum-gravity",
+            "quantum-cosmology"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Nonlocal correlations of fermionic entanglement in the spacetime of Einstein-Gauss-Bonnet black hole",
+          "authors": "Yifei Xu, Yanjun Chen, Qi Xiao et al.",
+          "arxiv_id": "2607.02039",
+          "url": "https://arxivite.org/abs/2607.02039",
+          "categories": "gr-qc",
+          "summary": "The investigation of nonclassical correlations in curved spacetimes offers key insights into the intersection of quantum information theory and gravitational physics. This paper studies two nonlocal correlation measures, non local advantage of quantum coherence (NAQC) and Bell nonlocality (BN) in a $d$-dimensional spherically symmetric Einstein-Gauss-Bonnet (EGB) black hole spacetime.",
+          "relevance": "black-holes, entanglement",
+          "tags": [
+            "black-holes",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Logarithmic negativity typically equals exact entanglement cost",
+          "authors": "Bowen Ouyang, Jonah Kudler-Flam",
+          "arxiv_id": "2607.01320",
+          "url": "https://arxivite.org/abs/2607.01320",
+          "categories": "quant-ph, math-ph, cond-mat.str-el, hep-th",
+          "summary": "Quantum entanglement plays a leading role in modern understanding of physical systems, from quantum phases of matter to quantum gravity. In quantum information theory, one seeks operationally meaningful quantifiers of entanglement, which for large quantum systems are notoriously difficult to evaluate due to the lack of computationally efficient algorithms.",
+          "relevance": "quantum-gravity, many-body, entanglement",
+          "tags": [
+            "quantum-gravity",
+            "many-body",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Secondary Production of Photons from ALP Dark Matter interacting with a Cosmological Magnetic Field",
+          "authors": "Abdias Aires, Robert Brandenberger, Ashu Kushwaha",
+          "arxiv_id": "2607.01399",
+          "url": "https://arxivite.org/abs/2607.01399",
+          "categories": "astro-ph.CO, hep-ph, gr-qc, hep-th",
+          "summary": "Under the assumption that dark matter is a coherently oscillating pseudoscalar field coupled to electromagnetism by the usual Chern-Simons term, we study the production of secondary photons from dark matter fluctuations coupled to a pre-existing magnetic field, taking into account the spectral distribution of the magnetic field. Specifically, we apply the formalism to the case of a large-scale magnetic field generated previously via a parametric resonance instability due to the same Chern-Simons coupling.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Magneto-rotational instabilities in solids: application to neutron-star crusts",
+          "authors": "Arthur G. Suvorov, Thomas Celora, Kostas D. Kokkotas",
+          "arxiv_id": "2607.01505",
+          "url": "https://arxivite.org/abs/2607.01505",
+          "categories": "astro-ph.HE, gr-qc, hep-th",
+          "summary": "The magneto-rotational instability can generate strong, turbulent substructure within magnetised shear flows. The efficacy of the mechanism as a function of microphysical aspects of the fluid, such as stratification and diffusivity, has been explored extensively.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Boson Stars in Teleparallel Gravity with a Nonminimally Coupled Field: The Violation of Energy Conditions and Gravitational Waveforms from EMRIs",
+          "authors": "Long-Xing Huang, Ke Yang, Yong-Qiang Wang",
+          "arxiv_id": "2607.02017",
+          "url": "https://arxivite.org/abs/2607.02017",
+          "categories": "astro-ph.HE, gr-qc, hep-th",
+          "summary": "In this work, we investigate boson star models within the framework of teleparallel gravity with non-minimal coupling, and obtain static, spherically symmetric solutions for both the ground state and excited states. The results indicate that the energy density of the excited-state solutions can become negative.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Topological Control of Quantum Chaos Diagnostics: OTOCs, Spectral Statistics, and Information Scrambling in Ising Model",
+          "authors": "Reza Pirmoradian, Soheir Rouhani, M. Reza Tanhayi",
+          "arxiv_id": "2607.02463",
+          "url": "https://arxivite.org/abs/2607.02463",
+          "categories": "quant-ph, hep-th",
+          "summary": "We investigate the integrability-to-chaos transition and information scrambling in Ising spin networks via a graph-theoretic formulation. Modeling spins as vertices and interactions via adjacency matrices across path, Erdős--Rényi, and Watts--Strogatz topologies, we demonstrate that long-range couplings and heterogeneous degree distributions drastically accelerate quantum information propagation.",
+          "relevance": "topological, many-body",
+          "tags": [
+            "topological",
+            "many-body"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "What&#39;s the Matter with 3D Gravity?",
+          "authors": "Robert Bourne, Jackson R. Fliss, Bob Knighton",
+          "arxiv_id": "2607.01319",
+          "url": "https://arxivite.org/abs/2607.01319",
+          "categories": "gr-qc, hep-th",
+          "summary": "We revisit the problem of minimally coupling matter to Einstein gravity in three dimensions with negative cosmological constant. By working in the worldline formalism, we construct a classical phase space on an initial time surface $\\Sigma$, which we quantize using geometric quantization.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Wormholes as red herrings: reflection positivity and the reconstruction of unitary quantum field theories",
+          "authors": "Jacob McNamara, Zhencheng Wang",
+          "arxiv_id": "2607.01322",
+          "url": "https://arxivite.org/abs/2607.01322",
+          "categories": "math-ph, gr-qc, hep-th",
+          "summary": "As Coleman famously argued, the apparent breakdown of partition-function factorization in quantum gravity associated with Euclidean wormholes is a red herring, arising from a hidden average over an ensemble of theories. We present a direct analog of Coleman&#39;s argument for the apparent breakdown of Hilbert-space factorization associated with spatial wormholes, i.e., Einstein--Rosen bridges.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Towards graviton lasing from squeezed ultra-cold systems",
+          "authors": "Soham Sen, Vlatko Vedral",
+          "arxiv_id": "2607.02068",
+          "url": "https://arxivite.org/abs/2607.02068",
+          "categories": "gr-qc, hep-th",
+          "summary": "In our recent work, arXiv:2604.11474 [hep-th], we have shown that effective detection of gravitons is possible using an array of charged harmonic oscillators in a dynamical electromagnetic field. Using the interaction Hamiltonian of the identical model, we find out that a systematic way of population inversion of the gravitons is possible in ultra-cold atomic systems.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-06",
       "type": "web-science",
@@ -103,6 +314,20 @@
       ]
     },
     {
+      "date": "2026-07-06",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-06",
+      "items_found": 0,
+      "entries": []
+    },
+    {
+      "date": "2026-07-05",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-05",
+      "items_found": 0,
+      "entries": []
+    },
+    {
       "date": "2026-07-03",
       "type": "arxiv",
       "title": "# arXiv Morning Digest — 2026-07-03",
@@ -117,7 +342,7 @@
           "arxiv_id": "2606.31362",
           "url": "https://arxivite.org/abs/2606.31362",
           "categories": "hep-th, hep-ph, gr-qc, astro-ph.CO",
-          "summary": "Single-field ultra-slow-roll (USR) inflation is among the most studied mechanisms for primordial black hole (PBH) formation. These models predict a negative spectral running ($\\alpha_s&lt;0$), whose magnitude increases with the PBH mass.",
+          "summary": "They show that axion-like early dark energy (EDE) increases the inferred spectral running $\\alpha_s$ from CMB data, strengthening the tension between ultra-slow-roll primordial black hole models and Planck, ACT, SPT, and BAO observations. Moving from $\\Lambda$CDM to EDE raises $\\alpha_s$ because the increased damping-to-acoustic scale ratio $\\theta_d/\\theta_s$ is compensated by enhanced small-scale power, making pre-recombination new physics a critical factor in inflationary model selection.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -130,7 +355,7 @@
           "arxiv_id": "2607.01221",
           "url": "https://arxivite.org/abs/2607.01221",
           "categories": "hep-th, quant-ph, gr-qc",
-          "summary": "I revisit Type-IIB axion--dilaton Euclidean saddles in a specified axion charge sector. In that sector, the solution with $E=0$ is the BPS instanton, while $E&gt;0$ gives non-BPS wormholes with a smooth throat.",
+          "summary": "They factorize the physical fluctuation Hessian for the $E=0$ BPS instanton as ${\\cal H}_\\nu={\\mathcal Q}_\\nu^\\dagger{\\mathcal Q}_\\nu$, interpreting this as an endpoint theorem that extends beyond the stability of $E\\u003e0$ wormholes. They also separate the connected two-ended wormhole throat from its long-distance multipole operator term and show that the two-end insertions are terms in the same quadratic expression.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -143,7 +368,7 @@
           "arxiv_id": "2606.31999",
           "url": "https://arxivite.org/abs/2606.31999",
           "categories": "hep-th, gr-qc, math-ph",
-          "summary": "We investigate the field of a point-like electric charge freely falling in a gravitational wave. In the presence of a gravitational wave, the initially static Coulomb field of the charge becomes time-dependent and generates corresponding radiation.",
+          "summary": "They solve Maxwell's equations to first order in a weak gravitational wave perturbation, using a Shapiro-delay-motivated regularization to obtain the point-charge potentials in quadratures throughout space. The far-zone potentials and angular distribution of the induced electromagnetic radiation are computed explicitly for a monochromatic, arbitrarily polarized gravitational wave.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -156,7 +381,7 @@
           "arxiv_id": "2606.26221",
           "url": "https://arxivite.org/abs/2606.26221",
           "categories": "hep-th, gr-qc, math-ph",
-          "summary": "We review the representations of so(1,D), the algebra of isometries of D dimensional de Sitter space. We cover the representations in all D, including mixed symmetry representations and fermionic representations, and connect them to the various types of fields that can propagate on de Sitter space.",
+          "summary": "They review all representations of so(1,D), including mixed symmetry and fermionic representations in all dimensions, connecting them to the types of fields that can propagate on de Sitter space. The presentation favors concrete physical constructions over abstract considerations.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -169,7 +394,7 @@
           "arxiv_id": "2606.31330",
           "url": "https://arxivite.org/abs/2606.31330",
           "categories": "hep-th, gr-qc",
-          "summary": "In this paper, we investigate thick brane worlds in $f(R)$ gravity supported by two-scalar-field. The two-scalar sector provides an analytical warped background with tunable energy-density splitting, allowing us to test whether a Bloch-type internal structure can generate long-lived tensor perturbations resonances in the physically admissible region.",
+          "summary": "They show that the internal brane structure alone does not produce long-lived tensor resonances in the ghost-free $f(R)$ branch; sharp peaks found only in the singular branch are artifacts of vanishing effective coupling. For the ghost-free massive Kaluza-Klein modes, they extract quasinormal frequencies with quality factors $Q\\simeq0.9-1.9$, showing broad, short-lived dissipative dynamics that provide the appropriate complex-frequency description when no narrow real-axis resonances are resolved.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -182,7 +407,7 @@
           "arxiv_id": "2606.31561",
           "url": "https://arxivite.org/abs/2606.31561",
           "categories": "hep-th, hep-ph, gr-qc",
-          "summary": "Kaluza-Klein (KK) Gravitons are the direct collider imprints of the higher dimensional bulk physics in our four dimensional universe, arising from the compactification of an extra spatial dimension. In this work, we consider a two-brane warped geometry with a 5D $f(\\mathcal R) = \\mathcal R + \\alpha\\mathcal R^2$ gravity along with cosmological constant $\\Lambda$.",
+          "summary": "They solve the Schrödinger-like equation for graviton fluctuations in a $f(\\mathcal R)=\\mathcal R+\\alpha\\mathcal R^2$ warped braneworld using a Euclidean path integral formalism, obtaining the KK spectrum and normalized wavefunctions from the quantum-mechanical propagator. Higher curvature corrections appreciably raise the KK graviton masses while suppressing virtual graviton cross-sections and enhancing dilepton and diphoton decay widths—observable signatures for future collider experiments.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -195,7 +420,7 @@
           "arxiv_id": "2606.31724",
           "url": "https://arxivite.org/abs/2606.31724",
           "categories": "hep-th, quant-ph",
-          "summary": "Following the holographic proposal that identifies the growth rate of Krylov complexity with the proper radial momentum of an infalling massive probe, we study Krylov complexity in Lifshitz and hyperscaling-violating backgrounds. For pure Lifshitz geometries, we derive exact analytic solutions and obtain quadratic complexity growth for all values of the dynamical exponent.",
+          "summary": "They derive exact analytic solutions for Krylov complexity in pure Lifshitz geometries, obtaining quadratic growth for all dynamical exponents, and show that the hyperscaling-violating exponent directly controls the late-time growth exponent in hyperscaling-violating backgrounds. In a special limit, the complexity exhibits oscillatory behavior with a logarithmic envelope, and the momentum-Krylov correspondence is established as well-defined despite the causal pathologies of Lifshitz spacetimes.",
           "relevance": "holography",
           "tags": [
             "holography"
@@ -203,12 +428,12 @@
         },
         {
           "num": 8,
-          "title": "Fate of &#34;Space-like singularities&#34; in $c=1$ Matrix Model",
+          "title": "Fate of \"Space-like singularities\" in $c=1$ Matrix Model",
           "authors": "Sumit R. Das, Shaun D. Hampton, Sinong Liu et al.",
           "arxiv_id": "2606.31925",
           "url": "https://arxivite.org/abs/2606.31925",
           "categories": "hep-th, cond-mat.stat-mech, gr-qc",
-          "summary": "A class of time dependent backgrounds in two dimensional String Theory leads to superluminal Liouville walls on the worldsheet. In the dual double scaled $c=1$ matrix model these backgrounds involve eigenvalues leaking out to infinity, and the collective field fluctuations become strongly coupled along space-like regions, resembling singularities.",
+          "summary": "They show that space-like singularities in the $c=1$ matrix model are artifacts of the strict double scaling limit, not present in the full quantum theory where non-linear terms in the matrix potential are retained. After a timescale of order $(\\log N)^2$, the phase space density oscillates around a time-independent value, and the coarse-grained density relaxes to equilibrium as a power law with a universal exponent largely independent of the initial state.",
           "relevance": "string-theory",
           "tags": [
             "string-theory"
@@ -221,7 +446,7 @@
           "arxiv_id": "2607.00559",
           "url": "https://arxivite.org/abs/2607.00559",
           "categories": "hep-th, gr-qc",
-          "summary": "Compact objects with black-hole-like exteriors may hide new strong-field physics in their interiors, making their dynamical response a sensitive probe of gravity beyond General Relativity. We present an analytically tractable, gravitationally bound compact object with a genuinely new dynamical signature: under a minimal passive boundary prescription, its exactly controlled odd-parity sector exhibits purely dissipative relaxation poles, rather than the oscillatory modes usually associated with black holes and exotic compact alternatives.",
+          "summary": "They construct a regular vector-supported compact object in a vector-tensor theory whose odd-parity sector exhibits purely dissipative relaxation poles, not oscillatory quasinormal modes, due to a hidden chiral symmetry that turns the perturbation problem into one-way transport. The object can violate the Buchdahl bound and approach the black-hole limit, in which limit the relaxation times diverge and the poles collapse to zero frequency—showing that black-hole behavior is approached through the disappearance of relaxation modes, not the emergence of ringdown.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -234,7 +459,7 @@
           "arxiv_id": "2607.01177",
           "url": "https://arxivite.org/abs/2607.01177",
           "categories": "hep-th, gr-qc, astro-ph.CO",
-          "summary": "Non-perturbative processes in the early universe may create overdense structures in scalar fields like the inflaton, called oscillons. In this work, we explore whether the leading order higher derivative contributions to the scalar-tensor theory change the formation and growth of these structures, and investigate the limits in which the effective field theory (EFT) description breaks down.",
+          "summary": "They find that oscillon properties in Einstein-scalar-Gauss-Bonnet gravity are not significantly modified by leading-order higher derivative terms, and black holes do not generically form. However, for large couplings, the effective field theory can break down during the formation period due to large curvature terms in the densest regions, meaning approximations that neglect local backreaction and non-linear dynamics may miss important effects.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -247,7 +472,7 @@
           "arxiv_id": "2607.00096",
           "url": "https://arxivite.org/abs/2607.00096",
           "categories": "hep-th, hep-ph, gr-qc, math-ph",
-          "summary": "We present a counterexample to Ostrogradsky&#39;s famous &#34;no go&#34; theorem as usually interpreted in quantum field theory (QFT), namely a four-derivative, UV-complete QFT with a consistent perturbative expansion which describes high energy scattering processes. We carefully quantize the theory on an $\\textit{indefinite}$ space of states - a Krein space - using covariant methods which ensure perturbative causality and unitarity (in the form of the optical theorem) to all orders.",
+          "summary": "They present a four-derivative, UV-complete QFT that evades Ostrogradsky's theorem by quantizing on an indefinite Krein space with covariant methods ensuring perturbative causality and unitarity. They generalize the Born rule to Krein spaces and prove that all tree-level transition probabilities are positive despite the presence of ghosts, thanks to a hidden \"ghost parity\" symmetry that becomes explicit in an $O(1,1)$-symmetric two-field embedding.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -260,7 +485,7 @@
           "arxiv_id": "2607.00636",
           "url": "https://arxivite.org/abs/2607.00636",
           "categories": "hep-th, gr-qc, astro-ph.CO",
-          "summary": "We investigate how degeneracies in quasi-de Sitter backgrounds, in the sense of Wands&#39; duality, are reflected in real-space quantum correlations of primordial perturbations. Using the continuous-variable Gaussian formalism for coarse-grained scalar fluctuations, we construct the covariance matrix of a pair of spatially localized modes in inflationary spacetime, and extract the symplectic invariants of the system.",
+          "summary": "They show that for Wands-dual pairs of quasi-de Sitter backgrounds, the symplectic eigenvalues and all entanglement measures—entanglement entropy, mutual information, quantum discord, and log-negativity—coincide identically, even though the individual covariance matrix entries are highly background-dependent. This \"quantum-informatic symmetry\" means coarse-grained local entanglement witnesses cannot distinguish between Wands-dual inflationary histories, rooted in the scale-independent canonical nature of the Wands-duality transformation.",
           "relevance": "entanglement",
           "tags": [
             "entanglement"
@@ -273,7 +498,7 @@
           "arxiv_id": "2607.00866",
           "url": "https://arxivite.org/abs/2607.00866",
           "categories": "hep-th, gr-qc",
-          "summary": "We give a prescription to compute a dissipative action describing the large-scale thermal stress tensor dynamics of a holographic quantum field theory dual to AdS$_4$ gravity, in the context of the Schwinger-Keldysh formalism. Our prescription is valid to quadratic order in perturbations about the thermal equilibrium state.",
+          "summary": "They provide a prescription to compute a dissipative action for large-scale thermal stress tensor dynamics in a holographic QFT dual to AdS$_4$ gravity, valid to quadratic order in perturbations, with hydrodynamic degrees of freedom realized as relative diffeomorphisms between the black hole horizon and the two asymptotic boundaries of the Crossley-Glorioso-Liu contour. They explicitly compute the action to first order in derivatives and study horizon symmetries that preserve the boundary conditions, relating them to conjectured hydrodynamic symmetries responsible for many-body quantum chaos.",
           "relevance": "black-holes, many-body, holography",
           "tags": [
             "black-holes",
@@ -288,7 +513,7 @@
           "arxiv_id": "2606.30818",
           "url": "https://arxivite.org/abs/2606.30818",
           "categories": "gr-qc, astro-ph.CO",
-          "summary": "Bouncing cosmologies offer an alternative to the standard $\\Lambda$CDM model by avoiding the problem of the initial cosmological singularity by construction. In these models, the universe undergoes a contraction phase that begins in a nearly flat and dilute state, followed by a bounce, after which the universe transitions into the expanding phase described by the $\\Lambda$CDM model.",
+          "summary": "They develop a cosmological model with two interacting fluids to track the evolution of a black hole population through the contraction, bounce, and expansion phases of a bouncing cosmology, and find that the cosmological fluid alters its properties in a fixed-geometry spacetime. Black holes are shown to persist through the bounce, while most other large-scale structures are erased during contraction.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -301,7 +526,7 @@
           "arxiv_id": "2606.30969",
           "url": "https://arxivite.org/abs/2606.30969",
           "categories": "gr-qc",
-          "summary": "We investigate the repetitive Penrose process for charged particles in an initially extremal Kerr--Newman black hole and develop a nonlinear iterative framework in which the black-hole mass, angular momentum, electric charge, and irreducible mass are updated after every extraction event. By imposing the triple turning-point condition, we obtain an analytic solution of the conservation equations, allowing the entire extraction sequence to be followed self-consistently.",
+          "summary": "They develop a nonlinear iterative framework for the repetitive Penrose process in Kerr-Newman black holes, updating mass, angular momentum, and charge after each extraction, and show that attractive electromagnetic interactions ($\\hat Q\\hat q_1\\u003c0$) enhance both the energy return on investment and the extraction efficiency. Near a critical charge, the evolution approaches the reversible Christodoulou-Ruffini limit with energy utilization efficiency approaching unity; unlike the Reissner-Nordström case, the Kerr-Newman hole can reverse its charge sign without violating the area theorem or cosmic censorship.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -14548,9 +14773,41 @@
     }
   ],
   "stats": {
-    "total_digests": 116,
-    "total_entries": 999,
+    "total_digests": 119,
+    "total_entries": 1014,
     "unique_tags": {
+      "quantum-gravity": {
+        "first_seen": "2026-07-07",
+        "count": 52
+      },
+      "black-holes": {
+        "first_seen": "2026-07-07",
+        "count": 153
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-07-07",
+        "count": 11
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-07-07",
+        "count": 7
+      },
+      "entanglement": {
+        "first_seen": "2026-07-07",
+        "count": 53
+      },
+      "many-body": {
+        "first_seen": "2026-07-07",
+        "count": 16
+      },
+      "physics": {
+        "first_seen": "2026-07-07",
+        "count": 83
+      },
+      "topological": {
+        "first_seen": "2026-07-07",
+        "count": 27
+      },
       "Quantum Information & Computing": {
         "first_seen": "2026-07-06",
         "count": 76
@@ -14571,14 +14828,6 @@
         "first_seen": "2026-07-06",
         "count": 96
       },
-      "black-holes": {
-        "first_seen": "2026-07-03",
-        "count": 148
-      },
-      "physics": {
-        "first_seen": "2026-07-03",
-        "count": 78
-      },
       "holography": {
         "first_seen": "2026-07-03",
         "count": 39
@@ -14587,29 +14836,9 @@
         "first_seen": "2026-07-03",
         "count": 6
       },
-      "entanglement": {
-        "first_seen": "2026-07-03",
-        "count": 51
-      },
-      "many-body": {
-        "first_seen": "2026-07-03",
-        "count": 14
-      },
-      "topological": {
-        "first_seen": "2026-07-02",
-        "count": 26
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-07-02",
-        "count": 48
-      },
       "Optics & Photonics": {
         "first_seen": "2026-07-02",
         "count": 38
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-07-01",
-        "count": 10
       },
       "moltbook": {
         "first_seen": "2026-06-27",
@@ -14638,10 +14867,6 @@
       "tensor-networks": {
         "first_seen": "2026-06-23",
         "count": 8
-      },
-      "quantum-cosmology": {
-        "first_seen": "2026-06-18",
-        "count": 6
       },
       "Technology & Engineering": {
         "first_seen": "2026-06-16",
@@ -17753,21 +17978,22 @@
       }
     },
     "tag_counts": {
+      "quantum-gravity": 52,
+      "black-holes": 153,
+      "loop-quantum-gravity": 11,
+      "quantum-cosmology": 7,
+      "entanglement": 53,
+      "many-body": 16,
+      "physics": 83,
+      "topological": 27,
       "Quantum Information & Computing": 76,
       "Quantum Gravity": 27,
       "Black Hole Physics": 16,
       "Many-Body Physics & Condensed Matter": 36,
       "Science Communication & Policy": 96,
-      "black-holes": 148,
-      "physics": 78,
       "holography": 39,
       "string-theory": 6,
-      "entanglement": 51,
-      "many-body": 14,
-      "topological": 26,
-      "quantum-gravity": 48,
       "Optics & Photonics": 38,
-      "loop-quantum-gravity": 10,
       "moltbook": 222,
       "quantum": 193,
       "llms": 103,
@@ -17775,7 +18001,6 @@
       "Experiment & Observation": 36,
       "quantum-computing": 14,
       "tensor-networks": 8,
-      "quantum-cosmology": 6,
       "Technology & Engineering": 39,
       "arxiv": 3,
       "Black-Hole-Thermodynamics": 3,
@@ -18555,6 +18780,48 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "arxiv": [
+        "2026-07-07",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-06",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "web-science": [
         "2026-07-06",
         "2026-07-02",
@@ -18597,48 +18864,9 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "arxiv": [
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-06",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
       "moltbook": [
+        "2026-07-06",
+        "2026-07-05",
         "2026-07-02",
         "2026-07-01",
         "2026-06-30",
