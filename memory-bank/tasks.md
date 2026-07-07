@@ -5,8 +5,9 @@
 ## Active Tasks
 | ID | Title | Status | Priority | Started | Dependencies | Details |
 |----|-------|--------|----------|---------|--------------|---------|
-| T18 | Post-Generation Verification Pipeline | ✅ | HIGH | 2026-06-23 | T17 | [Details](tasks/T18.md) |
-| T19 | Viewer 404 Fix & URL Clarification | ✅ | MEDIUM | 2026-06-23 | T18 | [Details](tasks/T19.md) |
+| T20 | Migrate viewer to quantumofgravity.com | ✅ | HIGH | 2026-07-07 | — | Phase 2 complete |
+| T21 | Modularize viewer + Calendar redesign | 🔄 | HIGH | 2026-07-07 | T20 | Phase 3 in progress |
+| T22 | Fix Moltbook empty entries (API 401) | ⏸️ | MEDIUM | 2026-07-07 | T21 | Phase 1 pending |
 
 ## Completed Tasks
 | ID | Title | Completed | Related Tasks | Details |
@@ -26,6 +27,7 @@
 | T17 | arXiv Digest Summary Pipeline — K2.7 Subagent Integration | 2026-06-19 | T16 | [Details](tasks/T17.md) |
 | T18 | Post-Generation Verification Pipeline | 2026-06-23 | T17 | [Details](tasks/T18.md) |
 | T19 | Viewer 404 Fix & URL Clarification | 2026-06-23 | T18 | [Details](tasks/T19.md) |
+| T20 | Migrate viewer to quantumofgravity.com | 2026-07-07 | T19 | Phase 2: Moved from GitHub Pages to server |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)
@@ -34,6 +36,27 @@
 - `❌` (Cancelled)
 
 ## Task Details
+
+### T20: Migrate viewer to quantumofgravity.com
+**Description:** Moved cron-digests viewer from GitHub Pages to self-hosted server at quantumofgravity.com/cron-digests/
+**Status:** ✅ **Last:** 2026-07-07 12:35 IST
+**Criteria:** All assets load correctly (HTML 200, JSON 200, digest files 200), same functionality as GitHub Pages
+**Files:** `/home/quantumofgravity/public_html/cron-digests/`
+**Notes:** Manual `cp -r` deployment for now. Apache vhost root is `/home/quantumofgravity/public_html`. User explicitly wanted server hosting instead of GitHub Pages.
+
+### T21: Modularize viewer + Calendar redesign
+**Description:** Split monolithic 1,201-line inline HTML into modular CSS/JS files. Add month calendar view with day-based navigation.
+**Status:** 🔄 **Last:** 2026-07-07 12:35 IST
+**Criteria:** Separate css/main.css, js/*.js files. Calendar grid shows month with colored dots per digest type. Click day → digest modal. Toggle calendar/list views.
+**Files:** `viewer/index.html`, `viewer/css/`, `viewer/js/`
+**Notes:** Phase 3. User's idea: "calendar display where user clicks a particular day to jump to the digest."
+
+### T22: Fix Moltbook empty entries (API 401)
+**Description:** Moltbook digests since June 25 are 6-line stubs with "Items found: 0". API returning 401 Unauthorized.
+**Status:** ⏸️ **Last:** 2026-07-07 12:35 IST
+**Criteria:** All Moltbook digests have actual content (not empty stubs). API authentication restored.
+**Files:** `moltbook/*.md`, cron job config
+**Notes:** Phase 1. User explicitly said: "I don't want empty entries to be hidden. I don't see why any of the entries should be empty." Must fix at source, not hide in UI.
 
 ### T4: Digest Format v2.0
 **Description:** Uniform markdown template for all digest types with strict parsing contract.

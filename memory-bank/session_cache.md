@@ -1,149 +1,78 @@
 # Session Cache
 
-*Last Updated: 2026-06-23 10:30 IST*
+*Last Updated: 2026-07-07 12:40 IST*
 
-**Started**: 2026-06-23 10:00 IST
-**Focus Task**: T18 — Post-Generation Verification Pipeline
-**Session File**: `sessions/2026-06-23-morning.md`
-**Status**: 🔄 Active: 1, Paused: 0, Completed: 0
+**Started**: 2026-07-07 12:00 IST
+**Focus Task**: T20 — Migrate viewer to quantumofgravity.com, T21 — Modularize + Calendar redesign
+**Session File**: `sessions/2026-07-07-afternoon.md`
+**Status**: 🔄 Active: 1, Completed: 1
 
 ## Overview
 
-- Active: 1 | Paused: 0 | Completed: 17
-- Last Session: 2026-06-19 early morning
-- Current Period: morning
+- Active: 1 (T21) | Paused: 1 (T22) | Completed: 1 (T20)
+- Last Session: 2026-06-23 morning (T18 verification pipeline)
+- Current Period: afternoon
+
+## Completed Today
+
+### T20: Migrate viewer to quantumofgravity.com ✅
+**Completed:** 2026-07-07 12:35 IST
+
+Moved cron-digests viewer from GitHub Pages to self-hosted server:
+1. Located Apache vhost DocumentRoot: `/home/quantumofgravity/public_html`
+2. Created `/home/quantumofgravity/public_html/cron-digests/`
+3. Copied `viewer/*` contents to server
+4. Set ownership to `quantumofgravity:quantumofgravity`
+5. Verified all endpoints return 200 OK
+
+**Result:** `https://quantumofgravity.com/cron-digests/` live and working.
 
 ## Active Tasks
 
-### T18: Post-Generation Verification Pipeline
+### T21: Modularize viewer + Calendar redesign
 **Status:** 🔄 **IN PROGRESS**
 **Priority:** HIGH
-**Started:** 2026-06-23 10:00 IST
-**Context**: Building non-blocking verification to ensure digests render correctly before commit/push
-**Files**: `scripts/verify-digest.sh`, `scripts/arxiv-digest-full.sh`, `scripts/build-index.js`
+**Started:** 2026-07-07 12:35 IST
+**Context**: User wants monolithic 1,201-line index.html split into modular CSS/JS files, plus a calendar view as primary navigation.
+**Files**: `viewer/index.html`, `viewer/css/`, `viewer/js/`
 **Progress**:
-1. ✅ Created verify-digest.sh (8 checkpoints)
-2. ✅ Tested on arxiv 2026-06-23 (all passed)
-3. ✅ Integrated into arxiv-digest-full.sh (non-blocking)
-4. ✅ Committed moltbook digests 2026-06-20 through 2026-06-23
-5. ✅ Fixed build-index.js validation filter
-6. ⬜ Integrate into web-science cron
-7. ⬜ Integrate into moltbook wrapper (if exists)
+1. ✅ Examined current viewer (1,201 lines, 45KB)
+2. ✅ Identified all JS functionality to preserve
+3. ✅ Designed modular structure (css/, js/)
+4. ⬜ Create `css/main.css` — layout, calendar, modal, cards
+5. ⬜ Create `css/theme.css` — dark mode overrides
+6. ⬜ Create `js/utils.js` — markdown converter, date helpers
+7. ⬜ Create `js/calendar.js` — month grid, day dots, navigation
+8. ⬜ Create `js/modal.js` — digest reader, markdown render, KaTeX
+9. ⬜ Create `js/search.js` — search + filter logic
+10. ⬜ Create `js/app.js` — main init, data loading, view toggle
+11. ⬜ Rewrite `index.html` as thin shell
+12. ⬜ Deploy to server and verify
 
-## Completed Tasks (Last 5)
-1. T17: arXiv Summary Pipeline — 2026-06-19 ✅
-2. T16: Bug Fixes (Math, Tags, Summaries) — 2026-06-19 ✅
-3. T15: arXiv HTML Structure Fix — 2026-06-16 ✅
-4. T14: Throttled Rerun — 2026-06-05 ✅
-5. T13: Moltbook Integration — 2026-05-25 ✅
+## Paused Tasks
 
-## Session History (Last 5)
-1. `sessions/2026-06-19-early.md` — T16/T17 bug fixes and K2.7 subagent
-2. `sessions/2026-06-16-morning.md` — T15 arXiv HTML fix
-3. `sessions/2026-06-05-afternoon.md` — T14 throttled rerun
-4. `sessions/2026-05-25-morning.md` — T13 moltbook integration
-5. `sessions/2026-05-21-afternoon.md` — T10/T11 reliability fixes
+### T22: Fix Moltbook empty entries (API 401)
+**Status:** ⏸️ **PAUSED**
+**Priority:** MEDIUM
+**Blocked by:** T21
 
-### T17: arXiv Digest Summary Pipeline — K2.7 Subagent Integration
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-06-19 02:52 IST
-**Completed:** 2026-06-19 03:12 IST
+Moltbook digests since June 25 are 6-line stubs with "Items found: 0". User explicitly wants this fixed at source (not hidden in UI). Will address after T21 completes.
 
-Updated arXiv Morning Digest cron job (e732d817) to spawn a K2.7 subagent after generating the digest. The subagent rewrites all summaries to capture actual contributions instead of using the "first 2 sentences" heuristic.
+## Decisions Made
 
-Tested successfully on 2026-06-19 digest. Next live run: Sat 2026-06-20 at 7:11 AM IST.
-
----
-
-## Overview
-
-- Active: 0 | Paused: 0 | Completed: 10
-- Last Session: 2026-06-16 morning
-- Current Period: morning
-
-## Active Tasks
-
-None.
-
-## Completed Tasks
-
-### T4: Digest Format v2.0
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-12
-**Completed:** 2026-05-12
-
-### T5: Update Cron Job Prompts
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-12
-**Completed:** 2026-05-12
-**Dependencies:** T4
-
-### T6: Schema, Validation, and Index Infrastructure
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-18
-**Completed:** 2026-05-18
-**Dependencies:** T4
-
-### T7: Viewer UI/UX Overhaul
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-18
-**Completed:** 2026-05-18
-**Dependencies:** T4, T6
-
-### T8: CloakBrowser Integration for Web Science Digest
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-18
-**Completed:** 2026-05-18
-**Dependencies:** T6
-
-### T9: CI/CD Pipeline for cron-digests
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-18
-**Completed:** 2026-05-18
-**Dependencies:** T6, T7
-
-### T10: Cron Reliability Fix — Validator, CI, and CloakBrowser Integration
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-21
-**Completed:** 2026-05-21
-**Dependencies:** T6, T8, T9
-
-### T11: arXiv Metadata Hallucination Fix — Verification Pipeline
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-25
-**Completed:** 2026-05-25
-**Dependencies:** T6, T10
-
-### T12: ES Module Fix — package.json for CommonJS scripts
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-25
-**Completed:** 2026-05-25
-**Dependencies:** T11
-
-### T13: Moltbook Research Stream Integration into Viewer
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-05-25
-**Completed:** 2026-05-25
-**Dependencies:** T6, T9
-
-### T14: arXiv Digest Throttled Rerun — 429 Error Prevention
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-06-05
-**Completed:** 2026-06-05
-
-### T15: arXiv HTML Structure Fix — Abstract and Category Extraction
-**Status:** ✅ **COMPLETED**
-**Started:** 2026-06-16
-**Completed:** 2026-06-16
-**Dependencies:** T14
+1. **Phase order**: 2 (migrate) → 3 (redesign) → 1 (fix Moltbook). User-approved.
+2. **Empty entries**: Do NOT hide. Fix the root cause (Moltbook API 401).
+3. **Modularization**: Split into css/ and js/ directories. Thin index.html shell.
+4. **Calendar view**: Month grid with colored dots. Click day → digest modal. Toggle to list view.
+5. **Preserve all features**: Search, tags, keyboard nav, dark mode, KaTeX, PDF links.
 
 ## Session History (Last 5)
 
-1. `sessions/2026-06-16-morning.md` — T15: arXiv HTML Structure Fix
-2. `sessions/2026-06-05-evening.md` — T14: arXiv Digest Throttled Rerun
-3. `sessions/2026-05-25-morning.md` — T13: Moltbook Research Stream Integration
-4. `sessions/2026-05-25-night.md` — T11: arXiv Metadata Hallucination Fix
-5. `sessions/2026-05-21-evening.md` — T10: Cron Reliability Fix
+1. `sessions/2026-07-07-afternoon.md` — T20: Server migration + T21 planning
+2. `sessions/2026-06-23-morning.md` — T18: Verification pipeline
+3. `sessions/2026-06-19-early.md` — T16/T17: Bug fixes and K2.7 subagent
+4. `sessions/2026-06-16-morning.md` — T15: arXiv HTML fix
+5. `sessions/2026-06-05-afternoon.md` — T14: Throttled rerun
 
 ---
-*Updated: 2026-06-16 08:20:00 IST*
+*Updated: 2026-07-07 12:40 IST*
