@@ -245,6 +245,34 @@ header p {
   background: var(--accent);
   color: var(--accent-fg);
 }
+.calendar-legend {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  padding: 8px 16px;
+  background: var(--card-bg);
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  font-size: 13px;
+  color: var(--meta-fg);
+  width: fit-content;
+}
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+.legend-item .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+.legend-item .dot.arxiv { background: var(--dot-arxiv); }
+.legend-item .dot.web-science { background: var(--dot-web); }
+.legend-item .dot.moltbook { background: var(--dot-moltbook); }
 .calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -259,7 +287,8 @@ header p {
   text-transform: uppercase;
 }
 .calendar-day {
-  aspect-ratio: 1;
+  aspect-ratio: auto;
+  min-height: 70px;
   background: var(--card-bg);
   border-radius: 10px;
   padding: 8px;
@@ -289,7 +318,20 @@ header p {
 }
 .calendar-day.today {
   background: var(--calendar-today);
-  border-color: #f57f17;
+  position: relative;
+}
+.calendar-day.today::after {
+  content: 'TODAY';
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  font-size: 8px;
+  font-weight: 700;
+  color: #f57f17;
+  background: rgba(245, 127, 23, 0.15);
+  padding: 1px 4px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
 }
 .calendar-day .day-number {
   font-size: 14px;
@@ -304,8 +346,8 @@ header p {
   justify-content: center;
 }
 .calendar-day .day-dots .dot {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
 }
 .calendar-day .dot.arxiv { background: var(--dot-arxiv); }
@@ -651,7 +693,133 @@ kbd {
   margin: 20px 0;
 }
 
+/* ---------- Day Modal (Calendar Click) ---------- */
+.day-modal-header {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid var(--hr);
+}
+.day-modal-header h1 {
+  margin: 0 0 5px 0;
+  font-size: 1.6rem;
+}
+.day-modal-subtitle {
+  color: var(--meta-fg);
+  font-size: 14px;
+}
+
+.day-modal-digests {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.day-digest-card {
+  background: var(--card-bg);
+  border: 2px solid var(--input-border);
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.day-digest-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--accent);
+}
+.day-digest-card.arxiv { border-left: 4px solid var(--dot-arxiv); }
+.day-digest-card.web { border-left: 4px solid var(--dot-web); }
+.day-digest-card.moltbook { border-left: 4px solid var(--dot-moltbook); }
+
+.day-digest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.day-digest-type {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+.day-digest-type.type-arxiv { background: var(--dot-arxiv); color: white; }
+.day-digest-type.type-web { background: var(--dot-web); color: white; }
+.day-digest-type.type-moltbook { background: var(--dot-moltbook); color: white; }
+
+.day-digest-count {
+  font-size: 13px;
+  color: var(--meta-fg);
+  font-weight: 500;
+}
+
+.day-digest-items {
+  margin-bottom: 12px;
+}
+.day-digest-item {
+  font-size: 14px;
+  color: var(--fg);
+  padding: 6px 0;
+  border-bottom: 1px solid var(--hr);
+  line-height: 1.5;
+}
+.day-digest-item:last-child {
+  border-bottom: none;
+}
+.day-digest-item.empty {
+  color: var(--meta-fg);
+  font-style: italic;
+}
+
+.day-digest-footer {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 500;
+  text-align: right;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+.day-digest-card:hover .day-digest-footer {
+  opacity: 1;
+}
+
 /* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .calendar-grid {
+    gap: 4px;
+  }
+  .calendar-day {
+    padding: 4px;
+    border-radius: 6px;
+  }
+  .calendar-day .day-number {
+    font-size: 11px;
+  }
+  .calendar-day .dot {
+    width: 6px;
+    height: 6px;
+  }
+  .digest-grid {
+    grid-template-columns: 1fr;
+  }
+  .controls {
+    flex-direction: column;
+  }
+  .modal-content {
+    padding: 25px;
+  }
+  .header-actions {
+    position: static;
+    margin-top: 15px;
+    justify-content: flex-end;
+  }
+  .calendar-header h2 {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .calendar-grid {
     gap: 4px;

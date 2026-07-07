@@ -118,20 +118,53 @@ function showDayModal(date, digests) {
   const modal = document.getElementById('modal');
   const body = document.getElementById('modalBody');
 
-  let html = `<h1>${date}</h1>`;
-  html += `<p>${digests.length} digest(s) for this day:</p><hr>`;
+  let html = `<div class="day-modal-header">`;
+  html += `<h1>${date}</h1>`;
+  html += `<span class="day-modal-subtitle">${digests.length} digest${digests.length > 1 ? 's' : ''}</span>`;
+  html += `</div>`;
+  html += `<div class="day-modal-digests">`;
 
   digests.forEach(d => {
-    html += `<div class="paper-item">`;
-    html += `<h2><span class="digest-type type-${d.type === 'arxiv' ? 'arxiv' : d.type === 'moltbook' ? 'moltbook' : 'web'}">${d.type}</span> — ${d.meta?.itemCount || '?'} items</h2>`;
-    html += `<p>${d.meta?.items?.join(', ') || 'No preview available'}</p>`;
-    html += `<button class="icon-btn" style="margin-top:10px" onclick="window.loadDigestModal('${d.date}', '${d.type}')">📖 Read</button>`;
+    const typeClass = d.type === 'arxiv' ? 'arxiv' : d.type === 'moltbook' ? 'moltbook' : 'web';
+    const typeLabel = d.type === 'arxiv' ? 'arXiv' : d.type === 'moltbook' ? 'Moltbook' : 'Web Science';
+    const itemCount = d.meta?.itemCount ?? '?';
+    const items = d.meta?.items || [];
+
+    html += `<div class="day-digest-card ${typeClass}" data-date="${d.date}" data-type="${d.type}">`;
+    html += `<div class="day-digest-header">`;
+    html += `<span class="day-digest-type type-${typeClass}">${typeLabel}</span>`;
+    html += `<span class="day-digest-count">${itemCount} item${itemCount !== 1 ? 's' : ''}</span>`;
+    html += `</div>`;
+    html += `<div class="day-digest-items">`;
+    if (items.length > 0) {
+      items.forEach(item => {
+        html += `<div class="day-digest-item">${item}</div>`;
+      });
+    } else {
+      html += `<div class="day-digest-item empty">No preview available</div>`;
+    }
+    html += `</div>`;
+    html += `<div class="day-digest-footer">Click to read full digest →</div>`;
     html += `</div>`;
   });
+
+  html += `</div>`;
 
   body.innerHTML = html;
   modal.classList.add('active');
   document.body.style.overflow = 'hidden';
+
+  // Click handlers for each digest card
+  body.querySelectorAll('.day-digest-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const date = card.dataset.date;
+      const type = card.dataset.type;
+      const digest = allDigests.find(d => d.date === date && d.type === type);
+      if (digest) {
+        import('./modal.js').then(m => m.showModal(digest));
+      }
+    });
+  });
 }
 
 // Expose for onclick handlers
