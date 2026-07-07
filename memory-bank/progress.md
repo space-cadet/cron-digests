@@ -44,8 +44,16 @@
    - KaTeX math rendering
    - Keyboard shortcuts (j/k, Enter, Esc, /)
    - Dark mode with toggle and localStorage persistence
-4. Deployed and verified on quantumofgravity.com/cron-digests/
-5. Committed: `1dd5918`, pushed to GitHub
+4. List view improvements:
+   - Month-grouped sticky headers (July 2026, June 2026, May 2026)
+   - Cards organized under month sections with accent border
+5. Browser history navigation:
+   - URL hash updates: `#day=YYYY-MM-DD` for day modal, `#digest=YYYY-MM-DD-type` for digest modal
+   - Back/forward buttons navigate through modal stack correctly
+   - `popstate` listener handles all hash changes
+6. Cloudflare cache workaround: versioned JS filenames (`*.v3.js`)
+7. Deployed and verified on quantumofgravity.com/cron-digests/
+8. Committed: `1dd5918`, `6c13c38`, `82453b0`, pushed to GitHub
 
 ### T20: Server Migration
 1. Located Apache vhost DocumentRoot: `/home/quantumofgravity/public_html`

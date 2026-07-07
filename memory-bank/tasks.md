@@ -5,9 +5,7 @@
 ## Active Tasks
 | ID | Title | Status | Priority | Started | Dependencies | Details |
 |----|-------|--------|----------|---------|--------------|---------|
-| T20 | Migrate viewer to quantumofgravity.com | ✅ | HIGH | 2026-07-07 | — | Phase 2 complete |
-| T21 | Modularize viewer + Calendar redesign | ✅ | HIGH | 2026-07-07 | T20 | Phase 3 complete |
-| T22 | Fix Moltbook empty entries (API 401) | ⏸️ | MEDIUM | 2026-07-07 | T21 | Phase 1 pending |
+| T22 | Fix Moltbook empty entries (API 401) | 🔄 | MEDIUM | 2026-07-07 | T21 | Phase 1 — next up |
 
 ## Completed Tasks
 | ID | Title | Completed | Related Tasks | Details |
@@ -27,7 +25,8 @@
 | T17 | arXiv Digest Summary Pipeline — K2.7 Subagent Integration | 2026-06-19 | T16 | [Details](tasks/T17.md) |
 | T18 | Post-Generation Verification Pipeline | 2026-06-23 | T17 | [Details](tasks/T18.md) |
 | T19 | Viewer 404 Fix & URL Clarification | 2026-06-23 | T18 | [Details](tasks/T19.md) |
-| T20 | Migrate viewer to quantumofgravity.com | 2026-07-07 | T19 | Phase 2: Moved from GitHub Pages to server |
+| T20 | Migrate viewer to quantumofgravity.com | 2026-07-07 | T19 | Phase 2: Server migration |
+| T21 | Modularize viewer + Calendar redesign | 2026-07-07 | T20 | Phase 3: Calendar + history + sticky headers |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)
@@ -45,11 +44,11 @@
 **Notes:** Manual `cp -r` deployment for now. Apache vhost root is `/home/quantumofgravity/public_html`. User explicitly wanted server hosting instead of GitHub Pages.
 
 ### T21: Modularize viewer + Calendar redesign
-**Description:** Split monolithic 1,201-line inline HTML into modular CSS/JS files. Add month calendar view with day-based navigation.
-**Status:** 🔄 **Last:** 2026-07-07 12:35 IST
-**Criteria:** Separate css/main.css, js/*.js files. Calendar grid shows month with colored dots per digest type. Click day → digest modal. Toggle calendar/list views.
+**Description:** Split monolithic 1,201-line inline HTML into modular CSS/JS files. Add month calendar view with day-based navigation, browser history support, and month-grouped sticky headers.
+**Status:** ✅ **Last:** 2026-07-07 16:50 IST
+**Criteria:** Separate css/main.css, js/*.js files. Calendar grid shows month with colored dots per digest type. Click day → digest modal. Back/forward buttons work. List view has sticky month headers.
 **Files:** `viewer/index.html`, `viewer/css/`, `viewer/js/`
-**Notes:** Phase 3. User's idea: "calendar display where user clicks a particular day to jump to the digest."
+**Notes:** Phase 3 complete. Commits: `1dd5918`, `6c13c38`, `82453b0`. Cloudflare cache required versioned JS filenames (`*.v3.js`).
 
 ### T22: Fix Moltbook empty entries (API 401)
 **Description:** Moltbook digests since June 25 are 6-line stubs with "Items found: 0". API returning 401 Unauthorized.

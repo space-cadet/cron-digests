@@ -1,11 +1,11 @@
 # Session Cache
 
-*Last Updated: 2026-07-07 12:55 IST*
+*Last Updated: 2026-07-07 16:55 IST*
 
 **Started**: 2026-07-07 12:00 IST
 **Focus Task**: T21 — Modularize + Calendar redesign
 **Session File**: `sessions/2026-07-07-afternoon.md`
-**Status**: ✅ Completed: 2, Paused: 1
+**Status**: ✅ Completed: 2, Paused: 0
 
 ## Overview
 
@@ -45,19 +45,35 @@ Complete viewer rewrite:
    - 7-column month grid
    - Day cells with colored dots (arXiv=blue, Web Science=purple, Moltbook=orange)
    - Item count per day
-   - Today highlighting
+   - Today highlighting with "TODAY" label
    - Prev/Next month navigation
-   - Click day → digest modal
+   - Click day → digest modal with digest cards
 
-3. **Preserved features:**
-   - Search, type filters, tag bar
-   - List view (toggle from calendar)
+3. **Browser history navigation:**
+   - URL hash updates: `#day=YYYY-MM-DD`, `#digest=YYYY-MM-DD-type`
+   - Back/forward buttons navigate modal stack correctly
+   - `popstate` listener handles all transitions
+
+4. **List view improvements:**
+   - Month-grouped sticky headers (July 2026, June 2026, May 2026)
+   - Search, type filters, tag bar preserved
+
+5. **Preserved features:**
    - Modal with ToC, PDF links, arxivite.org
    - KaTeX math rendering
    - Keyboard shortcuts (j/k, Enter, Esc, /)
    - Dark mode
 
-4. Deployed to server, committed (`1dd5918`), pushed to GitHub
+6. **Cache busting:**
+   - Cloudflare caches JS with 6-month max-age
+   - Query params (`?v=3`) don't bust Cloudflare cache
+   - Solution: versioned JS filenames (`*.v3.js`)
+
+7. Deployed to server, committed (`1dd5918`, `6c13c38`, `82453b0`), pushed to GitHub
+
+## Next Session
+
+**T22: Fix Moltbook empty entries (API 401)** — User explicitly wants this next
 
 ## Paused Tasks
 

@@ -32,15 +32,19 @@ Moved from GitHub Pages to quantumofgravity.com/cron-digests/
    - Today highlighting
    - Prev/Next month navigation
    - Day click → shows digests for that date
-4. List view preserved as toggle alternative
-5. Deployed to server and verified
-6. Committed and pushed to GitHub
+4. List view improvements:
+   - Month-grouped sticky headers (July 2026, June 2026, etc.)
+   - Search and filters preserved
+5. Browser history navigation:
+   - URL hash updates when opening modals (#day=YYYY-MM-DD, #digest=...)
+   - Back/forward buttons work through modal stack
+6. Deployed to server and verified
+7. Committed and pushed to GitHub
 
 ## Next
 
-- **T22:** Fix Moltbook empty entries (API 401)
+- **T22:** Fix Moltbook empty entries (API 401) — user explicitly wants this next
 - Monitor user feedback on new calendar UI
-- Consider adding week view or date picker if requested
 
 ## Blockers
 
