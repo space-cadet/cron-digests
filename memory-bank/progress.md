@@ -1,31 +1,54 @@
 # Project Progress
 
-*Last Updated: 2026-07-07 12:35 IST*
+*Last Updated: 2026-07-07 12:55 IST*
 
 ## What Works
 
-- [x] **Server migration** (Phase 2): Live at `https://quantumofgravity.com/cron-digests/`
-- [x] All previous features: card grid, modal, search, tags, keyboard nav, dark mode, KaTeX
+- [x] **T20: Server migration** — Live at `https://quantumofgravity.com/cron-digests/`
+- [x] **T21: Modular viewer + Calendar** — Complete 2026-07-07
+  - Split 1,201-line inline HTML into modular CSS/JS
+  - 82-line `index.html` shell + `css/`, `js/` directories
+  - Month calendar with colored dots per digest type
+  - Day click → digest modal
+  - Toggle calendar/list views
+  - All features preserved (search, tags, keyboard, dark mode, KaTeX)
 - [x] Post-generation verification pipeline (T18): `verify-digest.sh`, `digest-health-check.sh`, Playwright tests
 - [x] Three cron jobs: arXiv, Web Science, Moltbook — generating daily
 - [x] CI/CD: GitHub Actions auto-validates, rebuilds index, deploys to Pages on push
 - [x] 91+ digests indexed, 831 entries, 800 tags
 
-## New Context (2026-07-07)
-
-User wants a **complete viewer redesign** — from linear card grid to calendar-based navigation. Also wants the viewer **modularized** (split from monolithic 1,201-line inline HTML into separate CSS/JS files).
-
-### Current Issues Identified
-
-- **Empty Moltbook entries:** Recent files (June 25–July 7) are 6-line stubs with "Items found: 0". API returning 401.
-- **Monolithic viewer:** 45KB single inline file. Hard to maintain.
-- **No date-based navigation:** Users must scroll linearly to find a specific day.
-- **Server vs Pages dual deployment:** Now primarily on server, GitHub Pages as backup.
-
 ## Completed (2026-07-07)
 
-### Phase 2: Server Migration
-1. Located Apache vhost for `quantumofgravity.com` → DocumentRoot `/home/quantumofgravity/public_html`
+### T21: Modularize viewer + Calendar redesign
+1. Created modular file structure:
+   - `viewer/css/main.css` — layout, calendar grid, cards, modal
+   - `viewer/css/theme.css` — dark mode variable overrides
+   - `viewer/js/utils.js` — markdown converter, date helpers, arXiv ID extraction
+   - `viewer/js/calendar.js` — month grid rendering, prev/next navigation, day click handlers
+   - `viewer/js/modal.js` — digest reader modal, type-specific rendering (arXiv/web-science/moltbook)
+   - `viewer/js/search.js` — search/filter logic, list view rendering, keyboard nav
+   - `viewer/js/app.js` — main init, data loading, view toggle, tag bar, event coordination
+2. Calendar features:
+   - 7-column month grid with Sun-Sat headers
+   - Day cells show: day number, colored dots (arXiv=blue, Web Science=purple, Moltbook=orange), item count
+   - Today highlighting (amber border)
+   - Hover effects (lift + border)
+   - Click day → opens modal showing all digests for that date
+   - Prev/Next month buttons
+3. Preserved all existing functionality:
+   - Search box with real-time filtering
+   - Type filter buttons (All/arXiv/Web Science/Moltbook)
+   - Tag bar with top-20 tags, click-to-filter, clear button
+   - List view as toggle alternative to calendar
+   - Modal with ToC, arxivite.org links, PDF links
+   - KaTeX math rendering
+   - Keyboard shortcuts (j/k, Enter, Esc, /)
+   - Dark mode with toggle and localStorage persistence
+4. Deployed and verified on quantumofgravity.com/cron-digests/
+5. Committed: `1dd5918`, pushed to GitHub
+
+### T20: Server Migration
+1. Located Apache vhost DocumentRoot: `/home/quantumofgravity/public_html`
 2. Created `cron-digests/` subdirectory
 3. Copied `viewer/*` contents
 4. Set correct ownership (`quantumofgravity:quantumofgravity`)
@@ -34,31 +57,27 @@ User wants a **complete viewer redesign** — from linear card grid to calendar-
 
 ## In Progress
 
-- [ ] **Phase 3: Modularization + Calendar redesign**
-  - [ ] Split `index.html` into modular files (css/, js/)
-  - [ ] Design month calendar view
-  - [ ] Day cells with colored dots per digest type
-  - [ ] Click day → show digest modal
-  - [ ] Toggle between calendar and list views
+None. T21 just completed.
 
 ## Planned
 
-- [ ] **Phase 1: Fix Moltbook empty entries at source**
+- [ ] **T22: Fix Moltbook empty entries at source**
   - Diagnose API 401 issue
   - Check if token expired, URL changed, or service down
   - Regenerate empty digests once fixed
+  - Add guard: don't write empty stubs
 
 ## Known Issues
 
 - Moltbook research stream API returning 401 (unauthorized) since ~June 25
-- `index.html` is 1,201 lines / 45KB — unmaintainable
-- GitHub Actions still deploys to Pages; server is now manual copy. Need auto-sync or switch CI target.
+- Empty Moltbook digests (June 25–July 7): 6-line stubs with "Items found: 0"
+- GitHub Actions still deploys to Pages; server is manual copy. Need auto-sync or switch CI target.
 
 ## Next Priorities
 
-1. **Modularize viewer** — split into css/main.css, js/app.js, js/calendar.js, js/modal.js, js/search.js, js/utils.js
-2. **Calendar view** — month grid, day dots, click-to-open
-3. **Fix Moltbook API** — investigate 401, restore content
+1. **T22: Fix Moltbook API** — investigate 401, restore content
+2. Consider CI auto-deploy to server (rsync step)
+3. Monitor user feedback on calendar UI
 
 ## Architecture Decision
 
@@ -67,4 +86,4 @@ User wants a **complete viewer redesign** — from linear card grid to calendar-
 - **Deployment:** Manual rsync for now. May add CI step to rsync to server later.
 
 ---
-*Updated: 2026-07-07 12:35 IST*
+*Updated: 2026-07-07 12:55 IST*

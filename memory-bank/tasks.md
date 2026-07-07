@@ -6,7 +6,7 @@
 | ID | Title | Status | Priority | Started | Dependencies | Details |
 |----|-------|--------|----------|---------|--------------|---------|
 | T20 | Migrate viewer to quantumofgravity.com | ✅ | HIGH | 2026-07-07 | — | Phase 2 complete |
-| T21 | Modularize viewer + Calendar redesign | 🔄 | HIGH | 2026-07-07 | T20 | Phase 3 in progress |
+| T21 | Modularize viewer + Calendar redesign | ✅ | HIGH | 2026-07-07 | T20 | Phase 3 complete |
 | T22 | Fix Moltbook empty entries (API 401) | ⏸️ | MEDIUM | 2026-07-07 | T21 | Phase 1 pending |
 
 ## Completed Tasks

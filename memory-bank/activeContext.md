@@ -2,48 +2,49 @@
 
 ## Current Status
 
-Cron-digests archive migrated from GitHub Pages to `quantumofgravity.com/cron-digests/`. Phase 2 complete.
+T21 (Modularize + Calendar redesign) is **complete**. The viewer has been rewritten with:
+- Modular CSS/JS files (was 1,201-line inline monster, now 82-line HTML shell)
+- Month calendar view with colored dots per digest type
+- Day click → digest modal
+- Toggle between calendar and list views
+- All existing features preserved
 
-- **Deployed:** `https://quantumofgravity.com/cron-digests/` — all assets (HTML, JSON, digests) confirmed 200 OK
-- **Migration method:** Manual `cp -r viewer/*` to `/home/quantumofgravity/public_html/cron-digests/` + chown
-- **Moltbook empty entries:** Persistent issue. API returning 401. User explicitly said "don't hide them — fix them."
-- **Viewer:** Still monolithic 45KB inline HTML. User wants modularization + calendar view.
+**Live at:** https://quantumofgravity.com/cron-digests/
 
-## Completed Today (2026-07-07)
+## Completed (2026-07-07)
 
-### Phase 2: Migrate from GitHub Pages to quantumofgravity.com
-1. Identified Apache vhost root: `/home/quantumofgravity/public_html`
-2. Created `/home/quantumofgravity/public_html/cron-digests/`
-3. Copied `viewer/*` contents to server
-4. Set ownership to `quantumofgravity:quantumofgravity`
-5. Verified: `curl https://quantumofgravity.com/cron-digests/` → 200 OK
-6. Verified: `curl /index.json` → 200 OK
-7. Verified: `curl /arxiv/2026-07-07.md` → 200 OK
+### T20: Server Migration ✅
+Moved from GitHub Pages to quantumofgravity.com/cron-digests/
 
-## In Progress (Next)
+### T21: Modularize + Calendar Redesign ✅
+1. Created modular structure:
+   - `css/main.css` — layout, calendar, cards, modal
+   - `css/theme.css` — dark mode overrides
+   - `js/utils.js` — markdown converter, date helpers
+   - `js/calendar.js` — month grid, day dots, navigation
+   - `js/modal.js` — digest reader, markdown rendering
+   - `js/search.js` — search + filter logic
+   - `js/app.js` — main init, data loading, view toggle
+2. Rewrote `index.html` as 82-line shell (was 1,201 lines)
+3. Calendar features:
+   - Month grid with day cells
+   - Colored dots: arXiv (blue), Web Science (purple), Moltbook (orange)
+   - Today highlighting
+   - Prev/Next month navigation
+   - Day click → shows digests for that date
+4. List view preserved as toggle alternative
+5. Deployed to server and verified
+6. Committed and pushed to GitHub
 
-- **Phase 3:** Modularize viewer + calendar redesign
-  - Split 1,201-line `index.html` into: `index.html` (shell), `css/main.css`, `js/app.js`, `js/calendar.js`, `js/modal.js`, `js/search.js`, `js/utils.js`
-  - Add month calendar grid with colored dots (arXiv=blue, Web Science=purple, Moltbook=orange)
-  - Click day → show digests for that date
-  - Keep list view as toggle
-- **Phase 1:** Fix Moltbook empty entries at source (API 401 issue)
+## Next
 
-## Planned Changes (User-Approved Order)
-
-1. ✅ Phase 2: Migrate to server (DONE)
-2. 🔄 Phase 3: Modularization + calendar redesign (NEXT)
-3. ⏳ Phase 1: Fix Moltbook empty entries (after redesign)
-
-## Key Decisions
-
-- **User wants empty Moltbook entries visible, not hidden.** Fix the root cause, not the symptom.
-- **Modularize first, then redesign.** User agreed to split into separate CSS/JS files.
-- **Server deployment is now primary.** GitHub Pages remains as backup.
+- **T22:** Fix Moltbook empty entries (API 401)
+- Monitor user feedback on new calendar UI
+- Consider adding week view or date picker if requested
 
 ## Blockers
 
-- Moltbook API returning 401 Unauthorized for research stream (TBD: Phase 1)
+None for T21. T22 blocked until Moltbook API issue diagnosed.
 
 ---
-*Updated: 2026-07-07 07:05 UTC / 12:35 IST*
+*Updated: 2026-07-07 07:25 UTC / 12:55 IST*
