@@ -2,7 +2,7 @@
    Cron Digest Viewer — Calendar Component
    ============================================ */
 
-import { getMonthName, getDaysInMonth, getFirstDayOfMonth, isToday, groupDigestsByDate } from './utils.js?v=3';
+import { getMonthName, getDaysInMonth, getFirstDayOfMonth, isToday, groupDigestsByDate } from './utils.v3.js';
 
 let currentYear = new Date().getFullYear();
 let currentMonth = new Date().getMonth();

@@ -2,9 +2,9 @@
    Cron Digest Viewer — Main App (with History)
    ============================================ */
 
-import { initCalendar, updateCalendarDigests } from './calendar.js?v=3';
-import { showModal, closeModal } from './modal.js?v=3';
-import { initSearch, renderListView, updateSearchDigests, handleListKeydown } from './search.js?v=3';
+import { initCalendar, updateCalendarDigests } from './calendar.v3.js';
+import { showModal, closeModal } from './modal.v3.js';
+import { initSearch, renderListView, updateSearchDigests, handleListKeydown } from './search.v3.js';
 
 const SOURCES = {
   arxiv: './arxiv/',

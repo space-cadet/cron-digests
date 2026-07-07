@@ -693,6 +693,23 @@ kbd {
   margin: 20px 0;
 }
 
+/* ---------- Month-Grouped List View ---------- */
+.month-section {
+  margin-bottom: 30px;
+}
+.month-header {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  padding: 12px 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--fg);
+  border-bottom: 2px solid var(--accent);
+  z-index: 10;
+}
+
 /* ---------- Day Modal (Calendar Click) ---------- */
 .day-modal-header {
   margin-bottom: 20px;

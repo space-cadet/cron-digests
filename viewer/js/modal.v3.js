@@ -2,7 +2,7 @@
    Cron Digest Viewer — Modal Component
    ============================================ */
 
-import { convertMarkdownToHtml, extractArxivId, extractCategoryChips } from './utils.js?v=3';
+import { convertMarkdownToHtml, extractArxivId, extractCategoryChips } from './utils.v3.js';
 
 let currentDigest = null;
 

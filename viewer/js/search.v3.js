@@ -2,7 +2,7 @@
    Cron Digest Viewer — Search & List View
    ============================================ */
 
-import { showModal, closeModal } from './modal.js?v=3';
+import { showModal, closeModal } from './modal.v3.js';
 
 let allDigests = [];
 let currentFilter = 'all';
