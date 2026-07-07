@@ -1,0 +1,48 @@
+/* ============================================
+   Cron Digest Viewer — Dark Theme
+   ============================================ */
+
+[data-theme="dark"] {
+  --bg: #121212;
+  --fg: #e0e0e0;
+  --card-bg: #1e1e1e;
+  --card-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  --card-shadow-hover: 0 4px 16px rgba(0,0,0,0.4);
+  --header-bg: #0d0d1a;
+  --header-fg: #e0e0e0;
+  --accent: #64b5f6;
+  --accent-fg: #121212;
+  --chip-bg: #283593;
+  --chip-fg: #c5cae9;
+  --chip-border: #3949ab;
+  --input-border: #444;
+  --input-focus: #64b5f6;
+  --meta-fg: #aaa;
+  --preview-fg: #ccc;
+  --modal-overlay: rgba(0,0,0,0.8);
+  --modal-bg: #1e1e1e;
+  --toc-bg: #2a2a2a;
+  --hr: #333;
+  --kbd-bg: #333;
+  --kbd-fg: #e0e0e0;
+  --calendar-empty: #2a2a2a;
+  --calendar-hover: #1a3a5c;
+  --calendar-today: #3e2723;
+  --dot-arxiv: #64b5f6;
+  --dot-web: #ce93d8;
+  --dot-moltbook: #ffb74d;
+}
+
+[data-theme="dark"] .chip.hep-th { background: #0d47a1; color: #bbdefb; border-color: #1565c0; }
+[data-theme="dark"] .chip.gr-qc { background: #4a148c; color: #e1bee7; border-color: #7b1fa2; }
+[data-theme="dark"] .chip.quant-ph { background: #1b5e20; color: #c8e6c9; border-color: #2e7d32; }
+[data-theme="dark"] .chip.cond-mat { background: #e65100; color: #ffe0b2; border-color: #ef6c00; }
+[data-theme="dark"] .chip.cs { background: #880e4f; color: #f8bbd0; border-color: #c2185b; }
+[data-theme="dark"] .chip.math { background: #004d40; color: #b2dfdb; border-color: #00695c; }
+
+[data-theme="dark"] .type-arxiv { background: #0d47a1; color: #bbdefb; }
+[data-theme="dark"] .type-web { background: #4a148c; color: #e1bee7; }
+[data-theme="dark"] .type-moltbook { background: #e65100; color: #fff8e1; }
+
+[data-theme="dark"] .btn-abs { background: #0d47a1; color: #bbdefb; }
+[data-theme="dark"] .btn-pdf { background: #b71c1c; color: #ffcdd2; }
