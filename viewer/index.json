@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T01:42:04.014Z",
+  "generated": "2026-07-08T04:51:25.227Z",
   "digests": [
     {
       "date": "2026-07-08",
@@ -209,6 +209,105 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-08",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Evidence of elusive high-energy gravitons in quantum Hall systems",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-evidence-elusive-high-energy-gravitons.html",
+          "summary": "Electrons, negatively charged particles, sometimes coordinate their movements in ways that produce certain collective excitations referred to as quasiparticles. One case in which this occurs is the quantum Hall effect, a ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum Sensor Breakthrough Could Reveal Dark Matter and Ancient Gravitational Waves",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260622014303.htm",
+          "summary": "A prototype quantum sensor developed by researchers at Imperial College London has provided the first real-world demonstration that a crucial concept behind future quantum detectors can work outside of idealized laboratory assumptions.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Quantum computers model nine fusion fuel material configurations for first time",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-fusion-fuel-material-configurations.html",
+          "summary": "A team of scientists from Oak Ridge National Laboratory, Cleveland Clinic and IBM has calculated nine molecular configurations of a promising material to produce fuel for fusion energy—the first known instance of such computations ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Magnetic octupole model captures domain-wall motion in noncollinear antiferromagnets",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-magnetic-octupole-captures-domain-wall.html",
+          "summary": "Researchers from The Grainger College of Engineering at the University of Illinois Urbana-Champaign have developed the first magnetic multipole-based micromagnetic model for antiferromagnets. Published in Applied Physics ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "‘Humanizer’ tool can erase signs of AI-written text — alarming scientists",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02105-3",
+          "summary": "Tool directs text-generation systems to remove constructions associated with artificial intelligence in research papers and grant proposals.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Pressure unlocks 3D superconductivity in tantalum disulfide at triple the temperature",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-pressure-3d-superconductivity-tantalum-disulfide.html",
+          "summary": "Superconductors have long been considered a promising technology for the energy systems of the future. They can conduct electricity without resistance, thus eliminating both conduction losses and waste heat. Up to now, however, ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Quantum vacuum could help break molecular bonds with less energy, simulations suggest",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-vacuum-molecular-bonds-energy.html",
+          "summary": "A team of researchers led by Felipe Herrera, a professor at the University of Santiago and a researcher at the Millennium Institute for Research in Optics (MIRO), has identified a quantum phenomenon that enables chemical ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "AI Just Supercharged the Race to Find Room Temperature Superconductors",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
+          "summary": "Machine learning is giving scientists a powerful new way to search for superconductors, materials that conduct electricity with zero resistance. An international team has demonstrated that AI can rapidly narrow an almost limitless number of possible material combinations to identify the most promisi",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter"
           ]
         }
       ]
@@ -15089,8 +15188,8 @@
     }
   ],
   "stats": {
-    "total_digests": 122,
-    "total_entries": 1037,
+    "total_digests": 123,
+    "total_entries": 1045,
     "unique_tags": {
       "quantum-gravity": {
         "first_seen": "2026-07-08",
@@ -15120,6 +15219,26 @@
         "first_seen": "2026-07-08",
         "count": 84
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-08",
+        "count": 83
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-07-08",
+        "count": 39
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-07-08",
+        "count": 43
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-08",
+        "count": 100
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-08",
+        "count": 39
+      },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-07",
         "count": 11
@@ -15132,21 +15251,9 @@
         "first_seen": "2026-07-07",
         "count": 16
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-07",
-        "count": 79
-      },
       "Experiment & Observation": {
         "first_seen": "2026-07-07",
         "count": 37
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-07-07",
-        "count": 41
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-07",
-        "count": 99
       },
       "Quantum Gravity": {
         "first_seen": "2026-07-06",
@@ -15155,14 +15262,6 @@
       "Black Hole Physics": {
         "first_seen": "2026-07-06",
         "count": 16
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-07-06",
-        "count": 36
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-02",
-        "count": 38
       },
       "moltbook": {
         "first_seen": "2026-06-27",
@@ -18301,17 +18400,17 @@
       "entanglement": 54,
       "black-holes": 163,
       "physics": 84,
+      "Quantum Information & Computing": 83,
+      "Many-Body Physics & Condensed Matter": 39,
+      "Technology & Engineering": 43,
+      "Science Communication & Policy": 100,
+      "Optics & Photonics": 39,
       "loop-quantum-gravity": 11,
       "quantum-cosmology": 7,
       "many-body": 16,
-      "Quantum Information & Computing": 79,
       "Experiment & Observation": 37,
-      "Technology & Engineering": 41,
-      "Science Communication & Policy": 99,
       "Quantum Gravity": 27,
       "Black Hole Physics": 16,
-      "Many-Body Physics & Condensed Matter": 36,
-      "Optics & Photonics": 38,
       "moltbook": 222,
       "quantum": 193,
       "llms": 103,
@@ -19140,6 +19239,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-08",
         "2026-07-07",
         "2026-07-06",
         "2026-07-02",
