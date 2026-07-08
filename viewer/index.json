@@ -1,6 +1,218 @@
 {
-  "generated": "2026-07-07T11:23:14.171Z",
+  "generated": "2026-07-08T01:41:44.110Z",
   "digests": [
+    {
+      "date": "2026-07-08",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-08",
+      "categories": "astro-ph.CO, astro-ph.HE, cond-mat.stat-mech, cond-mat.str-el, cond-mat.supr-con, gr-qc, hep-ph, hep-th, math-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, holograph, string theory, topological, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Entanglement and geometric transitions in topological string theory",
+          "authors": "Gabriel Wong",
+          "arxiv_id": "2607.03526",
+          "url": "https://arxivite.org/abs/2607.03526",
+          "categories": "gr-qc, math-ph, hep-th",
+          "summary": "How do we define a bulk subsystem in quantum gravity? In \\cite{Wong:2025kpz}, we argued that such a subsystem must support local holographic degrees of freedom.",
+          "relevance": "quantum-gravity, topological, holography, string-theory, entanglement",
+          "tags": [
+            "quantum-gravity",
+            "topological",
+            "holography",
+            "string-theory",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Decoherence Effects on Primordial Black Holes and Scalar-Induced Gravitational Waves",
+          "authors": "Waqas Ahmed",
+          "arxiv_id": "2607.02935",
+          "url": "https://arxivite.org/abs/2607.02935",
+          "categories": "hep-ph, quant-ph, hep-th, gr-qc",
+          "summary": "Primordial black holes (PBHs) form when large primordial curvature perturbations re-enter the Hubble radius and exceed the classical collapse threshold. These perturbations originate as quantum fluctuations of the inflationary vacuum, motivating a quantum-information description of the PBH-producing scalar sector.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Holographic heat engines for Schwarzschild black holes",
+          "authors": "Ripunjay Dwivedi, Manus R. Visser",
+          "arxiv_id": "2607.03749",
+          "url": "https://arxivite.org/abs/2607.03749",
+          "categories": "gr-qc, cond-mat.stat-mech, hep-th",
+          "summary": "We construct reversible black hole heat engines in asymptotically flat spacetime using quasi-local gravitational thermodynamics. We enclose a Schwarzschild black hole in a finite spherical cavity and identify the working substance with the dual thermal system on the cavity boundary.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Topological effects in the polarization of the Fulling-Rindler vacuum",
+          "authors": "A. A. Saharian, G. V. Mirzoyan, V. S. Torosyan",
+          "arxiv_id": "2607.04483",
+          "url": "https://arxivite.org/abs/2607.04483",
+          "categories": "quant-ph, gr-qc, hep-th",
+          "summary": "We investigate how the compactification of some spatial dimensions in Rindler spacetime affects the vacuum expectation values (VEVs) of the field squared and the energy-momentum tensor for a charged scalar field prepared in the Fulling-Rindler vacuum state. A toral compactification is considered with quasi-periodicity conditions on the field operator along the compact dimensions.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Interacting Holographic Dark Energy in $f(Q)$ Gravity: Cosmological Evolution and Gravitational Wave Signatures",
+          "authors": "N. Amiriborkhani, Alireza Amani, M. A. Ramzanpour",
+          "arxiv_id": "2607.02792",
+          "url": "https://arxivite.org/abs/2607.02792",
+          "categories": "hep-th, gr-qc",
+          "summary": "In this paper, an interactive Holographic Dark Energy (HDE) model is studied in the framework of modified gravity \\(f(Q)\\). By adopting a power parameterization for the Hubble parameter, the field equations are reconstructed and the evolution of the universe at the background level and tensor perturbations are investigated.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Odd-parity ringdown gravitational waves of a spherically symmetric black hole with perfect fluid accretion",
+          "authors": "Rikuto Ohashi, Yasutaka Koga, Hiroyuki Nakano et al.",
+          "arxiv_id": "2607.03231",
+          "url": "https://arxivite.org/abs/2607.03231",
+          "categories": "astro-ph.HE, hep-th, gr-qc",
+          "summary": "The ringdown waves from a black hole offer a clean probe of strong-field gravity, but a matter distribution that may be present around a realistic black hole renders the background spacetime dynamical and the ringdown frequencies time-dependent. We study the odd-parity ringdown of a Schwarzschild black hole that grows through the dilute, steady, spherically symmetric accretion of a perfect fluid.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Black Hole Memory Burden and its Signatures in Gravitational Waves from Mergers",
+          "authors": "Gia Dvali, Michael Zantedeschi, Sebastian Zell",
+          "arxiv_id": "2607.03560",
+          "url": "https://arxivite.org/abs/2607.03560",
+          "categories": "astro-ph.CO, hep-ph, hep-th, gr-qc",
+          "summary": "Swift memory burden (MB) implies that the information stored in a black hole (BH) can modify its classical dynamics when the BH is perturbed. This influences the gravitational waves (GWs) emitted during BH mergers.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Where Thermodynamics Meets Geometry: Critical-Radius Coincidences in Confining-NED Black Holes with Barrow Entropy",
+          "authors": "Erdem Sucu, İzzet Sakallı",
+          "arxiv_id": "2607.04173",
+          "url": "https://arxivite.org/abs/2607.04173",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study a static, spherically symmetric black hole obtained from Einstein gravity coupled to a nonlinear electrodynamics model with a quark--antiquark confinement interaction. The metric extends Reissner--Nordström by a logarithmic correction controlled by $\\zeta$, modifying both horizon structure and the near-singularity regime.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Complete Quantum Stress Tensor Inside a Four Dimensional Schwarzschild Black Hole: A Divergent Focusing Source",
+          "authors": "Shun Jiang, Jie Jiang",
+          "arxiv_id": "2607.04386",
+          "url": "https://arxivite.org/abs/2607.04386",
+          "categories": "hep-th, gr-qc",
+          "summary": "We compute the complete renormalized stress-energy tensor (RSET) of a massless minimally coupled scalar field throughout the interior of a four-dimensional Schwarzschild black hole, in both the Unruh and Hartle--Hawking states. The complete RSET inside four-dimensional black holes has long been unavailable, leaving the local source term required for semiclassical backreaction unknown.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Holographic Learning from Fermionic Spectra: Application to Strange Metal Phenomenology",
+          "authors": "Hong-Zhi Xiao, Zhan-Zhi He, Zhuo-Yu Xian et al.",
+          "arxiv_id": "2607.02861",
+          "url": "https://arxivite.org/abs/2607.02861",
+          "categories": "cond-mat.str-el, gr-qc, cond-mat.supr-con, hep-th",
+          "summary": "We develop a data-driven framework based on Neural ODEs that learns the bulk metric functions and the $U(1)$ gauge potential of a static, planar-symmetric black hole from boundary fermionic spectral functions. After validating the framework on the Einstein--Maxwell and Gubser--Rocha models with high accuracy, we apply it to the strange metal phase of the cuprate $\\mathrm{(Pb,Bi)_2Sr_{2-x}La_xCuO_{6+\\delta}}$ within a semi-holographic setting, taking as input the spectral data generated from the extended power-law liquid (PLL) model calibrated by angle-resolved photoemission measurements.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Exact Schwarzian Metric Factor and Holographic Wilson-Loop Screening",
+          "authors": "Miguel Tierz",
+          "arxiv_id": "2607.03120",
+          "url": "https://arxivite.org/abs/2607.03120",
+          "categories": "gr-qc, math-ph, hep-th",
+          "summary": "We evaluate exactly the radial metric factor $h(\\zeta)$ generated by Schwarzian averaging in the AdS$_2$ throat of an extremal Reissner--Nordström AdS$_5$ black brane. The result is a Gaussian integral against $\\coth(\\pi y)$, valid at all radial depths, which Mordell&#39;s identity turns into an exact Appell--Lerch $q/q^\\ast$-series representation.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Singularities, Entropy and the Arrow of Time, {\\it or} Is CRT a Gauge Symmetry in Quantum Gravity?",
+          "authors": "T. Banks",
+          "arxiv_id": "2607.03199",
+          "url": "https://arxivite.org/abs/2607.03199",
+          "categories": "gr-qc, hep-th",
+          "summary": "We examine the question of whether the discrete transformation CRT is a gauge symmetry of ``Quantum Gravity&#34;. Since the phrase in quotes is not yet completely well defined, we first try to define specific frameworks in which one might ask the question.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Falling through the horizon of a quantum black hole",
+          "authors": "Victor Franken, Thomas G. Mertens, Bruno de S. L. Torres",
+          "arxiv_id": "2607.03344",
+          "url": "https://arxivite.org/abs/2607.03344",
+          "categories": "gr-qc, hep-th",
+          "summary": "We study quantum-gravitational effects on the response of an infalling detector as it crosses the horizon of a near-extremal black hole in the framework of quantum JT gravity. These effects are incorporated via the gravitational dressing needed to define both the infalling trajectory and the local observables probed by the detector in a diffeomorphism-invariant way.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Quantum nucleation of black hole mimickers via chaos dominated tunneling",
+          "authors": "Ulf Danielsson, Suvendu Giri, Vyshnav Mohan et al.",
+          "arxiv_id": "2607.03452",
+          "url": "https://arxivite.org/abs/2607.03452",
+          "categories": "gr-qc, hep-th",
+          "summary": "Black hole mimickers, ultracompact horizonless objects, have been proposed as alternatives to black holes in a variety of settings, including extensions of general relativity and scenarios involving matter sectors beyond the Standard Model. Their formation in gravitational collapse of matter requires quantum mechanical tunneling to occur on a length scale of the order of the Schwarzschild radius of the corresponding black hole.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Minimal Proper Time and Deterministic Microstates: Emergent Quantum Fields and Relativistic Spacetime",
+          "authors": "Alessio Maiezza",
+          "arxiv_id": "2607.03605",
+          "url": "https://arxivite.org/abs/2607.03605",
+          "categories": "quant-ph, gr-qc, math-ph, hep-th",
+          "summary": "We develop a top-down counterpart of the minimal proper-time formulation of quantum field theory previously introduced as an effective bottom-up framework. Starting from a deterministic pre-geometric substrate of causally ordered events, we show how coarse-graining over microscopic histories leads, at low energies, to an effective Nambu-like quantum dynamics.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-07",
       "type": "arxiv",
@@ -14877,16 +15089,36 @@
     }
   ],
   "stats": {
-    "total_digests": 121,
-    "total_entries": 1022,
+    "total_digests": 122,
+    "total_entries": 1037,
     "unique_tags": {
       "quantum-gravity": {
-        "first_seen": "2026-07-07",
-        "count": 52
+        "first_seen": "2026-07-08",
+        "count": 54
+      },
+      "topological": {
+        "first_seen": "2026-07-08",
+        "count": 29
+      },
+      "holography": {
+        "first_seen": "2026-07-08",
+        "count": 44
+      },
+      "string-theory": {
+        "first_seen": "2026-07-08",
+        "count": 7
+      },
+      "entanglement": {
+        "first_seen": "2026-07-08",
+        "count": 54
       },
       "black-holes": {
-        "first_seen": "2026-07-07",
-        "count": 153
+        "first_seen": "2026-07-08",
+        "count": 163
+      },
+      "physics": {
+        "first_seen": "2026-07-08",
+        "count": 84
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-07",
@@ -14896,21 +15128,9 @@
         "first_seen": "2026-07-07",
         "count": 7
       },
-      "entanglement": {
-        "first_seen": "2026-07-07",
-        "count": 53
-      },
       "many-body": {
         "first_seen": "2026-07-07",
         "count": 16
-      },
-      "physics": {
-        "first_seen": "2026-07-07",
-        "count": 83
-      },
-      "topological": {
-        "first_seen": "2026-07-07",
-        "count": 27
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-07-07",
@@ -14939,14 +15159,6 @@
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-07-06",
         "count": 36
-      },
-      "holography": {
-        "first_seen": "2026-07-03",
-        "count": 39
-      },
-      "string-theory": {
-        "first_seen": "2026-07-03",
-        "count": 6
       },
       "Optics & Photonics": {
         "first_seen": "2026-07-02",
@@ -18082,14 +18294,16 @@
       }
     },
     "tag_counts": {
-      "quantum-gravity": 52,
-      "black-holes": 153,
+      "quantum-gravity": 54,
+      "topological": 29,
+      "holography": 44,
+      "string-theory": 7,
+      "entanglement": 54,
+      "black-holes": 163,
+      "physics": 84,
       "loop-quantum-gravity": 11,
       "quantum-cosmology": 7,
-      "entanglement": 53,
       "many-body": 16,
-      "physics": 83,
-      "topological": 27,
       "Quantum Information & Computing": 79,
       "Experiment & Observation": 37,
       "Technology & Engineering": 41,
@@ -18097,8 +18311,6 @@
       "Quantum Gravity": 27,
       "Black Hole Physics": 16,
       "Many-Body Physics & Condensed Matter": 36,
-      "holography": 39,
-      "string-theory": 6,
       "Optics & Photonics": 38,
       "moltbook": 222,
       "quantum": 193,
@@ -18885,6 +19097,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-07-08",
         "2026-07-07",
         "2026-07-03",
         "2026-07-02",
