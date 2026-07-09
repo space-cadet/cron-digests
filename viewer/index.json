@@ -1,6 +1,213 @@
 {
-  "generated": "2026-07-08T04:51:25.227Z",
+  "generated": "2026-07-09T01:41:49.545Z",
   "digests": [
+    {
+      "date": "2026-07-09",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-09",
+      "categories": "astro-ph.CO, cond-mat.stat-mech, cs.IT, cs.LG, gr-qc, hep-lat, hep-ph, hep-th, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, topological, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Topological changes and response singularities in black hole thermodynamic branch structure",
+          "authors": "Di Wu",
+          "arxiv_id": "2607.07364",
+          "url": "https://arxivite.org/abs/2607.07364",
+          "categories": "gr-qc, hep-th",
+          "summary": "Different diagnostics of black hole thermodynamic branch structure do not always identify the same local event. We examine this issue in charged AdS black hole examples where a thermodynamic topological phase transition is known to occur.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Black Hole Black Boxes: Numerical Black Hole Metrics via AInstein Neural Networks",
+          "authors": "Tancredi Schettini Gherardini, Edward Hirst, Alexander George Stapleton",
+          "arxiv_id": "2607.05489",
+          "url": "https://arxivite.org/abs/2607.05489",
+          "categories": "gr-qc, cs.LG, hep-th",
+          "summary": "The AInstein architecture introduced an unsupervised neural method for solving the Riemannian Einstein equations on arbitrary manifolds. This Physics Informed Neural Network approach (PINN) is extended here to Lorentzian signature, validated by recovering the maximally extended Schwarzschild geometry, and tested as novel search method for arbitrary black hole solutions.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Noise-induced stabilization of Schwarzschild--AdS black holes under stochastic Ricci flow",
+          "authors": "Jihui Wang, Matteo Lulli, Antonino Marciano",
+          "arxiv_id": "2607.06100",
+          "url": "https://arxivite.org/abs/2607.06100",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate the stochastic Ricci flow of spherically symmetric perturbations of the Schwarzschild--Anti de Sitter black-hole metric. Elaborating on the Ricci-flow analysis of Headrick and Wiseman, we include a negative cosmological constant through a Ricci-target term and study how the flow is correlated with the thermodynamic heat capacity of the black hole.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Primordial black hole in Lorentz-violating theories: Insights from Bumblebee gravity",
+          "authors": "Mohsen Khodadi, Javad T. Firouzjaee",
+          "arxiv_id": "2607.07011",
+          "url": "https://arxivite.org/abs/2607.07011",
+          "categories": "gr-qc, hep-th",
+          "summary": "The Bumblebee gravity (BG) model, featuring spontaneous Lorentz symmetry breaking via a vector field non-minimally coupled to curvature, has been widely used to explore Lorentz-violating effects in cosmology. We investigate primordial black hole (PBH) formation within this framework, deriving the complete set of modified perturbation equations.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Neural-Spectral Discovery of Rotating Black Holes Beyond General Relativity",
+          "authors": "Felipe Agurto-Sepúlveda, Marcelo Oyarzo, Anxo Biasi et al.",
+          "arxiv_id": "2607.07418",
+          "url": "https://arxivite.org/abs/2607.07418",
+          "categories": "gr-qc, hep-th",
+          "summary": "Finding rotating black hole solutions in higher-curvature theories of gravity is a problem of fundamental importance. Virtually every approach to reconcile gravity with quantum mechanics predicts corrections to the Einstein-Hilbert action, yet no systematic solution-generating method exists for the stationary sector.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Vacuum polarization and renormalized stress-energy tensor of spherical thin shells",
+          "authors": "Julio Arrechea, Cormac Breen, Adrian Ottewill et al.",
+          "arxiv_id": "2607.07583",
+          "url": "https://arxivite.org/abs/2607.07583",
+          "categories": "gr-qc, quant-ph, hep-th",
+          "summary": "We provide a thorough study of the properties of the Boulware vacuum in the spacetime of a spherical, static thin shell with a Minkowski interior. To this end, we calculate the renormalized vacuum polarization and stress-energy tensor of massless scalar fields via the extended-coordinate prescription, paying particular attention to their scaling as the shell approaches the black hole limit.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Towards gauge independence in asymptotically safe quantum gravity",
+          "authors": "Kevin Falls, Renata Ferrero, Giovanni Oglialoro",
+          "arxiv_id": "2607.06657",
+          "url": "https://arxivite.org/abs/2607.06657",
+          "categories": "gr-qc, hep-th",
+          "summary": "We study gauge dependence in proper-time renormalisation group flows for asymptotically safe quantum gravity. Working in an essential scheme, we use field redefinitions to separate redundant off-shell contributions from the on-shell running of physical couplings.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Thermodynamics of Deformed AdS-Schwarzschild Black Holes Beyond the Bekenstein Paradigm",
+          "authors": "Jafar Sadeghi, Fatemeh Khosravani, Alireza Amani",
+          "arxiv_id": "2607.07234",
+          "url": "https://arxivite.org/abs/2607.07234",
+          "categories": "gr-qc, hep-th",
+          "summary": "This work investigates the thermodynamic behavior of deformed AdS-Schwarzschild black holes by incorporating higher-order corrections within non-interacting spacetime models and extended entropy frameworks. To address the inadequacies of classical statistical mechanics in describing gravitational systems with non-local and long-range interactions, we employ non-extensive entropy formalisms, specifically Tsallis and Barrow entropies, which capture quantum-scale deviations and extended correlations.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Horizon-Restricted Leading Soft QED as Open Quantum System",
+          "authors": "Soo-Jong Rey",
+          "arxiv_id": "2607.07342",
+          "url": "https://arxivite.org/abs/2607.07342",
+          "categories": "quant-ph, gr-qc, cs.IT, hep-th",
+          "summary": "I formulate black-hole-horizon-induced decoherence of charged branch codes as the leading-soft QED restricted to an exterior algebra, formulated as an open quantum system. The fixed-history Feynman--Vernon identity ${\\cal F}[J,J]=1$ remains exact.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Three-dimensional wave optics for weak-field lensing of gravitational waves",
+          "authors": "Mariana Carrillo-González, Alan Heavens, Lorne Whiteway",
+          "arxiv_id": "2607.05491",
+          "url": "https://arxivite.org/abs/2607.05491",
+          "categories": "gr-qc, astro-ph.CO, hep-th",
+          "summary": "We develop a perturbative Green&#39;s function approach to gravitational lensing by weak gravitational potentials that need not be localized on a thin lens plane and that applies in both the wave optics and geometric optics regimes. We recast position-space integrals as Fourier, or momentum-space, integrals that appear in scattering amplitude calculations.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Degenerate and connection-dependent cosmological sectors in f(Q,C) gravity",
+          "authors": "Ismael Ayuso",
+          "arxiv_id": "2607.05521",
+          "url": "https://arxivite.org/abs/2607.05521",
+          "categories": "hep-ph, gr-qc, astro-ph.CO, hep-th",
+          "summary": "We investigate cosmological solutions in $f(Q,C)$ gravity formulated within symmetric teleparallel geometry, where gravitation is described by the nonmetricity scalar $Q$ and the boundary term $C$, related to the Ricci scalar of General Relativity through $\\mathring{R}=Q+C$ in the absence of curvature and torsion. The symmetry requirements of FLRW spacetime admit three distinct realizations of the affine connection, leading in principle to three different cosmological sectors within the same theory.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Quasinormal modes of scalar perturbations in Rastall thick brane",
+          "authors": "Shan Huang, Chun-Chun Zhu, Tao-Tao Sui",
+          "arxiv_id": "2607.06081",
+          "url": "https://arxivite.org/abs/2607.06081",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate quasinormal modes of the graviscalar sector in a five-dimensional thick brane model in Rastall gravity. By considering a specific flat brane solution supported by a canonical scalar field, we derive a master equation and reduce it to a Schrödinger-like eigenvalue problem for the Kaluza-Klein modes.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Scalar and Electromagnetic Perturbations around a Black Hole with a Topological Defect: Quasinormal Modes and Quasi-bound States in a Plasma Medium",
+          "authors": "Dilmurod Umarov, Farruh Atamurotov, Ahmadjon Abdujabbarov et al.",
+          "arxiv_id": "2607.07487",
+          "url": "https://arxivite.org/abs/2607.07487",
+          "categories": "gr-qc",
+          "summary": "We investigated the influence of a plasma environment on the optical and perturbative properties of a black hole with a topological defect, characterized by the parameter \\(k\\). We first established a straightforward correspondence between the real part of the quasinormal-mode (QNM) frequencies in the eikonal limit and the black-hole shadow radius.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Determination of thermodynamics from entanglement entropy in the finite-density O(N) model",
+          "authors": "Niko Jokela, Aatu Rajala, Tobias Rindlisbacher",
+          "arxiv_id": "2607.06286",
+          "url": "https://arxivite.org/abs/2607.06286",
+          "categories": "hep-ph, hep-th, cond-mat.stat-mech, hep-lat, quant-ph",
+          "summary": "We nonperturbatively compute Rényi entropies for strip-shaped subregions in the three-dimensional O(4) model at finite density on the lattice. By using a dual variable representation and a tailored worm algorithm, we circumvent the sign problem when sampling the grand canonical ensemble.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Alleviating the Hubble Tension with Smooth Sign-Switching Dark Energy: Full CMB Constraints with DESI and PantheonPlus",
+          "authors": "Mariam Bouhmadi-López, Hsu-Wen Chiang, Beñat Ibarra-Uriondo",
+          "arxiv_id": "2607.05044",
+          "url": "https://arxivite.org/abs/2607.05044",
+          "categories": "gr-qc, astro-ph.CO, hep-th",
+          "summary": "Sign-switching dark energy has recently been proposed as a minimal modification of the late-time expansion history aimed at alleviating tensions within the standard cosmological model. In this work, we investigate ECDM, a smooth realisation of this scenario, with the dark energy density gradually transitioning from a negative to a positive value.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-08",
       "type": "arxiv",
@@ -311,6 +518,13 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-08",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-08",
+      "items_found": 0,
+      "entries": []
     },
     {
       "date": "2026-07-07",
@@ -15188,16 +15402,28 @@
     }
   ],
   "stats": {
-    "total_digests": 123,
-    "total_entries": 1045,
+    "total_digests": 125,
+    "total_entries": 1060,
     "unique_tags": {
-      "quantum-gravity": {
-        "first_seen": "2026-07-08",
-        "count": 54
+      "black-holes": {
+        "first_seen": "2026-07-09",
+        "count": 171
       },
       "topological": {
-        "first_seen": "2026-07-08",
-        "count": 29
+        "first_seen": "2026-07-09",
+        "count": 31
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-07-09",
+        "count": 55
+      },
+      "physics": {
+        "first_seen": "2026-07-09",
+        "count": 89
+      },
+      "entanglement": {
+        "first_seen": "2026-07-09",
+        "count": 55
       },
       "holography": {
         "first_seen": "2026-07-08",
@@ -15206,18 +15432,6 @@
       "string-theory": {
         "first_seen": "2026-07-08",
         "count": 7
-      },
-      "entanglement": {
-        "first_seen": "2026-07-08",
-        "count": 54
-      },
-      "black-holes": {
-        "first_seen": "2026-07-08",
-        "count": 163
-      },
-      "physics": {
-        "first_seen": "2026-07-08",
-        "count": 84
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-07-08",
@@ -18393,13 +18607,13 @@
       }
     },
     "tag_counts": {
-      "quantum-gravity": 54,
-      "topological": 29,
+      "black-holes": 171,
+      "topological": 31,
+      "quantum-gravity": 55,
+      "physics": 89,
+      "entanglement": 55,
       "holography": 44,
       "string-theory": 7,
-      "entanglement": 54,
-      "black-holes": 163,
-      "physics": 84,
       "Quantum Information & Computing": 83,
       "Many-Body Physics & Condensed Matter": 39,
       "Technology & Engineering": 43,
@@ -19196,6 +19410,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-07-09",
         "2026-07-08",
         "2026-07-07",
         "2026-07-03",
@@ -19283,6 +19498,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-07-08",
         "2026-07-07",
         "2026-07-06",
         "2026-07-05",
