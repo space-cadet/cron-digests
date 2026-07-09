@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T01:42:12.519Z",
+  "generated": "2026-07-09T04:48:55.039Z",
   "digests": [
     {
       "date": "2026-07-09",
@@ -204,6 +204,104 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-09",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Long-theorized electron-on-helium qubit achieves strong coupling to a single microwave photon",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-theorized-electron-helium-qubit-strong.html",
+          "summary": "Quantum computers, devices that store and process information leveraging the principles of quantum mechanics, have been found to be promising for tackling some problems that cannot be solved by classical computers. Quantum ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Why some glasses break suddenly while others deform smoothly",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-glasses-suddenly-deform-smoothly.html",
+          "summary": "If a liquid is cooled slowly to its freezing point, it becomes a crystal in which the constituent particles are arranged in an ordered pattern. In contrast, when the liquid is cooled very quickly, the particles are unable ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Does the Bullet Cluster contain a lot less dark matter than we thought?",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/does-the-bullet-cluster-contain-a-lot-less-dark-matter-than-we-thought/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "X-pinch plasma achieves radial proton acceleration for crisp imaging",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-plasma-radial-proton-crisp-imaging.html",
+          "summary": "Plasma pinches: From pursuits of nuclear fusion to an attractive point source of accelerated protons for proton radiography.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Incredible New Material Makes Heat Programmable",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260707025046.htm",
+          "summary": "In most materials, the way heat is absorbed and the way it is emitted are inseparable. If a surface absorbs heat efficiently from a particular direction or wavelength, it also emits heat the same way. This long established principle, known as reciprocity, has made it difficult for scientists to inde",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Nobel-winning chemist leaves US to direct AI materials lab in China",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02143-x",
+          "summary": "Omar Yaghi’s move comes amid cuts to US science and a campaign in China to recruit top international talent.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Space sensor could spot hidden nuclear weapons in orbit with 99% accuracy",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-space-sensor-hidden-nuclear-weapons.html",
+          "summary": "In 2024, a U.S. government official warned that Russia could be developing a new satellite designed to carry nuclear weapons into space. The statement followed the launch of a suspicious Russian satellite into low-Earth orbit ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Wavelength-multiplexed diffractive optical storage enables massively parallel image retrieval",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-wavelength-multiplexed-diffractive-optical-storage.html",
+          "summary": "The explosive growth of data generated by artificial intelligence, cloud computing and modern digital infrastructure is placing increasing pressure on existing information storage technologies. Although magnetic storage systems ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -15402,8 +15500,8 @@
     }
   ],
   "stats": {
-    "total_digests": 125,
-    "total_entries": 1060,
+    "total_digests": 126,
+    "total_entries": 1068,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-07-09",
@@ -15425,6 +15523,26 @@
         "first_seen": "2026-07-09",
         "count": 55
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-09",
+        "count": 84
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-09",
+        "count": 40
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-07-09",
+        "count": 44
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-09",
+        "count": 106
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-07-09",
+        "count": 40
+      },
       "holography": {
         "first_seen": "2026-07-08",
         "count": 44
@@ -15432,26 +15550,6 @@
       "string-theory": {
         "first_seen": "2026-07-08",
         "count": 7
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-08",
-        "count": 83
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-07-08",
-        "count": 39
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-07-08",
-        "count": 43
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-08",
-        "count": 100
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-08",
-        "count": 39
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-07",
@@ -18612,13 +18710,13 @@
       "quantum-gravity": 55,
       "physics": 89,
       "entanglement": 55,
+      "Quantum Information & Computing": 84,
+      "Optics & Photonics": 40,
+      "Technology & Engineering": 44,
+      "Science Communication & Policy": 106,
+      "Many-Body Physics & Condensed Matter": 40,
       "holography": 44,
       "string-theory": 7,
-      "Quantum Information & Computing": 83,
-      "Many-Body Physics & Condensed Matter": 39,
-      "Technology & Engineering": 43,
-      "Science Communication & Policy": 100,
-      "Optics & Photonics": 39,
       "loop-quantum-gravity": 11,
       "quantum-cosmology": 7,
       "many-body": 16,
@@ -19454,6 +19552,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-09",
         "2026-07-08",
         "2026-07-07",
         "2026-07-06",
