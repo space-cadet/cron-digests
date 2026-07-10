@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-10T01:42:05.581Z",
+  "generated": "2026-07-10T04:49:25.214Z",
   "digests": [
     {
       "date": "2026-07-10",
@@ -205,6 +205,103 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-10",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "AI identifies new particle models that may explain neutrinos' tiny mass",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-ai-particle-neutrinos-tiny-mass.html",
+          "summary": "Physicists at the University of California, Irvine, have developed an artificial intelligence system that can autonomously design theoretical physics models, a task traditionally carried out by human theorists. The approach ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "New physics-based machine-learning method speeds search for 2D quantum materials",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-physics-based-machine-method-2d.html",
+          "summary": "Researchers at The University of Manchester have developed a new computational approach to help identify two-dimensional materials that may host unusual quantum behavior. The work, published in Science Advances, focuses on ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Quantum material opens new path for studying unusual electronic behavior",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-material-path-unusual-electronic.html",
+          "summary": "By combining approaches from two rapidly growing fields of quantum physics, researchers at Penn State and Saint Louis University have demonstrated that a novel specialized material can naturally enable a new way to study ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Quantum optics may turn this rare visual phenomenon into an eye test",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-optics-rare-visual-phenomenon.html",
+          "summary": "Modern life depends on quantum physics. It makes technologies such as GPS navigation, MRI scanners and computer chips possible. Now, the same science may also lead to a new way to test the health of our eyes. A University ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Ocean floor witnessed splitting apart for the first time — releasing lava",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02139-7",
+          "summary": "Scientists observed a mid-ocean ridge widen in real time, recording several metres of sea-floor motion and huge lava outflows.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Will We Ever Find Alien Civilizations?",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/will-we-ever-find-alien-civilizations-20260709/",
+          "summary": "Astronomer David Kipping discusses why claims of extraterrestrial life keep dissolving under scrutiny, why we need a more statistically grounded approach to searching for life beyond Earth, and why it’s rational to believe that we may be alone.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "'Check your ingredients': A new blueprint for using Fermi's 'Golden Rule'",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-ingredients-blueprint-fermi-golden.html",
+          "summary": "Underpinning much of modern technology, from smartphones to scanning tunneling microscopes to particle colliders, is Fermi's Golden Rule. Named for 20th-century Italian American physicist Enrico Fermi (but actually discovered ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Using mechanical vibrations instead of magnetic memory for quantum computing",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-mechanical-vibrations-magnetic-memory-quantum.html",
+          "summary": "Quantum computers still face limits when it comes to storing information. Researchers at ETH Zurich are now turning to mechanical vibrations rather than electromagnetic memory. Their new vibrating memory can store significantly ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
           ]
         }
       ]
@@ -15715,8 +15812,8 @@
     }
   ],
   "stats": {
-    "total_digests": 128,
-    "total_entries": 1083,
+    "total_digests": 129,
+    "total_entries": 1091,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-07-10",
@@ -15738,25 +15835,25 @@
         "first_seen": "2026-07-10",
         "count": 92
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-10",
+        "count": 109
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-10",
+        "count": 88
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-10",
+        "count": 41
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-07-10",
+        "count": 45
+      },
       "quantum-gravity": {
         "first_seen": "2026-07-09",
         "count": 55
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-09",
-        "count": 84
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-09",
-        "count": 40
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-07-09",
-        "count": 44
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-09",
-        "count": 106
       },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-07-09",
@@ -18925,11 +19022,11 @@
       "entanglement": 57,
       "holography": 45,
       "physics": 92,
+      "Science Communication & Policy": 109,
+      "Quantum Information & Computing": 88,
+      "Optics & Photonics": 41,
+      "Technology & Engineering": 45,
       "quantum-gravity": 55,
-      "Quantum Information & Computing": 84,
-      "Optics & Photonics": 40,
-      "Technology & Engineering": 44,
-      "Science Communication & Policy": 106,
       "Many-Body Physics & Condensed Matter": 40,
       "string-theory": 7,
       "loop-quantum-gravity": 11,
@@ -19768,6 +19865,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-10",
         "2026-07-09",
         "2026-07-08",
         "2026-07-07",
