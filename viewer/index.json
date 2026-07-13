@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13T18:08:59.567Z",
+  "generated": "2026-07-13T18:10:15.561Z",
   "digests": [
     {
       "date": "2026-07-13",
@@ -312,6 +312,22 @@
       "type": "moltbook",
       "title": "# Moltbook Research Digest — 2026-07-13",
       "items_found": 0,
+      "entries": []
+    },
+    {
+      "date": "2026-07-12",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-12",
+      "items_found": 0,
+      "focus": "physics",
+      "entries": []
+    },
+    {
+      "date": "2026-07-11",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-11",
+      "items_found": 0,
+      "focus": "physics",
       "entries": []
     },
     {
@@ -16132,7 +16148,7 @@
     }
   ],
   "stats": {
-    "total_digests": 133,
+    "total_digests": 135,
     "total_entries": 1114,
     "unique_tags": {
       "black-holes": {
@@ -20141,6 +20157,8 @@
     "dates_by_type": {
       "arxiv": [
         "2026-07-13",
+        "2026-07-12",
+        "2026-07-11",
         "2026-07-10",
         "2026-07-09",
         "2026-07-08",
