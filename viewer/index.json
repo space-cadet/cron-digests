@@ -1,6 +1,105 @@
 {
-  "generated": "2026-07-10T04:49:25.214Z",
+  "generated": "2026-07-13T17:42:37.735Z",
   "digests": [
+    {
+      "date": "2026-07-13",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-13",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Physicists Recreate Black Hole Energy Extraction in the Lab",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260711010120.htm",
+          "summary": "More than 50 years ago, physicist Sir Roger Penrose proposed a remarkable idea: under the right conditions, it might be possible to extract energy from a rapidly spinning black hole. In his concept, a particle entering the black hole's ergosphere, a region where spacetime is dragged along by the obj",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Hidden fifth dimension could tune dark matter resonance, new theory proposes",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-hidden-dimension-tune-dark-resonance.html",
+          "summary": "The mysterious substance that binds galaxies together could naturally be \"in tune\" with a hidden fifth dimension, according to a new University of Sheffield theory aiming to shed light on one of science's biggest enigmas: ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Firefly brightness holds a cautionary tale about accepting older measurements",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-firefly-brightness-cautionary-tale-older.html",
+          "summary": "For over a century, the accepted value for a firefly's brightness has mostly stood, tracing its origins to experiments carried out in 1912. Through rigorous new analysis published in the American Journal of Physics, David ...",
+          "relevance": "Medium — New experimental results that may constrain theoretical models",
+          "tags": [
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Oobleck droplets reveal 5 ways cornstarch 'goo' behaves when hitting water",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-oobleck-droplets-reveal-ways-cornstarch.html",
+          "summary": "Cornstarch can thicken soup or serve as a base for a DIY shampoo, but there's more to the humble pantry staple. Given the right conditions, it seems to defy the laws of physics. Mixing cornstarch with water creates \"oobleck\"—a ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "First ‘true sugar’ molecule found in space — offering hints to life’s origins",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02173-5",
+          "summary": "Erythrulose, which has four carbon atoms, is the most complex sugar spotted beyond our Solar System.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Powerful cosmic winds may have destroyed galaxies in the early universe",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/powerful-cosmic-winds-may-have-destroyed-galaxies-in-the-early-universe/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+          "summary": "Researchers thought that what enabled complex fluids to break apart was their elasticity. But a crack in a nonelastic simple fluid has them questioning that idea.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "World's first superconducting quantum heat engine offers path to larger quantum computers",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-world-superconducting-quantum-path-larger.html",
+          "summary": "Recent improvements in our understanding of how the principles of thermodynamics apply in the quantum realm could give a boost to quantum technology, and a clearer picture of quantum thermodynamics could in turn enhance our ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-10",
       "type": "arxiv",
@@ -15812,9 +15911,41 @@
     }
   ],
   "stats": {
-    "total_digests": 129,
-    "total_entries": 1091,
+    "total_digests": 130,
+    "total_entries": 1099,
     "unique_tags": {
+      "Quantum Gravity": {
+        "first_seen": "2026-07-13",
+        "count": 28
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-07-13",
+        "count": 17
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-07-13",
+        "count": 41
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-13",
+        "count": 42
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-07-13",
+        "count": 38
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-13",
+        "count": 113
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-13",
+        "count": 89
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-07-13",
+        "count": 46
+      },
       "black-holes": {
         "first_seen": "2026-07-10",
         "count": 181
@@ -15835,29 +15966,9 @@
         "first_seen": "2026-07-10",
         "count": 92
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-10",
-        "count": 109
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-10",
-        "count": 88
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-10",
-        "count": 41
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-07-10",
-        "count": 45
-      },
       "quantum-gravity": {
         "first_seen": "2026-07-09",
         "count": 55
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-07-09",
-        "count": 40
       },
       "string-theory": {
         "first_seen": "2026-07-08",
@@ -15873,18 +15984,6 @@
       },
       "many-body": {
         "first_seen": "2026-07-07",
-        "count": 16
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-07-07",
-        "count": 37
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-07-06",
-        "count": 27
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-07-06",
         "count": 16
       },
       "moltbook": {
@@ -19017,24 +19116,24 @@
       }
     },
     "tag_counts": {
+      "Quantum Gravity": 28,
+      "Black Hole Physics": 17,
+      "Many-Body Physics & Condensed Matter": 41,
+      "Optics & Photonics": 42,
+      "Experiment & Observation": 38,
+      "Science Communication & Policy": 113,
+      "Quantum Information & Computing": 89,
+      "Technology & Engineering": 46,
       "black-holes": 181,
       "topological": 33,
       "entanglement": 57,
       "holography": 45,
       "physics": 92,
-      "Science Communication & Policy": 109,
-      "Quantum Information & Computing": 88,
-      "Optics & Photonics": 41,
-      "Technology & Engineering": 45,
       "quantum-gravity": 55,
-      "Many-Body Physics & Condensed Matter": 40,
       "string-theory": 7,
       "loop-quantum-gravity": 11,
       "quantum-cosmology": 7,
       "many-body": 16,
-      "Experiment & Observation": 37,
-      "Quantum Gravity": 27,
-      "Black Hole Physics": 16,
       "moltbook": 222,
       "quantum": 193,
       "llms": 103,
@@ -19819,52 +19918,8 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
-      "arxiv": [
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-06",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
       "web-science": [
+        "2026-07-13",
         "2026-07-10",
         "2026-07-09",
         "2026-07-08",
@@ -19894,6 +19949,51 @@
         "2026-06-03",
         "2026-06-02",
         "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
+      "arxiv": [
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-06",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-05-30",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
