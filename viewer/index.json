@@ -1,6 +1,103 @@
 {
-  "generated": "2026-07-13T19:39:39.667Z",
+  "generated": "2026-07-14T04:54:06.769Z",
   "digests": [
+    {
+      "date": "2026-07-14",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-14",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "'Silly sprinklers' put in reverse to further unravel decades-old physics puzzle",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-silly-sprinklers-reverse-unravel-decades.html",
+          "summary": "Each summer, lawns are marked by a familiar addition: \"silly sprinklers,\" whose loops and spirals spew water in creative ways. While seemingly frivolous in their construction, a team of mathematicians has used their design ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "A 200-year-old Physics Experiment Could Help Build Future Computers",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260713000755.htm",
+          "summary": "Scientists at Nanyang Technological University, Singapore (NTU Singapore) have found a much simpler way to produce unusual light structures known as optical skyrmions by reviving a classic optics experiment that dates back more than 200 years.",
+          "relevance": "Medium — New experimental results that may constrain theoretical models",
+          "tags": [
+            "Optics & Photonics",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "New 3D thermal cloak hides objects from heat in any direction",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-3d-thermal-cloak.html",
+          "summary": "Researchers have designed and built the first 3D device that can make objects invisible to heat, an advance that could transform how we protect sensitive electronics, manage heat in microchips and shield equipment from thermal ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Atoms tell different stories when light hits a molecule in trillionths of a second",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-atoms-stories-molecule-trillionths.html",
+          "summary": "Researchers have captured how a molecule redistributes energy after absorbing light, differentiating the roles of individual atoms in the process. They used X-ray flashes from the European XFEL to show that different atoms ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Think preprints are unreliable? Analysis of 70,000 studies might change your mind",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02167-3",
+          "summary": "Central conclusions rarely change when biomedical preprints go on to be published in journals.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Satellite-based sensor system designed to detect nuclear weapons in space",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/satellite-based-sensor-system-designed-to-detect-nuclear-weapons-in-space/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Solving a 30-year-old puzzle about a mysterious superconducting material",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-year-puzzle-mysterious-superconducting-material.html",
+          "summary": "A material made from yttrium, barium and copper oxide (better known as YBCO) has intrigued scientists since its discovery in 1987, largely because it retains its superconductive properties at a higher-than-normal temperature. ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Lab-grown sperm: scientists inch closer to fertility breakthrough",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02172-6",
+          "summary": "Sci-fi procedure generates immature human sperm from stem cells, nurturing them on a mouse’s kidney.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-13",
       "type": "arxiv",
@@ -16148,9 +16245,25 @@
     }
   ],
   "stats": {
-    "total_digests": 135,
-    "total_entries": 1114,
+    "total_digests": 136,
+    "total_entries": 1122,
     "unique_tags": {
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-14",
+        "count": 118
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-14",
+        "count": 44
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-07-14",
+        "count": 39
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-07-14",
+        "count": 47
+      },
       "black-holes": {
         "first_seen": "2026-07-13",
         "count": 185
@@ -16183,25 +16296,9 @@
         "first_seen": "2026-07-13",
         "count": 41
       },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-13",
-        "count": 42
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-07-13",
-        "count": 38
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-13",
-        "count": 113
-      },
       "Quantum Information & Computing": {
         "first_seen": "2026-07-13",
         "count": 89
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-07-13",
-        "count": 46
       },
       "holography": {
         "first_seen": "2026-07-10",
@@ -19353,6 +19450,10 @@
       }
     },
     "tag_counts": {
+      "Science Communication & Policy": 118,
+      "Optics & Photonics": 44,
+      "Experiment & Observation": 39,
+      "Technology & Engineering": 47,
       "black-holes": 185,
       "physics": 102,
       "entanglement": 58,
@@ -19361,11 +19462,7 @@
       "Quantum Gravity": 28,
       "Black Hole Physics": 17,
       "Many-Body Physics & Condensed Matter": 41,
-      "Optics & Photonics": 42,
-      "Experiment & Observation": 38,
-      "Science Communication & Policy": 113,
       "Quantum Information & Computing": 89,
-      "Technology & Engineering": 46,
       "holography": 45,
       "quantum-gravity": 55,
       "string-theory": 7,
@@ -20155,6 +20252,54 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "arxiv": [
         "2026-07-13",
         "2026-07-12",
@@ -20187,53 +20332,6 @@
         "2026-06-04",
         "2026-06-03",
         "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "web-science": [
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
