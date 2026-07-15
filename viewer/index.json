@@ -1,6 +1,215 @@
 {
-  "generated": "2026-07-14T04:54:06.769Z",
+  "generated": "2026-07-15T01:41:44.238Z",
   "digests": [
+    {
+      "date": "2026-07-15",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-15",
+      "categories": "astro-ph.CO, cond-mat.other, cond-mat.quant-gas, cond-mat.str-el, gr-qc, hep-ph, hep-th, math-ph, math.QA, nucl-th, physics.hist-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, holograph, topological, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Holographic Timelike Entanglement and Subregion Complexity in Localized AdS3*S3*T4 Black Holes",
+          "authors": "Jitendra Pal, Yu Shi",
+          "arxiv_id": "2607.11641",
+          "url": "https://arxivite.org/abs/2607.11641",
+          "categories": "quant-ph, hep-th, gr-qc",
+          "summary": "We study timelike entanglement entropy and timelike subregion complexity in localized black holes with asymptotic AdS3*S3*T4 geometry, focusing on the black-pole solution. Unlike the BTZ solution, the black pole exhibits a nontrivial dependence on the internal sphere through the functions $K_y(r,\\theta)$ and $G(r,\\theta)$.",
+          "relevance": "black-holes, holography, entanglement",
+          "tags": [
+            "black-holes",
+            "holography",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Spacetime from Entanglement: The Emergence of Metric, Gravity, or Topology",
+          "authors": "Rasmus Jaksland",
+          "arxiv_id": "2607.09823",
+          "url": "https://arxivite.org/abs/2607.09823",
+          "categories": "hep-th, gr-qc, physics.hist-ph",
+          "summary": "In AdS/CFT, one often finds claims along the lines that ``spacetime emerges from entanglement.&#34; This paper argues that behind these general statements hide three distinct emergence claims about, respectively, metric, gravitational dynamics, and topological connectivity. Thus, despite being advertised with the same terminology, these results are not about the same spatiotemporal aspects.",
+          "relevance": "topological, entanglement",
+          "tags": [
+            "topological",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Scalar and vector bosons in a Bonnor-Melvin-$Λ$ spacetime: an exact Duffin-Kemmer-Petiau analysis",
+          "authors": "Francisco A. Cruz Neto, Luis B. Castro",
+          "arxiv_id": "2607.09997",
+          "url": "https://arxivite.org/abs/2607.09997",
+          "categories": "math-ph, hep-th, gr-qc, quant-ph",
+          "summary": "We study scalar and vector bosons in the Bonnor--Melvin--$\\Lambda$ spacetime within the Duffin--Kemmer--Petiau (DKP) formalism. By employing Umezawa&#39;s projection operators, we separate the physical spin-0 and spin-1 sectors and derive the corresponding exact second-order equations in the full curved spacetime, without relying on the conical approximation.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Circular orbits and particle collisions close to charged black holes surrounded by scalar clouds",
+          "authors": "Maria Chivers, Betti Hartmann, Katherine Horton et al.",
+          "arxiv_id": "2607.10325",
+          "url": "https://arxivite.org/abs/2607.10325",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study the motion of massive (un)charged test particles in space-times of electric and dyonic black holes which carry scalar hair. We determine the stable and unstable circular orbits and discuss the collision of massive test particles.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "A winding number analysis of Schwarzschild black hole stability in light of Planck-scale modified kinematics",
+          "authors": "Mohsen Khodadi, Nosratolla Jafari, Shahin Mamedov",
+          "arxiv_id": "2607.10600",
+          "url": "https://arxivite.org/abs/2607.10600",
+          "categories": "hep-th, gr-qc",
+          "summary": "Determining whether Planck-scale effects can stabilize black holes addresses fundamental questions about black hole evaporation and quantum gravity consistency. Here, we analyze the thermodynamic topology of Schwarzschild black holes under Planck-scale modified kinematics, using a cubic entropy correction derived from a well-known phenomenological MDR with leading correction \\(\\eta E^3/E_P\\).",
+          "relevance": "quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Polarization-dependent observational signatures of Weyl-coupled photons around a black hole",
+          "authors": "Mao-Yuan Wan, Chen Wu",
+          "arxiv_id": "2607.10658",
+          "url": "https://arxivite.org/abs/2607.10658",
+          "categories": "hep-th, gr-qc",
+          "summary": "A photon coupled non-minimally to the Weyl tensor propagates differently in its two linear polarization states: the vacuum around a black hole becomes a birefringent medium. On a Schwarzschild background the coupling $\\alpha$ splits the photon sphere and the critical impact parameter of the two polarizations, producing a double shadow and a polarization-dependent photon ring; the two shadow edges separate by $62\\%$ of the shadow radius at $\\alpha/M^2=0.75$.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Regular black holes with Minkowskian cores: causal structure and observational degeneracy",
+          "authors": "Francisco Tello-Ortiz, Y. Gómez-Leyton, Alejandro Rueda et al.",
+          "arxiv_id": "2607.10713",
+          "url": "https://arxivite.org/abs/2607.10713",
+          "categories": "hep-th, gr-qc",
+          "summary": "We construct a new family of asymptotically flat static and rotating regular black holes characterized by a Minkowskian core and a finite two-horizon structure. The solutions are obtained within the framework of gravitational decoupling and provide an analytically tractable realization of non-singular black hole geometries with a regular interior and well-defined asymptotic properties.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Sonic black holes with thick horizons in BECs",
+          "authors": "Daniel Peñalver, Marco De Vito, Roberto Balbinot et al.",
+          "arxiv_id": "2607.11396",
+          "url": "https://arxivite.org/abs/2607.11396",
+          "categories": "cond-mat.quant-gas, hep-th, gr-qc",
+          "summary": "We consider simple one dimensional models of acoustic black holes formed by Bose-Einstein condensates where the flow is stepwise homogeneous. We shall concentrate on the case in which an extended sonic region is present, i.e.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Quantum Horizon and Quantum Membrane Paradigm from Black Hole Quantum Mechanics",
+          "authors": "Chong-Sun Chu",
+          "arxiv_id": "2607.10561",
+          "url": "https://arxivite.org/abs/2607.10561",
+          "categories": "hep-th, gr-qc, cond-mat.other, hep-ph",
+          "summary": "We develop a microscopic quantum membrane paradigm from the matrix quantum mechanics of black holes [1]. It was proposed that a quantum black hole is described by a fuzzy sphere together with a half-filled Fermi sea of horizon partons.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "ACT stands for Awkward Cosmology Theories",
+          "authors": "Loris Del Grosso, Alfredo Urbano, Marcello Ziccolella",
+          "arxiv_id": "2607.09808",
+          "url": "https://arxivite.org/abs/2607.09808",
+          "categories": "hep-th, gr-qc, astro-ph.CO, hep-ph",
+          "summary": "Recent observations from the Atacama Cosmology Telescope (ACT) point to a scalar spectral index in tension with the predictions of Starobinsky inflation. Two main strategies have been proposed to reconcile Starobinsky inflation with these data: (i) including higher-curvature operators in the gravitational action, and (ii) modifying the post-inflationary reheating dynamics.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "The Lorentzian geometry of relaxation",
+          "authors": "Lorenzo Gavassino",
+          "arxiv_id": "2607.10148",
+          "url": "https://arxivite.org/abs/2607.10148",
+          "categories": "math-ph, hep-th, nucl-th, gr-qc",
+          "summary": "We show that relativistic theories with purely relaxational excitation spectra, such as kinetic theory and transient hydrodynamics, naturally endow the dispersion plane $\\{i\\omega,ik\\}$ with a Lorentzian geometric structure analogous to that of the Minkowski plane $\\{t,x\\}$. In this picture, timelike future-directed, timelike past-directed, and spacelike directions correspond respectively to relaxation-like, unstable-like, and evanescent-like modes.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Anyons and Inherently Complex F-symbols",
+          "authors": "Matthew Buican, Peter Huston, Jiannis K. Pachos",
+          "arxiv_id": "2607.10181",
+          "url": "https://arxivite.org/abs/2607.10181",
+          "categories": "cond-mat.str-el, math-ph, quant-ph, math.QA, hep-th",
+          "summary": "Anyons in $2+1$ dimensions are not only characterized by exotic braiding statistics but also by intricate fusion properties. Two anyons may fuse into multiple topological charge sectors, and associativity of fusing three anyons to produce a fixed charge sector is governed by $F$-symbols.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Black-hole evaporation from the semiclassical Einstein equations in 3+1 dimensions",
+          "authors": "Adrián del Río, F. Javier Marañón-González",
+          "arxiv_id": "2607.11737",
+          "url": "https://arxivite.org/abs/2607.11737",
+          "categories": "hep-th, gr-qc",
+          "summary": "We solve the semiclassical Einstein equations for an evaporating Schwarzschild black hole in closed form, obtaining its backreacted geometry in 3+1 dimensions. This is achieved by a reformulation of the Hadamard renormalization prescription, which admits explicit stress-energy tensors for scalar quantum fields in 3+1-dimensional curved spacetimes without the standard mode-sum construction.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Is there ghost and tachyon free bounce in UV complete gravity theory?",
+          "authors": "Hao Hu, Alexey S. Koshelev, Abhishek Naskar",
+          "arxiv_id": "2607.11765",
+          "url": "https://arxivite.org/abs/2607.11765",
+          "categories": "hep-th, gr-qc",
+          "summary": "Analytic infinite derivative gravity theories provide a renormalizable and ghost-free description of gravity around covariantly constant backgrounds. These theories can have non-singular bouncing Universe solutions.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Anisotropic Dirac-Born-Infeld Inflation with Non-Vacuum Initial States: Primordial Perturbations, Non-Gaussianity, and Observational Constraints",
+          "authors": "Narges Rashidi, Maryam Roushan",
+          "arxiv_id": "2607.11842",
+          "url": "https://arxivite.org/abs/2607.11842",
+          "categories": "hep-th, gr-qc, astro-ph.CO",
+          "summary": "We investigate linear and nonlinear primordial perturbations in an anisotropic Dirac-Born-Infeld (DBI) inflationary model with a non-vacuum initial state. Using the Arnowitt-Deser- Misner (ADM) formalism, we expand the action up to second and third order in the curvature perturbation and derive the corresponding scalar and tensor power spectra, as well as the bispectrum and the equilateral non-linearity parameter \\(f_{NL}^{\\mathrm{equil}}\\).",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-14",
       "type": "web-science",
@@ -16245,9 +16454,33 @@
     }
   ],
   "stats": {
-    "total_digests": 136,
-    "total_entries": 1122,
+    "total_digests": 137,
+    "total_entries": 1137,
     "unique_tags": {
+      "black-holes": {
+        "first_seen": "2026-07-15",
+        "count": 193
+      },
+      "holography": {
+        "first_seen": "2026-07-15",
+        "count": 46
+      },
+      "entanglement": {
+        "first_seen": "2026-07-15",
+        "count": 60
+      },
+      "topological": {
+        "first_seen": "2026-07-15",
+        "count": 36
+      },
+      "physics": {
+        "first_seen": "2026-07-15",
+        "count": 107
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-07-15",
+        "count": 56
+      },
       "Science Communication & Policy": {
         "first_seen": "2026-07-14",
         "count": 118
@@ -16263,22 +16496,6 @@
       "Technology & Engineering": {
         "first_seen": "2026-07-14",
         "count": 47
-      },
-      "black-holes": {
-        "first_seen": "2026-07-13",
-        "count": 185
-      },
-      "physics": {
-        "first_seen": "2026-07-13",
-        "count": 102
-      },
-      "entanglement": {
-        "first_seen": "2026-07-13",
-        "count": 58
-      },
-      "topological": {
-        "first_seen": "2026-07-13",
-        "count": 34
       },
       "many-body": {
         "first_seen": "2026-07-13",
@@ -16299,14 +16516,6 @@
       "Quantum Information & Computing": {
         "first_seen": "2026-07-13",
         "count": 89
-      },
-      "holography": {
-        "first_seen": "2026-07-10",
-        "count": 45
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-07-09",
-        "count": 55
       },
       "string-theory": {
         "first_seen": "2026-07-08",
@@ -19450,21 +19659,21 @@
       }
     },
     "tag_counts": {
+      "black-holes": 193,
+      "holography": 46,
+      "entanglement": 60,
+      "topological": 36,
+      "physics": 107,
+      "quantum-gravity": 56,
       "Science Communication & Policy": 118,
       "Optics & Photonics": 44,
       "Experiment & Observation": 39,
       "Technology & Engineering": 47,
-      "black-holes": 185,
-      "physics": 102,
-      "entanglement": 58,
-      "topological": 34,
       "many-body": 17,
       "Quantum Gravity": 28,
       "Black Hole Physics": 17,
       "Many-Body Physics & Condensed Matter": 41,
       "Quantum Information & Computing": 89,
-      "holography": 45,
-      "quantum-gravity": 55,
       "string-theory": 7,
       "loop-quantum-gravity": 11,
       "quantum-cosmology": 7,
@@ -20252,6 +20461,55 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "arxiv": [
+        "2026-07-15",
+        "2026-07-13",
+        "2026-07-12",
+        "2026-07-11",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-06",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "web-science": [
         "2026-07-14",
         "2026-07-13",
@@ -20284,54 +20542,6 @@
         "2026-06-03",
         "2026-06-02",
         "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "arxiv": [
-        "2026-07-13",
-        "2026-07-12",
-        "2026-07-11",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-06",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-05-30",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
