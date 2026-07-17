@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T01:42:00.337Z",
+  "generated": "2026-07-17T04:49:04.838Z",
   "digests": [
     {
       "date": "2026-07-17",
@@ -206,6 +206,105 @@
           "tags": [
             "black-holes",
             "holography"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-17",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Quantum teleportation could reduce photon loss in long-distance communications",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-teleportation-photon-loss-distance.html",
+          "summary": "Quantum technologies, which leverage the principles of quantum mechanics, have been found to outperform their classical counterparts on specific tasks. Among other things, past studies have highlighted the potential of quantum ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Cold radioactive molecules prepped and readied for physics discoveries",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-cold-radioactive-molecules-prepped-readied.html",
+          "summary": "For the first time, researchers have developed a way to create chilled molecules containing the radioactive element radium. The resulting laboratory concoctions, generated in part through steps similar to those used to make ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Scientists create stable 'boron graphene' and uncover quantum liquid crystal state",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-scientists-stable-boron-graphene-uncover.html",
+          "summary": "Graphene has long been regarded as one of the most promising materials for future electronics, but its relatively weak electron interactions have limited its potential for applications such as high-temperature superconductivity. ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Schrödinger‑like charges in six‑molecule clusters point to new quantum components",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-schrdingerlike-sixmolecule-clusters-quantum-components.html",
+          "summary": "Researchers from the University of Basel have published details of how electrons within a cluster of molecules interact with one another and can be controlled. Their findings pave the way for new approaches to developing ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Why do astronauts’ bodies waste away? Space-station study points to mitochondria",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02089-0",
+          "summary": "Human cells cultured in microgravity produced fewer mitochondrial proteins.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Super-loud gravitational waves offer a new way to study black hole event horizons",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/super-loud-gravitational-waves-offer-a-new-way-to-study-black-hole-event-horizons/",
+          "summary": "No summary available",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Thermodynamic Computers Go With the (Energy) Flow",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715/",
+          "summary": "Today’s computers need safeguards against random energy fluctuations. Thermodynamic computers would put those fluctuations to use.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Scientists achieve all-electrical control of single-molecule quantum states",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-scientists-electrical-molecule-quantum-states.html",
+          "summary": "Quantum technologies promise revolutionary advances in computing, sensing and information processing. However, controlling individual quantum bits (qubits) at the atomic scale remains a major challenge because conventional ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
           ]
         }
       ]
@@ -16768,8 +16867,8 @@
     }
   ],
   "stats": {
-    "total_digests": 140,
-    "total_entries": 1160,
+    "total_digests": 141,
+    "total_entries": 1168,
     "unique_tags": {
       "holography": {
         "first_seen": "2026-07-17",
@@ -16791,39 +16890,39 @@
         "first_seen": "2026-07-17",
         "count": 111
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-17",
+        "count": 96
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-17",
+        "count": 47
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-17",
+        "count": 123
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-07-17",
+        "count": 30
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-07-17",
+        "count": 19
+      },
       "topological": {
         "first_seen": "2026-07-15",
         "count": 36
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-15",
-        "count": 92
       },
       "Technology & Engineering": {
         "first_seen": "2026-07-15",
         "count": 48
       },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-15",
-        "count": 46
-      },
       "Experiment & Observation": {
         "first_seen": "2026-07-15",
         "count": 40
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-15",
-        "count": 121
-      },
       "many-body": {
-        "first_seen": "2026-07-13",
-        "count": 17
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-07-13",
-        "count": 28
-      },
-      "Black Hole Physics": {
         "first_seen": "2026-07-13",
         "count": 17
       },
@@ -19978,15 +20077,15 @@
       "black-holes": 198,
       "quantum-gravity": 57,
       "physics": 111,
+      "Quantum Information & Computing": 96,
+      "Optics & Photonics": 47,
+      "Science Communication & Policy": 123,
+      "Quantum Gravity": 30,
+      "Black Hole Physics": 19,
       "topological": 36,
-      "Quantum Information & Computing": 92,
       "Technology & Engineering": 48,
-      "Optics & Photonics": 46,
       "Experiment & Observation": 40,
-      "Science Communication & Policy": 121,
       "many-body": 17,
-      "Quantum Gravity": 28,
-      "Black Hole Physics": 17,
       "Many-Body Physics & Condensed Matter": 41,
       "string-theory": 7,
       "loop-quantum-gravity": 11,
@@ -20826,6 +20925,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-17",
         "2026-07-15",
         "2026-07-14",
         "2026-07-13",
