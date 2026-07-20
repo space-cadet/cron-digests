@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20T04:49:55.194Z",
+  "generated": "2026-07-20T17:55:51.730Z",
   "digests": [
     {
       "date": "2026-07-20",
@@ -77,6 +77,13 @@
       ]
     },
     {
+      "date": "2026-07-20",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-20",
+      "items_found": 0,
+      "entries": []
+    },
+    {
       "date": "2026-07-18",
       "type": "arxiv",
       "title": "# arXiv Morning Digest — 2026-07-18",
@@ -91,7 +98,7 @@
           "arxiv_id": "2607.14284",
           "url": "https://arxivite.org/abs/2607.14284",
           "categories": "hep-th, gr-qc, quant-ph",
-          "summary": "Spacelike singularities supported by matter satisfying the null energy condition (NEC) are expected to fall within the Belinski--Khalatnikov--Lifshitz (BKL) paradigm. We show that controlled violations of the NEC in holography can lead to different black hole interiors.",
+          "summary": "A holographic model dual to a non-Hermitian $\\mathcal{PT}$-symmetric QFT reveals a novel non-Kasner regime in the black hole interior, describing an isotropic FLRW cosmology approaching a Little Rip, with observable imprints on two-sided correlators.",
           "relevance": "black-holes, holography",
           "tags": [
             "black-holes",
@@ -105,7 +112,7 @@
           "arxiv_id": "2607.14746",
           "url": "https://arxivite.org/abs/2607.14746",
           "categories": "gr-qc",
-          "summary": "Loop quantum gravity (LQG) predicts quantum modifications to classical black-hole spacetimes, which may leave imprints on the dynamics and gravitational-wave signals of compact objects in the strong-field regime. In this work, we investigate the orbital dynamics and gravitational-wave signatures of extreme mass-ratio inspirals (EMRIs) in a self-dual loop quantum gravity black hole spacetime.",
+          "summary": "The authors analyze EMRI orbital dynamics and gravitational-wave waveforms in a self-dual loop quantum gravity black hole, finding that LQG corrections accumulate during inspiral and produce detectable deviations from classical predictions; a Fisher matrix analysis estimates constraints on quantum parameters from future detectors.",
           "relevance": "quantum-gravity, loop-quantum-gravity, black-holes",
           "tags": [
             "quantum-gravity",
@@ -120,7 +127,7 @@
           "arxiv_id": "2607.13857",
           "url": "https://arxivite.org/abs/2607.13857",
           "categories": "hep-ph, astro-ph.CO, gr-qc, hep-th",
-          "summary": "Cosmologically coupled black holes (CCBHs), whose masses evolve in response to the cosmological expansion, have recently attracted significant theoretical and observational interest. Existing studies have treated CCBHs as purely classical objects, neglecting the effect of Hawking radiation (HR), which competes with the cosmological coupling (CC) mechanism.",
+          "summary": "The authors study evaporating cosmologically coupled black holes (CCBHs) under a quasi-adiabatic approximation, showing that the coupling strength $k$ can significantly delay Hawking evaporation or cause asymptotic mass growth, and derive weaker $\\gamma$-ray limits on primordial CCBH abundance compared to uncoupled black holes.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -133,7 +140,7 @@
           "arxiv_id": "2607.14281",
           "url": "https://arxivite.org/abs/2607.14281",
           "categories": "hep-th, gr-qc",
-          "summary": "Atoms falling freely into a Bañados-Teitelboim-Zanelli (BTZ) black hole in a Boulware-like vacuum are shown to emit radiation with a Planck spectrum at the Hawking temperature $T_{H}$. This leads to thermal Hawking-like radiation for a cloud of falling atoms prepared with random initial times.",
+          "summary": "Atoms falling freely into a BTZ black hole emit radiation with a Planck spectrum at the Hawking temperature $T_H$, interpreted via a quantum-optics detector approach; the resulting HBAR entropy $S_{\\mathcal P}$ from the photon field mimics the Bekenstein-Hawking entropy $S_{\\mathrm{BH}}=A/4$ with the correct $1/4$ factor, governed by universal near-horizon conformal quantum mechanics.",
           "relevance": "black-holes, topological",
           "tags": [
             "black-holes",
@@ -147,7 +154,7 @@
           "arxiv_id": "2607.14910",
           "url": "https://arxivite.org/abs/2607.14910",
           "categories": "hep-th, gr-qc, math-ph",
-          "summary": "We present a class of regular axisymmetric black hole geometries fully characterized by the parameters $\\{{\\cal M},a\\}$ and possessing the Kerr event horizon. This family interpolates between regular spacetimes, configurations with integrable singularities, and the Kerr solution as a limiting case.",
+          "summary": "A new class of regular axisymmetric black holes characterized by $\\{\\mathcal{M},a\\}$ and possessing the Kerr horizon is presented, featuring quasi-extremal configurations without $a \\approx \\mathcal{M}$ and offering a framework for analytical Kerr black hole formation from initially regular spacetimes.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -160,7 +167,7 @@
           "arxiv_id": "2607.15070",
           "url": "https://arxivite.org/abs/2607.15070",
           "categories": "hep-th, gr-qc, math-ph, quant-ph",
-          "summary": "We investigate the Casimir effect for a massive real scalar field confined between two perfectly reflecting parallel plates in the presence of a position-dependent effective mass, a mechanism for coupling a scalar background to a scalar field. Exact normal modes are obtained by solving the corresponding Klein-Gordon equation, leading to a transverse energy spectrum that exhibits a characteristic Landau-like structure despite the absence of an external magnetic field.",
+          "summary": "For a massive scalar field between parallel plates with a position-dependent effective mass, the exact normal modes yield a Landau-like transverse spectrum; the renormalized vacuum energy separates into a Landau-like term and a spatial-mass term, both exponentially suppressed in the strong-coupling regime, establishing a solvable model for inhomogeneous Casimir physics.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -173,7 +180,7 @@
           "arxiv_id": "2607.13146",
           "url": "https://arxivite.org/abs/2607.13146",
           "categories": "hep-ph, hep-th, gr-qc",
-          "summary": "With current advances in gravitational wave (GW) detection made by the worldwide LIGO-Virgo-KAGRA (LVK) network of detectors, ever-more sensitive tests of gravity in the strong-field regime are now possible. This enables one to test gauge theories beyond Einstein-Hilbert action, such as Weyl gauge theories of gravity.",
+          "summary": "The authors analyze gravitational-wave polarization modes in Weyl quadratic gauge theory of gravity, finding two additional vector modes beyond the Einstein-Hilbert tensor modes induced by transverse fluctuations of the Weyl gauge field; detection of these vector modes would provide evidence for Weyl gauge symmetry.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -186,7 +193,7 @@
           "arxiv_id": "2607.14170",
           "url": "https://arxivite.org/abs/2607.14170",
           "categories": "gr-qc",
-          "summary": "We study the nonlinear photon dynamics in quantum improved rotating black hole surrounded by perfect fluid dark matter (PFDM) using several methods of analysis, including Poincaré sections, Lyapunov exponents, Kolmogorov-Sinai (KS) entropy and weighted Birkhoff averages (WBA). In particular, we examine the effect of quantum-improved parameter $(\\tilde{\\omega})$ and PFDM parameter $(\\zeta)$ on the null geodesic motion hence stability of circular orbit.",
+          "summary": "Photon dynamics in a quantum-improved Kerr black hole surrounded by perfect fluid dark matter are studied via Poincaré sections, Lyapunov exponents, and KS entropy, showing that quantum and dark matter parameters enhance chaos and modify the effective potential, with implications for black hole shadows and gravitational lensing.",
           "relevance": "quantum-gravity, black-holes",
           "tags": [
             "quantum-gravity",
@@ -200,7 +207,7 @@
           "arxiv_id": "2607.14173",
           "url": "https://arxivite.org/abs/2607.14173",
           "categories": "gr-qc",
-          "summary": "Based on the $\\phi$-mapping topological current theory, we systematically investigate the thermodynamic topology of regular Bardeen-AdS-class black holes coupled to nonlinear electrodynamics, a class of singularity-free geometries whose topological classification remains underexplored. We implement numerical calculations at two typical AdS radii $L=1$ and $L=15$.",
+          "summary": "Using $\\phi$-mapping topological current theory, the authors identify a novel inner secondary subclass $\\widetilde{W}^{0-}$ within the $W^{0-}$ family of Bardeen-AdS-class black holes, characterized by a vanishing global charge $W=0$ and $[-,+]$ winding signature, with two critical coupling parameters dividing the parameter space into distinct topological phases.",
           "relevance": "black-holes, topological",
           "tags": [
             "black-holes",
@@ -214,7 +221,7 @@
           "arxiv_id": "2607.15150",
           "url": "https://arxivite.org/abs/2607.15150",
           "categories": "gr-qc",
-          "summary": "We investigate the thermodynamic topology of charged AdS black holes in a non-commutative spacetime sourced by Lorentzian-smeared matter distributions. Since exact analytical solutions for the critical thermodynamic quantities are not available, we employ a perturbative expansion in the non-commutative parameter and validate the resulting expressions through numerical analysis.",
+          "summary": "The thermodynamic topology of charged AdS black holes in non-commutative spacetime is investigated via perturbative expansion in the non-commutative parameter, revealing qualitative modifications to standard Reissner-Nordström AdS behavior and establishing a bulk-boundary topological correspondence; non-commutative corrections also affect the second-law remnant mass bound and entropy.",
           "relevance": "black-holes, topological",
           "tags": [
             "black-holes",
@@ -228,7 +235,7 @@
           "arxiv_id": "2607.13665",
           "url": "https://arxivite.org/abs/2607.13665",
           "categories": "hep-th, gr-qc",
-          "summary": "We study the algebra of observables of a semiclassical observer in de Sitter space. When operators are time-evolved by a scrambling time, out-of-time-ordered correlation functions (OTOCs) receive corrections due to shockwave scattering near the cosmological horizon.",
+          "summary": "In de Sitter space, shockwave scattering near the cosmological horizon causes OTOC corrections at scrambling time, implying breakdown of the KMS condition for classical clocks and that the Hartle-Hawking state is not a trace on the crossed-product algebra; beyond scrambling time, a free product algebra emerges, challenging observer-centric static patch holography.",
           "relevance": "holography",
           "tags": [
             "holography"
@@ -241,7 +248,7 @@
           "arxiv_id": "2607.14153",
           "url": "https://arxivite.org/abs/2607.14153",
           "categories": "hep-th, gr-qc",
-          "summary": "We derive generalized effective Friedmann and Raychaudhuri equations for a bouncing polymer quantized Bianchi-I spacetime. We further prove that the relation numerically derived in the literature between the matter energy density and the anisotropic shear at the bounce holds exactly for any type of matter content, and derive explicit expressions for the constants that appear in that relation.",
+          "summary": "Generalized effective Friedmann and Raychaudhuri equations are derived for a bouncing polymer-quantized Bianchi-I spacetime, and the exact relation between matter energy density and anisotropic shear at the bounce is proven for arbitrary matter content, with explicit expressions for the constants.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -254,7 +261,7 @@
           "arxiv_id": "2607.14450",
           "url": "https://arxivite.org/abs/2607.14450",
           "categories": "astro-ph.GA, astro-ph.SR, astro-ph.HE, hep-th, gr-qc",
-          "summary": "Wide binary stars provide natural laboratories for directly probing gravity in the low-acceleration regime, as dark matter inferred from any viable gravity has negligible effects on their internal dynamics. Various recent studies including Bayesian 3D analyses have shown that wide binaries with separations greater than several thousand astronomical units experience MOND-type gravity with a boost factor of $\\gamma\\approx 1.3-1.6$.",
+          "summary": "Reanalysis of wide binary data quality control and multiple-star modeling confirms a MOND-type gravitational anomaly at low acceleration with boost factor $\\gamma \\approx 1.3-1.6$, showing that claims of Newtonian behavior result from calibration bypasses, biased quality cuts, or insufficient low-acceleration statistics.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -267,7 +274,7 @@
           "arxiv_id": "2607.14529",
           "url": "https://arxivite.org/abs/2607.14529",
           "categories": "hep-ph, astro-ph.CO, gr-qc, hep-th",
-          "summary": "We develop an analytic treatment of primordial non-Gaussianity in multifield inflation that is nonperturbative in the constant curvature--isocurvature mixing strength $\\lambda$. Using exact linear solutions for the coupled curvature perturbation $\\zeta$ and isocurvature perturbation $\\sigma$, we construct dressed propagators and derive exact integral representations for the tree-level bispectra generated by the interactions $\\dot\\zeta^2\\sigma$, $\\dot\\zeta\\,\\sigma^2$, and $\\sigma^3$.",
+          "summary": "An analytic nonperturbative treatment of primordial non-Gaussianity in multifield inflation is developed, resumming curvature--isocurvature transfer to all orders in mixing strength $\\lambda$; in the strong-mixing regime, both power spectrum and bispectrum are dramatically enhanced with distinctive scaling laws, opening a window beyond weak-coupling for cosmological collider signals and primordial black hole production.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -280,13 +287,20 @@
           "arxiv_id": "2607.15276",
           "url": "https://arxivite.org/abs/2607.15276",
           "categories": "hep-th, cond-mat.stat-mech, quant-ph, cond-mat.dis-nn",
-          "summary": "Deep thermalisation characterises the emergence of universal quantum state ensembles on subsystems due to projective measurements on their complement. We study the notion of locality, or lack thereof, in this phenomenon by considering a subsystem partitioned into two disjoint subregions which remain causally disconnected at all times under unitary dynamics.",
+          "summary": "Deep thermalisation in locally interacting systems exhibits emergent locality: the timescales for deep thermalisation and measurement-induced entanglement teleportation between causally disconnected subregions both scale logarithmically with their separation, except in special circuits where perfect randomness transmission leads to finite-time, genuinely non-local deep thermalisation.",
           "relevance": "entanglement",
           "tags": [
             "entanglement"
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-18",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-18",
+      "items_found": 0,
+      "entries": []
     },
     {
       "date": "2026-07-17",
@@ -17161,7 +17175,7 @@
     }
   ],
   "stats": {
-    "total_digests": 144,
+    "total_digests": 146,
     "total_entries": 1189,
     "unique_tags": {
       "Science Communication & Policy": {
@@ -21219,6 +21233,56 @@
         "2026-05-12",
         "2026-05-11"
       ],
+      "moltbook": [
+        "2026-07-20",
+        "2026-07-18",
+        "2026-07-17",
+        "2026-07-15",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-05",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-28",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-21",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
+      ],
       "arxiv": [
         "2026-07-18",
         "2026-07-17",
@@ -21269,54 +21333,6 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
-      ],
-      "moltbook": [
-        "2026-07-17",
-        "2026-07-15",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-05",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-28",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-21",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
       ]
     }
   }
