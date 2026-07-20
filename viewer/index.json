@@ -1,6 +1,81 @@
 {
-  "generated": "2026-07-18T01:41:57.681Z",
+  "generated": "2026-07-20T04:49:55.194Z",
   "digests": [
+    {
+      "date": "2026-07-20",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-20",
+      "items_found": 6,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Scientists Built a Camera That Can Track Invisible Particles in 3D",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260716023610.htm",
+          "summary": "Some breakthroughs in physics come from brand new inventions. Others begin with a new theory. But many advances happen when researchers combine familiar technologies in an unexpected way and create something more powerful than the individual parts.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum Breakthrough Links Light and Magnetism in Atomically Thin Materials",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260715083523.htm",
+          "summary": "Researchers at the City College of New York are charting a fast-growing area of quantum science centered on materials only a few atoms thick. In these systems, light, electric charge, and magnetism are closely connected rather than behaving independently.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Found: a rocky exoplanet with an atmosphere — could it host life?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02200-5",
+          "summary": "Astronomers have spotted helium escaping from LHS 1140b, an exoplanet orbiting in its star’s ‘habitable zone’.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Man’s ability to make sperm restored after testicular tissue transplant: what scientists think",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02191-3",
+          "summary": "Testicle sample removed from a ten-year-old before chemotherapy and frozen proves viable 16 years later.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "First medical X-ray images taken in space achieve diagnostic quality",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/first-medical-x-ray-images-taken-in-space-achieve-diagnostic-quality/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Astronomers express outrage after regulators approve ‘space mirror’ permit",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/astronomers-express-outrage-after-regulators-approve-space-mirror-permit/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-18",
       "type": "arxiv",
@@ -17086,9 +17161,21 @@
     }
   ],
   "stats": {
-    "total_digests": 143,
-    "total_entries": 1183,
+    "total_digests": 144,
+    "total_entries": 1189,
     "unique_tags": {
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-20",
+        "count": 128
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-20",
+        "count": 97
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-20",
+        "count": 48
+      },
       "black-holes": {
         "first_seen": "2026-07-18",
         "count": 206
@@ -17116,18 +17203,6 @@
       "entanglement": {
         "first_seen": "2026-07-18",
         "count": 64
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-17",
-        "count": 96
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-17",
-        "count": 47
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-17",
-        "count": 123
       },
       "Quantum Gravity": {
         "first_seen": "2026-07-17",
@@ -20291,6 +20366,9 @@
       }
     },
     "tag_counts": {
+      "Science Communication & Policy": 128,
+      "Quantum Information & Computing": 97,
+      "Optics & Photonics": 48,
       "black-holes": 206,
       "holography": 54,
       "quantum-gravity": 59,
@@ -20298,9 +20376,6 @@
       "topological": 39,
       "physics": 116,
       "entanglement": 64,
-      "Quantum Information & Computing": 96,
-      "Optics & Photonics": 47,
-      "Science Communication & Policy": 123,
       "Quantum Gravity": 30,
       "Black Hole Physics": 19,
       "Technology & Engineering": 48,
@@ -21093,6 +21168,57 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "arxiv": [
         "2026-07-18",
         "2026-07-17",
@@ -21128,56 +21254,6 @@
         "2026-06-04",
         "2026-06-03",
         "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "web-science": [
-        "2026-07-17",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
         "2026-05-29",
         "2026-05-28",
         "2026-05-27",
