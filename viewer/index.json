@@ -1,6 +1,216 @@
 {
-  "generated": "2026-07-20T17:55:51.730Z",
+  "generated": "2026-07-21T01:42:00.823Z",
   "digests": [
+    {
+      "date": "2026-07-21",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-21",
+      "categories": "astro-ph.CO, cond-mat.mtrl-sci, gr-qc, hep-ph, hep-th, math-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, holograph, topological",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Quasinormal Modes of Self-Dual Loop Quantum Gravity Corrected Kerr Black Holes",
+          "authors": "Yu Wang, Meilin Liu, Haiguang Xu",
+          "arxiv_id": "2607.15324",
+          "url": "https://arxivite.org/abs/2607.15324",
+          "categories": "gr-qc",
+          "summary": "We investigate scalar quasinormal modes and ringdown signals of a rotating loop quantum gravity black hole constructed via the revised Newman--Janis algorithm. The spacetime incorporates two quantum parameters, the polymeric parameter $P$ and the minimal area parameter $a_0$, and reduces to the Kerr spacetime in the classical limit.",
+          "relevance": "quantum-gravity, loop-quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Viscous Accretion Disks around Regular Black Holes Embedded in a Quintessence Dark Energy Field: Beyond the Novikov--Thorne Approximation",
+          "authors": "Sandip Dutta",
+          "arxiv_id": "2607.15679",
+          "url": "https://arxivite.org/abs/2607.15679",
+          "categories": "gr-qc, hep-th",
+          "summary": "We develop a comprehensive relativistic framework for geometrically thin, optically thick Shakura--Sunyaev $\\alpha$-viscous accretion disks around rotating Hayward regular black holes embedded in a quintessence dark energy (DE) field. The static, spherically symmetric building blocks of our spacetime are each exact solutions of the Einstein field equations, sourced respectively by the Hayward non-linear electromagnetic field and a quintessence fluid with equation-of-state parameter $\\omega&lt;-1/3$; we combine and rotate them following standard practice for this class of models, and we are explicit throughout about the resulting metric&#39;s phenomenological status.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Einstein crystals in Snyder and Snyder-de Sitter noncommutative backgrounds",
+          "authors": "Anna Pachoł, Aneta Wojnar",
+          "arxiv_id": "2607.15760",
+          "url": "https://arxivite.org/abs/2607.15760",
+          "categories": "quant-ph, gr-qc, hep-th, cond-mat.mtrl-sci",
+          "summary": "We investigate the behavior of Einstein crystals in noncommutative backgrounds described by the Snyder and Snyder-de Sitter models. Possible novel effects, which may arise in realistic systems such as diamond crystals, are analyzed within a thermodynamical framework.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Accelerating electrically charged ModMax black hole solutions in $F(R)$ gravity",
+          "authors": "B. Eslam Panah, N. Heidari, A. Rincón",
+          "arxiv_id": "2607.15914",
+          "url": "https://arxivite.org/abs/2607.15914",
+          "categories": "gr-qc, hep-th",
+          "summary": "Using the $C-$metric in the context of $F(R)$ gravity coupled with the ModMax nonlinear electromagnetic field (the $F(R)-$ModMax theory), we derive an exact black hole solution in a four-dimensional spacetime. We then examine how various parameters influence the behavior of accelerating ModMax black holes.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Probing Lorentz-invariance-violation with quantum coherence of Unruh-DeWitt detector",
+          "authors": "Yihao Wu, Xiaobao Liu, Zehua Tian",
+          "arxiv_id": "2607.15551",
+          "url": "https://arxivite.org/abs/2607.15551",
+          "categories": "quant-ph, gr-qc, hep-th",
+          "summary": "Testing Lorentz invariance violation (LIV) is notoriously difficult, as its characteristic energy scale, $M_\\star$, in modified dispersion relations typically lies beyond current experimental reach. To enable a low-energy probe, we investigate the quantum coherence of an inertial Unruh-DeWitt (UDW) detector interacting with a massless scalar field with a Lorentz-violating dispersion relation $\\omega_{|\\textbf{k}|}=|\\textbf{k}|f(|\\textbf{k}|/M_\\star)$.",
+          "relevance": "quantum-gravity, loop-quantum-gravity",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Hanbury-Brown Twiss effect, squeezed gravitons and the photon correlations",
+          "authors": "Massimo Giovannini",
+          "arxiv_id": "2607.15964",
+          "url": "https://arxivite.org/abs/2607.15964",
+          "categories": "hep-th, astro-ph.CO, gr-qc, quant-ph, hep-ph",
+          "summary": "Unlike the gravitational waves classically generated by moving macroscopic masses, the diffuse backgrounds of gravitons originate most likely from zero-point fluctuations of the gravitational field amplified by the evolution of the space-time curvature. The resulting entangled states lead to specific second-order correlation effects that could be eventually detected.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "JT gravity on the worldline",
+          "authors": "Ben Freivogel, Alessandro Fumagalli, Diego M. Hofman",
+          "arxiv_id": "2607.14213",
+          "url": "https://arxivite.org/abs/2607.14213",
+          "categories": "gr-qc, hep-th",
+          "summary": "Motivated by the problem of understanding the experience of an observer in dynamical quantum gravity, we study the effects of coupling a one-dimensional quantum mechanical system living on a bulk worldline to Euclidean AdS JT gravity. On the disk topology, where the worldline stretches between two boundary points, we derive exact expressions for the Euclidean propagator of the observer and for its correlation functions, and discuss their holographic interpretation.",
+          "relevance": "quantum-gravity, holography",
+          "tags": [
+            "quantum-gravity",
+            "holography"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Non-perturbative saturation of Krylov complexity, and its implications in quantum gravity",
+          "authors": "Andrew Lucas, Amit Vikram",
+          "arxiv_id": "2607.14220",
+          "url": "https://arxivite.org/abs/2607.14220",
+          "categories": "quant-ph, hep-th, math-ph",
+          "summary": "We study the dynamics of Krylov state complexity in finite-dimensional quantum systems. Orthogonal polynomials built on a discrete energy spectrum crowd away from regions where the density of states is low at large Krylov index.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Dynamical Entropy Is a Noether Charge",
+          "authors": "V.R. Shajiee, M.M. Sheikh-Jabbari, V. Taghiloo",
+          "arxiv_id": "2607.14289",
+          "url": "https://arxivite.org/abs/2607.14289",
+          "categories": "gr-qc, hep-th",
+          "summary": "Black hole thermodynamics for generic dynamical, non-equilibrium regimes remains a fundamental challenge. We establish dynamical entropy as the Noether charge associated with a generic evolving null surface subject to Dirichlet boundary conditions.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "The variational approach to infrared divergencies: Applications to black hole action integrals and holographic Wilson loops",
+          "authors": "M. Arroyo, D. Arteaga, M. Bañados et al.",
+          "arxiv_id": "2607.14330",
+          "url": "https://arxivite.org/abs/2607.14330",
+          "categories": "hep-th",
+          "summary": "Renormalizing the on-shell action variation offers two important advantages over renormalizing the action itself. First, the variation of the action has a universal form in which the bulk contribution vanishes identically.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Cosmological Collider Signals at Strong Mixing",
+          "authors": "Xiangwei Wang, Yi Wang, Yunke Zhao",
+          "arxiv_id": "2607.14891",
+          "url": "https://arxivite.org/abs/2607.14891",
+          "categories": "astro-ph.CO, gr-qc, hep-th",
+          "summary": "We study cosmological collider signatures in a two-field inflationary system with constant-turn derivative mixing between the canonically normalized curvature fluctuation and a massive isocurvature field. Building on recently derived exact hypergeometric solutions that treat the quadratic mixing nonperturbatively, we construct the mixed propagators constituting the cosmological correlators.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Observers, local measurements, and topology",
+          "authors": "Michele Cirafici",
+          "arxiv_id": "2607.15007",
+          "url": "https://arxivite.org/abs/2607.15007",
+          "categories": "gr-qc, hep-th",
+          "summary": "An observer which propagates in a spacetime with dynamical gravity has access to an algebra of observables which is expected to be a von Neumann algebra with a trace. The observer can use projections from the algebra to perform local measurements.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Relativistic time-commutative dynamics with $κ$-plane noncommutativity",
+          "authors": "Alessandro Moia, Stefano Stocchetti, Giovanni Amelino-Camelia",
+          "arxiv_id": "2607.15261",
+          "url": "https://arxivite.org/abs/2607.15261",
+          "categories": "gr-qc, hep-th, math-ph",
+          "summary": "In the last decades, spacetime noncommutativity and the associated deformations of relativistic symmetries have attracted a lot of interest, as several phenomenological windows into quantum gravity are approaching genuine Planck-scale sensitivity. However, the physical significance of the mathematical structures introduced to deal with spacetime noncommutativity is still debated, and some crucial pieces are missing or poorly understood.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Searching for Folded Primordial Non-Gaussianity with Galaxy Surveys",
+          "authors": "Si-Xiang Yang, Oliver H. E. Philcox",
+          "arxiv_id": "2607.15337",
+          "url": "https://arxivite.org/abs/2607.15337",
+          "categories": "astro-ph.CO, gr-qc, hep-th, hep-ph",
+          "summary": "Large-scale structure provides a powerful probe of inflationary physics through primordial non-Gaussianity (PNG): the galaxy power spectrum depends on local PNG through scale-dependent bias, while the galaxy bispectrum depends sensitively on both equilateral and orthogonal PNG. In this paper, we study whether galaxy surveys can also probe folded PNG, whose shape is enhanced near $k_1+k_2-k_3\\rightarrow0$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Cosmological Evidence for Dark Axion-Dark Baryon Interactions from Apparent Phantom Crossing",
+          "authors": "Justin Khoury, Meng-Xiang Lin, Mark Trodden",
+          "arxiv_id": "2607.16191",
+          "url": "https://arxivite.org/abs/2607.16191",
+          "categories": "astro-ph.CO, gr-qc, hep-th, hep-ph",
+          "summary": "Interactions between dark matter and dark energy can lead to an apparent phantom-crossing behavior that mimics the expansion history preferred by the latest cosmological observations from DESI baryon acoustic oscillations (BAO), Cosmic Microwave Background (CMB), and Type Ia supernovae (SNe Ia) data. In a previous paper [Khoury, Lin, and Trodden 2025 arXiv:2503.16415], we proposed a concrete particle physics realization of this idea, consisting of a strongly coupled dark sector in which a dark axion is coupled to dark baryons.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-20",
       "type": "web-science",
@@ -17175,9 +17385,33 @@
     }
   ],
   "stats": {
-    "total_digests": 146,
-    "total_entries": 1189,
+    "total_digests": 147,
+    "total_entries": 1204,
     "unique_tags": {
+      "quantum-gravity": {
+        "first_seen": "2026-07-21",
+        "count": 64
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-07-21",
+        "count": 14
+      },
+      "black-holes": {
+        "first_seen": "2026-07-21",
+        "count": 211
+      },
+      "physics": {
+        "first_seen": "2026-07-21",
+        "count": 121
+      },
+      "holography": {
+        "first_seen": "2026-07-21",
+        "count": 56
+      },
+      "topological": {
+        "first_seen": "2026-07-21",
+        "count": 40
+      },
       "Science Communication & Policy": {
         "first_seen": "2026-07-20",
         "count": 128
@@ -17189,30 +17423,6 @@
       "Optics & Photonics": {
         "first_seen": "2026-07-20",
         "count": 48
-      },
-      "black-holes": {
-        "first_seen": "2026-07-18",
-        "count": 206
-      },
-      "holography": {
-        "first_seen": "2026-07-18",
-        "count": 54
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-07-18",
-        "count": 59
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-07-18",
-        "count": 12
-      },
-      "topological": {
-        "first_seen": "2026-07-18",
-        "count": 39
-      },
-      "physics": {
-        "first_seen": "2026-07-18",
-        "count": 116
       },
       "entanglement": {
         "first_seen": "2026-07-18",
@@ -20380,15 +20590,15 @@
       }
     },
     "tag_counts": {
+      "quantum-gravity": 64,
+      "loop-quantum-gravity": 14,
+      "black-holes": 211,
+      "physics": 121,
+      "holography": 56,
+      "topological": 40,
       "Science Communication & Policy": 128,
       "Quantum Information & Computing": 97,
       "Optics & Photonics": 48,
-      "black-holes": 206,
-      "holography": 54,
-      "quantum-gravity": 59,
-      "loop-quantum-gravity": 12,
-      "topological": 39,
-      "physics": 116,
       "entanglement": 64,
       "Quantum Gravity": 30,
       "Black Hole Physics": 19,
@@ -21182,6 +21392,58 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "arxiv": [
+        "2026-07-21",
+        "2026-07-18",
+        "2026-07-17",
+        "2026-07-15",
+        "2026-07-13",
+        "2026-07-12",
+        "2026-07-11",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-06",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "web-science": [
         "2026-07-20",
         "2026-07-17",
@@ -21282,57 +21544,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "arxiv": [
-        "2026-07-18",
-        "2026-07-17",
-        "2026-07-15",
-        "2026-07-13",
-        "2026-07-12",
-        "2026-07-11",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-06",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
