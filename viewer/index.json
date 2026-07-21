@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21T01:42:25.389Z",
+  "generated": "2026-07-21T04:49:41.979Z",
   "digests": [
     {
       "date": "2026-07-21",
@@ -207,6 +207,58 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-21",
+      "items_found": 4,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Scientists Found Two Powerful New Ways to Destroy Forever Chemicals",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260718010147.htm",
+          "summary": "Researchers at the Helmholtz-Zentrum Dresden-Rossendorf (HZDR) are testing two technologies designed to destroy per- and polyfluoroalkyl substances (PFAS), a vast family of industrial chemicals known for resisting natural and conventional breakdown processes.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Smuggling charges against NIH virologists trigger political uproar",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-01995-7",
+          "summary": "Other researchers say that non-infectious viral samples in luggage posed no risk, but might have violated import rules.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Huge study finds first genetic clues for borderline personality disorder",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02220-1",
+          "summary": "Largest genetic analysis of the condition so far finds 11 linked locations in the human genome.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Structured light could deliver a new method for diagnosing eye disease",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/structured-light-could-deliver-a-new-method-for-diagnosing-eye-disease/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
           ]
         }
       ]
@@ -17385,8 +17437,8 @@
     }
   ],
   "stats": {
-    "total_digests": 147,
-    "total_entries": 1204,
+    "total_digests": 148,
+    "total_entries": 1208,
     "unique_tags": {
       "quantum-gravity": {
         "first_seen": "2026-07-21",
@@ -17413,16 +17465,16 @@
         "count": 40
       },
       "Science Communication & Policy": {
-        "first_seen": "2026-07-20",
-        "count": 128
+        "first_seen": "2026-07-21",
+        "count": 131
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-21",
+        "count": 49
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-07-20",
         "count": 97
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-20",
-        "count": 48
       },
       "entanglement": {
         "first_seen": "2026-07-18",
@@ -20596,9 +20648,9 @@
       "physics": 121,
       "holography": 56,
       "topological": 40,
-      "Science Communication & Policy": 128,
+      "Science Communication & Policy": 131,
+      "Optics & Photonics": 49,
       "Quantum Information & Computing": 97,
-      "Optics & Photonics": 48,
       "entanglement": 64,
       "Quantum Gravity": 30,
       "Black Hole Physics": 19,
@@ -21445,6 +21497,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-21",
         "2026-07-20",
         "2026-07-17",
         "2026-07-15",
