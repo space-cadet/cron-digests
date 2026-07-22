@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T01:42:34.855Z",
+  "generated": "2026-07-22T04:50:33.981Z",
   "digests": [
     {
       "date": "2026-07-22",
@@ -206,6 +206,36 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-22",
+      "items_found": 2,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Does China’s latest AI model finally equal US rivals? What scientists think",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02281-2",
+          "summary": "‘Kimi K3’ can match or outperform cutting-edge models, says Moonshot AI. But its large size might limit uptake.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Scientists discover sugar in interstellar space",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/scientists-discover-sugar-in-interstellar-space/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -17653,8 +17683,8 @@
     }
   ],
   "stats": {
-    "total_digests": 150,
-    "total_entries": 1223,
+    "total_digests": 151,
+    "total_entries": 1225,
     "unique_tags": {
       "quantum-gravity": {
         "first_seen": "2026-07-22",
@@ -17680,13 +17710,13 @@
         "first_seen": "2026-07-22",
         "count": 41
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-22",
+        "count": 133
+      },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-21",
         "count": 14
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-21",
-        "count": 131
       },
       "Optics & Photonics": {
         "first_seen": "2026-07-21",
@@ -20864,8 +20894,8 @@
       "entanglement": 66,
       "physics": 125,
       "topological": 41,
+      "Science Communication & Policy": 133,
       "loop-quantum-gravity": 14,
-      "Science Communication & Policy": 131,
       "Optics & Photonics": 49,
       "Quantum Information & Computing": 97,
       "Quantum Gravity": 30,
@@ -21714,6 +21744,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-22",
         "2026-07-21",
         "2026-07-20",
         "2026-07-17",
