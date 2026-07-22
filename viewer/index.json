@@ -1,6 +1,215 @@
 {
-  "generated": "2026-07-21T04:49:41.979Z",
+  "generated": "2026-07-22T01:42:12.980Z",
   "digests": [
+    {
+      "date": "2026-07-22",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-22",
+      "categories": "astro-ph.CO, cond-mat.mes-hall, gr-qc, hep-ex, hep-ph, hep-th, math-ph, physics.app-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, holograph, topological, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Holographic CFT Thermodynamics as a Bridge Between the Weak Gravity and Weak Cosmic Censorship Conjectures for EMPYM--AdS Black Holes",
+          "authors": "Saeed Noori Gashti, Behnam Pourhassan, Izzet Sakalli et al.",
+          "arxiv_id": "2607.16216",
+          "url": "https://arxivite.org/abs/2607.16216",
+          "categories": "hep-th, gr-qc",
+          "summary": "The weak cosmic censorship conjecture (\\WCCC) and the weak gravity conjecture (\\WGC) sit at the heart of how singularities and charged matter are constrained in any consistent theory of quantum gravity. We study both conjectures for Einstein--Maxwell--power--Yang--Mills--AdS (\\EMPYM) black holes, a family in which a non-Abelian power-law Yang--Mills field, a Maxwell field, and a negative cosmological constant act together.",
+          "relevance": "quantum-gravity, black-holes, holography",
+          "tags": [
+            "quantum-gravity",
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "On Accretion and Neutrino Investigations of Thermodynamically Reconstructed Black Holes from Three-Parameter Generalized Entropy",
+          "authors": "F. Barzi, W. El Hadri, H. El Moumni et al.",
+          "arxiv_id": "2607.16337",
+          "url": "https://arxivite.org/abs/2607.16337",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study accretion and neutrino-sensitive thermal signatures of a static black hole reconstructed from a three-parameter generalized entropy. The construction is thermodynamic by design: the entropy deformation is not mapped to a radial-coordinate redefinition or to a prescribed Reissner--Nordström-like correction.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Spontaneous scalarization around a black hole in a dark matter halo",
+          "authors": "M. Navid Gasemi Zad, H. Mohseni Sadjadi",
+          "arxiv_id": "2607.17367",
+          "url": "https://arxivite.org/abs/2607.17367",
+          "categories": "hep-th, gr-qc",
+          "summary": "We demonstrate that in a scalar-tensor theory where dark matter is conformally coupled to a scalar field, a black hole surrounded by a Hernquist dark matter halo can undergo spontaneous scalarization, acquiring a nontrivial scalar field configuration. The astrophysical properties of the dark matter halo directly dictate the quantum-like spectrum of scalar field configurations around the central black hole.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Harmonic oscillation and orbital morphology for spinning charged quantum corrected black hole",
+          "authors": "Rameez Khalid, Muhammad Yasir, Shahid Qaisar et al.",
+          "arxiv_id": "2607.17658",
+          "url": "https://arxivite.org/abs/2607.17658",
+          "categories": "hep-th, gr-qc",
+          "summary": "This study investigates the dynamical behavior of particle&#39;s test around a spinning charged Einstein-Maxwell-dilaton (EMd) quantum corrected black hole (QCBH) by examining the effects of spinning parameter $a$, quantum correction parameter $b$, and charge parameter $Q$. Using EMd spacetime geometry, we analyze the effective potential and effective force to determine the stability and structure of the circular orbits in a strong gravitational field.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Geometric quantum discord in the black hole quantum atmosphere",
+          "authors": "Siwei Li, Xiaofen Huang",
+          "arxiv_id": "2607.16641",
+          "url": "https://arxivite.org/abs/2607.16641",
+          "categories": "quant-ph, gr-qc",
+          "summary": "We investigate the geometric quantum discord of bipartite Werner states influenced by Hawking radiation in the quantum atmosphere of a Schwarzschild black hole. We find that the geometric quantum discord in the physically accessible region exhibits a nonmonotonic behavior: it first decreases and then increases as the normalized radial distance increases, while the discord in the physically inaccessible region shows the exact opposite trend.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Combinatorial aspects of holographic quantum secret sharing",
+          "authors": "Ning Bao, Keiichiro Furuya, Jacob March",
+          "arxiv_id": "2607.16110",
+          "url": "https://arxivite.org/abs/2607.16110",
+          "categories": "hep-th, quant-ph",
+          "summary": "We introduce combinatorial holographic quantum secret sharing (CHQSS) for a bulk subregion in AdS$_3$/CFT$_2$ to study how logical information of the bulk subregion is encoded in the boundary and protected from erasures of boundary subregions. We introduce a distance, a reconstruction threshold, and a secret threshold to characterize CHQSS schemes.",
+          "relevance": "holography, entanglement",
+          "tags": [
+            "holography",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "The Goldstone Awakens: Unimodular dark energy in scale-invariant $R^2$ gravity",
+          "authors": "Mariaveronica De Angelis, Javier Rubio",
+          "arxiv_id": "2607.16405",
+          "url": "https://arxivite.org/abs/2607.16405",
+          "categories": "hep-th, astro-ph.CO, gr-qc",
+          "summary": "We construct an $R^2$ cosmology based on scale invariance and unimodular gravity in which the Goldstone boson of dilatations establishes a predictive connection between inflation and dark energy. The conservation of the corresponding Noether current confines the inflationary trajectory to a one-dimensional orbit in field space, freezing the Goldstone direction and rendering the inflationary dynamics effectively single field.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Analytical Study of Deflection Angle and Time Delay in Kerr Spacetime with Modified Propagation",
+          "authors": "Takamasa Kanai",
+          "arxiv_id": "2607.16842",
+          "url": "https://arxivite.org/abs/2607.16842",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate gravitational lensing in Kerr spacetime in the presence of a modified photon propagation law arising from higher-curvature effective field theory corrections. Adopting a deformed dispersion relation, we analytically derive the deflection angle and the propagation time delay for null trajectories in a rotating background.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Heavy meson chiral perturbation theory constraints on a charm-coupled GeV-scale QCD axion",
+          "authors": "Bo-Qiang Lu",
+          "arxiv_id": "2607.17277",
+          "url": "https://arxivite.org/abs/2607.17277",
+          "categories": "hep-ex, hep-th, hep-ph, gr-qc",
+          "summary": "The QCD axion with charm-only Peccei-Quinn coupling evades the isospin-violation problem of light-quark models in $\\chi$PT. Since $m_c&gt;\\Lambda_{\\rm QCD}$, we employ heavy meson chiral perturbation theory (HMChPT) to constrain this GeV-scale axion, including its CP-even radial partner $\\sigma$ and the axion $a$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Colored $Δ_T$ noise probes the topological character of edge modes",
+          "authors": "Sachiraj Mishra, Colin Benjamin",
+          "arxiv_id": "2607.17354",
+          "url": "https://arxivite.org/abs/2607.17354",
+          "categories": "math-ph, hep-th, quant-ph, physics.app-ph, cond-mat.mes-hall",
+          "summary": "We investigate colored $\\Delta_T$ noise, i.e., finite-frequency $\\Delta_T$ noise, as a probe of edge-mode (EM) transport in quantum Hall and quantum spin Hall systems. Colored $\\Delta_T$ noise probes finite-frequency nonequilibrium current fluctuations and dynamical transport properties that are often obscured in DC measurements of conductance and noise.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Gravitational wave propagation in Hořava-Lifshitz gravity",
+          "authors": "A. A. Araújo Filho, J. L. A. Silva, N. Heidari et al.",
+          "arxiv_id": "2607.17431",
+          "url": "https://arxivite.org/abs/2607.17431",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate the generation and propagation of gravitational waves in the leading parity-even infrared truncation of Hořava-Lifshitz gravity, characterized by the modified tensor dispersion relation $\\omega^{2}=k^{2}+\\alpha k^{4}$. Working in the transverse-traceless sector, we show that the higher-spatial-derivative correction preserves the conventional plus and cross polarizations and introduces neither polarization mixing, helicity splitting, nor gravitational birefringence.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Theoretical uncertainties in reconstructing model parameters with gravitational waves from supercooled phase transitions",
+          "authors": "Maciej Kierkla, Marek Lewicki, Philipp Schicho et al.",
+          "arxiv_id": "2607.18233",
+          "url": "https://arxivite.org/abs/2607.18233",
+          "categories": "hep-th, hep-ph, astro-ph.CO, gr-qc",
+          "summary": "Future interferometers may detect a gravitational-wave (GW) signal from a cosmological first-order phase transition. Reconstructing the underlying particle-physics model from such a signal requires theoretical control over the map from microphysics to the spectrum.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "A unified expansion of Einstein&#39;s gravity",
+          "authors": "Arkachur Bhattacharya, Pushkar Soni",
+          "arxiv_id": "2607.16459",
+          "url": "https://arxivite.org/abs/2607.16459",
+          "categories": "hep-th, gr-qc",
+          "summary": "Non-Lorentzian theories of gravity, most common of which are Galilean and Carrollian gravity, arise from General relativity under suitable scalings. General relativity can be obtained by gauging the Poincaré algebra.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Dynamical Timelike Entanglement Entropy in an Evaporating Schwarzschild--AdS Black Hole",
+          "authors": "Digen Das, Prabwal Phukon",
+          "arxiv_id": "2607.17874",
+          "url": "https://arxivite.org/abs/2607.17874",
+          "categories": "hep-th",
+          "summary": "Timelike entanglement entropy (tEE) has recently emerged as a novel probe of temporal quantum correlations in gravitational systems. Existing studies are largely restricted to static backgrounds.",
+          "relevance": "black-holes, entanglement",
+          "tags": [
+            "black-holes",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Gravitational Vacuum Polarization: Decoupling and the Conformal Anomaly",
+          "authors": "Emil Mottola",
+          "arxiv_id": "2607.18180",
+          "url": "https://arxivite.org/abs/2607.18180",
+          "categories": "hep-th, gr-qc",
+          "summary": "A compact form of the stress tensor $\\langle T^{ab}T^{cd}\\rangle$ correlation function of a quantum scalar field of arbitrary mass $m$ and curvature coupling $\\xi$ is presented, with particular emphasis on decoupling in the $m\\to\\infty$ limit and infrared origin of the conformal anomaly as $m \\to 0$. The Ward Identity (WI) of covariant conservation is verified for the full second order metric variation of the one-loop effective action, of which $\\langle T^{ab}T^{cd}\\rangle$ is part, including local contact terms.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-21",
       "type": "arxiv",
@@ -262,6 +471,13 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-21",
+      "items_found": 0,
+      "entries": []
     },
     {
       "date": "2026-07-20",
@@ -17437,32 +17653,36 @@
     }
   ],
   "stats": {
-    "total_digests": 148,
-    "total_entries": 1208,
+    "total_digests": 150,
+    "total_entries": 1223,
     "unique_tags": {
       "quantum-gravity": {
-        "first_seen": "2026-07-21",
-        "count": 64
+        "first_seen": "2026-07-22",
+        "count": 65
+      },
+      "black-holes": {
+        "first_seen": "2026-07-22",
+        "count": 220
+      },
+      "holography": {
+        "first_seen": "2026-07-22",
+        "count": 58
+      },
+      "entanglement": {
+        "first_seen": "2026-07-22",
+        "count": 66
+      },
+      "physics": {
+        "first_seen": "2026-07-22",
+        "count": 125
+      },
+      "topological": {
+        "first_seen": "2026-07-22",
+        "count": 41
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-21",
         "count": 14
-      },
-      "black-holes": {
-        "first_seen": "2026-07-21",
-        "count": 211
-      },
-      "physics": {
-        "first_seen": "2026-07-21",
-        "count": 121
-      },
-      "holography": {
-        "first_seen": "2026-07-21",
-        "count": 56
-      },
-      "topological": {
-        "first_seen": "2026-07-21",
-        "count": 40
       },
       "Science Communication & Policy": {
         "first_seen": "2026-07-21",
@@ -17475,10 +17695,6 @@
       "Quantum Information & Computing": {
         "first_seen": "2026-07-20",
         "count": 97
-      },
-      "entanglement": {
-        "first_seen": "2026-07-18",
-        "count": 64
       },
       "Quantum Gravity": {
         "first_seen": "2026-07-17",
@@ -20642,16 +20858,16 @@
       }
     },
     "tag_counts": {
-      "quantum-gravity": 64,
+      "quantum-gravity": 65,
+      "black-holes": 220,
+      "holography": 58,
+      "entanglement": 66,
+      "physics": 125,
+      "topological": 41,
       "loop-quantum-gravity": 14,
-      "black-holes": 211,
-      "physics": 121,
-      "holography": 56,
-      "topological": 40,
       "Science Communication & Policy": 131,
       "Optics & Photonics": 49,
       "Quantum Information & Computing": 97,
-      "entanglement": 64,
       "Quantum Gravity": 30,
       "Black Hole Physics": 19,
       "Technology & Engineering": 48,
@@ -21445,6 +21661,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-07-22",
         "2026-07-21",
         "2026-07-18",
         "2026-07-17",
@@ -21549,6 +21766,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-07-21",
         "2026-07-20",
         "2026-07-18",
         "2026-07-17",
