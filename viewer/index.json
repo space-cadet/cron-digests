@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T01:42:38.687Z",
+  "generated": "2026-07-23T04:50:14.423Z",
   "digests": [
     {
       "date": "2026-07-23",
@@ -203,6 +203,80 @@
           "tags": [
             "black-holes",
             "tensor-networks"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-23",
+      "items_found": 6,
+      "entries": [
+        {
+          "num": 1,
+          "title": "A Strange Quantum Effect Dramatically Boosts Energy Transfer",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260722032130.htm",
+          "summary": "Electron and proton motion often work together in both living systems and engineered materials. The most familiar example is proton-coupled electron transfer (PCET), a process that plays a central role in bioenergetics, cellular respiration, photosynthesis, and nitrogen fixation. PCET has also influ",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "New Programmable Photonic Chip Can Control How Fast Light Moves",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260718010149.htm",
+          "summary": "Researchers at Seoul National University and the University of Seoul have developed a programmable photonic integrated circuit that can slow light whenever needed.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Air conditioning is not enough to keep people cool — can scientists find an alternative?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02273-2",
+          "summary": "Advances in materials allow buildings to be cooled as temperatures rise.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "The heart has a ‘little brain’ — and it protects against stress",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02269-y",
+          "summary": "A subset of cardiac neurons keep the heart from malfunctioning in stressed mice.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Discovery of giant ‘exosatellite’ challenges our notion of what makes a moon",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/discovery-of-giant-exosatellite-challenges-our-notion-of-what-makes-a-moon/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Rare contagious cancer discovered in wild catfish",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02236-7",
+          "summary": "Transmissible tumours have been found in only a few types of animal, but there might be many more out there.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -17896,8 +17970,8 @@
     }
   ],
   "stats": {
-    "total_digests": 153,
-    "total_entries": 1240,
+    "total_digests": 154,
+    "total_entries": 1246,
     "unique_tags": {
       "entanglement": {
         "first_seen": "2026-07-23",
@@ -17923,25 +17997,25 @@
         "first_seen": "2026-07-23",
         "count": 9
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-23",
+        "count": 98
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-23",
+        "count": 50
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-23",
+        "count": 137
+      },
       "topological": {
         "first_seen": "2026-07-22",
         "count": 41
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-22",
-        "count": 133
-      },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-21",
         "count": 14
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-21",
-        "count": 49
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-20",
-        "count": 97
       },
       "Quantum Gravity": {
         "first_seen": "2026-07-17",
@@ -21107,11 +21181,11 @@
       "physics": 130,
       "holography": 59,
       "tensor-networks": 9,
+      "Quantum Information & Computing": 98,
+      "Optics & Photonics": 50,
+      "Science Communication & Policy": 137,
       "topological": 41,
-      "Science Communication & Policy": 133,
       "loop-quantum-gravity": 14,
-      "Optics & Photonics": 49,
-      "Quantum Information & Computing": 97,
       "Quantum Gravity": 30,
       "Black Hole Physics": 19,
       "Technology & Engineering": 48,
@@ -21958,6 +22032,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-23",
         "2026-07-22",
         "2026-07-21",
         "2026-07-20",
