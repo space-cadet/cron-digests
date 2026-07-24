@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T01:42:19.432Z",
+  "generated": "2026-07-24T04:49:27.905Z",
   "digests": [
     {
       "date": "2026-07-24",
@@ -204,6 +204,105 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-24",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Molecular clock transitions tune out the noise in the hunt for new physics",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-molecular-clock-transitions-tune-noise.html",
+          "summary": "Heavy polar molecules are some of the most sensitive tools physicists have for probing what lies beyond the Standard Model, the theory that describes the particles and forces we know about. But turning that sensitivity into ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Shaking atoms to bring black-hole quantum chaos into the lab",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-atoms-black-hole-quantum-chaos.html",
+          "summary": "Physicists have discovered a surprisingly simple way to reproduce one of the most fascinating models in modern physics—linked to black holes, quantum chaos and exotic electronic materials—using ultracold atoms trapped in ...",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Information & Computing",
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Machine learning narrows search for additional particles in the Higgs boson family",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-machine-narrows-additional-particles-higgs.html",
+          "summary": "What if the Higgs boson found in 2012 is not alone but is the only sibling we have encountered so far? Scientists at CERN discovered the particle that year, and it was a major discovery because it explained how other particles ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Universal structure of exceptional points revealed in nonlinear light‑based systems",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-universal-exceptional-revealed-nonlinear-lightbased.html",
+          "summary": "Exceptional points, or EPs for short, are among the phenomena of modern physics. These are special points or locations at which the properties of matter, space or time change. In a new theoretical study, researchers from ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "How Fast Is the Universe Really Expanding?",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/how-fast-is-the-universe-really-expanding-20260723/",
+          "summary": "One of the most contested issues in astrophysics is our understanding of the Universe’s expansion. Adam Riess discusses why there is disagreement and what might resolve it.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "What The Odyssey reveals about ancient science — from botany to psychiatry",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02275-0",
+          "summary": "From intelligent ships to clues about eclipses, Homer’s The Odyssey reveals how Bronze Age Greeks understood the world.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Quantum Newton's cradle set to level up computing",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-newton-cradle.html",
+          "summary": "Sending quantum information through a chain of qubits, like energy through a Newton's cradle, could be the key to faster operations and take quantum computing to the next level.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Materials surrounding a fusion reaction can dramatically increase how often it occurs",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-materials-fusion-reaction.html",
+          "summary": "Fusion at high temperatures powers the sun and, if harnessed, could provide a potential source of energy here on Earth. But controlling fusion reactions has other benefits. The process also generates subatomic particles called ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -18184,8 +18283,8 @@
     }
   ],
   "stats": {
-    "total_digests": 156,
-    "total_entries": 1261,
+    "total_digests": 157,
+    "total_entries": 1269,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-07-24",
@@ -18215,33 +18314,37 @@
         "first_seen": "2026-07-24",
         "count": 68
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-24",
+        "count": 142
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-24",
+        "count": 100
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-07-24",
+        "count": 31
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-07-24",
+        "count": 20
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-07-24",
+        "count": 42
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-24",
+        "count": 51
+      },
       "tensor-networks": {
         "first_seen": "2026-07-23",
         "count": 9
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-23",
-        "count": 98
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-23",
-        "count": 50
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-23",
-        "count": 137
-      },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-21",
         "count": 14
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-07-17",
-        "count": 30
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-07-17",
-        "count": 19
       },
       "Technology & Engineering": {
         "first_seen": "2026-07-15",
@@ -18250,10 +18353,6 @@
       "Experiment & Observation": {
         "first_seen": "2026-07-15",
         "count": 40
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-07-13",
-        "count": 41
       },
       "string-theory": {
         "first_seen": "2026-07-08",
@@ -21396,16 +21495,16 @@
       "topological": 42,
       "many-body": 18,
       "entanglement": 68,
+      "Science Communication & Policy": 142,
+      "Quantum Information & Computing": 100,
+      "Quantum Gravity": 31,
+      "Black Hole Physics": 20,
+      "Many-Body Physics & Condensed Matter": 42,
+      "Optics & Photonics": 51,
       "tensor-networks": 9,
-      "Quantum Information & Computing": 98,
-      "Optics & Photonics": 50,
-      "Science Communication & Policy": 137,
       "loop-quantum-gravity": 14,
-      "Quantum Gravity": 30,
-      "Black Hole Physics": 19,
       "Technology & Engineering": 48,
       "Experiment & Observation": 40,
-      "Many-Body Physics & Condensed Matter": 41,
       "string-theory": 7,
       "quantum-cosmology": 7,
       "moltbook": 222,
@@ -22247,6 +22346,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-24",
         "2026-07-23",
         "2026-07-22",
         "2026-07-21",
