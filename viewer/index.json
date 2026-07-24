@@ -1,6 +1,213 @@
 {
-  "generated": "2026-07-23T04:50:14.423Z",
+  "generated": "2026-07-24T01:41:56.362Z",
   "digests": [
+    {
+      "date": "2026-07-24",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-24",
+      "categories": "astro-ph.CO, astro-ph.HE, cond-mat.stat-mech, gr-qc, hep-ph, hep-th, math-ph, math.AT, math.DG, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, holograph, topological, many-body, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Breaking the Degeneracy: Spectral Hardening of Accretion Disks around Rotating Hayward Black Holes in Dark Matter Halos",
+          "authors": "Sandip Dutta",
+          "arxiv_id": "2607.14164",
+          "url": "https://arxivite.org/abs/2607.14164",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate the thermodynamic and observable signatures of thin accretion disks surrounding rotating, regular Hayward black holes embedded within a macroscopic dark matter (DM) envelope. The spacetime is rigorously modelled as a three-region composite: an inner Hayward core regularised by a de~Sitter limit, an intermediate DM shell modelled as a pressureless dust envelope governed by an exponential sphere density profile, and an asymptotically flat outer vacuum.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Thermodynamics of boosted Schwarzschild black holes",
+          "authors": "Glenn Barnich",
+          "arxiv_id": "2607.20746",
+          "url": "https://arxivite.org/abs/2607.20746",
+          "categories": "hep-th, gr-qc",
+          "summary": "The equilibrium thermodynamics of boosted Schwarzschild black holes is worked out in a concise way and shown to agree with expectations from relativistic thermodynamics.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Graviton-induced which-path decoherence in matter-wave interferometry",
+          "authors": "Hiroki Matsui",
+          "arxiv_id": "2607.20867",
+          "url": "https://arxivite.org/abs/2607.20867",
+          "categories": "hep-th, quant-ph, gr-qc",
+          "summary": "We derive which-path decoherence for matter-wave interferometry that arises from tracing out the gravitons of linearized quantum gravity. Because the gravitons are driven linearly by the matter source, the branch-dependent evolution can be solved exactly, and the reduced coherence is given by the characteristic function of the initial graviton state, evaluated at the difference of the branch-induced field displacements.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "The leading-soft cubic graviton self-interaction on the black-hole horizon",
+          "authors": "Ayanendu Dutta",
+          "arxiv_id": "2607.21066",
+          "url": "https://arxivite.org/abs/2607.21066",
+          "categories": "hep-th, quant-ph, gr-qc",
+          "summary": "We expand the Einstein-Hilbert action to cubic order about the Schwarzschild horizon, in the even Regge-Wheeler gauge of the Gaddam-Groenenboom-&#39;t~Hooft (GGV) near-horizon framework, and derive the cubic graviton self-interaction. Our central result is a `vanishing theorem&#39;: at leading soft order the self-coupling of the purely traceless longitudinal polarizations is identically zero, because with the trace/transverse-scalar sector switched off the fluctuation reduces to a two-dimensional block whose $\\sqrt{-g}\\,R$ is a total (Euler) derivative at every order in $\\kappa$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Spin-mediated modulation of chaos bound violation in Lorentz-violating black hole spacetimes",
+          "authors": "Deyou Chen, Chuang Yang, Bingbing Chen",
+          "arxiv_id": "2607.21165",
+          "url": "https://arxivite.org/abs/2607.21165",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate how the particle spin modulates chaos bound violations in Lorentz-violating black hole spacetimes within the framework of Bumblebee gravity. By analyzing spinning charged particles in static spherically symmetric (A)dS black holes, we reveal the roles of spin--curvature coupling, Lorentz symmetry breaking, and the cosmological constant in shaping chaotic dynamics.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "High-Order Pole-Skipping in Near-Extremal Holography",
+          "authors": "Xiang Li, Haiming Yuan, Xian-Hui Ge",
+          "arxiv_id": "2607.21386",
+          "url": "https://arxivite.org/abs/2607.21386",
+          "categories": "hep-th, gr-qc",
+          "summary": "We develop a systematic analytic method for studying high-order pole-skipping in near-extremal holographic black holes. In the near-extremal regime, approaching the limit $T\\to0$, the near-horizon geometry develops an approximately $\\mathrm{AdS}_2 \\times \\mathbb{R}^{d-1}$ structure; we show that the mode index $q$ labeling pole-skipping points is identified with the IR conformal dimension $\\Delta_{\\mathrm{IR}} = q$ in the emergent $\\mathrm{AdS}_2/\\mathrm{CFT}_1$ correspondence, providing a concrete physical interpretation of the subleading pole-skipping tower.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Relational path integral, effective actions and quantum frame covariance",
+          "authors": "Sergio E. Aguilar-Gutierrez, Renata Ferrero, Philipp A. Hoehn et al.",
+          "arxiv_id": "2607.21463",
+          "url": "https://arxivite.org/abs/2607.21463",
+          "categories": "hep-th, quant-ph, gr-qc",
+          "summary": "We propose a relational bundle-geometric formulation of the gravitational path integral by invoking the new tool of quantum reference frames (QRFs), which in gravity are gauge-covariant coordinate systems constructed from the available field content. Formulated in terms of relational (frame-dressed) observables, this yields a manifestly gauge-invariant path integral without ghosts and anomalies, and in which observables and their correlators are local to a frame.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Higher Superspace Supergravity and its IR-Completions",
+          "authors": "Grigorios Giotopoulos, Hisham Sati, Urs Schreiber",
+          "arxiv_id": "2607.20312",
+          "url": "https://arxivite.org/abs/2607.20312",
+          "categories": "math.AT, math.DG, gr-qc, math-ph, hep-th",
+          "summary": "It is an old idea that higher-dimensional super-gravity (SuGra) is put on-shell just by imposing Bianchi identities on super-field strengths over super-spacetimes subject to super-torsion constraints. We give a modernized, rigorous account and review recent developments, pointing out how this perspective lends itself to the construction of infrared completions of SuGra by electromagnetic flux quantization in differential nonabelian cohomology theories $\\mathcal{A}_{\\mathrm{dff}}$ lifting the coefficient $L_\\infty$-algebra $\\mathfrak{l}\\mathcal{A}$ of the super-Bianchi identities.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "An obstruction and residual-completion theory for Newman--Janis deformations",
+          "authors": "Reggie C. Pantig, Ali Övgün",
+          "arxiv_id": "2607.20565",
+          "url": "https://arxivite.org/abs/2607.20565",
+          "categories": "hep-th, gr-qc",
+          "summary": "We formulate an obstruction and residual-completion theory for Newman-Janis-type deformations of black hole seeds, where Newman-Janis-type includes both the original complex-coordinate Newman-Janis algorithm and modified prescriptions such as non-complexification variants. The Newman-Janis algorithm is treated as an off-shell map from a static seed to a stationary-axisymmetric trial geometry, rather than as a solution-generating theorem.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Evolving Dark Energy from the Back-Reaction of Cosmological Perturbations",
+          "authors": "Vincent Comeau",
+          "arxiv_id": "2607.20715",
+          "url": "https://arxivite.org/abs/2607.20715",
+          "categories": "hep-th, gr-qc, astro-ph.CO",
+          "summary": "We argue that the back-reaction of inhomogeneities, when combined with a pure cosmological constant, produces an effective dark energy whose equation of state can evolve with time. Our analytical computation agrees with recent numerical simulations, which have shown that the back-reaction of inhomogeneities can impact dark energy around the present time.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Numerical Backreaction and Finite-Time Energy Transfer in Post-Recombination Magnetogenesis from Ultralight Dark Matter",
+          "authors": "Aviv David, Robert Brandenberger",
+          "arxiv_id": "2607.20793",
+          "url": "https://arxivite.org/abs/2607.20793",
+          "categories": "hep-th, hep-ph, gr-qc, astro-ph.CO",
+          "summary": "We study gauge-field production in a post-recombination magnetogenesis scenario driven by an ultralight pseudoscalar dark matter field $\\phi$ coupled to electromagnetism. Previous analytical work has shown that a homogeneous oscillating $\\phi$ background can excite gauge field modes through tachyonic and narrow-band resonance channels.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Exploring Physics beyond the Standard Model from kHz-Gravitational-Wave Signals of Core-Collapse Supernovae",
+          "authors": "Kei Kotake, Takami Kuroda",
+          "arxiv_id": "2607.20921",
+          "url": "https://arxivite.org/abs/2607.20921",
+          "categories": "hep-th, astro-ph.HE, gr-qc",
+          "summary": "Recent advances in multidimensional modeling of core-collapse supernovae (CCSNe) have enabled detailed predictions of high-frequency gravitational-wave (GW) signals, offering a new probe of extreme matter and gravity. A proto-neutron star (PNS) emits quasi-continuous GWs through the excitation of its characteristic oscillation modes.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Entanglement asymmetry and quantum Mpemba effect for Kramers-Wannier duality",
+          "authors": "Milo Vescovo, Pasquale Calabrese, Filiberto Ares",
+          "arxiv_id": "2607.21226",
+          "url": "https://arxivite.org/abs/2607.21226",
+          "categories": "hep-th, cond-mat.stat-mech, quant-ph",
+          "summary": "The Kramers-Wannier duality is the prototypical example of a non-invertible symmetry, yet little is known about its fate away from criticality and out of equilibrium. We introduce the Kramers-Wannier entanglement asymmetry, a quantum-information measure that quantifies the breaking of this non-invertible symmetry in the transverse-field Ising chain.",
+          "relevance": "many-body, entanglement",
+          "tags": [
+            "many-body",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Ultra-High-Energy Particle Production in Binary Mergers Endowed with Magnetic Fields",
+          "authors": "Carlos H. Coimbra-Araujo, Rita C. Anjos, Jonas P. Pereira et al.",
+          "arxiv_id": "2607.21385",
+          "url": "https://arxivite.org/abs/2607.21385",
+          "categories": "hep-ph, gr-qc, hep-th, astro-ph.HE, astro-ph.CO",
+          "summary": "We study the production of ultra-high-energy particles via the Bañados--Silk--West (BSW) mechanism in the pre-merger phase of binary systems detected by LIGO-Virgo-KAGRA. By solving the geodesic equations for charged particles in magnetized Kerr spacetime with fields of $B \\sim 10^{12}$--$10^{14}$~G, we demonstrate that collisions near the horizon can achieve center-of-mass energies $E_{\\mathrm{cm}} \\sim 10^{18}$-- $10^{20}$~eV, placing them firmly in the ultra-high-energy cosmic-ray (UHECR) range.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Tensor resonances in teleparallel Gauss-Bonnet branes",
+          "authors": "J. V. R. Alencar, A. R. P. Moreira, F. C. E. Lima et al.",
+          "arxiv_id": "2607.20567",
+          "url": "https://arxivite.org/abs/2607.20567",
+          "categories": "hep-th, gr-qc",
+          "summary": "We construct an analytical thick-brane solution in linear teleparallel Gauss-Bonnet gravity using a first-order formalism generated by a sine-Gordon superpotential. The resulting asymptotically $\\mathrm{AdS}_5$ configurations exhibit brane splitting controlled by the dimensionless parameter $q=4\\alpha k^2$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-23",
       "type": "arxiv",
@@ -16,7 +223,7 @@
           "arxiv_id": "2607.19763",
           "url": "https://arxivite.org/abs/2607.19763",
           "categories": "gr-qc, quant-ph, hep-th",
-          "summary": "In this work, we investigate the quantum entanglement properties of analog Hawking radiation produced by a moving mirror. Using two detector modes defined through window functions on a quantum field, we quantify the bipartite entanglement established between these modes.",
+          "summary": "We show that the entanglement accessible to detectors in analog Hawking radiation from a moving mirror increases for trajectories with non-monotonic, time-dependent acceleration, and that the associated negative energy flux acts as a channel through which information can be returned.",
           "relevance": "entanglement",
           "tags": [
             "entanglement"
@@ -29,7 +236,7 @@
           "arxiv_id": "2607.19492",
           "url": "https://arxivite.org/abs/2607.19492",
           "categories": "gr-qc, hep-th",
-          "summary": "Deviations from vacuum general relativity (such as modified theories or the presence of an environment) produce small shifts in black hole quasinormal mode (QNM) spectra. These effects are becoming increasingly relevant for gravitational wave astronomy as observations of ringdown spectra become more precise.",
+          "summary": "We systematically lift Schrödinger perturbation theory to black holes using the recently discovered bilinear orthogonality of quasinormal modes, obtaining a formula for frequency shifts to any order in terms of lower-order mode shifts. The spectral decomposition of the first-order shift explicitly involves continuous-spectrum contributions, making the incompleteness of the QNM basis manifest.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -42,7 +249,7 @@
           "arxiv_id": "2607.19748",
           "url": "https://arxivite.org/abs/2607.19748",
           "categories": "gr-qc, hep-th",
-          "summary": "Reentrant phase transitions of accelerating anti-de Sitter black holes are known numerically, but their apparent loss at small string tension has lacked an analytic explanation. In the single-string ensemble at fixed pressure, charge, and tension, we solve the unrestricted two-phase Maxwell-turning problem for the charged slowly accelerating C-metric.",
+          "summary": "We solve the unrestricted two-phase Maxwell-turning problem for the charged slowly accelerating C-metric analytically and find that the reentrant locus exists for $0<\\mu<0.202602$ with no positive lower threshold. As $\\mu\\to0$, the reentrant window contracts with specific power-law scaling, and a two-chart blow-up identifies thermodynamic-volume inversion as the turning mechanism between two distinct noncritical phases.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -55,7 +262,7 @@
           "arxiv_id": "2607.19602",
           "url": "https://arxivite.org/abs/2607.19602",
           "categories": "gr-qc, quant-ph",
-          "summary": "We present a recipe for simulating one-dimensional quantum systems for low and high energies with $L$ qubits within the framework of first quantisation. Assuming a minimum grid spacing $\\Delta L$ in the finite-difference method, the generalised uncertainty principle (GUP) is derived analytically and shows distinct properties for low- and high-energy quantum systems.",
+          "summary": "We derive a new high-energy momentum expression from the generalised uncertainty principle with finite grid spacing in a quantum simulation framework, and show that matching it to the special-relativistic momentum (while relaxing the HUP) predicts a minimum length with non-zero mass even in the continuous limit. Alternatively, enforcing consistency with the HUP recovers no minimum length but requires a modified energy-momentum relation at high energies.",
           "relevance": "quantum-gravity",
           "tags": [
             "quantum-gravity"
@@ -68,7 +275,7 @@
           "arxiv_id": "2607.18381",
           "url": "https://arxivite.org/abs/2607.18381",
           "categories": "gr-qc, astro-ph.CO, hep-ph, hep-th",
-          "summary": "We investigate how localized quantum corrections to the inflaton potential affect preheating dynamics and the resulting stochastic gravitational wave (GW) spectrum. When these corrections sufficiently suppress the quadratic term of the potential near its minimum, inflaton self-resonance can produce a peaked GW spectrum.",
+          "summary": "Localized quantum corrections to the inflaton potential that suppress or make negative the quadratic term near its minimum can produce peaked or smooth enhanced gravitational-wave spectra, respectively, during inflaton self-resonance. Using lattice simulations of an $\\alpha$-attractor T-model with a one-loop Coleman--Weinberg correction, we find ultra-high-frequency GW signals above the kHz range that could probe UV physics.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -81,7 +288,7 @@
           "arxiv_id": "2607.18851",
           "url": "https://arxivite.org/abs/2607.18851",
           "categories": "gr-qc, hep-th",
-          "summary": "The frozen star is a model for the interior of an astrophysical black hole that is externally indistinguishable from the singular geometry of a Schwarzschild black hole, even though it contains no singularities nor trapped surfaces. The frozen star corresponds to a macroscopic ``BIon&#39;&#39;, a solution of a certain type of Born-Infeld Lagrangian coupled to Einstein gravity, which consists of rigid flux tubes sourced by an electric charge localized at its center and a uniform distribution of opposite charge along its outer surface.",
+          "summary": "We derive the non-radial oscillation spectrum of defrosted Born-Infeld dyonic frozen stars directly from the Lagrangian, providing a much simpler derivation than the previous fluid-based approach and verifying that sound velocities scale as $\\gamma$ and parametrically long lifetimes as $1/\\gamma^2$. Because the perturbation equations follow from a Lagrangian, their consistency is guaranteed for arbitrary deviations away from spherical symmetry.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -94,7 +301,7 @@
           "arxiv_id": "2607.18871",
           "url": "https://arxivite.org/abs/2607.18871",
           "categories": "gr-qc, hep-th",
-          "summary": "We study higher-rank generalized Killing tensors with mixed symmetries, providing a couple of examples and applications. It is shown that such objects naturally exist in higher-dimensional rotating black hole spacetimes, where they arise as partially contracted &#34;squares&#34; of Killing-Yano tensors and display interesting algebraic and differential properties.",
+          "summary": "We show that higher-rank generalized Killing tensors with mixed symmetries naturally exist in higher-dimensional rotating black hole spacetimes, arising as partially contracted ``squares'' of Killing-Yano tensors. Motivated by conformal Killing tensors, we also propose a broader generalization that yields parallel-transported tensors along null geodesics and demonstrate its existence in the same spacetimes.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -107,7 +314,7 @@
           "arxiv_id": "2607.18919",
           "url": "https://arxivite.org/abs/2607.18919",
           "categories": "gr-qc, hep-th",
-          "summary": "Exotic compact objects (ECOs) may produce late-time gravitational-wave (GW) echoes, but sufficiently compact ECOs undergoing realistic accretion may eventually form an event horizon. We investigate the evolution of quasinormal modes and GW echoes during this transition.",
+          "summary": "Using numerical evolution of scalar perturbations on an ingoing Vaidya background, we show that GW echoes from accreting exotic compact objects are progressively compressed and suppressed during accretion and disappear once a growing event horizon engulfs the reflecting surface, after which the waveform smoothly approaches standard black hole ringdown.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -120,7 +327,7 @@
           "arxiv_id": "2607.19298",
           "url": "https://arxivite.org/abs/2607.19298",
           "categories": "gr-qc, astro-ph.CO, hep-th",
-          "summary": "Gravitational wave astronomy provides an exemplary avenue to study exotic compact stars with utmost precision. Recent analyses of GW170817 have reported possible post-merger gravitational wave echoes with a significance of $4.2\\sigma$ and a dominant frequency near $72$ Hz.",
+          "summary": "In quadratic curvature gravity with non-minimal matter coupling, we find that the modified Buchdahl limit allows strange stars (MIT bag model) to reach more compact configurations supporting photon spheres and post-merger GW echoes. The echo constraints yield more stringent maximum mass--radius limits than hydrostatic equilibrium alone, shifting echo frequencies toward the kHz regime as the bag constant increases.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -133,7 +340,7 @@
           "arxiv_id": "2607.18398",
           "url": "https://arxivite.org/abs/2607.18398",
           "categories": "gr-qc, hep-ph, hep-th",
-          "summary": "Quantum gravity impacts Standard Model fields through effective interactions generated by renormalization. These appear as Standard Model Effective Field Theory (SMEFT) operators, where the effects of new physics are parametrized by the values of the higher-order SMEFT coefficients.",
+          "summary": "We investigate the renormalization-group flow of four-fermion SMEFT operators under gravitational fluctuations in asymptotically safe quantum gravity, finding that these dimension-six interactions remain irrelevant---strengthening the case for near-perturbative asymptotic safety and predicting specific dimensionless ratios of coefficients in the IR. A symmetry-determined subset can become relevant at larger gravitational couplings, providing a categorization of SMEFT interactions into Planck-scale-suppressed and potentially free-parameter classes.",
           "relevance": "quantum-gravity",
           "tags": [
             "quantum-gravity"
@@ -146,7 +353,7 @@
           "arxiv_id": "2607.18675",
           "url": "https://arxivite.org/abs/2607.18675",
           "categories": "gr-qc, hep-th",
-          "summary": "We investigate gravitational memory beyond null infinity by studying finite-distance null hypersurfaces endowed with Carrollian geometry. We show that the intrinsic degenerate geometry, optical data, and null Brown--York tensor of a finite null screen define a quasilocal Carrollian dissipative system, providing a natural framework to characterize the residual geometric response after the passage of radiation.",
+          "summary": "We show that finite-distance Carrollian null screens define a quasilocal dissipative system that characterizes gravitational memory beyond null infinity, with the leading large-radius tracefree component reducing to the standard Bondi displacement memory. Finite-distance corrections retain additional focusing, embedding, and near-zone information, so Bondi memory emerges as the universal asymptotic projection of a broader quasilocal Carrollian response.",
           "relevance": "holography",
           "tags": [
             "holography"
@@ -159,7 +366,7 @@
           "arxiv_id": "2607.19474",
           "url": "https://arxivite.org/abs/2607.19474",
           "categories": "gr-qc, hep-th",
-          "summary": "A real scalar field nonminimally coupled to the curvature of an astrophysical object can develop an effective potential that supports, alongside stable oscillatory solutions, a set of tachyonic modes with purely imaginary frequencies. Focusing on constant-density Newtonian stars, we show that the tachyonic sector behaves as a collection of decoupled inverted harmonic oscillators, whose quantization is naturally addressed within the rigged Hilbert space formalism.",
+          "summary": "We show that tachyonic modes of a nonminimally coupled real scalar field in constant-density Newtonian stars behave as decoupled inverted harmonic oscillators, naturally quantized within the rigged Hilbert space formalism as resonant states with mean lifetimes set by their imaginary frequencies. An Unruh-DeWitt detector in a circular orbit acquires an additional finite Lorentzian profile in its transition probability, modifying the standard circular Unruh-like background.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -172,7 +379,7 @@
           "arxiv_id": "2607.20320",
           "url": "https://arxivite.org/abs/2607.20320",
           "categories": "gr-qc, astro-ph.CO, hep-th",
-          "summary": "Dark Energy (DE) and Dark Matter (DM) are among the greatest mysteries in particle physics and cosmology, since their origins remain unclear. It is intriguing to consider whether both may originate from a purely gravitational sector.",
+          "summary": "We propose that dark energy and dark matter arise from the $O(3)$ partners of the Brans-Dicke boson in No-Scale Gravity, with small explicit symmetry breaking generating their masses and interaction. The model reproduces the required cosmological evolution and present-day abundances, exhibiting effective phantom-like evolution at late times (as suggested by DESI) without introducing a fundamental phantom degree of freedom.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -185,7 +392,7 @@
           "arxiv_id": "2607.20381",
           "url": "https://arxivite.org/abs/2607.20381",
           "categories": "gr-qc, hep-th",
-          "summary": "The field equations of Conformal Gravity (CG) are constructed from fourth-order derivatives of the metric. While the second-order field equations of General Relativity (GR) reduce to a second-order Poisson equation in the weak-field limit, those of CG yield a fourth-order one.",
+          "summary": "We demonstrate that several purported weak-field solutions to Weyl conformal gravity in the literature are erroneous because they use second-order Poisson equations instead of the required fourth-order ones, and we identify additional inconsistencies such as the incorrect identification of known (electro)vacuum solutions as interior matter distributions.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -198,7 +405,7 @@
           "arxiv_id": "2607.19468",
           "url": "https://arxivite.org/abs/2607.19468",
           "categories": "hep-lat, quant-ph, hep-ph, hep-th",
-          "summary": "We analyze confinement and screening in single-flavor quantum electrodynamics (QED$_2$) on two-dimensional anti-de Sitter space (AdS$_2$), with and without a Schwarzschild black hole, both in the continuum and on the lattice. The theory is formulated in two frames adapted to distinct choices of a preferred time coordinate: the Schwarzschild frame, associated with the Boulware vacuum, and the global AdS$_2$ frame, associated with the $\\mathrm{SL}(2,\\mathbb{R})$-invariant vacuum.",
+          "summary": "We obtain closed-form static potentials for massless QED$_2$ on AdS$_2$ via bosonization at zero and finite temperature, and show that after subtracting position-dependent probe self-energies the potential remains finite at infinite geodesic separation---establishing screening rather than confinement. We validate this with a covariant lattice discretization and confirm the phase diagram and flux-tube profiles using matrix-product-state tensor-network simulations.",
           "relevance": "black-holes, tensor-networks",
           "tags": [
             "black-holes",
@@ -280,6 +487,13 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-23",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-23",
+      "items_found": 0,
+      "entries": []
     },
     {
       "date": "2026-07-22",
@@ -17970,28 +18184,36 @@
     }
   ],
   "stats": {
-    "total_digests": 154,
-    "total_entries": 1246,
+    "total_digests": 156,
+    "total_entries": 1261,
     "unique_tags": {
-      "entanglement": {
-        "first_seen": "2026-07-23",
-        "count": 67
-      },
       "black-holes": {
-        "first_seen": "2026-07-23",
-        "count": 226
+        "first_seen": "2026-07-24",
+        "count": 232
       },
       "quantum-gravity": {
-        "first_seen": "2026-07-23",
-        "count": 67
+        "first_seen": "2026-07-24",
+        "count": 68
       },
       "physics": {
-        "first_seen": "2026-07-23",
-        "count": 130
+        "first_seen": "2026-07-24",
+        "count": 136
       },
       "holography": {
-        "first_seen": "2026-07-23",
-        "count": 59
+        "first_seen": "2026-07-24",
+        "count": 60
+      },
+      "topological": {
+        "first_seen": "2026-07-24",
+        "count": 42
+      },
+      "many-body": {
+        "first_seen": "2026-07-24",
+        "count": 18
+      },
+      "entanglement": {
+        "first_seen": "2026-07-24",
+        "count": 68
       },
       "tensor-networks": {
         "first_seen": "2026-07-23",
@@ -18008,10 +18230,6 @@
       "Science Communication & Policy": {
         "first_seen": "2026-07-23",
         "count": 137
-      },
-      "topological": {
-        "first_seen": "2026-07-22",
-        "count": 41
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-21",
@@ -18032,10 +18250,6 @@
       "Experiment & Observation": {
         "first_seen": "2026-07-15",
         "count": 40
-      },
-      "many-body": {
-        "first_seen": "2026-07-13",
-        "count": 17
       },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-07-13",
@@ -21175,22 +21389,22 @@
       }
     },
     "tag_counts": {
-      "entanglement": 67,
-      "black-holes": 226,
-      "quantum-gravity": 67,
-      "physics": 130,
-      "holography": 59,
+      "black-holes": 232,
+      "quantum-gravity": 68,
+      "physics": 136,
+      "holography": 60,
+      "topological": 42,
+      "many-body": 18,
+      "entanglement": 68,
       "tensor-networks": 9,
       "Quantum Information & Computing": 98,
       "Optics & Photonics": 50,
       "Science Communication & Policy": 137,
-      "topological": 41,
       "loop-quantum-gravity": 14,
       "Quantum Gravity": 30,
       "Black Hole Physics": 19,
       "Technology & Engineering": 48,
       "Experiment & Observation": 40,
-      "many-body": 17,
       "Many-Body Physics & Condensed Matter": 41,
       "string-theory": 7,
       "quantum-cosmology": 7,
@@ -21978,6 +22192,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-07-24",
         "2026-07-23",
         "2026-07-22",
         "2026-07-21",
@@ -22086,6 +22301,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-07-23",
         "2026-07-22",
         "2026-07-21",
         "2026-07-20",
