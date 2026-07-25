@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T01:42:51.710Z",
+  "generated": "2026-07-25T17:47:19.127Z",
   "digests": [
     {
       "date": "2026-07-25",
@@ -16,7 +16,7 @@
           "arxiv_id": "2607.20613",
           "url": "https://arxivite.org/abs/2607.20613",
           "categories": "astro-ph.CO, hep-th, gr-qc",
-          "summary": "Previous studies of poly-instantons in type IIB Calabi-Yau orientifolds found that these effects arise when Euclidean D3-branes wrap rigid cycles with a Wilson line. In this work, we extend this result through a general analysis of instanton zero modes, revealing the existence of new poly-instanton effects for rigid cycles with a deformation, provided that O3-planes are localised on the worldvolume of the Euclidean D3-brane.",
+          "summary": "Through a general analysis of instanton zero modes, the authors identify new poly-instanton effects for rigid cycles with a deformation when O3-planes localize on the Euclidean D3-brane worldvolume, and provide a Calabi-Yau example suited to realising axion hilltop quintessence with the observed vacuum energy through double-exponential suppression.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -29,7 +29,7 @@
           "arxiv_id": "2607.20678",
           "url": "https://arxivite.org/abs/2607.20678",
           "categories": "gr-qc, hep-th, math-ph",
-          "summary": "In arXiv:2306.01837, it was conjectured that one can engineer a large class of quantum field theory states for which the modular flow on a spacelike slice is &#34;instantaneously local.&#34; Here we show that on null slices, such flows are highly constrained; ultraviolet universality essentially requires null-local modular flow to be unique. Concretely, we study massless Klein-Gordon theory in Minkowski spacetime, and construct, for any sufficiently regular future-directed vector field on the past null boundary of a causal diamond, a state that has this vector field as its instantaneous modular flow.",
+          "summary": "The authors prove that on null slices, instantaneously local modular flows are highly constrained by ultraviolet universality, which essentially requires such flows to be unique: no two distinct states with the same null-local modular flow can coexist in the same local Hilbert space, and in the vacuum sector the vacuum state itself is the only null-local modular flow.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -42,7 +42,7 @@
           "arxiv_id": "2607.20777",
           "url": "https://arxivite.org/abs/2607.20777",
           "categories": "gr-qc, hep-th",
-          "summary": "Three-form fluxes generate a potential for the complex structure moduli in type IIB string compactifications on Calabi-Yau threefolds. In the large complex structure patch, the potential consists of a perturbative contribution and a convergent series of instanton corrections.",
+          "summary": "The authors present examples of flux vacua near the boundary of large complex structure where the potential minimum is determined by the perturbative contribution plus the first instanton correction alone, with all higher instantons negligible, and show that this phenomenon is statistically common across ensembles of flux vacua while also discovering subtle effects where instanton terms modify solution multiplicity and induce monodromy shifts.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -55,7 +55,7 @@
           "arxiv_id": "2607.20927",
           "url": "https://arxivite.org/abs/2607.20927",
           "categories": "gr-qc, hep-th",
-          "summary": "We investigate how, in a highly constrained system such as a four-dimensional diffeomorphism-invariant theory with vanishing bulk Hamiltonian and non-trivial interactions between the metric and additional degrees of freedom, transient excited states--called Glauber-Sudarshan states--can be constructed over supersymmetric minima. These states are generically non-supersymmetric and, although they are not minima of any potential, they admit positive-energy metric configurations that effectively mimic four-dimensional quasi-de Sitter backgrounds.",
+          "summary": "The authors construct transient non-supersymmetric excited states—termed Glauber-Sudarshan states—over supersymmetric minima that effectively mimic quasi-de Sitter backgrounds, and show their dynamics are governed by a nontrivial bootstrap relation simultaneously constraining behavior near Minkowski vacua and along quasi-de Sitter trajectories across complementary descriptions including the 1PI effective action, Schwinger-Keldysh contours, and Lefschetz-thimble decompositions.",
           "relevance": "string-theory",
           "tags": [
             "string-theory"
@@ -68,7 +68,7 @@
           "arxiv_id": "2607.20991",
           "url": "https://arxivite.org/abs/2607.20991",
           "categories": "cond-mat.str-el, cond-mat.stat-mech, nucl-th, gr-qc, hep-th",
-          "summary": "Flavor-current correlators are studied in strongly-coupled dense (holographic) matter, at finite quark chemical potential $\\mu_q$ and finite isospin asymmetry. The non-Abelian hydrodynamic description of the charged currents is derived in the presence of an isospin chemical potential $\\mu_3$.",
+          "summary": "The authors derive the non-Abelian hydrodynamic description of charged currents at finite isospin chemical potential and compute holographic two-point correlators, showing that in the near-extremal regime the standard hydrodynamic validity extends to $T\\ll \\omega, k\\ll \\mu$; they propose an extended hydrodynamic approximation capturing both hydrodynamic-like poles and AdS$_2$ effects via resummation of low-$\\omega$ logarithms, verified numerically against exact correlators and quasi-normal modes.",
           "relevance": "holography",
           "tags": [
             "holography"
@@ -81,7 +81,7 @@
           "arxiv_id": "2607.21030",
           "url": "https://arxivite.org/abs/2607.21030",
           "categories": "gr-qc, hep-th",
-          "summary": "Complex extremal surfaces naturally arise in holographic observables associated with timelike subregions in AdS/CFT and with holographic observables in dS/CFT, but their integration contours are generally ambiguous. In this work, we propose a method for constructing complex bulk metrics from families of complex extremal surfaces, thereby generating candidate complex geometries relevant to the gravitational path integral.",
+          "summary": "The authors propose a method to construct complex bulk metrics from families of complex extremal surfaces and use the Kontsevich--Segal--Witten criterion as a strong consistency condition to constrain the corresponding integration contours, showing that in several AdS and dS examples KSW admissibility uniquely determines the contour within the class considered while also identifying configurations where the resulting geometry violates the KSW bound near the asymptotic boundary.",
           "relevance": "holography, entanglement",
           "tags": [
             "holography",
@@ -95,7 +95,7 @@
           "arxiv_id": "2607.21509",
           "url": "https://arxivite.org/abs/2607.21509",
           "categories": "gr-qc, hep-th",
-          "summary": "We investigate the Hilbert space structure for simple theories of gravity with $\\Lambda&gt;0$ on closed spatial sections. Our motivation ties to the presence of gravitational saddles in four-dimensional $\\Lambda&gt;0$ Einstein-Maxwell theory with $S^2\\times \\Sigma_h$ topology, where $\\Sigma_h$ is a genus-$h$ Riemann surface.",
+          "summary": "The authors investigate the Hilbert space structure of two-dimensional $\\Lambda>0$ quantum gravity on closed spatial sections via exact matrix model results, establishing explicit results up to genus-six and arguing that the dominant genus-$h$ gravitational disk path integral at large spatial size mimics two-dimensional topological gravity; they also show that the sphere path integral ${Z}^{(0)}_{\\text{grav}}$ must carry a negative pre-factor to yield a positive counting problem for discretised Riemann surfaces.",
           "relevance": "quantum-gravity, topological",
           "tags": [
             "quantum-gravity",
@@ -109,7 +109,7 @@
           "arxiv_id": "2607.19815",
           "url": "https://arxivite.org/abs/2607.19815",
           "categories": "gr-qc",
-          "summary": "This paper presents a detailed study of the coordinate dependence of Vlasov gas accretion onto a Schwarzschild black hole. Asymptotic results at infinity and near horizon are obtained via Taylor expansions for three different statistical distributions within the framework of the most general stationary spherically symmetric spacetime.",
+          "summary": "The authors demonstrate that key physical quantities—particle number density, energy density, radial and tangential pressures, and accretion rates—in Vlasov gas accretion onto a Schwarzschild black hole are independent of coordinate choice, and show that the mean energy of accreted particles is $m_0+k_BT$ with specific entropy lower than the global average by $\\frac{3}{2}k_B$ because lower-energy particles are preferentially accreted while higher-energy particles are scattered.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -122,7 +122,7 @@
           "arxiv_id": "2607.19860",
           "url": "https://arxivite.org/abs/2607.19860",
           "categories": "gr-qc",
-          "summary": "We compute quasinormal modes of the Kazakov--Solodukhin quantum-corrected black hole using a high-precision Chebyshev spectral method. After factoring out the quasinormal mode asymptotics at the event horizon and at spatial infinity, the radial problem is reduced to a quadratic matrix pencil for the dimensionless frequency $\\Omega=M\\omega$.",
+          "summary": "The authors compute quasinormal modes of the Kazakov--Solodukhin quantum-corrected black hole using a high-precision Chebyshev spectral method that reduces the radial problem to a quadratic matrix pencil, resolving additional overtones and candidate purely imaginary overdamped roots with a spacing scale near $M\\kappa=1/4$; in the near-extremal regime the purely imaginary branches approach an equally spaced surface-gravity-scaled ladder, and no stable growing modes are found within the ranges considered.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -135,7 +135,7 @@
           "arxiv_id": "2607.19904",
           "url": "https://arxivite.org/abs/2607.19904",
           "categories": "gr-qc",
-          "summary": "We examine the Repetitive Penrose Process in the rotating Simpson-Visser spacetime, whose parameter space includes regular black holes, black-bounce geometries, and traversable wormholes. Assuming that the regularization parameter remains unchanged throughout the evolution, the analysis shows that the endpoint of the repetitive process is not always determined solely by the conventional minimum spin condition.",
+          "summary": "The authors identify a geometry-induced termination mechanism for the repetitive Penrose process in rotating Simpson-Visser spacetimes, where for sufficiently large regularization parameters the evolving solution exits the two-horizon black hole branch before the dynamical spin limit is reached, progressively reducing the cumulative extracted energy, the number of admissible iterations, and the process efficiency as the deformation increases.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -148,7 +148,7 @@
           "arxiv_id": "2607.20107",
           "url": "https://arxivite.org/abs/2607.20107",
           "categories": "quant-ph, gr-qc, hep-ph",
-          "summary": "A graviton can be converted into a phonon in a resonant bar detector. First-order perturbation theory predicts a strong enhancement of this conversion for coherent and squeezed graviton states, but the probability can exceed unity when the coherent or squeezing parameter is large.",
+          "summary": "The authors solve the graviton-phonon quantum dynamics exactly within the rotating-wave approximation, finding that for an initial coherent state the conversion occurs intermittently through narrow bursts separated by intervals of strong suppression, while for a squeezed state the conversion is strongly suppressed after its initial growth—effects that may provide observable signatures relevant to single-graviton detection.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -161,7 +161,7 @@
           "arxiv_id": "2607.20609",
           "url": "https://arxivite.org/abs/2607.20609",
           "categories": "astro-ph.HE, gr-qc",
-          "summary": "Compact binary systems consisting of a black hole (BH) and a neutron star (NS) are expected to provide detectable signals both in the gravitational wave and in the electromagnetic channels, thus representing excellent sources for multi-messenger astronomy. In this third paper in a series, we report on the geometric and thermodynamic properties of the purely dynamical ejecta component modeled in our general-relativistic magnetohydrodynamical simulations of BHNS systems over a comprehensive binary parameter space consisting of large mass ratio and high BH spin.",
+          "summary": "Using general-relativistic magnetohydrodynamical simulations across a comprehensive binary parameter space of large mass ratio and high black-hole spin, the authors model the geometric, thermodynamic, and kinematic properties of the purely dynamical ejecta, employ SkyNet to compute r-process elemental abundances and POSSIS to compute kilonova light-curves, finding overall consistency with AT2017gfo data and S190814bv upper limits.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -174,7 +174,7 @@
           "arxiv_id": "2607.20839",
           "url": "https://arxivite.org/abs/2607.20839",
           "categories": "gr-qc, hep-ph",
-          "summary": "In this paper, we present a comprehensive investigation into the dynamical and thermodynamic properties of the charged Reissner-Nordström (RN) black hole (BH) in the bumblebee gravity framework, where spontaneous Lorentz symmetry breaking (LSB) occurs. To analyze the dynamical behavior, we apply the unified Teukolsky master equation within the Newman-Penrose formalism to evaluate massless field perturbations of arbitrary spins ($s=0, 1/2, 1, 3/2, 2$).",
+          "summary": "The authors present a comprehensive study of charged Reissner-Nordström black holes in bumblebee gravity, computing quasinormal modes and greybody factors for arbitrary spin perturbations ($s=0, 1/2, 1, 3/2, 2$) using the unified Teukolsky master equation, assessing observational prospects for LISA, Virgo, and LIGO, and revealing a second-order thermodynamic phase transition whose critical radius is heavily governed by the background charge.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -187,7 +187,7 @@
           "arxiv_id": "2607.20850",
           "url": "https://arxivite.org/abs/2607.20850",
           "categories": "gr-qc",
-          "summary": "In this work, we investigate the existence, relation to the energy conditions, and radial bounds of static spheres in general static, spherically symmetric, asymptotically flat black hole spacetimes. By analyzing the global behavior of a radial function constructed from the mass and radial pressure functions, we prove that a static sphere necessarily requires a negative radial pressure (tension).",
+          "summary": "The authors prove that static spheres in general spherically symmetric black hole spacetimes necessarily require negative radial pressure and must appear in non-degenerate pairs—an inner unstable sphere and an outer stable one—with the inner sphere violating the strong energy condition ($\\rho+p+2p_T<0$) and the outer restoring it; they also derive a rigorous upper bound on the innermost sphere's radius when the weak energy condition holds and the SEC is uniformly violated between the horizon and the sphere.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -200,7 +200,7 @@
           "arxiv_id": "2607.20945",
           "url": "https://arxivite.org/abs/2607.20945",
           "categories": "astro-ph.HE, gr-qc",
-          "summary": "Within theoretical frameworks such as loop quantum gravity, black holes may evolve into white holes through a quantum bounce. This paper uses general relativistic ray-tracing techniques to calculate the ray-traced imaging of accretion disks from the previous cosmic stage during the Kerr black hole and post-bounce Kerr white hole phases.",
+          "summary": "Using general-relativistic ray-tracing and polarized ray-tracing calculations, the authors show that post-bounce Kerr white holes produce eccentric, asymmetric nested intensity rings and a distinct inter-ring polarization discontinuity in contrast to the crescent emission ring and central shadow of black holes, providing multi-band and polarimetric interferometry baselines and theoretical guidance for future VLBI observations to distinguish black holes from white holes.",
           "relevance": "quantum-gravity, loop-quantum-gravity, black-holes",
           "tags": [
             "quantum-gravity",
@@ -209,6 +209,13 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-25",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-25",
+      "items_found": 0,
+      "entries": []
     },
     {
       "date": "2026-07-24",
@@ -18499,7 +18506,7 @@
     }
   ],
   "stats": {
-    "total_digests": 159,
+    "total_digests": 160,
     "total_entries": 1284,
     "unique_tags": {
       "physics": {
@@ -22562,6 +22569,61 @@
         "2026-05-12",
         "2026-05-11"
       ],
+      "moltbook": [
+        "2026-07-25",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-18",
+        "2026-07-17",
+        "2026-07-15",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-05",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-28",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-21",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
+      ],
       "web-science": [
         "2026-07-24",
         "2026-07-23",
@@ -22616,60 +22678,6 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
-      ],
-      "moltbook": [
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-18",
-        "2026-07-17",
-        "2026-07-15",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-05",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-28",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-21",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
       ]
     }
   }
