@@ -1,21 +1,33 @@
 # Project Progress
 
-*Last Updated: 2026-07-07 12:55 IST*
+*Last Updated: 2026-07-25 23:45 IST*
 
 ## What Works
 
 - [x] **T20: Server migration** — Live at `https://quantumofgravity.com/cron-digests/`
 - [x] **T21: Modular viewer + Calendar** — Complete 2026-07-07
-  - Split 1,201-line inline HTML into modular CSS/JS
-  - 82-line `index.html` shell + `css/`, `js/` directories
-  - Month calendar with colored dots per digest type
-  - Day click → digest modal
-  - Toggle calendar/list views
-  - All features preserved (search, tags, keyboard, dark mode, KaTeX)
+- [x] **T23: Backfill missing digests** — Complete 2026-07-25
+  - arXiv: 5 backfilled via API `submittedDate` queries
+  - Web Science: 2 backfilled via Phys.org daily top pages
+  - Moltbook: 9 placeholder stubs (pending T22 API fix)
+  - Reusable `scripts/backfill-arxiv.py` created
 - [x] Post-generation verification pipeline (T18): `verify-digest.sh`, `digest-health-check.sh`, Playwright tests
 - [x] Three cron jobs: arXiv, Web Science, Moltbook — generating daily
+- [x] Telegram notifications now enabled for all three cron jobs
 - [x] CI/CD: GitHub Actions auto-validates, rebuilds index, deploys to Pages on push
-- [x] 91+ digests indexed, 831 entries, 800 tags
+- [x] 176 digests indexed, 1200+ entries, 800+ tags
+
+## Completed (2026-07-25)
+
+### T23: Backfill Missing Digests
+1. Created `scripts/backfill-arxiv.py` — reusable script using arXiv API `submittedDate` range queries
+2. Backfilled 5 missing arXiv digests (2026-05-16, 05-23, 06-02, 07-04, 07-16)
+3. Backfilled 2 missing Web Science digests (2026-07-03, 07-16) via Phys.org daily top pages
+4. Created 9 Moltbook placeholder stubs for dates with no content (API 401)
+5. Updated all manifests (arxiv, web-science, moltbook)
+6. Rebuilt viewer index (SQLite + JSON)
+7. Enabled Telegram notifications for all three cron jobs (changed `delivery.mode: "none"` → `"announce"`)
+8. Committed and pushed to GitHub
 
 ## Completed (2026-07-07)
 
@@ -94,4 +106,4 @@ None. T21 just completed.
 - **Deployment:** Manual rsync for now. May add CI step to rsync to server later.
 
 ---
-*Updated: 2026-07-07 12:55 IST*
+*Updated: 2026-07-25 23:45 IST*
