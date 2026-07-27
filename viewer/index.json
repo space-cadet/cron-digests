@@ -1,6 +1,47 @@
 {
-  "generated": "2026-07-25T18:13:06.259Z",
+  "generated": "2026-07-27T04:50:00.309Z",
   "digests": [
+    {
+      "date": "2026-07-27",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-27",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "GPS particle detectors track space radiation over two decades",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/gps-particle-detectors-track-space-radiation-over-two-decades/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02268-z",
+          "summary": "Early tests suggest the protein can be aimed at targets with tumour-causing mutations.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "White House rolls out AI funding — and signals a new era for US science",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02332-8",
+          "summary": "Chief US science adviser calls for a shakeup in funding while handing out grants to accelerate research with AI.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-25",
       "type": "arxiv",
@@ -19748,9 +19789,13 @@
     }
   ],
   "stats": {
-    "total_digests": 176,
-    "total_entries": 1369,
+    "total_digests": 177,
+    "total_entries": 1372,
     "unique_tags": {
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-27",
+        "count": 145
+      },
       "physics": {
         "first_seen": "2026-07-25",
         "count": 169
@@ -19786,10 +19831,6 @@
       "many-body": {
         "first_seen": "2026-07-24",
         "count": 19
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-24",
-        "count": 142
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-07-24",
@@ -22993,6 +23034,7 @@
       }
     },
     "tag_counts": {
+      "Science Communication & Policy": 145,
       "physics": 169,
       "string-theory": 9,
       "holography": 71,
@@ -23002,7 +23044,6 @@
       "black-holes": 268,
       "loop-quantum-gravity": 18,
       "many-body": 19,
-      "Science Communication & Policy": 142,
       "Quantum Information & Computing": 100,
       "Quantum Gravity": 31,
       "Black Hole Physics": 20,
@@ -23805,6 +23846,64 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "arxiv": [
         "2026-07-25",
         "2026-07-24",
@@ -23929,63 +24028,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "web-science": [
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
