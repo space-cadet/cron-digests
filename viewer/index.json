@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28T01:42:20.544Z",
+  "generated": "2026-07-28T04:49:30.840Z",
   "digests": [
     {
       "date": "2026-07-28",
@@ -208,6 +208,25 @@
           "relevance": "black-holes",
           "tags": [
             "black-holes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-28",
+      "items_found": 1,
+      "entries": [
+        {
+          "num": 1,
+          "title": "‘Timer’ in the brain tracks sleep — and predicts awakening",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02294-x",
+          "summary": "Chemical tags on proteins could provide a biomarker for sleep deprivation, mouse studies suggest.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -20014,8 +20033,8 @@
     }
   ],
   "stats": {
-    "total_digests": 180,
-    "total_entries": 1387,
+    "total_digests": 181,
+    "total_entries": 1388,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-07-28",
@@ -20050,8 +20069,8 @@
         "count": 9
       },
       "Science Communication & Policy": {
-        "first_seen": "2026-07-27",
-        "count": 145
+        "first_seen": "2026-07-28",
+        "count": 146
       },
       "string-theory": {
         "first_seen": "2026-07-25",
@@ -23267,7 +23286,7 @@
       "many-body": 20,
       "loop-quantum-gravity": 19,
       "quantum-cosmology": 9,
-      "Science Communication & Policy": 145,
+      "Science Communication & Policy": 146,
       "string-theory": 9,
       "quantum-gravity": 77,
       "Quantum Information & Computing": 100,
@@ -24134,6 +24153,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-28",
         "2026-07-27",
         "2026-07-24",
         "2026-07-23",
