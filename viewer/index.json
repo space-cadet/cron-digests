@@ -1,6 +1,217 @@
 {
-  "generated": "2026-07-27T04:50:00.309Z",
+  "generated": "2026-07-28T01:41:54.631Z",
   "digests": [
+    {
+      "date": "2026-07-28",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-28",
+      "categories": "astro-ph.HE, cond-mat.stat-mech, cond-mat.str-el, gr-qc, hep-th, math-ph, math.DG, math.QA, physics.hist-ph, physics.optics, quant-ph",
+      "items_found": 15,
+      "focus": "loop quantum, black hole, quantum cosmology, holograph, topological, many-body",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Quantum-Corrected Thermodynamics, Dirac Perturbations, Geodesic Structure, and Topological Phases of Black Holes with Non-Minimal Logarithmic Coupling",
+          "authors": "İzzet Sakallı, Özcan Sert, Erdem Sucu et al.",
+          "arxiv_id": "2607.21783",
+          "url": "https://arxivite.org/abs/2607.21783",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study the thermodynamic and dynamical properties of static, spherically symmetric BHs in Einstein-Maxwell theory modified by a non-minimal $\\ln(R)F^{2}$ coupling. The Hawking temperature follows from the Hamilton-Jacobi form of the fermionic tunnelling method for spin-$\\tfrac12$ particles, and it carries scale-dependent logarithmic corrections.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Page transition for the complexity of an evaporating black hole",
+          "authors": "Violet Concepcion, Yasunori Nomura, Kyle Ritchie et al.",
+          "arxiv_id": "2607.21734",
+          "url": "https://arxivite.org/abs/2607.21734",
+          "categories": "hep-th, quant-ph, gr-qc",
+          "summary": "Recent results demonstrate that there exists a sharp, Page-like transition for the complexity of subsystems of Haar-random states as their fractional subsystem size surpasses one half. They further demonstrate that this transition also occurs for the holographic complexity of boundary subregions of eternal AdS black holes, assuming the Complexity$=$Volume (CV) proposal for subregions.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Purely Electric, Magnetic, and Dyonic Black Holes in Einstein-Euler-Heisenberg Theory",
+          "authors": "Haoyuan Luo, Nan Cao, Xiao Yan Chew et al.",
+          "arxiv_id": "2607.21938",
+          "url": "https://arxivite.org/abs/2607.21938",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate static, spherically symmetric charged black holes in Einstein gravity coupled to Euler--Heisenberg (EH) nonlinear electrodynamics, including purely electric, purely magnetic, and dyonic configurations. Rather than adopting the Hamiltonian formulation based on the auxiliary electromagnetic invariant $\\mathcal{P}$, we work directly with the physical electromagnetic invariant $\\mathcal{F}$ in the Einstein-Euler--Heisenberg Lagrangian, thereby describing all charged configurations without introducing auxiliary variables.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Spontaneous Scalarization of Brane Black Holes: Quantum-Enhanced Tachyonic Instabilities",
+          "authors": "Yuxuan Liu, Yi Ling, Qian Chen",
+          "arxiv_id": "2607.22382",
+          "url": "https://arxivite.org/abs/2607.22382",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate the spontaneous scalarization of brane-localized charged black holes, focusing on the role of quantum-enhanced tachyonic instabilities. By solving the coupled bulk-brane equations numerically within the Einstein-DeTurck formulation, we construct fully backreacted static black hole solutions and map the system from the semi-classical limit to the strongly coupled quantum-dominated regime.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Entanglement in Presence of Topological Interfaces and Dualities",
+          "authors": "Christian Northe, Riccardo Poletti, Paolo Rossi",
+          "arxiv_id": "2607.22451",
+          "url": "https://arxivite.org/abs/2607.22451",
+          "categories": "cond-mat.stat-mech, hep-th, quant-ph",
+          "summary": "Entanglement through interfaces has attracted considerable attention in 2d conformal field theory (CFT). However, it is known that field-theoretic predictions based on the existing framework are in general incompatible with numerical results [1-4].",
+          "relevance": "topological, entanglement",
+          "tags": [
+            "topological",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Boundary Completion of Vacuum Persistence Probability",
+          "authors": "Yu Zhou, Hai-Qing Zhang",
+          "arxiv_id": "2607.20936",
+          "url": "https://arxivite.org/abs/2607.20936",
+          "categories": "hep-th, gr-qc",
+          "summary": "The vacuum persistence probability, encoded in the imaginary part of the in-out effective action, is a basic measure of vacuum instability and particle production. However, its evaluation may appear prescription-dependent: the Bogoliubov prescription and the Green&#39;s function prescription can yield different expressions.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Dimensional Analysis is a Gauge Theory",
+          "authors": "Benjamin Muntz",
+          "arxiv_id": "2607.21695",
+          "url": "https://arxivite.org/abs/2607.21695",
+          "categories": "gr-qc, hep-th, math-ph, physics.hist-ph",
+          "summary": "I argue that dimensional analysis can appropriately be thought of as a gauge theory. This picture naturally leads to the usual quantity calculus through inherent properties of Lie groups, Lie algebras, and representation theory.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Non-Clifford quantum cellular automata from invertible topological quantum field theories",
+          "authors": "Meng Sun, Zongyuan Wang, Bowen Yang et al.",
+          "arxiv_id": "2607.21697",
+          "url": "https://arxivite.org/abs/2607.21697",
+          "categories": "math.QA, math-ph, cond-mat.str-el, hep-th, quant-ph",
+          "summary": "Quantum cellular automata (QCAs) describe locality-preserving quantum dynamics and connect quantum information, many-body physics, and topological quantum field theory (TQFT). Constructing a QCA from a TQFT, however, is challenging.",
+          "relevance": "topological, many-body",
+          "tags": [
+            "topological",
+            "many-body"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Local Geometric Bounds on Generalized Entropy Evolution along Null Horizons",
+          "authors": "Erik Bertram",
+          "arxiv_id": "2607.21770",
+          "url": "https://arxivite.org/abs/2607.21770",
+          "categories": "hep-th, gr-qc",
+          "summary": "We develop a local and covariant framework for constraining the evolution of generalized entropy along null horizons, combining classical geometric methods with constraints from quantum field theory. Building on the quantum focusing conjecture (QFC), which restricts entropy evolution along null directions, we derive a Raychaudhuri-type differential inequality for the generalized expansion that makes its local dependence on expansion and shear explicit.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Static vacuum metrics in (4 + 1) dimensions with Λ &lt; 0 and squashed conformal infinity",
+          "authors": "Piotr T. Chruściel, Jiaxin Song, Raphaela Wutte et al.",
+          "arxiv_id": "2607.22237",
+          "url": "https://arxivite.org/abs/2607.22237",
+          "categories": "math.DG, hep-th, gr-qc",
+          "summary": "We construct numerically two families of static five-dimensional Lorentzian metrics, solutions of vacuum Einstein equations with a negative cosmological constant, one with and one without a black hole region, with a metric at sections of conformal infinity which is conformal to any squashed three-dimensional sphere.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Macroscopic statistical field from the spectral function of vacuum fluctuations and its gravitational implications",
+          "authors": "Jinku Guo",
+          "arxiv_id": "2607.21621",
+          "url": "https://arxivite.org/abs/2607.21621",
+          "categories": "hep-th, gr-qc",
+          "summary": "This paper proposes that gravity emerges as a statistical phase transition in the spectral function of the energy-momentum tensor commutator. The Weinberg-Witten theorem forbids a fundamental massless spin-2 particle, yet the energy-momentum tensor of quantum field theory carries an unsuppressed spin-2 channel in its vacuum fluctuation spectrum.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "LQC inverse volume corrections inflation driven by fractional power law potentials in light of ACT observations",
+          "authors": "Farough Parvizi, Kayoomars Karami",
+          "arxiv_id": "2607.22037",
+          "url": "https://arxivite.org/abs/2607.22037",
+          "categories": "hep-th, gr-qc",
+          "summary": "Here, we investigate the observational viability of fractional power law inflationary potentials, $V(\\varphi) \\propto \\varphi^n$ ($n=$ 1/3, 2/5, 2/3), within the effective framework of Loop Quantum Cosmology (LQC) incorporating inverse volume corrections. By employing LQC modifications to the background dynamics and cosmological perturbation equations in the semi-classical regime, we analytically derive the scalar spectral index $n_{\\rm s}$ and the tensor-to-scalar ratio $r$.",
+          "relevance": "loop-quantum-gravity, quantum-cosmology",
+          "tags": [
+            "loop-quantum-gravity",
+            "quantum-cosmology"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Frame-Dependent Traces and the Third-Particle Paradox",
+          "authors": "Alessandro Palumbo, Luca Apadula",
+          "arxiv_id": "2607.21703",
+          "url": "https://arxivite.org/abs/2607.21703",
+          "categories": "quant-ph, gr-qc",
+          "summary": "The Paradox of the Third Particle arises when comparing subsystem descriptions across Quantum Reference Frame (QRF) perspectives. We isolate two distinct origins of the Paradox: the QRF covariance of the partial trace and the failure of the physical Hilbert space to inherit the kinematical tensor-product structure.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Optical time travel: proposal for testing Hawking&#39;s Chronology Protection Conjecture in an optical analogue",
+          "authors": "D. Bermudez, U. Leonhardt",
+          "arxiv_id": "2607.22056",
+          "url": "https://arxivite.org/abs/2607.22056",
+          "categories": "physics.optics, quant-ph, gr-qc",
+          "summary": "Classical general relativity allows time travel, but Hawking [Phys. Rev.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Viscosity effects on the shadow of a non-rotating black hole",
+          "authors": "Sayantani Lahiri, Sergio Gimeno-Soler, Alejandro Cruz-Osorio et al.",
+          "arxiv_id": "2607.21713",
+          "url": "https://arxivite.org/abs/2607.21713",
+          "categories": "astro-ph.HE, gr-qc",
+          "summary": "We study the effect of shear viscosity in stationary magnetized accretion tori on synthetic images of non-rotating black hole shadows. Shear viscosity and spacetime-curvature contributions are introduced perturbatively in the tori through first and second-order transport coefficients within a second-order causal theory of non-ideal relativistic hydrodynamics.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-27",
       "type": "web-science",
@@ -41,6 +252,20 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-27",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-27",
+      "items_found": 0,
+      "entries": []
+    },
+    {
+      "date": "2026-07-26",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-26",
+      "items_found": 0,
+      "entries": []
     },
     {
       "date": "2026-07-25",
@@ -19789,48 +20014,52 @@
     }
   ],
   "stats": {
-    "total_digests": 177,
-    "total_entries": 1372,
+    "total_digests": 180,
+    "total_entries": 1387,
     "unique_tags": {
+      "black-holes": {
+        "first_seen": "2026-07-28",
+        "count": 274
+      },
+      "topological": {
+        "first_seen": "2026-07-28",
+        "count": 55
+      },
+      "holography": {
+        "first_seen": "2026-07-28",
+        "count": 73
+      },
+      "entanglement": {
+        "first_seen": "2026-07-28",
+        "count": 77
+      },
+      "physics": {
+        "first_seen": "2026-07-28",
+        "count": 175
+      },
+      "many-body": {
+        "first_seen": "2026-07-28",
+        "count": 20
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-07-28",
+        "count": 19
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-07-28",
+        "count": 9
+      },
       "Science Communication & Policy": {
         "first_seen": "2026-07-27",
         "count": 145
-      },
-      "physics": {
-        "first_seen": "2026-07-25",
-        "count": 169
       },
       "string-theory": {
         "first_seen": "2026-07-25",
         "count": 9
       },
-      "holography": {
-        "first_seen": "2026-07-25",
-        "count": 71
-      },
-      "entanglement": {
-        "first_seen": "2026-07-25",
-        "count": 76
-      },
       "quantum-gravity": {
         "first_seen": "2026-07-25",
         "count": 77
-      },
-      "topological": {
-        "first_seen": "2026-07-25",
-        "count": 52
-      },
-      "black-holes": {
-        "first_seen": "2026-07-25",
-        "count": 268
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-07-25",
-        "count": 18
-      },
-      "many-body": {
-        "first_seen": "2026-07-24",
-        "count": 19
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-07-24",
@@ -19895,10 +20124,6 @@
       "Experiment & Observation": {
         "first_seen": "2026-07-15",
         "count": 40
-      },
-      "quantum-cosmology": {
-        "first_seen": "2026-07-07",
-        "count": 8
       },
       "quantum-materials": {
         "first_seen": "2026-07-03",
@@ -23034,16 +23259,17 @@
       }
     },
     "tag_counts": {
+      "black-holes": 274,
+      "topological": 55,
+      "holography": 73,
+      "entanglement": 77,
+      "physics": 175,
+      "many-body": 20,
+      "loop-quantum-gravity": 19,
+      "quantum-cosmology": 9,
       "Science Communication & Policy": 145,
-      "physics": 169,
       "string-theory": 9,
-      "holography": 71,
-      "entanglement": 76,
       "quantum-gravity": 77,
-      "topological": 52,
-      "black-holes": 268,
-      "loop-quantum-gravity": 18,
-      "many-body": 19,
       "Quantum Information & Computing": 100,
       "Quantum Gravity": 31,
       "Black Hole Physics": 20,
@@ -23060,7 +23286,6 @@
       "dinosaurs": 1,
       "Technology & Engineering": 48,
       "Experiment & Observation": 40,
-      "quantum-cosmology": 8,
       "quantum-materials": 2,
       "climate": 1,
       "earth-science": 1,
@@ -23846,65 +24071,8 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
-      "web-science": [
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
       "arxiv": [
+        "2026-07-28",
         "2026-07-25",
         "2026-07-24",
         "2026-07-23",
@@ -23965,7 +24133,67 @@
         "2026-05-12",
         "2026-05-11"
       ],
+      "web-science": [
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "moltbook": [
+        "2026-07-27",
+        "2026-07-26",
         "2026-07-25",
         "2026-07-24",
         "2026-07-23",
