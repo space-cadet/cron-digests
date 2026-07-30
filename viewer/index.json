@@ -1,6 +1,217 @@
 {
-  "generated": "2026-07-29T04:50:06.119Z",
+  "generated": "2026-07-30T01:42:32.561Z",
   "digests": [
+    {
+      "date": "2026-07-30",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-30",
+      "categories": "astro-ph.CO, astro-ph.HE, cond-mat.stat-mech, gr-qc, hep-ph, hep-th, math-ph, nucl-th, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, holograph, many-body, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Can a quantum circuit detect the Unruh effect?",
+          "authors": "Pravin Kumar Dahal, Timothy C. Ralph, William J. Munro et al.",
+          "arxiv_id": "2607.24836",
+          "url": "https://arxivite.org/abs/2607.24836",
+          "categories": "hep-th, quant-ph, gr-qc",
+          "summary": "The Unruh effect predicts that an accelerating observer perceives the Minkowski vacuum as a thermal bath, yet direct detection remains experimentally inaccessible. Its timelike counterpart, arising from the entanglement of massless fields between the future and past light cones, offers a more feasible route but requires a detector whose transition frequency follows a specific conformal-time scaling.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum reference frames beyond subsystems: a reconstruction and generalization of the perspective-neutral framework",
+          "authors": "Stefan L. Ludescher, Manuel Mekonnen, Thomas D. Galley et al.",
+          "arxiv_id": "2607.24976",
+          "url": "https://arxivite.org/abs/2607.24976",
+          "categories": "hep-th, quant-ph, gr-qc",
+          "summary": "We generalize the notion of quantum reference frames (QRFs) to cases where the frame does not necessarily correspond to a tensor factor subsystem, but to a covariant quantum instrument. This unlocks a variety of physical applications: &#34;frames of labeling&#34; for indistinguishable particles, suggesting explanations for the symmetrization postulate and the absence of parastatistics, and yielding a transparent description of the entanglement of bosons and fermions; and relational clocks reproducing the Schrödinger equation exactly even when all subsystems are interacting or when there are frequency superselection sectors.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Analytic backreaction of a scalar wig on a Schwarzschild black hole",
+          "authors": "Marco de Cesare, Manuel Del Piano, Carlos A. R. Herdeiro",
+          "arxiv_id": "2607.25932",
+          "url": "https://arxivite.org/abs/2607.25932",
+          "categories": "astro-ph.CO, hep-th, gr-qc",
+          "summary": "We analytically determine the leading backreaction of a spherically symmetric massive complex scalar quasi-bound state (with mass $\\mu$) on a Schwarzschild black hole with (initial) gravitational radius $r_0$. Working in the small-coupling regime, $r_0 \\mu \\ll 1$, we evaluate the stress-energy tensor of the fundamental scalar $s$-wave and solve the Einstein equations through quadratic order in its amplitude in ingoing Eddington-Finkelstein coordinates.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Cross-Correlations of Metric and Monopole Perturbations from Holographic Cosmology",
+          "authors": "Matheus Cravo, Juliana Z. Finotti, Horatiu Nastase",
+          "arxiv_id": "2607.24989",
+          "url": "https://arxivite.org/abs/2607.24989",
+          "categories": "hep-th, gr-qc",
+          "summary": "In this paper, we present the 1-loop calculation of the three-point function $\\langle TJJ \\rangle$ of the stress-energy tensor and two insertions of $SO(3)$ global currents, using a 3d toy model for holographic cosmology. By applying the holographic dictionary that relates these QFT $n$-point functions to cosmological correlators, together with the $Sl(2,\\mathbb{Z})$ duality that maps the electric Noether current to a magnetic vortex current dual to cosmological magnetic monopoles, we relate the $\\langle TJJ \\rangle$ correlator to the cross-correlations between metric perturbations and the bulk magnetic monopole field, specifically mapping to the non-Gaussianities $\\langle \\xi \\tilde{A} \\tilde{A} \\rangle$ and $\\langle \\gamma \\tilde{A} \\tilde{A} \\rangle$.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Monodromy, Hidden Conformal Symmetry and Soft Hair in Kerr-MOG Black Hole",
+          "authors": "Parthapratim Pradhan",
+          "arxiv_id": "2607.25205",
+          "url": "https://arxivite.org/abs/2607.25205",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate the two-dimensional conformal field theory (2D CFT) dual of the four-dimensional Kerr-MOG (Kerr-modified gravity) black hole using three complementary approaches: (i) black hole thermodynamics, (ii) monodromy analysis, and (iii) the soft-hair formalism. From these independent methods, we derive consistent expressions for the left- and right-moving temperatures and the central charge of the dual CFT.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Topology-dependent relativistic degradation of multipartite entanglement",
+          "authors": "Shu-Min Wu, Si-Han Shang, Xu Han et al.",
+          "arxiv_id": "2607.24858",
+          "url": "https://arxivite.org/abs/2607.24858",
+          "categories": "quant-ph, gr-qc",
+          "summary": "The influence of relativistic motion on quantum entanglement is commonly attributed to acceleration-induced thermal noise. Here we show that, for asymmetric multipartite states, the topology of entanglement can become equally important.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Quantum Gravity from Fractal Entanglement Geometry",
+          "authors": "Jaume Gine",
+          "arxiv_id": "2607.26035",
+          "url": "https://arxivite.org/abs/2607.26035",
+          "categories": "gr-qc",
+          "summary": "In this paper we propose that spacetime is an emergent fractal geometry generated by the entanglement structure of an underlying quantum information network. Indeed, it is developed a framework in which spacetime, quantum mechanics, and gravity emerge from the entanglement structure of a universal quantum state.",
+          "relevance": "quantum-gravity, entanglement",
+          "tags": [
+            "quantum-gravity",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Near-Light-Cone Nonhydrodynamic Structure from Boosted Hydrodynamics",
+          "authors": "Navid Abbasi, Jewel Kumar Ghosh, Dirk H. Rischke",
+          "arxiv_id": "2607.24576",
+          "url": "https://arxivite.org/abs/2607.24576",
+          "categories": "hep-th, gr-qc, nucl-th",
+          "summary": "Hydrodynamics provides a universal description of many-body systems at long wavelengths. Its long-lived collective excitations, known as hydrodynamic modes, admit long-wavelength expansions whose convergence is encoded in the analytic structure of retarded correlators of conserved quantities in thermal equilibrium.",
+          "relevance": "many-body, holography",
+          "tags": [
+            "many-body",
+            "holography"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Parametrized beyond-Teukolsky framework in the time domain",
+          "authors": "Ciro De Simone, Sebastian H. Völkel, Kostas D. Kokkotas et al.",
+          "arxiv_id": "2607.25311",
+          "url": "https://arxivite.org/abs/2607.25311",
+          "categories": "hep-th, astro-ph.HE, gr-qc",
+          "summary": "Modifications to General Relativity can significantly alter the perturbative response of black holes, leaving imprints on quasinormal-mode spectra, waveform amplitudes and phases, and late-time tails. The parametrized beyond-Teukolsky framework was introduced to capture possible deviations from Kerr dynamics, but the ringdown has so far only been explored as an eigenvalue problem.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Gravitational Waves from Superconducting Cosmic Strings",
+          "authors": "Jinyoung Jhun, Takashi Hiramatsu",
+          "arxiv_id": "2607.25317",
+          "url": "https://arxivite.org/abs/2607.25317",
+          "categories": "astro-ph.CO, hep-ph, hep-th, gr-qc",
+          "summary": "We study the evolution of superconducting cosmic-string networks in a $U(1)_{\\rm local}\\times U(1)_{\\rm global}$ field-theoretic model using three-dimensional lattice field simulations in an expanding universe. The scalar field charged under $U(1)_{\\rm local}$ forms cosmic strings, while the scalar field associated with $U(1)_{\\rm global}$ acts as a current carrier and condenses in their vicinity.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Memory Effect for deformed gravitational waves",
+          "authors": "P.-M. Zhang, M. Elbistan, P. A. Horvathy",
+          "arxiv_id": "2607.25452",
+          "url": "https://arxivite.org/abs/2607.25452",
+          "categories": "hep-th, gr-qc",
+          "summary": "Deformations of sandwich gravitational waves are considered. Squeezing a wave with pure displacement (DM) parameters to an impulsive wave, the DM property is lost, leaving us with the velocity effect (VM).",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Gravitational wave constraints on corrections to Bekenstein-Hawking Area Formula in classical F(R) gravity and quantum GR : implications for theory parameters",
+          "authors": "Parthasarathi Majumdar",
+          "arxiv_id": "2607.25513",
+          "url": "https://arxivite.org/abs/2607.25513",
+          "categories": "hep-th, gr-qc",
+          "summary": "This contribution considers constraints from analyses of gravitational wave data from binary black hole coalescence, on possible corrections to the Bekenstein-Hawking Area Formula for black hole entropy. Most recent analyses of gravitational wave data from the LVK Consortium appear to confirm the Hawking Area Theorem for black holes at a $5 \\sigma$ accuracy, for the `loudest&#39; signal (SNR of the order of $80$) of binary black hole merger inherent in the recent observation GW250114.",
+          "relevance": "quantum-gravity, loop-quantum-gravity, black-holes, entanglement",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity",
+            "black-holes",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "No preference for generalized emergent dark energy from current cosmological data",
+          "authors": "Vipin Kumar Sharma, Himanshu Chaudhary, Salvatore Capozziello et al.",
+          "arxiv_id": "2607.25539",
+          "url": "https://arxivite.org/abs/2607.25539",
+          "categories": "astro-ph.CO, hep-th, gr-qc",
+          "summary": "In this work, we revisit the generalized emergent dark energy model by confronting it with DESI DR2 baryon acoustic oscillation measurements, in combination with joint CMB data from ACT, SPT, and Planck, as well as Type Ia supernova samples including Pantheon$^+$, DES-Dovekie, and Union3. We find that the GEDE model remains compatible with the $\\Lambda$CDM paradigm, with no statistically significant preference for deviations when all datasets are combined.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Entanglement asymmetry in the gapped XYZ spin-$\\frac12$ chain",
+          "authors": "Felipe Taha Sant&#39;Ana",
+          "arxiv_id": "2607.25625",
+          "url": "https://arxivite.org/abs/2607.25625",
+          "categories": "hep-th, quant-ph, cond-mat.stat-mech",
+          "summary": "The entanglement asymmetry measures how strongly a symmetry is broken inside a subsystem. Analytic results at equilibrium have so far covered free theories and, perturbatively, the critical XXZ chain.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Conserved Gravitational Charges as Curvature Fluxes",
+          "authors": "Emel Altas, Bayram Tekin",
+          "arxiv_id": "2607.25646",
+          "url": "https://arxivite.org/abs/2607.25646",
+          "categories": "math-ph, hep-th, gr-qc",
+          "summary": "Conserved gravitational charges are commonly expressed as surface integrals of the metric perturbation and its first derivatives. We show that, in the usual asymptotically AdS and asymptotically flat settings, the standard charges admit equivalent representatives as fluxes of linearized curvature.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-29",
       "type": "arxiv",
@@ -20428,24 +20639,36 @@
     }
   ],
   "stats": {
-    "total_digests": 185,
-    "total_entries": 1417,
+    "total_digests": 186,
+    "total_entries": 1432,
     "unique_tags": {
+      "entanglement": {
+        "first_seen": "2026-07-30",
+        "count": 83
+      },
       "black-holes": {
-        "first_seen": "2026-07-29",
-        "count": 283
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-07-29",
-        "count": 78
-      },
-      "physics": {
-        "first_seen": "2026-07-29",
-        "count": 180
+        "first_seen": "2026-07-30",
+        "count": 287
       },
       "holography": {
-        "first_seen": "2026-07-29",
-        "count": 74
+        "first_seen": "2026-07-30",
+        "count": 77
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-07-30",
+        "count": 80
+      },
+      "many-body": {
+        "first_seen": "2026-07-30",
+        "count": 21
+      },
+      "physics": {
+        "first_seen": "2026-07-30",
+        "count": 184
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-07-30",
+        "count": 20
       },
       "topological": {
         "first_seen": "2026-07-29",
@@ -20482,18 +20705,6 @@
       "agents": {
         "first_seen": "2026-07-29",
         "count": 156
-      },
-      "entanglement": {
-        "first_seen": "2026-07-28",
-        "count": 77
-      },
-      "many-body": {
-        "first_seen": "2026-07-28",
-        "count": 20
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-07-28",
-        "count": 19
       },
       "quantum-cosmology": {
         "first_seen": "2026-07-28",
@@ -23673,10 +23884,13 @@
       }
     },
     "tag_counts": {
-      "black-holes": 283,
-      "quantum-gravity": 78,
-      "physics": 180,
-      "holography": 74,
+      "entanglement": 83,
+      "black-holes": 287,
+      "holography": 77,
+      "quantum-gravity": 80,
+      "many-body": 21,
+      "physics": 184,
+      "loop-quantum-gravity": 20,
       "topological": 56,
       "Science Communication & Policy": 149,
       "Many-Body Physics & Condensed Matter": 43,
@@ -23686,9 +23900,6 @@
       "moltbook": 228,
       "quantum": 199,
       "agents": 156,
-      "entanglement": 77,
-      "many-body": 20,
-      "loop-quantum-gravity": 19,
       "quantum-cosmology": 9,
       "string-theory": 9,
       "Quantum Gravity": 31,
@@ -24486,6 +24697,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-07-30",
         "2026-07-29",
         "2026-07-28",
         "2026-07-25",
