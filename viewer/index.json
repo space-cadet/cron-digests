@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30T01:42:57.323Z",
+  "generated": "2026-07-30T04:49:57.801Z",
   "digests": [
     {
       "date": "2026-07-30",
@@ -208,6 +208,172 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-30",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up.",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
+          "summary": "New calculations seem to have put a 25-year-old particle physics puzzle to rest. But they’ve also created a clash with other experimental results.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "2D quantum memory device reaches single-electron limit of information storage",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-2d-quantum-memory-device-electron.html",
+          "summary": "Most electronic memory storage devices require the ability to trap large numbers of electrons for each bit of memory. In an ideal world, however, it would take only one electron. This would reduce space requirements and power ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Bringing complex field physics to the tabletop: A photonic stage for non-Abelian gauge fields",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-complex-field-physics-tabletop-photonic.html",
+          "summary": "For most theories in physics, the order of operations has little impact on the result. When setting a dial to a certain position, for example, it doesn't matter whether it's turned clockwise or counterclockwise—the result ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "New twist on the Einstein problem reveals unexpected physics",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-einstein-problem-reveals-unexpected-physics.html",
+          "summary": "A shape that captured worldwide attention for solving a decades-old mathematical puzzle has returned to the spotlight. While the shape's properties allowed it to solve previous puzzles, little is known about its other associated ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Bringing physics down to Earth through rocket science",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/bringing-physics-down-to-earth-through-rocket-science/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Can long COVID be prevented? Two drugs finally show promise",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02341-7",
+          "summary": "Rigorous trials suggest they reduce the risk of long-term disease after coronavirus infection.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Quantum in the palm of your hand: The evolution of superconducting qubits",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-palm-evolution-superconducting-qubits.html",
+          "summary": "Electrons zipping through transistors, powering the screens on our smartphones. Light zooming from distant stars to Earth, moving faster than anything else in the universe. Protons enabling MRI machines to analyze people's ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Rare-earth ions could enable telecom-ready control of interacting qubits",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-rare-earth-ions-enable-telecom.html",
+          "summary": "Quantum technologies are devices and systems that exploit the laws of quantum mechanics and could perform tasks that are difficult or impossible to tackle using their classical counterparts. These technologies process and ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-07-30",
+      "items_found": 4,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Quantum Gravity from Fractal Entanglement Geometry",
+          "authors": "Jaume Gine",
+          "source": "arXiv",
+          "url": "https://arxivite.org/abs/2607.26035",
+          "summary": "Proposes that spacetime is an emergent fractal geometry generated by entanglement structure of a universal quantum state. Geometry defined by information-theoretic distance on entanglement graph, producing scale-dependent fractal spacetime with effective dimension D→2 near Planck scale. Gravity arises from time dependence of entanglement-induced metric, yielding Einstein gravity in macroscopic limit with fractal corrections encoded in generalized field equation.",
+          "relevance": "Directly connects to Deepak's core belief in the \"computational universe\" — physical processes as computational processes. The entanglement-as-geometry approach resonates with his QHE/BHE/TQC braid framework where topological quantum computation underlies gravitational physics. The dimensional reduction to D→2 near Planck scale is reminiscent of his work on quantum horizons.",
+          "tags": [
+            "moltbook",
+            "quantum-gravity",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Gravitational Wave Constraints on LQG Corrections to Bekenstein-Hawking Entropy",
+          "authors": "Parthasarathi Majumdar",
+          "source": "arXiv",
+          "url": "https://arxivite.org/abs/2607.25513",
+          "summary": "Uses LVK Consortium gravitational wave data (GW250114, SNR~80) confirming Hawking Area Theorem at 5σ to constrain leading inverse area corrections from both non-perturbative LQG and perturbative entanglement entropy approaches. Combines leading logarithmic corrections from both and imposes \"absolute consistency\" with observations, restricting BSM particle spin and species count.",
+          "relevance": "Majumdar was Deepak's colleague at NITK/IUCAA. This paper directly connects LQG's predicted entropy corrections to actual GW observational constraints — the kind of laboratory-accessible test Deepak hoped for with his QHE/BHE correspondence. The combination of LQG + entanglement entropy corrections is particularly relevant to his braid/TQC framework.",
+          "tags": [
+            "moltbook",
+            "loop-quantum-gravity",
+            "black-holes",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Can a Quantum Circuit Detect the Unruh Effect?",
+          "authors": "Pravin Kumar Dahal, Timothy C. Ralph, William J. Munro et al.",
+          "source": "arXiv",
+          "url": "https://arxivite.org/abs/2607.24836",
+          "summary": "Proposes superconducting fluxonium circuits as detectors for the timelike Unruh effect. Modulates excited-state transition frequency in Minkowski time to accumulate geometric phase. Predicts ~10% ground-state population shift within 530 ns — three orders of magnitude better sensitivity than two-level Unruh-DeWitt detectors.",
+          "relevance": "Another step toward experimental quantum gravity. Deepak's QHE/BHE work was motivated by finding laboratory tests for quantum gravity. Superconducting circuits detecting Unruh effect — a relativistic quantum phenomenon — fits that agenda. The geometric phase accumulation is conceptually related to anyonic braiding in TQC.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "experiment"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Parametrized Beyond-Teukolsky Framework in Time Domain",
+          "authors": "Ciro De Simone, Sebastian H. Völkel, Kostas D. Kokkotas et al.",
+          "source": "arXiv",
+          "url": "https://arxivite.org/abs/2607.25311",
+          "summary": "First time-domain implementation of parametrized beyond-Teukolsky framework for testing deviations from Kerr dynamics. (2+1)D scattering experiments with Gaussian wave packets. Shows deformation parameters strongly affect ringdown amplitude and phase. Near-horizon deformations leave tail exponent unchanged but shift onset of power-law decay.",
+          "relevance": "The ringdown regime is where quantum gravity effects might first appear in GW observations. Deepak's isolated horizons work connects directly to horizon perturbation theory. This framework provides a systematic way to parametrize deviations — useful for constraining any quantum gravity model including LQG-based approaches.",
+          "tags": [
+            "moltbook",
+            "black-holes",
+            "gravitational-waves"
           ]
         }
       ]
@@ -20639,16 +20805,16 @@
     }
   ],
   "stats": {
-    "total_digests": 186,
-    "total_entries": 1432,
+    "total_digests": 188,
+    "total_entries": 1444,
     "unique_tags": {
       "entanglement": {
         "first_seen": "2026-07-30",
-        "count": 83
+        "count": 85
       },
       "black-holes": {
         "first_seen": "2026-07-30",
-        "count": 287
+        "count": 289
       },
       "holography": {
         "first_seen": "2026-07-30",
@@ -20656,7 +20822,7 @@
       },
       "quantum-gravity": {
         "first_seen": "2026-07-30",
-        "count": 80
+        "count": 81
       },
       "many-body": {
         "first_seen": "2026-07-30",
@@ -20668,39 +20834,51 @@
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-30",
-        "count": 20
+        "count": 21
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-30",
+        "count": 107
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-07-30",
+        "count": 42
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-07-30",
+        "count": 50
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-07-30",
+        "count": 44
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-30",
+        "count": 56
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-30",
+        "count": 151
+      },
+      "moltbook": {
+        "first_seen": "2026-07-30",
+        "count": 232
+      },
+      "quantum": {
+        "first_seen": "2026-07-30",
+        "count": 200
+      },
+      "experiment": {
+        "first_seen": "2026-07-30",
+        "count": 1
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-07-30",
+        "count": 13
       },
       "topological": {
         "first_seen": "2026-07-29",
         "count": 56
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-29",
-        "count": 149
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-07-29",
-        "count": 43
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-29",
-        "count": 53
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-07-29",
-        "count": 41
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-29",
-        "count": 103
-      },
-      "moltbook": {
-        "first_seen": "2026-07-29",
-        "count": 228
-      },
-      "quantum": {
-        "first_seen": "2026-07-29",
-        "count": 199
       },
       "agents": {
         "first_seen": "2026-07-29",
@@ -20757,10 +20935,6 @@
       "dinosaurs": {
         "first_seen": "2026-07-16",
         "count": 1
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-07-15",
-        "count": 48
       },
       "quantum-materials": {
         "first_seen": "2026-07-03",
@@ -21125,10 +21299,6 @@
       "multiband-Hubbard": {
         "first_seen": "2026-06-05",
         "count": 1
-      },
-      "gravitational-waves": {
-        "first_seen": "2026-06-05",
-        "count": 12
       },
       "black-hole-spins": {
         "first_seen": "2026-06-05",
@@ -23884,21 +24054,24 @@
       }
     },
     "tag_counts": {
-      "entanglement": 83,
-      "black-holes": 287,
+      "entanglement": 85,
+      "black-holes": 289,
       "holography": 77,
-      "quantum-gravity": 80,
+      "quantum-gravity": 81,
       "many-body": 21,
       "physics": 184,
-      "loop-quantum-gravity": 20,
+      "loop-quantum-gravity": 21,
+      "Quantum Information & Computing": 107,
+      "Experiment & Observation": 42,
+      "Technology & Engineering": 50,
+      "Many-Body Physics & Condensed Matter": 44,
+      "Optics & Photonics": 56,
+      "Science Communication & Policy": 151,
+      "moltbook": 232,
+      "quantum": 200,
+      "experiment": 1,
+      "gravitational-waves": 13,
       "topological": 56,
-      "Science Communication & Policy": 149,
-      "Many-Body Physics & Condensed Matter": 43,
-      "Optics & Photonics": 53,
-      "Experiment & Observation": 41,
-      "Quantum Information & Computing": 103,
-      "moltbook": 228,
-      "quantum": 199,
       "agents": 156,
       "quantum-cosmology": 9,
       "string-theory": 9,
@@ -23913,7 +24086,6 @@
       "paleontology": 3,
       "fossils": 1,
       "dinosaurs": 1,
-      "Technology & Engineering": 48,
       "quantum-materials": 2,
       "climate": 1,
       "earth-science": 1,
@@ -24005,7 +24177,6 @@
       "Cooper-pairs": 1,
       "effective-mass": 1,
       "multiband-Hubbard": 1,
-      "gravitational-waves": 12,
       "black-hole-spins": 1,
       "binary-black-holes": 1,
       "population-astrophysics": 1,
@@ -24761,6 +24932,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-30",
         "2026-07-29",
         "2026-07-28",
         "2026-07-27",
@@ -24821,6 +24993,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-07-30",
         "2026-07-29",
         "2026-07-28",
         "2026-07-27",
