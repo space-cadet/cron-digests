@@ -1,6 +1,211 @@
 {
-  "generated": "2026-07-30T04:49:57.801Z",
+  "generated": "2026-07-31T01:42:51.057Z",
   "digests": [
+    {
+      "date": "2026-07-31",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-07-31",
+      "categories": "astro-ph.CO, astro-ph.GA, gr-qc, hep-ex, hep-ph, hep-th, math-ph",
+      "items_found": 15,
+      "focus": "black hole, holograph, string theory, topological",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Early- and late-time constraints on Wald-Gauss-Bonnet topological dark energy and implications for the $H_0$ and $S_8$ tensions",
+          "authors": "Stylianos A. Tsilioukas, Fotios K. Anagnostopoulos, Spyros Basilakos et al.",
+          "arxiv_id": "2607.26101",
+          "url": "https://arxivite.org/abs/2607.26101",
+          "categories": "astro-ph.CO, gr-qc, hep-th",
+          "summary": "The persistent $H_0$ and $S_8$ tensions motivate the search for new dark-energy mechanisms capable of modifying the late-time expansion history while preserving the successful early-Universe predictions of $\\Lambda$CDM scenario. Wald-Gauss-Bonnet (WGB) topological dark energy provides a physically motivated realization of this possibility, where the effective dark-energy sector emerges from cosmic horizon thermodynamics and the black-hole formation and merger history.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Nucleon spectra and wave functions from holographic models with dual Einstein-dilaton and Starobinsky-dilaton gravities",
+          "authors": "Adão S. da Silva Junior, Juan M. Z. Pretel, Henrique Boschi-Filho",
+          "arxiv_id": "2607.26319",
+          "url": "https://arxivite.org/abs/2607.26319",
+          "categories": "gr-qc, hep-ph, hep-th",
+          "summary": "We study the nucleon spectra in two holographic set-ups: Einstein-dilaton and Starobinsky-dilaton gravity models. The Einstein-dilaton holographic model, also known as improved holographic QCD, have been proposed some time ago to describe confinement and glueball spectra.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Quadratic Axion Couplings in String Theory",
+          "authors": "Naman Agarwal, Andrew R. Frey, Ratul Mahanta et al.",
+          "arxiv_id": "2607.27190",
+          "url": "https://arxivite.org/abs/2607.27190",
+          "categories": "gr-qc, astro-ph.CO, hep-ph, hep-th",
+          "summary": "Axions and axion-like particles are a compelling candidate for physics beyond the standard model. While many axion searches are focused on the linear coupling to photons $\\theta F \\tilde{F}$, the possibility of a quadratic coupling to the electromagnetic kinetic term, $\\theta^2 F^2$, leads to novel phenomenology and new opportunities for testing axion-like particles.",
+          "relevance": "string-theory",
+          "tags": [
+            "string-theory"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Taub-NUT as gravitational dyon with torsion",
+          "authors": "Dmitri Gal&#39;tsov, Rostom Karsanov",
+          "arxiv_id": "2607.25654",
+          "url": "https://arxivite.org/abs/2607.25654",
+          "categories": "gr-qc, math-ph, hep-th",
+          "summary": "We show that the Levi-Civita connection for the Taub-NUT metric is singular on Misner strings and generates an Einstein tensor containing the squares of the delta function. This can be improved by introducing torsion, in which case the Einstein tensor may be interpreted as that of a cosmic string with negative variable tension.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Late-Time Cosmological Tests of a Minisuperspace Generalized-Uncertainty-Principle Deformation",
+          "authors": "G.G.L. Nashed",
+          "arxiv_id": "2607.25745",
+          "url": "https://arxivite.org/abs/2607.25745",
+          "categories": "gr-qc, hep-th",
+          "summary": "The investigation of possible quantum-gravity effects in cosmology is of considerable interest, especially when such effects can be tested against observations of the late-time expansion. In the present work we study a quadratic generalized-uncertainty-principle (GUP) deformation of the FLRW minisuperspace Poisson algebra.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "A discrete series gauge field at the late-time boundary of $dS_4$",
+          "authors": "Manizheh Botshekananfard, Elif Büşra Güraksın, Vasileios A. Letsios et al.",
+          "arxiv_id": "2607.25067",
+          "url": "https://arxivite.org/abs/2607.25067",
+          "categories": "gr-qc, hep-th",
+          "summary": "We study the free Maxwell field on the planar patch of four-dimensional de Sitter spacetime ($dS_4$). We review its bulk canonical quantization in the Bunch-Davies vacuum, and we give a representation-theoretic viewpoint by studying the transformation properties of single-particle states under infinitesimal dS transformations.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "The quantum electrodynamics for dyons",
+          "authors": "D.O.R. Azevedo, O.M. Del Cima, T.S. Dias et al.",
+          "arxiv_id": "2607.25226",
+          "url": "https://arxivite.org/abs/2607.25226",
+          "categories": "math-ph, hep-th, hep-ph, gr-qc, hep-ex",
+          "summary": "The quantum electrodynamics for massive fermions carrying electric and magnetic charges, the dyons, is proposed based on the 1960&#39;s seminal works by Cabibbo, Ferrari, and Salam, with the gauge group being $U(1)\\times U(1)$, which is associated to a vector field (photon) and a pseudo-vector field (metaphoton), wherein the Dirac quantization is set aside. At the tree level the spectrum consistency of the model is analyzed, and all continuous and discrete symmetries are established.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Dark Matter Deficient Galaxies as Probes of Dark Matter",
+          "authors": "Oem Trivedi, Abraham Loeb",
+          "arxiv_id": "2607.26085",
+          "url": "https://arxivite.org/abs/2607.26085",
+          "categories": "hep-th, gr-qc, astro-ph.GA, hep-ph",
+          "summary": "Dark matter deficient galaxies provide a direct way to test whether baryons and dark matter can become sufficiently separated during galaxy evolution. We formulate a Dark Matter-Baryon Separability condition based on the relative incorporation efficiencies of the two components, requiring the final dark matter to baryon ratio to fall below an observationally defined threshold.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Phantom-divide crossing and suppressed structure growth in kinetically braided dark energy with momentum exchange",
+          "authors": "Masroor C. Pookkillath, Shinji Tsujikawa",
+          "arxiv_id": "2607.26447",
+          "url": "https://arxivite.org/abs/2607.26447",
+          "categories": "hep-th, astro-ph.CO, hep-ph, gr-qc",
+          "summary": "We construct a linearly stable scalar-field model that realizes both an upward crossing of the dark-energy equation of state, from $w_{\\rm DE}&lt;-1$ to $w_{\\rm DE}&gt;-1$, and weakened gravitational clustering in the cold dark matter (CDM) sector. An exponential potential breaks shift symmetry and drives the background from a stable phantom phase toward the nonphantom regime, while a pure momentum-transfer interaction increases the dynamical inertia of CDM without altering its background dilution law.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "A Bound on the Dynamical Love Number",
+          "authors": "Alex Kehagias, Antonio Riotto",
+          "arxiv_id": "2607.26686",
+          "url": "https://arxivite.org/abs/2607.26686",
+          "categories": "hep-th, gr-qc, hep-ph",
+          "summary": "The tidal deformability of a compact object is encoded in a single function of frequency, the retarded Green&#39;s function relating the induced multipole to the applied tide. Causality, reality, passivity, and the high-frequency conditions required for a positive-measure dispersion representation allow this response to be rescaled into a holomorphic self-map of the upper complex frequency half-plane.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Generation and purification of excited spacetimes using Schwarzian derivative",
+          "authors": "Rakesh K Jha, Akhil U Nair, Prasant Samantray et al.",
+          "arxiv_id": "2607.26693",
+          "url": "https://arxivite.org/abs/2607.26693",
+          "categories": "gr-qc, math-ph, hep-th",
+          "summary": "In this article, we use the expression of the Schwarzian derivative to set up differential equations to find answers to three fundamental questions in the context of QFT in curved spacetime, specifically in two dimensions. One of the ways in which one can derive the Unruh effect in two dimensions is to use the anomalous transformation law of the energy-momentum tensor for a CFT that involves a Schwarzian derivative (Virasoro Anomaly).",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Perturbing Gravitational Atoms: Negative Love, Resonant Tides and Shifted Resonances",
+          "authors": "Mateja Bošković, Nikola Savić",
+          "arxiv_id": "2607.27174",
+          "url": "https://arxivite.org/abs/2607.27174",
+          "categories": "hep-th, gr-qc, hep-ph",
+          "summary": "The superradiant instability of rotating black holes can generate a significant overdensity of bosonic matter around them, together forming a gravitational atom. This mechanism allows one to probe a large part of the parameter space of scalars, axions and vectors that lies beyond the reach of traditional detection strategies.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Non-Minimally Coupled Chain Inflation at High Scales",
+          "authors": "Miguel Barroso Varela, Orfeu Bertolami, Katherine Freese et al.",
+          "arxiv_id": "2607.27193",
+          "url": "https://arxivite.org/abs/2607.27193",
+          "categories": "hep-th, astro-ph.CO, hep-ph, gr-qc",
+          "summary": "Chain inflation offers an alternative to standard slow-roll dynamics, with accelerated expansion proceeding through a sequence of rapid quantum tunneling events between metastable vacua. At the high energy scales relevant for the early Universe, scalar fields are generically expected to couple non-minimally to gravity via operators like $\\xi R\\phi^2$, allowed by symmetry and required as counterterms for interacting theories in curved spacetime.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Gravitational Waves from Multiple Cosmic Superstrings and the Overshoot Problem",
+          "authors": "Luca Brunelli, Michele Cicoli, Muhammad Hassan et al.",
+          "arxiv_id": "2607.26124",
+          "url": "https://arxivite.org/abs/2607.26124",
+          "categories": "gr-qc, astro-ph.CO, hep-ph, hep-th",
+          "summary": "Post inflationary string cosmology can feature an initial population of multiple species of cosmic superstrings whose tension is controlled by a modulus rolling over a steep potential toward a late-time minimum. We perform a full analysis of the associated dynamical system, finding that overshooting the minimum is prevented by the friction of a radiation background of gravitational waves produced from the early decay of effective strings arising from NS5- and D3-branes wrapped around internal cycles.",
+          "relevance": "string-theory",
+          "tags": [
+            "string-theory"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "CasimirRFM: A Mathematica package for Riemann-flat compactifications with Casimir energies",
+          "authors": "Bruno Valeixo Bento",
+          "arxiv_id": "2607.26140",
+          "url": "https://arxivite.org/abs/2607.26140",
+          "categories": "gr-qc, hep-ph, hep-th",
+          "summary": "CasimirRFM is a Mathematica package for the study of compactifications on Riemann-flat manifolds and the computation of one-loop Casimir energies in higher-dimensional field theories and supergravity. It implements an efficient numerical evaluation of lattice sums using Ewald summation, and computes both lower-dimensional Casimir potentials and local higher-dimensional Casimir energy densities, allowing for general massless spectra and twisted boundary conditions.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-30",
       "type": "arxiv",
@@ -20805,20 +21010,32 @@
     }
   ],
   "stats": {
-    "total_digests": 188,
-    "total_entries": 1444,
+    "total_digests": 189,
+    "total_entries": 1459,
     "unique_tags": {
+      "topological": {
+        "first_seen": "2026-07-31",
+        "count": 57
+      },
+      "holography": {
+        "first_seen": "2026-07-31",
+        "count": 78
+      },
+      "string-theory": {
+        "first_seen": "2026-07-31",
+        "count": 11
+      },
+      "physics": {
+        "first_seen": "2026-07-31",
+        "count": 193
+      },
+      "black-holes": {
+        "first_seen": "2026-07-31",
+        "count": 291
+      },
       "entanglement": {
         "first_seen": "2026-07-30",
         "count": 85
-      },
-      "black-holes": {
-        "first_seen": "2026-07-30",
-        "count": 289
-      },
-      "holography": {
-        "first_seen": "2026-07-30",
-        "count": 77
       },
       "quantum-gravity": {
         "first_seen": "2026-07-30",
@@ -20827,10 +21044,6 @@
       "many-body": {
         "first_seen": "2026-07-30",
         "count": 21
-      },
-      "physics": {
-        "first_seen": "2026-07-30",
-        "count": 184
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-07-30",
@@ -20876,20 +21089,12 @@
         "first_seen": "2026-07-30",
         "count": 13
       },
-      "topological": {
-        "first_seen": "2026-07-29",
-        "count": 56
-      },
       "agents": {
         "first_seen": "2026-07-29",
         "count": 156
       },
       "quantum-cosmology": {
         "first_seen": "2026-07-28",
-        "count": 9
-      },
-      "string-theory": {
-        "first_seen": "2026-07-25",
         "count": 9
       },
       "Quantum Gravity": {
@@ -24054,12 +24259,14 @@
       }
     },
     "tag_counts": {
+      "topological": 57,
+      "holography": 78,
+      "string-theory": 11,
+      "physics": 193,
+      "black-holes": 291,
       "entanglement": 85,
-      "black-holes": 289,
-      "holography": 77,
       "quantum-gravity": 81,
       "many-body": 21,
-      "physics": 184,
       "loop-quantum-gravity": 21,
       "Quantum Information & Computing": 107,
       "Experiment & Observation": 42,
@@ -24071,10 +24278,8 @@
       "quantum": 200,
       "experiment": 1,
       "gravitational-waves": 13,
-      "topological": 56,
       "agents": 156,
       "quantum-cosmology": 9,
-      "string-theory": 9,
       "Quantum Gravity": 31,
       "Black Hole Physics": 20,
       "tensor-networks": 9,
@@ -24868,6 +25073,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-07-31",
         "2026-07-30",
         "2026-07-29",
         "2026-07-28",
