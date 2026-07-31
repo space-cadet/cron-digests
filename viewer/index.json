@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T01:43:13.936Z",
+  "generated": "2026-07-31T04:49:48.346Z",
   "digests": [
     {
       "date": "2026-07-31",
@@ -202,6 +202,104 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-07-31",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Physicists link the Riemann Hypothesis to phase transitions in quantum systems",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-physicists-link-riemann-hypothesis-phase.html",
+          "summary": "A new study in Nature Communications has established a link between the Riemann Hypothesis and dynamical phase transitions in engineered quantum systems, demonstrating the effect on a quantum processor.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Physicists create Bose–Einstein condensate from ultracold polar molecules",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-physicists-boseeinstein-condensate-ultracold-polar.html",
+          "summary": "Bose–Einstein condensates are states of matter that form when particles called bosons are cooled to temperatures that are only a fraction of a degree above absolute zero (i.e., 0 Kelvin [-460°F]). In these states, particles ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Cesium atoms and quantum dots generate indistinguishable photons for modular quantum networks",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-cesium-atoms-quantum-dots-generate.html",
+          "summary": "Large-scale quantum communication networks require both reliable quantum memories and coherent single-photon sources that can exchange quantum information efficiently. A coherent source of single photons with narrow linewidth, ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Light's hidden properties save quantum information from the chaos of bad weather",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-hidden-properties-quantum-chaos-bad.html",
+          "summary": "For years, researchers have tried to harness the \"twist\" of light to transmit data. This property describes how light spirals as it travels forward, and because it can be molded into a virtually infinite number of different ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Demand for lithium is surging: here’s how to make mining more sustainable",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02195-z",
+          "summary": "Researchers are looking for ways to extract the metal from underground reservoirs that use less water.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Learning may rely on stronger neural connections, not expanding networks",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-stronger-neural-networks.html",
+          "summary": "How does the brain learn? Does it acquire new knowledge by creating new neural pathways or by strengthening existing connections? A new study from Bar-Ilan University offers evidence in favor of the latter, suggesting that ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Electrically controlled magnetic switching shows promise for next-gen cryogenic devices",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-electrically-magnetic-gen-cryogenic-devices.html",
+          "summary": "Researchers at the Indian Institute of Science (IISc) have demonstrated a new way of switching a material between two fundamentally different magnetic states using an electric current. The discovery could pave the way for ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Spectroscopy system detects aerosols using light reflected from traffic signs and tree trunks",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-spectroscopy-aerosols-traffic-tree-trunks.html",
+          "summary": "Researchers have developed and tested an infrared spectroscopy system that can rapidly detect chemical aerosols from a distance by using light reflected from common surfaces such as traffic signs, tree trunks or painted surfaces. ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
           ]
         }
       ]
@@ -21010,8 +21108,8 @@
     }
   ],
   "stats": {
-    "total_digests": 189,
-    "total_entries": 1459,
+    "total_digests": 190,
+    "total_entries": 1467,
     "unique_tags": {
       "topological": {
         "first_seen": "2026-07-31",
@@ -21033,6 +21131,26 @@
         "first_seen": "2026-07-31",
         "count": 291
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-07-31",
+        "count": 110
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-07-31",
+        "count": 45
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-07-31",
+        "count": 59
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-07-31",
+        "count": 153
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-07-31",
+        "count": 51
+      },
       "entanglement": {
         "first_seen": "2026-07-30",
         "count": 85
@@ -21049,29 +21167,9 @@
         "first_seen": "2026-07-30",
         "count": 21
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-30",
-        "count": 107
-      },
       "Experiment & Observation": {
         "first_seen": "2026-07-30",
         "count": 42
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-07-30",
-        "count": 50
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-07-30",
-        "count": 44
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-30",
-        "count": 56
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-30",
-        "count": 151
       },
       "moltbook": {
         "first_seen": "2026-07-30",
@@ -24264,16 +24362,16 @@
       "string-theory": 11,
       "physics": 193,
       "black-holes": 291,
+      "Quantum Information & Computing": 110,
+      "Many-Body Physics & Condensed Matter": 45,
+      "Optics & Photonics": 59,
+      "Science Communication & Policy": 153,
+      "Technology & Engineering": 51,
       "entanglement": 85,
       "quantum-gravity": 81,
       "many-body": 21,
       "loop-quantum-gravity": 21,
-      "Quantum Information & Computing": 107,
       "Experiment & Observation": 42,
-      "Technology & Engineering": 50,
-      "Many-Body Physics & Condensed Matter": 44,
-      "Optics & Photonics": 56,
-      "Science Communication & Policy": 151,
       "moltbook": 232,
       "quantum": 200,
       "experiment": 1,
@@ -25138,6 +25236,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-07-31",
         "2026-07-30",
         "2026-07-29",
         "2026-07-28",
