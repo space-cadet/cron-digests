@@ -1,6 +1,216 @@
 {
-  "generated": "2026-07-31T04:49:48.346Z",
+  "generated": "2026-08-01T01:42:14.705Z",
   "digests": [
+    {
+      "date": "2026-08-01",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-01",
+      "categories": "astro-ph.CO, astro-ph.HE, cond-mat.stat-mech, cond-mat.str-el, gr-qc, hep-ex, hep-ph, hep-th, math-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, quantum cosmology, holograph, string theory",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Inflation in unimodular loop quantum cosmology",
+          "authors": "Steffen Gielen, Rita B. Neves",
+          "arxiv_id": "2607.27344",
+          "url": "https://arxivite.org/abs/2607.27344",
+          "categories": "hep-th, astro-ph.CO, gr-qc",
+          "summary": "We study inflation in the setting of unimodular loop quantum cosmology, where time evolution is defined in unimodular time rather than with respect to a free, massless scalar field as is standard in loop quantum cosmology. The unimodular setting leads to a natural Schrödinger time evolution in a time coordinate with clear geometric meaning, defined independently of any particular matter content; an inflaton can be included but is not needed as a clock.",
+          "relevance": "quantum-gravity, loop-quantum-gravity, quantum-cosmology",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity",
+            "quantum-cosmology"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Area-Information Trade-Offs in Acceleration Radiation from Atoms Falling into Black Holes",
+          "authors": "Yusef Maleki, Gustavo Valdivia-Mera, Carlos R. Ordonez et al.",
+          "arxiv_id": "2607.27388",
+          "url": "https://arxivite.org/abs/2607.27388",
+          "categories": "quant-ph, hep-th, gr-qc",
+          "summary": "We develop a geometric theory of information processing in the Horizon-brightened acceleration radiation (HBAR) channel, in which the radiative horizon-area change provides an entropy budget for the information carried by the radiation field. Building on the quantum-optical description of atom--field interactions near the horizon and the resulting HBAR thermodynamic correspondence, we derive area-cost laws in the near-steady, thermally saturated regime.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Holography in the linearized quantum gravity regime and modular crossed product",
+          "authors": "Avinandan Mondal",
+          "arxiv_id": "2607.27337",
+          "url": "https://arxivite.org/abs/2607.27337",
+          "categories": "math-ph, hep-th, gr-qc",
+          "summary": "Within the semi-classical regime of AdS/CFT correspondence, we consider the limit where the bulk dynamical field is linearized metric perturbations satisfying linearized Einstein equations over background pure AdS spacetime. AdS/CFT correspondence gives us a holographic map, which is an isometric embedding map of the GNS Hilbert space of linearized gravity in the bulk (w.r.t.",
+          "relevance": "quantum-gravity, holography",
+          "tags": [
+            "quantum-gravity",
+            "holography"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Suppressed Quantum Effects of Weakly Coupled Waves",
+          "authors": "Yunjia Bao, Dhong Yeon Cheong, Nicholas L. Rodd et al.",
+          "arxiv_id": "2607.27313",
+          "url": "https://arxivite.org/abs/2607.27313",
+          "categories": "quant-ph, hep-ex, hep-th, hep-ph, gr-qc",
+          "summary": "Precision experiments increasingly target weakly coupled waves, including axion dark matter and gravitational radiation. Such waves are commonly described as classical fields, yet they could exist in quantum states with no classical counterpart.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Spectator Axions in String Inflation and Primordial Black Holes",
+          "authors": "Michele Cicoli, Dario L. Lorenzoni, Evan McDonough et al.",
+          "arxiv_id": "2607.27361",
+          "url": "https://arxivite.org/abs/2607.27361",
+          "categories": "gr-qc, hep-th, astro-ph.CO, hep-ph",
+          "summary": "We study the impact of light spectator axions on the seeding of primordial black holes (PBHs) during inflation in string theory. Primordial black holes exhibit unique and novel phenomenology, and may constitute the observed dark matter.",
+          "relevance": "quantum-gravity, black-holes, string-theory",
+          "tags": [
+            "quantum-gravity",
+            "black-holes",
+            "string-theory"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "A Periodically Interacting Dark Sector: Signatures and Constraints from CMB and Cosmic Expansion Data",
+          "authors": "Marco Antonio Cardoso Alvarez, Micol Benetti, Leila Graef et al.",
+          "arxiv_id": "2607.26174",
+          "url": "https://arxivite.org/abs/2607.26174",
+          "categories": "hep-ph, hep-th, astro-ph.CO, gr-qc",
+          "summary": "We introduce a novel cosmological model that provides an effective description of the back-reaction of super-Hubble fluctuations on the cosmological background, a generic effect expected to arise in any cosmological scenario without requiring additional ingredients. At the phenomenological level, it can be interpreted as an interacting dark sector scenario in which the sign of the energy transfer changes periodically over time.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Nonlinear Dynamics near the Threshold of Gravitational Collapse",
+          "authors": "Jaime Redondo-Yuste, Josu C. Aurrekoetxea",
+          "arxiv_id": "2607.27343",
+          "url": "https://arxivite.org/abs/2607.27343",
+          "categories": "hep-th, gr-qc",
+          "summary": "Perturbation theory is an essential tool to model and interpret gravitational dynamics, for example, binary black hole mergers. Therefore it is also crucial to precisely understand its regimes of validity.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Gauge vs (hidden) physical symmetries of FLRW cosmologies",
+          "authors": "Andrea Calcinari, Adrià Delhom, Federico Greco et al.",
+          "arxiv_id": "2607.27351",
+          "url": "https://arxivite.org/abs/2607.27351",
+          "categories": "hep-th, gr-qc",
+          "summary": "In generally covariant theories evolution in coordinate time is a gauge transformation, so that a symmetry made manifest in a gauge-fixed description need not be a symmetry of the physical dynamics. Deparametrisation, in turn, removes gauge symmetries but may hide physical symmetries, in particular those dependent on the chosen physical clock.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Structural morphology and the gravitational arrow of time",
+          "authors": "Julian Barbour, Francisco S. N. Lobo, Maria I. R. Lourenço",
+          "arxiv_id": "2607.27526",
+          "url": "https://arxivite.org/abs/2607.27526",
+          "categories": "hep-th, astro-ph.HE, gr-qc",
+          "summary": "The Newtonian $N$-body problem in the zero-energy, zero-linear-momentum, and zero-angular-momentum sector provides a time-reversal-invariant setting in which generic complete solutions possess a Janus point and exhibit a gravitational arrow on both branches away from it. The dimensionless variety $V$, a global scale-invariant measure of clustering contrast, is not pointwise monotonic but fluctuates while growing between rising bounds away from the Janus region.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Tidal Love numbers of multi-state Boson stars",
+          "authors": "Xin-Lei Zhao, Jun-Ru Chen, Yong-Qiang Wang",
+          "arxiv_id": "2607.27587",
+          "url": "https://arxivite.org/abs/2607.27587",
+          "categories": "hep-th, astro-ph.HE, gr-qc",
+          "summary": "In this paper, we calculate the tidal Love numbers of multi-state boson stars (MSBSs) composed of ground state and first excited state complex scalar fields. Under synchronized and nonsynchronized frequency conditions, the background solutions of MSBSs are classified into single-branch and double-branch types.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Degenerate Limits of Scalar-Tensor Gravity",
+          "authors": "Bekir Baytaş, Xiao-Kan Guo",
+          "arxiv_id": "2607.27801",
+          "url": "https://arxivite.org/abs/2607.27801",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study the degenerate limits of the scalar-tensor theory of gravity in its Hamiltonian connection dynamics formulation. The degenerate limit of the spatial triad is effectuated by a local scaling transformation of the triad, which leads to the degenerate limits of all other geometric quantities and relations in the connection dynamics.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Thermal Breaking of the I-Love Universality for Hot White Dwarfs",
+          "authors": "Jinyi Lv, Jing-Yi Wu, Hongji Chen et al.",
+          "arxiv_id": "2607.27873",
+          "url": "https://arxivite.org/abs/2607.27873",
+          "categories": "hep-ph, hep-th, astro-ph.HE, gr-qc",
+          "summary": "The universal I-Love-Q relations for compact stars have significant applications in gravitational-wave astronomy, but thermal effects can break these relations in low-mass white dwarfs. In this work, we employ the stellar evolution code MESA to construct realistic models of $0.15 \\, M_{\\odot}$ helium-core and $0.6 \\, M_{\\odot}$ carbon-oxygen core white dwarfs at various temperatures.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Bridging continuous control and Floquet driving for charging many-body spin chains",
+          "authors": "Sebastián V. Romero, Xi Chen, Yue Ban",
+          "arxiv_id": "2607.27985",
+          "url": "https://arxivite.org/abs/2607.27985",
+          "categories": "quant-ph, hep-th, cond-mat.str-el, cond-mat.stat-mech",
+          "summary": "Recent advances in quantum information and quantum thermodynamics have reshaped the understanding of energy storage at the microscopic scale, paving the way toward protocols for storing and transferring energy in quantum devices. These systems, known as quantum batteries, offer a conceptual alternative to conventional macroscopic chemical batteries by exploiting quantum coherence, correlations, and many-body dynamics.",
+          "relevance": "many-body",
+          "tags": [
+            "many-body"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Quartic Scalar Clouds on Fixed Kerr Backgrounds",
+          "authors": "Hendrik Mennenga",
+          "arxiv_id": "2607.28044",
+          "url": "https://arxivite.org/abs/2607.28044",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study stationary nonlinear clouds of a complex scalar field on fixed Kerr and Schwarzschild backgrounds, with an unbounded scalar potential. On Kerr backgrounds we find finite-amplitude Q-clouds satisfying the synchronisation condition $\\omega=m\\Omega_H$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "GGI Lectures on Large-Scale Structure Perturbation Theory (Effective Field Theory)",
+          "authors": "Mikhail M. Ivanov",
+          "arxiv_id": "2607.28314",
+          "url": "https://arxivite.org/abs/2607.28314",
+          "categories": "hep-ph, hep-th, astro-ph.CO, gr-qc",
+          "summary": "These notes are an introduction to non-linear perturbation theory for cosmological large-scale structure. They are aimed at undergraduate and beginning graduate students and do not require any cosmology or quantum field theory background.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-31",
       "type": "arxiv",
@@ -21108,28 +21318,48 @@
     }
   ],
   "stats": {
-    "total_digests": 190,
-    "total_entries": 1467,
+    "total_digests": 191,
+    "total_entries": 1482,
     "unique_tags": {
+      "quantum-gravity": {
+        "first_seen": "2026-08-01",
+        "count": 84
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-08-01",
+        "count": 22
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-08-01",
+        "count": 10
+      },
+      "black-holes": {
+        "first_seen": "2026-08-01",
+        "count": 294
+      },
+      "holography": {
+        "first_seen": "2026-08-01",
+        "count": 79
+      },
+      "entanglement": {
+        "first_seen": "2026-08-01",
+        "count": 86
+      },
+      "string-theory": {
+        "first_seen": "2026-08-01",
+        "count": 12
+      },
+      "physics": {
+        "first_seen": "2026-08-01",
+        "count": 201
+      },
+      "many-body": {
+        "first_seen": "2026-08-01",
+        "count": 22
+      },
       "topological": {
         "first_seen": "2026-07-31",
         "count": 57
-      },
-      "holography": {
-        "first_seen": "2026-07-31",
-        "count": 78
-      },
-      "string-theory": {
-        "first_seen": "2026-07-31",
-        "count": 11
-      },
-      "physics": {
-        "first_seen": "2026-07-31",
-        "count": 193
-      },
-      "black-holes": {
-        "first_seen": "2026-07-31",
-        "count": 291
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-07-31",
@@ -21150,22 +21380,6 @@
       "Technology & Engineering": {
         "first_seen": "2026-07-31",
         "count": 51
-      },
-      "entanglement": {
-        "first_seen": "2026-07-30",
-        "count": 85
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-07-30",
-        "count": 81
-      },
-      "many-body": {
-        "first_seen": "2026-07-30",
-        "count": 21
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-07-30",
-        "count": 21
       },
       "Experiment & Observation": {
         "first_seen": "2026-07-30",
@@ -21190,10 +21404,6 @@
       "agents": {
         "first_seen": "2026-07-29",
         "count": 156
-      },
-      "quantum-cosmology": {
-        "first_seen": "2026-07-28",
-        "count": 9
       },
       "Quantum Gravity": {
         "first_seen": "2026-07-24",
@@ -24357,27 +24567,27 @@
       }
     },
     "tag_counts": {
+      "quantum-gravity": 84,
+      "loop-quantum-gravity": 22,
+      "quantum-cosmology": 10,
+      "black-holes": 294,
+      "holography": 79,
+      "entanglement": 86,
+      "string-theory": 12,
+      "physics": 201,
+      "many-body": 22,
       "topological": 57,
-      "holography": 78,
-      "string-theory": 11,
-      "physics": 193,
-      "black-holes": 291,
       "Quantum Information & Computing": 110,
       "Many-Body Physics & Condensed Matter": 45,
       "Optics & Photonics": 59,
       "Science Communication & Policy": 153,
       "Technology & Engineering": 51,
-      "entanglement": 85,
-      "quantum-gravity": 81,
-      "many-body": 21,
-      "loop-quantum-gravity": 21,
       "Experiment & Observation": 42,
       "moltbook": 232,
       "quantum": 200,
       "experiment": 1,
       "gravitational-waves": 13,
       "agents": 156,
-      "quantum-cosmology": 9,
       "Quantum Gravity": 31,
       "Black Hole Physics": 20,
       "tensor-networks": 9,
@@ -25171,6 +25381,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-01",
         "2026-07-31",
         "2026-07-30",
         "2026-07-29",
