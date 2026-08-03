@@ -1,6 +1,106 @@
 {
-  "generated": "2026-08-01T01:42:37.606Z",
+  "generated": "2026-08-03T04:49:13.332Z",
   "digests": [
+    {
+      "date": "2026-08-03",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-03",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Unusual metal oxide shows signs of magnetism under lattice strain in ultrathin layers",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-unusual-metal-oxide-magnetism-lattice.html",
+          "summary": "Ruthenium dioxide (RuO2) is a metal oxide that commonly serves as an important metallic conductor, quantum material and industrial electrocatalyst. While there have been debates surrounding the magnetic properties of RuO2, ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum computer completes verified task beyond practical reach of classical simulations",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-quantum-task-classical-simulations.html",
+          "summary": "IBM and researchers from the University of Chicago announced a demonstration in quantum computing that meets the fundamental criteria for \"quantum advantage\"—the point where quantum computers can be confirmed to have outperformed ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "New photonic platform offers a four-lane highway for light",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-photonic-platform-lane-highway.html",
+          "summary": "Topological photonics can force propagating light to travel in a single direction—allowing researchers to route optical signals around corners and past defects without any of it scattering backward. So far, however, this ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Less-explored form of quantum code could be more powerful—and more stable—than its alternative in error correction",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-explored-quantum-code-powerful-stable.html",
+          "summary": "In mathematics and getting dressed, some processes are commutative, while others are noncommutative. Commutative means the order doesn't matter (3 + 2 is the same as 2 + 3, and it doesn't matter which sock goes on first). ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "World-first Photonic Time Crystal Opens a New Era of Light Control",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260731034131.htm",
+          "summary": "An international research team has experimentally produced the first all-optical photonic time crystal (PTC), a material designed to change its optical behavior rapidly and repeatedly over time. The researchers came from École Polytechnique, Collège de France, and Helmholtz-Zentrum Dresden-Rossendor",
+          "relevance": "Medium — New experimental results that may constrain theoretical models",
+          "tags": [
+            "Optics & Photonics",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Meat allergy is on the rise — what scientists want to know",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02362-2",
+          "summary": "The allergy is caused by ticks, but researchers have much to learn about it.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Two independent studies push semiconductor qubits towards practical scales",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-independent-semiconductor-qubits-scales.html",
+          "summary": "Semiconductor spin qubits are one of the most promising building blocks for future quantum computers, but turning them into a working, large-scale quantum computer has so far proven difficult. For now, two big questions remain ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Diamond's newfound defect may tame vibrations that hinder quantum light sources",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-diamond-newfound-defect-vibrations-hinder.html",
+          "summary": "Researchers in the Department of Electrical and Computer Engineering at the University of Illinois Urbana-Champaign have discovered a new type of quantum light emitter in diamonds that could help overcome a number of challenges ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics",
+            "Technology & Engineering"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-01",
       "type": "arxiv",
@@ -21318,9 +21418,33 @@
     }
   ],
   "stats": {
-    "total_digests": 191,
-    "total_entries": 1482,
+    "total_digests": 192,
+    "total_entries": 1490,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-08-03",
+        "count": 115
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-08-03",
+        "count": 62
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-08-03",
+        "count": 46
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-08-03",
+        "count": 43
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-03",
+        "count": 154
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-08-03",
+        "count": 52
+      },
       "quantum-gravity": {
         "first_seen": "2026-08-01",
         "count": 84
@@ -21360,30 +21484,6 @@
       "topological": {
         "first_seen": "2026-07-31",
         "count": 57
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-07-31",
-        "count": 110
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-07-31",
-        "count": 45
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-07-31",
-        "count": 59
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-07-31",
-        "count": 153
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-07-31",
-        "count": 51
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-07-30",
-        "count": 42
       },
       "moltbook": {
         "first_seen": "2026-07-30",
@@ -24567,6 +24667,12 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 115,
+      "Optics & Photonics": 62,
+      "Many-Body Physics & Condensed Matter": 46,
+      "Experiment & Observation": 43,
+      "Science Communication & Policy": 154,
+      "Technology & Engineering": 52,
       "quantum-gravity": 84,
       "loop-quantum-gravity": 22,
       "quantum-cosmology": 10,
@@ -24577,12 +24683,6 @@
       "physics": 201,
       "many-body": 22,
       "topological": 57,
-      "Quantum Information & Computing": 110,
-      "Many-Body Physics & Condensed Matter": 45,
-      "Optics & Photonics": 59,
-      "Science Communication & Policy": 153,
-      "Technology & Engineering": 51,
-      "Experiment & Observation": 42,
       "moltbook": 232,
       "quantum": 200,
       "experiment": 1,
@@ -25380,6 +25480,69 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-08-03",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "arxiv": [
         "2026-08-01",
         "2026-07-31",
@@ -25440,68 +25603,6 @@
         "2026-05-19",
         "2026-05-18",
         "2026-05-16",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "web-science": [
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
         "2026-05-15",
         "2026-05-14",
         "2026-05-13",
