@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T01:55:47.496Z",
+  "generated": "2026-08-04T04:49:41.237Z",
   "digests": [
     {
       "date": "2026-08-04",
@@ -204,6 +204,104 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-04",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "New quantum encryption method prevents ciphertext from being cloned",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-quantum-encryption-method-ciphertext-cloned.html",
+          "summary": "Digital security currently relies on difficult equations to protect data. For example, when you use a credit card online, the information is locked inside a math problem that would take a modern computer thousands of years ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Light controls nanoscale 'bubble' domains in a ferroelectric crystal",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-nanoscale-domains-ferroelectric-crystal.html",
+          "summary": "Researchers at Flinders University have discovered an unexpected way light can control tiny electronic structures inside advanced materials, a development that could help pave the way for more energy-efficient memory devices, ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Ultrafast X-ray flashes partially reverse the damage they cause, enabling brighter, more accurate imaging",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-ultrafast-ray-partially-reverse-enabling.html",
+          "summary": "The interaction between X-rays and matter can be actively controlled, according to an international research team led by the University of Hamburg and SLAC National Accelerator Laboratory that has succeeded in producing bright ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Bringing it all into focus—computational microscope captures 25.2 billion pixels per second across a wide field of view",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-focus-microscope-captures-billion-pixels.html",
+          "summary": "When designing microscopes, optical engineers have long faced a trade-off between speed, field of view and resolution. But improving one of these properties typically comes at the expense of another. Now, a UC Berkeley–led ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Scientists Twist Crystal Layers and Reshape Matter from Within",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260801042819.htm",
+          "summary": "Researchers have developed a way to make twisted oxide materials over much larger areas while maintaining precise control over how their layers are rotated. The advance could help move twistronics closer to practical electronic devices by giving scientists greater control over both the scale and int",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Cancer-fighting antibodies with a one-two punch take aim at tumours",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02398-4",
+          "summary": "Bispecific antibodies, which bind to two targets, are sweeping into the clinic and are prompting even more elaborate versions.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Key principle to boost efficiency of artificial photosynthesis and next-generation semiconductors",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-key-principle-boost-efficiency-artificial.html",
+          "summary": "A research team led by Taeyeon Kim, a professor in the Department of Chemistry at Sungkyunkwan University, in collaboration with a team from Yonsei University, has identified a new principle that controls charge separation, ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Electron cooling tames highly charged ions in Penning trap for first time",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-07-electron-cooling-highly-ions-penning.html",
+          "summary": "Researchers at Technical University of Darmstadt and the GSI Helmholtz Center for Heavy Ion Research have succeeded for the first time in decelerating highly charged ions from the GSI accelerator to low energies and subsequently ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -21708,8 +21806,8 @@
     }
   ],
   "stats": {
-    "total_digests": 194,
-    "total_entries": 1510,
+    "total_digests": 195,
+    "total_entries": 1518,
     "unique_tags": {
       "many-body": {
         "first_seen": "2026-08-04",
@@ -21732,28 +21830,28 @@
         "count": 208
       },
       "Quantum Information & Computing": {
-        "first_seen": "2026-08-03",
-        "count": 115
+        "first_seen": "2026-08-04",
+        "count": 116
       },
       "Optics & Photonics": {
-        "first_seen": "2026-08-03",
-        "count": 62
+        "first_seen": "2026-08-04",
+        "count": 63
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-08-04",
+        "count": 54
       },
       "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-08-03",
-        "count": 46
+        "first_seen": "2026-08-04",
+        "count": 48
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-04",
+        "count": 158
       },
       "Experiment & Observation": {
         "first_seen": "2026-08-03",
         "count": 43
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-03",
-        "count": 154
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-08-03",
-        "count": 52
       },
       "quantum-gravity": {
         "first_seen": "2026-08-01",
@@ -24962,12 +25060,12 @@
       "black-holes": 301,
       "holography": 82,
       "physics": 208,
-      "Quantum Information & Computing": 115,
-      "Optics & Photonics": 62,
-      "Many-Body Physics & Condensed Matter": 46,
+      "Quantum Information & Computing": 116,
+      "Optics & Photonics": 63,
+      "Technology & Engineering": 54,
+      "Many-Body Physics & Condensed Matter": 48,
+      "Science Communication & Policy": 158,
       "Experiment & Observation": 43,
-      "Science Communication & Policy": 154,
-      "Technology & Engineering": 52,
       "quantum-gravity": 86,
       "loop-quantum-gravity": 23,
       "quantum-cosmology": 11,
@@ -25838,6 +25936,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-08-04",
         "2026-08-03",
         "2026-07-31",
         "2026-07-30",
