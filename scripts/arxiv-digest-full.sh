@@ -173,7 +173,7 @@ for idx, p in enumerate(papers, 1):
     section = f"""## {idx}. {title}
 - **Authors:** {authors}
 - **arXiv ID:** {aid}
-- **URL:** https://arxivite.org/abs/{aid}
+- **URL:** https://arxiv.org/abs/{aid}
 - **Categories:** {cats}
 - **Abstract:** {abstract}
 - **Summary:** {summary}
