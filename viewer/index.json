@@ -1,6 +1,215 @@
 {
-  "generated": "2026-08-04T04:49:41.237Z",
+  "generated": "2026-08-05T01:42:25.220Z",
   "digests": [
+    {
+      "date": "2026-08-05",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-05",
+      "categories": "astro-ph.CO, astro-ph.HE, gr-qc, hep-ph, hep-th, math-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, quantum cosmology, holograph, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Evading Cauchy Horizon Excision in Scalarized Regular Black Holes",
+          "authors": "Ernesto Contreras, Pedro Bargueño, Arthur G. Suvorov",
+          "arxiv_id": "2608.00557",
+          "url": "https://arxiv.org/abs/2608.00557",
+          "categories": "gr-qc, hep-th, astro-ph.HE",
+          "summary": "Spontaneous scalarization provides a dynamical mechanism to evade the no-hair paradigm, but it has been argued to generically eliminate the Cauchy horizon in charged black holes. We show that this obstruction is not universal, but instead follows from the sign-definite structure of the Einstein-Maxwell source term.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "How does nonmetricity shape quantum emission from rotating bumblebee black holes?",
+          "authors": "A. A. Araújo Filho",
+          "arxiv_id": "2608.01398",
+          "url": "https://arxiv.org/abs/2608.01398",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate how nonmetricity affects particle creation and evaporation in rotating bumblebee black holes by comparing metric and metric-affine solutions. We normalize the stationary Killing vectors at spatial infinity before defining physical frequencies, angular velocities, and temperatures.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Classical Black Hole Scattering to Celestial Amplitudes in Effective Theories of Gravity",
+          "authors": "Saptaswa Ghosh",
+          "arxiv_id": "2608.00784",
+          "url": "https://arxiv.org/abs/2608.00784",
+          "categories": "hep-th, hep-ph, gr-qc",
+          "summary": "This thesis investigates quantum field theoretic approaches to classical gravity beyond General Relativity. Using worldline effective field theory, worldline quantum field theory, and on shell scattering amplitudes, it investigates compact-object dynamics in dark-sector models, scalar tensor gravity, dynamical Chern Simons gravity, and Einstein Maxwell dilaton theory.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "de Sitter holography from a Lorentzian torus",
+          "authors": "Kosei Fujiki, Michitaka Kohara, Javier Moreno et al.",
+          "arxiv_id": "2608.01729",
+          "url": "https://arxiv.org/abs/2608.01729",
+          "categories": "hep-th, gr-qc",
+          "summary": "We show that the quantum entanglement between the conformal field theories (CFTs) living on the future and past boundaries in the de Sitter/conformal field theory (dS/CFT) correspondence can be described by Wick rotating to a geometry with two timelike directions. We propose a new realization of the dS/CFT correspondence in which quantum gravity on this two-time geometry is holographically dual to a CFT defined on a Lorentzian torus.",
+          "relevance": "quantum-gravity, holography, entanglement",
+          "tags": [
+            "quantum-gravity",
+            "holography",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Effects of the inflaton mass on the pre-inflationary dynamics and primordial power spectra in loop quantum cosmology",
+          "authors": "Kui Xiao, Abolhassan Mohammadi, Hongwei Tan",
+          "arxiv_id": "2608.01581",
+          "url": "https://arxiv.org/abs/2608.01581",
+          "categories": "gr-qc",
+          "summary": "Considering the mass parameters as free phenomenological parameters, we investigate inflation driven by a canonical scalar field with different potentials in LQC. We find that a smaller mass value makes it easier to obtain a sufficient number of e-folds for the quadratic potential, while for the Starobinsky potential, more e-folds are obtained for larger mass values.",
+          "relevance": "loop-quantum-gravity, quantum-cosmology",
+          "tags": [
+            "loop-quantum-gravity",
+            "quantum-cosmology"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Self-Forces as Nonlocal Probes of Gravastar Interiors",
+          "authors": "Bokai Zhang, Yungui Gong, Anzhong Wang",
+          "arxiv_id": "2608.00121",
+          "url": "https://arxiv.org/abs/2608.00121",
+          "categories": "gr-qc, hep-th",
+          "summary": "Compact objects with the same exterior metric are locally indistinguishable to test particles, yet observables built from retarded fields can retain information about the spacetime outside the particle&#39;s immediate neighbourhood. The self-force acting on a particle in curved spacetime provides a unique probe of both the local geometry and the global structure of the background spacetime.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Filling the Shadow: A Propositional Model of Gravastar Accretion in $f(R, L_m, T)$ Gravity",
+          "authors": "Sandip Dutta",
+          "arxiv_id": "2608.00471",
+          "url": "https://arxiv.org/abs/2608.00471",
+          "categories": "gr-qc, hep-th",
+          "summary": "While General Relativity remains our most rigorously tested framework for gravitation, the theoretical persistence of singularities within standard black hole solutions continues to motivate the exploration of mathematically regular alternatives. Gravitational vacuum stars (gravastars) offer a non-singular model, substituting the event horizon with a physical, ultra-stiff thin shell.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "A Simple Pendulum in Schwarzschild Spacetime",
+          "authors": "Andrzej Czarnecki, Andrew Czezowski",
+          "arxiv_id": "2608.00866",
+          "url": "https://arxiv.org/abs/2608.00866",
+          "categories": "gr-qc, hep-ph, hep-th",
+          "summary": "We determine the small-oscillation period of a simple pendulum in Schwarzschild spacetime. After transients decay, the displaced rope coincides with a geodesic of the induced spatial metric.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "New constraints on modified gravity with dimension-six operators from gravitational waves",
+          "authors": "Justo López-Sarrión, Carlos M. Reyes, César Riquelme et al.",
+          "arxiv_id": "2608.01118",
+          "url": "https://arxiv.org/abs/2608.01118",
+          "categories": "gr-qc, hep-ph, hep-th",
+          "summary": "The present article deals with gravitational-wave propagation affected by higher-derivative terms that break spacetime symmetries. Two dimension-6 contributions of the gravitational Standard-Model Extension pose our starting point.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "From Quantum Correlations to Inflationary Tracking Scalar Field Evolution",
+          "authors": "V.K. Oikonomou",
+          "arxiv_id": "2608.01165",
+          "url": "https://arxiv.org/abs/2608.01165",
+          "categories": "gr-qc, hep-th",
+          "summary": "The tracking condition $\\dot{\\phi}^2=\\gamma H^{-m}$ for single scalar field theory leads to analytic inflationary solutions, which are compatible with the current cosmic microwave background radiation experiments. To our knowledge this is the only analytic solution of inflation which is compatible with the data, to date.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "A Quantum Dominant Energy Condition",
+          "authors": "Stefan Hollands, Roberto Longo, Gerardo Morsella",
+          "arxiv_id": "2608.01814",
+          "url": "https://arxiv.org/abs/2608.01814",
+          "categories": "gr-qc, math-ph, hep-th",
+          "summary": "We propose a quantum dominant energy condition (QDEC) for the stress tensor in the context of quantum field theory in curved spacetimes. A rigorous proof is given for the case of Rindler wedges, and a heuristic discussion about possible generalizations to more general geometric setups, including curved spacetime, is provided.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "The Lorentzian Geometry of Tunneling in Global de Sitter at Late Time",
+          "authors": "Thibaut Coudarchet, Ben Freivogel, Bjoern Hassfeld et al.",
+          "arxiv_id": "2608.00159",
+          "url": "https://arxiv.org/abs/2608.00159",
+          "categories": "hep-th, gr-qc",
+          "summary": "It is widely believed that Coleman--De Luccia (CDL) instantons characterize tunneling transitions in a de Sitter multiverse. Their most naive interpretation uses analytic continuation to Lorentzian de Sitter at the minimal size of the spatial three-sphere.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Projecting Gravitational Fluctuations onto Near-Horizon Throats",
+          "authors": "Alejandro Cabo-Bizet, Vasil Dimitrov, Dario Martelli et al.",
+          "arxiv_id": "2608.00363",
+          "url": "https://arxiv.org/abs/2608.00363",
+          "categories": "hep-th, gr-qc",
+          "summary": "We show that, for stationary geometries whose linearized fluctuation equations separate into radial and angular Heun equations, a pair of diffeomorphisms projects the full problem onto two coupled, isospectral Gauss hypergeometric problems in complementary spacetime regions. This projection requires Robin boundary conditions to be imposed at the intersection between the complementary regions, which are uniquely fixed by requiring the two diffeomorphisms to match there.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Primordial Correlators from a Kaluza-Klein Graviton Continuum",
+          "authors": "Shuntaro Aoki",
+          "arxiv_id": "2608.01762",
+          "url": "https://arxiv.org/abs/2608.01762",
+          "categories": "hep-th, hep-ph, astro-ph.CO, gr-qc",
+          "summary": "Cosmological collider signals are usually discussed for isolated massive particles, whose exchange produces characteristic logarithmic oscillations in primordial correlators. In this work, we study how this signal is modified when the exchanged states form a continuous mass spectrum.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Holographic Thermodynamics of Dyonic Dilaton AdS Black Holes",
+          "authors": "Muhammad Fitrah Alfian Rangga Sakti, Robert Mann, Piyabut Burikham",
+          "arxiv_id": "2608.01818",
+          "url": "https://arxiv.org/abs/2608.01818",
+          "categories": "hep-th",
+          "summary": "We investigate the holographic dual of the extended bulk thermodynamics of dyonic dilaton AdS black holes by allowing both the cosmological constant and Newton&#39;s gravitational constant to vary. In the dual CFT thermodynamics, the central charge $C$ and chemical potential $\\mu$ as its conjugate enter the thermodynamic relations, in addition to $(\\tilde{T},\\tilde{S})$, $(\\tilde{Q},\\tilde{\\Phi})$, $(\\tilde{P},\\tilde{\\Psi})$, $(\\tilde{\\mathcal{P}},\\tilde{V})$.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-04",
       "type": "arxiv",
@@ -302,6 +511,51 @@
           "relevance": "Medium — Interesting development in physics or related fields",
           "tags": [
             "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-08-04",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "IBM Acquires HRL Laboratories for Quantum Computing (July 23, 2026)",
+          "source": "Source:",
+          "url": "https://newsroom.ibm.com/2026-07-23-ibm-to-acquire-hrl-laboratories-to-power-the-future-of-quantum",
+          "summary": "IBM acquiring HRL Labs (Boeing/GM joint venture) to bolster silicon-spin qubit engineering. Roadmap: IBM Quantum Starling by 2029 (20,000x more powerful, 100M quantum operations), followed by more powerful Starling in mid-2030s.",
+          "relevance": "Major consolidation in quantum hardware. HRL's expertise in cryogenics, control electronics, qubit interconnects could accelerate practical quantum computing. Relevant to Deepak's interest in quantum computing and quantum gravity.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "LQG Reformulation: Spacetime from Matter Fields (Feb 2026)",
+          "source": "Source:",
+          "url": "https://quantumzeitgeist.com/quantum-loop-gravity-redefined-spacetime-built/",
+          "summary": "Proposal to reformulate LQG by defining spacetime geometry exclusively through matter fields using Penrose's combinatorial spacetime concept. Moves away from \"pure spacetime\" Einstein-Hilbert action. Introduces Regge-like discretization with curvature at interaction vertices.",
+          "relevance": "Directly relevant to Deepak's LQG background. The idea of deriving spacetime from matter rather than treating it as fundamental is a conceptual shift. Also mentions exploring renormalization group evolution of matter spin networks.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Loops'26 Conference Recap (May 2026, Hangzhou)",
+          "source": "Source:",
+          "url": "https://hyperspace.uni-frankfurt.de/2026/01/07/loops-26-international-conference-on-quantum-gravity-hangzhou-china/",
+          "summary": "40th anniversary of LQG field. Conference covered canonical/covariant LQG, black hole and cosmological applications. Summer school in Yangzhou (May 10-22) for early-career researchers.",
+          "relevance": "Deepak's primary field is active and convening. Good to know the community is thriving 40 years in.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
           ]
         }
       ]
@@ -21806,28 +22060,40 @@
     }
   ],
   "stats": {
-    "total_digests": 195,
-    "total_entries": 1518,
+    "total_digests": 197,
+    "total_entries": 1536,
     "unique_tags": {
+      "black-holes": {
+        "first_seen": "2026-08-05",
+        "count": 308
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-08-05",
+        "count": 87
+      },
+      "holography": {
+        "first_seen": "2026-08-05",
+        "count": 84
+      },
+      "entanglement": {
+        "first_seen": "2026-08-05",
+        "count": 89
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-08-05",
+        "count": 24
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-08-05",
+        "count": 12
+      },
+      "physics": {
+        "first_seen": "2026-08-05",
+        "count": 214
+      },
       "many-body": {
         "first_seen": "2026-08-04",
         "count": 23
-      },
-      "entanglement": {
-        "first_seen": "2026-08-04",
-        "count": 88
-      },
-      "black-holes": {
-        "first_seen": "2026-08-04",
-        "count": 301
-      },
-      "holography": {
-        "first_seen": "2026-08-04",
-        "count": 82
-      },
-      "physics": {
-        "first_seen": "2026-08-04",
-        "count": 208
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-08-04",
@@ -21849,29 +22115,25 @@
         "first_seen": "2026-08-04",
         "count": 158
       },
+      "moltbook": {
+        "first_seen": "2026-08-04",
+        "count": 240
+      },
+      "quantum": {
+        "first_seen": "2026-08-04",
+        "count": 203
+      },
+      "agents": {
+        "first_seen": "2026-08-04",
+        "count": 157
+      },
       "Experiment & Observation": {
         "first_seen": "2026-08-03",
         "count": 43
       },
-      "quantum-gravity": {
-        "first_seen": "2026-08-01",
-        "count": 86
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-08-01",
-        "count": 23
-      },
-      "quantum-cosmology": {
-        "first_seen": "2026-08-01",
-        "count": 11
-      },
       "string-theory": {
         "first_seen": "2026-08-01",
         "count": 12
-      },
-      "moltbook": {
-        "first_seen": "2026-08-01",
-        "count": 237
       },
       "inflation": {
         "first_seen": "2026-08-01",
@@ -21900,14 +22162,6 @@
       "topological": {
         "first_seen": "2026-07-31",
         "count": 57
-      },
-      "quantum": {
-        "first_seen": "2026-07-30",
-        "count": 200
-      },
-      "agents": {
-        "first_seen": "2026-07-29",
-        "count": 156
       },
       "Quantum Gravity": {
         "first_seen": "2026-07-24",
@@ -25055,22 +25309,24 @@
       }
     },
     "tag_counts": {
+      "black-holes": 308,
+      "quantum-gravity": 87,
+      "holography": 84,
+      "entanglement": 89,
+      "loop-quantum-gravity": 24,
+      "quantum-cosmology": 12,
+      "physics": 214,
       "many-body": 23,
-      "entanglement": 88,
-      "black-holes": 301,
-      "holography": 82,
-      "physics": 208,
       "Quantum Information & Computing": 116,
       "Optics & Photonics": 63,
       "Technology & Engineering": 54,
       "Many-Body Physics & Condensed Matter": 48,
       "Science Communication & Policy": 158,
+      "moltbook": 240,
+      "quantum": 203,
+      "agents": 157,
       "Experiment & Observation": 43,
-      "quantum-gravity": 86,
-      "loop-quantum-gravity": 23,
-      "quantum-cosmology": 11,
       "string-theory": 12,
-      "moltbook": 237,
       "inflation": 4,
       "quantum-information": 10,
       "thermodynamics": 9,
@@ -25078,8 +25334,6 @@
       "experiment": 2,
       "gravitational-waves": 14,
       "topological": 57,
-      "quantum": 200,
-      "agents": 156,
       "Quantum Gravity": 31,
       "Black Hole Physics": 20,
       "tensor-networks": 9,
@@ -25869,6 +26123,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-05",
         "2026-08-04",
         "2026-08-01",
         "2026-07-31",
@@ -26000,6 +26255,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-08-04",
         "2026-08-01",
         "2026-07-30",
         "2026-07-29",
