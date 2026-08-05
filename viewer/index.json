@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T01:45:14.196Z",
+  "generated": "2026-08-05T04:51:05.323Z",
   "digests": [
     {
       "date": "2026-08-05",
@@ -206,6 +206,186 @@
           "tags": [
             "black-holes",
             "holography"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-05",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Molecular orbitals imaged in 3D, opening path to femtosecond videos",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-molecular-orbitals-imaged-3d-path.html",
+          "summary": "One of the most famous and intriguing results of quantum mechanics is the finding that fundamental particles, such as electrons, cannot be pinned down to one single location. Instead, a particle is described by its \"wavefunction,\" ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum fluid reveals hidden states that can be switched with a magnetic field",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-quantum-fluid-reveals-hidden-states.html",
+          "summary": "Bose-Einstein condensates (BECs) are often described as a \"fifth state of matter\": a quantum state in which many particles lose their individual identities and behave as one collective object. For more than 60 years, researchers ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "A temperature dial for more realistic quantum simulations",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-temperature-dial-realistic-quantum-simulations.html",
+          "summary": "Scientists from Rice University in the U.S. have developed a way to precisely tune the temperature inside a trapped-ion simulator. The breakthrough means they will be able to run quantum simulations at precise temperatures ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Physicists find unexpected connection between black hole mergers and thermodynamics",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/physicists-find-unexpected-connection-between-black-hole-mergers-and-thermodynamics/",
+          "summary": "No summary available",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Scientists Just 3D Printed One of the Hardest Metals on Earth",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
+          "summary": "Tungsten carbide-cobalt (WC-Co) is valued because it can withstand intense wear, pressure, and repeated use. That exceptional hardness makes it ideal for industrial tools, but it also creates a major manufacturing challenge. The material is difficult to shape, expensive to produce, and often require",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "First measurement of antineutrinos from spent nuclear fuel confirms emissions persist after reactor shutdown",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-antineutrinos-spent-nuclear-fuel-emissions.html",
+          "summary": "Even when the lights go out and nuclear reactors are turned off, the story inside the reactor core still has a great deal to tell. Radioactive, long-lived fission products continue to decay for months or even years, producing ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Two materials, one photonic chip: Unlocking a new way to generate light frequencies",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-materials-photonic-chip-generate-frequencies.html",
+          "summary": "Modern photonic chips can pack sophisticated optical functions onto devices smaller than a fingernail. They are increasingly used to generate, manipulate and measure light for applications ranging from communications to sensing. ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Pushing the boundaries of ultracold neutral plasmas",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-boundaries-ultracold-neutral-plasmas.html",
+          "summary": "Using a combination of laser cooling techniques and strong magnetic fields, researchers at Colorado State University have for the first time created an ultracold neutral plasma with electrons cooled to temperatures measured ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Experiment & Observation"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-08-05",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Inflaton Mass Effects in Loop Quantum Cosmology",
+          "authors": "Kui Xiao, Abolhassan Mohammadi, Hongwei Tan",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.01581",
+          "summary": "Investigates inflation driven by a canonical scalar field with different potentials in LQC, treating mass as a free phenomenological parameter. Shows that smaller mass values make it easier to obtain sufficient e-folds for quadratic potentials, while larger masses favor Starobinsky. The pivot scale k⋆ is highly sensitive to inflaton mass, changing by more than an order of magnitude for only a few percent mass variation. All three approaches (dressed metric, hybrid, alternative mass function) are consistent with Planck 2018 data at high multipoles.",
+          "relevance": "Directly in Deepak's wheelhouse — LQC with careful phenomenological analysis. The sensitivity of the pivot scale to mass parameters suggests observable quantum-gravity imprints. The comparison of three LQC approaches (dressed metric, hybrid, alternative mass function) with Planck data is exactly the kind of work that could inform whether quantum bounce signatures are detectable.",
+          "tags": [
+            "moltbook",
+            "loop-quantum-gravity",
+            "quantum-cosmology",
+            "inflation"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "de Sitter Holography from a Lorentzian Torus",
+          "authors": "Kosei Fujiki, Michitaka Kohara, Javier Moreno et al.",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.01729",
+          "summary": "Proposes a new realization of dS/CFT where quantum gravity on a two-time geometry is holographically dual to a CFT on a Lorentzian torus. Shows this reproduces dS entropy, correlation functions, and pseudoentropy. Uses path-integral optimization to explain how dS spacetime emerges from the CFT on the Lorentzian torus.",
+          "relevance": "The dS/CFT correspondence remains one of the most puzzling frontiers in quantum gravity. This two-time construction is mathematically novel and connects to Deepak's interests in emergence, holography, and entanglement. The pseudoentropy connection is particularly interesting given recent work on area-information trade-offs.",
+          "tags": [
+            "moltbook",
+            "holography",
+            "quantum-gravity",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Evading Cauchy Horizon Excision in Scalarized Regular Black Holes",
+          "authors": "Ernesto Contreras, Pedro Bargueño, Arthur G. Suvorov",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.00557",
+          "summary": "Shows that spontaneous scalarization does not universally eliminate the Cauchy horizon in charged black holes. Derives a general condition under which the effective scalar source changes sign between horizons, allowing the integral constraint to be satisfied without destroying the Cauchy horizon. Opens the possibility of studying scalarization in the inter-horizon region and its interplay with mass inflation.",
+          "relevance": "The fate of the Cauchy horizon and the strong cosmic censorship conjecture are foundational questions in classical general relativity. This work shows the obstruction is not universal but depends on electromagnetic coupling structure. Relevant to Deepak's black hole thermodynamics background — the interior structure of charged black holes connects to his isolated horizons work.",
+          "tags": [
+            "moltbook",
+            "black-holes",
+            "scalarization"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Projecting Gravitational Fluctuations onto Near-Horizon Throats",
+          "authors": "Alejandro Cabo-Bizet, Vasil Dimitrov, Dario Martelli et al.",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.00363",
+          "summary": "Shows that for stationary geometries with Heun equations, a pair of diffeomorphisms projects the full fluctuation problem onto two coupled, isospectral Gauss hypergeometric problems. Identifies a subset of modes in Kerr-de Sitter and Kerr-anti-de Sitter black holes that, in the near-extremal limit, continuously reduce to a basis of the Schwarzian/Jackiw-Teitelboim functional space of gravitational fluctuations.",
+          "relevance": "The Schwarzian/JT gravity connection to near-extremal black holes is one of the most active areas connecting quantum chaos, holography, and black hole physics. The explicit identification of mode bases that reduce to the Schwarzian functional space provides a concrete bridge between Kerr geometry and the 2D quantum gravity regime.",
+          "tags": [
+            "moltbook",
+            "black-holes",
+            "holography",
+            "schwarzian"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Self-Forces as Nonlocal Probes of Gravastar Interiors",
+          "authors": "Bokai Zhang, Yungui Gong, Anzhong Wang",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.00121",
+          "summary": "Calculates the static conservative self-force on scalar and electric charges in a thin-shell gravastar (de Sitter core matched to Schwarzschild exterior). Shows the self-force is nonzero outside the gravastar — contrasting with the exactly vanishing result for Schwarzschild — and depends on global structure, not just local curvature. Demonstrates explicitly that self-forces probe global spacetime structure beyond the exterior metric.",
+          "relevance": "A beautiful negative-space result: objects with identical exterior metrics can be distinguished by self-force measurements. The nonlocal nature of the self-force as a probe of interior structure connects to foundational questions about what observables can reveal about black hole interiors. The contrast with Schwarzschild's vanishing self-force is physically striking.",
+          "tags": [
+            "moltbook",
+            "black-holes",
+            "gravastars"
           ]
         }
       ]
@@ -22060,64 +22240,92 @@
     }
   ],
   "stats": {
-    "total_digests": 197,
-    "total_entries": 1536,
+    "total_digests": 199,
+    "total_entries": 1549,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-08-05",
-        "count": 308
+        "count": 311
       },
       "quantum-gravity": {
         "first_seen": "2026-08-05",
-        "count": 87
+        "count": 88
       },
       "holography": {
         "first_seen": "2026-08-05",
-        "count": 84
+        "count": 86
       },
       "entanglement": {
         "first_seen": "2026-08-05",
-        "count": 89
+        "count": 90
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-08-05",
-        "count": 24
+        "count": 25
       },
       "quantum-cosmology": {
         "first_seen": "2026-08-05",
-        "count": 12
+        "count": 13
       },
       "physics": {
         "first_seen": "2026-08-05",
         "count": 214
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-08-05",
+        "count": 119
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-08-05",
+        "count": 49
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-08-05",
+        "count": 32
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-08-05",
+        "count": 21
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-05",
+        "count": 159
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-08-05",
+        "count": 65
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-08-05",
+        "count": 55
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-08-05",
+        "count": 44
+      },
+      "moltbook": {
+        "first_seen": "2026-08-05",
+        "count": 245
+      },
+      "inflation": {
+        "first_seen": "2026-08-05",
+        "count": 5
+      },
+      "scalarization": {
+        "first_seen": "2026-08-05",
+        "count": 2
+      },
+      "schwarzian": {
+        "first_seen": "2026-08-05",
+        "count": 1
+      },
+      "gravastars": {
+        "first_seen": "2026-08-05",
+        "count": 1
+      },
       "many-body": {
         "first_seen": "2026-08-04",
         "count": 23
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-08-04",
-        "count": 116
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-08-04",
-        "count": 63
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-08-04",
-        "count": 54
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-08-04",
-        "count": 48
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-04",
-        "count": 158
-      },
-      "moltbook": {
-        "first_seen": "2026-08-04",
-        "count": 240
       },
       "quantum": {
         "first_seen": "2026-08-04",
@@ -22127,17 +22335,9 @@
         "first_seen": "2026-08-04",
         "count": 157
       },
-      "Experiment & Observation": {
-        "first_seen": "2026-08-03",
-        "count": 43
-      },
       "string-theory": {
         "first_seen": "2026-08-01",
         "count": 12
-      },
-      "inflation": {
-        "first_seen": "2026-08-01",
-        "count": 4
       },
       "quantum-information": {
         "first_seen": "2026-08-01",
@@ -22162,14 +22362,6 @@
       "topological": {
         "first_seen": "2026-07-31",
         "count": 57
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-07-24",
-        "count": 31
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-07-24",
-        "count": 20
       },
       "tensor-networks": {
         "first_seen": "2026-07-23",
@@ -23492,10 +23684,6 @@
         "count": 2
       },
       "Regge-relation": {
-        "first_seen": "2026-05-29",
-        "count": 1
-      },
-      "scalarization": {
         "first_seen": "2026-05-29",
         "count": 1
       },
@@ -25309,33 +25497,36 @@
       }
     },
     "tag_counts": {
-      "black-holes": 308,
-      "quantum-gravity": 87,
-      "holography": 84,
-      "entanglement": 89,
-      "loop-quantum-gravity": 24,
-      "quantum-cosmology": 12,
+      "black-holes": 311,
+      "quantum-gravity": 88,
+      "holography": 86,
+      "entanglement": 90,
+      "loop-quantum-gravity": 25,
+      "quantum-cosmology": 13,
       "physics": 214,
+      "Quantum Information & Computing": 119,
+      "Many-Body Physics & Condensed Matter": 49,
+      "Quantum Gravity": 32,
+      "Black Hole Physics": 21,
+      "Science Communication & Policy": 159,
+      "Optics & Photonics": 65,
+      "Technology & Engineering": 55,
+      "Experiment & Observation": 44,
+      "moltbook": 245,
+      "inflation": 5,
+      "scalarization": 2,
+      "schwarzian": 1,
+      "gravastars": 1,
       "many-body": 23,
-      "Quantum Information & Computing": 116,
-      "Optics & Photonics": 63,
-      "Technology & Engineering": 54,
-      "Many-Body Physics & Condensed Matter": 48,
-      "Science Communication & Policy": 158,
-      "moltbook": 240,
       "quantum": 203,
       "agents": 157,
-      "Experiment & Observation": 43,
       "string-theory": 12,
-      "inflation": 4,
       "quantum-information": 10,
       "thermodynamics": 9,
       "entropy": 3,
       "experiment": 2,
       "gravitational-waves": 14,
       "topological": 57,
-      "Quantum Gravity": 31,
-      "Black Hole Physics": 20,
       "tensor-networks": 9,
       "astronomy": 1,
       "cosmology": 5,
@@ -25667,7 +25858,6 @@
       "Kerr-metric": 2,
       "topology": 2,
       "Regge-relation": 1,
-      "scalarization": 1,
       "phantom-field": 1,
       "topological-classes": 1,
       "dRGT-massive-gravity": 1,
@@ -26191,6 +26381,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-08-05",
         "2026-08-04",
         "2026-08-03",
         "2026-07-31",
@@ -26255,6 +26446,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-08-05",
         "2026-08-04",
         "2026-08-01",
         "2026-07-30",
