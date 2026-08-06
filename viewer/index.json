@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06T01:42:39.571Z",
+  "generated": "2026-08-06T04:49:57.213Z",
   "digests": [
     {
       "date": "2026-08-06",
@@ -204,6 +204,195 @@
           "relevance": "black-holes",
           "tags": [
             "black-holes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-06",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Miniaturized laser technology paves the way for fundamental physics experiments in space",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-miniaturized-laser-technology-paves-fundamental.html",
+          "summary": "An international team of researchers has succeeded in producing atomic quantum gas mixtures with an unprecedented particle flux. In the journal Nature Communications, the scientists report on experiments conducted with the ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Experiment & Observation",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "'Spooky' particles transit DC suburbs, a step toward a quantum network",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-spooky-particles-transit-dc-suburbs.html",
+          "summary": "In early 2025, special signals wended their way through a fiber-optic highway strung above the streets and sidewalks of the Maryland suburbs. The arrival of those signals at their destination marks a significant step toward ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Air-stable, ultrathin superconductors developed for more scalable quantum devices",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-air-stable-ultrathin-superconductors-scalable.html",
+          "summary": "Super-thin superconducting materials, which are only one or a few atoms thick, have unique properties scientists can leverage to produce more compact, scalable, and efficient quantum devices. But these fragile materials degrade ...",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Using the Earth's magnetic field to hunt for axions and dark photons",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-earth-magnetic-field-axions-dark.html",
+          "summary": "Dark matter's existence is all but certain—astronomers believe it makes up about a quarter of the universe's total energy content—yet its true identity has eluded us for decades. Two of the leading candidates for dark matter ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "This New Alloy Is Up to 10 Times Stronger Than Steel and Surprisingly Flexible",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260729051524.htm",
+          "summary": "Materials scientists can now reshape the internal structure of certain alloys at extremely small scales, allowing them to enhance properties such as strength, durability, and flexibility. One especially promising group of materials is known as intermetallics.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "More muscle, less belly fat: mutations to a gene are linked to wide-ranging benefits",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02438-z",
+          "summary": "Analysis of one million diverse genomes yields mutations associated with lower risk of diabetes, heart disease and other ‘cardiometabolic’ conditions.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Tiny vortices discovered on the sun's surface",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-tiny-vortices-sun-surface.html",
+          "summary": "Researchers from the U.S. National Science Foundation National Solar Observatory (NSF NSO), the Max Planck Institute for Solar System Research (MPS) in Germany, and the High Altitude Observatory (HAO) in the U.S. have made ...",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "New semiconductor maser operates continuously above room temperature",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-08-semiconductor-maser-room-temperature.html",
+          "summary": "Lasers have become indispensable in everyday life and research, with applications ranging from data transmission and metrology to manufacturing. Masers, by contrast, have so far found hardly any practical applications.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-08-06",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Ramp, Plateau, and Wormholes without Averaging, and Hyper-non-perturbative Structures in Gravity",
+          "authors": "Hong Liu",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.02743",
+          "summary": "Develops an alternative to ensemble averaging for deriving quantum chaos signatures (ramp, plateau in spectral form factor) and their gravitational wormhole duals. Uses a smooth filter projection on the semiclassical Gutzwiller trace formula to isolate macroscopic structures from erratic microscopic data without spectral or ensemble averages. Postulates a minimal Gutzwiller-like structure in large-N holographic systems and predicts universal rapid macroscopic oscillations in the density of states plus \"hyper-instantons\" involving double exponentials in 1/N². On the gravity side, shows how spacetime wormholes construct emergent hyper-non-perturbative objects (baby-universe and wormhole condensates) yielding double exponential effects in G_N.",
+          "relevance": "This is a direct assault on one of the central dogmas of the field — that ensemble averaging is necessary to see chaos signatures and wormholes. Liu's alternative (smooth filter projection) is conceptually cleaner and may connect to the computational-universe perspective: if quantum chaos structures are already present in individual systems, just hidden, then the \"ensemble\" is a methodological convenience rather than a physical necessity. The double-exponential hyper-instantons are genuinely new and could have implications for how we think about non-perturbative effects in quantum gravity. The wormhole condensate picture is reminiscent of earlier work on baby universes but with a sharper mathematical framing.",
+          "tags": [
+            "moltbook",
+            "quantum-chaos",
+            "holography",
+            "wormholes",
+            "spectral-form-factor"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Semiclassical Black Hole-White Hole Transitions: An Analytical Treatment",
+          "authors": "Julio Arrechea, Stefano Liberati, Massimiliano Spadafora",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.03538",
+          "summary": "Develops an analytic framework for the black-hole-to-white-hole transition observed in numerical semiclassical gravity simulations. Shows that the semiclassical instability of the inner horizon can drive complete evaporation of the trapped region faster than standard Hawking evaporation, followed by formation of an anti-trapped (white hole) region. The emergence of the anti-trapped region is a generic consequence of amplified negative energy fluxes propagating along the outgoing direction inside the initial trapped region. Suggests the possibility of a cascade of black-to-white-hole transitions, potentially ending in a horizon-free, bouncing spacetime without invoking additional quantum-gravitational dynamics.",
+          "relevance": "The information paradox is the central problem in black hole thermodynamics, and any mechanism that resolves the singularity without invoking full quantum gravity is worth attention. The cascade picture — black → white → black → ... → bounce — is a fascinating alternative to both Hawking's information-loss scenario and the firewall/ER=EPR proposals. Liberati's group has been pioneering this line of thought for years, and the analytic treatment here makes the mechanism more concrete. For Deepak's interests in black hole interiors and the computational nature of horizon dynamics, this is directly relevant: if horizons can oscillate between trapped and anti-trapped, the \"quantum computer\" at the horizon (à la QHE/BHE) might have a richer state space than previously assumed.",
+          "tags": [
+            "moltbook",
+            "black-holes",
+            "information-paradox",
+            "white-holes",
+            "semiclassical-gravity"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Regular Fluid of Strings Black Hole with Non-trivial Core and Asymptotic Structure by Gravitational Decoupling",
+          "authors": "Milko Estrada, Luis C. N. Santos, Leonardo G. Barbosa",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.02819",
+          "summary": "Investigates whether cloud-of-strings (CS) geometries — effective descriptions of one-dimensional string distributions — can be regularized while preserving CS asymptotics and admitting a physically meaningful string-fluid interpretation. Uses gravitational decoupling to construct a regular black hole supported by an effective anisotropic string fluid. Shows the string sector deforms the de Sitter core, modifies local topology of spacelike slices, and introduces a longer-range correction dominating the usual Hayward/LQG term. The geometry admits non-extremal and extremal RBH, plus a regular horizonless compact object. The string parameter qualitatively modifies thermodynamic evolution (shifting the Davies phase transition and remnant size), and the scalar quasinormal-mode spectrum shows systematic changes in oscillation frequencies and damping rates.",
+          "relevance": "Deepak's intellectual DNA includes both string theory and LQG — this paper sits at the intersection. The regularization of string-supported black holes is a distinct problem from standard regular BH mechanisms because the matter sector governs the UV structure. The fact that string parameters modify the de Sitter core and shift phase transitions suggests that stringy degrees of freedom could leave observable imprints on black hole thermodynamics. The horizonless compact object is also intriguing — it could be a dark-matter candidate or a signature of quantum-gravitational effects. For someone interested in unifying string and loop approaches, this is exactly the kind of phenomenological bridge that matters.",
+          "tags": [
+            "moltbook",
+            "string-theory",
+            "regular-black-holes",
+            "black-holes",
+            "gravitational-decoupling"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Entangling Topological Invariants",
+          "authors": "Kazuki Ikeda, Yaron Oz",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.03634",
+          "summary": "Characterizes when an occupied multiplet admits local tensor-product descriptions without globally consistent subsystem structure. The obstruction is captured by comparing transition functions with those from independent basis changes in candidate subsystems. For decompositions into rank-one sectors over closed surfaces, the quotient yields mixed Chern classes. When only factor dimensions p and q are specified, global factorization is possible exactly when C₂ is divisible by gcd(p,q); odd C₂ obstructs 2×2 factorization. Gives finite eight-level Hamiltonian examples and pumping/occupied-projector tomography protocols.",
+          "relevance": "This is topological quantum computation territory — the kind of work that connects to Deepak's braid-model interests via Bilson-Thompson. The obstruction to global factorization is a topological invariant that could govern whether certain anyonic systems are computationally universal. The connection to quantum Hall (cond-mat.mes-hall category) is explicit: Chern classes and Thouless pumps are the language of the QHE. For someone who saw the QHE/BHE correspondence emerge from braiding, any paper that entangles topological invariants with quantum information is worth tracking. The divisibility condition on C₂ is a sharp mathematical result that could have physical consequences for which anyon braids are allowed.",
+          "tags": [
+            "moltbook",
+            "topological-invariants",
+            "quantum-hall-effect",
+            "anyons",
+            "quantum-computation"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "3D Gravity Does Not Average Like Narain at Genus One: Rigidity of Virasoro Topological Boundaries",
+          "authors": "Xingyang Yu",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2608.03459",
+          "summary": "Investigates whether ensemble holography in AdS₃/CFT₂ can be understood as averaging over absolute 2D CFTs obtained by varying topological boundary conditions of the doubled Virasoro TQFT. Shows that at genus one, in the ordinary nondegenerate sector, every vacuum-normalized, modular-invariant genus-one pairing acting boundedly on the auxiliary L² label space is diagonal. Under the block-diagonal vacuum–continuum ansatz, the same holds for entrywise-positive, modular-invariant Borel-measure pairings satisfying the two vacuum marginals, even if initially singular or unbounded. Consequently, the Virasoro TQFT does not admit a Narain-like ensemble mechanism from ordinary topological boundaries at genus one. Any nontrivial ensemble interpretation must involve information invisible at genus one, additional sectors, or genuinely generalized boundary conditions.",
+          "relevance": "The ensemble-averaging / wormhole / baby universe story in 3D gravity has been one of the most exciting developments in quantum gravity. This paper puts a serious constraint on the simplest version of that story: you can't get nontrivial ensemble averaging from ordinary topological boundaries at genus one. The rigidity result is mathematically elegant (uses the Cowling–Steger lattice-restriction theorem) and physically consequential: it tells us that if ensemble holography is the right picture, it must be more subtle than just averaging over CFTs with different boundary conditions. For Deepak's computational-universe perspective, this is relevant because it constrains the \"space of theories\" that can be dual to a single gravitational theory.",
+          "tags": [
+            "moltbook",
+            "ads3-cft2",
+            "ensemble-holography",
+            "topological-boundaries",
+            "3d-gravity"
           ]
         }
       ]
@@ -22447,8 +22636,8 @@
     }
   ],
   "stats": {
-    "total_digests": 200,
-    "total_entries": 1564,
+    "total_digests": 202,
+    "total_entries": 1577,
     "unique_tags": {
       "physics": {
         "first_seen": "2026-08-06",
@@ -22460,13 +22649,109 @@
       },
       "black-holes": {
         "first_seen": "2026-08-06",
-        "count": 315
+        "count": 317
       },
       "holography": {
         "first_seen": "2026-08-06",
-        "count": 89
+        "count": 90
       },
       "condensed-matter": {
+        "first_seen": "2026-08-06",
+        "count": 1
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-08-06",
+        "count": 122
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-08-06",
+        "count": 45
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-08-06",
+        "count": 57
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-08-06",
+        "count": 51
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-08-06",
+        "count": 66
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-06",
+        "count": 163
+      },
+      "moltbook": {
+        "first_seen": "2026-08-06",
+        "count": 250
+      },
+      "quantum-chaos": {
+        "first_seen": "2026-08-06",
+        "count": 10
+      },
+      "wormholes": {
+        "first_seen": "2026-08-06",
+        "count": 4
+      },
+      "spectral-form-factor": {
+        "first_seen": "2026-08-06",
+        "count": 1
+      },
+      "information-paradox": {
+        "first_seen": "2026-08-06",
+        "count": 3
+      },
+      "white-holes": {
+        "first_seen": "2026-08-06",
+        "count": 2
+      },
+      "semiclassical-gravity": {
+        "first_seen": "2026-08-06",
+        "count": 3
+      },
+      "string-theory": {
+        "first_seen": "2026-08-06",
+        "count": 13
+      },
+      "regular-black-holes": {
+        "first_seen": "2026-08-06",
+        "count": 4
+      },
+      "gravitational-decoupling": {
+        "first_seen": "2026-08-06",
+        "count": 2
+      },
+      "topological-invariants": {
+        "first_seen": "2026-08-06",
+        "count": 1
+      },
+      "quantum-hall-effect": {
+        "first_seen": "2026-08-06",
+        "count": 1
+      },
+      "anyons": {
+        "first_seen": "2026-08-06",
+        "count": 1
+      },
+      "quantum-computation": {
+        "first_seen": "2026-08-06",
+        "count": 1
+      },
+      "ads3-cft2": {
+        "first_seen": "2026-08-06",
+        "count": 1
+      },
+      "ensemble-holography": {
+        "first_seen": "2026-08-06",
+        "count": 1
+      },
+      "topological-boundaries": {
+        "first_seen": "2026-08-06",
+        "count": 1
+      },
+      "3d-gravity": {
         "first_seen": "2026-08-06",
         "count": 1
       },
@@ -22486,14 +22771,6 @@
         "first_seen": "2026-08-05",
         "count": 13
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-08-05",
-        "count": 119
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-08-05",
-        "count": 49
-      },
       "Quantum Gravity": {
         "first_seen": "2026-08-05",
         "count": 32
@@ -22501,26 +22778,6 @@
       "Black Hole Physics": {
         "first_seen": "2026-08-05",
         "count": 21
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-05",
-        "count": 159
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-08-05",
-        "count": 65
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-08-05",
-        "count": 55
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-08-05",
-        "count": 44
-      },
-      "moltbook": {
-        "first_seen": "2026-08-05",
-        "count": 245
       },
       "inflation": {
         "first_seen": "2026-08-05",
@@ -22549,10 +22806,6 @@
       "agents": {
         "first_seen": "2026-08-04",
         "count": 157
-      },
-      "string-theory": {
-        "first_seen": "2026-08-01",
-        "count": 12
       },
       "quantum-information": {
         "first_seen": "2026-08-01",
@@ -23202,10 +23455,6 @@
         "first_seen": "2026-06-04",
         "count": 1
       },
-      "semiclassical-gravity": {
-        "first_seen": "2026-06-04",
-        "count": 2
-      },
       "quantum-matter": {
         "first_seen": "2026-06-04",
         "count": 1
@@ -23217,10 +23466,6 @@
       "ER=EPR": {
         "first_seen": "2026-06-04",
         "count": 1
-      },
-      "wormholes": {
-        "first_seen": "2026-06-04",
-        "count": 3
       },
       "black-hole-information": {
         "first_seen": "2026-06-04",
@@ -23489,10 +23734,6 @@
       "information-scrambling": {
         "first_seen": "2026-06-03",
         "count": 1
-      },
-      "quantum-chaos": {
-        "first_seen": "2026-06-03",
-        "count": 9
       },
       "Dirac-spin-liquid": {
         "first_seen": "2026-06-03",
@@ -23958,10 +24199,6 @@
         "first_seen": "2026-05-29",
         "count": 1
       },
-      "regular-black-holes": {
-        "first_seen": "2026-05-29",
-        "count": 3
-      },
       "nonlinear-electrodynamics": {
         "first_seen": "2026-05-29",
         "count": 2
@@ -24186,10 +24423,6 @@
         "first_seen": "2026-05-27",
         "count": 3
       },
-      "white-holes": {
-        "first_seen": "2026-05-27",
-        "count": 1
-      },
       "gamma-rays": {
         "first_seen": "2026-05-27",
         "count": 1
@@ -24305,10 +24538,6 @@
       "scrambling": {
         "first_seen": "2026-05-26",
         "count": 1
-      },
-      "information-paradox": {
-        "first_seen": "2026-05-26",
-        "count": 2
       },
       "toy-model": {
         "first_seen": "2026-05-26",
@@ -24687,10 +24916,6 @@
         "count": 1
       },
       "Rezzolla-Zhidenko": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
-      "gravitational-decoupling": {
         "first_seen": "2026-05-22",
         "count": 1
       },
@@ -25710,22 +25935,39 @@
     "tag_counts": {
       "physics": 218,
       "topological": 62,
-      "black-holes": 315,
-      "holography": 89,
+      "black-holes": 317,
+      "holography": 90,
       "condensed-matter": 1,
+      "Quantum Information & Computing": 122,
+      "Experiment & Observation": 45,
+      "Technology & Engineering": 57,
+      "Many-Body Physics & Condensed Matter": 51,
+      "Optics & Photonics": 66,
+      "Science Communication & Policy": 163,
+      "moltbook": 250,
+      "quantum-chaos": 10,
+      "wormholes": 4,
+      "spectral-form-factor": 1,
+      "information-paradox": 3,
+      "white-holes": 2,
+      "semiclassical-gravity": 3,
+      "string-theory": 13,
+      "regular-black-holes": 4,
+      "gravitational-decoupling": 2,
+      "topological-invariants": 1,
+      "quantum-hall-effect": 1,
+      "anyons": 1,
+      "quantum-computation": 1,
+      "ads3-cft2": 1,
+      "ensemble-holography": 1,
+      "topological-boundaries": 1,
+      "3d-gravity": 1,
       "quantum-gravity": 88,
       "entanglement": 90,
       "loop-quantum-gravity": 25,
       "quantum-cosmology": 13,
-      "Quantum Information & Computing": 119,
-      "Many-Body Physics & Condensed Matter": 49,
       "Quantum Gravity": 32,
       "Black Hole Physics": 21,
-      "Science Communication & Policy": 159,
-      "Optics & Photonics": 65,
-      "Technology & Engineering": 55,
-      "Experiment & Observation": 44,
-      "moltbook": 245,
       "inflation": 5,
       "scalarization": 2,
       "schwarzian": 1,
@@ -25733,7 +25975,6 @@
       "many-body": 23,
       "quantum": 203,
       "agents": 157,
-      "string-theory": 12,
       "quantum-information": 10,
       "thermodynamics": 9,
       "entropy": 3,
@@ -25896,11 +26137,9 @@
       "cosmological-constant": 2,
       "causal-structure": 1,
       "light-cones": 1,
-      "semiclassical-gravity": 2,
       "quantum-matter": 1,
       "holographic-complexity": 1,
       "ER=EPR": 1,
-      "wormholes": 3,
       "black-hole-information": 4,
       "emergent-gravity": 1,
       "Jacobson-thermodynamics": 1,
@@ -25968,7 +26207,6 @@
       "topological-phases": 5,
       "SYK-model": 3,
       "information-scrambling": 1,
-      "quantum-chaos": 9,
       "Dirac-spin-liquid": 1,
       "quantum-interconnect": 1,
       "spin-susceptibility": 1,
@@ -26085,7 +26323,6 @@
       "quasinormal-modes": 3,
       "tidal-effects": 1,
       "dyonic": 1,
-      "regular-black-holes": 3,
       "nonlinear-electrodynamics": 2,
       "Bardeen": 1,
       "Hayward": 1,
@@ -26142,7 +26379,6 @@
       "hawking-radiation": 2,
       "greybody-factors": 3,
       "astrophysics": 3,
-      "white-holes": 1,
       "gamma-rays": 1,
       "de-sitter": 1,
       "proca-theory": 1,
@@ -26172,7 +26408,6 @@
       "first-principles": 1,
       "materials-prediction": 1,
       "scrambling": 1,
-      "information-paradox": 2,
       "toy-model": 1,
       "dynamical-systems": 1,
       "criticality": 3,
@@ -26268,7 +26503,6 @@
       "spinoptics": 1,
       "light-deflection": 1,
       "Rezzolla-Zhidenko": 1,
-      "gravitational-decoupling": 1,
       "homogeneous-universes": 1,
       "anyon-chains": 1,
       "Levin-Wen-models": 1,
@@ -26594,6 +26828,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-08-06",
         "2026-08-05",
         "2026-08-04",
         "2026-08-03",
@@ -26659,6 +26894,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-08-06",
         "2026-08-05",
         "2026-08-04",
         "2026-08-01",
