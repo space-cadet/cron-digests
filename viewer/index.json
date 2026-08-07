@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T07:07:53.437Z",
+  "generated": "2026-08-07T08:02:21.752Z",
   "digests": [
     {
       "date": "2026-08-07",
@@ -307,6 +307,51 @@
           "relevance": "Medium — New experimental results that may constrain theoretical models",
           "tags": [
             "Experiment & Observation"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-08-07",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "IBM Acquires HRL Laboratories for Quantum Computing (July 23, 2026)",
+          "source": "Source:",
+          "url": "https://newsroom.ibm.com/2026-07-23-ibm-to-acquire-hrl-laboratories-to-power-the-future-of-quantum",
+          "summary": "IBM acquiring HRL Labs (Boeing/GM joint venture) to bolster silicon-spin qubit engineering. Roadmap: IBM Quantum Starling by 2029 (20,000x more powerful, 100M quantum operations), followed by more powerful Starling in mid-2030s.",
+          "relevance": "Major consolidation in quantum hardware. HRL's expertise in cryogenics, control electronics, qubit interconnects could accelerate practical quantum computing. Relevant to Deepak's interest in quantum computing and quantum gravity.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "LQG Reformulation: Spacetime from Matter Fields (Feb 2026)",
+          "source": "Source:",
+          "url": "https://quantumzeitgeist.com/quantum-loop-gravity-redefined-spacetime-built/",
+          "summary": "Proposal to reformulate LQG by defining spacetime geometry exclusively through matter fields using Penrose's combinatorial spacetime concept. Moves away from \"pure spacetime\" Einstein-Hilbert action. Introduces Regge-like discretization with curvature at interaction vertices.",
+          "relevance": "Directly relevant to Deepak's LQG background. The idea of deriving spacetime from matter rather than treating it as fundamental is a conceptual shift. Also mentions exploring renormalization group evolution of matter spin networks.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Loops'26 Conference Recap (May 2026, Hangzhou)",
+          "source": "Source:",
+          "url": "https://hyperspace.uni-frankfurt.de/2026/01/07/loops-26-international-conference-on-quantum-gravity-hangzhou-china/",
+          "summary": "40th anniversary of LQG field. Conference covered canonical/covariant LQG, black hole and cosmological applications. Summer school in Yangzhou (May 10-22) for early-career researchers.",
+          "relevance": "Deepak's primary field is active and convening. Good to know the community is thriving 40 years in.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents"
           ]
         }
       ]
@@ -22946,8 +22991,8 @@
     }
   ],
   "stats": {
-    "total_digests": 204,
-    "total_entries": 1600,
+    "total_digests": 205,
+    "total_entries": 1603,
     "unique_tags": {
       "quantum-gravity": {
         "first_seen": "2026-08-07",
@@ -22997,6 +23042,18 @@
         "first_seen": "2026-08-07",
         "count": 164
       },
+      "moltbook": {
+        "first_seen": "2026-08-07",
+        "count": 253
+      },
+      "quantum": {
+        "first_seen": "2026-08-07",
+        "count": 206
+      },
+      "agents": {
+        "first_seen": "2026-08-07",
+        "count": 158
+      },
       "physics": {
         "first_seen": "2026-08-06",
         "count": 218
@@ -23008,10 +23065,6 @@
       "condensed-matter": {
         "first_seen": "2026-08-06",
         "count": 1
-      },
-      "moltbook": {
-        "first_seen": "2026-08-06",
-        "count": 250
       },
       "quantum-chaos": {
         "first_seen": "2026-08-06",
@@ -23108,14 +23161,6 @@
       "many-body": {
         "first_seen": "2026-08-04",
         "count": 23
-      },
-      "quantum": {
-        "first_seen": "2026-08-04",
-        "count": 203
-      },
-      "agents": {
-        "first_seen": "2026-08-04",
-        "count": 157
       },
       "quantum-information": {
         "first_seen": "2026-08-01",
@@ -26255,10 +26300,12 @@
       "Quantum Information & Computing": 125,
       "Optics & Photonics": 70,
       "Science Communication & Policy": 164,
+      "moltbook": 253,
+      "quantum": 206,
+      "agents": 158,
       "physics": 218,
       "holography": 90,
       "condensed-matter": 1,
-      "moltbook": 250,
       "quantum-chaos": 10,
       "wormholes": 4,
       "spectral-form-factor": 1,
@@ -26283,8 +26330,6 @@
       "schwarzian": 1,
       "gravastars": 1,
       "many-body": 23,
-      "quantum": 203,
-      "agents": 157,
       "quantum-information": 10,
       "thermodynamics": 9,
       "entropy": 3,
@@ -27206,6 +27251,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-08-07",
         "2026-08-06",
         "2026-08-05",
         "2026-08-04",
