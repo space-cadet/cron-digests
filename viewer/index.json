@@ -1,6 +1,196 @@
 {
-  "generated": "2026-08-07T08:02:21.752Z",
+  "generated": "2026-08-08T01:45:45.931Z",
   "digests": [
+    {
+      "date": "2026-08-08",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-08",
+      "categories": "gr-qc, hep-th, quant-ph, astro-ph.CO, cond-mat.stat-mech, cond-mat.str-el, hep-ph, math-ph",
+      "items_found": 12,
+      "focus": "quantum gravity, black hole thermodynamics, loop quantum cosmology, inflation, entanglement, topological order",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Information--Theoretic Black Hole Entropy II: Infrared Gravity and Charged/Rotating Extensions",
+          "authors": "Alex Kehagias",
+          "arxiv_id": "2608.05801",
+          "url": "https://arxiv.org/abs/2608.05801",
+          "categories": "hep-th, gr-qc, hep-ph",
+          "summary": "Building on a recently proposed information-theoretic entropy formula that resolves the tension between the Bekenstein-Hawking area law and the third law of thermodynamics, this work embeds the construction into a gravitational effective field theory. By deforming General Relativity in the infrared, the author shows that the information-theoretic entropy and temperature emerge naturally from a Wald entropy calculation at linear order. The deformation introduces a small positive cosmological constant tied to the large microscopic parameter $N$, offering a potential link between black hole microphysics and dark energy. The extension to charged and rotating black holes via the irreducible mass reveals a striking distinction: geometric extremality (where the horizon area formally vanishes) decouples from the statistical freezing point where entropy hits a universal floor—suggesting that quantum information constraints may be more fundamental than classical geometry near extremality.",
+          "relevance": "This is a direct follow-up to yesterday's digest entry on information-theoretic black hole entropy, extending it to realistic Kerr-Newman black holes and providing an explicit gravitational action that reproduces the entropy formula. For LQG and quantum gravity researchers, the idea that entropy arises from relative information (Kullback-Leibler divergence) rather than state counting resonates with recent holographic and informational approaches to spacetime. The decoupling of geometric and statistical extremality is particularly provocative.",
+          "tags": [
+            "Black Hole Thermodynamics",
+            "Quantum Gravity",
+            "Holography"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The Quantum Mechanics of Rare Events: From Quantum Walks to Stochastic Inflation",
+          "authors": "Daniel Green, Kshitij Gupta, Akhil Premkumar",
+          "arxiv_id": "2608.06319",
+          "url": "https://arxiv.org/abs/2608.06319",
+          "categories": "quant-ph, astro-ph.CO, hep-th, gr-qc, hep-ph",
+          "summary": "The authors develop a practical framework for quantum large deviation theory, bridging statistical mechanics and open quantum systems. Using the anharmonic oscillator as a testbed, they track how fluctuations cross over from thermal/statistical dominance to genuinely quantum behavior. The key insight is that rare quantum fluctuations are governed by minimization of measurement-induced relative entropy, yielding a thermodynamic description of non-equilibrium quantum processes. Applied to stochastic inflation in de Sitter space, the formalism reveals that long-wavelength modes evolve into a non-KMS stationary state that violates detailed balance—a signature that quantum cosmological fluctuations cannot be fully captured by classical stochastic methods.",
+          "relevance": "The cosmological application directly addresses how quantum effects in the early universe (during inflation) deviate from classical stochastic approximations. For quantum gravity researchers, the breakdown of KMS symmetry and detailed balance in de Sitter space has implications for understanding the quantum nature of spacetime and the emergence of classical cosmology from quantum foundations.",
+          "tags": [
+            "Quantum Cosmology",
+            "Stochastic Inflation",
+            "Open Quantum Systems"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Asymmetric Quantum Oppenheimer-Snyder Collapse",
+          "authors": "Michał Bobula, Tomasz Pawłowski",
+          "arxiv_id": "2608.05818",
+          "url": "https://arxiv.org/abs/2608.05818",
+          "categories": "hep-th, gr-qc",
+          "summary": "This paper presents the first fully dynamical model of regular black hole formation within loop quantum cosmology (LQC). By studying the collapse of a dust ball using LQC-modified Lemaître-Tolman-Bondi dynamics, the authors find that the interior undergoes a quantum bounce (de Sitter-like expansion) while the exterior remains in gravitational collapse. This mismatch creates a physical shock at the boundary—a discontinuity in extrinsic curvature despite a continuous metric. Remarkably, the resulting spacetime is geodesically complete, avoiding the classical singularity and establishing a concrete realization of regular black hole formation from first principles in LQC.",
+          "relevance": "This is a landmark result for loop quantum gravity and quantum cosmology. It provides the first complete, dynamical regular black hole formation scenario within LQC, showing how quantum geometry effects resolve singularities while maintaining a well-defined causal structure. The shock-wave formation at the matching surface is a novel prediction that could have observational consequences. For Deepak's interests in LQG, black holes, and quantum gravity phenomenology, this is a must-read.",
+          "tags": [
+            "Loop Quantum Gravity",
+            "Black Holes",
+            "Regular Black Holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Integrable Models of Inflation Beyond Slow-Roll",
+          "authors": "M. Bianchi, G. Dibitetto, J.F. Morales, V. Zevola",
+          "arxiv_id": "2608.06071",
+          "url": "https://arxiv.org/abs/2608.06071",
+          "categories": "hep-th, gr-qc, astro-ph.CO",
+          "summary": "The authors introduce a powerful integrability technique for cosmological dynamics by encoding multi-component fluids into a single scalar field potential expressed through a fake superpotential $H(\\phi)$. This first-order formulation unifies Big Bang cosmology, inflation, and dark energy models under one framework. Going beyond the slow-roll approximation, they solve the Mukhanov-Sasaki equations analytically and numerically to compute primordial power spectra, spectral indices, and the tensor-to-scalar ratio. The method yields exact or semi-exact results that can be directly compared with Planck and BICEP/Keck observational constraints without relying on slow-roll approximations.",
+          "relevance": "The connection between quantum gravity and early universe cosmology is a major research direction. This integrability approach provides exact analytical control over inflationary dynamics, which could be valuable for connecting quantum gravity corrections (such as those from LQG or string theory) to observable CMB signatures. The beyond-slow-roll calculations are particularly important for testing quantum gravitational effects on primordial perturbations.",
+          "tags": [
+            "Inflation",
+            "Cosmological Perturbations",
+            "Early Universe"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Charged Penrose Extraction in RN--AdS Black Holes with Dark Energy: Ergosphere Geometry and Rigorous Efficiency Bounds",
+          "authors": "Anirudh Pradhan, K. Ghaderi, M. Zeyauddin",
+          "arxiv_id": "2608.05641",
+          "url": "https://arxiv.org/abs/2608.05641",
+          "categories": "gr-qc",
+          "summary": "The authors provide a rigorous mathematical framework for charge-assisted Penrose energy extraction from Reissner-Nordström-AdS black holes embedded in a Kiselev dark energy environment. They prove uniqueness theorems for the ergosphere boundary and negative-energy turning points, derive concrete efficiency bounds, and establish adiabatic evolution laws for slowly varying mass and charge. The work systematically separates kinematic extraction limits from dynamical backreaction and radiative losses, offering a clean theoretical laboratory for studying energy extraction in astrophysically relevant black hole configurations.",
+          "relevance": "Black hole thermodynamics and energy extraction processes are central to quantum gravity. The Penrose process provides a classical analog for understanding Hawking radiation and black hole evaporation. The inclusion of dark energy (via the Kiselev model) makes this relevant for understanding black hole physics in our observed accelerating universe. The rigorous bounds derived here could inform studies of black hole engines and quantum information extraction.",
+          "tags": [
+            "Black Holes",
+            "Energy Extraction",
+            "Dark Energy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Scalar Hair at the String-Black-Hole Correspondence",
+          "authors": "Eliseo Pavone",
+          "arxiv_id": "2608.06016",
+          "url": "https://arxiv.org/abs/2608.06016",
+          "categories": "hep-th, gr-qc, math-ph",
+          "summary": "This work explores the relationship between string theory and black hole physics through the lens of scalar hair. Using the $SL(2,\\mathbb{R})$ symmetry of the axion-dilaton system, the author maps out the complete family of static hairy black holes in tree-level string effective action. A key finding is that when applying the string-black-hole correspondence criterion—matching black hole curvature to the typical size of highly excited string states—all scalar-haired branches lie above the $\\alpha'$ control threshold, unlike Schwarzschild which sits exactly at the boundary. This suggests that purely gravitational black holes (Schwarzschild) are uniquely ``critical'' in the string correspondence, while hairy solutions generically require stronger curvature corrections.",
+          "relevance": "The string-black-hole correspondence is a foundational conjecture linking classical gravity to string theory. This work refines our understanding of where hairy black holes fit in this correspondence, with direct implications for quantum gravity. The $SL(2,\\mathbb{R})$ orbit structure and charge space characterization provide concrete tools for further investigations in string-inspired quantum gravity.",
+          "tags": [
+            "String Theory",
+            "Black Holes",
+            "Quantum Gravity"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Approximate Quantum Error Correction at Chiral Topological Edges",
+          "authors": "Yuntai Song, Zejun Liu, Zhencheng Wang, Jong Yeon Lee, Bowen Shi",
+          "arxiv_id": "2608.06258",
+          "url": "https://arxiv.org/abs/2608.06258",
+          "categories": "quant-ph, hep-th, cond-mat.str-el",
+          "summary": "This paper proposes a novel quantum error-correcting architecture that leverages the chiral edges of 2D topological phases. Unlike previous CFT-based codes that require fine-tuning to criticality, this construction benefits from the intrinsic robustness of a gapped topological bulk while using the gapless edge CFT for encoding. The authors prove that coherent-information loss under local erasure scales as a power law with the erasure size, and derive an exact relation between information loss and relative entropy of the edge theory. For geometrically local erasures, the 2D edge code outperforms its dimensionally reduced CFT counterpart. Numerical lattice simulations for free boson and Ising CFT edges confirm the predicted power-law exponents.",
+          "relevance": "Quantum error correction is essential for quantum computing and has deep connections to quantum gravity via the AdS/CFT correspondence and holographic entanglement. The use of topological edge states as natural error-correcting codes bridges condensed matter physics and quantum information theory. For researchers interested in the quantum information foundations of spacetime, this provides a concrete physical realization of approximate quantum error correction with rigorously characterized robustness.",
+          "tags": [
+            "Quantum Error Correction",
+            "Topological Order",
+            "Conformal Field Theory"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Self-dual $S_3$ gauge theory in 2+1d: lattice model and topological phase transitions",
+          "authors": "Da-Chuan Lu, Chong Wang, Ashvin Vishwanath",
+          "arxiv_id": "2608.05294",
+          "url": "https://arxiv.org/abs/2608.05294",
+          "categories": "quant-ph, hep-th, cond-mat.str-el",
+          "summary": "The authors achieve a breakthrough in non-Abelian topological phases by constructing the first lattice model with exact electric-magnetic self-duality for a non-Abelian gauge group ($S_3$). The key construction maps lattice translations to anyon-permutation symmetry, exchanging chargeons and fluxons. The model's zigzag boundary hosts a gapless tetracritical Ising CFT without fine-tuning. Three independent analytical tools—anyon condensation, lattice Hamiltonians, and Chern-Simons-Higgs theory—converge on the same phase diagram, revealing a minimal-condensation principle where bosonic anyon proliferation drives condensation of the smallest algebra containing it. The construction generalizes to all dihedral groups and is sign-problem-free, enabling quantum Monte Carlo studies.",
+          "relevance": "Non-Abelian topological phases and anyon braiding are central to topological quantum computing and have connections to 3D quantum gravity through the Turaev-Viro and Crane-Yetter models. The exact self-duality on the lattice provides a rare analytically controlled setting for studying non-Abelian Chern-Simons-Higgs theories, which appear in fractional quantum Hall physics and potentially in quantum spacetime models.",
+          "tags": [
+            "Topological Order",
+            "Non-Abelian Anyons",
+            "Lattice Gauge Theory"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Corrections to the Unruh Effect from Robin Boundary Conditions in Punctured Minkowski Spacetime",
+          "authors": "Nickolas P. Botta, João Paulo M. Pitelli, Ricardo A. Mosna",
+          "arxiv_id": "2608.04705",
+          "url": "https://arxiv.org/abs/2608.04705",
+          "categories": "hep-th, gr-qc",
+          "summary": "This paper studies how a topological defect (punctured spacetime with Robin boundary conditions) modifies the Unruh effect experienced by an accelerated detector. The puncture breaks Lorentz boost symmetry, rendering the detector response non-stationary in proper time. Remarkably, the authors prove that for generic Robin parameters the boundary-induced contribution remains finite and bounded as the interaction duration grows, neither enhancing nor suppressing the thermal response in a sustained way. However, the Neumann limit ($\\beta \\to \\infty$) is singular due to an infrared divergence in the $s$-wave sector, causing logarithmic growth in the two-point function. This establishes a sharp distinction between generic Robin conditions and the Neumann case for Unruh physics in topologically non-trivial backgrounds.",
+          "relevance": "The Unruh effect is a cornerstone of quantum field theory in curved spacetime and has deep connections to Hawking radiation and the black hole information paradox. Understanding how topological defects and boundary conditions modify Unruh radiation is essential for modeling realistic quantum field theory in non-trivial spacetimes, including those with conical singularities or cosmic strings.",
+          "tags": [
+            "Quantum Field Theory in Curved Spacetime",
+            "Unruh Effect",
+            "Topological Defects"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Measurement-induced entanglement Hamiltonian",
+          "authors": "Viktor Eisler, Erik Tonni",
+          "arxiv_id": "2608.06006",
+          "url": "https://arxiv.org/abs/2608.06006",
+          "categories": "quant-ph, hep-th, cond-mat.stat-mech",
+          "summary": "The authors investigate how projective measurements modify the entanglement Hamiltonian of a free fermion chain. Using conformal mapping and gauge transformations, they show that post-measurement entanglement is described by a spatially varying temperature profile that vanishes as a square root near the measurement boundaries, independent of the measurement outcome. However, the local chemical potential directly encodes the measurement-induced charge density, meaning the full entanglement Hamiltonian captures more information about the measurement than the entropy alone. This reveals a rich structure in how local measurements reshape quantum correlations in critical systems.",
+          "relevance": "Entanglement Hamiltonians are increasingly recognized as fundamental objects connecting quantum information, conformal field theory, and holography. The Ryu-Takayanagi formula and its quantum extensions relate spacetime geometry to entanglement structure. Understanding how measurements alter entanglement Hamiltonians provides insights into measurement-induced phase transitions and the interplay between quantum information and spacetime geometry.",
+          "tags": [
+            "Entanglement",
+            "Conformal Field Theory",
+            "Quantum Measurements"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Relative entropy of entanglement of Haar random states",
+          "authors": "Takato Mori, Beni Yoshida",
+          "arxiv_id": "2608.05274",
+          "url": "https://arxiv.org/abs/2608.05274",
+          "categories": "quant-ph, hep-th",
+          "summary": "The authors solve exactly for the relative entropy of entanglement of a bipartite mixed state obtained by tracing out a subsystem from a Haar-random tripartite pure state. The result takes a remarkably simple universal form: $E_R \\approx \\log(d_A d_B / \\max(d_A, d_B, d_C))$, valid up to an additive constant. This shows that the relative entropy of entanglement essentially saturates the minimum of the entanglement of formation and the mutual information. The achievability of the bound is demonstrated through an explicit separable state constructed via one-sided Schmidt dephasing, providing both an exact formula and an operational understanding of entanglement in typical high-dimensional quantum states.",
+          "relevance": "Haar-random states are the canonical ensemble in quantum information theory and appear naturally in holographic contexts through the Page curve and black hole evaporation. The exact formula for entanglement measures of random states provides a benchmark for understanding typical entanglement in quantum gravity, where random tensor networks and typical states play a central role in the quantum information approach to spacetime.",
+          "tags": [
+            "Quantum Information",
+            "Entanglement",
+            "Random Matrix Theory"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Holographic entanglement entropy with conformal boundary conditions",
+          "authors": "Elena Cáceres, Hare Krishna, Harita Palani Balaji, Vaishnavi Patil",
+          "arxiv_id": "2608.06277",
+          "url": "https://arxiv.org/abs/2608.06277",
+          "categories": "hep-th",
+          "summary": "The authors generalize the Ryu-Takayanagi holographic entanglement entropy formula to AdS$_3$ gravity with conformal boundary conditions that fix the extrinsic curvature $K$ but leave the Weyl mode dynamical. Despite the boundary metric fluctuations, the minimal surface prescription survives unscathed—the Weyl mode contributes no additional entropy. For thermal states, the effective central charge $c_{\\rm eff}$ that governs entanglement matches the one appearing in the Cardy-like density of states. The boundary theory—a holographic CFT coupled to timelike Liouville theory with a $T\\bar{T}$-like deformation—independently reproduces the same entanglement entropy formula, providing a nontrivial consistency check of the duality and clarifying that the vacuum state of this deformed boundary theory is not the standard global AdS dual.",
+          "relevance": "Holographic entanglement entropy is one of the most profound connections between quantum information and gravity. This work extends the Ryu-Takayanagi formula to a new class of boundary conditions and connects the bulk geometric prescription to a specific deformed boundary CFT, advancing our understanding of how boundary conditions in quantum gravity are encoded in the dual field theory.",
+          "tags": [
+            "Holography",
+            "Entanglement Entropy",
+            "AdS/CFT"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-07",
       "type": "arxiv",
@@ -22991,9 +23181,125 @@
     }
   ],
   "stats": {
-    "total_digests": 205,
-    "total_entries": 1603,
+    "total_digests": 206,
+    "total_entries": 1615,
     "unique_tags": {
+      "Black Hole Thermodynamics": {
+        "first_seen": "2026-08-08",
+        "count": 7
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-08-08",
+        "count": 34
+      },
+      "Holography": {
+        "first_seen": "2026-08-08",
+        "count": 5
+      },
+      "Quantum Cosmology": {
+        "first_seen": "2026-08-08",
+        "count": 6
+      },
+      "Stochastic Inflation": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Open Quantum Systems": {
+        "first_seen": "2026-08-08",
+        "count": 2
+      },
+      "Loop Quantum Gravity": {
+        "first_seen": "2026-08-08",
+        "count": 5
+      },
+      "Black Holes": {
+        "first_seen": "2026-08-08",
+        "count": 6
+      },
+      "Regular Black Holes": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Inflation": {
+        "first_seen": "2026-08-08",
+        "count": 3
+      },
+      "Cosmological Perturbations": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Early Universe": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Energy Extraction": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Dark Energy": {
+        "first_seen": "2026-08-08",
+        "count": 4
+      },
+      "String Theory": {
+        "first_seen": "2026-08-08",
+        "count": 2
+      },
+      "Quantum Error Correction": {
+        "first_seen": "2026-08-08",
+        "count": 2
+      },
+      "Topological Order": {
+        "first_seen": "2026-08-08",
+        "count": 5
+      },
+      "Conformal Field Theory": {
+        "first_seen": "2026-08-08",
+        "count": 2
+      },
+      "Non-Abelian Anyons": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Lattice Gauge Theory": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Quantum Field Theory in Curved Spacetime": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Unruh Effect": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Topological Defects": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Entanglement": {
+        "first_seen": "2026-08-08",
+        "count": 4
+      },
+      "Quantum Measurements": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Quantum Information": {
+        "first_seen": "2026-08-08",
+        "count": 4
+      },
+      "Random Matrix Theory": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "Entanglement Entropy": {
+        "first_seen": "2026-08-08",
+        "count": 1
+      },
+      "AdS/CFT": {
+        "first_seen": "2026-08-08",
+        "count": 5
+      },
       "quantum-gravity": {
         "first_seen": "2026-08-07",
         "count": 90
@@ -23133,10 +23439,6 @@
       "quantum-cosmology": {
         "first_seen": "2026-08-05",
         "count": 13
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-08-05",
-        "count": 32
       },
       "Black Hole Physics": {
         "first_seen": "2026-08-05",
@@ -24170,10 +24472,6 @@
         "first_seen": "2026-06-02",
         "count": 2
       },
-      "Dark Energy": {
-        "first_seen": "2026-06-02",
-        "count": 3
-      },
       "Earth Science": {
         "first_seen": "2026-06-02",
         "count": 2
@@ -24209,10 +24507,6 @@
       "Aerospace": {
         "first_seen": "2026-06-02",
         "count": 1
-      },
-      "Black Holes": {
-        "first_seen": "2026-06-02",
-        "count": 3
       },
       "Galaxy Evolution": {
         "first_seen": "2026-06-02",
@@ -25546,10 +25840,6 @@
         "first_seen": "2026-05-20",
         "count": 1
       },
-      "Inflation": {
-        "first_seen": "2026-05-20",
-        "count": 2
-      },
       "Mass-Varying Neutrinos": {
         "first_seen": "2026-05-20",
         "count": 1
@@ -25557,10 +25847,6 @@
       "Quantum Bounce": {
         "first_seen": "2026-05-20",
         "count": 1
-      },
-      "Black Hole Thermodynamics": {
-        "first_seen": "2026-05-20",
-        "count": 6
       },
       "Decoherence": {
         "first_seen": "2026-05-20",
@@ -25570,14 +25856,6 @@
         "first_seen": "2026-05-20",
         "count": 1
       },
-      "Quantum Information": {
-        "first_seen": "2026-05-20",
-        "count": 3
-      },
-      "Entanglement": {
-        "first_seen": "2026-05-20",
-        "count": 2
-      },
       "Quasinormal Modes": {
         "first_seen": "2026-05-20",
         "count": 2
@@ -25585,10 +25863,6 @@
       "Black Hole Perturbation": {
         "first_seen": "2026-05-20",
         "count": 2
-      },
-      "AdS/CFT": {
-        "first_seen": "2026-05-20",
-        "count": 4
       },
       "Proca Fields": {
         "first_seen": "2026-05-20",
@@ -25637,10 +25911,6 @@
       "Kitaev Model": {
         "first_seen": "2026-05-20",
         "count": 1
-      },
-      "Topological Order": {
-        "first_seen": "2026-05-20",
-        "count": 3
       },
       "Spin Liquid": {
         "first_seen": "2026-05-20",
@@ -25747,10 +26017,6 @@
         "count": 1
       },
       "Hydrodynamics": {
-        "first_seen": "2026-05-20",
-        "count": 1
-      },
-      "Quantum Error Correction": {
         "first_seen": "2026-05-20",
         "count": 1
       },
@@ -25862,14 +26128,6 @@
         "first_seen": "2026-05-20",
         "count": 1
       },
-      "Loop Quantum Gravity": {
-        "first_seen": "2026-05-19",
-        "count": 4
-      },
-      "Quantum Cosmology": {
-        "first_seen": "2026-05-19",
-        "count": 5
-      },
       "Neural Quantum States": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -25945,10 +26203,6 @@
       "Functional Renormalization Group": {
         "first_seen": "2026-05-19",
         "count": 2
-      },
-      "Holography": {
-        "first_seen": "2026-05-19",
-        "count": 3
       },
       "Emergent Geometry": {
         "first_seen": "2026-05-19",
@@ -26134,10 +26388,6 @@
         "first_seen": "2026-05-18",
         "count": 2
       },
-      "Open Quantum Systems": {
-        "first_seen": "2026-05-18",
-        "count": 1
-      },
       "Quantum Chemistry": {
         "first_seen": "2026-05-18",
         "count": 1
@@ -26226,10 +26476,6 @@
         "first_seen": "2026-05-15",
         "count": 1
       },
-      "String Theory": {
-        "first_seen": "2026-05-15",
-        "count": 1
-      },
       "Condensed Matter": {
         "first_seen": "2026-05-15",
         "count": 2
@@ -26288,6 +26534,35 @@
       }
     },
     "tag_counts": {
+      "Black Hole Thermodynamics": 7,
+      "Quantum Gravity": 34,
+      "Holography": 5,
+      "Quantum Cosmology": 6,
+      "Stochastic Inflation": 1,
+      "Open Quantum Systems": 2,
+      "Loop Quantum Gravity": 5,
+      "Black Holes": 6,
+      "Regular Black Holes": 1,
+      "Inflation": 3,
+      "Cosmological Perturbations": 1,
+      "Early Universe": 1,
+      "Energy Extraction": 1,
+      "Dark Energy": 4,
+      "String Theory": 2,
+      "Quantum Error Correction": 2,
+      "Topological Order": 5,
+      "Conformal Field Theory": 2,
+      "Non-Abelian Anyons": 1,
+      "Lattice Gauge Theory": 1,
+      "Quantum Field Theory in Curved Spacetime": 1,
+      "Unruh Effect": 1,
+      "Topological Defects": 1,
+      "Entanglement": 4,
+      "Quantum Measurements": 1,
+      "Quantum Information": 4,
+      "Random Matrix Theory": 1,
+      "Entanglement Entropy": 1,
+      "AdS/CFT": 5,
       "quantum-gravity": 90,
       "black-holes": 329,
       "entanglement": 91,
@@ -26323,7 +26598,6 @@
       "topological-boundaries": 1,
       "3d-gravity": 1,
       "quantum-cosmology": 13,
-      "Quantum Gravity": 32,
       "Black Hole Physics": 21,
       "inflation": 5,
       "scalarization": 2,
@@ -26582,7 +26856,6 @@
       "Paleontology": 1,
       "Evolutionary Biology": 1,
       "Space Telescopes": 2,
-      "Dark Energy": 3,
       "Earth Science": 2,
       "Climate": 1,
       "Space Missions": 1,
@@ -26592,7 +26865,6 @@
       "Nanotechnology": 1,
       "Fluid Dynamics": 1,
       "Aerospace": 1,
-      "Black Holes": 3,
       "Galaxy Evolution": 1,
       "Exoplanets": 1,
       "Astrobiology": 1,
@@ -26926,17 +27198,12 @@
       "SPDC": 1,
       "sunlight": 1,
       "Loop Quantum Cosmology": 1,
-      "Inflation": 2,
       "Mass-Varying Neutrinos": 1,
       "Quantum Bounce": 1,
-      "Black Hole Thermodynamics": 6,
       "Decoherence": 1,
       "Horizon Physics": 1,
-      "Quantum Information": 3,
-      "Entanglement": 2,
       "Quasinormal Modes": 2,
       "Black Hole Perturbation": 2,
-      "AdS/CFT": 4,
       "Proca Fields": 1,
       "Maxwell Fields": 1,
       "Higher Dimensions": 1,
@@ -26949,7 +27216,6 @@
       "Many-Body States": 1,
       "Quantum Control": 1,
       "Kitaev Model": 1,
-      "Topological Order": 3,
       "Spin Liquid": 1,
       "Deformation Engineering": 1,
       "Chern Number": 1,
@@ -26977,7 +27243,6 @@
       "Group Field Theory": 1,
       "Emergent Spacetime": 1,
       "Hydrodynamics": 1,
-      "Quantum Error Correction": 1,
       "BCH Codes": 1,
       "Fault-Tolerant Quantum Computing": 1,
       "Ancilla Preparation": 1,
@@ -27005,8 +27270,6 @@
       "Radio Astronomy": 1,
       "AI & Machine Learning": 2,
       "Computational Chemistry": 1,
-      "Loop Quantum Gravity": 4,
-      "Quantum Cosmology": 5,
       "Neural Quantum States": 1,
       "Coherent States": 1,
       "Semiclassical Limit": 1,
@@ -27026,7 +27289,6 @@
       "Modified Gravity": 2,
       "Quantum Uncertainty": 1,
       "Functional Renormalization Group": 2,
-      "Holography": 3,
       "Emergent Geometry": 1,
       "Ricci Flow": 1,
       "Information Geometry": 1,
@@ -27073,7 +27335,6 @@
       "Surface Code": 1,
       "Neutral Atoms": 1,
       "Quantum Simulation": 2,
-      "Open Quantum Systems": 1,
       "Quantum Chemistry": 1,
       "Quantum Advantage": 1,
       "Variational Algorithms": 1,
@@ -27096,7 +27357,6 @@
       "Universality Classes": 1,
       "Information Paradox": 1,
       "CMB Phenomenology": 1,
-      "String Theory": 1,
       "Condensed Matter": 2,
       "Quantum Geometry": 1,
       "Topology": 1,
@@ -27114,6 +27374,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-08",
         "2026-08-07",
         "2026-08-06",
         "2026-08-05",
