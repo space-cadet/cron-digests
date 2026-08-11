@@ -1,6 +1,241 @@
 {
-  "generated": "2026-08-10T04:50:07.971Z",
+  "generated": "2026-08-11T01:46:03.262Z",
   "digests": [
+    {
+      "date": "2026-08-11",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-11",
+      "categories": "astro-ph.CO, astro-ph.HE, astro-ph.SR, cond-mat.stat-mech, gr-qc, hep-ph, hep-th, math-ph, quant-ph",
+      "items_found": 15,
+      "focus": "black hole, quantum cosmology, holograph, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Formation of the Kerr black hole: an exact model",
+          "authors": "J Ovalle",
+          "arxiv_id": "2608.06519",
+          "url": "https://arxiv.org/abs/2608.06519",
+          "categories": "math-ph, astro-ph.SR, gr-qc, hep-th",
+          "summary": "Ovalle constructs the first exact analytical model of axisymmetric gravitational collapse that culminates in Kerr black hole formation. The model introduces a time-dependent rotation parameter and reveals a novel quasi-extremal regime distinct from the standard extremal limit, while predicting transient anisotropic curvature imprints that could observably signal rotating black hole birth.",
+          "relevance": "Directly relevant to black hole formation and rotating collapse; Kerr geometry is central to LQG isolated horizon framework and quantum black hole physics.",
+          "tags": [
+            "Black Hole Physics",
+            "Gravitational Collapse",
+            "Exact Solutions"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "A causal magnetic black hole with finite self-energy",
+          "authors": "Mohsen Fathi, Ariel Guzmán, J. R. Villanueva",
+          "arxiv_id": "2608.06639",
+          "url": "https://arxiv.org/abs/2608.06639",
+          "categories": "astro-ph.HE, math-ph, gr-qc, hep-th",
+          "summary": "The authors develop a nonlinear electrodynamics model for magnetic black holes that enforces physical causality, finite self-energy, and stability criteria rather than regularity at the center. They obtain exact solutions via incomplete beta functions, find at most one horizon with no inner Cauchy horizon, and compute distinct optical signatures—including photon spheres, shadow radii, and EHT-compatible disk images—that differ measurably between ordinary and extraordinary electromagnetic branches.",
+          "relevance": "Explores regular black hole alternatives via nonlinear electrodynamics—connected to quantum gravity inspired regularization schemes and observable black hole shadows.",
+          "tags": [
+            "Black Hole Physics",
+            "Nonlinear Electrodynamics",
+            "Observational Signatures"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "The spectral gap of the ABJM model: A holographic perspective from uplifted higher-dimensional geometries",
+          "authors": "Mahdis Ghodrati",
+          "arxiv_id": "2608.06887",
+          "url": "https://arxiv.org/abs/2608.06887",
+          "categories": "gr-qc, hep-th",
+          "summary": "Ghodrati analyzes the fermionic response of a four-charge black brane in gauged supergravity, holographically dual to 3d ABJM SCFTs, and identifies a spectral gap tied to unequal chemical potentials. By uplifting to five and eleven dimensions, she shows that BTZ×S² or AdS³×ℝ² structures emerge, implying decoupled sectors in the boundary theory with potentially rich implications for M-theory holography.",
+          "relevance": "Holographic duality and M-theory uplift connect to quantum gravity via AdS/CFT; spectral gaps in ABJM have implications for black hole microstate counting.",
+          "tags": [
+            "Holography",
+            "M-Theory",
+            "Black Branes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Quantum de Sitter and Analytically Continued Chern Simons Theory",
+          "authors": "Stephon Alexander, Kenneth Blakey",
+          "arxiv_id": "2608.07467",
+          "url": "https://arxiv.org/abs/2608.07467",
+          "categories": "gr-qc, hep-ph, hep-th, quant-ph, math-ph",
+          "summary": "Alexander and Blakey rigorously define the Chern-Simons-Kodama wavefunctional for Lorentzian self-dual gravity with positive cosmological constant using Lefschetz thimble methods. Their construction replaces the problematic real contour with an absolutely convergent cycle, reproduces the Hartle-Hawking Airy wavefunction in the homogeneous isotropic limit, and extends it to a finite Bianchi-IX wavefunction—demonstrating that the Airy behavior is a robust leading-order feature rather than a minisuperspace artifact.",
+          "relevance": "Chern-Simons formulation of quantum gravity with Λ>0 directly connects to loop quantum cosmology and self-dual gravity approaches; rigorous wavefunction definition addresses long-standing convergence issues.",
+          "tags": [
+            "Quantum Gravity",
+            "Loop Quantum Cosmology",
+            "Chern-Simons Theory"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Cosmic birefringence from a joint analysis of ACT and Planck",
+          "authors": "Johannes R. Eskilt",
+          "arxiv_id": "2608.06480",
+          "url": "https://arxiv.org/abs/2608.06480",
+          "categories": "astro-ph.CO, hep-ph, gr-qc, hep-th",
+          "summary": "Eskilt performs a joint analysis of Planck DR4 and ACT DR6 polarization maps to measure cosmic birefringence, reporting a 4.8σ detection of β = 0.277° ± 0.057°. The cross-telescope analysis strengthens evidence for ultra-light axion-like dark sectors, though the author cautions that unresolved systematics must be understood before firm cosmological conclusions can be drawn.",
+          "relevance": "Ultra-light axion-like fields are candidates for quantum gravitational effects and dark sector physics; cosmic birefringence probes parity-violating extensions of gravity.",
+          "tags": [
+            "Cosmology",
+            "Dark Sector",
+            "CMB Physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Geodesic completeness of anisotropic cosmologies and the null energy condition",
+          "authors": "Sebastian Garcia-Saenz, Junjie Hua, Abbas M. Sherif",
+          "arxiv_id": "2608.06852",
+          "url": "https://arxiv.org/abs/2608.06852",
+          "categories": "gr-qc, hep-th",
+          "summary": "The authors prove a new singularity theorem showing that any Bianchi-I spacetime expanding in all directions must be geodesically past-incomplete under the null energy condition, without assuming any global topology. The result sharpens our understanding of cosmological singularities in anisotropic settings and identifies contracting directions as a potential loophole.",
+          "relevance": "Singularity theorems in anisotropic cosmologies inform quantum cosmology and the validity of classical general relativity near the Big Bang.",
+          "tags": [
+            "Cosmology",
+            "Singularity Theorems",
+            "Classical GR"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Quantum-cosmological corrections to inflationary spectra from Gaussian wave packets",
+          "authors": "Sebastien Sonet, Alessandro Tronconi, Giovanni Venturi",
+          "arxiv_id": "2608.07164",
+          "url": "https://arxiv.org/abs/2608.07164",
+          "categories": "gr-qc, hep-th",
+          "summary": "Sonet, Tronconi, and Venturi study quantum entanglement between homogeneous and perturbative degrees of freedom in Wheeler-DeWitt quantum cosmology. They find that Gaussian wave packet superpositions generically produce observable corrections to inflationary power spectra—substantially larger than typical quantum-gravitational effects—suggesting that quantum-cosmological initial conditions may leave testable imprints on the CMB.",
+          "relevance": "Wheeler-DeWitt quantum cosmology and its observable consequences directly bridge quantum gravity theory with CMB phenomenology.",
+          "tags": [
+            "Quantum Cosmology",
+            "Inflation",
+            "CMB"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Anomaly quenching and dynamical cooling of Hawking evaporation in Horndeski gravity",
+          "authors": "Amogh Srivastav, S. Shankaranarayanan",
+          "arxiv_id": "2608.07182",
+          "url": "https://arxiv.org/abs/2608.07182",
+          "categories": "cond-mat.stat-mech, gr-qc, hep-th",
+          "summary": "Srivastav and Shankaranarayanan show that Horndeski scalar-tensor modifications to 2D CGHS black holes dynamically cool the Hawking temperature as evaporation proceeds, potentially halting at a stable cold remnant. The anomaly-derived radiation flux reflects this geometric shift, and the entanglement entropy transitions from linear to logarithmic growth—implying quantum information retention without horizon breakdown.",
+          "relevance": "Black hole evaporation, information paradox, and modified gravity corrections are central to quantum gravity; the Page curve and remnant scenario address the black hole information problem.",
+          "tags": [
+            "Black Hole Physics",
+            "Information Paradox",
+            "Modified Gravity"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Tensor-Induced Backreaction in Ultra-Slow-Roll Inflation",
+          "authors": "Alessandro Ciaiolo, Giovanni Marozzi",
+          "arxiv_id": "2608.07264",
+          "url": "https://arxiv.org/abs/2608.07264",
+          "categories": "astro-ph.CO, gr-qc, hep-th",
+          "summary": "Ciaiolo and Marozzi demonstrate that second-order tensor backreaction becomes significant in ultra-slow-roll inflation, counterintuitively limiting the suppression of the slow-roll parameter ε and reducing scalar power spectrum enhancement. Their self-consistent resummation confirms this effect persists beyond perturbation theory, substantially alleviating the fine-tuning required for primordial black hole production.",
+          "relevance": "Primordial black holes as dark matter candidates connect inflationary cosmology to quantum gravity; backreaction effects are essential for reliable predictions.",
+          "tags": [
+            "Cosmology",
+            "Primordial Black Holes",
+            "Inflation"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Conformal Killing Gravity: New Constraints from DESI DR2 BAO datasets",
+          "authors": "Himanshu Chaudhary, Salvatore Capozziello, Carlo Alberto Mantica et al.",
+          "arxiv_id": "2608.07313",
+          "url": "https://arxiv.org/abs/2608.07313",
+          "categories": "astro-ph.CO, gr-qc, hep-th",
+          "summary": "The authors constrain Conformal Killing Gravity—a geometric dark energy framework emerging from Robertson-Walker symmetries—using Planck, ACT, DESI DR2 BAO, and multiple supernova datasets. CKG favors quintessence-like evolution without phantom crossing, predicts a future turning point in cosmic expansion around z_c ≈ −0.75, and provides a physically motivated alternative to ΛCDM while leaving the sound horizon essentially unchanged.",
+          "relevance": "Geometric dark energy models provide alternatives to ΛCDM that may be rooted in quantum gravitational modifications of spacetime structure.",
+          "tags": [
+            "Cosmology",
+            "Dark Energy",
+            "Modified Gravity"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Magnetic Catalysis and Fermion Mass Generation in de Sitter Spacetime",
+          "authors": "Kohei Fujikura, Toshifumi Noumi, Shintetsu Yamazaki",
+          "arxiv_id": "2608.07270",
+          "url": "https://arxiv.org/abs/2608.07270",
+          "categories": "gr-qc, astro-ph.CO, hep-ph, hep-th",
+          "summary": "Fujikura, Noumi, and Yamazaki investigate magnetic catalysis of chiral symmetry breaking in de Sitter spacetime using the NJL model, solving the gap equation for charged fermions under the Bunch-Davies vacuum. Their analytic results for various limiting regimes reveal how cosmological expansion and magnetic fields jointly influence fermion mass generation, with implications for inflationary magnetogenesis and early-universe particle physics.",
+          "relevance": "Quantum field theory in curved spacetime and symmetry breaking in expanding universes are foundational for understanding the early universe quantum state.",
+          "tags": [
+            "Quantum Field Theory in Curved Spacetime",
+            "Symmetry Breaking",
+            "Magnetic Fields"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Master equation for systems interacting with linearized gravity",
+          "authors": "Oliviero Angeli, Anirudh Gundhi, Angelo Bassi",
+          "arxiv_id": "2608.06121",
+          "url": "https://arxiv.org/abs/2608.06121",
+          "categories": "quant-ph, gr-qc",
+          "summary": "Angeli, Gundhi, and Bassi derive a master equation for two masses interacting with an environment of linearized gravitational waves, formulated in terms of observable proper distance. A key insight is that standard Fermi-normal-coordinate canonical variables are inadequate for effective descriptions, requiring a unitary transformation to obtain physically meaningful noise and dissipation kernels for gravitational decoherence studies.",
+          "relevance": "Gravitational decoherence and open quantum systems in linearized gravity probe the quantum nature of spacetime and its interaction with matter.",
+          "tags": [
+            "Quantum Gravity",
+            "Gravitational Decoherence",
+            "Open Quantum Systems"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "The glow of eternal black holes",
+          "authors": "Vladimir Strokov",
+          "arxiv_id": "2608.05270",
+          "url": "https://arxiv.org/abs/2608.05270",
+          "categories": "astro-ph.HE, gr-qc",
+          "summary": "Strokov computes the optical appearance of an eternal Schwarzschild black hole with a thin accretion disk, replacing the past singularity with a surface of last scattering under Markov's limiting-density hypothesis. The resulting images display unique signatures from the white-hole region that distinguish eternal from astrophysical black holes, offering a novel observational discriminator if such objects exist.",
+          "relevance": "Eternal black holes and white holes are relevant to quantum gravity discussions of analytically continued spacetimes and wormhole geometries.",
+          "tags": [
+            "Black Hole Physics",
+            "White Holes",
+            "Accretion Disks"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Kinematic Bounds on Charged Energy Extraction in the Purely Electric Branch of Euler--Heisenberg Type f(R,T) Black Holes",
+          "authors": "Anirudh Pradhan, K. Ghaderi, M. Zeyauddin",
+          "arxiv_id": "2608.05644",
+          "url": "https://arxiv.org/abs/2608.05644",
+          "categories": "gr-qc",
+          "summary": "Pradhan et al. derive kinematic upper bounds on charged particle energy extraction from f(R,T) black holes with Euler-Heisenberg nonlinear electrodynamics. Their analysis reveals that nonlinear electromagnetic and matter-coupling parameters indirectly constrain the efficiency of the Penrose process, even though the electric field itself remains effectively Coulombic.",
+          "relevance": "Energy extraction from black holes and nonlinear electrodynamics modifications connect to quantum gravity phenomenology and astrophysical constraints.",
+          "tags": [
+            "Black Hole Physics",
+            "Energy Extraction",
+            "Nonlinear Electrodynamics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "A Novel Kerr-like Black Hole in a General Double Power Law Dark Matter Environment: Geometry, Spectroscopy, and Energy Extraction",
+          "authors": "Supakchai Ponglertsakul, David Senjaya",
+          "arxiv_id": "2608.05861",
+          "url": "https://arxiv.org/abs/2608.05861",
+          "categories": "astro-ph.CO, gr-qc",
+          "summary": "Ponglertsakul and Senjaya construct Kerr-like black holes embedded in double power-law dark matter halos via the Newman-Janis algorithm, finding that halo-rotation interplay can eliminate curvature singularities and modify horizon structure. The framework provides a unified rotating spacetime for arbitrary density profiles, with applications to astrophysical black hole spectroscopy and energy extraction in dark matter environments.",
+          "relevance": "Rotating black holes in dark matter environments combine astrophysical observation with modified gravity contexts relevant to quantum gravity model building.",
+          "tags": [
+            "Black Hole Physics",
+            "Dark Matter",
+            "Rotating Black Holes"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-10",
       "type": "web-science",
@@ -23348,9 +23583,141 @@
     }
   ],
   "stats": {
-    "total_digests": 209,
-    "total_entries": 1627,
+    "total_digests": 210,
+    "total_entries": 1642,
     "unique_tags": {
+      "Black Hole Physics": {
+        "first_seen": "2026-08-11",
+        "count": 27
+      },
+      "Gravitational Collapse": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Exact Solutions": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Nonlinear Electrodynamics": {
+        "first_seen": "2026-08-11",
+        "count": 2
+      },
+      "Observational Signatures": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Holography": {
+        "first_seen": "2026-08-11",
+        "count": 6
+      },
+      "M-Theory": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Black Branes": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-08-11",
+        "count": 36
+      },
+      "Loop Quantum Cosmology": {
+        "first_seen": "2026-08-11",
+        "count": 2
+      },
+      "Chern-Simons Theory": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Cosmology": {
+        "first_seen": "2026-08-11",
+        "count": 6
+      },
+      "Dark Sector": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "CMB Physics": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Singularity Theorems": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Classical GR": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Quantum Cosmology": {
+        "first_seen": "2026-08-11",
+        "count": 7
+      },
+      "Inflation": {
+        "first_seen": "2026-08-11",
+        "count": 5
+      },
+      "CMB": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Information Paradox": {
+        "first_seen": "2026-08-11",
+        "count": 2
+      },
+      "Modified Gravity": {
+        "first_seen": "2026-08-11",
+        "count": 4
+      },
+      "Primordial Black Holes": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Dark Energy": {
+        "first_seen": "2026-08-11",
+        "count": 5
+      },
+      "Quantum Field Theory in Curved Spacetime": {
+        "first_seen": "2026-08-11",
+        "count": 2
+      },
+      "Symmetry Breaking": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Magnetic Fields": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Gravitational Decoherence": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Open Quantum Systems": {
+        "first_seen": "2026-08-11",
+        "count": 3
+      },
+      "White Holes": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Accretion Disks": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Energy Extraction": {
+        "first_seen": "2026-08-11",
+        "count": 2
+      },
+      "Dark Matter": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
+      "Rotating Black Holes": {
+        "first_seen": "2026-08-11",
+        "count": 1
+      },
       "Quantum Information & Computing": {
         "first_seen": "2026-08-10",
         "count": 127
@@ -23387,25 +23754,9 @@
         "first_seen": "2026-08-08",
         "count": 7
       },
-      "Quantum Gravity": {
-        "first_seen": "2026-08-08",
-        "count": 34
-      },
-      "Holography": {
-        "first_seen": "2026-08-08",
-        "count": 5
-      },
-      "Quantum Cosmology": {
-        "first_seen": "2026-08-08",
-        "count": 6
-      },
       "Stochastic Inflation": {
         "first_seen": "2026-08-08",
         "count": 1
-      },
-      "Open Quantum Systems": {
-        "first_seen": "2026-08-08",
-        "count": 2
       },
       "Loop Quantum Gravity": {
         "first_seen": "2026-08-08",
@@ -23419,10 +23770,6 @@
         "first_seen": "2026-08-08",
         "count": 1
       },
-      "Inflation": {
-        "first_seen": "2026-08-08",
-        "count": 3
-      },
       "Cosmological Perturbations": {
         "first_seen": "2026-08-08",
         "count": 1
@@ -23430,14 +23777,6 @@
       "Early Universe": {
         "first_seen": "2026-08-08",
         "count": 1
-      },
-      "Energy Extraction": {
-        "first_seen": "2026-08-08",
-        "count": 1
-      },
-      "Dark Energy": {
-        "first_seen": "2026-08-08",
-        "count": 4
       },
       "String Theory": {
         "first_seen": "2026-08-08",
@@ -23460,10 +23799,6 @@
         "count": 1
       },
       "Lattice Gauge Theory": {
-        "first_seen": "2026-08-08",
-        "count": 1
-      },
-      "Quantum Field Theory in Curved Spacetime": {
         "first_seen": "2026-08-08",
         "count": 1
       },
@@ -23606,10 +23941,6 @@
       "quantum-cosmology": {
         "first_seen": "2026-08-05",
         "count": 13
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-08-05",
-        "count": 21
       },
       "inflation": {
         "first_seen": "2026-08-05",
@@ -26003,10 +26334,6 @@
         "first_seen": "2026-05-21",
         "count": 1
       },
-      "Loop Quantum Cosmology": {
-        "first_seen": "2026-05-20",
-        "count": 1
-      },
       "Mass-Varying Neutrinos": {
         "first_seen": "2026-05-20",
         "count": 1
@@ -26343,10 +26670,6 @@
         "first_seen": "2026-05-19",
         "count": 1
       },
-      "Cosmology": {
-        "first_seen": "2026-05-19",
-        "count": 2
-      },
       "Renormalization": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -26356,10 +26679,6 @@
         "count": 1
       },
       "Gravity Research Foundation": {
-        "first_seen": "2026-05-19",
-        "count": 2
-      },
-      "Modified Gravity": {
         "first_seen": "2026-05-19",
         "count": 2
       },
@@ -26635,10 +26954,6 @@
         "first_seen": "2026-05-18",
         "count": 1
       },
-      "Information Paradox": {
-        "first_seen": "2026-05-15",
-        "count": 1
-      },
       "CMB Phenomenology": {
         "first_seen": "2026-05-15",
         "count": 1
@@ -26701,6 +27016,39 @@
       }
     },
     "tag_counts": {
+      "Black Hole Physics": 27,
+      "Gravitational Collapse": 1,
+      "Exact Solutions": 1,
+      "Nonlinear Electrodynamics": 2,
+      "Observational Signatures": 1,
+      "Holography": 6,
+      "M-Theory": 1,
+      "Black Branes": 1,
+      "Quantum Gravity": 36,
+      "Loop Quantum Cosmology": 2,
+      "Chern-Simons Theory": 1,
+      "Cosmology": 6,
+      "Dark Sector": 1,
+      "CMB Physics": 1,
+      "Singularity Theorems": 1,
+      "Classical GR": 1,
+      "Quantum Cosmology": 7,
+      "Inflation": 5,
+      "CMB": 1,
+      "Information Paradox": 2,
+      "Modified Gravity": 4,
+      "Primordial Black Holes": 1,
+      "Dark Energy": 5,
+      "Quantum Field Theory in Curved Spacetime": 2,
+      "Symmetry Breaking": 1,
+      "Magnetic Fields": 1,
+      "Gravitational Decoherence": 1,
+      "Open Quantum Systems": 3,
+      "White Holes": 1,
+      "Accretion Disks": 1,
+      "Energy Extraction": 2,
+      "Dark Matter": 1,
+      "Rotating Black Holes": 1,
       "Quantum Information & Computing": 127,
       "Technology & Engineering": 60,
       "Optics & Photonics": 72,
@@ -26710,26 +27058,18 @@
       "quantum": 212,
       "agents": 160,
       "Black Hole Thermodynamics": 7,
-      "Quantum Gravity": 34,
-      "Holography": 5,
-      "Quantum Cosmology": 6,
       "Stochastic Inflation": 1,
-      "Open Quantum Systems": 2,
       "Loop Quantum Gravity": 5,
       "Black Holes": 6,
       "Regular Black Holes": 1,
-      "Inflation": 3,
       "Cosmological Perturbations": 1,
       "Early Universe": 1,
-      "Energy Extraction": 1,
-      "Dark Energy": 4,
       "String Theory": 2,
       "Quantum Error Correction": 2,
       "Topological Order": 5,
       "Conformal Field Theory": 2,
       "Non-Abelian Anyons": 1,
       "Lattice Gauge Theory": 1,
-      "Quantum Field Theory in Curved Spacetime": 1,
       "Unruh Effect": 1,
       "Topological Defects": 1,
       "Entanglement": 4,
@@ -26765,7 +27105,6 @@
       "topological-boundaries": 1,
       "3d-gravity": 1,
       "quantum-cosmology": 13,
-      "Black Hole Physics": 21,
       "inflation": 5,
       "scalarization": 2,
       "schwarzian": 1,
@@ -27364,7 +27703,6 @@
       "ghost imaging": 1,
       "SPDC": 1,
       "sunlight": 1,
-      "Loop Quantum Cosmology": 1,
       "Mass-Varying Neutrinos": 1,
       "Quantum Bounce": 1,
       "Decoherence": 1,
@@ -27449,11 +27787,9 @@
       "Generalized Entropy": 1,
       "Scalar-Tensor Gravity": 1,
       "Quantum Gravity Corrections": 1,
-      "Cosmology": 2,
       "Renormalization": 1,
       "Unitarity": 1,
       "Gravity Research Foundation": 2,
-      "Modified Gravity": 2,
       "Quantum Uncertainty": 1,
       "Functional Renormalization Group": 2,
       "Emergent Geometry": 1,
@@ -27522,7 +27858,6 @@
       "Critical Phenomena": 1,
       "Fractals": 1,
       "Universality Classes": 1,
-      "Information Paradox": 1,
       "CMB Phenomenology": 1,
       "Condensed Matter": 2,
       "Quantum Geometry": 1,
@@ -27540,6 +27875,78 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "arxiv": [
+        "2026-08-11",
+        "2026-08-08",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-01",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-25",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-18",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-13",
+        "2026-07-12",
+        "2026-07-11",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-04",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-06",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-23",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-16",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "web-science": [
         "2026-08-10",
         "2026-08-07",
@@ -27683,77 +28090,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "arxiv": [
-        "2026-08-08",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-01",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-25",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-18",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-13",
-        "2026-07-12",
-        "2026-07-11",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-04",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-06",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-23",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-16",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
