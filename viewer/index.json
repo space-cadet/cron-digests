@@ -1,6 +1,212 @@
 {
-  "generated": "2026-08-11T04:50:06.754Z",
+  "generated": "2026-08-12T01:42:25.821Z",
   "digests": [
+    {
+      "date": "2026-08-12",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-12",
+      "categories": "astro-ph.CO, astro-ph.HE, cond-mat.stat-mech, cond-mat.str-el, gr-qc, hep-ph, hep-th, math.DG, nlin.CD, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, holograph, topological, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "The quadratic growth of Krylov spread complexity in the BTZ black hole",
+          "authors": "Aranya Bhattacharya, Mario Flory, Michal P. Heller et al.",
+          "arxiv_id": "2608.09922",
+          "url": "https://arxiv.org/abs/2608.09922",
+          "categories": "hep-th, quant-ph, gr-qc, cond-mat.str-el",
+          "summary": "The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton gravity. We provide a critical analysis of a partition-function construction of Krylov spread complexity for thermofield-double states that provides a dimension-independent boundary reconstruction from semiclassical holographic partition functions, while developing the present dynamical and bulk construction for the BTZ saddle.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Modified Double Copy for Quasitopological Gravity with Matter",
+          "authors": "Valeri P. Frolov",
+          "arxiv_id": "2608.08988",
+          "url": "https://arxiv.org/abs/2608.08988",
+          "categories": "hep-th, gr-qc",
+          "summary": "We extend the modified double-copy construction to quasitopological gravity (QTG) coupled to matter. Spherically symmetric QTG solutions in $D$ dimensions are generated from an auxiliary gauge field in a flat $(D+1)$-dimensional spacetime.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Incidence Relations for Self-Dual Black Holes",
+          "authors": "Joon-Hwi Kim",
+          "arxiv_id": "2608.07774",
+          "url": "https://arxiv.org/abs/2608.07774",
+          "categories": "hep-th, gr-qc, math.DG",
+          "summary": "In Penrose&#39;s nonlinear graviton construction, a self-dual spacetime arises as the moduli space of holomorphic twistor lines in curved twistor space, whose explicit parametrization is concretely given by the incidence relation. We demonstrate a concrete local construction of the incidence relations for self-dual black hole spacetimes in Kerr-Schild coordinates: Eguchi-Hanson, self-dual Taub-NUT, and self-dual Plebański-Demiański.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Thermodynamic stability and geometric thermodynamics of charged black holes in Rastall-massive gravity under quintessence",
+          "authors": "Mohamed Chabab, Samir Iraoui, Hicham Sriba",
+          "arxiv_id": "2608.08660",
+          "url": "https://arxiv.org/abs/2608.08660",
+          "categories": "hep-th, gr-qc",
+          "summary": "In the present paper, we derive a new charged black hole solution embedded in a quintessence field within a framework combining the Rastall and massive gravity in an asymptotically flat spacetime. We interpret the integration constant associated with the structural properties of the quintessence field as a thermodynamical variable.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Thermal Origin of Black Hole Quasinormal Modes",
+          "authors": "D. Giataganas, G.F. Giudice, A. Kehagias et al.",
+          "arxiv_id": "2608.09797",
+          "url": "https://arxiv.org/abs/2608.09797",
+          "categories": "hep-th, astro-ph.CO, gr-qc, hep-ph",
+          "summary": "When a black hole rings after a merger, it emits gravitational waves at characteristic frequencies known as quasinormal modes (QNMs). In the eikonal limit, these modes are governed by the unstable circular light orbits that form the photon ring.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "On the Renormalization in Conformal Quantum Gravity",
+          "authors": "Ioseph L. Buchbinder, Petr M. Lavrov, Thomas M. Sangy et al.",
+          "arxiv_id": "2608.09858",
+          "url": "https://arxiv.org/abs/2608.09858",
+          "categories": "hep-th, gr-qc",
+          "summary": "One-loop divergences in classically conformal theory in curved spacetime is a nontrivial issue if the theory under consideration possesses gauge invariance. In this case, quantization involves introducing the gauge-fixing term and the action of ghosts, both of which are not conformal.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Perturbative Dissipation in Minimal Warm Inflation",
+          "authors": "Daniel J. H. Chung, Nidhi Sudhir, Lian-Tao Wang",
+          "arxiv_id": "2608.08345",
+          "url": "https://arxiv.org/abs/2608.08345",
+          "categories": "hep-th, gr-qc, hep-ph",
+          "summary": "We present an analysis of the perturbative modes of dissipation in the minimal warm inflation model where an axion-inflaton is coupled to a gluon thermal bath through the axion-gauge coupling. The corresponding friction coefficient, which generically is governed by IR physics, for the processes we consider is dominated by Landau damping of soft space-like gluons and the plasmon decay of hard on shell gluons.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Scale dependence of the effective gravitational constant from functional renormalization group",
+          "authors": "Ruiqi Liang, Zhoujian Cao, Bing Sun",
+          "arxiv_id": "2608.07875",
+          "url": "https://arxiv.org/abs/2608.07875",
+          "categories": "hep-th, gr-qc",
+          "summary": "The general relativity may not be the final theory of gravity. One possible way to look for the gravity theory beyond general relativity is considering variable gravitational constant.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Gravitational radiation from binary systems with time varying masses",
+          "authors": "Teodora M. Matei, Cristian A. Croitoru, Tiberiu Harko",
+          "arxiv_id": "2608.07951",
+          "url": "https://arxiv.org/abs/2608.07951",
+          "categories": "hep-th, astro-ph.HE, gr-qc",
+          "summary": "We consider the properties of the gravitational radiation emitted by massive stars in binary systems with time varying mass, orbiting around each other in Keplerian orbits under the influence of the gravitational force. When this effect is combined to the quadrupole expression of the gravitational radiation, some supplementary terms in the standard formulae describing radiative effects do appear.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Black bounce sourced by non-minimally coupled linear electrodynamics and a canonical scalar field through a thin shell at the throat",
+          "authors": "Ednaldo L. B. Junior, José Tarciso S. S. Junior, Francisco S. N. Lobo et al.",
+          "arxiv_id": "2608.08208",
+          "url": "https://arxiv.org/abs/2608.08208",
+          "categories": "hep-th, gr-qc",
+          "summary": "We construct a novel class of black bounce solutions within General Relativity, sourced by a canonical scalar field non-minimally coupled to linear electrodynamics, establishing a self-consistent framework in which regular black holes and traversable wormholes are supported by ordinary bulk matter, with the necessary exoticity confined to an infinitesimally thin defect at the bounce.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "EFT Corrections to Photon Propagation and Gravitational Lensing in an Ellis-Bronnikov Wormhole",
+          "authors": "Takamasa Kanai",
+          "arxiv_id": "2608.08526",
+          "url": "https://arxiv.org/abs/2608.08526",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate strong gravitational lensing by an Ellis-Bronnikov (EB) wormhole in the presence of effective field theory (EFT) corrections to photon propagation. We derive the modified photon propagation law induced by non-minimal couplings between the electromagnetic field and spacetime curvature, which leads to polarization-dependent photon trajectories in the EB wormhole spacetime.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Correlated parity violation in gravity and electromagnetism from five-dimensional spacetime",
+          "authors": "Haomin Rao, Yunlong Zheng, Qi-Zhe Hou et al.",
+          "arxiv_id": "2608.09299",
+          "url": "https://arxiv.org/abs/2608.09299",
+          "categories": "hep-th, astro-ph.CO, gr-qc",
+          "summary": "Parity violation in the gravitational and electromagnetic sectors has been extensively investigated, yet the two are conventionally treated as independent phenomena. This separation, however, may be a four-dimensional prejudice.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Spread of Entanglement in Generalized Kicked Ising Chain",
+          "authors": "Tanay Pathak, Hiromi Ebisu, Tomaž Prosen",
+          "arxiv_id": "2608.09695",
+          "url": "https://arxiv.org/abs/2608.09695",
+          "categories": "hep-th, cond-mat.stat-mech, nlin.CD, quant-ph",
+          "summary": "We investigate the dynamics of entanglement in a generalized version of the kicked Ising chain, extending the model from the standard qubit case (local dimension $q=2$) to higher local dimensions ($q &gt; 2$). We identify the existence of &#39;&#39;dual-unitary&#39;&#39; points where the model&#39;s space-time duality allows for exact analytical solutions.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Low-energy limit in the anomaly-induced action and the semiclassical cosmological bounce",
+          "authors": "Wagno Cesar e Silva, Nicolas R. Bertini, Ilya L. Shapiro",
+          "arxiv_id": "2608.09720",
+          "url": "https://arxiv.org/abs/2608.09720",
+          "categories": "hep-th, gr-qc",
+          "summary": "In the recently proposed scenario, the cosmological bounce occurs because the initially contracting Universe is not empty. In the region close to singularity, matter contents of the Universe heat up and effectively become radiation.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Adiabatic Perturbations in GW170817-Compatible Einstein-Gauss-Bonnet Inflation",
+          "authors": "S.D. Odintsov, V.K. Oikonomou",
+          "arxiv_id": "2608.09783",
+          "url": "https://arxiv.org/abs/2608.09783",
+          "categories": "hep-th, astro-ph.CO, gr-qc",
+          "summary": "We study the adiabaticity of the cosmological perturbations in the context of inflationary Einstein-Gauss-Bonnet theories. We focus on viable inflationary Einstein-Gauss-Bonnet theories which are compatible with the current Cosmic Microwave Background radiation experiments and also are compatible with the GW170817 observations.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-11",
       "type": "arxiv",
@@ -23647,9 +23853,33 @@
     }
   ],
   "stats": {
-    "total_digests": 212,
-    "total_entries": 1646,
+    "total_digests": 213,
+    "total_entries": 1661,
     "unique_tags": {
+      "black-holes": {
+        "first_seen": "2026-08-12",
+        "count": 335
+      },
+      "holography": {
+        "first_seen": "2026-08-12",
+        "count": 91
+      },
+      "topological": {
+        "first_seen": "2026-08-12",
+        "count": 64
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-08-12",
+        "count": 91
+      },
+      "physics": {
+        "first_seen": "2026-08-12",
+        "count": 224
+      },
+      "entanglement": {
+        "first_seen": "2026-08-12",
+        "count": 92
+      },
       "Black Hole Physics": {
         "first_seen": "2026-08-11",
         "count": 27
@@ -23898,18 +24128,6 @@
         "first_seen": "2026-08-08",
         "count": 5
       },
-      "quantum-gravity": {
-        "first_seen": "2026-08-07",
-        "count": 90
-      },
-      "black-holes": {
-        "first_seen": "2026-08-07",
-        "count": 329
-      },
-      "entanglement": {
-        "first_seen": "2026-08-07",
-        "count": 91
-      },
       "loop-quantum-gravity": {
         "first_seen": "2026-08-07",
         "count": 26
@@ -23918,21 +24136,9 @@
         "first_seen": "2026-08-07",
         "count": 16
       },
-      "topological": {
-        "first_seen": "2026-08-07",
-        "count": 63
-      },
       "Experiment & Observation": {
         "first_seen": "2026-08-07",
         "count": 47
-      },
-      "physics": {
-        "first_seen": "2026-08-06",
-        "count": 218
-      },
-      "holography": {
-        "first_seen": "2026-08-06",
-        "count": 90
       },
       "condensed-matter": {
         "first_seen": "2026-08-06",
@@ -27080,6 +27286,12 @@
       }
     },
     "tag_counts": {
+      "black-holes": 335,
+      "holography": 91,
+      "topological": 64,
+      "quantum-gravity": 91,
+      "physics": 224,
+      "entanglement": 92,
       "Black Hole Physics": 27,
       "Gravitational Collapse": 1,
       "Exact Solutions": 1,
@@ -27142,15 +27354,9 @@
       "Random Matrix Theory": 1,
       "Entanglement Entropy": 1,
       "AdS/CFT": 5,
-      "quantum-gravity": 90,
-      "black-holes": 329,
-      "entanglement": 91,
       "loop-quantum-gravity": 26,
       "string-theory": 16,
-      "topological": 63,
       "Experiment & Observation": 47,
-      "physics": 218,
-      "holography": 90,
       "condensed-matter": 1,
       "quantum-chaos": 10,
       "wormholes": 4,
@@ -27940,6 +28146,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-12",
         "2026-08-11",
         "2026-08-08",
         "2026-08-07",
