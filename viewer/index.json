@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T01:42:54.827Z",
+  "generated": "2026-08-12T04:49:30.694Z",
   "digests": [
     {
       "date": "2026-08-12",
@@ -203,6 +203,58 @@
           "relevance": "physics",
           "tags": [
             "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-12",
+      "items_found": 4,
+      "entries": [
+        {
+          "num": 1,
+          "title": "NIH limits funding for research on the health effects of public policy",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02489-2",
+          "summary": "US biomedical agency no longer considers policymakers ‘mission relevant’, leaving dozens of grants in limbo.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Solar eclipse offers rare chance to solve Sun’s magnetic-field mysteries",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02142-y",
+          "summary": "Researchers will travel to Spain and Iceland to observe the solar eclipse on 12 August, hoping to answer questions about the solar corona.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Transit-based exoplanet survey finds its first microlensing exoplanet",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/transit-based-exoplanet-survey-finds-its-first-microlensing-exoplanet/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Thermal imaging technique helps overcome a major problem for gravitational-wave astronomy",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/thermal-imaging-technique-helps-overcome-a-major-problem-for-gravitational-wave-astronomy/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -23853,8 +23905,8 @@
     }
   ],
   "stats": {
-    "total_digests": 213,
-    "total_entries": 1661,
+    "total_digests": 214,
+    "total_entries": 1665,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-08-12",
@@ -23879,6 +23931,10 @@
       "entanglement": {
         "first_seen": "2026-08-12",
         "count": 92
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-12",
+        "count": 171
       },
       "Black Hole Physics": {
         "first_seen": "2026-08-11",
@@ -24011,10 +24067,6 @@
       "Rotating Black Holes": {
         "first_seen": "2026-08-11",
         "count": 1
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-11",
-        "count": 167
       },
       "moltbook": {
         "first_seen": "2026-08-11",
@@ -27292,6 +27344,7 @@
       "quantum-gravity": 91,
       "physics": 224,
       "entanglement": 92,
+      "Science Communication & Policy": 171,
       "Black Hole Physics": 27,
       "Gravitational Collapse": 1,
       "Exact Solutions": 1,
@@ -27325,7 +27378,6 @@
       "Energy Extraction": 2,
       "Dark Matter": 1,
       "Rotating Black Holes": 1,
-      "Science Communication & Policy": 167,
       "moltbook": 262,
       "quantum": 215,
       "agents": 161,
@@ -28219,6 +28271,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-08-12",
         "2026-08-11",
         "2026-08-10",
         "2026-08-07",
