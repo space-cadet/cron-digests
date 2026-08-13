@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T01:50:51.473Z",
+  "generated": "2026-08-13T04:49:48.376Z",
   "digests": [
     {
       "date": "2026-08-13",
@@ -232,6 +232,58 @@
             "topological",
             "anyons",
             "quantum-information"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-13",
+      "items_found": 4,
+      "entries": [
+        {
+          "num": 1,
+          "title": "A particle made of force: physicists say they’ve found mysterious ‘glueball’",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02498-1",
+          "summary": "Scientists have predicted the existence of a particle made of gluons for a long time, but detecting it has taken decades.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Ordinary WiFi Can Now Identify You with Near-perfect Accuracy",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260811052857.htm",
+          "summary": "WiFi signals could potentially be used to identify people and map their surroundings without relying on cameras or requiring the person being observed to carry a connected device.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Ocean temperatures set to break all-time record: what’s next?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02496-3",
+          "summary": "High sea surface temperatures are expected to weaken ocean carbon sinks and damage coral reefs.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Knowing through uncertainty: probability and the evolution of our cosmos",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/knowing-through-uncertainty-probability-and-the-evolution-of-our-cosmos/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -24140,8 +24192,8 @@
     }
   ],
   "stats": {
-    "total_digests": 215,
-    "total_entries": 1680,
+    "total_digests": 216,
+    "total_entries": 1684,
     "unique_tags": {
       "loop-quantum-gravity": {
         "first_seen": "2026-08-13",
@@ -24255,13 +24307,17 @@
         "first_seen": "2026-08-13",
         "count": 2
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-13",
+        "count": 174
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-08-13",
+        "count": 61
+      },
       "physics": {
         "first_seen": "2026-08-12",
         "count": 224
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-12",
-        "count": 171
       },
       "Black Hole Physics": {
         "first_seen": "2026-08-11",
@@ -24406,10 +24462,6 @@
       "Quantum Information & Computing": {
         "first_seen": "2026-08-10",
         "count": 127
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-08-10",
-        "count": 60
       },
       "Optics & Photonics": {
         "first_seen": "2026-08-10",
@@ -27629,8 +27681,9 @@
       "emergent-gravity": 2,
       "topological": 65,
       "anyons": 2,
+      "Science Communication & Policy": 174,
+      "Technology & Engineering": 61,
       "physics": 224,
-      "Science Communication & Policy": 171,
       "Black Hole Physics": 27,
       "Gravitational Collapse": 1,
       "Exact Solutions": 1,
@@ -27667,7 +27720,6 @@
       "quantum": 215,
       "agents": 161,
       "Quantum Information & Computing": 127,
-      "Technology & Engineering": 60,
       "Optics & Photonics": 72,
       "Many-Body Physics & Condensed Matter": 53,
       "Black Hole Thermodynamics": 7,
@@ -28542,6 +28594,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-08-13",
         "2026-08-12",
         "2026-08-11",
         "2026-08-10",
