@@ -1,6 +1,216 @@
 {
-  "generated": "2026-08-12T04:49:30.694Z",
+  "generated": "2026-08-13T01:42:35.191Z",
   "digests": [
+    {
+      "date": "2026-08-13",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-13",
+      "categories": "astro-ph.CO, cond-mat.stat-mech, cond-mat.str-el, gr-qc, hep-ph, hep-th, math-ph, physics.class-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, quantum cosmology, holograph, topological",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Robustness of the primordial power spectrum in hybrid loop quantum cosmology to approximations near the bounce",
+          "authors": "Kristina Giesel, Almudena Guillén, Guillermo A. Mena Marugán et al.",
+          "arxiv_id": "2608.12181",
+          "url": "https://arxiv.org/abs/2608.12181",
+          "categories": "hep-th, gr-qc, astro-ph.CO",
+          "summary": "We prove the robustness of the analytic approximation used in (hybrid) loop quantum cosmology to compute the primordial power spectrum of the cosmological perturbations for a recently proposed vacuum state (the non-oscillatory state with asymptotic Hamiltonian diagonalization). To investigate this, we study different approximations to the effective mass of these perturbations near the bounce, showing that the Pöschl-Teller potential employed in previous works leads to indistinguishable power spectra compared to other estimations of the mass, provided that they successfully capture the characteristic scale of the bounce, which translates into a scale of power suppression.",
+          "relevance": "loop-quantum-gravity, quantum-cosmology",
+          "tags": [
+            "loop-quantum-gravity",
+            "quantum-cosmology"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Why There is No Memory Burden in Holographic Space-time Models of Black Hole Formation and Evaporation",
+          "authors": "T. Banks",
+          "arxiv_id": "2608.12139",
+          "url": "https://arxiv.org/abs/2608.12139",
+          "categories": "hep-th, gr-qc, hep-ph",
+          "summary": "Recent papers\\cite{dvali} have claimed that general quantum information considerations put macroscopic constraints on the properties of large black holes, which can affect their lifetimes in cosmologically and astrophysically interesting ways. We examine black hole evaporation in Holographic Space Time (HST) models\\cite{hstbh}, which appear to have the {\\it memory burden} effect responsible for these deviations from semi-classical expectations, and explain why, in those models, no such effect exists.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "A sharp bound on spacetime distance from quantum entanglement",
+          "authors": "Zhi-Wei Wang, Arshid Shabir, Mir Faizal et al.",
+          "arxiv_id": "2608.12245",
+          "url": "https://arxiv.org/abs/2608.12245",
+          "categories": "hep-th, quant-ph, gr-qc",
+          "summary": "Ryu-Takayanagi established how boundary entanglement encodes bulk area. We provide the metric counterpart: boundary mutual information imposes a rigorous lower bound on bulk geodesic separation that diverges logarithmically as correlations vanish.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Geometry of Noisy Quantum Many-Body Dynamics with Continuous Symmetries: Entanglement and Correlations",
+          "authors": "Marco Lastres, Sanjay Moudgalya",
+          "arxiv_id": "2608.11297",
+          "url": "https://arxiv.org/abs/2608.11297",
+          "categories": "hep-th, math-ph, cond-mat.stat-mech, cond-mat.str-el, quant-ph",
+          "summary": "We study unitary quantum dynamics in noisy Brownian models with global continuous symmetries, such as $U(1)$ and $SU(2)$, focusing on Rényi entanglement entropies and hydrodynamic and non-hydrodynamic correlators. By mapping the averaged late-time dynamics to the low-energy physics of effective replica Hamiltonians, we find that the evolution is controlled by the quantum geometry of their ground-state manifolds, which is directly related to the geometry of $k$-commutants---the symmetry algebra of $k$ replicas of the system.",
+          "relevance": "many-body, entanglement",
+          "tags": [
+            "many-body",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Static multipolar Einstein-vector-Gauss-Bonnet black holes",
+          "authors": "Burkhard Kleihaus, Jutta Kunz",
+          "arxiv_id": "2608.11900",
+          "url": "https://arxiv.org/abs/2608.11900",
+          "categories": "hep-th, gr-qc",
+          "summary": "We construct and analyze static multipolar black holes in Einstein-vector-Gauss-Bonnet theory with a quadratic coupling function. The vectorized solutions bifurcate from the Schwarzschild black hole at discrete values of the Gauss-Bonnet coupling, obtained from a perturbative eigenvalue problem on the Schwarzschild background and labelled by the angular multipole number $\\ell$.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Squeezed quantum states and partner modes in the moving mirror model of black hole evaporation",
+          "authors": "Kuan-Nan Lin, Pisin Chen, Michael R.R. Good et al.",
+          "arxiv_id": "2608.11957",
+          "url": "https://arxiv.org/abs/2608.11957",
+          "categories": "hep-th, gr-qc",
+          "summary": "The standard moving mirror model in (1+1)-dimensional spacetime is known to reproduce several quantum aspects of black hole evaporation. A perfectly reflecting, accelerating mirror can emit radiation whose frequency spectrum resembles that of Hawking radiation, although this correspondence holds only under certain approximations.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Emergent scalar field dynamics in a cosmological spacetime from GFT quantum gravity",
+          "authors": "Roukaya Dekhil, Federico Greco, Stefano Liberati et al.",
+          "arxiv_id": "2608.12003",
+          "url": "https://arxiv.org/abs/2608.12003",
+          "categories": "hep-th, gr-qc",
+          "summary": "We derive an effective scalar field theory for matter in group field theory condensate cosmology, starting from the fundamental quantum-gravity dynamics in a fully relational framework and encompassing both early- and late-universe regimes. The collective hydrodynamics of the underlying quantum geometry allows us to reconstruct both the homogeneous cosmological dynamics of matter and geometry and an inhomogeneous local field-theory description.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Aspects of Carrollian field theory from holography",
+          "authors": "Hare Krishna, Vaishnavi Patil",
+          "arxiv_id": "2608.12241",
+          "url": "https://arxiv.org/abs/2608.12241",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study holography for three-dimensional asymptotically flat spacetimes in which the bulk gravitational dynamics is conjectured to be dual to a two-dimensional Carrollian (equivalently BMS) conformal field theory. Such theories are known to arise as ultrarelativistic ($c\\rightarrow0$) contractions of relativistic 2d conformal field theories.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Horizon flux-balance laws in the multiscale perturbation",
+          "authors": "Ali Seraj",
+          "arxiv_id": "2608.10093",
+          "url": "https://arxiv.org/abs/2608.10093",
+          "categories": "hep-th, gr-qc",
+          "summary": "Black-hole event horizons obey a set of evolution equations governing their intrinsic and extrinsic geometry. We study these equations in a \\textit{two-timescale} perturbative expansion about a Kerr background and derive strong constraints on the coarse-grained horizon dynamics.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Octupolar Gravitational Radiation in de Sitter Spacetime",
+          "authors": "Harsh, Omkar Shetye, Amitabh Virmani",
+          "arxiv_id": "2608.10593",
+          "url": "https://arxiv.org/abs/2608.10593",
+          "categories": "hep-th, gr-qc",
+          "summary": "We derive the gravitational radiation generated by a localised matter source in de Sitter spacetime at octupolar order in the multipolar expansion, working in generalised harmonic gauge in the future Poincaré patch. The scalar, vector, and tensor perturbation equations are solved explicitly, taking into account the cosmological tail.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Quasinormal modes in effective loop quantum gravity and consequences for isospectrality",
+          "authors": "Alejandro García-Quismondo, Guillermo A. Mena Marugán, Alvaro Torres-Caballeros",
+          "arxiv_id": "2608.11088",
+          "url": "https://arxiv.org/abs/2608.11088",
+          "categories": "gr-qc",
+          "summary": "We investigate the quasinormal mode spectra of axial and polar perturbations about the effective Ashtekar, Olmedo, and Singh black hole geometry within the hybrid approach to loop quantum gravity. We also compare our results with those previously obtained by del-Corral and Olmedo for the dressed metric approach.",
+          "relevance": "quantum-gravity, loop-quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Approximate locality, black hole complementarity and overlapping qubits",
+          "authors": "ChunJun Cao, Gong Cheng, Alexander Jahn et al.",
+          "arxiv_id": "2608.10085",
+          "url": "https://arxiv.org/abs/2608.10085",
+          "categories": "hep-th, quant-ph",
+          "summary": "We construct a toy model of an evaporating black hole using approximately local degrees of freedom acting on ``overlapping&#34; qubits in which a version of black hole complementarity arises naturally. The operators corresponding to the radiation and the interior are identified as two distinct representations of the same fundamental algebra, thereby preventing the exact factorization of the Hilbert space into interior and exterior and avoiding the conventional no-cloning violations.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Gravitational Faraday rotation, gravitational spin Hall effect, and spin-refined causality analysis from Magnusian matrix in effective field theories of gravity",
+          "authors": "Kibok Jeong, Jung-Wook Kim, Soochang Lee",
+          "arxiv_id": "2608.10871",
+          "url": "https://arxiv.org/abs/2608.10871",
+          "categories": "hep-th, gr-qc",
+          "summary": "The effects of black hole&#39;s spin in effective field theories (EFTs) of gravity are explored through observables of wave scattering on black hole backgrounds in the geometric optics approximation. The considered observables are polarisation rotation angle, wavenumber kick (or deflection angle), and (Shapiro/Wigner--Smith) time delay, each of which are related to gravitational Faraday rotation, gravitational spin Hall effect, and infrared causality.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Classical fractons with cosmological fixed points",
+          "authors": "Akash Singh, Dileep P. Jatkar, S. L. Sondhi et al.",
+          "arxiv_id": "2608.07672",
+          "url": "https://arxiv.org/abs/2608.07672",
+          "categories": "gr-qc, hep-th, physics.class-ph, cond-mat.stat-mech, cond-mat.str-el",
+          "summary": "Classical fractons are Hamiltonian systems that can develop attractors after projection onto configuration or shape variables, although the full phase space admits none. We study a scale-invariant, dipole-conserving two-parameter family of fracton Hamiltonians $H_{\\alpha,\\beta}$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Connecting the tensor-categorical formulation of anyon condensation with operator algebras and entropic order parameters",
+          "authors": "Hua-Chen Zhang",
+          "arxiv_id": "2608.12157",
+          "url": "https://arxiv.org/abs/2608.12157",
+          "categories": "hep-th, cond-mat.str-el, quant-ph",
+          "summary": "Anyon condensation that describes the transition between topological quantum field theories can be formulated in the language of tensor categories or that of operator algebras. We deploy the formalism of Doplicher-Haag-Roberts bimodules over quasi-local $\\mathrm{C}^{*}$-algebras recently developed in [1] to investigate anyon condensation, which is associated with an extension of a certain operator algebra.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-12",
       "type": "arxiv",
@@ -23905,32 +24115,44 @@
     }
   ],
   "stats": {
-    "total_digests": 214,
-    "total_entries": 1665,
+    "total_digests": 215,
+    "total_entries": 1680,
     "unique_tags": {
+      "loop-quantum-gravity": {
+        "first_seen": "2026-08-13",
+        "count": 28
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-08-13",
+        "count": 14
+      },
       "black-holes": {
-        "first_seen": "2026-08-12",
-        "count": 335
+        "first_seen": "2026-08-13",
+        "count": 341
       },
       "holography": {
-        "first_seen": "2026-08-12",
-        "count": 91
-      },
-      "topological": {
-        "first_seen": "2026-08-12",
-        "count": 64
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-08-12",
-        "count": 91
-      },
-      "physics": {
-        "first_seen": "2026-08-12",
-        "count": 224
+        "first_seen": "2026-08-13",
+        "count": 93
       },
       "entanglement": {
-        "first_seen": "2026-08-12",
-        "count": 92
+        "first_seen": "2026-08-13",
+        "count": 94
+      },
+      "many-body": {
+        "first_seen": "2026-08-13",
+        "count": 24
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-08-13",
+        "count": 93
+      },
+      "physics": {
+        "first_seen": "2026-08-13",
+        "count": 227
+      },
+      "topological": {
+        "first_seen": "2026-08-13",
+        "count": 65
       },
       "Science Communication & Policy": {
         "first_seen": "2026-08-12",
@@ -24180,10 +24402,6 @@
         "first_seen": "2026-08-08",
         "count": 5
       },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-08-07",
-        "count": 26
-      },
       "string-theory": {
         "first_seen": "2026-08-07",
         "count": 16
@@ -24260,10 +24478,6 @@
         "first_seen": "2026-08-06",
         "count": 1
       },
-      "quantum-cosmology": {
-        "first_seen": "2026-08-05",
-        "count": 13
-      },
       "inflation": {
         "first_seen": "2026-08-05",
         "count": 5
@@ -24279,10 +24493,6 @@
       "gravastars": {
         "first_seen": "2026-08-05",
         "count": 1
-      },
-      "many-body": {
-        "first_seen": "2026-08-04",
-        "count": 23
       },
       "quantum-information": {
         "first_seen": "2026-08-01",
@@ -27338,12 +27548,15 @@
       }
     },
     "tag_counts": {
-      "black-holes": 335,
-      "holography": 91,
-      "topological": 64,
-      "quantum-gravity": 91,
-      "physics": 224,
-      "entanglement": 92,
+      "loop-quantum-gravity": 28,
+      "quantum-cosmology": 14,
+      "black-holes": 341,
+      "holography": 93,
+      "entanglement": 94,
+      "many-body": 24,
+      "quantum-gravity": 93,
+      "physics": 227,
+      "topological": 65,
       "Science Communication & Policy": 171,
       "Black Hole Physics": 27,
       "Gravitational Collapse": 1,
@@ -27406,7 +27619,6 @@
       "Random Matrix Theory": 1,
       "Entanglement Entropy": 1,
       "AdS/CFT": 5,
-      "loop-quantum-gravity": 26,
       "string-theory": 16,
       "Experiment & Observation": 47,
       "condensed-matter": 1,
@@ -27426,12 +27638,10 @@
       "ensemble-holography": 1,
       "topological-boundaries": 1,
       "3d-gravity": 1,
-      "quantum-cosmology": 13,
       "inflation": 5,
       "scalarization": 2,
       "schwarzian": 1,
       "gravastars": 1,
-      "many-body": 23,
       "quantum-information": 10,
       "thermodynamics": 9,
       "entropy": 3,
@@ -28198,6 +28408,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-13",
         "2026-08-12",
         "2026-08-11",
         "2026-08-08",
