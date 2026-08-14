@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T01:44:16.943Z",
+  "generated": "2026-08-14T01:59:28.150Z",
   "digests": [
     {
       "date": "2026-08-14",
@@ -7,7 +7,7 @@
       "title": "# arXiv Morning Digest — 2026-08-14",
       "categories": "astro-ph.HE, astro-ph.SR, cond-mat.mes-hall, cond-mat.str-el, gr-qc, hep-ph, hep-th, math-ph, math.QA, quant-ph",
       "items_found": 15,
-      "focus": "quantum gravity, black hole, holograph, topological",
+      "focus": "quantum gravity, black hole physics, holography, topological order",
       "entries": [
         {
           "num": 1,
@@ -16,10 +16,12 @@
           "arxiv_id": "2608.12161",
           "url": "https://arxiv.org/abs/2608.12161",
           "categories": "hep-th, gr-qc",
-          "summary": "In any theory of quantum gravity, an interesting question to address is to what extent known solutions of the Einstein field equations can be obtained as expectation values of metric operators on suitable quantum states. In this work, we consider coherent states (to ensure minimum uncertainty) for different foliations of the de~Sitter spacetime and study temporal evolution and coordinate invariance.",
-          "relevance": "quantum-gravity",
+          "summary": "The authors develop a framework for constructing coherent states on globally diagonalisable metrics and apply it to de Sitter spacetime in various foliations. A key finding is that the normalisability of these minimum-uncertainty quantum states depends critically on the choice of foliation — coordinate singularities can render the states non-normalisable. This establishes a direct link between the geometric structure of the classical spacetime and the viability of its quantum description, with implications for how semiclassical spacetime emerges from quantum gravity.",
+          "relevance": "Directly relevant to quantum gravity and semiclassical spacetime emergence. The approach of using coherent states to connect quantum operators to classical geometries is closely related to techniques used in loop quantum gravity.",
           "tags": [
-            "quantum-gravity"
+            "Quantum Gravity",
+            "Semiclassical Spacetime",
+            "de Sitter"
           ]
         },
         {
@@ -29,10 +31,12 @@
           "arxiv_id": "2608.12285",
           "url": "https://arxiv.org/abs/2608.12285",
           "categories": "hep-th, gr-qc, cond-mat.mes-hall",
-          "summary": "Strong coupling to a magnetic texture makes an electron propagate through an emergent curved space. We show that an elementary vortex realizes the exterior spatial geometry of an Ellis wormhole: an ultrastatic throat with radius fixed by the topological charge and Hund exchange, cut off at short distances by the microscopic core.",
-          "relevance": "topological",
+          "summary": "The authors demonstrate that a magnetic vortex in a 2D material can act as an experimental analogue of an Ellis wormhole, with the vortex's topological charge and exchange coupling setting the wormhole throat radius. They identify two clear experimental signatures: electron trajectories that follow Ellis geodesics and a spin-dependent half-flux Aharonov-Bohm effect. The proposal is concrete enough that the same geometry can be engineered in a designer honeycomb lattice, making this a rare tabletop system where curved-spacetime effects could be directly observed in condensed matter.",
+          "relevance": "Bridges gravitational physics with condensed matter in an experimentally accessible way. Analogue gravity systems like this provide valuable insights into quantum field theory in curved spacetime.",
           "tags": [
-            "topological"
+            "Analogue Gravity",
+            "Topological Defects",
+            "Emergent Geometry"
           ]
         },
         {
@@ -42,10 +46,12 @@
           "arxiv_id": "2608.12303",
           "url": "https://arxiv.org/abs/2608.12303",
           "categories": "quant-ph, hep-th, cond-mat.str-el, math.QA",
-          "summary": "We construct phase transitions that proliferate condensable anyons in general 2+1d topological orders, including non-abelian ones. The central tool that provides a systematic approach to this question is the Symmetry Topological Field Theory (SymTFT).",
-          "relevance": "topological",
+          "summary": "Using Symmetry Topological Field Theory (SymTFT), the authors develop a unified framework for constructing phase transitions in which anyons — including non-abelian ones — proliferate and condense. The method lifts the 2+1D topological order into a 3+1D SymTFT sandwich and couples scalar fields on the symmetry boundary to drive the transition. The construction is demonstrated on both abelian and non-abelian examples (including $D(S_3)$ and $SU(2)_k$ Chern-Simons), suggesting a general strategy for understanding topological phase transitions beyond the abelian regime.",
+          "relevance": "Highly relevant to topological quantum computing and understanding phase transitions in topological matter. The non-abelian anyon proliferation framework connects to ongoing efforts in quantum error correction and topological order.",
           "tags": [
-            "topological"
+            "Topological Order",
+            "Non-Abelian Anyons",
+            "SymTFT"
           ]
         },
         {
@@ -55,10 +61,12 @@
           "arxiv_id": "2608.11703",
           "url": "https://arxiv.org/abs/2608.11703",
           "categories": "hep-th, hep-ph, gr-qc",
-          "summary": "Can flat-space on-shell amplitudes determine the channel basis of a coupled black-hole perturbation problem? We address this question for electromagnetic and gravitational perturbations of a Reissner-Nordström (RN) black-hole.",
-          "relevance": "physics",
+          "summary": "The authors use flat-space on-shell scattering amplitudes to reconstruct the channel-mixing structure of coupled electromagnetic-gravitational perturbations around a Reissner-Nordström black hole. Remarkably, the amplitude-derived spectral projectors match the exact Moncrief coupling matrix across the entire radial domain, not just in the weak-field limit — though this alignment breaks down when finite-mass recoil effects are included. The work also takes a first step toward the rotating Kerr-Newman case by extracting spin-dependent corrections from a Dirac amplitude, finding that rotation introduces additional angular-mode mixing not captured by the RN projectors.",
+          "relevance": "Represents a promising on-shell approach to black hole perturbation theory that connects scattering amplitudes with curved-spacetime physics. Relevant for gravitational wave physics and understanding black hole spectroscopy.",
           "tags": [
-            "physics"
+            "Black Hole Perturbations",
+            "Scattering Amplitudes",
+            "Gravitational Waves"
           ]
         },
         {
@@ -68,10 +76,12 @@
           "arxiv_id": "2608.12210",
           "url": "https://arxiv.org/abs/2608.12210",
           "categories": "hep-th, gr-qc",
-          "summary": "We perform a detailed diagrammatic analysis of the renormalisation of a family of asymptotically free, shift-symmetric four-derivative scalar field theories introduced by Holdom in arXiv:2303.06723 and arXiv:2402.09223. We extend the renormalisation of the theory from one to three loops using both an $R^*$ method and an asymptotic expansion in momenta.",
-          "relevance": "physics",
+          "summary": "The authors perform a multi-loop renormalisation analysis of a family of asymptotically free, shift-symmetric scalar theories with four-derivative kinetic terms. A key result is a non-renormalisation theorem proving that certain interaction structures — including a purely cubic term and a perfect-square Lagrangian — are preserved to all orders. Surprisingly, the beta function of the perfect-square theory maps exactly onto that of an $O(2)$ $\\phi^4$ theory at negative coupling, enabling a six-loop determination of the beta function and anomalous dimension for both the scalar theory and the conformally flat limit of quadratic gravity.",
+          "relevance": "Provides new structural insights into higher-derivative field theories with connections to quadratic gravity. The asymptotic freedom and exact mapping to lower-derivative theories are mathematically elegant results.",
           "tags": [
-            "physics"
+            "Higher-Derivative Gravity",
+            "Renormalisation",
+            "Asymptotic Freedom"
           ]
         },
         {
@@ -81,11 +91,12 @@
           "arxiv_id": "2608.10477",
           "url": "https://arxiv.org/abs/2608.10477",
           "categories": "gr-qc",
-          "summary": "We examine the entropy balance of black hole mergers in the presence of quantum gravity corrections described by the Generalized Uncertainty Principle (GUP). Focusing on the coalescence of two non-spinning Schwarzschild black holes with unequal masses, we analyze the thermodynamic evolution from the initial binary system to the final merger remnant, explicitly accounting for energy loss through gravitational-wave emission.",
-          "relevance": "quantum-gravity, black-holes",
+          "summary": "The author derives a quantum-corrected entropy bound on gravitational-wave emission during black hole mergers using a Generalized Uncertainty Principle (GUP) framework with logarithmic entropy corrections. The analysis shows that quantum gravity effects tighten the classical area theorem bound, with the strongest constraints appearing for near-equal-mass binaries — suggesting that symmetric mergers are the most promising systems for detecting quantum gravity imprints via gravitational wave energetics.",
+          "relevance": "Directly connects quantum gravity phenomenology to observable gravitational wave physics. The GUP-based approach offers a testable prediction about where quantum corrections might first show up in LIGO/Virgo data.",
           "tags": [
-            "quantum-gravity",
-            "black-holes"
+            "Black Hole Thermodynamics",
+            "Generalized Uncertainty Principle",
+            "Gravitational Waves"
           ]
         },
         {
@@ -95,10 +106,12 @@
           "arxiv_id": "2608.10859",
           "url": "https://arxiv.org/abs/2608.10859",
           "categories": "gr-qc",
-          "summary": "In this work, we study photon propagation and the radiative properties of a thin accretion disk around a ModMax black hole and examine the effects of the charge $Q$ (i.e. $Q^2 = Q^2_e +Q^2_m$ is the total dyonic charge, with $Q_e$ and $Q_m$ denoting the electric and magnetic charges, respectively) and the nonlinearity parameter $v$.",
-          "relevance": "black-holes",
+          "summary": "The authors study how dyonic charge and a nonlinearity parameter in the ModMax electrodynamics modify black hole shadows and accretion disk emission. Using MCMC fits to EHT shadow data for M87* and Sgr A*, they place tight observational constraints on the ModMax parameters ($Q < 0.391$, $v < 4.153$ at 95% credibility). Ray-traced accretion disk images further show that charge increases disk brightness while the nonlinearity parameter suppresses it, providing complementary observational handles.",
+          "relevance": "Demonstrates how current EHT observations can already constrain modified electrodynamics and beyond-GR black hole models. The combination of shadow and accretion disk data strengthens the case for using black hole imaging as a probe of fundamental physics.",
           "tags": [
-            "black-holes"
+            "Black Hole Shadows",
+            "Modified Gravity",
+            "EHT Observations"
           ]
         },
         {
@@ -108,11 +121,12 @@
           "arxiv_id": "2608.11048",
           "url": "https://arxiv.org/abs/2608.11048",
           "categories": "gr-qc",
-          "summary": "We study periodic orbits and the associated gravitational radiation of a magnetized (uncharged) test particle carrying a magnetic dipole moment with coupling constant beta, moving in the equatorial plane of a rotating, magnetized Kerr black hole immersed in an external asymptotically uniform magnetic field, starting from the effective potential derived for such particles. We compute the marginally bound orbit (MBO) and the innermost stable circular orbit (ISCO) as functions of the black hole spin a and the magnetic coupling beta, and map out the allowed region of the orbital energy-angular momentum (L, E) plane for bound motion.",
-          "relevance": "black-holes, topological",
+          "summary": "The authors extend the study of extreme-mass-ratio inspirals to magnetized test particles orbiting magnetized Kerr black holes, computing how magnetic dipole coupling modifies the innermost stable circular orbit and marginally bound orbit. They classify periodic orbits using the zoom-whirl scheme and show that the resulting gravitational waveforms retain clear burst-like signatures of the orbital topology. For realistic astrophysical parameters, the predicted signals fall within the sensitivity curves of future space-based detectors like LISA, Taiji, and TianQin — making this a potentially observable effect.",
+          "relevance": "Relevant for future gravitational wave astronomy with space-based detectors. The magnetized-particle scenario provides a more realistic model for astrophysical extreme-mass-ratio inspirals than pure geodesic motion.",
           "tags": [
-            "black-holes",
-            "topological"
+            "Extreme-Mass-Ratio Inspiral",
+            "Gravitational Waves",
+            "LISA"
           ]
         },
         {
@@ -122,10 +136,12 @@
           "arxiv_id": "2608.11311",
           "url": "https://arxiv.org/abs/2608.11311",
           "categories": "astro-ph.HE, astro-ph.SR, gr-qc",
-          "summary": "Gravitational wave observations have found over 300 merging binary black holes, yet their origins remain uncertain. Recent work showed that many may come from isolated stellar binaries whose orbits shrink through stable mass transfer.",
-          "relevance": "black-holes",
+          "summary": "Using detailed tidal spin-up models for black hole progenitors undergoing stable mass transfer, the authors predict a diverse spin distribution that depends sensitively on the mass transfer history (case A vs. case B vs. case AB). A key prediction is an anti-correlation between black hole spin and mass ratio, which could serve as a discriminator between isolated binary formation and dynamical channels. The model successfully explains the anomalous GW190412 event, which has moderate spin and high mass ratio.",
+          "relevance": "Important for interpreting the growing population of gravitational wave events and understanding black hole formation channels. The spin-mass ratio correlation is a key observable for distinguishing binary evolution scenarios.",
           "tags": [
-            "black-holes"
+            "Black Hole Formation",
+            "Gravitational Wave Sources",
+            "Stellar Evolution"
           ]
         },
         {
@@ -135,10 +151,12 @@
           "arxiv_id": "2608.11430",
           "url": "https://arxiv.org/abs/2608.11430",
           "categories": "gr-qc",
-          "summary": "In galactic environments, a host dark matter (DM) halo can imprint weak but coherent corrections on black hole (BH) strong-field observables. We construct an exact family of static and spherically symmetric BH spacetimes sourced by a generic core/cusp DM halo, described by an anisotropic stress-energy tensor with nonvanishing radial pressure.",
-          "relevance": "black-holes",
+          "summary": "The authors construct exact black hole spacetimes embedded in generic dark matter halos with core/cusp profiles, deriving self-consistent geometries from the Einstein equations. They show that strong-field observables — including the light ring, ISCO, and quasinormal modes — carry corrections controlled by a dimensionless compactness parameter rather than total halo mass. A striking finding is that cuspy profiles push the light ring outward and redshift orbital frequencies, while cored profiles leave the light ring radius unchanged at leading order, offering a potential discriminator between dark matter models through black hole imaging and ringdown.",
+          "relevance": "Connects dark matter astrophysics with strong-field gravity observables. The analytic treatment of environmental corrections to black hole spacetimes is valuable for both theory and observation.",
           "tags": [
-            "black-holes"
+            "Dark Matter",
+            "Black Hole Strong-Field",
+            "Environmental Effects"
           ]
         },
         {
@@ -148,10 +166,12 @@
           "arxiv_id": "2608.11620",
           "url": "https://arxiv.org/abs/2608.11620",
           "categories": "astro-ph.HE, hep-ph, gr-qc",
-          "summary": "We present constraints on ultralight bosons using binary black hole mergers observed in the second and third parts of the fourth LIGO-Virgo-KAGRA observing run. Directed searches are conducted for long-transient gravitational waves from ultralight vector boson clouds around merger remnants, using a hidden-Markov-model (HMM) tracking scheme.",
-          "relevance": "black-holes",
+          "summary": "The LVK collaboration presents new constraints on ultralight boson masses using O4 data, combining two complementary methods: directed searches for gravitational wave signals from boson clouds around merger remnants (using hidden Markov models), and spin-based constraints from high-spin black holes in three binaries. The combined analysis excludes ultralight vector bosons in the $10^{-13}$ eV range and, assuming typical dynamical formation ages, also constrains ultralight scalars — narrowing the allowed parameter space for dark matter candidates that could form gravitational atom states around black holes.",
+          "relevance": "Important observational constraint on ultralight dark matter candidates. The multi-method approach strengthens the robustness of the exclusion limits and demonstrates the power of gravitational wave data for particle physics.",
           "tags": [
-            "black-holes"
+            "Ultralight Bosons",
+            "Dark Matter",
+            "LIGO"
           ]
         },
         {
@@ -161,10 +181,12 @@
           "arxiv_id": "2608.12211",
           "url": "https://arxiv.org/abs/2608.12211",
           "categories": "gr-qc",
-          "summary": "The dynamics of a binary black hole system depend on its masses and spins. For a binary at finite separation, it is not possible to define these quantities in an unambiguous way; however, there are several reasonable definitions that reduce to the expected values in the limit of infinite separation.",
-          "relevance": "black-holes",
+          "summary": "The authors address a computational bottleneck in numerical relativity by developing a faster algorithm for computing approximate Killing vector (AKV) spins on apparent horizons during binary black hole evolutions. The current direct solver scales as $\\mathcal{O}(L^6)$ with spherical harmonic resolution, making it prohibitively expensive for high-resolution or high-spin simulations. The new algorithm dramatically reduces this cost, enabling more efficient computation of spin diagnostics without sacrificing accuracy.",
+          "relevance": "A practical numerical relativity improvement that matters for large-scale binary black hole simulations. Faster spin computation enables higher-resolution studies that are essential for accurate gravitational wave template generation.",
           "tags": [
-            "black-holes"
+            "Numerical Relativity",
+            "Binary Black Holes",
+            "Computational Methods"
           ]
         },
         {
@@ -174,10 +196,12 @@
           "arxiv_id": "2608.10060",
           "url": "https://arxiv.org/abs/2608.10060",
           "categories": "hep-th",
-          "summary": "Using the gravitational duals, we perform a systematic study of two notions of complexity in a family of three-dimensional gauge theories with rich infrared structure. For thermofield double states, we employ the complexity=volume prescription, which relates computational complexity to the volume of the dual Einstein-Rosen bridge.",
-          "relevance": "holography",
+          "summary": "The authors compare two holographic complexity measures — complexity=volume for thermofield double states and Krylov-space spread complexity for local operator states — in a family of 3D gauge theories with cascading, multiscale infrared behavior. They find that near a ``walking'' conformal regime, both measures detect the slow-running dynamics, but their sensitivity to confinement differs: volume complexity is largely blind to it, while Krylov complexity oscillates at a frequency tied to the confinement scale. This suggests that different complexity proposals probe different aspects of the gauge theory's infrared physics.",
+          "relevance": "Contributes to the ongoing effort to understand what holographic complexity actually measures. The comparison between volume and Krylov complexity in a nontrivial gauge theory provides valuable data for the broader complexity-in-quantum-gravity program.",
           "tags": [
-            "holography"
+            "Holographic Complexity",
+            "Gauge/Gravity Duality",
+            "Walking Dynamics"
           ]
         },
         {
@@ -187,10 +211,12 @@
           "arxiv_id": "2608.10072",
           "url": "https://arxiv.org/abs/2608.10072",
           "categories": "quant-ph, hep-th, math-ph",
-          "summary": "We study the recursion coefficients of orthogonal polynomials and their associated Krylov dynamics in random matrix models with high-degree and possibly asymmetric polynomial potentials. We develop a moment recursion method that, when combined with the recursive algorithm, provides an efficient construction of the recursion coefficients.",
-          "relevance": "physics",
+          "summary": "The authors develop an efficient moment-recursion method for computing orthogonal polynomial recursion coefficients in random matrix models with high-degree, asymmetric potentials. Applied to an asymmetric quartic model and the double-scaled SYK model, they find that gradient catastrophes in the recursion functions signal chaotic transition regions in the coefficients. Interestingly, these transitions do not qualitatively alter the spread complexity — instead, a two-branch structure in the recursion function produces early oscillations followed by monotonic growth, providing a diagnostic of the model's spectral structure.",
+          "relevance": "Connects random matrix theory and Krylov complexity to quantum gravity via the SYK model. The technical tools for handling asymmetric potentials may be applicable to broader holographic models.",
           "tags": [
-            "physics"
+            "Random Matrix Theory",
+            "SYK Model",
+            "Krylov Complexity"
           ]
         },
         {
@@ -200,11 +226,12 @@
           "arxiv_id": "2608.10348",
           "url": "https://arxiv.org/abs/2608.10348",
           "categories": "hep-th",
-          "summary": "This work establishes a formal bridge between the organizational principles of TQFTs and the AdS/BCFT correspondence, interpreting end of the world EOW branes as physical interfaces carrying boundary-state data. By developing a dictionary that maps cobordism composition to holographic sewing, we show that the Euclidean action and the Ryu and Takayanagi prescription consistently isolate the universal boundary entropy (log g).",
-          "relevance": "black-holes, holography",
+          "summary": "The author constructs a dictionary between topological quantum field theory cobordisms and holographic sewing in AdS/BCFT, showing that end-of-world branes carry boundary entropy data consistent with both the RT prescription and the Complexity-Action proposal. In the BTZ black hole case, late-time complexity growth is found to encode not just thermal dynamics but also universal boundary-condition information through the brane tension — establishing complexity as a probe of boundary entropy in holographic setups with boundaries.",
+          "relevance": "Advances the understanding of holographic complexity in boundary conformal field theories. The connection between TQFT structure and holographic sewing may have implications for understanding quantum entanglement at boundaries in quantum gravity.",
           "tags": [
-            "black-holes",
-            "holography"
+            "Holographic Complexity",
+            "AdS/BCFT",
+            "Boundary Entropy"
           ]
         }
       ]
@@ -24403,25 +24430,169 @@
     "total_digests": 217,
     "total_entries": 1699,
     "unique_tags": {
-      "quantum-gravity": {
+      "Quantum Gravity": {
         "first_seen": "2026-08-14",
-        "count": 94
+        "count": 37
       },
-      "topological": {
+      "Semiclassical Spacetime": {
         "first_seen": "2026-08-14",
-        "count": 68
+        "count": 1
       },
-      "physics": {
+      "de Sitter": {
         "first_seen": "2026-08-14",
-        "count": 227
+        "count": 1
       },
-      "black-holes": {
+      "Analogue Gravity": {
         "first_seen": "2026-08-14",
-        "count": 350
+        "count": 1
       },
-      "holography": {
+      "Topological Defects": {
         "first_seen": "2026-08-14",
-        "count": 96
+        "count": 2
+      },
+      "Emergent Geometry": {
+        "first_seen": "2026-08-14",
+        "count": 2
+      },
+      "Topological Order": {
+        "first_seen": "2026-08-14",
+        "count": 6
+      },
+      "Non-Abelian Anyons": {
+        "first_seen": "2026-08-14",
+        "count": 2
+      },
+      "SymTFT": {
+        "first_seen": "2026-08-14",
+        "count": 2
+      },
+      "Black Hole Perturbations": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Scattering Amplitudes": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Gravitational Waves": {
+        "first_seen": "2026-08-14",
+        "count": 5
+      },
+      "Higher-Derivative Gravity": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Renormalisation": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Asymptotic Freedom": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Black Hole Thermodynamics": {
+        "first_seen": "2026-08-14",
+        "count": 8
+      },
+      "Generalized Uncertainty Principle": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Black Hole Shadows": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Modified Gravity": {
+        "first_seen": "2026-08-14",
+        "count": 5
+      },
+      "EHT Observations": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Extreme-Mass-Ratio Inspiral": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "LISA": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Black Hole Formation": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Gravitational Wave Sources": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Stellar Evolution": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Dark Matter": {
+        "first_seen": "2026-08-14",
+        "count": 3
+      },
+      "Black Hole Strong-Field": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Environmental Effects": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Ultralight Bosons": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "LIGO": {
+        "first_seen": "2026-08-14",
+        "count": 5
+      },
+      "Numerical Relativity": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Binary Black Holes": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Computational Methods": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Holographic Complexity": {
+        "first_seen": "2026-08-14",
+        "count": 2
+      },
+      "Gauge/Gravity Duality": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Walking Dynamics": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Random Matrix Theory": {
+        "first_seen": "2026-08-14",
+        "count": 2
+      },
+      "SYK Model": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Krylov Complexity": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "AdS/BCFT": {
+        "first_seen": "2026-08-14",
+        "count": 1
+      },
+      "Boundary Entropy": {
+        "first_seen": "2026-08-14",
+        "count": 1
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-08-13",
@@ -24434,6 +24605,14 @@
       "CMB": {
         "first_seen": "2026-08-13",
         "count": 2
+      },
+      "black-holes": {
+        "first_seen": "2026-08-13",
+        "count": 342
+      },
+      "holography": {
+        "first_seen": "2026-08-13",
+        "count": 94
       },
       "information-paradox": {
         "first_seen": "2026-08-13",
@@ -24470,6 +24649,10 @@
       "quantum-field-theory": {
         "first_seen": "2026-08-13",
         "count": 6
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-08-13",
+        "count": 92
       },
       "group-field-theory": {
         "first_seen": "2026-08-13",
@@ -24515,6 +24698,10 @@
         "first_seen": "2026-08-13",
         "count": 2
       },
+      "topological": {
+        "first_seen": "2026-08-13",
+        "count": 65
+      },
       "anyons": {
         "first_seen": "2026-08-13",
         "count": 2
@@ -24526,6 +24713,10 @@
       "Technology & Engineering": {
         "first_seen": "2026-08-13",
         "count": 61
+      },
+      "physics": {
+        "first_seen": "2026-08-12",
+        "count": 224
       },
       "Black Hole Physics": {
         "first_seen": "2026-08-11",
@@ -24558,10 +24749,6 @@
       "Black Branes": {
         "first_seen": "2026-08-11",
         "count": 1
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-08-11",
-        "count": 36
       },
       "Loop Quantum Cosmology": {
         "first_seen": "2026-08-11",
@@ -24603,10 +24790,6 @@
         "first_seen": "2026-08-11",
         "count": 2
       },
-      "Modified Gravity": {
-        "first_seen": "2026-08-11",
-        "count": 4
-      },
       "Primordial Black Holes": {
         "first_seen": "2026-08-11",
         "count": 1
@@ -24647,10 +24830,6 @@
         "first_seen": "2026-08-11",
         "count": 2
       },
-      "Dark Matter": {
-        "first_seen": "2026-08-11",
-        "count": 1
-      },
       "Rotating Black Holes": {
         "first_seen": "2026-08-11",
         "count": 1
@@ -24678,10 +24857,6 @@
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-08-10",
         "count": 53
-      },
-      "Black Hole Thermodynamics": {
-        "first_seen": "2026-08-08",
-        "count": 7
       },
       "Stochastic Inflation": {
         "first_seen": "2026-08-08",
@@ -24715,27 +24890,15 @@
         "first_seen": "2026-08-08",
         "count": 2
       },
-      "Topological Order": {
-        "first_seen": "2026-08-08",
-        "count": 5
-      },
       "Conformal Field Theory": {
         "first_seen": "2026-08-08",
         "count": 2
-      },
-      "Non-Abelian Anyons": {
-        "first_seen": "2026-08-08",
-        "count": 1
       },
       "Lattice Gauge Theory": {
         "first_seen": "2026-08-08",
         "count": 1
       },
       "Unruh Effect": {
-        "first_seen": "2026-08-08",
-        "count": 1
-      },
-      "Topological Defects": {
         "first_seen": "2026-08-08",
         "count": 1
       },
@@ -24750,10 +24913,6 @@
       "Quantum Information": {
         "first_seen": "2026-08-08",
         "count": 4
-      },
-      "Random Matrix Theory": {
-        "first_seen": "2026-08-08",
-        "count": 1
       },
       "Entanglement Entropy": {
         "first_seen": "2026-08-08",
@@ -25155,10 +25314,6 @@
         "first_seen": "2026-06-06",
         "count": 1
       },
-      "LIGO": {
-        "first_seen": "2026-06-06",
-        "count": 4
-      },
       "Binary-Black-Holes": {
         "first_seen": "2026-06-06",
         "count": 1
@@ -25448,10 +25603,6 @@
         "count": 1
       },
       "fracton-topological-order": {
-        "first_seen": "2026-06-04",
-        "count": 1
-      },
-      "SymTFT": {
         "first_seen": "2026-06-04",
         "count": 1
       },
@@ -27483,10 +27634,6 @@
         "first_seen": "2026-05-19",
         "count": 1
       },
-      "Gravitational Waves": {
-        "first_seen": "2026-05-19",
-        "count": 2
-      },
       "Quantum Gravity Phenomenology": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -27534,10 +27681,6 @@
       "Functional Renormalization Group": {
         "first_seen": "2026-05-19",
         "count": 2
-      },
-      "Emergent Geometry": {
-        "first_seen": "2026-05-19",
-        "count": 1
       },
       "Ricci Flow": {
         "first_seen": "2026-05-19",
@@ -27861,14 +28004,52 @@
       }
     },
     "tag_counts": {
-      "quantum-gravity": 94,
-      "topological": 68,
-      "physics": 227,
-      "black-holes": 350,
-      "holography": 96,
+      "Quantum Gravity": 37,
+      "Semiclassical Spacetime": 1,
+      "de Sitter": 1,
+      "Analogue Gravity": 1,
+      "Topological Defects": 2,
+      "Emergent Geometry": 2,
+      "Topological Order": 6,
+      "Non-Abelian Anyons": 2,
+      "SymTFT": 2,
+      "Black Hole Perturbations": 1,
+      "Scattering Amplitudes": 1,
+      "Gravitational Waves": 5,
+      "Higher-Derivative Gravity": 1,
+      "Renormalisation": 1,
+      "Asymptotic Freedom": 1,
+      "Black Hole Thermodynamics": 8,
+      "Generalized Uncertainty Principle": 1,
+      "Black Hole Shadows": 1,
+      "Modified Gravity": 5,
+      "EHT Observations": 1,
+      "Extreme-Mass-Ratio Inspiral": 1,
+      "LISA": 1,
+      "Black Hole Formation": 1,
+      "Gravitational Wave Sources": 1,
+      "Stellar Evolution": 1,
+      "Dark Matter": 3,
+      "Black Hole Strong-Field": 1,
+      "Environmental Effects": 1,
+      "Ultralight Bosons": 1,
+      "LIGO": 5,
+      "Numerical Relativity": 1,
+      "Binary Black Holes": 1,
+      "Computational Methods": 1,
+      "Holographic Complexity": 2,
+      "Gauge/Gravity Duality": 1,
+      "Walking Dynamics": 1,
+      "Random Matrix Theory": 2,
+      "SYK Model": 1,
+      "Krylov Complexity": 1,
+      "AdS/BCFT": 1,
+      "Boundary Entropy": 1,
       "loop-quantum-gravity": 28,
       "quantum-cosmology": 15,
       "CMB": 2,
+      "black-holes": 342,
+      "holography": 94,
       "information-paradox": 5,
       "entanglement": 94,
       "AdS-CFT": 8,
@@ -27878,6 +28059,7 @@
       "Gauss-Bonnet": 1,
       "Hawking-radiation": 2,
       "quantum-field-theory": 6,
+      "quantum-gravity": 92,
       "group-field-theory": 1,
       "BMS-symmetry": 1,
       "flat-space": 1,
@@ -27889,9 +28071,11 @@
       "effective-field-theory": 1,
       "fractons": 1,
       "emergent-gravity": 2,
+      "topological": 65,
       "anyons": 2,
       "Science Communication & Policy": 174,
       "Technology & Engineering": 61,
+      "physics": 224,
       "Black Hole Physics": 27,
       "Gravitational Collapse": 1,
       "Exact Solutions": 1,
@@ -27900,7 +28084,6 @@
       "Holography": 6,
       "M-Theory": 1,
       "Black Branes": 1,
-      "Quantum Gravity": 36,
       "Loop Quantum Cosmology": 2,
       "Chern-Simons Theory": 1,
       "Cosmology": 6,
@@ -27911,7 +28094,6 @@
       "Quantum Cosmology": 7,
       "Inflation": 5,
       "Information Paradox": 2,
-      "Modified Gravity": 4,
       "Primordial Black Holes": 1,
       "Dark Energy": 5,
       "Quantum Field Theory in Curved Spacetime": 2,
@@ -27922,7 +28104,6 @@
       "White Holes": 1,
       "Accretion Disks": 1,
       "Energy Extraction": 2,
-      "Dark Matter": 1,
       "Rotating Black Holes": 1,
       "moltbook": 262,
       "quantum": 215,
@@ -27930,7 +28111,6 @@
       "Quantum Information & Computing": 127,
       "Optics & Photonics": 72,
       "Many-Body Physics & Condensed Matter": 53,
-      "Black Hole Thermodynamics": 7,
       "Stochastic Inflation": 1,
       "Loop Quantum Gravity": 5,
       "Black Holes": 6,
@@ -27939,16 +28119,12 @@
       "Early Universe": 1,
       "String Theory": 2,
       "Quantum Error Correction": 2,
-      "Topological Order": 5,
       "Conformal Field Theory": 2,
-      "Non-Abelian Anyons": 1,
       "Lattice Gauge Theory": 1,
       "Unruh Effect": 1,
-      "Topological Defects": 1,
       "Entanglement": 4,
       "Quantum Measurements": 1,
       "Quantum Information": 4,
-      "Random Matrix Theory": 1,
       "Entanglement Entropy": 1,
       "AdS/CFT": 5,
       "string-theory": 16,
@@ -28049,7 +28225,6 @@
       "Gravitational-Waves": 2,
       "Topological-Dark-Matter": 1,
       "Domain-Walls": 1,
-      "LIGO": 4,
       "Binary-Black-Holes": 1,
       "Neutron-Stars": 1,
       "Tidal-Resonances": 1,
@@ -28123,7 +28298,6 @@
       "AdS": 1,
       "multihair-thermodynamics": 1,
       "fracton-topological-order": 1,
-      "SymTFT": 1,
       "quantum-codes": 1,
       "supersymmetry-breaking": 1,
       "cosmological-constant": 2,
@@ -28631,7 +28805,6 @@
       "Coherent States": 1,
       "Semiclassical Limit": 1,
       "Loop Quantum Black Holes": 1,
-      "Gravitational Waves": 2,
       "Quantum Gravity Phenomenology": 1,
       "Problem of Time": 1,
       "Path Integral": 1,
@@ -28644,7 +28817,6 @@
       "Gravity Research Foundation": 2,
       "Quantum Uncertainty": 1,
       "Functional Renormalization Group": 2,
-      "Emergent Geometry": 1,
       "Ricci Flow": 1,
       "Information Geometry": 1,
       "Quantum Field Theory": 2,
