@@ -1,6 +1,214 @@
 {
-  "generated": "2026-08-13T04:49:48.376Z",
+  "generated": "2026-08-14T01:44:16.943Z",
   "digests": [
+    {
+      "date": "2026-08-14",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-14",
+      "categories": "astro-ph.HE, astro-ph.SR, cond-mat.mes-hall, cond-mat.str-el, gr-qc, hep-ph, hep-th, math-ph, math.QA, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, holograph, topological",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Coherent quantum geometry: de Sitter spacetime in different foliations",
+          "authors": "Tommaso Bambagiotti, Roberto Casadio, Andrea Giusti et al.",
+          "arxiv_id": "2608.12161",
+          "url": "https://arxiv.org/abs/2608.12161",
+          "categories": "hep-th, gr-qc",
+          "summary": "In any theory of quantum gravity, an interesting question to address is to what extent known solutions of the Einstein field equations can be obtained as expectation values of metric operators on suitable quantum states. In this work, we consider coherent states (to ensure minimum uncertainty) for different foliations of the de~Sitter spacetime and study temporal evolution and coordinate invariance.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Wormhole Geometry from a Magnetic Vortex",
+          "authors": "Dušan Đorđević, Fabián Molina, Vladimir Juričić",
+          "arxiv_id": "2608.12285",
+          "url": "https://arxiv.org/abs/2608.12285",
+          "categories": "hep-th, gr-qc, cond-mat.mes-hall",
+          "summary": "Strong coupling to a magnetic texture makes an electron propagate through an emergent curved space. We show that an elementary vortex realizes the exterior spatial geometry of an Ellis wormhole: an ultrastatic throat with radius fixed by the topological charge and Hund exchange, cut off at short distances by the microscopic core.",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Proliferation Transitions for Non-Abelian Anyons",
+          "authors": "Sakura Schafer-Nameki, Yunqin Zheng, Andrea Antinucci",
+          "arxiv_id": "2608.12303",
+          "url": "https://arxiv.org/abs/2608.12303",
+          "categories": "quant-ph, hep-th, cond-mat.str-el, math.QA",
+          "summary": "We construct phase transitions that proliferate condensable anyons in general 2+1d topological orders, including non-abelian ones. The central tool that provides a systematic approach to this question is the Symmetry Topological Field Theory (SymTFT).",
+          "relevance": "topological",
+          "tags": [
+            "topological"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "On-Shell Amplitudes and Black-Hole Perturbations: Exact Reissner-Nordström Mixing",
+          "authors": "Kento Takahara, Teppei Kitahara",
+          "arxiv_id": "2608.11703",
+          "url": "https://arxiv.org/abs/2608.11703",
+          "categories": "hep-th, hep-ph, gr-qc",
+          "summary": "Can flat-space on-shell amplitudes determine the channel basis of a coupled black-hole perturbation problem? We address this question for electromagnetic and gravitational perturbations of a Reissner-Nordström (RN) black-hole.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "On divergences in a four-derivative scalar field theory",
+          "authors": "Maegan Anderson, Sam Bateman, Franz Herzog et al.",
+          "arxiv_id": "2608.12210",
+          "url": "https://arxiv.org/abs/2608.12210",
+          "categories": "hep-th, gr-qc",
+          "summary": "We perform a detailed diagrammatic analysis of the renormalisation of a family of asymptotically free, shift-symmetric four-derivative scalar field theories introduced by Holdom in arXiv:2303.06723 and arXiv:2402.09223. We extend the renormalisation of the theory from one to three loops using both an $R^*$ method and an asymptotic expansion in momenta.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Quantum-Corrected Entropy Bounds on Black Hole Merger Efficiency",
+          "authors": "Jiswin Varghese",
+          "arxiv_id": "2608.10477",
+          "url": "https://arxiv.org/abs/2608.10477",
+          "categories": "gr-qc",
+          "summary": "We examine the entropy balance of black hole mergers in the presence of quantum gravity corrections described by the Generalized Uncertainty Principle (GUP). Focusing on the coalescence of two non-spinning Schwarzschild black holes with unequal masses, we analyze the thermodynamic evolution from the initial binary system to the final merger remnant, explicitly accounting for energy loss through gravitational-wave emission.",
+          "relevance": "quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Constraining ModMax Black Holes with EHT and GRAVITY Observations: Optical Signatures and Accretion Disk Properties",
+          "authors": "Tursunali Xamidov, Mirjavoxir Mirkhaydarov, Sanjar Shaymatov et al.",
+          "arxiv_id": "2608.10859",
+          "url": "https://arxiv.org/abs/2608.10859",
+          "categories": "gr-qc",
+          "summary": "In this work, we study photon propagation and the radiative properties of a thin accretion disk around a ModMax black hole and examine the effects of the charge $Q$ (i.e. $Q^2 = Q^2_e +Q^2_m$ is the total dyonic charge, with $Q_e$ and $Q_m$ denoting the electric and magnetic charges, respectively) and the nonlinearity parameter $v$.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Periodic orbits and gravitational wave signatures from magnetic dipoles around magnetized Kerr black holes",
+          "authors": "Shokhzod Jumaniyozov, Javlon Rayimbaev, Chengxun Yuan et al.",
+          "arxiv_id": "2608.11048",
+          "url": "https://arxiv.org/abs/2608.11048",
+          "categories": "gr-qc",
+          "summary": "We study periodic orbits and the associated gravitational radiation of a magnetized (uncharged) test particle carrying a magnetic dipole moment with coupling constant beta, moving in the equatorial plane of a rotating, magnetized Kerr black hole immersed in an external asymptotically uniform magnetic field, starting from the effective potential derived for such particles. We compute the marginally bound orbit (MBO) and the innermost stable circular orbit (ISCO) as functions of the black hole spin a and the magnetic coupling beta, and map out the allowed region of the orbital energy-angular momentum (L, E) plane for bound motion.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "A Diverse Distribution of Black Hole Spins from Stable Mass Transfer",
+          "authors": "Linhao Ma, Jakub Klencki, Eliot Quataert et al.",
+          "arxiv_id": "2608.11311",
+          "url": "https://arxiv.org/abs/2608.11311",
+          "categories": "astro-ph.HE, astro-ph.SR, gr-qc",
+          "summary": "Gravitational wave observations have found over 300 merging binary black holes, yet their origins remain uncertain. Recent work showed that many may come from isolated stellar binaries whose orbits shrink through stable mass transfer.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Imprints of core/cusp dark matter distributions on black hole signatures in galaxies",
+          "authors": "Hassan Hassanabadi, Che-Yu Chen, Soroush Zare et al.",
+          "arxiv_id": "2608.11430",
+          "url": "https://arxiv.org/abs/2608.11430",
+          "categories": "gr-qc",
+          "summary": "In galactic environments, a host dark matter (DM) halo can imprint weak but coherent corrections on black hole (BH) strong-field observables. We construct an exact family of static and spherically symmetric BH spacetimes sourced by a generic core/cusp DM halo, described by an anisotropic stress-energy tensor with nonvanishing radial pressure.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Constraints on ultralight bosons from merging binary and remnant black holes observed during the second and third parts of the fourth LIGO-Virgo-KAGRA observing run",
+          "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration et al.",
+          "arxiv_id": "2608.11620",
+          "url": "https://arxiv.org/abs/2608.11620",
+          "categories": "astro-ph.HE, hep-ph, gr-qc",
+          "summary": "We present constraints on ultralight bosons using binary black hole mergers observed in the second and third parts of the fourth LIGO-Virgo-KAGRA observing run. Directed searches are conducted for long-transient gravitational waves from ultralight vector boson clouds around merger remnants, using a hidden-Markov-model (HMM) tracking scheme.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Finding black hole spins efficiently during a numerical binary evolution",
+          "authors": "Himanshu Chaudhary, Rob Owen, Mark A. Scheel et al.",
+          "arxiv_id": "2608.12211",
+          "url": "https://arxiv.org/abs/2608.12211",
+          "categories": "gr-qc",
+          "summary": "The dynamics of a binary black hole system depend on its masses and spins. For a binary at finite separation, it is not possible to define these quantities in an unambiguous way; however, there are several reasonable definitions that reduce to the expected values in the limit of infinite separation.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Complexity measures in holographic cascading theories with multiscale dynamics",
+          "authors": "Carlos Nunez, Juan F. Pedraza, Javier G. Subils",
+          "arxiv_id": "2608.10060",
+          "url": "https://arxiv.org/abs/2608.10060",
+          "categories": "hep-th",
+          "summary": "Using the gravitational duals, we perform a systematic study of two notions of complexity in a family of three-dimensional gauge theories with rich infrared structure. For thermofield double states, we employ the complexity=volume prescription, which relates computational complexity to the volume of the dual Einstein-Rosen bridge.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Recursion Coefficients and Krylov Dynamics in Polynomial Random Matrix Models",
+          "authors": "Juan F. Pedraza, Le-Chen Qu",
+          "arxiv_id": "2608.10072",
+          "url": "https://arxiv.org/abs/2608.10072",
+          "categories": "quant-ph, hep-th, math-ph",
+          "summary": "We study the recursion coefficients of orthogonal polynomials and their associated Krylov dynamics in random matrix models with high-degree and possibly asymmetric polynomial potentials. We develop a moment recursion method that, when combined with the recursive algorithm, provides an efficient construction of the recursion coefficients.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Holographic Complexity as a Probe of Boundary Entropy in AdS/BCFT",
+          "authors": "Fabiano F. Santos",
+          "arxiv_id": "2608.10348",
+          "url": "https://arxiv.org/abs/2608.10348",
+          "categories": "hep-th",
+          "summary": "This work establishes a formal bridge between the organizational principles of TQFTs and the AdS/BCFT correspondence, interpreting end of the world EOW branes as physical interfaces carrying boundary-state data. By developing a dictionary that maps cobordism composition to holographic sewing, we show that the Euclidean action and the Ryu and Takayanagi prescription consistently isolate the universal boundary entropy (log g).",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-13",
       "type": "arxiv",
@@ -24192,9 +24400,29 @@
     }
   ],
   "stats": {
-    "total_digests": 216,
-    "total_entries": 1684,
+    "total_digests": 217,
+    "total_entries": 1699,
     "unique_tags": {
+      "quantum-gravity": {
+        "first_seen": "2026-08-14",
+        "count": 94
+      },
+      "topological": {
+        "first_seen": "2026-08-14",
+        "count": 68
+      },
+      "physics": {
+        "first_seen": "2026-08-14",
+        "count": 227
+      },
+      "black-holes": {
+        "first_seen": "2026-08-14",
+        "count": 350
+      },
+      "holography": {
+        "first_seen": "2026-08-14",
+        "count": 96
+      },
       "loop-quantum-gravity": {
         "first_seen": "2026-08-13",
         "count": 28
@@ -24206,14 +24434,6 @@
       "CMB": {
         "first_seen": "2026-08-13",
         "count": 2
-      },
-      "black-holes": {
-        "first_seen": "2026-08-13",
-        "count": 342
-      },
-      "holography": {
-        "first_seen": "2026-08-13",
-        "count": 94
       },
       "information-paradox": {
         "first_seen": "2026-08-13",
@@ -24250,10 +24470,6 @@
       "quantum-field-theory": {
         "first_seen": "2026-08-13",
         "count": 6
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-08-13",
-        "count": 92
       },
       "group-field-theory": {
         "first_seen": "2026-08-13",
@@ -24299,10 +24515,6 @@
         "first_seen": "2026-08-13",
         "count": 2
       },
-      "topological": {
-        "first_seen": "2026-08-13",
-        "count": 65
-      },
       "anyons": {
         "first_seen": "2026-08-13",
         "count": 2
@@ -24314,10 +24526,6 @@
       "Technology & Engineering": {
         "first_seen": "2026-08-13",
         "count": 61
-      },
-      "physics": {
-        "first_seen": "2026-08-12",
-        "count": 224
       },
       "Black Hole Physics": {
         "first_seen": "2026-08-11",
@@ -27653,11 +27861,14 @@
       }
     },
     "tag_counts": {
+      "quantum-gravity": 94,
+      "topological": 68,
+      "physics": 227,
+      "black-holes": 350,
+      "holography": 96,
       "loop-quantum-gravity": 28,
       "quantum-cosmology": 15,
       "CMB": 2,
-      "black-holes": 342,
-      "holography": 94,
       "information-paradox": 5,
       "entanglement": 94,
       "AdS-CFT": 8,
@@ -27667,7 +27878,6 @@
       "Gauss-Bonnet": 1,
       "Hawking-radiation": 2,
       "quantum-field-theory": 6,
-      "quantum-gravity": 92,
       "group-field-theory": 1,
       "BMS-symmetry": 1,
       "flat-space": 1,
@@ -27679,11 +27889,9 @@
       "effective-field-theory": 1,
       "fractons": 1,
       "emergent-gravity": 2,
-      "topological": 65,
       "anyons": 2,
       "Science Communication & Policy": 174,
       "Technology & Engineering": 61,
-      "physics": 224,
       "Black Hole Physics": 27,
       "Gravitational Collapse": 1,
       "Exact Solutions": 1,
@@ -28520,6 +28728,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-14",
         "2026-08-13",
         "2026-08-12",
         "2026-08-11",
