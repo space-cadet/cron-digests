@@ -1,6 +1,166 @@
 {
-  "generated": "2026-08-14T04:53:30.495Z",
+  "generated": "2026-08-15T01:48:02.011Z",
   "digests": [
+    {
+      "date": "2026-08-15",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-15",
+      "categories": "gr-qc, hep-th, quant-ph, astro-ph.CO, hep-ph, astro-ph.HE, math-ph",
+      "items_found": 10,
+      "focus": "quantum gravity, black hole physics, entanglement, vacuum decay, regular black holes, holography",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Spectral Localization Principle for Entanglement Harvesting",
+          "authors": "Hao Xu",
+          "arxiv_id": "2608.13449",
+          "url": "https://arxiv.org/abs/2608.13449",
+          "categories": "gr-qc, hep-th, quant-ph",
+          "summary": "This work identifies a single dimensionless parameter — the inverse participation ratio of the effective spectral density — as the universal controller of how much entanglement two localized detectors can extract from a quantum field. By solving an analytically tractable cavity-bath model exactly, the author derives a closed-form expression for the maximum concurrence and shows that it interpolates between deterministic gate-based entanglement (when the spectral density is sharply peaked) and vacuum harvesting (when it is broad). The result transforms the Reeh-Schlieder theorem from an abstract statement about vacuum correlations into a quantitative bound that can be tested in circuit QED experiments.",
+          "relevance": "Entanglement harvesting and the Reeh-Schlieder theorem are foundational concepts for understanding quantum correlations in curved spacetime and quantum gravity. The connection to Anderson localization via the participation ratio suggests deep structural parallels between quantum field theory and condensed matter that may inform quantum geometry approaches.",
+          "tags": [
+            "Entanglement Harvesting",
+            "Quantum Field Theory",
+            "Reeh-Schlieder Theorem"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Thermal false vacuum decay near black holes is aspherical",
+          "authors": "D. S. Gorbunov, D. G. Levkov, V. E. Maslov",
+          "arxiv_id": "2608.12469",
+          "url": "https://arxiv.org/abs/2608.12469",
+          "categories": "gr-qc, hep-th, astro-ph.CO, hep-ph",
+          "summary": "The authors show that false vacuum decay near a Schwarzschild black hole is fundamentally aspherical, with true vacuum bubbles preferentially nucleating on the exterior side of the event horizon rather than forming symmetrically around it. They map out three distinct regimes controlled by black hole mass and temperature: quantum tunneling dominates for large cold black holes, thermal fluctuations create aspherical bubbles for intermediate masses, and only for the smallest black holes does spherical symmetry return. This means that a black hole acts as a catalyst that breaks the spatial symmetry of vacuum decay — a dramatic departure from flat-space Coleman-de Luccia bubbles.",
+          "relevance": "False vacuum decay in strong gravitational fields is a key process in early universe cosmology and may have observational consequences for primordial black holes. The aspherical nature of the decay near horizons has implications for understanding how quantum fields behave in the strong-field regime, which is central to quantum gravity phenomenology.",
+          "tags": [
+            "False Vacuum Decay",
+            "Black Hole Physics",
+            "Quantum Tunneling"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Dymnikova Black Hole Tidal Forces",
+          "authors": "M. H. Macêdo, A. A. M. Silva, R. R. Landim",
+          "arxiv_id": "2608.12495",
+          "url": "https://arxiv.org/abs/2608.12495",
+          "categories": "gr-qc, hep-th",
+          "summary": "The authors compute the tidal tensor for free-falling observers in the Dymnikova regular black hole — a model with a de Sitter core that replaces the singularity with a smooth interior. They find that tidal forces remain finite everywhere, vanish and change sign at characteristic radii inside the horizon (creating transitions between stretching and compression), and cause infalling particles to reach a turnaround point rather than the center. Geodesic deviation remains bounded throughout, in stark contrast to Schwarzschild where the radial deviation diverges at the singularity. This provides a concrete dynamical signature distinguishing regular black holes from singular ones.",
+          "relevance": "Regular black holes with de Sitter cores are motivated by semiclassical considerations and share qualitative features with black hole interiors in loop quantum gravity, where bounce and regularization effects are expected. The tidal dynamics computed here offers observable predictions that could distinguish regular from singular spacetimes in future gravitational wave or black hole imaging observations.",
+          "tags": [
+            "Regular Black Holes",
+            "Tidal Forces",
+            "Singularity Resolution"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Quantum-Corrected Thermodynamics and Phase Structure of AdS Euler-Heisenberg Black Hole",
+          "authors": "Siddhartha Sankar Borah, Dhruba Jyoti Gogoi, Kalyan Bhuyan",
+          "arxiv_id": "2608.13378",
+          "url": "https://arxiv.org/abs/2608.13378",
+          "categories": "gr-qc, hep-th",
+          "summary": "This study examines how quantum thermal fluctuations modify the thermodynamics of an AdS black hole in Einstein-Euler-Heisenberg gravity. By including logarithmic and inverse-area corrections to the Bekenstein-Hawking entropy, the authors find that the specific heat develops multiple divergences and sign changes, indicating a sequence of second-order phase transitions. A striking result is the emergence of a quantum-stabilized microscopic phase that is absent classically, followed by a universal macroscopic instability. The quantum corrections thus fundamentally restructure the phase diagram, suggesting that black hole thermodynamics is far richer than the classical picture admits.",
+          "relevance": "Quantum corrections to black hole thermodynamics are a central frontier in quantum gravity. The phase structure revealed here — with quantum-stabilized phases and multiple transitions — has direct parallels to ongoing investigations of black hole phase transitions in AdS/CFT and may inform how quantum geometry modifies thermodynamic behavior in loop quantum gravity.",
+          "tags": [
+            "Black Hole Thermodynamics",
+            "Quantum Corrections",
+            "Phase Transitions"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Quasitopological Gravity with Matter: Modified Double-Copy Approach",
+          "authors": "Valeri P. Frolov",
+          "arxiv_id": "2608.12596",
+          "url": "https://arxiv.org/abs/2608.12596",
+          "categories": "gr-qc, hep-th",
+          "summary": "The author extends the color-kinematics double-copy framework — originally connecting Yang-Mills theory to gravity — to quasitopological gravity coupled to matter. The key construction maps QTG field equations in D dimensions to a nonlinear gauge theory in a flat (D+1)-dimensional auxiliary spacetime, from which Kerr-Schild metrics are recovered by restriction. This provides a systematic way to generate exact solutions in higher-curvature gravity from known gauge theory solutions, and naturally produces both static geometries (via a generalized Birkhoff theorem) and radiating Vaidya-type solutions.",
+          "relevance": "The double-copy program is one of the most promising structural insights connecting gauge theory and gravity. Extending it to quasitopological gravity — a higher-curvature theory with cleaner quantum properties than generic f(R) models — opens new avenues for constructing exact solutions and understanding how the gravity-gauge theory correspondence generalizes beyond Einstein gravity.",
+          "tags": [
+            "Double-Copy",
+            "Quasitopological Gravity",
+            "Exact Solutions"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Holographic Renormalization for String-Derived Lovelock--Horndeski Theory",
+          "authors": "Tianhao Wu",
+          "arxiv_id": "2608.13319",
+          "url": "https://arxiv.org/abs/2608.13319",
+          "categories": "gr-qc, hep-th",
+          "summary": "This work constructs the complete holographic renormalization for a five-dimensional string-derived Lovelock-Horndeski theory and shows that boundary observables — including the Weyl anomaly, one-point functions, and response coefficients — contain enough information to reconstruct the higher-dimensional coupling constants. The key result is that four scalar-normalization-invariant holographic combinations admit a rational inverse to the bulk couplings, and the Gauss-Bonnet coefficient can be unambiguously extracted from the curvature-anomaly sum. This establishes that holographic response serves as a \"fingerprint\" of the underlying string compactification.",
+          "relevance": "Holographic renormalization in higher-curvature scalar-tensor theories is essential for connecting string theory compactifications to observable boundary physics. The reconstruction of bulk parameters from boundary data has implications for understanding how quantum gravity imprints itself on low-energy physics, with relevance to both AdS/CFT and emergent gravity approaches.",
+          "tags": [
+            "Holographic Renormalization",
+            "Higher-Curvature Gravity",
+            "String Theory"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "On Super-Hyperbolic Wormhole Geometries and their Deformations",
+          "authors": "Subrat Parida",
+          "arxiv_id": "2608.12412",
+          "url": "https://arxiv.org/abs/2608.12412",
+          "categories": "gr-qc, hep-th, math-ph",
+          "summary": "The author constructs a new family of traversable wormholes by deforming the classical catenoid embedding using a Mittag-Leffler-based super-hyperbolic function, introducing a deformation parameter that controls the throat geometry and asymptotic behavior. For this family, exact analytical expressions are derived for the shape function, curvature tensors, matter sources, and junction conditions, leading to a closed-form thin-shell equation of motion and a stability criterion. The construction is mathematically consistent and provides a tunable framework for studying exotic geometries while identifying parameter regimes where traversability and stability coexist.",
+          "relevance": "Traversable wormholes remain a theoretical laboratory for understanding exotic matter, topological effects in gravity, and the limits of classical general relativity. The Mittag-Leffler deformation introduces fractional-calculus-inspired structures that may connect to ongoing work on non-local gravity and quantum gravitational effective descriptions.",
+          "tags": [
+            "Traversable Wormholes",
+            "Exotic Geometry",
+            "Thin-Shell Formalism"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "A Lapse in the Cosmological Constant Problem with Bulk Dynamics",
+          "authors": "Justin Khoury, Benjamin Muntz, Antonio Padilla",
+          "arxiv_id": "2608.12460",
+          "url": "https://arxiv.org/abs/2608.12460",
+          "categories": "gr-qc, hep-th",
+          "summary": "The authors extend their novel approach to the cosmological constant problem — which uses anisotropic scaling in a compact extra dimension to render Einstein equations insensitive to vacuum energy — by introducing dynamical deformations that restore propagation along the compact direction. They show that vacuum-energy cancellation survives at the background level, but avoiding a scalar ghost requires the Fierz-Pauli tuning of extrinsic-curvature couplings. The construction is realized covariantly via a five-dimensional Einstein-gravity-plus-flux model with a spacelike \"khoron\" field that dynamically selects a preferred foliation, making the vacuum-energy cancellation manifest as an algebraic cancellation in the intrinsic equations.",
+          "relevance": "The cosmological constant problem remains one of the deepest unsolved problems in theoretical physics. This framework offers a genuinely new mechanism — distinct from supersymmetry, anthropic reasoning, or modified gravity — and its extension to dynamical bulk theories brings it closer to physical realizability. The connection to Horava-Lifshitz-type anisotropic scaling may also inform approaches to quantum gravity with emergent Lorentz symmetry.",
+          "tags": [
+            "Cosmological Constant Problem",
+            "Extra Dimensions",
+            "Anisotropic Scaling"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Cosmological Vacuum Decays from Schwinger-Keldysh Formalism",
+          "authors": "Zi-Yan Yuwen",
+          "arxiv_id": "2608.12736",
+          "url": "https://arxiv.org/abs/2608.12736",
+          "categories": "gr-qc, hep-th, hep-ph",
+          "summary": "The author develops a Schwinger-Keldysh-based open quantum systems framework for cosmological vacuum decay, in which the phase-transition field is split into a mean field and short-wavelength fluctuations that are traced over as an environment. The resulting effective dynamics for the mean field takes the form of a classical Langevin equation with a non-Markovian memory kernel and non-Gaussian quantum noise, capturing how quantum correlations feed back into the classical evolution of the order parameter. This provides a systematic starting point for simulating first-order phase transitions in the early universe beyond the usual Markovian approximations.",
+          "relevance": "First-order phase transitions in the early universe are important for baryogenesis, gravitational wave production, and primordial black hole formation. The Schwinger-Keldysh approach offers a more rigorous treatment of quantum effects during these transitions than standard effective potential methods, with potential applications to quantum field theory in curved spacetime.",
+          "tags": [
+            "Vacuum Decay",
+            "Schwinger-Keldysh",
+            "Cosmological Phase Transitions"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Microscopic Interaction versus Purely Gravitational Coupling in Strange Quark Stars Admixed with Dark Matter: A One-Fluid and Two-Fluid Comparison",
+          "authors": "J. Sedaghat, G. H. Bordbar, M. Haghighat, S. M. Zebarjad",
+          "arxiv_id": "2608.12383",
+          "url": "https://arxiv.org/abs/2608.12383",
+          "categories": "gr-qc, hep-th, hep-ph, astro-ph.HE",
+          "summary": "The authors compare two approaches to modeling strange quark stars mixed with scalar dark matter: an interacting one-fluid model where dark matter and quark matter are microscopically coupled, and a noninteracting two-fluid model where they only interact gravitationally. While both models can produce massive stars exceeding two solar masses, the noninteracting two-fluid model better satisfies the tidal deformability constraints from GW170817 and is more compatible with the tighter bounds expected from next-generation detectors. This suggests that gravitational coupling alone may be sufficient to describe dark matter admixture in compact stars without invoking additional microscopic interactions.",
+          "relevance": "Compact stars admixed with dark matter represent a novel astrophysical probe of dark matter properties. The comparison between interacting and noninteracting models provides guidance for interpreting future gravitational wave and pulsar observations, and connects to broader questions about how dark matter behaves in strong gravitational fields.",
+          "tags": [
+            "Strange Quark Stars",
+            "Dark Matter",
+            "Gravitational Wave Constraints"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-14",
       "type": "arxiv",
@@ -24468,9 +24628,129 @@
     }
   ],
   "stats": {
-    "total_digests": 218,
-    "total_entries": 1702,
+    "total_digests": 219,
+    "total_entries": 1712,
     "unique_tags": {
+      "Entanglement Harvesting": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Quantum Field Theory": {
+        "first_seen": "2026-08-15",
+        "count": 3
+      },
+      "Reeh-Schlieder Theorem": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "False Vacuum Decay": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-08-15",
+        "count": 28
+      },
+      "Quantum Tunneling": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Regular Black Holes": {
+        "first_seen": "2026-08-15",
+        "count": 2
+      },
+      "Tidal Forces": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Singularity Resolution": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Black Hole Thermodynamics": {
+        "first_seen": "2026-08-15",
+        "count": 9
+      },
+      "Quantum Corrections": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Phase Transitions": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Double-Copy": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Quasitopological Gravity": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Exact Solutions": {
+        "first_seen": "2026-08-15",
+        "count": 2
+      },
+      "Holographic Renormalization": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Higher-Curvature Gravity": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "String Theory": {
+        "first_seen": "2026-08-15",
+        "count": 3
+      },
+      "Traversable Wormholes": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Exotic Geometry": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Thin-Shell Formalism": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Cosmological Constant Problem": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Extra Dimensions": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Anisotropic Scaling": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Vacuum Decay": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Schwinger-Keldysh": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Cosmological Phase Transitions": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Strange Quark Stars": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
+      "Dark Matter": {
+        "first_seen": "2026-08-15",
+        "count": 4
+      },
+      "Gravitational Wave Constraints": {
+        "first_seen": "2026-08-15",
+        "count": 1
+      },
       "Quantum Gravity": {
         "first_seen": "2026-08-14",
         "count": 37
@@ -24531,10 +24811,6 @@
         "first_seen": "2026-08-14",
         "count": 1
       },
-      "Black Hole Thermodynamics": {
-        "first_seen": "2026-08-14",
-        "count": 8
-      },
       "Generalized Uncertainty Principle": {
         "first_seen": "2026-08-14",
         "count": 1
@@ -24570,10 +24846,6 @@
       "Stellar Evolution": {
         "first_seen": "2026-08-14",
         "count": 1
-      },
-      "Dark Matter": {
-        "first_seen": "2026-08-14",
-        "count": 3
       },
       "Black Hole Strong-Field": {
         "first_seen": "2026-08-14",
@@ -24759,15 +25031,7 @@
         "first_seen": "2026-08-12",
         "count": 224
       },
-      "Black Hole Physics": {
-        "first_seen": "2026-08-11",
-        "count": 27
-      },
       "Gravitational Collapse": {
-        "first_seen": "2026-08-11",
-        "count": 1
-      },
-      "Exact Solutions": {
         "first_seen": "2026-08-11",
         "count": 1
       },
@@ -24911,10 +25175,6 @@
         "first_seen": "2026-08-08",
         "count": 6
       },
-      "Regular Black Holes": {
-        "first_seen": "2026-08-08",
-        "count": 1
-      },
       "Cosmological Perturbations": {
         "first_seen": "2026-08-08",
         "count": 1
@@ -24922,10 +25182,6 @@
       "Early Universe": {
         "first_seen": "2026-08-08",
         "count": 1
-      },
-      "String Theory": {
-        "first_seen": "2026-08-08",
-        "count": 2
       },
       "Quantum Error Correction": {
         "first_seen": "2026-08-08",
@@ -27731,10 +27987,6 @@
         "first_seen": "2026-05-19",
         "count": 1
       },
-      "Quantum Field Theory": {
-        "first_seen": "2026-05-19",
-        "count": 2
-      },
       "Higher Curvature Gravity": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -28045,6 +28297,36 @@
       }
     },
     "tag_counts": {
+      "Entanglement Harvesting": 1,
+      "Quantum Field Theory": 3,
+      "Reeh-Schlieder Theorem": 1,
+      "False Vacuum Decay": 1,
+      "Black Hole Physics": 28,
+      "Quantum Tunneling": 1,
+      "Regular Black Holes": 2,
+      "Tidal Forces": 1,
+      "Singularity Resolution": 1,
+      "Black Hole Thermodynamics": 9,
+      "Quantum Corrections": 1,
+      "Phase Transitions": 1,
+      "Double-Copy": 1,
+      "Quasitopological Gravity": 1,
+      "Exact Solutions": 2,
+      "Holographic Renormalization": 1,
+      "Higher-Curvature Gravity": 1,
+      "String Theory": 3,
+      "Traversable Wormholes": 1,
+      "Exotic Geometry": 1,
+      "Thin-Shell Formalism": 1,
+      "Cosmological Constant Problem": 1,
+      "Extra Dimensions": 1,
+      "Anisotropic Scaling": 1,
+      "Vacuum Decay": 1,
+      "Schwinger-Keldysh": 1,
+      "Cosmological Phase Transitions": 1,
+      "Strange Quark Stars": 1,
+      "Dark Matter": 4,
+      "Gravitational Wave Constraints": 1,
       "Quantum Gravity": 37,
       "Semiclassical Spacetime": 1,
       "de Sitter": 1,
@@ -28060,7 +28342,6 @@
       "Higher-Derivative Gravity": 1,
       "Renormalisation": 1,
       "Asymptotic Freedom": 1,
-      "Black Hole Thermodynamics": 8,
       "Generalized Uncertainty Principle": 1,
       "Black Hole Shadows": 1,
       "Modified Gravity": 5,
@@ -28070,7 +28351,6 @@
       "Black Hole Formation": 1,
       "Gravitational Wave Sources": 1,
       "Stellar Evolution": 1,
-      "Dark Matter": 3,
       "Black Hole Strong-Field": 1,
       "Environmental Effects": 1,
       "Ultralight Bosons": 1,
@@ -28117,9 +28397,7 @@
       "anyons": 2,
       "Technology & Engineering": 61,
       "physics": 224,
-      "Black Hole Physics": 27,
       "Gravitational Collapse": 1,
-      "Exact Solutions": 1,
       "Nonlinear Electrodynamics": 2,
       "Observational Signatures": 1,
       "Holography": 6,
@@ -28155,10 +28433,8 @@
       "Stochastic Inflation": 1,
       "Loop Quantum Gravity": 5,
       "Black Holes": 6,
-      "Regular Black Holes": 1,
       "Cosmological Perturbations": 1,
       "Early Universe": 1,
-      "String Theory": 2,
       "Quantum Error Correction": 2,
       "Conformal Field Theory": 2,
       "Lattice Gauge Theory": 1,
@@ -28860,7 +29136,6 @@
       "Functional Renormalization Group": 2,
       "Ricci Flow": 1,
       "Information Geometry": 1,
-      "Quantum Field Theory": 2,
       "Higher Curvature Gravity": 1,
       "Energy Conditions": 1,
       "General Relativity": 1,
@@ -28941,6 +29216,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-15",
         "2026-08-14",
         "2026-08-13",
         "2026-08-12",
