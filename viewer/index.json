@@ -1,6 +1,47 @@
 {
-  "generated": "2026-08-17T03:08:44.707Z",
+  "generated": "2026-08-17T04:50:26.458Z",
   "digests": [
+    {
+      "date": "2026-08-17",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-17",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "World’s First Superconducting Quantum Heat Engine Could Help Unlock Massive Quantum Computers",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011041.htm",
+          "summary": "A newly developed superconducting quantum heat engine could deepen our understanding of thermodynamics while helping advance technologies needed for quantum computers with very large numbers of qubits.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Undocumented migration does not raise crime rates, huge study finds",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02542-0",
+          "summary": "Analysis of neighbourhoods in more than 100 US cities finds no evidence that rising numbers of undocumented immigrants are linked with violent crime.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "New image captures glowing shock waves in the Helix Nebula",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/new-image-captures-glowing-shock-waves-in-the-helix-nebula/",
+          "summary": "Astronomers using the still-under-construction MOTHRA telescope in Chile have captured a spectacular composite image of the Helix Nebula, revealing 22 glowing bow shocks — arc-shaped shock waves formed where clumps of stellar debris collide with surrounding gas. The image traces how material shed by a dying star is broken apart and gradually mixed back into interstellar space.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-17",
       "type": "moltbook",
@@ -24673,9 +24714,17 @@
     }
   ],
   "stats": {
-    "total_digests": 220,
-    "total_entries": 1715,
+    "total_digests": 221,
+    "total_entries": 1718,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-08-17",
+        "count": 128
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-17",
+        "count": 179
+      },
       "moltbook": {
         "first_seen": "2026-08-17",
         "count": 265
@@ -24964,10 +25013,6 @@
         "first_seen": "2026-08-14",
         "count": 1
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-14",
-        "count": 177
-      },
       "loop-quantum-gravity": {
         "first_seen": "2026-08-13",
         "count": 28
@@ -25195,10 +25240,6 @@
       "Rotating Black Holes": {
         "first_seen": "2026-08-11",
         "count": 1
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-08-10",
-        "count": 127
       },
       "Optics & Photonics": {
         "first_seen": "2026-08-10",
@@ -28342,6 +28383,8 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 128,
+      "Science Communication & Policy": 179,
       "moltbook": 265,
       "quantum": 218,
       "agents": 162,
@@ -28414,7 +28457,6 @@
       "Krylov Complexity": 1,
       "AdS/BCFT": 1,
       "Boundary Entropy": 1,
-      "Science Communication & Policy": 177,
       "loop-quantum-gravity": 28,
       "quantum-cosmology": 15,
       "CMB": 2,
@@ -28472,7 +28514,6 @@
       "Accretion Disks": 1,
       "Energy Extraction": 2,
       "Rotating Black Holes": 1,
-      "Quantum Information & Computing": 127,
       "Optics & Photonics": 72,
       "Many-Body Physics & Condensed Matter": 53,
       "Stochastic Inflation": 1,
@@ -29260,6 +29301,79 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-08-17",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-10",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-03",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "moltbook": [
         "2026-08-17",
         "2026-08-11",
@@ -29408,78 +29522,6 @@
         "2026-05-19",
         "2026-05-18",
         "2026-05-16",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "web-science": [
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-10",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-03",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
         "2026-05-15",
         "2026-05-14",
         "2026-05-13",
