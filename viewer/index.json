@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T03:07:00.462Z",
+  "generated": "2026-08-18T04:49:22.763Z",
   "digests": [
     {
       "date": "2026-08-18",
@@ -112,6 +112,69 @@
             "Renormalization Group",
             "Quantum Probes",
             "Critical Phenomena"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-18",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Theory of Fluids Enters the 21st Century",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817/",
+          "summary": "From the 1800s to the early 2000s, physicists used the same theory to understand the behavior of fluids. Now, using a modern insight, they have redefined fluids from the bottom up.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Caltech Breakthrough Brings Fiber-optic Performance to Silicon Chips",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814235905.htm",
+          "summary": "Caltech researchers have found a way to move light across silicon wafers with exceptionally little signal loss, reaching levels at visible wavelengths that approach those of optical fiber. The advance could support a new generation of highly coherent and energy-efficient photonic integrated circuits",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Tiny Graphene Wrinkles Create Surprisingly Powerful Electrical Effects",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260815064801.htm",
+          "summary": "Researchers at Rice University have found that extremely small wrinkles in graphene can alter how the material behaves electrically. The results provide experimental evidence for flexoelectricity, an effect in which uneven bending causes a material to develop an electric charge. The findings are pub",
+          "relevance": "Medium — New experimental results that may constrain theoretical models",
+          "tags": [
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "First-of-its-kind narcolepsy drug opens door to new therapies for the brain",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02552-y",
+          "summary": "The drug, called Orzeyful, takes aim at the root cause of the sleep disorder rather than at its symptoms.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Has vacuum birefringence been seen at long last?",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/has-vacuum-birefringence-been-seen-at-long-last/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -24875,8 +24938,8 @@
     }
   ],
   "stats": {
-    "total_digests": 223,
-    "total_entries": 1728,
+    "total_digests": 224,
+    "total_entries": 1733,
     "unique_tags": {
       "Regular Black Holes": {
         "first_seen": "2026-08-18",
@@ -24958,6 +25021,18 @@
         "first_seen": "2026-08-18",
         "count": 2
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-18",
+        "count": 182
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-08-18",
+        "count": 73
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-08-18",
+        "count": 48
+      },
       "moltbook": {
         "first_seen": "2026-08-18",
         "count": 268
@@ -24977,10 +25052,6 @@
       "Quantum Information & Computing": {
         "first_seen": "2026-08-17",
         "count": 128
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-17",
-        "count": 179
       },
       "Entanglement Harvesting": {
         "first_seen": "2026-08-15",
@@ -25458,10 +25529,6 @@
         "first_seen": "2026-08-11",
         "count": 1
       },
-      "Optics & Photonics": {
-        "first_seen": "2026-08-10",
-        "count": 72
-      },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-08-10",
         "count": 53
@@ -25525,10 +25592,6 @@
       "string-theory": {
         "first_seen": "2026-08-07",
         "count": 16
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-08-07",
-        "count": 47
       },
       "condensed-matter": {
         "first_seen": "2026-08-06",
@@ -28600,12 +28663,14 @@
       "Renormalization Group": 1,
       "Quantum Probes": 1,
       "Critical Phenomena": 2,
+      "Science Communication & Policy": 182,
+      "Optics & Photonics": 73,
+      "Experiment & Observation": 48,
       "moltbook": 268,
       "quantum": 221,
       "agents": 163,
       "llms": 104,
       "Quantum Information & Computing": 128,
-      "Science Communication & Policy": 179,
       "Entanglement Harvesting": 1,
       "Quantum Field Theory": 3,
       "Reeh-Schlieder Theorem": 1,
@@ -28725,7 +28790,6 @@
       "Accretion Disks": 1,
       "Energy Extraction": 2,
       "Rotating Black Holes": 1,
-      "Optics & Photonics": 72,
       "Many-Body Physics & Condensed Matter": 53,
       "Stochastic Inflation": 1,
       "Loop Quantum Gravity": 5,
@@ -28742,7 +28806,6 @@
       "Entanglement Entropy": 1,
       "AdS/CFT": 5,
       "string-theory": 16,
-      "Experiment & Observation": 47,
       "condensed-matter": 1,
       "quantum-chaos": 10,
       "wormholes": 4,
@@ -29584,6 +29647,80 @@
         "2026-05-12",
         "2026-05-11"
       ],
+      "web-science": [
+        "2026-08-18",
+        "2026-08-17",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-10",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-03",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "moltbook": [
         "2026-08-18",
         "2026-08-17",
@@ -29662,79 +29799,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "web-science": [
-        "2026-08-17",
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-10",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-03",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
