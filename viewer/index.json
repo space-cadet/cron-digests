@@ -1,6 +1,121 @@
 {
-  "generated": "2026-08-17T04:50:26.458Z",
+  "generated": "2026-08-18T01:48:49.738Z",
   "digests": [
+    {
+      "date": "2026-08-18",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-18",
+      "categories": "gr-qc, hep-th, quant-ph, hep-ph",
+      "items_found": 7,
+      "focus": "quantum gravity, black hole physics, regular black holes, asymptotic structure, wormholes, quantum atmosphere, gravitational waves",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Regular Black Holes from Collapsing Dust in a Dark Energy Background",
+          "authors": "Qazi Abdul Ghafoor",
+          "arxiv_id": "2608.13619",
+          "url": "https://arxiv.org/abs/2608.13619",
+          "categories": "gr-qc",
+          "summary": "This work proposes a novel mechanism for singularity resolution in gravitational collapse: a radially varying interaction between dust and dark energy that grows toward the center, replacing the singularity with a regular de Sitter-like core. Unlike conventional regular black hole models that rely on exotic matter or electric charge, this approach uses dark energy — a component already required by cosmological observations — to achieve finite density and curvature throughout the collapse. The resulting late-time configuration preserves the regular core without fine-tuning, offering a physically motivated pathway from gravitational collapse to a nonsingular black hole interior.",
+          "relevance": "The resolution of spacetime singularities is one of the central challenges that quantum gravity must address. This work provides a semiclassical mechanism for singularity avoidance via dark energy, conceptually parallel to bounce scenarios in loop quantum cosmology and black hole interiors. The emergence of a de Sitter-like core from dynamical collapse connects to ongoing discussions about black hole interiors in quantum gravity, where regular cores and bounce behavior are expected features.",
+          "tags": [
+            "Regular Black Holes",
+            "Singularity Resolution",
+            "Dark Energy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quasinormal modes as exterior probes of black hole interiors in our Universe",
+          "authors": "Sašo Grozdanov, Vita Movrin, Samuel Valach",
+          "arxiv_id": "2608.13643",
+          "url": "https://arxiv.org/abs/2608.13643",
+          "categories": "hep-th, astro-ph.HE, gr-qc",
+          "summary": "The authors show that the quasinormal mode spectrum of a black hole enclosed in a reflecting cavity contains universal signatures that encode information about the interior singularity structure, making the interior indirectly observable from outside the horizon. By proposing that accreting plasma around primordial black holes can act as a natural partially-reflecting mirror, they transform this theoretical construction into a potentially testable scenario using radio wave observations. This bridges abstract spectral physics with a concrete observational proposal for probing the most extreme regime of spacetime.",
+          "relevance": "Understanding black hole interiors and singularities is at the heart of quantum gravity. The possibility of extracting interior information from exterior observations — even if mediated by a mirror-like boundary — resonates deeply with holographic principles and the black hole information problem. For researchers working on quantum gravity phenomenology, this offers a novel angle on how Planck-scale physics might leave imprints on observable spectra.",
+          "tags": [
+            "Black Hole Interior",
+            "Quasinormal Modes",
+            "Primordial Black Holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Asymptotic flatness beyond General Relativity",
+          "authors": "David Maibach",
+          "arxiv_id": "2608.14204",
+          "url": "https://arxiv.org/abs/2608.14204",
+          "categories": "gr-qc, hep-ph",
+          "summary": "This work systematically extends the Bondi-Sachs asymptotic framework to the most general scalar-vector-tensor theories of gravity, deriving a compact diagnostic table that determines which beyond-GR models can admit asymptotically flat spacetimes. Surprisingly, most coupling functionals require no additional constraints beyond those already implied by the theory's structure; only a handful of conditions on the scalar potential, Newton constant, and mode normalization survive. This establishes the BMS group as the universal asymptotic symmetry for a vast class of modified gravity theories, providing a rigorous foundation for comparing gravitational-wave predictions across competing models.",
+          "relevance": "The asymptotic structure of spacetime and the BMS group have become increasingly important in quantum gravity, particularly in understanding soft hair, memory effects, and their connections to the black hole information paradox. Extending this framework to beyond-GR theories is essential for testing quantum gravity phenomenology with next-generation gravitational wave detectors like LISA and Cosmic Explorer.",
+          "tags": [
+            "Asymptotic Flatness",
+            "BMS Group",
+            "Modified Gravity"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "C-infinity Compact-Support Wormholes with Exact Schwarzschild Exterior in Trace-Coupled Gravity",
+          "authors": "Mushtaq Ahmad, M. Farasat Shamir, Ahdab K. Althukair",
+          "arxiv_id": "2608.14259",
+          "url": "https://arxiv.org/abs/2608.14259",
+          "categories": "gr-qc",
+          "summary": "The authors construct smooth wormhole geometries in f(R,T) gravity where the matter and curvature deviations are confined to a finite region, leaving an exact Schwarzschild exterior without any thin-shell junction. By deriving explicit inversion formulas that reconstruct the anisotropic matter from the geometry, they map out the full parameter space of solutions and identify where the null energy condition violation — the hallmark of wormhole throat stability — becomes localized rather than distributed. This provides a controlled mathematical laboratory for studying how modified gravity can support traversable wormholes while preserving the familiar exterior observational signatures of ordinary black holes.",
+          "relevance": "Traversable wormholes and their connection to quantum entanglement (ER=EPR) have become a central theme in quantum gravity research. The f(R,T) framework used here offers a tractable modified gravity setting where the relationship between geometry, matter, and energy conditions can be studied in detail, with potential implications for understanding how quantum effects might effectively modify the gravitational action near Planck-scale structures.",
+          "tags": [
+            "Wormholes",
+            "Modified Gravity",
+            "Energy Conditions"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Investigation of the black-hole quantum atmosphere from the effective proper temperature",
+          "authors": "Sojeong Cheong, Wontae Kim",
+          "arxiv_id": "2608.13943",
+          "url": "https://arxiv.org/abs/2608.13943",
+          "categories": "hep-th, gr-qc",
+          "summary": "This work develops a thermodynamic characterization of the \"quantum atmosphere\" — the finite region outside a black hole horizon where Hawking radiation is effectively produced. By defining an atmospheric radius through the maximum of the effective proper temperature, the authors show that this region shrinks with increasing spacetime dimension but never collapses onto the horizon, even in the large-D limit. The framework unifies the Hartle-Hawking and Unruh thermal states through a chiral decomposition, providing a concrete measure of where the quantum-to-classical transition in black hole radiation occurs geometrically.",
+          "relevance": "The quantum atmosphere concept challenges the traditional view of Hawking radiation as purely horizon-localized, with implications for understanding the information paradox and firewall debates. The thermodynamic approach developed here, incorporating the conformal anomaly, connects to broader questions about how quantum field theory in curved spacetime should be consistently formulated near horizons — a key concern for any quantum gravity program including loop quantum gravity.",
+          "tags": [
+            "Hawking Radiation",
+            "Quantum Atmosphere",
+            "Black Hole Thermodynamics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Radiative Matching Across a Projector Bridge",
+          "authors": "Medeu E. Abishev, Daulet Z. Berkimbayev",
+          "arxiv_id": "2608.13634",
+          "url": "https://arxiv.org/abs/2608.13634",
+          "categories": "gr-qc, hep-th",
+          "summary": "The authors construct a novel theoretical framework in which two separate gravitational sectors communicate through a \"projector bridge\" that transfers stress-energy via bitensor kernels, creating a hidden channel for gravitational radiation. Unlike massive graviton scenarios, the hidden gravitational waves are massless and travel at the speed of light, but their existence would manifest as a systematic dimming of standard siren luminosity distances without altering the chirp phase. This provides a new class of beyond-GR signatures that current gravitational-wave cosmology can already constrain, while remaining fundamentally distinct from conventional massive gravity or oscillation scenarios.",
+          "relevance": "Multi-sector gravity models and hidden gravitational channels are motivated by string theory landscapes and braneworld scenarios. The distinctive signature — amplitude suppression without phase distortion — offers a novel target for gravitational wave astronomy, and the bitensor-based bridge formalism may find applications in understanding how different quantum gravity sectors could interact or decouple.",
+          "tags": [
+            "Gravitational Waves",
+            "Beyond-GR",
+            "Hidden Sectors"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Open system probes of renormalization group flow",
+          "authors": "Andrew Keefe, Brenden Bowen, Saptarshi Biswas, Albion Lawrence, Nishant Agarwal, Archana Kamal",
+          "arxiv_id": "2608.13664",
+          "url": "https://arxiv.org/abs/2608.13664",
+          "categories": "quant-ph, cond-mat.mes-hall, cond-mat.stat-mech, hep-th",
+          "summary": "This paper demonstrates that a single qubit coupled to a quantum critical system can serve as a powerful probe of renormalization group flow, using the probe's non-Markovian dynamics as a spectroscopic tool. By mapping the spatial correlations of the critical environment onto temporal correlations in the qubit's evolution, the authors show how to extract fixed point locations, scaling dimensions, and the direction of RG flow under deformations — all from measuring a simple two-level system. This effectively turns an open quantum system into a microscope for universal critical behavior, with potential applications across quantum simulation and condensed matter platforms.",
+          "relevance": "Renormalization group methods are fundamental tools in quantum field theory and quantum gravity. The ability to extract RG flow information from simple quantum probes has implications for quantum simulation of critical phenomena and may inspire analogous approaches for probing quantum gravitational degrees of freedom in tabletop or near-term quantum computing experiments. The connection between non-Markovian open dynamics and critical behavior also resonates with recent work on quantum channels in holography.",
+          "tags": [
+            "Renormalization Group",
+            "Quantum Probes",
+            "Critical Phenomena"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-17",
       "type": "web-science",
@@ -24714,9 +24829,89 @@
     }
   ],
   "stats": {
-    "total_digests": 221,
-    "total_entries": 1718,
+    "total_digests": 222,
+    "total_entries": 1725,
     "unique_tags": {
+      "Regular Black Holes": {
+        "first_seen": "2026-08-18",
+        "count": 3
+      },
+      "Singularity Resolution": {
+        "first_seen": "2026-08-18",
+        "count": 2
+      },
+      "Dark Energy": {
+        "first_seen": "2026-08-18",
+        "count": 6
+      },
+      "Black Hole Interior": {
+        "first_seen": "2026-08-18",
+        "count": 1
+      },
+      "Quasinormal Modes": {
+        "first_seen": "2026-08-18",
+        "count": 3
+      },
+      "Primordial Black Holes": {
+        "first_seen": "2026-08-18",
+        "count": 2
+      },
+      "Asymptotic Flatness": {
+        "first_seen": "2026-08-18",
+        "count": 1
+      },
+      "BMS Group": {
+        "first_seen": "2026-08-18",
+        "count": 1
+      },
+      "Modified Gravity": {
+        "first_seen": "2026-08-18",
+        "count": 7
+      },
+      "Wormholes": {
+        "first_seen": "2026-08-18",
+        "count": 4
+      },
+      "Energy Conditions": {
+        "first_seen": "2026-08-18",
+        "count": 2
+      },
+      "Hawking Radiation": {
+        "first_seen": "2026-08-18",
+        "count": 1
+      },
+      "Quantum Atmosphere": {
+        "first_seen": "2026-08-18",
+        "count": 1
+      },
+      "Black Hole Thermodynamics": {
+        "first_seen": "2026-08-18",
+        "count": 10
+      },
+      "Gravitational Waves": {
+        "first_seen": "2026-08-18",
+        "count": 6
+      },
+      "Beyond-GR": {
+        "first_seen": "2026-08-18",
+        "count": 1
+      },
+      "Hidden Sectors": {
+        "first_seen": "2026-08-18",
+        "count": 1
+      },
+      "Renormalization Group": {
+        "first_seen": "2026-08-18",
+        "count": 1
+      },
+      "Quantum Probes": {
+        "first_seen": "2026-08-18",
+        "count": 1
+      },
+      "Critical Phenomena": {
+        "first_seen": "2026-08-18",
+        "count": 2
+      },
       "Quantum Information & Computing": {
         "first_seen": "2026-08-17",
         "count": 128
@@ -24761,21 +24956,9 @@
         "first_seen": "2026-08-15",
         "count": 1
       },
-      "Regular Black Holes": {
-        "first_seen": "2026-08-15",
-        "count": 2
-      },
       "Tidal Forces": {
         "first_seen": "2026-08-15",
         "count": 1
-      },
-      "Singularity Resolution": {
-        "first_seen": "2026-08-15",
-        "count": 1
-      },
-      "Black Hole Thermodynamics": {
-        "first_seen": "2026-08-15",
-        "count": 9
       },
       "Quantum Corrections": {
         "first_seen": "2026-08-15",
@@ -24901,10 +25084,6 @@
         "first_seen": "2026-08-14",
         "count": 1
       },
-      "Gravitational Waves": {
-        "first_seen": "2026-08-14",
-        "count": 5
-      },
       "Higher-Derivative Gravity": {
         "first_seen": "2026-08-14",
         "count": 1
@@ -24924,10 +25103,6 @@
       "Black Hole Shadows": {
         "first_seen": "2026-08-14",
         "count": 1
-      },
-      "Modified Gravity": {
-        "first_seen": "2026-08-14",
-        "count": 5
       },
       "EHT Observations": {
         "first_seen": "2026-08-14",
@@ -25196,14 +25371,6 @@
       "Information Paradox": {
         "first_seen": "2026-08-11",
         "count": 2
-      },
-      "Primordial Black Holes": {
-        "first_seen": "2026-08-11",
-        "count": 1
-      },
-      "Dark Energy": {
-        "first_seen": "2026-08-11",
-        "count": 5
       },
       "Quantum Field Theory in Curved Spacetime": {
         "first_seen": "2026-08-11",
@@ -25512,10 +25679,6 @@
       "Bumblebee-Gravity": {
         "first_seen": "2026-06-06",
         "count": 1
-      },
-      "Wormholes": {
-        "first_seen": "2026-06-06",
-        "count": 3
       },
       "Quantum-Error-Correction": {
         "first_seen": "2026-06-06",
@@ -27729,10 +27892,6 @@
         "first_seen": "2026-05-20",
         "count": 1
       },
-      "Quasinormal Modes": {
-        "first_seen": "2026-05-20",
-        "count": 2
-      },
       "Black Hole Perturbation": {
         "first_seen": "2026-05-20",
         "count": 2
@@ -28077,10 +28236,6 @@
         "first_seen": "2026-05-19",
         "count": 1
       },
-      "Energy Conditions": {
-        "first_seen": "2026-05-19",
-        "count": 1
-      },
       "General Relativity": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -28309,10 +28464,6 @@
         "first_seen": "2026-05-18",
         "count": 1
       },
-      "Critical Phenomena": {
-        "first_seen": "2026-05-18",
-        "count": 1
-      },
       "Fractals": {
         "first_seen": "2026-05-18",
         "count": 1
@@ -28383,6 +28534,26 @@
       }
     },
     "tag_counts": {
+      "Regular Black Holes": 3,
+      "Singularity Resolution": 2,
+      "Dark Energy": 6,
+      "Black Hole Interior": 1,
+      "Quasinormal Modes": 3,
+      "Primordial Black Holes": 2,
+      "Asymptotic Flatness": 1,
+      "BMS Group": 1,
+      "Modified Gravity": 7,
+      "Wormholes": 4,
+      "Energy Conditions": 2,
+      "Hawking Radiation": 1,
+      "Quantum Atmosphere": 1,
+      "Black Hole Thermodynamics": 10,
+      "Gravitational Waves": 6,
+      "Beyond-GR": 1,
+      "Hidden Sectors": 1,
+      "Renormalization Group": 1,
+      "Quantum Probes": 1,
+      "Critical Phenomena": 2,
       "Quantum Information & Computing": 128,
       "Science Communication & Policy": 179,
       "moltbook": 265,
@@ -28394,10 +28565,7 @@
       "False Vacuum Decay": 1,
       "Black Hole Physics": 28,
       "Quantum Tunneling": 1,
-      "Regular Black Holes": 2,
       "Tidal Forces": 1,
-      "Singularity Resolution": 1,
-      "Black Hole Thermodynamics": 9,
       "Quantum Corrections": 1,
       "Phase Transitions": 1,
       "Double-Copy": 1,
@@ -28429,13 +28597,11 @@
       "SymTFT": 2,
       "Black Hole Perturbations": 1,
       "Scattering Amplitudes": 1,
-      "Gravitational Waves": 5,
       "Higher-Derivative Gravity": 1,
       "Renormalisation": 1,
       "Asymptotic Freedom": 1,
       "Generalized Uncertainty Principle": 1,
       "Black Hole Shadows": 1,
-      "Modified Gravity": 5,
       "EHT Observations": 1,
       "Extreme-Mass-Ratio Inspiral": 1,
       "LISA": 1,
@@ -28503,8 +28669,6 @@
       "Quantum Cosmology": 7,
       "Inflation": 5,
       "Information Paradox": 2,
-      "Primordial Black Holes": 1,
-      "Dark Energy": 5,
       "Quantum Field Theory in Curved Spacetime": 2,
       "Symmetry Breaking": 1,
       "Magnetic Fields": 1,
@@ -28582,7 +28746,6 @@
       "Black-Holes": 1,
       "Modified-Gravity": 1,
       "Bumblebee-Gravity": 1,
-      "Wormholes": 3,
       "Quantum-Error-Correction": 2,
       "qLDPC": 2,
       "Trapped-Ion": 1,
@@ -29136,7 +29299,6 @@
       "Quantum Bounce": 1,
       "Decoherence": 1,
       "Horizon Physics": 1,
-      "Quasinormal Modes": 2,
       "Black Hole Perturbation": 2,
       "Proca Fields": 1,
       "Maxwell Fields": 1,
@@ -29223,7 +29385,6 @@
       "Ricci Flow": 1,
       "Information Geometry": 1,
       "Higher Curvature Gravity": 1,
-      "Energy Conditions": 1,
       "General Relativity": 1,
       "Quantum Information Theory": 1,
       "Quantum Shannon Theory": 1,
@@ -29281,7 +29442,6 @@
       "Quantum Transport": 1,
       "Mesoscopic Physics": 1,
       "Spin Glasses": 1,
-      "Critical Phenomena": 1,
       "Fractals": 1,
       "Universality Classes": 1,
       "CMB Phenomenology": 1,
@@ -29301,6 +29461,83 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "arxiv": [
+        "2026-08-18",
+        "2026-08-15",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-08",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-01",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-25",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-18",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-13",
+        "2026-07-12",
+        "2026-07-11",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-04",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-06",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-23",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-16",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "web-science": [
         "2026-08-17",
         "2026-08-14",
@@ -29451,82 +29688,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "arxiv": [
-        "2026-08-15",
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-08",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-01",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-25",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-18",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-13",
-        "2026-07-12",
-        "2026-07-11",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-04",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-06",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-23",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-16",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
