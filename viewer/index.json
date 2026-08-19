@@ -1,6 +1,214 @@
 {
-  "generated": "2026-08-18T04:49:22.763Z",
+  "generated": "2026-08-19T01:42:16.569Z",
   "digests": [
+    {
+      "date": "2026-08-19",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-19",
+      "categories": "astro-ph.CO, astro-ph.HE, cond-mat.stat-mech, cond-mat.str-el, gr-qc, hep-ex, hep-ph, hep-th, math-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, topological, many-body",
+      "entries": [
+        {
+          "num": 1,
+          "title": "New metric useful for studies of gravitational radiation from accelerating black holes of type D with any cosmological constant",
+          "authors": "Jiri Podolsky",
+          "arxiv_id": "2608.14919",
+          "url": "https://arxiv.org/abs/2608.14919",
+          "categories": "hep-th, gr-qc",
+          "summary": "We apply a convenient parametrization of all Plebanski-Demianski black holes of algebraic type D with the Kerr rotation, NUT twist, acceleration, electric and magnetic charges, and any value of the cosmological constant $\\Lambda$, recently found by Astorino. This represents a complete class of exact solutions to the Einstein-Maxwell-$\\Lambda$ equations such that the (non-null) electromagnetic field is aligned with both the (geodesic, shear-free, double) principal null directions of the Weyl tensor.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Extremal non-rotating black holes have no fermionic Love",
+          "authors": "Xiankai Pang, Yu Tian, Hongbao Zhang",
+          "arxiv_id": "2608.15479",
+          "url": "https://arxiv.org/abs/2608.15479",
+          "categories": "hep-th, gr-qc",
+          "summary": "The static tidal Love numbers (TLNs) of $4$-dimensional black holes vanish for bosonic perturbations but are generically nonzero for fermions, with rare exceptions. In this paper, we show that for static, spherically symmetric black holes, fermionic TLNs vanish if and only if the black hole is extremal, in the sense that its horizon is degenerate.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Quasi-local Hamiltonian for generalized Kerr-Schild black holes in the Iyer-Wald formalism",
+          "authors": "M. A. Jaraba, T. L. Campos, M. C. Baldiotti",
+          "arxiv_id": "2608.16534",
+          "url": "https://arxiv.org/abs/2608.16534",
+          "categories": "hep-th, gr-qc",
+          "summary": "Grounded in the covariant phase space approach of the Iyer-Wald formalism, we propose a quasi-local Hamiltonian for generalized Kerr-Schild (GKS) black holes. Evaluated for spherically symmetric spacetimes over a flat Minkowski background, our formulation recovers the Misner-Sharp mass.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Quasinormal frequencies and greybody factors for axial perturbations of dilaton-Euler-Heisenberg de Sitter black holes",
+          "authors": "Ming Zhang, Guo-Xin Chen, Xufen Zhang et al.",
+          "arxiv_id": "2608.15111",
+          "url": "https://arxiv.org/abs/2608.15111",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate the quasinormal modes (QNMs) and greybody factors of dilaton-Euler-Heisenberg (dEH) de Sitter (dS) black holes in string-inspired Euler-Heisenberg gravity. Since the axial gravitational and electromagnetic perturbations decouple, we treat them independently.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Quantum-Corrected Black Holes in Higher Dimensions: From Gravitational Collapse to Remnants, WGC-Like Behavior and Accretion Signatures",
+          "authors": "Saeed Noori Gashti, Umair Anwar, Abdul Jawad et al.",
+          "arxiv_id": "2608.16369",
+          "url": "https://arxiv.org/abs/2608.16369",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study the gravitational collapse of a homogeneous dust sphere in higher-dimensional spacetime, with the loop quantum gravity correction entered through a modified Friedmann equation. Its most striking feature is an endpoint: at a finite horizon radius the temperature vanishes and evaporation stops, leaving a remnant.",
+          "relevance": "quantum-gravity, loop-quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Quantum Stability of the Fuzzy Sphere Black Hole Horizon",
+          "authors": "Chong-Sun Chu",
+          "arxiv_id": "2608.16374",
+          "url": "https://arxiv.org/abs/2608.16374",
+          "categories": "hep-ph, hep-th, gr-qc",
+          "summary": "We establish the perturbative stability of the fuzzy-sphere black-hole horizon in the large-$N$ matrix quantum mechanics of \\cite{Chu:2024qil}. Large-$N$ counting shows that the leading quantum correction to the fluctuation spectrum is the planar bosonic one-loop contribution, while higher-loop bosonic effects and the leading fermionic one-loop contribution are parametrically suppressed.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Riesz--Laurent representation of black-hole scattering and sourced response at exceptional points",
+          "authors": "Okuto Morikawa, Shoya Ogawa, Takuya Hirose",
+          "arxiv_id": "2608.14752",
+          "url": "https://arxiv.org/abs/2608.14752",
+          "categories": "math-ph, hep-th, gr-qc",
+          "summary": "At a black-hole exceptional point (EP), two quasinormal modes coalesce and their separate residues become ill-conditioned. Rather than postulating a near-degenerate modal fit, we derive the response constructively from the complex-scaled Regge--Wheeler--Zerilli resolvent, treating the modes as one isolated rank-two Riesz cluster.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Fluid interpretation, Hawking--Ellis classification, and energy conditions of the proper kinetic gravity braiding stress tensor",
+          "authors": "László Árpád Gergely",
+          "arxiv_id": "2608.15228",
+          "url": "https://arxiv.org/abs/2608.15228",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate the fluid interpretation, Hawking--Ellis classification, and energy conditions of the proper kinetic gravity braiding contribution to the stress tensor of minimally coupled scalar fields for timelike, spacelike, and open-region null scalar gradients. Using a $2+1+1$ decomposition adapted to the gradient, we derive the associated effective fluid variables.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Prospects for Direct Detection of Ultralight Dark Matter candidates in deci-Hz Band with IndIGO-D",
+          "authors": "Md. Emanuel Hoque, Andrew L. Miller, Arunava Mukherjee",
+          "arxiv_id": "2608.15240",
+          "url": "https://arxiv.org/abs/2608.15240",
+          "categories": "hep-th, gr-qc, hep-ph, astro-ph.CO, hep-ex",
+          "summary": "We investigate the sensitivity of IndIGO-D, a proposed space-based decihertz gravitational-wave interferometer, to different classes of ultralight dark matter. IndIGO-D will probe the $\\sim0.01$--$10~\\mathrm{Hz}$ frequency band between those accessible to current ground- and future space-based gravitational-wave interferometers, providing access to ultralight dark-matter masses beyond the reach of existing instruments.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Study of gravitational radiation at $\\mathscr{J}$ for the general type-D Einstein-Maxwell solution with cosmological constant",
+          "authors": "Francisco Fernández-Álvarez, José M. M. Senovilla",
+          "arxiv_id": "2608.15280",
+          "url": "https://arxiv.org/abs/2608.15280",
+          "categories": "hep-th, gr-qc",
+          "summary": "We characterize the gravitational radiation present in the general Plebański-Demiański type~D solution with cosmological constant $\\Lambda$ of any sign. We show that radiation escapes towards infinity if and only if the acceleration parameter is non-zero.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Zero-point theorems in quantum many-body physics",
+          "authors": "Yuan Yao",
+          "arxiv_id": "2608.15542",
+          "url": "https://arxiv.org/abs/2608.15542",
+          "categories": "math-ph, cond-mat.str-el, quant-ph, hep-th, cond-mat.stat-mech",
+          "summary": "We propose several zero-point type arguments based on the inevitable zero point(s) of a spectral gap in the quantum spin system phase diagrams in various dimensions. We consider multi-parameter families of Hamiltonian extending the conventional zero-point theorem that includes only one parameter.",
+          "relevance": "many-body",
+          "tags": [
+            "many-body"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Dark Matter Admixed Quark Stars: A Relativistic Two-Fluid Approach",
+          "authors": "N. Priyobarta, S.K. Maurya, Ksh Newton Singh et al.",
+          "arxiv_id": "2608.16064",
+          "url": "https://arxiv.org/abs/2608.16064",
+          "categories": "hep-th, gr-qc",
+          "summary": "In this paper, we examine the stellar properties of quark stars containing dark matter, focusing on both non-rotating and slowly rotating configurations. By employing a two-fluid framework, we formulate the generalized Tolman--Oppenheimer--Volkoff equations, treating dark matter and ordinary matter as independent perfect fluids that interact solely through gravitational forces.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Exceptional points of the Schwarzschild spectrum under local potential perturbation: The Princess and the Pea",
+          "authors": "Mohamed Ould El Hadj, Sam R. Dolan",
+          "arxiv_id": "2608.16283",
+          "url": "https://arxiv.org/abs/2608.16283",
+          "categories": "astro-ph.HE, hep-th, gr-qc",
+          "summary": "Black-hole quasinormal modes (QNMs) may coalesce at exceptional points (EPs) in the frequency spectrum. We study EPs and their phenomenology for gravitational perturbations of a Schwarzschild black hole whose Regge-Wheeler potential is perturbed by a localized delta-function of amplitude $\\epsilon$ at radius $r_0$.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Non-exotic traversable wormholes in Einstein-Chern-Simons gravity",
+          "authors": "Mauricio Cataldo, Fernando Goméz, Paola Meza et al.",
+          "arxiv_id": "2608.16723",
+          "url": "https://arxiv.org/abs/2608.16723",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate traversable wormhole solutions in five-dimensional Einstein-Chern-Simons (EChS) gravity, a gauge-theoretic extension of General Relativity that introduces a higher-curvature correction parametrized by the combination $\\alpha l^2$, where $\\alpha$ is a dimensionless coupling and $l$ is a length scale. Working with the Morris-Thorne metric and an anisotropic fluid, we derive exact expressions for the energy density, radial pressure, and lateral pressure at the wormhole throat.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "On the (Non)Unitarity with respect to the Clock of a Dynamical Local Observer and the Einstein Equivalence Principle",
+          "authors": "Kengo Shimada",
+          "arxiv_id": "2608.16762",
+          "url": "https://arxiv.org/abs/2608.16762",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate the unitarity of quantum evolution relative to an internal time defined by a local observer&#39;s clock. The observer is modeled as a relativistic particle carrying both a clock and a matter-field detector, analyzed first on a fixed curved background and subsequently within a fully diffeomorphism-invariant theory of dynamical gravity.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-18",
       "type": "arxiv",
@@ -24938,9 +25146,33 @@
     }
   ],
   "stats": {
-    "total_digests": 224,
-    "total_entries": 1733,
+    "total_digests": 225,
+    "total_entries": 1748,
     "unique_tags": {
+      "black-holes": {
+        "first_seen": "2026-08-19",
+        "count": 349
+      },
+      "topological": {
+        "first_seen": "2026-08-19",
+        "count": 66
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-08-19",
+        "count": 93
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-08-19",
+        "count": 29
+      },
+      "physics": {
+        "first_seen": "2026-08-19",
+        "count": 231
+      },
+      "many-body": {
+        "first_seen": "2026-08-19",
+        "count": 25
+      },
       "Regular Black Holes": {
         "first_seen": "2026-08-18",
         "count": 3
@@ -25309,10 +25541,6 @@
         "first_seen": "2026-08-14",
         "count": 1
       },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-08-13",
-        "count": 28
-      },
       "quantum-cosmology": {
         "first_seen": "2026-08-13",
         "count": 15
@@ -25320,10 +25548,6 @@
       "CMB": {
         "first_seen": "2026-08-13",
         "count": 2
-      },
-      "black-holes": {
-        "first_seen": "2026-08-13",
-        "count": 342
       },
       "holography": {
         "first_seen": "2026-08-13",
@@ -25340,10 +25564,6 @@
       "AdS-CFT": {
         "first_seen": "2026-08-13",
         "count": 8
-      },
-      "many-body": {
-        "first_seen": "2026-08-13",
-        "count": 24
       },
       "quantum-dynamics": {
         "first_seen": "2026-08-13",
@@ -25364,10 +25584,6 @@
       "quantum-field-theory": {
         "first_seen": "2026-08-13",
         "count": 6
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-08-13",
-        "count": 92
       },
       "group-field-theory": {
         "first_seen": "2026-08-13",
@@ -25413,10 +25629,6 @@
         "first_seen": "2026-08-13",
         "count": 2
       },
-      "topological": {
-        "first_seen": "2026-08-13",
-        "count": 65
-      },
       "anyons": {
         "first_seen": "2026-08-13",
         "count": 2
@@ -25424,10 +25636,6 @@
       "Technology & Engineering": {
         "first_seen": "2026-08-13",
         "count": 61
-      },
-      "physics": {
-        "first_seen": "2026-08-12",
-        "count": 224
       },
       "Gravitational Collapse": {
         "first_seen": "2026-08-11",
@@ -28643,6 +28851,12 @@
       }
     },
     "tag_counts": {
+      "black-holes": 349,
+      "topological": 66,
+      "quantum-gravity": 93,
+      "loop-quantum-gravity": 29,
+      "physics": 231,
+      "many-body": 25,
       "Regular Black Holes": 3,
       "Singularity Resolution": 2,
       "Dark Energy": 6,
@@ -28735,21 +28949,17 @@
       "Krylov Complexity": 1,
       "AdS/BCFT": 1,
       "Boundary Entropy": 1,
-      "loop-quantum-gravity": 28,
       "quantum-cosmology": 15,
       "CMB": 2,
-      "black-holes": 342,
       "holography": 94,
       "information-paradox": 5,
       "entanglement": 94,
       "AdS-CFT": 8,
-      "many-body": 24,
       "quantum-dynamics": 1,
       "modified-gravity": 8,
       "Gauss-Bonnet": 1,
       "Hawking-radiation": 2,
       "quantum-field-theory": 6,
-      "quantum-gravity": 92,
       "group-field-theory": 1,
       "BMS-symmetry": 1,
       "flat-space": 1,
@@ -28761,10 +28971,8 @@
       "effective-field-theory": 1,
       "fractons": 1,
       "emergent-gravity": 2,
-      "topological": 65,
       "anyons": 2,
       "Technology & Engineering": 61,
-      "physics": 224,
       "Gravitational Collapse": 1,
       "Nonlinear Electrodynamics": 2,
       "Observational Signatures": 1,
@@ -29571,6 +29779,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-19",
         "2026-08-18",
         "2026-08-15",
         "2026-08-14",
