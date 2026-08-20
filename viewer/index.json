@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T01:42:36.625Z",
+  "generated": "2026-08-20T01:57:45.797Z",
   "digests": [
     {
       "date": "2026-08-20",
@@ -7,7 +7,7 @@
       "title": "# arXiv Morning Digest — 2026-08-20",
       "categories": "astro-ph.CO, gr-qc, hep-ph, hep-th, math-ph, physics.hist-ph",
       "items_found": 15,
-      "focus": "quantum gravity, black hole, holograph, string theory, topological, entanglement",
+      "focus": "quantum gravity, black hole, holography, string theory, topological, entanglement",
       "entries": [
         {
           "num": 1,
@@ -16,10 +16,12 @@
           "arxiv_id": "2608.06465",
           "url": "https://arxiv.org/abs/2608.06465",
           "categories": "gr-qc, hep-th",
-          "summary": "We study semiclassical geometries induced by turning on identical sinusoidal scalar sources on two asymptotic anti-de Sitter (AdS) boundaries. Varying the source strength, we find that large and small wormhole solutions appear beyond a certain threshold.",
-          "relevance": "holography",
+          "summary": "This work explores Euclidean wormhole geometries in holography by placing identical sinusoidal scalar sources on two AdS boundaries. Using the gravitational path integral, the author finds that wormhole saddles become *always* dominant above a critical source strength — unlike earlier models where wormholes were subdominant in some parameter regime. The analysis also maps these geometries to holographic RG flows with multivalued $\\beta$-functions, where disconnected topologies represent return-to-origin flows and wormholes correspond to gapped infrared phases. The result is significant because it identifies a clean holographic setup where ensemble averaging is inevitably dominated by wormhole contributions, with direct implications for the consistency of ensemble interpretations in quantum gravity.",
+          "relevance": "🔥 High — directly addresses holographic wormholes, ensemble averaging in quantum gravity, and exotic RG flows. Central to ongoing debates about the role of wormholes in the black hole information paradox and holographic ensemble duality.",
           "tags": [
-            "holography"
+            "Holography",
+            "Black Hole Physics",
+            "Quantum Gravity"
           ]
         },
         {
@@ -29,23 +31,27 @@
           "arxiv_id": "2608.17158",
           "url": "https://arxiv.org/abs/2608.17158",
           "categories": "gr-qc, hep-th",
-          "summary": "We consider the $d\\geq 4$ non-polynomial pure gravity theories defined so that their 2D reduction to spherical symmetry minimally modifies that of General Relativity at small distances. They satisfy Birkhoff theorem and admit exact black hole solutions for an arbitrary number of couplings.",
-          "relevance": "black-holes",
+          "summary": "The author constructs exact regular black hole solutions in a class of non-polynomial higher-derivative gravity theories in $d \\geq 4$ dimensions. A key innovation is that regularity can be achieved with *finite* sets of curvature invariants (no infinite tower needed) and without fine-tuning in even dimensions. The solutions satisfy the Birkhoff theorem, exhibit logarithmic entropy corrections, and include a zero-entropy extremal vacuum that respects Nernst's third law continuously. Charged extensions are shown to tame mass inflation, offering a concrete framework for singularity resolution within modified gravity that remains tractable and physically well-motivated.",
+          "relevance": "🔥 High — singularity resolution and regular black holes are core topics in quantum gravity. The finite-correction approach is more predictive than asymptotic safety or string-inspired infinite towers, making this particularly interesting for phenomenology.",
           "tags": [
-            "black-holes"
+            "Black Hole Physics",
+            "Quantum Gravity",
+            "Field Theory & Mathematical Physics"
           ]
         },
         {
           "num": 3,
-          "title": "Ostrogradsky&#39;s Theorem is Incompatible with Background Independence in Quantum Gravity",
+          "title": "Ostrogradsky's Theorem is Incompatible with Background Independence in Quantum Gravity",
           "authors": "Ken-ji Hamada",
           "arxiv_id": "2608.17364",
           "url": "https://arxiv.org/abs/2608.17364",
           "categories": "physics.hist-ph, gr-qc, hep-th, hep-ph",
-          "summary": "Ostrogradsky&#39;s theorem shows that higher-derivative dynamical systems inevitably yields a Hamiltonian featuring a ghost mode that is unbounded from below. However, we argue that this theorem is inapplicable to gravitational systems, as the Hamiltonian constraint, which encodes background independence by dictating that the total Hamiltonian vanishes, holds strictly.",
-          "relevance": "quantum-gravity",
+          "summary": "Ostrogradsky's theorem famously forbids stable higher-derivative theories by predicting ghost instabilities, but this paper argues the theorem does not apply to gravity because the Hamiltonian constraint ($\\mathcal{H} = 0$) enforces background independence. In this view, the would-be \"ghost\" is tamed by the constraint and actually participates in constructing spacetime itself. The author further points out that perturbative graviton calculations *do* invoke Ostrogradsky's theorem because they break background independence by fixing a background — which is why such approximations are only valid below the Planck scale. This reframes the ghost problem as an artifact of background-dependent approximation schemes rather than a fundamental obstruction to higher-derivative quantum gravity.",
+          "relevance": "🔥 High — challenges a foundational no-go theorem in quantum gravity. Directly relevant to approaches using higher-derivative gravity, asymptotic safety, and any program where background independence is taken as fundamental.",
           "tags": [
-            "quantum-gravity"
+            "Quantum Gravity",
+            "Foundations & Interpretations",
+            "Field Theory & Mathematical Physics"
           ]
         },
         {
@@ -55,10 +61,12 @@
           "arxiv_id": "2608.17670",
           "url": "https://arxiv.org/abs/2608.17670",
           "categories": "gr-qc, hep-th",
-          "summary": "We compute the renormalized scalar vacuum polarization $\\langle \\phi^2 \\rangle$ of a massive, non-minimally coupled quantum field in the Hartle--Hawking state exterior to a family of static, spherically symmetric quantum-corrected, effective and regular black holes: the Kazakov--Solodukhin quantum-deformed black hole, the two effective loop-quantum-gravity geometries of Zhang--Lewandowski--Ma--Yang, the renormalization-group improved Schwarzschild black hole of Bonanno--Reuter, and the Bardeen regular black hole. We adapt the extended point-splitting mode-sum formalism, implemented as a high-performance code, and present the exterior profile of the vacuum polarization over a grid of the quantum-deformation parameter, the field mass $\\mu=mM$ and the curvature coupling $\\xi$.",
-          "relevance": "black-holes",
+          "summary": "This paper presents a systematic numerical study of vacuum polarization $\\langle \\phi^2 \\rangle$ outside five distinct quantum-corrected black hole geometries, including two effective models from loop quantum gravity. Using a high-performance implementation of point-splitting regularization, the author maps how quantum deformations alter the vacuum polarization across parameter space. A notable finding is a sign reversal in the near-extremal regime of LQG-inspired geometries with de Sitter cores — an effect absent in classical Reissner–Nordström and eliminated by conformal coupling, suggesting it is a genuine quantum-geometric signature. The work provides a benchmarkable computational framework and concrete observational discriminators between different quantum gravity-inspired black hole models.",
+          "relevance": "🔥 High — directly compares loop quantum gravity effective geometries against other quantum-corrected black hole models using a concrete quantum field theory observable. The sign-change signature could help distinguish LQG phenomenology from other approaches.",
           "tags": [
-            "black-holes"
+            "Black Hole Physics",
+            "Quantum Gravity",
+            "Field Theory & Mathematical Physics"
           ]
         },
         {
@@ -68,12 +76,12 @@
           "arxiv_id": "2608.15862",
           "url": "https://arxiv.org/abs/2608.15862",
           "categories": "hep-th",
-          "summary": "We investigate the emergence of bulk geometry from boundary entanglement entropy in the context of holographic duality. Considering a thermal $1+1$-dimensional conformal field theory dual to the BTZ black hole, we compute four distinct holographic entanglement measures: the standard spacelike HEE, its complementary spacelike counterpart HEE$^s$, the timelike HTEE and its complementary timelike counterpart HEE$^t$.",
-          "relevance": "black-holes, holography, entanglement",
+          "summary": "The author demonstrates that the full BTZ black hole metric can be reconstructed purely from boundary entanglement entropy data, without assuming the Einstein equations. By computing four variants of holographic entanglement entropy (spacelike, timelike, and their complements) and taking appropriate derivatives with respect to boundary intervals and extremal surface turning points, all metric components — including the radial direction — are recovered. This provides an explicit proof-of-concept for the ER=EPR and It-from-Qubit philosophies: entanglement structure on the boundary is sufficient to reconstruct the bulk gravitational geometry, including the black hole interior.",
+          "relevance": "🔥 High — a concrete reconstruction of a black hole spacetime from entanglement data alone. Directly connects to Deepak's interests in holography, black hole interiors, and the emergence of spacetime from quantum information.",
           "tags": [
-            "black-holes",
-            "holography",
-            "entanglement"
+            "Holography",
+            "Black Hole Physics",
+            "Quantum Information & Computing"
           ]
         },
         {
@@ -83,12 +91,12 @@
           "arxiv_id": "2608.16772",
           "url": "https://arxiv.org/abs/2608.16772",
           "categories": "astro-ph.CO, gr-qc, hep-th, hep-ph",
-          "summary": "A warped extra dimension in a five-dimensional (5D) anti de Sitter (AdS) background was introduced in 1999 by Lisa Randall and Raman Sundrum to solve the gauge hierarchy problem in particle physics. As a bonus, a holographic interpretation in terms of four dimensional (4D) conformal field theories (CFT) was found.",
-          "relevance": "black-holes, holography, string-theory",
+          "summary": "This review unifies Randall-Sundrum (AdS) and linear dilaton (Little String Theory) backgrounds into a one-parameter family of 5D geometries, then explores particle physics and cosmological applications. In the linear dilaton regime, the 5D Planck scale can be lowered to sub-Planckian values, and a novel brane-world cosmology vacuum emerges containing a 5D black hole. The authors identify a pressureless holographic fluid as a dark matter candidate produced by freeze-in, and also propose a feebly interacting massive graviton resonance as an alternative dark matter candidate from radiative corrections to the bulk graviton propagator.",
+          "relevance": "Medium — connects string-theoretic holography to cosmological phenomenology and dark matter model building. The holographic fluid and massive graviton dark matter proposals are novel, though the framework is more phenomenological than directly connected to LQG.",
           "tags": [
-            "black-holes",
-            "holography",
-            "string-theory"
+            "Cosmology & Early Universe",
+            "High-Energy Physics & Phenomenology",
+            "String Theory"
           ]
         },
         {
@@ -98,10 +106,12 @@
           "arxiv_id": "2608.17215",
           "url": "https://arxiv.org/abs/2608.17215",
           "categories": "gr-qc, hep-th",
-          "summary": "Radiative corrections at the percent level can shift the predictions of $\\alpha$-attractor and Starobinsky-like models into the region of the $(n_s,r)$ plane preferred by ACT DR6. We show that the decisive property is not the size of a correction but whether it is removable.",
-          "relevance": "physics",
+          "summary": "The authors identify a sharp criterion — \"removability\" — that determines whether radiative corrections to inflationary potentials preserve or destroy the Starobinsky/attractor predictions. In weakly nonlocal $R + R^2$ gravity, the improvement scale $\\mu = H(\\phi)$ ensures one-loop corrections are removable, so the model remains observationally viable with only $\\mathcal{O}(\\ln N / N^2)$ shifts in $n_s$. By contrast, matter-induced corrections and generic $f(R)$ deformations fail the removability test, explaining why they can push models into tension with CMB data. The result provides a principled filter for distinguishing benign quantum corrections from dangerous ones in quantum gravity-inspired inflation.",
+          "relevance": "Medium — connects quantum gravity corrections (nonlocal gravity) to inflationary observables. The removability criterion is a useful theoretical tool, though the focus is on cosmological phenomenology rather than quantum gravity fundamentals.",
           "tags": [
-            "physics"
+            "Cosmology & Early Universe",
+            "Field Theory & Mathematical Physics",
+            "Quantum Gravity"
           ]
         },
         {
@@ -111,10 +121,12 @@
           "arxiv_id": "2608.16997",
           "url": "https://arxiv.org/abs/2608.16997",
           "categories": "gr-qc, hep-th",
-          "summary": "We define gravitational entropy as the manifestly integrable surface charge associated with local transverse Lorentz boosts, entirely bypassing the conventional reliance on spacetime diffeomorphisms. Any notion of entropy must satisfy the second law.",
-          "relevance": "physics",
+          "summary": "The authors construct gravitational entropy as an integrable surface charge for local transverse Lorentz boosts, avoiding the usual diffeomorphism-based approaches. They then prove a local second law by identifying a privileged class of free-fall observers — those whose geodesic non-affinity equals the expansion of their velocity field — and showing that entropy is non-decreasing along their trajectories when the integrated strong energy condition holds. The analogy to Newton's laws is conceptual: just as inertial observers \"write\" the second law of mechanics, these specially parameterized free-fall observers \"write\" the second law of gravitational thermodynamics.",
+          "relevance": "Medium — advances the covariant formulation of black hole thermodynamics and entropy. The surface charge approach is elegant and background-covariant, though the strong energy condition assumption limits applicability to semiclassical regimes.",
           "tags": [
-            "physics"
+            "Black Hole Physics",
+            "Foundations & Interpretations",
+            "Field Theory & Mathematical Physics"
           ]
         },
         {
@@ -124,10 +136,12 @@
           "arxiv_id": "2608.17900",
           "url": "https://arxiv.org/abs/2608.17900",
           "categories": "math-ph, gr-qc, hep-th",
-          "summary": "We present a reformulation of four-dimensional chiral gravity in terms of a chiral gauge connection and a Clifford-valued coframe. The exterior algebra generated by $e^a \\gamma_a$, together with the gauge curvature $F$, provides a natural and systematic construction of gauge-covariant differential forms.",
-          "relevance": "physics",
+          "summary": "This paper reformulates 4D chiral gravity using a chiral gauge connection combined with a Clifford-algebra-valued coframe, unifying gravitational and matter sectors in a gauge-covariant framework. The construction naturally yields Einstein-Cartan-Holst gravity with a cosmological constant, while fermions emerge from superconnection invariants that produce chirality-mixing mass terms rather than propagating fields — propagation is instead supplied by a spinorial BF term. The formulation connects to twistor geometry and residual supersymmetry, offering a novel first-order framework where gravity and matter are soldered into a single superconnection structure.",
+          "relevance": "Medium — offers a fresh geometric unification of gravity and fermions via superconnections and Clifford-valued forms. The chiral/first-order perspective resonates with LQG's use of Ashtekar variables and spinorial structures, though the approach here is more gauge-theoretic.",
           "tags": [
-            "physics"
+            "Quantum Gravity",
+            "Field Theory & Mathematical Physics",
+            "High-Energy Physics & Phenomenology"
           ]
         },
         {
@@ -137,10 +151,12 @@
           "arxiv_id": "2608.17946",
           "url": "https://arxiv.org/abs/2608.17946",
           "categories": "gr-qc, hep-th",
-          "summary": "Working in the Worldline Quantum Field Theory framework, we obtain the classical gravitational Compton amplitude through the fifth post-Minkowskian order, $\\mathcal{O}(G^5)$. At this order, the point-particle description must be supplemented by the leading static tidal operators.",
-          "relevance": "black-holes",
+          "summary": "Using worldline quantum field theory, the authors compute the classical gravitational Compton amplitude to $\\mathcal{O}(G^5)$ — the fifth post-Minkowskian order. At this precision, static tidal operators must be included in the point-particle effective theory, and the matching to black hole perturbation theory unambiguously sets their Wilson coefficients to zero. This provides an independent confirmation from scattering amplitudes that Schwarzschild black holes have vanishing static Love numbers, a key property in the effective-one-body approach to gravitational wave physics.",
+          "relevance": "Medium — amplitude-based methods are increasingly important in gravitational physics. The Love number result is a consistency check, but the technical achievement of $G^5$ Compton scattering is significant for the worldline EFT program.",
           "tags": [
-            "black-holes"
+            "Gravitational Waves & Astrophysics",
+            "Black Hole Physics",
+            "Field Theory & Mathematical Physics"
           ]
         },
         {
@@ -150,10 +166,12 @@
           "arxiv_id": "2608.15123",
           "url": "https://arxiv.org/abs/2608.15123",
           "categories": "gr-qc",
-          "summary": "Recently, Comisso and Asenjo introduced a new energy extraction mechanism based on magnetic reconnection. In this paper, we investigate the power and efficiency of magnetic reconnection energy extraction in a rotating black hole surrounded by a cold dark matter halo.",
-          "relevance": "black-holes",
+          "summary": "The authors study how a cold dark matter halo surrounding a Kerr-like black hole affects the recently proposed magnetic reconnection energy extraction mechanism. By modifying the spacetime geometry through the halo's gravitational influence, they compute how the ergosphere, photon sphere, and event horizon shift, and then determine the efficiency of energy extraction via reconnection for circular orbits. The key finding is that energy extraction remains feasible across a range of spin parameters, with the dark matter halo altering the extraction geometry and efficiency compared to vacuum Kerr.",
+          "relevance": "Low-Medium — astrophysical energy extraction from black holes is interesting, but this is more applied general relativity than quantum gravity. The dark matter halo modification is a phenomenological model rather than a fundamental quantum gravity effect.",
           "tags": [
-            "black-holes"
+            "Black Hole Physics",
+            "Gravitational Waves & Astrophysics",
+            "Cosmology & Early Universe"
           ]
         },
         {
@@ -163,10 +181,12 @@
           "arxiv_id": "2608.15128",
           "url": "https://arxiv.org/abs/2608.15128",
           "categories": "gr-qc",
-          "summary": "In the present study, we analyze the power and efficiency of energy extraction via magnetic reconnection in the rotating Einstein-AdS-SU($N$)-NLSM black hole, both in the circular-orbit regime and in the plunging region. Initially, we define the background properties of this spacetime, and then analyze the physical quantities such as the size of the ergoregion, the event horizon, and the boundaries of the ergosphere.",
-          "relevance": "black-holes",
+          "summary": "This study extends magnetic reconnection energy extraction to rotating black holes in Einstein-AdS space coupled to an SU($N$) nonlinear sigma model. The authors find that the AdS radius, coupling constant, and flavor number $N$ conspire to lower the minimum spin threshold for extraction to as low as $a \\simeq 0.2$ in plunging orbits and $a \\simeq 0.7$ in circular orbits — well below standard vacuum Kerr thresholds. Under certain conditions, the extracted power can even exceed the Blandford-Znajek mechanism, suggesting that matter fields and negative cosmological constant can substantially enhance black hole energy extraction efficiency.",
+          "relevance": "Low-Medium — while the SU($N$) field and AdS setting is theoretically interesting, the focus is on classical energy extraction rather than quantum gravity. The plunging orbit enhancement is a concrete result for relativistic astrophysics.",
           "tags": [
-            "black-holes"
+            "Black Hole Physics",
+            "Gravitational Waves & Astrophysics",
+            "Field Theory & Mathematical Physics"
           ]
         },
         {
@@ -176,10 +196,12 @@
           "arxiv_id": "2608.15132",
           "url": "https://arxiv.org/abs/2608.15132",
           "categories": "gr-qc",
-          "summary": "Magnetic reconnection has been widely recognized as an important mechanism for extracting energy from rapidly rotating black holes. We find that magnetic reconnection can also efficiently extract energy from slowly rotating ModMax black holes.",
-          "relevance": "black-holes",
+          "summary": "The authors examine magnetic reconnection energy extraction in ModMax black holes — charged rotating black holes with nonlinear electrodynamics — and discover that the charge parameter $Q$ and screening factor $\\gamma$ compete to lower the minimum spin required for extraction. For circular orbits, the threshold drops to $a \\simeq 0.50$; for plunging orbits, it falls further to $a \\simeq 0.22$. This demonstrates that nonlinear electrodynamic effects can make energy extraction feasible from comparatively slowly rotating black holes, with plunging orbits consistently outperforming circular ones in both power and efficiency.",
+          "relevance": "Low-Medium — ModMax electrodynamics introduces interesting nonlinear effects, but the paper is focused on classical astrophysical energy extraction. The competing $Q$ vs. $\\gamma$ dynamics are a nice analytical result.",
           "tags": [
-            "black-holes"
+            "Black Hole Physics",
+            "Gravitational Waves & Astrophysics",
+            "Field Theory & Mathematical Physics"
           ]
         },
         {
@@ -189,10 +211,12 @@
           "arxiv_id": "2608.15178",
           "url": "https://arxiv.org/abs/2608.15178",
           "categories": "gr-qc",
-          "summary": "In this paper, we derive static magnetic brane solutions in quasi-topological gravity, considering the presence of power-law Maxwell nonlinear electrodynamics. The resulting solutions are horizonless and curvature-free.",
-          "relevance": "topological",
+          "summary": "The authors construct exact static magnetic brane solutions in quartic quasi-topological gravity coupled to power-law Maxwell electrodynamics. The solutions are horizonless and asymptotically flat, carrying a conical singularity with a deficit angle determined by the charge $q$, dimension $n$, and nonlinearity parameter $s \\in (1/2, 2]$. Near the brane core the geometry is controlled by electrodynamic parameters, while at large distances the Lovelock and quasi-topological couplings dominate. Conserved quantities are computed via the counterterm method, providing a complete thermodynamic characterization of these higher-curvature brane configurations.",
+          "relevance": "Low — higher-curvature brane solutions in modified gravity are mathematically interesting but relatively disconnected from quantum gravity phenomenology or LQG.",
           "tags": [
-            "topological"
+            "Field Theory & Mathematical Physics",
+            "Topological",
+            "Black Hole Physics"
           ]
         },
         {
@@ -202,10 +226,12 @@
           "arxiv_id": "2608.15487",
           "url": "https://arxiv.org/abs/2608.15487",
           "categories": "gr-qc",
-          "summary": "Black holes embedded in a dark matter background represent an important candidate model that extends the standard vacuum case, characterizing the strong gravitational environments at galactic centers and the gravitational influence of dark matter. This study focuses on dark matter halo-modified Kerr black holes and systematically investigates the observational characteristics of their surrounding thin accretion disks.",
-          "relevance": "black-holes",
+          "summary": "This paper models thin accretion disks around Kerr black holes modified by a double power-law dark matter halo, then computes observable signatures including flux profiles, temperature distributions, and ray-traced bolometric images. The dark matter halo pushes the ISCO outward, suppresses peak flux, and produces fainter disk images compared to vacuum Kerr — all potentially distinguishable by future observations. The work provides a template for testing whether supermassive black holes at galactic centers are embedded in significant dark matter distributions using accretion disk spectroscopy and imaging.",
+          "relevance": "Low-Medium — astrophysical modeling with observational signatures. Relevant to black hole phenomenology but not directly to quantum gravity or LQG.",
           "tags": [
-            "black-holes"
+            "Black Hole Physics",
+            "Gravitational Waves & Astrophysics",
+            "Cosmology & Early Universe"
           ]
         }
       ]
@@ -25376,33 +25402,49 @@
     "total_digests": 228,
     "total_entries": 1762,
     "unique_tags": {
-      "holography": {
+      "Holography": {
         "first_seen": "2026-08-20",
-        "count": 97
+        "count": 8
       },
-      "black-holes": {
+      "Black Hole Physics": {
         "first_seen": "2026-08-20",
-        "count": 351
+        "count": 42
       },
-      "quantum-gravity": {
+      "Quantum Gravity": {
         "first_seen": "2026-08-20",
-        "count": 93
+        "count": 45
       },
-      "entanglement": {
+      "Field Theory & Mathematical Physics": {
         "first_seen": "2026-08-20",
-        "count": 95
+        "count": 24
       },
-      "string-theory": {
+      "Foundations & Interpretations": {
         "first_seen": "2026-08-20",
-        "count": 17
+        "count": 10
       },
-      "physics": {
+      "Quantum Information & Computing": {
         "first_seen": "2026-08-20",
-        "count": 227
+        "count": 129
       },
-      "topological": {
+      "Cosmology & Early Universe": {
         "first_seen": "2026-08-20",
-        "count": 66
+        "count": 11
+      },
+      "High-Energy Physics & Phenomenology": {
+        "first_seen": "2026-08-20",
+        "count": 12
+      },
+      "String Theory": {
+        "first_seen": "2026-08-20",
+        "count": 4
+      },
+      "Gravitational Waves & Astrophysics": {
+        "first_seen": "2026-08-20",
+        "count": 9
+      },
+      "Topological": {
+        "first_seen": "2026-08-20",
+        "count": 1
       },
       "Loop Quantum Gravity": {
         "first_seen": "2026-08-19",
@@ -25416,17 +25458,9 @@
         "first_seen": "2026-08-19",
         "count": 2
       },
-      "Black Hole Physics": {
-        "first_seen": "2026-08-19",
-        "count": 31
-      },
       "Tidal Love Numbers": {
         "first_seen": "2026-08-19",
         "count": 1
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-08-19",
-        "count": 39
       },
       "Black Hole Stability": {
         "first_seen": "2026-08-19",
@@ -25588,10 +25622,6 @@
         "first_seen": "2026-08-18",
         "count": 48
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-08-17",
-        "count": 128
-      },
       "Entanglement Harvesting": {
         "first_seen": "2026-08-15",
         "count": 1
@@ -25639,10 +25669,6 @@
       "Higher-Curvature Gravity": {
         "first_seen": "2026-08-15",
         "count": 1
-      },
-      "String Theory": {
-        "first_seen": "2026-08-15",
-        "count": 3
       },
       "Traversable Wormholes": {
         "first_seen": "2026-08-15",
@@ -25844,9 +25870,21 @@
         "first_seen": "2026-08-13",
         "count": 2
       },
+      "black-holes": {
+        "first_seen": "2026-08-13",
+        "count": 342
+      },
+      "holography": {
+        "first_seen": "2026-08-13",
+        "count": 94
+      },
       "information-paradox": {
         "first_seen": "2026-08-13",
         "count": 5
+      },
+      "entanglement": {
+        "first_seen": "2026-08-13",
+        "count": 94
       },
       "AdS-CFT": {
         "first_seen": "2026-08-13",
@@ -25875,6 +25913,10 @@
       "quantum-field-theory": {
         "first_seen": "2026-08-13",
         "count": 6
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-08-13",
+        "count": 92
       },
       "group-field-theory": {
         "first_seen": "2026-08-13",
@@ -25920,6 +25962,10 @@
         "first_seen": "2026-08-13",
         "count": 2
       },
+      "topological": {
+        "first_seen": "2026-08-13",
+        "count": 65
+      },
       "anyons": {
         "first_seen": "2026-08-13",
         "count": 2
@@ -25927,6 +25973,10 @@
       "Technology & Engineering": {
         "first_seen": "2026-08-13",
         "count": 61
+      },
+      "physics": {
+        "first_seen": "2026-08-12",
+        "count": 224
       },
       "Gravitational Collapse": {
         "first_seen": "2026-08-11",
@@ -25939,10 +25989,6 @@
       "Observational Signatures": {
         "first_seen": "2026-08-11",
         "count": 1
-      },
-      "Holography": {
-        "first_seen": "2026-08-11",
-        "count": 6
       },
       "M-Theory": {
         "first_seen": "2026-08-11",
@@ -26083,6 +26129,10 @@
       "AdS/CFT": {
         "first_seen": "2026-08-08",
         "count": 5
+      },
+      "string-theory": {
+        "first_seen": "2026-08-07",
+        "count": 16
       },
       "condensed-matter": {
         "first_seen": "2026-08-06",
@@ -28864,14 +28914,6 @@
         "first_seen": "2026-05-19",
         "count": 1
       },
-      "High-Energy Physics & Phenomenology": {
-        "first_seen": "2026-05-19",
-        "count": 10
-      },
-      "Field Theory & Mathematical Physics": {
-        "first_seen": "2026-05-19",
-        "count": 14
-      },
       "Quantum Foundations": {
         "first_seen": "2026-05-19",
         "count": 1
@@ -29092,18 +29134,6 @@
         "first_seen": "2026-05-15",
         "count": 4
       },
-      "Cosmology & Early Universe": {
-        "first_seen": "2026-05-14",
-        "count": 7
-      },
-      "Foundations & Interpretations": {
-        "first_seen": "2026-05-14",
-        "count": 8
-      },
-      "Gravitational Waves & Astrophysics": {
-        "first_seen": "2026-05-14",
-        "count": 4
-      },
       "Phase Transitions & Critical Phenomena": {
         "first_seen": "2026-05-14",
         "count": 5
@@ -29118,19 +29148,21 @@
       }
     },
     "tag_counts": {
-      "holography": 97,
-      "black-holes": 351,
-      "quantum-gravity": 93,
-      "entanglement": 95,
-      "string-theory": 17,
-      "physics": 227,
-      "topological": 66,
+      "Holography": 8,
+      "Black Hole Physics": 42,
+      "Quantum Gravity": 45,
+      "Field Theory & Mathematical Physics": 24,
+      "Foundations & Interpretations": 10,
+      "Quantum Information & Computing": 129,
+      "Cosmology & Early Universe": 11,
+      "High-Energy Physics & Phenomenology": 12,
+      "String Theory": 4,
+      "Gravitational Waves & Astrophysics": 9,
+      "Topological": 1,
       "Loop Quantum Gravity": 7,
       "Black Hole Remnants": 1,
       "Higher Dimensions": 2,
-      "Black Hole Physics": 31,
       "Tidal Love Numbers": 1,
-      "Quantum Gravity": 39,
       "Black Hole Stability": 1,
       "Matrix Models": 1,
       "Problem of Time": 2,
@@ -29171,7 +29203,6 @@
       "Quantum Probes": 1,
       "Optics & Photonics": 73,
       "Experiment & Observation": 48,
-      "Quantum Information & Computing": 128,
       "Entanglement Harvesting": 1,
       "Quantum Field Theory": 3,
       "Reeh-Schlieder Theorem": 1,
@@ -29184,7 +29215,6 @@
       "Quasitopological Gravity": 1,
       "Holographic Renormalization": 1,
       "Higher-Curvature Gravity": 1,
-      "String Theory": 3,
       "Traversable Wormholes": 1,
       "Exotic Geometry": 1,
       "Thin-Shell Formalism": 1,
@@ -29235,7 +29265,10 @@
       "loop-quantum-gravity": 28,
       "quantum-cosmology": 15,
       "CMB": 2,
+      "black-holes": 342,
+      "holography": 94,
       "information-paradox": 5,
+      "entanglement": 94,
       "AdS-CFT": 8,
       "many-body": 24,
       "quantum-dynamics": 1,
@@ -29243,6 +29276,7 @@
       "Gauss-Bonnet": 1,
       "Hawking-radiation": 2,
       "quantum-field-theory": 6,
+      "quantum-gravity": 92,
       "group-field-theory": 1,
       "BMS-symmetry": 1,
       "flat-space": 1,
@@ -29254,12 +29288,13 @@
       "effective-field-theory": 1,
       "fractons": 1,
       "emergent-gravity": 2,
+      "topological": 65,
       "anyons": 2,
       "Technology & Engineering": 61,
+      "physics": 224,
       "Gravitational Collapse": 1,
       "Nonlinear Electrodynamics": 2,
       "Observational Signatures": 1,
-      "Holography": 6,
       "M-Theory": 1,
       "Black Branes": 1,
       "Loop Quantum Cosmology": 2,
@@ -29295,6 +29330,7 @@
       "Quantum Information": 4,
       "Entanglement Entropy": 1,
       "AdS/CFT": 5,
+      "string-theory": 16,
       "condensed-matter": 1,
       "quantum-chaos": 10,
       "wormholes": 4,
@@ -29990,8 +30026,6 @@
       "Condensed Matter & Materials": 1,
       "Science Policy & Education": 1,
       "Meta-Science": 1,
-      "High-Energy Physics & Phenomenology": 10,
-      "Field Theory & Mathematical Physics": 14,
       "Quantum Foundations": 1,
       "Infrared Physics": 1,
       "Berry Phases": 1,
@@ -30047,9 +30081,6 @@
       "Double Copy": 1,
       "Classical Gravity": 1,
       "Space Sustainability": 4,
-      "Cosmology & Early Universe": 7,
-      "Foundations & Interpretations": 8,
-      "Gravitational Waves & Astrophysics": 4,
       "Phase Transitions & Critical Phenomena": 5,
       "Magnetism & Spintronics": 1,
       "Geophysics & Earth Science": 1
