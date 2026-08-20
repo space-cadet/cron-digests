@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T03:06:38.458Z",
+  "generated": "2026-08-20T04:49:54.135Z",
   "digests": [
     {
       "date": "2026-08-20",
@@ -232,6 +232,70 @@
             "Black Hole Physics",
             "Gravitational Waves & Astrophysics",
             "Cosmology & Early Universe"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-20",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/",
+          "summary": "No one yet knows which technology will power the quantum computers of the future, but the race to create them has already produced some of science’s most intricate machinery.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "These trees are making air quality in cities worse",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02586-2",
+          "summary": "They release compounds that contribute to ozone emissions, and rising temperatures could exacerbate the problem.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "South Africa’s scientists must register with official body or risk prison, according to draft law",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02516-2",
+          "summary": "Many researchers are unaware of an upcoming law that will require them to register with a regulatory body, as is the case for engineers and health-care professionals.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "How do people live beyond 110? Abundance of cancer-killing cells might be key",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02587-1",
+          "summary": "Research on people 110 years and older reveals an immune system that continues to adapt.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Fast radio bursts reveal that the universe’s ‘missing matter’ is found far from galaxies",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/fast-radio-bursts-reveal-that-the-universes-missing-matter-is-found-far-from-galaxies/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Many-Body Physics & Condensed Matter"
           ]
         }
       ]
@@ -25446,8 +25510,8 @@
     }
   ],
   "stats": {
-    "total_digests": 229,
-    "total_entries": 1765,
+    "total_digests": 230,
+    "total_entries": 1770,
     "unique_tags": {
       "Holography": {
         "first_seen": "2026-08-20",
@@ -25471,7 +25535,7 @@
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-08-20",
-        "count": 129
+        "count": 130
       },
       "Cosmology & Early Universe": {
         "first_seen": "2026-08-20",
@@ -25492,6 +25556,18 @@
       "Topological": {
         "first_seen": "2026-08-20",
         "count": 1
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-08-20",
+        "count": 62
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-20",
+        "count": 186
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-08-20",
+        "count": 54
       },
       "moltbook": {
         "first_seen": "2026-08-20",
@@ -25600,10 +25676,6 @@
       "Energy Conditions": {
         "first_seen": "2026-08-19",
         "count": 3
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-19",
-        "count": 183
       },
       "Regular Black Holes": {
         "first_seen": "2026-08-18",
@@ -26017,10 +26089,6 @@
         "first_seen": "2026-08-13",
         "count": 2
       },
-      "Technology & Engineering": {
-        "first_seen": "2026-08-13",
-        "count": 61
-      },
       "physics": {
         "first_seen": "2026-08-12",
         "count": 224
@@ -26120,10 +26188,6 @@
       "Rotating Black Holes": {
         "first_seen": "2026-08-11",
         "count": 1
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-08-10",
-        "count": 53
       },
       "Stochastic Inflation": {
         "first_seen": "2026-08-08",
@@ -29200,12 +29264,15 @@
       "Quantum Gravity": 45,
       "Field Theory & Mathematical Physics": 24,
       "Foundations & Interpretations": 10,
-      "Quantum Information & Computing": 129,
+      "Quantum Information & Computing": 130,
       "Cosmology & Early Universe": 11,
       "High-Energy Physics & Phenomenology": 12,
       "String Theory": 4,
       "Gravitational Waves & Astrophysics": 9,
       "Topological": 1,
+      "Technology & Engineering": 62,
+      "Science Communication & Policy": 186,
+      "Many-Body Physics & Condensed Matter": 54,
       "moltbook": 274,
       "quantum": 227,
       "agents": 165,
@@ -29233,7 +29300,6 @@
       "Critical Phenomena": 3,
       "Wormholes": 5,
       "Energy Conditions": 3,
-      "Science Communication & Policy": 183,
       "Regular Black Holes": 3,
       "Singularity Resolution": 2,
       "Dark Energy": 6,
@@ -29337,7 +29403,6 @@
       "emergent-gravity": 2,
       "topological": 65,
       "anyons": 2,
-      "Technology & Engineering": 61,
       "physics": 224,
       "Gravitational Collapse": 1,
       "Nonlinear Electrodynamics": 2,
@@ -29363,7 +29428,6 @@
       "Accretion Disks": 1,
       "Energy Extraction": 2,
       "Rotating Black Holes": 1,
-      "Many-Body Physics & Condensed Matter": 53,
       "Stochastic Inflation": 1,
       "Black Holes": 6,
       "Cosmological Perturbations": 1,
@@ -30212,6 +30276,82 @@
         "2026-05-12",
         "2026-05-11"
       ],
+      "web-science": [
+        "2026-08-20",
+        "2026-08-19",
+        "2026-08-18",
+        "2026-08-17",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-10",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-03",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "moltbook": [
         "2026-08-20",
         "2026-08-19",
@@ -30292,81 +30432,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "web-science": [
-        "2026-08-19",
-        "2026-08-18",
-        "2026-08-17",
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-10",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-03",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
