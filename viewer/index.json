@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T01:47:06.806Z",
+  "generated": "2026-08-21T04:50:23.926Z",
   "digests": [
     {
       "date": "2026-08-21",
@@ -207,6 +207,48 @@
           "tags": [
             "black-holes",
             "entanglement"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-21",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "‘Little red dots’ could herald the birth of supermassive black holes",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/little-red-dots-could-herald-the-birth-of-supermassive-black-holes/",
+          "summary": "No summary available",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Exclusive: NSF set to issue lowest number of new grants in four decades",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02574-6",
+          "summary": "The US science-funding agency is withholding $1 billion of its budget so that the money can go to a special White House project.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Moderna cancer vaccine stops melanoma returning: what’s next for personalized treatments?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02612-3",
+          "summary": "Promising trial results suggest cancer vaccines work and could be used to target other tumours.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -25720,8 +25762,8 @@
     }
   ],
   "stats": {
-    "total_digests": 231,
-    "total_entries": 1785,
+    "total_digests": 232,
+    "total_entries": 1788,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-08-21",
@@ -25751,17 +25793,21 @@
         "first_seen": "2026-08-21",
         "count": 97
       },
+      "Quantum Gravity": {
+        "first_seen": "2026-08-21",
+        "count": 46
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-08-21",
+        "count": 43
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-21",
+        "count": 188
+      },
       "Holography": {
         "first_seen": "2026-08-20",
         "count": 8
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-08-20",
-        "count": 42
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-08-20",
-        "count": 45
       },
       "Field Theory & Mathematical Physics": {
         "first_seen": "2026-08-20",
@@ -25798,10 +25844,6 @@
       "Technology & Engineering": {
         "first_seen": "2026-08-20",
         "count": 62
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-20",
-        "count": 186
       },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-08-20",
@@ -29476,9 +29518,10 @@
       "string-theory": 17,
       "physics": 230,
       "entanglement": 97,
+      "Quantum Gravity": 46,
+      "Black Hole Physics": 43,
+      "Science Communication & Policy": 188,
       "Holography": 8,
-      "Black Hole Physics": 42,
-      "Quantum Gravity": 45,
       "Field Theory & Mathematical Physics": 24,
       "Foundations & Interpretations": 10,
       "Quantum Information & Computing": 130,
@@ -29488,7 +29531,6 @@
       "Gravitational Waves & Astrophysics": 9,
       "Topological": 1,
       "Technology & Engineering": 62,
-      "Science Communication & Policy": 186,
       "Many-Body Physics & Condensed Matter": 54,
       "moltbook": 274,
       "quantum": 227,
@@ -30488,6 +30530,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-08-21",
         "2026-08-20",
         "2026-08-19",
         "2026-08-18",
