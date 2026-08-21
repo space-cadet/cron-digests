@@ -1,6 +1,216 @@
 {
-  "generated": "2026-08-20T04:49:54.135Z",
+  "generated": "2026-08-21T01:42:15.114Z",
   "digests": [
+    {
+      "date": "2026-08-21",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-21",
+      "categories": "astro-ph.GA, astro-ph.HE, gr-qc, hep-ph, hep-th, math.DG, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black hole, holograph, string theory, topological, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "A more general exact solution for the Schwarzschild black hole in a Bertotti-Robinson-Bonnor-Melvin universe",
+          "authors": "Andrea Di Pinto",
+          "arxiv_id": "2608.18213",
+          "url": "https://arxiv.org/abs/2608.18213",
+          "categories": "hep-th, gr-qc",
+          "summary": "We begin by introducing a new parameterization for the Ovcharenko-Podolský family of exact solutions of the Einstein-Maxwell equations describing uncharged and non-accelerating static black holes immersed in an external Bertotti-Robinson electromagnetic field. The new spacetime is, in general, different from the original Ovcharenko-Podolský one, in particular on the branches solving the field equations, for which the original parameterization can lead to black holes with a negative mass, whereas the new one always leads to black holes with a positive mass.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Causal structure and light-conical singularities in Lorentzian simplicial quantum gravity",
+          "authors": "Bianca Dittrich, José Padua-Argüelles",
+          "arxiv_id": "2608.18216",
+          "url": "https://arxiv.org/abs/2608.18216",
+          "categories": "hep-th, gr-qc",
+          "summary": "The definition of a Lorentzian gravitational path integral requires specifying which causal struc- tures are admitted off shell. Of particular importance are light-conical singularities, codimension- two irregularities of the light cone structure that render the gravitational action complex and can therefore lead to exponential enhancement or suppression of configurations.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "First Law of Black Hole Interior Dynamics",
+          "authors": "Ze-Xuan Xiong, H. Lu",
+          "arxiv_id": "2608.18583",
+          "url": "https://arxiv.org/abs/2608.18583",
+          "categories": "hep-th, gr-qc",
+          "summary": "We obtain a local first law of dynamics within the interior geometries that are governed by cosmological solutions connecting the event horizon and the Kasner-like singularity. Evaluating the Iyer-Wald identity between the horizon and near-singularity geometries, we define a Kasner potential and transported response coefficients.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Gravitational wave signatures from area metric gravity",
+          "authors": "Bianca Dittrich",
+          "arxiv_id": "2608.16046",
+          "url": "https://arxiv.org/abs/2608.16046",
+          "categories": "hep-th, gr-qc",
+          "summary": "Area metric theories have been proposed as effective descriptions in a number of quantum gravity approaches: as continuum limit of effective spin foams, as an effective description for string theory and in the context of holography. Area metric actions allow for non-topological parity violating terms, which opens the possibility of observationally determining the Barbero-Immirzi parameter.",
+          "relevance": "quantum-gravity, topological, holography, string-theory",
+          "tags": [
+            "quantum-gravity",
+            "topological",
+            "holography",
+            "string-theory"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Wormhole Reconstruction in Non-Conservative Unimodular Gravity: Ricci Scalar as an Independently Prescribed Curvature Profile",
+          "authors": "Marcelo H. Alvarenga, Rodrigo Santos Bufalo, Júlio C. Fabris",
+          "arxiv_id": "2608.17058",
+          "url": "https://arxiv.org/abs/2608.17058",
+          "categories": "hep-th, gr-qc",
+          "summary": "The absence of an algebraic relation between the Ricci scalar and the trace of the energy-momentum tensor in Non-Conservative Unimodular Gravity ($\\mathrm{NUG}$) opens new possibilities for constructing spacetime geometries from prescribed curvature profiles. Exploiting this property, we develop a curvature reconstruction framework in which traversable wormhole geometries are generated directly from a prescribed curvature profile rather than from the matter sector or the metric functions.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Conformally Einstein anti-self-dual spaces and their generalisations",
+          "authors": "Timothy Moy",
+          "arxiv_id": "2608.17847",
+          "url": "https://arxiv.org/abs/2608.17847",
+          "categories": "gr-qc, hep-th, math.DG",
+          "summary": "We study the existence of Einstein scales and compatible metrics in Grassmannian geometry. As a special case, this includes the conformal-to-Einstein problem for anti-self-dual (ASD) conformal structures.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Genuine Tripartite Entanglement Selects Gauge-Invariant Theories",
+          "authors": "Junya Yamagishi",
+          "arxiv_id": "2608.18732",
+          "url": "https://arxiv.org/abs/2608.18732",
+          "categories": "hep-ph, hep-th, quant-ph",
+          "summary": "Recent studies have explored whether physical constants and symmetries can be selected by extremizing bipartite entanglement entropy. We extend this approach to a three-particle setting.",
+          "relevance": "entanglement",
+          "tags": [
+            "entanglement"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Effective curvature coupling of link-based causal set propagators in $1+1$ dimensions",
+          "authors": "Arsim Kastrati",
+          "arxiv_id": "2608.18753",
+          "url": "https://arxiv.org/abs/2608.18753",
+          "categories": "hep-th, gr-qc",
+          "summary": "We study how a recently introduced causal-set propagator defined in terms of links responds to curvature. On sprinklings embedded in a flat 1+1-dimensional Minkowski space, this propagator is known to reproduce the massless retarded continuum Greens function on large scales.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Notes on Kerr-Bertotti-Robinson Spacetime",
+          "authors": "Yu-Sen Zhou, Liang-Bi Wu, Ming-Fei Ji et al.",
+          "arxiv_id": "2608.19136",
+          "url": "https://arxiv.org/abs/2608.19136",
+          "categories": "hep-th, gr-qc",
+          "summary": "The surface $r=\\infty$ of the Kerr--Bertotti--Robinson (KBR) spacetime is not the collection of the endpoints of infinitely extended light rays, and the Coulomb type component of gravitational field strength represented by $\\Psi_2$ remains nonvanishing there, indicating that this surface is not a real boundary. We construct a natural extension across this surface, which connects the exterior of one KBR region to the interior of a neighboring one and, upon iteration, produces an infinite chain of regions connected by wormhole-like bridges.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Five-point spinor-helicity Compton amplitudes in gauge theory and gravity",
+          "authors": "Raikhik Das, Mao Zeng",
+          "arxiv_id": "2608.18218",
+          "url": "https://arxiv.org/abs/2608.18218",
+          "categories": "hep-th, gr-qc",
+          "summary": "We calculate the five-point tree-level Compton amplitudes for minimally coupled spinning matter in gauge theory and gravity in the massive spinor-helicity formalism, using BCFW recursion and KLT relations. The results are written in terms of symmetrized spinor products and are simultaneously valid for a range of matter spins, which directly generalizes the amplitudes of Arkani-Hamed, Huang, and Huang to the five-point case.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Entanglement islands and information recovery from near-extremal regular black holes",
+          "authors": "Ankit Anand, Kimet Jusufi, Amir A. Khodahami et al.",
+          "arxiv_id": "2608.18603",
+          "url": "https://arxiv.org/abs/2608.18603",
+          "categories": "hep-th",
+          "summary": "We investigate the Page curve and information recovery in a near-extremal regular black hole inspired by T-duality, in which the central singularity is resolved by a minimal length scale. By integrating the first law of thermodynamics at fixed minimal length, we obtain a black-hole entropy containing an intrinsically quantum logarithmic correction, while the area-law contribution vanishes in the extremal limit.",
+          "relevance": "black-holes, entanglement",
+          "tags": [
+            "black-holes",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Non-abelian uni-vector deformations in gauged supergravities and non-abelian Einstein-Maxwell theories",
+          "authors": "Kirill Gubarev, Konstantin Sovit",
+          "arxiv_id": "2608.18845",
+          "url": "https://arxiv.org/abs/2608.18845",
+          "categories": "hep-th, gr-qc",
+          "summary": "We construct non-abelian uni-vector deformations of solutions in non-abelian Einstein\\--Maxwell theories and gauged supergravities, obtained as Scherk--Schwarz reductions of general relativity and double field theory, respectively. We provide examples of deformed backgrounds for both cases.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Perturbative Hairy Black Branes in the $G_{2}$-Invariant Sector of Dyonic ISO(7) Gauged Supergravity",
+          "authors": "Sangheon Yun",
+          "arxiv_id": "2608.18959",
+          "url": "https://arxiv.org/abs/2608.18959",
+          "categories": "hep-th, gr-qc",
+          "summary": "We construct perturbative black-brane solutions carrying neutral scalar hair in the $G_{2}$-invariant truncation of four-dimensional dyonic $\\mathcal{N}=8$ ISO(7) gauged supergravity, an exact consistent truncation of massive type~IIA supergravity on $S^{6}$. Expanding around the $G_{2}$-symmetric AdS$_{4}$-Schwarzschild black brane in powers of a dimensionless scalar-charge parameter $\\eps$, we show that the perturbation hierarchy reduces, order by order, to a nested sequence of inhomogeneous Legendre equations (demonstrated through second order).",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "The Spin Angular Momentum and Black Hole Mass Components of Sagittarius A*",
+          "authors": "Ruth A. Daly",
+          "arxiv_id": "2608.17978",
+          "url": "https://arxiv.org/abs/2608.17978",
+          "categories": "astro-ph.HE, astro-ph.GA, gr-qc",
+          "summary": "The dimensionless spin angular momentum, dimensionless spin function, and blackhole mass components of Sagittarius A* (Sgr A*) were obtained by Daly et al. (2024) by applying the outflow method to six independent sets of simultaneously or contemporaneously obtained X-ray and radio data.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Quantum-corrected thermodynamics of Schwarzschild AdS black holes in conformal Killing gravity",
+          "authors": "Saheb Soroushfar, Sayyed Mehrab Ramezani, Hoda Farahani et al.",
+          "arxiv_id": "2608.16948",
+          "url": "https://arxiv.org/abs/2608.16948",
+          "categories": "gr-qc",
+          "summary": "We study Schwarzschild--AdS black holes in conformal Killing gravity with non-perturbative entropy corrections within the extended phase-space formalism. By deriving the quantum-corrected heat capacity, Helmholtz free energy, internal energy, and Gibbs free energy, we show that quantum corrections modify phase transition points and thermal stability mainly at small horizon radii, while classical behavior is recovered for large black holes.",
+          "relevance": "black-holes, entanglement",
+          "tags": [
+            "black-holes",
+            "entanglement"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-20",
       "type": "arxiv",
@@ -25510,9 +25720,37 @@
     }
   ],
   "stats": {
-    "total_digests": 230,
-    "total_entries": 1770,
+    "total_digests": 231,
+    "total_entries": 1785,
     "unique_tags": {
+      "black-holes": {
+        "first_seen": "2026-08-21",
+        "count": 348
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-08-21",
+        "count": 94
+      },
+      "topological": {
+        "first_seen": "2026-08-21",
+        "count": 66
+      },
+      "holography": {
+        "first_seen": "2026-08-21",
+        "count": 95
+      },
+      "string-theory": {
+        "first_seen": "2026-08-21",
+        "count": 17
+      },
+      "physics": {
+        "first_seen": "2026-08-21",
+        "count": 230
+      },
+      "entanglement": {
+        "first_seen": "2026-08-21",
+        "count": 97
+      },
       "Holography": {
         "first_seen": "2026-08-20",
         "count": 8
@@ -25989,21 +26227,9 @@
         "first_seen": "2026-08-13",
         "count": 2
       },
-      "black-holes": {
-        "first_seen": "2026-08-13",
-        "count": 342
-      },
-      "holography": {
-        "first_seen": "2026-08-13",
-        "count": 94
-      },
       "information-paradox": {
         "first_seen": "2026-08-13",
         "count": 5
-      },
-      "entanglement": {
-        "first_seen": "2026-08-13",
-        "count": 94
       },
       "AdS-CFT": {
         "first_seen": "2026-08-13",
@@ -26032,10 +26258,6 @@
       "quantum-field-theory": {
         "first_seen": "2026-08-13",
         "count": 6
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-08-13",
-        "count": 92
       },
       "group-field-theory": {
         "first_seen": "2026-08-13",
@@ -26081,17 +26303,9 @@
         "first_seen": "2026-08-13",
         "count": 2
       },
-      "topological": {
-        "first_seen": "2026-08-13",
-        "count": 65
-      },
       "anyons": {
         "first_seen": "2026-08-13",
         "count": 2
-      },
-      "physics": {
-        "first_seen": "2026-08-12",
-        "count": 224
       },
       "Gravitational Collapse": {
         "first_seen": "2026-08-11",
@@ -26240,10 +26454,6 @@
       "AdS/CFT": {
         "first_seen": "2026-08-08",
         "count": 5
-      },
-      "string-theory": {
-        "first_seen": "2026-08-07",
-        "count": 16
       },
       "condensed-matter": {
         "first_seen": "2026-08-06",
@@ -29259,6 +29469,13 @@
       }
     },
     "tag_counts": {
+      "black-holes": 348,
+      "quantum-gravity": 94,
+      "topological": 66,
+      "holography": 95,
+      "string-theory": 17,
+      "physics": 230,
+      "entanglement": 97,
       "Holography": 8,
       "Black Hole Physics": 42,
       "Quantum Gravity": 45,
@@ -29378,10 +29595,7 @@
       "loop-quantum-gravity": 28,
       "quantum-cosmology": 15,
       "CMB": 2,
-      "black-holes": 342,
-      "holography": 94,
       "information-paradox": 5,
-      "entanglement": 94,
       "AdS-CFT": 8,
       "many-body": 24,
       "quantum-dynamics": 1,
@@ -29389,7 +29603,6 @@
       "Gauss-Bonnet": 1,
       "Hawking-radiation": 2,
       "quantum-field-theory": 6,
-      "quantum-gravity": 92,
       "group-field-theory": 1,
       "BMS-symmetry": 1,
       "flat-space": 1,
@@ -29401,9 +29614,7 @@
       "effective-field-theory": 1,
       "fractons": 1,
       "emergent-gravity": 2,
-      "topological": 65,
       "anyons": 2,
-      "physics": 224,
       "Gravitational Collapse": 1,
       "Nonlinear Electrodynamics": 2,
       "Observational Signatures": 1,
@@ -29441,7 +29652,6 @@
       "Quantum Information": 4,
       "Entanglement Entropy": 1,
       "AdS/CFT": 5,
-      "string-theory": 16,
       "condensed-matter": 1,
       "quantum-chaos": 10,
       "wormholes": 4,
@@ -30198,6 +30408,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-21",
         "2026-08-20",
         "2026-08-19",
         "2026-08-18",
