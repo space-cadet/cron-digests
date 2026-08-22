@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T01:42:29.228Z",
+  "generated": "2026-08-22T01:49:46.053Z",
   "digests": [
     {
       "date": "2026-08-22",
@@ -7,7 +7,7 @@
       "title": "# arXiv Morning Digest — 2026-08-22",
       "categories": "astro-ph.CO, cond-mat.quant-gas, cond-mat.stat-mech, cond-mat.str-el, gr-qc, hep-ph, hep-th, math-ph, quant-ph",
       "items_found": 15,
-      "focus": "black hole, holograph, string theory, topological, entanglement, tensor network",
+      "focus": "black hole, holography, string theory, topological, entanglement, tensor network, quantum gravity",
       "entries": [
         {
           "num": 1,
@@ -16,8 +16,8 @@
           "arxiv_id": "2608.19373",
           "url": "https://arxiv.org/abs/2608.19373",
           "categories": "gr-qc, hep-th, quant-ph",
-          "summary": "We investigate the growth of the black hole interior in three-dimensional gravity from the boundary theory. For the two-sided BTZ black hole, we propose a boundary reconstruction of the time dependence of a codimension-one surface in terms of correlation functions of smeared operators in the thermofield double state, reproducing the characteristic late-time linear growth predicted by the complexity-volume proposal.",
-          "relevance": "black-holes, holography, entanglement",
+          "summary": "The authors establish a boundary reconstruction of black hole interior growth in 3D BTZ gravity using smeared-operator correlators in the thermofield double state, showing these map to bulk Wilson lines via the Chern-Simons formulation. A key finding is that operator Krylov complexity — but not state Krylov spread complexity — tracks the linear late-time growth of the interior volume, extending the operator-growth/bulk-geometry correspondence to AdS$_3$ and distinguishing between two notions of Krylov complexity.",
+          "relevance": "Directly connects to Deepak's interests in holography, black hole interiors, and quantum complexity. The distinction between operator and state Krylov complexity is a nuanced result that could inform how quantum information measures capture geometric growth in quantum gravity.",
           "tags": [
             "black-holes",
             "holography",
@@ -31,10 +31,12 @@
           "arxiv_id": "2608.19261",
           "url": "https://arxiv.org/abs/2608.19261",
           "categories": "gr-qc, hep-th, quant-ph",
-          "summary": "A closed Friedmann-Lemaitre-Robertson-Walker Wheeler-DeWitt model is formulated as an exact reflection problem. The derivative of its reflection phase defines a relational crossing duration whose first two clock moments follow from a covariant scalar-clock observable.",
-          "relevance": "physics",
+          "summary": "This paper develops a fully relational framework for measuring time in quantum cosmology by treating a closed FLRW Wheeler-DeWitt model as a scattering/reflection problem. The reflection phase derivative yields a Wigner-Smith-like duration that requires no external clock, with analytic results for classical limits and quantum corrections. The construction extends to finite quantum detectors, defining duration and transition observables purely from scattering correlations in a timeless constrained system.",
+          "relevance": "Highly relevant to quantum cosmology and the problem of time in quantum gravity. The relational, clock-free approach aligns with background-independent frameworks like LQG, where emergent time from correlations is a central theme.",
           "tags": [
-            "physics"
+            "quantum-gravity",
+            "quantum-cosmology",
+            "foundations"
           ]
         },
         {
@@ -44,10 +46,12 @@
           "arxiv_id": "2608.19692",
           "url": "https://arxiv.org/abs/2608.19692",
           "categories": "gr-qc, hep-th, quant-ph",
-          "summary": "In this paper we employ the open quantum system framework with the influence functional formalism to non-perturbatively analyze the response of an Unruh-DeWitt detector modeled as a harmonic oscillator which interacts with a massless scalar field in impulsive plane wave spacetimes. Subtracting the Minkowski results, we obtain the expectation values for $\\langle Q^2 \\rangle$, $\\langle P^2 \\rangle$, and $\\langle \\{Q,P\\} \\rangle$, along with transition probabilities $P_{0\\rightarrow 1}$ from ground state to the first excited state of the detector due to the influence of the wave.",
-          "relevance": "physics",
+          "summary": "Using the influence functional formalism within open quantum systems, the author non-perturbatively analyzes an Unruh-DeWitt detector (modeled as a harmonic oscillator) responding to impulsive plane waves — both pure gravitational and null electromagnetic. A striking result is that both types of waves suppress detector excitations rather than enhance them, and the non-perturbative treatment allows exploration of both weak and strong coupling regimes.",
+          "relevance": "The interplay between quantum field theory in curved spacetime, gravitational waves, and detector physics touches on foundational questions about quantum gravity phenomenology. The non-perturbative treatment is a methodological advance for studying detector responses in extreme spacetime geometries.",
           "tags": [
-            "physics"
+            "quantum-field-theory",
+            "gravitational-waves",
+            "foundations"
           ]
         },
         {
@@ -57,10 +61,12 @@
           "arxiv_id": "2608.19359",
           "url": "https://arxiv.org/abs/2608.19359",
           "categories": "gr-qc, hep-th",
-          "summary": "We compute the renormalized expectation values of the scalar condensate, charge current and stress-energy tensor for a massive charged quantum scalar field on a Reissner-Nordstrom black hole. The mass of the scalar field is sufficiently large that classical superradiance is absent.",
-          "relevance": "black-holes",
+          "summary": "The authors present a comprehensive numerical study of renormalized quantum expectation values (scalar condensate, charge current, stress-energy tensor) for a massive charged scalar field on Reissner-Nordström black holes across three quantum states. Their efficient mode-sum method opens up a broad parameter space including near-extremal charges and masses approaching the superradiant threshold, providing precise data for quantum backreaction calculations.",
+          "relevance": "Exact numerical results for quantum fields on charged black holes are essential for understanding backreaction, black hole thermodynamics, and the stability of extremal solutions — all central to quantum gravity research.",
           "tags": [
-            "black-holes"
+            "black-holes",
+            "quantum-field-theory",
+            "mathematical-physics"
           ]
         },
         {
@@ -70,10 +76,12 @@
           "arxiv_id": "2608.19244",
           "url": "https://arxiv.org/abs/2608.19244",
           "categories": "gr-qc, hep-th",
-          "summary": "Hawking radiation away from stationarity is governed, at the ray tracing level, by the retarded time evolution of the null mapping. We consider an extracted massless conformal channel whose outgoing directions are labelled on a fixed reference horizon slice.",
-          "relevance": "physics",
+          "summary": "This work derives geometric constraints on transient Hawking radiation by analyzing an extracted conformal channel on a reference horizon slice, using an induced antipodal involution. The central result is a lower bound on the conformal channel defect tied to antipodal odd structure in the peeling field, with a forcing scale determined by mismatch and Jacobian distortion. The analysis provides a framework for characterizing non-stationary Hawking emission through geometric and spectral properties.",
+          "relevance": "The information paradox and nature of Hawking radiation remain central open problems in quantum gravity. This geometric approach to transient emission offers a novel perspective on how horizon-scale structure constrains radiation, with potential implications for understanding unitarity in black hole evaporation.",
           "tags": [
-            "physics"
+            "black-holes",
+            "holography",
+            "quantum-gravity"
           ]
         },
         {
@@ -83,10 +91,12 @@
           "arxiv_id": "2608.19318",
           "url": "https://arxiv.org/abs/2608.19318",
           "categories": "hep-th, quant-ph, cond-mat.str-el",
-          "summary": "We implement a chiral spin-chain black hole simulator on IBM superconducting quantum hardware and probe, within a common microscopic framework, both semiclassical horizon physics and interacting quantum scrambling. We first measure the dispersion relation across the exterior, horizon and over-tilted interior regimes, reproducing the predicted evolution of the effective light-cone structure.",
-          "relevance": "black-holes",
+          "summary": "The authors realize a chiral spin-chain black hole simulator on actual IBM quantum hardware, probing both semiclassical horizon physics and quantum scrambling within one framework. They experimentally verify the inverse relation between Hawking temperature and surface gravity through dynamical density response measurements, and distinguish free-fermion operator spreading from Lyapunov-like OTOC decay in the interacting regime — all using shallow Floquet circuits derived from a single parent model.",
+          "relevance": "A rare experimental paper connecting quantum computing to black hole physics. The direct measurement of Hawking thermality signatures and scrambling on real quantum hardware bridges quantum information, condensed matter, and quantum gravity in a tangible way.",
           "tags": [
-            "black-holes"
+            "black-holes",
+            "quantum-computing",
+            "quantum-information"
           ]
         },
         {
@@ -96,10 +106,12 @@
           "arxiv_id": "2608.19406",
           "url": "https://arxiv.org/abs/2608.19406",
           "categories": "hep-ph, astro-ph.CO, hep-th, gr-qc",
-          "summary": "Cosmic superstrings are well-motivated early-Universe sources of stochastic gravitational waves, with phenomenology controlled by the string tension $G\\mu$ and the intercommutation probability $P$. We study whether LISA can reconstruct these parameters and distinguish different superstring signal models in the presence of instrumental noise and astrophysical foregrounds.",
-          "relevance": "physics",
+          "summary": "This study performs a detailed Bayesian forecast for detecting cosmic superstring gravitational-wave signals with LISA, comparing two phenomenological models where intercommutation probability controls either amplitude alone or both amplitude and spectral shape. The analysis reveals that strong parameter correlations generically arise, but genuine spectral shape information can be recovered when the cusp-kink difference falls within LISA's sensitive band and foreground constraints are tight.",
+          "relevance": "Cosmic superstrings are a key prediction of string theory cosmology. Understanding LISA's ability to constrain or detect them connects fundamental string theory to near-future observational gravitational-wave astronomy.",
           "tags": [
-            "physics"
+            "string-theory",
+            "gravitational-waves",
+            "cosmology"
           ]
         },
         {
@@ -109,10 +121,12 @@
           "arxiv_id": "2608.19597",
           "url": "https://arxiv.org/abs/2608.19597",
           "categories": "gr-qc, hep-th",
-          "summary": "Inspired by Mashhoon&#39;s bound state method, we propose a new bound state method for computing quasinormal modes (QNMs). By a two-step coordinate transformation where a real parameter $\\alpha$ is introduced, a QNM problem is mapped to a bound state problem, whose eigenvalues $E_n(\\alpha)$ are inversely mapped to the QNM frequencies $\\omega_n$ via analytic continuation.",
-          "relevance": "black-holes",
+          "summary": "The authors devise a novel bound-state method for computing quasinormal modes by mapping the QNM problem to a bound state problem via a two-step coordinate transformation, then analytically continuing eigenvalues back to QNM frequencies. While accurate for low-lying modes, the method hits a fundamental limitation for higher overtones due to singularities encroaching on the analytic continuation region — a problem they partially address through homotopy deformation of the potential.",
+          "relevance": "Quasinormal modes are essential probes of black hole properties and tests of general relativity. New computational methods with controlled accuracy and understood limitations are valuable tools for both classical and quantum gravity analyses of black hole spectroscopy.",
           "tags": [
-            "black-holes"
+            "black-holes",
+            "mathematical-physics",
+            "numerical-methods"
           ]
         },
         {
@@ -122,10 +136,12 @@
           "arxiv_id": "2608.19781",
           "url": "https://arxiv.org/abs/2608.19781",
           "categories": "gr-qc, astro-ph.CO, hep-th, hep-ph",
-          "summary": "Quintessential $\\alpha$-attractor models of single-field inflation and evolving dark energy were constructed about a decade ago. Recently, it was pointed out that some of them might be disfavored due to dark-radiation constraints on gravitational waves and the higher values of $n_s$ favored by ACT.",
-          "relevance": "physics",
+          "summary": "The authors revive and update quintessential $\\alpha$-attractor models to reconcile them with recent ACT data favoring higher spectral index $n_s$ and dark-radiation constraints. The updated single-field models simultaneously describe inflation and dark energy while interpolating between future de Sitter, Minkowski, or collapsing universes depending on the cosmological constant. An axion-inflaton variant with hyperbolic geometry is also shown to be compatible with latest DESI data.",
+          "relevance": "Inflation and dark energy are central to quantum cosmology. Models that unify both epochs with observational consistency are of broad interest, and the interplay with dark radiation bounds connects to early-universe quantum gravity phenomenology.",
           "tags": [
-            "physics"
+            "cosmology",
+            "inflation",
+            "dark-energy"
           ]
         },
         {
@@ -135,10 +151,12 @@
           "arxiv_id": "2608.20219",
           "url": "https://arxiv.org/abs/2608.20219",
           "categories": "gr-qc, astro-ph.CO, hep-th",
-          "summary": "We use lattice methods to study inflation in the scalar Gauss-Bonnet (SGB) gravity theory. We focus on the ultra-slow-roll scenario with the peak frequency falls into the PTA band.",
-          "relevance": "physics",
+          "summary": "This is the first lattice study of inflation in scalar-Gauss-Bonnet gravity, revealing that non-perturbative lattice effects exceed perturbative predictions — unlike in Einstein gravity — and become significant when the primordial curvature spectrum peaks around $10^{-2}$. The enhanced primordial power translates into stronger scalar-induced gravitational waves, making the SGB model a more competitive candidate for explaining PTA observations than perturbative analyses suggest.",
+          "relevance": "Modified gravity theories like scalar-Gauss-Bonnet are often studied as low-energy effective descriptions from quantum gravity. Lattice methods provide a non-perturbative window into dynamics that perturbation theory misses, with direct implications for gravitational-wave phenomenology.",
           "tags": [
-            "physics"
+            "cosmology",
+            "gravitational-waves",
+            "modified-gravity"
           ]
         },
         {
@@ -148,11 +166,12 @@
           "arxiv_id": "2608.19305",
           "url": "https://arxiv.org/abs/2608.19305",
           "categories": "cond-mat.stat-mech, hep-th, quant-ph, cond-mat.str-el",
-          "summary": "We investigate the holographic dictionary relating point particles carrying longitudinal momentum or angular momentum in asymptotically AdS$_3$ spacetimes to suitably regulated, time-evolved states created by local primary operators in the dual two-dimensional conformal field theory (2D CFT). We find that asymmetric left/right Euclidean smearing of local operators produces states carrying momentum, and the corresponding bulk excitation is a particle with conserved momentum.",
-          "relevance": "holography, entanglement",
+          "summary": "The authors extend the holographic operator quench dictionary to particles with conserved momentum and spin in AdS$_3$/CFT$_2$, showing that asymmetric Euclidean smearing of local operators produces momentum-carrying states whose energy density and entanglement entropy match bulk backreacted geometries exactly. The correspondence is further verified for spinning particles, and applications to Rényi entropy evolution and new quench protocols in 2D rational CFTs are developed.",
+          "relevance": "Holographic quenches are a key tool for understanding non-equilibrium quantum gravity. The exact agreement between CFT and gravity for momentum and spin-carrying excitations strengthens the AdS/CFT dictionary and provides new protocols for studying entanglement dynamics.",
           "tags": [
             "holography",
-            "entanglement"
+            "entanglement",
+            "conformal-field-theory"
           ]
         },
         {
@@ -162,12 +181,12 @@
           "arxiv_id": "2608.19309",
           "url": "https://arxiv.org/abs/2608.19309",
           "categories": "gr-qc, hep-th, math-ph",
-          "summary": "In view of embedding 3D gravity into topological string theory, we show that the dimensional reduction of 6D Kodaira-Spencer gravity on $\\text{AdS}_3\\times S^3$, i.e. the low-energy description of twisted holography, contains a subsector that coincides with the action of chiral 3D gravity on $\\text{AdS}_3$.",
-          "relevance": "topological, holography, string-theory",
+          "summary": "The authors demonstrate that 3D Einstein gravity emerges from the dimensional reduction of 6D Kodaira-Spencer gravity on AdS$_3 \\times S^3$ — the key result being that two complex-conjugate copies of the 6D theory reduce to the full 3D Einstein action. A novel local rewriting of the non-local Kodaira-Spencer action as holomorphic Chern-Simons theory for SL(2,\\mathbb{C}) enables this explicit reduction, advancing the program of embedding 3D quantum gravity into topological string theory.",
+          "relevance": "The embedding of 3D gravity into topological string theory is a major structural result connecting quantum gravity to mathematics. This explicit action-level reduction is a concrete step toward understanding the Euclidean path integral of 3D gravity from a string-theoretic perspective.",
           "tags": [
-            "topological",
+            "string-theory",
             "holography",
-            "string-theory"
+            "topological"
           ]
         },
         {
@@ -177,10 +196,12 @@
           "arxiv_id": "2608.19327",
           "url": "https://arxiv.org/abs/2608.19327",
           "categories": "gr-qc, hep-th, cond-mat.quant-gas",
-          "summary": "Bose-Einstein condensates have been used successfully as quantum simulators for early-universe particle production. Here we extend this analogy to the interacting theory.",
-          "relevance": "physics",
+          "summary": "The authors extend the Bose-Einstein condensate quantum simulator analogy from free to interacting theories, computing the leading interaction terms that determine 3-point correlations (bispectra) in cosmological scenarios. A key insight is that periodically driven systems produce resonant, linearly growing correlators that are experimentally detectable — unlike expanding universes — offering a tabletop platform to study infrared divergences in de Sitter-like spacetimes.",
+          "relevance": "Quantum simulators offer an experimental window into quantum field theory in curved spacetime. The ability to probe interacting dynamics and IR divergences in a controlled laboratory setting bridges condensed matter, quantum optics, and quantum cosmology.",
           "tags": [
-            "physics"
+            "quantum-simulation",
+            "cosmology",
+            "quantum-field-theory"
           ]
         },
         {
@@ -190,10 +211,12 @@
           "arxiv_id": "2608.19378",
           "url": "https://arxiv.org/abs/2608.19378",
           "categories": "gr-qc, astro-ph.CO, hep-th, hep-ph",
-          "summary": "We develop a stochastic formulation of the Schwinger effect in de Sitter spacetime using the Schwinger--Keldysh (in-in) formalism, tailored to particle production by non-stationary gauge backgrounds in the early Universe. Treating the gauge field as a prescribed classical stochastic ensemble, we integrate out massless charged matter and derive the corresponding influence functional and particle-production kernel to leading non-trivial order in the gauge coupling.",
-          "relevance": "physics",
+          "summary": "The authors formulate the Schwinger effect in de Sitter spacetime using a stochastic gauge field ensemble within the Schwinger-Keldysh formalism, deriving the influence functional and particle-production kernel for massless charged matter. The framework extends to generic FLRW spacetimes and to non-Abelian sectors including Standard Model and hidden-sector examples, providing a unified treatment of matter creation by stochastic gauge fields during inflation and preheating without requiring asymptotic states.",
+          "relevance": "The Schwinger effect in curved spacetime connects quantum field theory to early-universe cosmology. A stochastic formulation applicable to non-stationary, non-Abelian backgrounds broadens the phenomenological scope and provides tools for studying particle production in realistic inflationary scenarios.",
           "tags": [
-            "physics"
+            "quantum-field-theory",
+            "cosmology",
+            "particle-physics"
           ]
         },
         {
@@ -203,8 +226,8 @@
           "arxiv_id": "2608.19428",
           "url": "https://arxiv.org/abs/2608.19428",
           "categories": "hep-th, quant-ph",
-          "summary": "Bit threads, arising as the convex dual of the minimal-surface formula for holographic entanglement entropy, are line-like structures with nontrivial bulk trajectories. Their physical picture has long been associated with Bell-pair interpretations, yet the meaning of their detailed trajectories, particularly their nonuniqueness, remains unclear.",
-          "relevance": "holography, entanglement, tensor-networks",
+          "summary": "The authors recast holographic bit threads through the lens of categorical quantum mechanics, showing that Coecke's quantum information flow (QIF) in tensor networks naturally satisfies the divergence-free and density-bound conditions defining bit threads. This process-centered perspective explains why bit-thread trajectories are non-unique: different protocols for the same distillation task yield different flows. Using ZX-calculus on stabilizer tensor networks, they further demonstrate that QIF trajectories can resolve entanglement structure invisible to entanglement entropy alone.",
+          "relevance": "Bit threads are a central geometric tool in holography. Connecting them to categorical quantum mechanics and ZX-calculus opens new mathematical frameworks for understanding entanglement in quantum gravity, with potential applications to tensor network approaches to holography.",
           "tags": [
             "holography",
             "entanglement",
@@ -25979,35 +26002,95 @@
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-08-22",
-        "count": 352
+        "count": 353
       },
       "holography": {
         "first_seen": "2026-08-22",
-        "count": 99
+        "count": 100
       },
       "entanglement": {
         "first_seen": "2026-08-22",
         "count": 100
       },
-      "physics": {
+      "quantum-gravity": {
         "first_seen": "2026-08-22",
-        "count": 238
+        "count": 96
+      },
+      "quantum-cosmology": {
+        "first_seen": "2026-08-22",
+        "count": 16
+      },
+      "foundations": {
+        "first_seen": "2026-08-22",
+        "count": 2
+      },
+      "quantum-field-theory": {
+        "first_seen": "2026-08-22",
+        "count": 10
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-08-22",
+        "count": 20
+      },
+      "mathematical-physics": {
+        "first_seen": "2026-08-22",
+        "count": 2
+      },
+      "quantum-computing": {
+        "first_seen": "2026-08-22",
+        "count": 16
+      },
+      "quantum-information": {
+        "first_seen": "2026-08-22",
+        "count": 13
+      },
+      "string-theory": {
+        "first_seen": "2026-08-22",
+        "count": 19
+      },
+      "cosmology": {
+        "first_seen": "2026-08-22",
+        "count": 12
+      },
+      "numerical-methods": {
+        "first_seen": "2026-08-22",
+        "count": 1
+      },
+      "inflation": {
+        "first_seen": "2026-08-22",
+        "count": 6
+      },
+      "dark-energy": {
+        "first_seen": "2026-08-22",
+        "count": 5
+      },
+      "modified-gravity": {
+        "first_seen": "2026-08-22",
+        "count": 9
+      },
+      "conformal-field-theory": {
+        "first_seen": "2026-08-22",
+        "count": 4
       },
       "topological": {
         "first_seen": "2026-08-22",
         "count": 67
       },
-      "string-theory": {
+      "quantum-simulation": {
         "first_seen": "2026-08-22",
-        "count": 18
+        "count": 6
+      },
+      "particle-physics": {
+        "first_seen": "2026-08-22",
+        "count": 2
       },
       "tensor-networks": {
         "first_seen": "2026-08-22",
         "count": 10
       },
-      "quantum-gravity": {
+      "physics": {
         "first_seen": "2026-08-21",
-        "count": 94
+        "count": 230
       },
       "Quantum Gravity": {
         "first_seen": "2026-08-21",
@@ -26477,10 +26560,6 @@
         "first_seen": "2026-08-13",
         "count": 28
       },
-      "quantum-cosmology": {
-        "first_seen": "2026-08-13",
-        "count": 15
-      },
       "CMB": {
         "first_seen": "2026-08-13",
         "count": 2
@@ -26501,10 +26580,6 @@
         "first_seen": "2026-08-13",
         "count": 1
       },
-      "modified-gravity": {
-        "first_seen": "2026-08-13",
-        "count": 8
-      },
       "Gauss-Bonnet": {
         "first_seen": "2026-08-13",
         "count": 1
@@ -26512,10 +26587,6 @@
       "Hawking-radiation": {
         "first_seen": "2026-08-13",
         "count": 2
-      },
-      "quantum-field-theory": {
-        "first_seen": "2026-08-13",
-        "count": 6
       },
       "group-field-theory": {
         "first_seen": "2026-08-13",
@@ -26529,25 +26600,13 @@
         "first_seen": "2026-08-13",
         "count": 1
       },
-      "gravitational-waves": {
-        "first_seen": "2026-08-13",
-        "count": 17
-      },
       "perturbation-theory": {
         "first_seen": "2026-08-13",
         "count": 3
       },
-      "cosmology": {
-        "first_seen": "2026-08-13",
-        "count": 7
-      },
       "quasinormal-modes": {
         "first_seen": "2026-08-13",
         "count": 4
-      },
-      "quantum-information": {
-        "first_seen": "2026-08-13",
-        "count": 12
       },
       "effective-field-theory": {
         "first_seen": "2026-08-13",
@@ -26773,10 +26832,6 @@
         "first_seen": "2026-08-06",
         "count": 1
       },
-      "inflation": {
-        "first_seen": "2026-08-05",
-        "count": 5
-      },
       "scalarization": {
         "first_seen": "2026-08-05",
         "count": 2
@@ -26804,10 +26859,6 @@
       "astronomy": {
         "first_seen": "2026-07-16",
         "count": 1
-      },
-      "quantum-computing": {
-        "first_seen": "2026-07-16",
-        "count": 15
       },
       "biology": {
         "first_seen": "2026-07-16",
@@ -27188,10 +27239,6 @@
       "population-astrophysics": {
         "first_seen": "2026-06-05",
         "count": 1
-      },
-      "dark-energy": {
-        "first_seen": "2026-06-05",
-        "count": 4
       },
       "curved-spacetime": {
         "first_seen": "2026-06-05",
@@ -27913,10 +27960,6 @@
         "first_seen": "2026-05-30",
         "count": 2
       },
-      "quantum-simulation": {
-        "first_seen": "2026-05-30",
-        "count": 5
-      },
       "dissipation": {
         "first_seen": "2026-05-30",
         "count": 1
@@ -28188,10 +28231,6 @@
       "mixed-states": {
         "first_seen": "2026-05-28",
         "count": 2
-      },
-      "conformal-field-theory": {
-        "first_seen": "2026-05-28",
-        "count": 3
       },
       "thermal-blocks": {
         "first_seen": "2026-05-28",
@@ -28810,10 +28849,6 @@
         "count": 1
       },
       "quasiperiodic": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
-      "particle-physics": {
         "first_seen": "2026-05-22",
         "count": 1
       },
@@ -29723,14 +29758,29 @@
       }
     },
     "tag_counts": {
-      "black-holes": 352,
-      "holography": 99,
+      "black-holes": 353,
+      "holography": 100,
       "entanglement": 100,
-      "physics": 238,
+      "quantum-gravity": 96,
+      "quantum-cosmology": 16,
+      "foundations": 2,
+      "quantum-field-theory": 10,
+      "gravitational-waves": 20,
+      "mathematical-physics": 2,
+      "quantum-computing": 16,
+      "quantum-information": 13,
+      "string-theory": 19,
+      "cosmology": 12,
+      "numerical-methods": 1,
+      "inflation": 6,
+      "dark-energy": 5,
+      "modified-gravity": 9,
+      "conformal-field-theory": 4,
       "topological": 67,
-      "string-theory": 18,
+      "quantum-simulation": 6,
+      "particle-physics": 2,
       "tensor-networks": 10,
-      "quantum-gravity": 94,
+      "physics": 230,
       "Quantum Gravity": 46,
       "Black Hole Physics": 43,
       "Science Communication & Policy": 188,
@@ -29848,24 +29898,18 @@
       "AdS/BCFT": 1,
       "Boundary Entropy": 1,
       "loop-quantum-gravity": 28,
-      "quantum-cosmology": 15,
       "CMB": 2,
       "information-paradox": 5,
       "AdS-CFT": 8,
       "many-body": 24,
       "quantum-dynamics": 1,
-      "modified-gravity": 8,
       "Gauss-Bonnet": 1,
       "Hawking-radiation": 2,
-      "quantum-field-theory": 6,
       "group-field-theory": 1,
       "BMS-symmetry": 1,
       "flat-space": 1,
-      "gravitational-waves": 17,
       "perturbation-theory": 3,
-      "cosmology": 7,
       "quasinormal-modes": 4,
-      "quantum-information": 12,
       "effective-field-theory": 1,
       "fractons": 1,
       "emergent-gravity": 2,
@@ -29922,7 +29966,6 @@
       "ensemble-holography": 1,
       "topological-boundaries": 1,
       "3d-gravity": 1,
-      "inflation": 5,
       "scalarization": 2,
       "schwarzian": 1,
       "gravastars": 1,
@@ -29930,7 +29973,6 @@
       "entropy": 3,
       "experiment": 2,
       "astronomy": 1,
-      "quantum-computing": 15,
       "biology": 2,
       "genetics": 2,
       "paleontology": 3,
@@ -30026,7 +30068,6 @@
       "black-hole-spins": 1,
       "binary-black-holes": 1,
       "population-astrophysics": 1,
-      "dark-energy": 4,
       "curved-spacetime": 4,
       "running-vacuum": 1,
       "DESI": 1,
@@ -30207,7 +30248,6 @@
       "Lindbladian": 1,
       "open-quantum-systems": 5,
       "sample-complexity": 2,
-      "quantum-simulation": 5,
       "dissipation": 1,
       "indefinite-causal-order": 1,
       "quantum-foundations": 1,
@@ -30276,7 +30316,6 @@
       "Proca-field": 1,
       "Schwarzschild": 1,
       "mixed-states": 2,
-      "conformal-field-theory": 3,
       "thermal-blocks": 1,
       "conformal-bootstrap": 1,
       "gravitoelectromagnetism": 1,
@@ -30432,7 +30471,6 @@
       "localization": 1,
       "critical-phenomena": 1,
       "quasiperiodic": 1,
-      "particle-physics": 1,
       "nuclear-physics": 1,
       "spinoptics": 1,
       "light-deflection": 1,
