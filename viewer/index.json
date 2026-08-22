@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T01:57:32.428Z",
+  "generated": "2026-08-22T01:53:04.660Z",
   "digests": [
     {
       "date": "2026-08-22",
@@ -7,7 +7,7 @@
       "title": "# arXiv Morning Digest — 2026-08-22",
       "categories": "astro-ph.CO, cond-mat.quant-gas, cond-mat.str-el, gr-qc, hep-th, physics.atom-ph, quant-ph",
       "items_found": 15,
-      "focus": "quantum gravity, black hole physics, holography, topological order, quantum chaos",
+      "focus": "black hole, holograph, topological, many-body, entanglement",
       "entries": [
         {
           "num": 1,
@@ -16,11 +16,10 @@
           "arxiv_id": "2608.19859",
           "url": "https://arxiv.org/abs/2608.19859",
           "categories": "gr-qc, hep-th",
-          "summary": "The author identifies a new soliton solution in a deformed sine-Gordon theory living in AdS spacetime that is genuinely curved-space — it disappears entirely in the flat-space limit. This adds to a growing catalog of non-perturbative field configurations whose existence is tied to the background curvature, with potential implications for understanding how strongly-coupled sectors behave in curved spacetimes relevant to holography and quantum gravity.",
-          "relevance": "Non-perturbative solutions in AdS are central to holographic correspondence and quantum gravity. Understanding solitons that exist only in curved space informs how quantum fields respond to spacetime geometry.",
+          "summary": "In previous work arXiv:2604.00160, we found soliton solutions in a deformation of the sine-Gordon theory in AdS spacetime that, in the infinite-radius limit, reduce to single-soliton solutions in flat space. In this paper, we find another single soliton solution that has no analog in flat space.",
+          "relevance": "physics",
           "tags": [
-            "quantum-gravity",
-            "holography"
+            "physics"
           ]
         },
         {
@@ -30,11 +29,10 @@
           "arxiv_id": "2608.19941",
           "url": "https://arxiv.org/abs/2608.19941",
           "categories": "gr-qc, hep-th",
-          "summary": "The post-Minkowskian expansion used to compute gravitational scattering of compact binaries is shown to be an asymptotic series in a specific high-energy limit. Despite divergence, the authors present evidence for Borel summability and construct the full finite function in integral form. A notable by-product is the determination of the transcendentality properties of the expansion coefficients, shedding light on the analytic structure of perturbative quantum gravity.",
-          "relevance": "Post-Minkowskian expansions are crucial for precision gravitational wave predictions. Understanding the convergence and resummation properties of these series bears directly on the reliability of theoretical predictions for LIGO/Virgo/KAGRA signals from compact binary mergers.",
+          "summary": "The post-Minkowskian expansion of general relativity expands the metric in Newton&#39;s constant G around flat space-time, but much effort currently focuses on ways to extend its range of applicability by summing the perturbative series to all orders. A regime of particular interest is a specific high-energy limit where a formula derived recently provides the momentum kick of binary scattering problem to all orders, and even suggests an approach towards strong coupling.",
+          "relevance": "physics",
           "tags": [
-            "gravitational-waves",
-            "high-energy-physics"
+            "physics"
           ]
         },
         {
@@ -44,11 +42,10 @@
           "arxiv_id": "2608.19948",
           "url": "https://arxiv.org/abs/2608.19948",
           "categories": "gr-qc, hep-th",
-          "summary": "This paper establishes a novel correspondence between de Sitter and anti-de Sitter quantum field theories by composing the de Sitter Hilbert product with equatorial reflection. For the complementary series, the reflected kernel is positive semidefinite precisely when the conformal weight satisfies the unitarity bound, and the resulting Hilbert space furnishes a positive-energy AdS representation. The construction bypasses the traditional analytic continuation of the curvature radius and instead relies purely on representation-theoretic properties of reflection positivity.",
-          "relevance": "The dS/AdS correspondence is a central puzzle in quantum gravity. This representation-theoretic approach offers a fresh angle on how quantum physics in de Sitter space — relevant to our universe's accelerating expansion — might connect to the better-understood AdS/CFT framework.",
+          "summary": "De Sitter unitarity and reflection positivity are logically independent. We study their relation for a free scalar field on a fixed de Sitter background, restricting attention to the one-particle sector.",
+          "relevance": "physics",
           "tags": [
-            "quantum-gravity",
-            "holography"
+            "physics"
           ]
         },
         {
@@ -58,11 +55,10 @@
           "arxiv_id": "2608.20071",
           "url": "https://arxiv.org/abs/2608.20071",
           "categories": "gr-qc, hep-th",
-          "summary": "The authors construct a covariant framework for generalized Dirac-oscillator couplings in the near-horizon geometry of BTZ black holes, where the singular profiles map to proper acceleration and its radial gradient. They obtain exact solutions in terms of Whittaker functions for the Fuchsian case and analyze the irregular case via asymptotic expansions with factorial late-order growth. A key result is that response functions at finite radius encode the pole-order difference even when couplings are matched, providing spinorial boundary data for matching to the full BTZ exterior.",
-          "relevance": "BTZ black holes are the prototypical setting for 3D quantum gravity. Understanding how Dirac fields couple near the horizon provides boundary data for holographic matching and informs how quantum fields behave in the strongly-curved regions relevant to black hole evaporation.",
+          "summary": "We study singular generalized Dirac-oscillator couplings in the near-horizon region of a nonextremal BTZ black hole. An effective covariant construction adapted to the stationary horizon congruence relates the two singular profiles to the proper acceleration and its radial gradient, whose leading near-horizon behaviors are $1/\\rho$ and $1/\\rho^2$.",
+          "relevance": "black-holes",
           "tags": [
-            "black-holes",
-            "quantum-gravity"
+            "black-holes"
           ]
         },
         {
@@ -72,8 +68,8 @@
           "arxiv_id": "2608.20333",
           "url": "https://arxiv.org/abs/2608.20333",
           "categories": "cond-mat.str-el, hep-th",
-          "summary": "This paper solves an optimization problem for topological entanglement entropy in Wess-Zumino-Witten theories: given a bound on ground-state degeneracy, which Lie algebra and level maximize the universal entropy contribution? The answer is that the symplectic sequence $Sp(2n)_n$ asymptotically attains the maximum, with the coefficient $7\\zeta(3)/(4\\pi^2)$ emerging from the odd-mode Fourier expansion of the type-C root product. An entropy-spectral inequality rigorously establishes optimality among classical families.",
-          "relevance": "Topological entanglement entropy is a hallmark of topological order and carries deep connections to quantum gravity through the TQFT / modular tensor category structure underlying 3D quantum gravity and holographic entanglement.",
+          "summary": "For an untwisted Wess--Zumino--Witten modular tensor category $\\cC(\\mathfrak g,k)$, let $r(\\mathfrak g,k)$ be the number of simple objects and $\\cD(\\mathfrak g,k)$ its total quantum dimension. The vacuum-flux state on a torus divided into two cylinders has positive universal entropy contribution $\\Gamma_{T^2}=2\\log\\cD$.",
+          "relevance": "topological, entanglement",
           "tags": [
             "topological",
             "entanglement"
@@ -86,11 +82,10 @@
           "arxiv_id": "2608.19333",
           "url": "https://arxiv.org/abs/2608.19333",
           "categories": "quant-ph, gr-qc",
-          "summary": "The authors propose and analyze a tabletop quantum-optical analog of gravitational wave effects: an atom in a strongly coupled cavity where moving mirrors simulate the metric modulation induced by a gravitational wave. The key finding is resonant enhancement of the modulation signal in the strong-coupling (Rabi oscillation) regime, yielding measurable imprints on atomic transition probabilities. This bridges quantum optics and gravitational physics in an experimentally accessible setting.",
-          "relevance": "Analog gravity experiments provide controlled environments to test predictions from quantum field theory in curved spacetime. This platform could probe how quantum systems respond to dynamical spacetime backgrounds, with conceptual ties to Hawking radiation and Unruh effect studies.",
+          "summary": "One of the proposed platforms in which both quantum and general relativistic effects can become observable is an atom interacting with the electromagnetic field in a gravitational-wave background. The periodic modulation of field modes induced by variations of the spacetime metric modifies the atomic emission spectrum.",
+          "relevance": "physics",
           "tags": [
-            "quantum-computing",
-            "gravitational-waves"
+            "physics"
           ]
         },
         {
@@ -100,10 +95,9 @@
           "arxiv_id": "2608.19252",
           "url": "https://arxiv.org/abs/2608.19252",
           "categories": "gr-qc",
-          "summary": "The authors reconstruct an $f(Q,T)$ modified gravity model from a generalized Ricci-Gauss-Bonnet holographic dark energy ansatz with logarithmic entropy corrections. Using 32 Cosmic Chronometer measurements to fix the background expansion history, they establish a correspondence between the holographic energy density and the effective dark energy density in the metric-affine framework. A consistency check shows that the entropy evolution computed from the compact background matches the reconstructed effective-fluid description, providing a unified picture connecting modified gravity, holography, and cosmic thermodynamics.",
-          "relevance": "Modified gravity and holographic dark energy are active areas that parallel quantum gravity research. The thermodynamic consistency checks and connection between geometrical and fluid descriptions mirror approaches used in understanding black hole entropy and quantum corrections in loop quantum gravity.",
+          "summary": "The current paper reports an investigation on the cosmological and thermodynamic behaviour of an $f(Q,T)$ modified-gravity framework in which the gravitational Lagrangian is written as $f(Q,T)=f(Q)+\\lambda T$, with $Q$ denoting the non-metricity scalar and $T$ the trace of the energy-momentum tensor. The modified Friedmann equations are formulated in terms of an effective Dark Energy sector, and the corresponding equation of state and squared speed of sound are examined for a phenomenological polynomial form of $f(Q)$.",
+          "relevance": "holography",
           "tags": [
-            "cosmology",
             "holography"
           ]
         },
@@ -114,11 +108,10 @@
           "arxiv_id": "2608.19264",
           "url": "https://arxiv.org/abs/2608.19264",
           "categories": "gr-qc",
-          "summary": "The authors study black holes in a momentum-dependent spacetime geometry where quantum corrections enter through non-commutative momentum-space algebra combined with a spacetime renormalization map. A key result is the prediction of a hot black hole remnant at the end of evaporation, satisfying a \"complementary third law.\" For charged black holes, the extremal limit retains non-zero Hawking temperature for large masses, consistent with the Weak Gravity Conjecture. The framework smoothly reduces to classical Poincaré algebra results in the infrared.",
-          "relevance": "Black hole remnants and the fate of the information paradox are central to quantum gravity. The consistency with the Weak Gravity Conjecture ties this to swampland conjectures that constrain viable quantum gravity theories.",
+          "summary": "We investigate black holes (BHs) in momentum-dependent spacetime geometry and assess its quantum Reissner-Nordström (RN) consistency with the weak gravity conjecture (WGC). Quantum corrections are introduced through the non-commutative momentum space algebra as the quantization process, and spacetime renormalization approach as a map between momentum and spacetime spaces.",
+          "relevance": "black-holes",
           "tags": [
-            "black-holes",
-            "quantum-gravity"
+            "black-holes"
           ]
         },
         {
@@ -128,8 +121,8 @@
           "arxiv_id": "2608.19265",
           "url": "https://arxiv.org/abs/2608.19265",
           "categories": "gr-qc",
-          "summary": "This work presents a detailed analysis of 5D Einstein-Yang-Mills black holes with a logarithmic non-Abelian gauge contribution, going beyond standard 4D thermodynamics. The authors analytically derive thermodynamic quantities with an exponential entropy correction, identify a topological charge carried by a stable-unstable defect pair, and numerically solve the gauge-field perturbation sector to high precision. A striking finding is an infinite tower of unstable modes whose growth rates follow a universal geometric ratio $e^{-\\pi/\\sqrt{2}}$, independent of charge.",
-          "relevance": "Higher-dimensional black holes with gauge hair provide rich testbeds for quantum gravity. The infinite tower of instabilities and topological structures may inform understanding of black hole microstates and the non-perturbative structure of quantum gravity.",
+          "summary": "The five-dimensional Einstein--Yang--Mills black hole obtained from the higher-dimensional Wu--Yang ansatz carries a logarithmic non-Abelian contribution to the metric function, making it an analytically tractable setting for studying how gauge charge reshapes horizon thermodynamics beyond four dimensions. We derive expressions for the mass--radius relation, the Hawking temperature, the entropy, the Yang--Mills potential and the first law, and record the curvature invariants, which show that the logarithm sharpens the central singularity rather than smoothing it.",
+          "relevance": "black-holes, topological",
           "tags": [
             "black-holes",
             "topological"
@@ -142,11 +135,10 @@
           "arxiv_id": "2608.19279",
           "url": "https://arxiv.org/abs/2608.19279",
           "categories": "gr-qc",
-          "summary": "The authors compute quasinormal modes and transmission probabilities for a charged black hole in Lorentz-violating Kalb-Ramond gravity surrounded by perfect fluid dark matter. Cross-validating with two independent methods (6th-order WKB and time-domain Prony), they find that the Lorentz-violation parameter dominates the spectrum, while charge has the weakest effect. Notably, the Hod conjecture bounding the imaginary part of QNM frequencies by $\\pi T_H$ holds across the entire parameter space examined.",
-          "relevance": "Quasinormal modes are the characteristic \"ringdown\" signatures of black hole mergers observed by gravitational wave detectors. Testing their behavior in modified gravity theories provides observational constraints on quantum gravity phenomenology beyond general relativity.",
+          "summary": "Within the Kalb-Ramond field-induced Lorentz-violating gravity, we investigate the perturbation dynamics and quasinormal mode (QNM) spectra of a charged black hole immersed in perfect fluid dark matter. The background spacetime is characterized by the Lorentz-violating parameter tau, the electric charge Q/M, and the dark matter parameter lambda/M.",
+          "relevance": "black-holes",
           "tags": [
-            "black-holes",
-            "gravitational-waves"
+            "black-holes"
           ]
         },
         {
@@ -156,11 +148,10 @@
           "arxiv_id": "2608.19606",
           "url": "https://arxiv.org/abs/2608.19606",
           "categories": "gr-qc",
-          "summary": "The authors construct a broad class of regular (singularity-free) AdS black holes in arbitrary dimensions sourced by an anisotropic fluid with a generalized polytropic equation of state. They verify the first law and Smarr relation, study dynamical formation via thin-shell collapse, and uncover dimension-dependent thermodynamic phase transitions in 4D, 5D, and 6D. The results show how regularity conditions and dimensionality jointly sculpt the thermodynamic behavior of these exotic compact objects.",
-          "relevance": "Regular black holes — solutions without curvature singularities — are of intense interest in quantum gravity as they may represent how quantum effects resolve classical singularities. The dimension-dependent phase transitions also connect to holographic studies in diverse dimensions.",
+          "summary": "We investigate static, spherically symmetric regular black holes with anti-de Sitter (AdS) asymptotics in arbitrary spacetime dimensions. They are solutions of Einstein gravity, sourced by an anisotropic fluid whose radial pressure corresponds to vacuum energy, while the tangential pressure satisfies a generalized polytropic equation of state.",
+          "relevance": "black-holes",
           "tags": [
-            "black-holes",
-            "quantum-gravity"
+            "black-holes"
           ]
         },
         {
@@ -170,12 +161,12 @@
           "arxiv_id": "2608.19131",
           "url": "https://arxiv.org/abs/2608.19131",
           "categories": "hep-th",
-          "summary": "These lecture notes provide a comprehensive pedagogical journey from classical chaos diagnostics through quantum chaos indicators to holographic manifestations of scrambling. The six lectures progressively build the toolkit: from Lyapunov exponents and phase-space geometry, through spectral statistics and eigenstate thermalization, to out-of-time-order correlators, the butterfly velocity, and the chaos bound in black hole geometries. The final lecture applies these tools to the eternal black hole and thermofield double, with exercises at each stage.",
-          "relevance": "Quantum chaos and holographic scrambling are frontiers connecting many-body physics to black hole information. The chaos bound $v_B \\leq 2\\pi T$ and its relation to black hole interiors are directly relevant to understanding how quantum gravity encodes information.",
+          "summary": "These notes develop the diagnostics of chaos from their classical definitions through to holography, in six lectures given at the ST4 Workshop, Chennai Mathematical Institute, in 2026. No prior exposure to chaos theory is assumed.",
+          "relevance": "black-holes, many-body, holography",
           "tags": [
+            "black-holes",
             "many-body",
-            "holography",
-            "black-holes"
+            "holography"
           ]
         },
         {
@@ -185,11 +176,10 @@
           "arxiv_id": "2608.19310",
           "url": "https://arxiv.org/abs/2608.19310",
           "categories": "quant-ph, cond-mat.str-el, hep-th",
-          "summary": "The Yukawa-SYK model — a disordered fermion-boson system with SYK interactions — is studied under dissipative bosonic leakage modeled by a Lindblad master equation. Surprisingly, dissipation does not suppress quantum chaos: the Lyapunov exponent stays positive for all dissipation rates and can actually grow with dissipation when $p>2$. The authors identify a critical boson-to-fermion ratio $\\gamma_c \\approx 2/p^2$ that separates distinct dynamical regimes, with the QED case $p=2$ exhibiting unique behavior intermediate between integrable and fully chaotic.",
-          "relevance": "The SYK model is a paradigmatic toy model for quantum black holes and holography. Understanding how dissipation affects scrambling is crucial for realizing SYK physics in noisy quantum simulators and for modeling how real black holes interact with their environment.",
+          "summary": "We study the Yukawa-Sachdev-Ye-Kitaev model, a disordered model of $N$ Majorana fermions and $R=\\gamma N$ bosons in which the bosons are linearly coupled to independent realizations of SYK $p$-body interactions, in the presence of dissipation, modeled by a Lindblad master equation. Motivated by recent proposals for implementing SYK models in quantum simulators, we focus on bosonic leakage at rate $\\kappa$.",
+          "relevance": "physics",
           "tags": [
-            "many-body",
-            "quantum-computing"
+            "physics"
           ]
         },
         {
@@ -199,11 +189,10 @@
           "arxiv_id": "2608.19458",
           "url": "https://arxiv.org/abs/2608.19458",
           "categories": "quant-ph, hep-th",
-          "summary": "This paper proposes a novel realist interpretation of quantum field theory inspired by the renormalization group, where an expanded ontology of classical fields yields effective QFT behavior for embedded observers. The inverse renormalization group plays a dual role: interpreting the ontology and generating new QFT examples. A striking consequence is a scale-dependent, observer-relative definition of Planck's constant that flows toward a fixed point and is expressed in terms of temperature.",
-          "relevance": "While speculative, this approach connects quantum foundations to the renormalization group — a cornerstone of quantum field theory. An observer-dependent Planck constant resonates with ideas in quantum gravity about emergent spacetime and observer-dependent physics.",
+          "summary": "A realist, anti-psi interpretation of quantum field theory is introduced, based on an expanded ontology that was inspired by the renormalization group. A goal will be to work with a classical non-interacting scalar field &#34;toy model&#34; in the canonical ensemble and show that an observer in this expanded ontology, under certain limiting conditions, will see a QFT.",
+          "relevance": "physics",
           "tags": [
-            "foundations",
-            "field-theory"
+            "physics"
           ]
         },
         {
@@ -213,11 +202,10 @@
           "arxiv_id": "2608.20311",
           "url": "https://arxiv.org/abs/2608.20311",
           "categories": "astro-ph.CO, quant-ph, physics.atom-ph, cond-mat.quant-gas, hep-th",
-          "summary": "This experimental work achieves a direct imaging of spatial vacuum fluctuations in a bosonic quantum field. Using a two-component Bose-Einstein condensate operating in the sine-Gordon regime, the team captures snapshots showing fluctuations across multiple length scales with amplitudes matching theoretical vacuum predictions. The platform opens a new avenue for laboratory simulations of relativistic quantum fields in parameter regimes beyond current theoretical control.",
-          "relevance": "Direct observation of vacuum fluctuations connects to fundamental quantum gravity questions about the nature of the quantum vacuum in curved spacetime. The sine-Gordon BEC simulator offers an experimental handle on field-theoretic phenomena relevant to early-universe cosmology and black hole physics.",
+          "summary": "Heisenberg uncertainties lead to inevitable fluctuations in the measurement outcomes for quantum-mechanical observables. For quantum fields, these uncertainties result in random spatial structures in snapshots of a field, even when the field is in its ground (vacuum) state.",
+          "relevance": "physics",
           "tags": [
-            "experiment",
-            "quantum-computing"
+            "physics"
           ]
         }
       ]
@@ -25986,21 +25974,9 @@
     "total_digests": 233,
     "total_entries": 1803,
     "unique_tags": {
-      "quantum-gravity": {
+      "physics": {
         "first_seen": "2026-08-22",
-        "count": 99
-      },
-      "holography": {
-        "first_seen": "2026-08-22",
-        "count": 99
-      },
-      "gravitational-waves": {
-        "first_seen": "2026-08-22",
-        "count": 20
-      },
-      "high-energy-physics": {
-        "first_seen": "2026-08-22",
-        "count": 1
+        "count": 237
       },
       "black-holes": {
         "first_seen": "2026-08-22",
@@ -26014,37 +25990,21 @@
         "first_seen": "2026-08-22",
         "count": 98
       },
-      "quantum-computing": {
+      "holography": {
         "first_seen": "2026-08-22",
-        "count": 18
-      },
-      "cosmology": {
-        "first_seen": "2026-08-22",
-        "count": 8
+        "count": 97
       },
       "many-body": {
         "first_seen": "2026-08-22",
-        "count": 26
+        "count": 25
       },
-      "foundations": {
-        "first_seen": "2026-08-22",
-        "count": 1
-      },
-      "field-theory": {
-        "first_seen": "2026-08-22",
-        "count": 1
-      },
-      "experiment": {
-        "first_seen": "2026-08-22",
-        "count": 3
+      "quantum-gravity": {
+        "first_seen": "2026-08-21",
+        "count": 94
       },
       "string-theory": {
         "first_seen": "2026-08-21",
         "count": 17
-      },
-      "physics": {
-        "first_seen": "2026-08-21",
-        "count": 230
       },
       "Quantum Gravity": {
         "first_seen": "2026-08-21",
@@ -26562,9 +26522,17 @@
         "first_seen": "2026-08-13",
         "count": 1
       },
+      "gravitational-waves": {
+        "first_seen": "2026-08-13",
+        "count": 17
+      },
       "perturbation-theory": {
         "first_seen": "2026-08-13",
         "count": 3
+      },
+      "cosmology": {
+        "first_seen": "2026-08-13",
+        "count": 7
       },
       "quasinormal-modes": {
         "first_seen": "2026-08-13",
@@ -26822,6 +26790,10 @@
         "first_seen": "2026-08-01",
         "count": 3
       },
+      "experiment": {
+        "first_seen": "2026-08-01",
+        "count": 2
+      },
       "tensor-networks": {
         "first_seen": "2026-07-23",
         "count": 9
@@ -26829,6 +26801,10 @@
       "astronomy": {
         "first_seen": "2026-07-16",
         "count": 1
+      },
+      "quantum-computing": {
+        "first_seen": "2026-07-16",
+        "count": 15
       },
       "biology": {
         "first_seen": "2026-07-16",
@@ -29744,21 +29720,14 @@
       }
     },
     "tag_counts": {
-      "quantum-gravity": 99,
-      "holography": 99,
-      "gravitational-waves": 20,
-      "high-energy-physics": 1,
+      "physics": 237,
       "black-holes": 354,
       "topological": 68,
       "entanglement": 98,
-      "quantum-computing": 18,
-      "cosmology": 8,
-      "many-body": 26,
-      "foundations": 1,
-      "field-theory": 1,
-      "experiment": 3,
+      "holography": 97,
+      "many-body": 25,
+      "quantum-gravity": 94,
       "string-theory": 17,
-      "physics": 230,
       "Quantum Gravity": 46,
       "Black Hole Physics": 43,
       "Science Communication & Policy": 188,
@@ -29888,7 +29857,9 @@
       "group-field-theory": 1,
       "BMS-symmetry": 1,
       "flat-space": 1,
+      "gravitational-waves": 17,
       "perturbation-theory": 3,
+      "cosmology": 7,
       "quasinormal-modes": 4,
       "quantum-information": 12,
       "effective-field-theory": 1,
@@ -29953,8 +29924,10 @@
       "gravastars": 1,
       "thermodynamics": 9,
       "entropy": 3,
+      "experiment": 2,
       "tensor-networks": 9,
       "astronomy": 1,
+      "quantum-computing": 15,
       "biology": 2,
       "genetics": 2,
       "paleontology": 3,
