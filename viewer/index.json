@@ -1,6 +1,166 @@
 {
-  "generated": "2026-08-25T04:49:35.969Z",
+  "generated": "2026-08-26T01:58:32.622Z",
   "digests": [
+    {
+      "date": "2026-08-26",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-26",
+      "categories": "astro-ph.CO, astro-ph.HE, cond-mat.stat-mech, gr-qc, hep-ph, hep-th, math-ph, quant-ph",
+      "items_found": 10,
+      "focus": "quantum gravity, black hole thermodynamics, quantum complexity, quasinormal modes, analogue gravity, quantum field theory in curved spacetime",
+      "entries": [
+        {
+          "num": 1,
+          "title": "From arithmetic spectra to a quantum-corrected black hole geometry",
+          "authors": "Kimet Jusufi, Ankit Anand",
+          "arxiv_id": "2608.23528",
+          "url": "https://arxiv.org/abs/2608.23528",
+          "categories": "hep-th, gr-qc",
+          "summary": "Jusufi and Anand construct a remarkable bridge between number theory and quantum gravity by showing that the statistical mechanics of the \"prime gas\" — whose partition function is the Euler product of the Riemann zeta function — can be mapped, via an entropy-geometry correspondence, onto a quantum-corrected black hole metric. The Hagedorn nature of the prime gas naturally produces an entropy linear in energy, matching the Bekenstein-Hawking area law, while the zeta function's pole at β=1 fixes the logarithmic correction coefficient. The resulting metric is a regular, two-horizon geometry with a softened singularity, bounded temperature, and an extremal remnant that halts complete evaporation. A striking byproduct is a physical interpretation of the Riemann hypothesis: the nontrivial zeros manifest as exponentially suppressed oscillatory corrections to the horizon area.",
+          "relevance": "This paper sits at a fascinating intersection of quantum gravity, black hole thermodynamics, and number theory. The use of arithmetic structures to derive quantum-corrected geometries resonates with ideas in loop quantum gravity where discrete spectra and statistical mechanical methods underpin the derivation of black hole entropy. The explicit metric with a regular interior and extremal remnant is directly relevant to ongoing debates about black hole evaporation and information preservation.",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics",
+            "Mathematical Physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The Schwarzschild Black Hole in an External Gravitational Tidal Field: the Quasinormal Spectrum",
+          "authors": "Dimitrios Giataganas, Alex Kehagias, Antonio Riotto",
+          "arxiv_id": "2608.21797",
+          "url": "https://arxiv.org/abs/2608.21797",
+          "categories": "hep-th, astro-ph.CO, hep-ph, gr-qc",
+          "summary": "The authors develop a first-principles calculation of how an external quadrupole tidal field — as would be produced by a nearby companion in a binary system — modifies the quasinormal mode spectrum of a Schwarzschild black hole. They find that the first-order frequency shift factorizes elegantly into a reduced coefficient (dependent on overtone and angular quantum numbers) and a universal Zeeman-like splitting of the azimuthal multiplet. Surprisingly, Schwarzschild's celebrated isospectrality between odd and even parity sectors survives at linear order in the tidal perturbation, though quadratic tides can break it. The dominant (0,2,2) mode is predicted to ring faster and decay more slowly in the presence of a companion, with eikonal shifts mapping geometrically onto the tidally deformed photon ring.",
+          "relevance": "With gravitational wave detectors now routinely observing binary black hole mergers, understanding how environmental tides modify ringdown spectra is essential for precision tests of general relativity and for correctly interpreting post-merger signals. The preservation of isospectrality at linear order is a nontrivial structural result that constrains how quantum corrections or modified gravity might alter black hole spectroscopy.",
+          "tags": [
+            "Gravitational Waves",
+            "Black Hole Physics",
+            "High-Energy Physics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "`It from Bit': is there a second law of quantum complexity?",
+          "authors": "S. Davatolhagh, A. Sheykhi, M.H. Zarei",
+          "arxiv_id": "2608.22977",
+          "url": "https://arxiv.org/abs/2608.22977",
+          "categories": "hep-th, cond-mat.stat-mech, quant-ph, gr-qc",
+          "summary": "The authors derive the conjectured second law of quantum complexity from a quasistatic information quantization rule, interpreting the principle of least action as a law of minimal entropy production à la Prigogine. In thermal equilibrium, complexity is shown to grow monotonically toward a saturation value exponential in the equilibrium entropy, following C(t) = C_max exp(−1/t). Away from equilibrium, however, complexity can actually decrease, asymptoting to a minimum set by the system's distance from equilibrium. This establishes a direct link between thermodynamic entropy production and the growth of quantum state complexity, with distinct in-equilibrium and out-of-equilibrium regimes.",
+          "relevance": "Quantum complexity has emerged as a central concept in holography, where the quantum extremal surface proposal and complexity=volume conjectures relate the growth of computational complexity to black hole interior geometry. Understanding whether complexity obeys a genuine second law — and how it behaves near and far from equilibrium — is directly relevant to the black hole information paradox and to whether complexity can serve as a proxy for interior volume in quantum gravity.",
+          "tags": [
+            "Quantum Gravity",
+            "Quantum Information",
+            "Thermodynamics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Kerr-Newman and genuine Kerr black holes in the Bertotti-Robinson magnetic field",
+          "authors": "Hryhorii Ovcharenko, Jiri Podolsky",
+          "arxiv_id": "2608.21672",
+          "url": "https://arxiv.org/abs/2608.21672",
+          "categories": "hep-th, astro-ph.HE, gr-qc",
+          "summary": "Ovcharenko and Podolsky construct an exact family of solutions describing rotating black holes immersed in the uniform Bertotti-Robinson magnetic field. They clarify that a previously reported Kerr-BR solution carries a specific electric charge, and they identify a new, genuinely neutral Kerr black hole living purely in the magnetic background. The solution smoothly interpolates between the Kerr-Newman metric and the Bertotti-Robinson magnetic universe, recovering the Wald solution in the weak-field limit. The authors analyze the full physical portrait — singularities, horizons, axis regularity, electromagnetic charges, entropy, and temperature — establishing the solution space for magnetized rotating black holes.",
+          "relevance": "Astrophysical black holes are commonly threaded by large-scale magnetic fields, and understanding exact solutions for magnetized Kerr black holes provides essential benchmarks for numerical relativity and for interpreting observations of accreting black holes. The existence of a charge-free Kerr black hole in a magnetic background is particularly interesting for understanding how external fields interact with rotating horizons, with implications for black hole energetics and jet formation.",
+          "tags": [
+            "Black Hole Physics",
+            "Astrophysics",
+            "High-Energy Physics"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Thermodynamics of Genuine Kerr-Bertotti-Robinson Black Holes",
+          "authors": "David Kubiznak, Hryhorii Ovcharenko, Jiri Podolsky",
+          "arxiv_id": "2608.22292",
+          "url": "https://arxiv.org/abs/2608.22292",
+          "categories": "hep-th, gr-qc",
+          "summary": "The authors develop a complete thermodynamic description for the newly identified genuine Kerr-Bertotti-Robinson black holes — neutral rotating black holes immersed in a uniform magnetic field. By choosing an appropriate normalization for the timelike Killing vector, they show that all standard thermodynamic quantities — Hawking temperature, Bekenstein-Hawking entropy, Komar mass, angular momentum, and horizon velocity — take their familiar forms. Remarkably, the mass obeys the Christodoulou-Ruffini formula and the first and Smarr laws hold unchanged. A coordinate rescaling maps the thermodynamics onto that of the ordinary vacuum Kerr solution, subject to a parameter-space constraint, effectively reducing the magnetized problem to the unmagnetized one.",
+          "relevance": "The thermodynamics of black holes in external fields tests the robustness of black hole mechanics beyond isolated systems. That the first law and Smarr relation survive unchanged for neutral Kerr black holes in a magnetic background suggests deep structural stability in black hole thermodynamics. This provides a useful reference point for comparing with quantum gravity corrections, where similar universal structures are sought.",
+          "tags": [
+            "Black Hole Physics",
+            "Thermodynamics",
+            "High-Energy Physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Chiral symmetry and black hole isospectrality",
+          "authors": "Colin Weller, Dongjun Li, Pratik Wagle, Andrew Laeuger, Yanbei Chen, Nicolás Yunes",
+          "arxiv_id": "2608.21532",
+          "url": "https://arxiv.org/abs/2608.21532",
+          "categories": "hep-th, gr-qc",
+          "summary": "The authors establish a general theorem linking black hole isospectrality to a chiral symmetry in the perturbation equations: whenever radiative perturbations can be reconstructed from complex master variables that obey a closed, complex-linear system with complex-linear boundary conditions, and when a phase rotation maps even parity to odd parity, the quasinormal mode spectra of the two parity sectors coincide. This \"parity isospectrality\" is shown to hold for a broad class of \"chiral-aligned\" theories. As a concrete application, they prove that subextremal Kerr–de Sitter black holes are parity isospectral — extending known results beyond asymptotically flat spacetimes.",
+          "relevance": "Isospectrality is a powerful structural constraint on black hole perturbation theory that can be exploited to test general relativity and its modifications. Understanding the symmetry principles — here, a chiral phase rotation — that enforce isospectrality helps identify which theories share this property and which may violate it, providing clear targets for gravitational wave spectroscopy to distinguish quantum gravity corrections from standard GR.",
+          "tags": [
+            "Black Hole Physics",
+            "Gravitational Waves",
+            "High-Energy Physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Remarks on quantum scalar field theory for a uniformly accelerated reference frame and a Schwarzschild black hole",
+          "authors": "Mikhail N. Smolyakov",
+          "arxiv_id": "2608.23108",
+          "url": "https://arxiv.org/abs/2608.23108",
+          "categories": "hep-th, gr-qc",
+          "summary": "Smolyakov presents a detailed examination of formal consistency issues in quantum scalar field theory on two important curved backgrounds: the Rindler wedge (uniform acceleration) and the Schwarzschild black hole. The paper uncovers pathologies not widely discussed in the standard literature: certain quantum states that are perfectly well-defined in Minkowski spacetime develop infinite energy when examined in Rindler coordinates, and — more strikingly — the standard construction of the Unruh vacuum for a four-dimensional Schwarzschild black hole is shown to be inconsistent. The analysis extends to Kruskal-Szekeres coordinates, raising foundational questions about the standard frameworks used to describe Hawking radiation and the Unruh effect.",
+          "relevance": "Quantum field theory in curved spacetime underpins our understanding of Hawking radiation, the Unruh effect, and black hole thermodynamics. If the standard Unruh vacuum construction is inconsistent in four-dimensional Schwarzschild, this has profound implications for the derivation of Hawking radiation and for semiclassical approaches to quantum gravity. These formal issues are directly relevant to ongoing efforts to place black hole evaporation on a mathematically rigorous footing.",
+          "tags": [
+            "Quantum Gravity",
+            "Foundations",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Dual entropy gain by radiation at the zero temperature limit",
+          "authors": "Koray Düztaş",
+          "arxiv_id": "2608.21593",
+          "url": "https://arxiv.org/abs/2608.21593",
+          "categories": "hep-th, gr-qc",
+          "summary": "Düztaş investigates the fate of the Generalized Second Law (GSL) at the zero-temperature limit of black hole evaporation, where radiation was previously shown to persist smoothly. An unexpected feature emerges: for Kerr black holes, the emission is restricted to superradiant modes with ω < mΩ, which causes the horizon area to increase rather than decrease. At the same time, the exterior region's von Neumann entropy also increases for both bosonic and fermionic emissions. This \"dual entropy gain\" — where both black hole and exterior entropy grow simultaneously — represents a robust preservation of the GSL at the extreme limit. The result extends to Kerr-Taub-NUT black holes, whose entropy is not simply proportional to area.",
+          "relevance": "The Generalized Second Law is a cornerstone of black hole thermodynamics and a key constraint on any viable quantum theory of gravity. Understanding how the GSL behaves at the extremal limit — where standard evaporation arguments break down — is essential for assessing whether black hole remnants are consistent with thermodynamics. The dual entropy gain provides a novel mechanism by which information may be preserved without violating entropy bounds.",
+          "tags": [
+            "Black Hole Physics",
+            "Thermodynamics",
+            "Quantum Gravity"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Dynamical Love numbers of analogue rotating black and white holes",
+          "authors": "Satadal Datta, Wei-Can Syu, Da-Shin Lee",
+          "arxiv_id": "2608.23496",
+          "url": "https://arxiv.org/abs/2608.23496",
+          "categories": "hep-th, gr-qc",
+          "summary": "The authors compute dynamical tidal response coefficients for 2+1D analogue black and white holes realized in draining and fountaining bathtub fluid flows. The tidal Love number exhibits logarithmic running at specific parameter values — including the static limit — while the dissipation coefficient vanishes there, signaling a non-dissipative resonant response. A novel feature of the fluid analogue is the existence of a genuine white hole horizon, which is forbidden in Einstein gravity; the authors construct ABH-AWH pairs with identical angular momentum and Bernoulli constant but opposite mass flow, and prove that the white hole's tidal response is the complex conjugate of the black hole's.",
+          "relevance": "Analogue gravity systems provide experimentally accessible tabletop models for testing black hole phenomena, including Hawking radiation and tidal effects. The logarithmic running of Love numbers and the conjugate relation between black and white hole responses offer concrete predictions that could be probed in fluid experiments. These results also inform the broader theoretical understanding of how tidal deformability depends on horizon structure in quantum gravity models.",
+          "tags": [
+            "Analogue Gravity",
+            "Black Hole Physics",
+            "Fluid Dynamics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Curvature and Isocurvature Perturbations in multi-field Gauss-Bonnet inflation",
+          "authors": "Seoktae Koh",
+          "arxiv_id": "2608.22970",
+          "url": "https://arxiv.org/abs/2608.22970",
+          "categories": "hep-th, gr-qc",
+          "summary": "Koh analyzes cosmological perturbations in multi-field inflation where scalar fields couple to the Gauss-Bonnet invariant through an arbitrary function f(φᵃ). Beyond the expected modifications to kinetic, gradient, and mass terms, the Gauss-Bonnet coupling generates a new antisymmetric velocity mixing absent in Einstein gravity. The curvature and isocurvature decomposition reveals that the curvature perturbation retains zero effective mass and zero mixing mass, consistent with Weinberg's adiabatic mode theorem. In the heavy-isocurvature limit, the theory reduces to an effective single-field description with a modified sound speed; when the coupling gradient aligns with the background trajectory, superhorizon isocurvature-to-curvature transfer is governed by a Gauss-Bonnet-corrected turn rate. The tensor sector is also computed to linear order in the coupling.",
+          "relevance": "Inflationary perturbations are our most direct observational window into quantum gravity effects in the early universe. Gauss-Bonnet corrections arise naturally in string theory and other UV completions of gravity, and their imprint on the curvature power spectrum, sound speed, and tensor-to-scalar ratio provides model-independent constraints on quantum gravity corrections to cosmic initial conditions.",
+          "tags": [
+            "Cosmology",
+            "Quantum Gravity",
+            "High-Energy Physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-25",
       "type": "arxiv",
@@ -26372,56 +26532,64 @@
     }
   ],
   "stats": {
-    "total_digests": 238,
-    "total_entries": 1828,
+    "total_digests": 239,
+    "total_entries": 1838,
     "unique_tags": {
-      "Black Hole Physics": {
-        "first_seen": "2026-08-25",
-        "count": 52
-      },
       "Quantum Gravity": {
-        "first_seen": "2026-08-25",
-        "count": 50
+        "first_seen": "2026-08-26",
+        "count": 55
       },
-      "Thermodynamics": {
-        "first_seen": "2026-08-25",
-        "count": 3
+      "Black Hole Physics": {
+        "first_seen": "2026-08-26",
+        "count": 60
+      },
+      "Mathematical Physics": {
+        "first_seen": "2026-08-26",
+        "count": 2
       },
       "Gravitational Waves": {
-        "first_seen": "2026-08-25",
-        "count": 9
+        "first_seen": "2026-08-26",
+        "count": 11
       },
       "High-Energy Physics": {
-        "first_seen": "2026-08-25",
-        "count": 4
+        "first_seen": "2026-08-26",
+        "count": 9
+      },
+      "Quantum Information": {
+        "first_seen": "2026-08-26",
+        "count": 9
+      },
+      "Thermodynamics": {
+        "first_seen": "2026-08-26",
+        "count": 6
+      },
+      "Astrophysics": {
+        "first_seen": "2026-08-26",
+        "count": 5
       },
       "Foundations": {
-        "first_seen": "2026-08-25",
-        "count": 4
+        "first_seen": "2026-08-26",
+        "count": 5
+      },
+      "Analogue Gravity": {
+        "first_seen": "2026-08-26",
+        "count": 2
+      },
+      "Fluid Dynamics": {
+        "first_seen": "2026-08-26",
+        "count": 2
       },
       "Cosmology": {
-        "first_seen": "2026-08-25",
-        "count": 9
+        "first_seen": "2026-08-26",
+        "count": 10
       },
       "Field Theory": {
         "first_seen": "2026-08-25",
         "count": 3
       },
-      "Astrophysics": {
-        "first_seen": "2026-08-25",
-        "count": 4
-      },
-      "Quantum Information": {
-        "first_seen": "2026-08-25",
-        "count": 8
-      },
       "Topological Order": {
         "first_seen": "2026-08-25",
         "count": 7
-      },
-      "Mathematical Physics": {
-        "first_seen": "2026-08-25",
-        "count": 1
       },
       "Quantum Chaos": {
         "first_seen": "2026-08-25",
@@ -26804,10 +26972,6 @@
         "count": 1
       },
       "de Sitter": {
-        "first_seen": "2026-08-14",
-        "count": 1
-      },
-      "Analogue Gravity": {
         "first_seen": "2026-08-14",
         "count": 1
       },
@@ -28208,10 +28372,6 @@
         "count": 1
       },
       "Nanotechnology": {
-        "first_seen": "2026-06-02",
-        "count": 1
-      },
-      "Fluid Dynamics": {
         "first_seen": "2026-06-02",
         "count": 1
       },
@@ -30157,18 +30317,20 @@
       }
     },
     "tag_counts": {
-      "Black Hole Physics": 52,
-      "Quantum Gravity": 50,
-      "Thermodynamics": 3,
-      "Gravitational Waves": 9,
-      "High-Energy Physics": 4,
-      "Foundations": 4,
-      "Cosmology": 9,
+      "Quantum Gravity": 55,
+      "Black Hole Physics": 60,
+      "Mathematical Physics": 2,
+      "Gravitational Waves": 11,
+      "High-Energy Physics": 9,
+      "Quantum Information": 9,
+      "Thermodynamics": 6,
+      "Astrophysics": 5,
+      "Foundations": 5,
+      "Analogue Gravity": 2,
+      "Fluid Dynamics": 2,
+      "Cosmology": 10,
       "Field Theory": 3,
-      "Astrophysics": 4,
-      "Quantum Information": 8,
       "Topological Order": 7,
-      "Mathematical Physics": 1,
       "Quantum Chaos": 1,
       "Many-Body Physics": 4,
       "Holography": 9,
@@ -30265,7 +30427,6 @@
       "Gravitational Wave Constraints": 1,
       "Semiclassical Spacetime": 1,
       "de Sitter": 1,
-      "Analogue Gravity": 1,
       "Topological Defects": 2,
       "Emergent Geometry": 2,
       "Non-Abelian Anyons": 2,
@@ -30616,7 +30777,6 @@
       "Biophysics": 1,
       "Molecular Biology": 1,
       "Nanotechnology": 1,
-      "Fluid Dynamics": 1,
       "Aerospace": 1,
       "Galaxy Evolution": 1,
       "Exoplanets": 1,
@@ -31105,6 +31265,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-26",
         "2026-08-25",
         "2026-08-22",
         "2026-08-21",
