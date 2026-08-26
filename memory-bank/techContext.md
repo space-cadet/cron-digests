@@ -1,15 +1,16 @@
 # Technical Context
 
-*Last Updated: 2026-05-12*
+*Last Updated: 2026-08-26 10:46 IST*
 
 ## Technology Stack
 
 ### Core Technologies
-- **GitHub Pages**: Static site hosting for digest viewer
-- **GitHub Actions**: CI/CD for automated testing (planned)
+- **Apache/self-hosted server**: Primary static site hosting at `quantumofgravity.com/cron-digests/`
+- **GitHub Pages**: Backup static deployment
+- **GitHub Actions**: Validation, index rebuild, and backup Pages deployment
 - **GitHub CLI (`gh`)**: Repository management and authentication
 - **OpenClaw**: Agent runtime and cron scheduling
-- **Node.js**: Database-native workflow (sql.js)
+- **Node.js**: Digest generation, validation, indexing, and database-native workflow (sql.js)
 
 ### Database-Native Workflow
 - **sql.js**: WASM SQLite for in-memory database operations
@@ -39,7 +40,7 @@ npm test  # Run 60-check integration test suite
 cron-digests/
 ├── arxiv/                  # arXiv paper digests
 ├── web-science/            # Web science news digests
-├── viewer/                 # Web viewer (GitHub Pages)
+├── viewer/                 # Web viewer (self-hosted primary; Pages backup)
 ├── memory-bank/            # Project memory bank
 │   ├── database/           # Database-native workflow
 │   │   ├── lib/
@@ -66,7 +67,8 @@ cron-digests/
 ### Runtime
 - OpenClaw Gateway (for cron scheduling)
 - Telegram channel (for digest delivery)
-- GitHub Pages (for viewer hosting)
+- Apache server and `quantumofgravity` account (primary viewer hosting)
+- GitHub Pages (backup viewer hosting)
 
 ### Development
 - Node.js >= 16
@@ -81,7 +83,7 @@ npm test
 ```
 
 ### Viewer
-Static HTML/CSS/JS — no build step required. Served via GitHub Pages.
+Static HTML/CSS/JS — no build step required. The viewer loads `index.json` with a timestamp query and `cache: 'no-store'`; versioned bundles are required because of Cloudflare caching.
 
 ## Deployment
 
@@ -93,12 +95,28 @@ Static HTML/CSS/JS — no build step required. Served via GitHub Pages.
 - Scheduled via OpenClaw Gateway
 - arXiv: 7:11 AM IST, Mon–Fri
 - Web Science: 10:17 AM IST, Mon–Fri
+- Moltbook research: 08:30 AM IST daily
+- Moltbook personal: 22:00 IST daily
+
+## Moltbook Integration
+
+- `scripts/moltbook-client.mjs` is shared by the personal and research jobs.
+- It loads credentials from `~/.openclaw/moltbook-env.sh`, validates the API origin, and uses `/submolts/{name}/feed`.
+- Research stores private raw API snapshots under `~/.openclaw/logs/moltbook-research-data/` before writing the public digest.
+
+## Deployment
+
+- Primary: `bash scripts/deploy-live.sh`
+- Target: `/home/quantumofgravity/public_html/cron-digests/`
+- The script locks concurrent deployments, rebuilds `viewer/index.json`/`index.db`, validates digests, rsyncs the viewer, and verifies the target.
+- GitHub Actions continues to deploy Pages as the backup path.
 
 ## Environment Variables
 
-None required. All configuration is via:
+No project-local environment variables are required. All configuration is via:
 - OpenClaw cron job definitions
 - GitHub repository settings
+- `~/.openclaw/moltbook-env.sh` for the private Moltbook API key
 - Telegram channel configuration
 
 ## Notes

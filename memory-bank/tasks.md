@@ -1,13 +1,10 @@
 # Task Registry
 *Created: 2026-05-12 05:05:52 IST*
-*Last Updated: 2026-07-25 23:45 IST*
+*Last Updated: 2026-08-26 10:46 IST*
 
 ## Active Tasks
 | ID | Title | Status | Priority | Started | Dependencies | Details |
 |----|-------|--------|----------|---------|--------------|---------|
-| T22 | Fix Moltbook empty entries (API 401) | 🔄 | MEDIUM | 2026-07-07 | T21 | Phase 1 — next up |
-
-| T23 | Backfill missing digests | ✅ | 2026-07-25 | — | [Details](tasks/T23.md) |
 
 ## Completed Tasks
 | ID | Title | Completed | Related Tasks | Details |
@@ -29,6 +26,8 @@
 | T19 | Viewer 404 Fix & URL Clarification | 2026-06-23 | T18 | [Details](tasks/T19.md) |
 | T20 | Migrate viewer to quantumofgravity.com | 2026-07-07 | T19 | Phase 2: Server migration |
 | T21 | Modularize viewer + Calendar redesign | 2026-07-07 | T20 | Phase 3: Calendar + history + sticky headers |
+| T22 | Fix Moltbook empty entries and stale external content | 2026-08-26 | T21 | Structured shared-client pipeline; 12 verified posts; 13 contaminated files invalidated |
+| T24 | Primary deployment automation and cache coherence | 2026-08-26 | T20, T21, T22 | [Details](tasks/T24.md) |
 
 **Allowed Status Values:**
 - `🔄` (In Progress)
@@ -43,21 +42,21 @@
 **Status:** ✅ **Last:** 2026-07-07 12:35 IST
 **Criteria:** All assets load correctly (HTML 200, JSON 200, digest files 200), same functionality as GitHub Pages
 **Files:** `/home/quantumofgravity/public_html/cron-digests/`
-**Notes:** Manual `cp -r` deployment for now. Apache vhost root is `/home/quantumofgravity/public_html`. User explicitly wanted server hosting instead of GitHub Pages.
+**Notes:** Primary live target is `/home/quantumofgravity/public_html/cron-digests/`; automated deployment details are tracked in T24. GitHub Pages remains the backup.
 
 ### T21: Modularize viewer + Calendar redesign
 **Description:** Split monolithic 1,201-line inline HTML into modular CSS/JS files. Add month calendar view with day-based navigation, browser history support, and month-grouped sticky headers.
 **Status:** ✅ **Last:** 2026-07-07 16:50 IST
 **Criteria:** Separate css/main.css, js/*.js files. Calendar grid shows month with colored dots per digest type. Click day → digest modal. Back/forward buttons work. List view has sticky month headers.
 **Files:** `viewer/index.html`, `viewer/css/`, `viewer/js/`
-**Notes:** Phase 3 complete. Commits: `1dd5918`, `6c13c38`, `82453b0`. Cloudflare cache required versioned JS filenames (`*.v3.js`).
+**Notes:** Phase 3 complete. Commits: `1dd5918`, `6c13c38`, `82453b0`. Cloudflare cache requires versioned JS filenames; current live bundle is `app.v3.js?v=5`, and source filtering is synchronized across calendar/list views.
 
-### T22: Fix Moltbook empty entries (API 401)
-**Description:** Moltbook digests since June 25 are 6-line stubs with "Items found: 0". API returning 401 Unauthorized.
-**Status:** ⏸️ **Last:** 2026-07-07 12:35 IST
-**Criteria:** All Moltbook digests have actual content (not empty stubs). API authentication restored.
-**Files:** `moltbook/*.md`, cron job config
-**Notes:** Phase 1. User explicitly said: "I don't want empty entries to be hidden. I don't see why any of the entries should be empty." Must fix at source, not hide in UI.
+### T22: Fix Moltbook empty entries and stale external content
+**Description:** Replace the brittle freeform-log pipeline with a shared, validated Moltbook API client and preserve explicit zero-item results.
+**Status:** ✅ **Completed:** 2026-08-26 10:01 IST
+**Criteria:** Correct submolts queried; URLs and fields validated; no stale external research recycled; live index rebuilt.
+**Files:** `scripts/moltbook-client.mjs`, `scripts/generate-moltbook-digest.js`, `moltbook/*.md`, cron job config
+**Notes:** The query parameter was silently ignored and returned the general feed; `/submolts/{name}/feed` is now used. Thirteen contaminated historical files were marked invalid rather than deleted.
 
 ### T4: Digest Format v2.0
 **Description:** Uniform markdown template for all digest types with strict parsing contract.

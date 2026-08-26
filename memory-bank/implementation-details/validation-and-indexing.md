@@ -1,7 +1,7 @@
 # Validation and Indexing
 
 *Created: 2026-05-21 16:45:00 IST*
-*Last Updated: 2026-05-21 16:45:00 IST*
+*Last Updated: 2026-08-26 10:46:00 IST*
 *Related Tasks: [T6](../tasks/T6.md), [T10](../tasks/T10.md)*
 
 ## Overview
@@ -35,6 +35,12 @@ if (digestType !== 'arxiv') {
 **Rationale:** arxiv digests intentionally filter ~300 announcements down to 10-20 relevant papers. The header reports the raw feed size for context; entries are the curated subset.
 
 ## Index Builder (`build-index.js`)
+
+### Moltbook Provenance Rules
+
+Moltbook public digests are generated only from structured records returned by `scripts/moltbook-client.mjs`. The client queries `/submolts/{name}/feed`, requires an exact returned submolt match, validates a `moltbook.com` URL, and normalizes ID, author, timestamp, title, content, and counts. Duplicate posts are removed before generation. The old freeform `moltbook-research.md` parser is retired.
+
+If no valid posts are available, the generator writes an explicit zero-item digest. It never recycles older posts or unrelated external research. Contaminated historical files are retained only as explicitly invalid records and are excluded from valid current research.
 
 ### What It Builds
 

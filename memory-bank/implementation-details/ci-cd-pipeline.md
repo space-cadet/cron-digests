@@ -1,12 +1,24 @@
 # CI/CD Pipeline for cron-digests
 
 *Created: 2026-05-18 11:25:00 IST*
-*Last Updated: 2026-05-21 16:45:00 IST*
+*Last Updated: 2026-08-26 10:46:00 IST*
 *Related Tasks: [T9](../tasks/T9.md), [T10](../tasks/T10.md)*
 
 ## Overview
 
-GitHub Actions workflow that automatically validates all digests, rebuilds the viewer index, commits changes back to the repository, and deploys the viewer to GitHub Pages on every push to `main`.
+The project has two deployment paths. The scheduled production path validates and deploys to the self-hosted Apache site; GitHub Actions validates, rebuilds, commits, and deploys GitHub Pages as the backup path on pushes to `main`.
+
+## Primary Self-Hosted Deployment
+
+The supported production command is:
+
+```bash
+bash scripts/deploy-live.sh
+```
+
+The arXiv, Web Science, and Moltbook cron jobs invoke this script after generation. It uses a lock to serialize deployments, rebuilds the JSON/SQLite index, runs digest validation, synchronizes `viewer/` to `/home/quantumofgravity/public_html/cron-digests/`, and checks the deployed index. The authoritative public URL is `https://quantumofgravity.com/cron-digests/`.
+
+GitHub Pages remains a separately deployed backup at `https://space-cadet.github.io/cron-digests/`.
 
 ## Problem
 

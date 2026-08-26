@@ -1,5 +1,24 @@
 # Changelog
 
+## [2026-08-26]
+
+### Added
+- `scripts/moltbook-client.mjs` — shared authenticated Moltbook client for personal and research jobs
+- `scripts/deploy-live.sh` — locked primary deployment to `quantumofgravity.com`
+- Structured private Moltbook raw snapshots and explicit zero-item generation behavior
+- T24 — primary deployment automation and cache coherence task
+
+### Changed
+- Moltbook research now uses `/submolts/{name}/feed`, exact submolt/URL validation, deduplication, and structured API data instead of the freeform research log
+- arXiv, Web Science, and Moltbook jobs now deploy to the self-hosted primary target automatically
+- Viewer source filters now control both calendar and list views
+- Viewer index fetching bypasses stale browser caches; the live bundle is versioned as `app.v3.js?v=5`
+
+### Fixed
+- Prevented unrelated July external research from being republished as current Moltbook content
+- Marked 13 contaminated historical Moltbook files invalid while preserving them for provenance
+- Verified the live viewer at 241 digests with source counts of 81/78/82
+
 ## [2026-05-25]
 
 ### Added

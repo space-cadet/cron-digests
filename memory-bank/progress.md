@@ -1,6 +1,6 @@
 # Project Progress
 
-*Last Updated: 2026-07-25 23:45 IST*
+*Last Updated: 2026-08-26 10:46 IST*
 
 ## What Works
 
@@ -9,13 +9,21 @@
 - [x] **T23: Backfill missing digests** — Complete 2026-07-25
   - arXiv: 5 backfilled via API `submittedDate` queries
   - Web Science: 2 backfilled via Phys.org daily top pages
-  - Moltbook: 9 placeholder stubs (pending T22 API fix)
+  - Moltbook: historical placeholder records retained for provenance
   - Reusable `scripts/backfill-arxiv.py` created
 - [x] Post-generation verification pipeline (T18): `verify-digest.sh`, `digest-health-check.sh`, Playwright tests
 - [x] Three cron jobs: arXiv, Web Science, Moltbook — generating daily
 - [x] Telegram notifications now enabled for all three cron jobs
-- [x] CI/CD: GitHub Actions auto-validates, rebuilds index, deploys to Pages on push
-- [x] 176 digests indexed, 1200+ entries, 800+ tags
+- [x] **T22: Moltbook pipeline repair** — Complete 2026-08-26
+  - Shared client, correct submolts endpoint, structured validation, and explicit zero-item handling
+  - 12 verified current posts; 13 contaminated files marked invalid
+- [x] **T24: Primary deployment automation** — Complete 2026-08-26
+  - `scripts/deploy-live.sh` deploys to `quantumofgravity.com`; Pages remains backup
+  - Cache-safe index loading and versioned viewer bundle deployed
+- [x] **T21: Source filter synchronization** — Complete 2026-08-26
+  - Source buttons filter both calendar and list views
+- [x] CI/CD: GitHub Actions auto-validates, rebuilds index, and deploys Pages as backup
+- [x] 241 digests indexed, 1814 entries, 946 unique tags
 
 ## Completed (2026-07-25)
 
@@ -77,21 +85,17 @@
 
 ## In Progress
 
-None. T21 just completed.
+None. T22, T24, and the source-filter repair are complete.
 
 ## Planned
 
-- [ ] **T22: Fix Moltbook empty entries at source**
-  - Diagnose API 401 issue
-  - Check if token expired, URL changed, or service down
-  - Regenerate empty digests once fixed
-  - Add guard: don't write empty stubs
+- [ ] Consider a protected CI runner for self-hosted deployment credentials.
+- [ ] Monitor the scheduled Moltbook jobs for endpoint or API schema changes.
 
 ## Known Issues
 
-- Moltbook research stream API returning 401 (unauthorized) since ~June 25
-- Empty Moltbook digests (June 25–July 7): 6-line stubs with "Items found: 0"
-- GitHub Actions still deploys to Pages; server is manual copy. Need auto-sync or switch CI target.
+- Historical Moltbook stubs and contaminated files remain as explicit invalid provenance records.
+- The primary self-hosted deployment depends on the scheduled deploy script; Pages is the backup.
 
 ## Next Priorities
 
@@ -103,7 +107,7 @@ None. T21 just completed.
 
 - **Primary hosting:** Apache on quantumofgravity.com (server)
 - **Backup:** GitHub Pages (space-cadet.github.io/cron-digests/)
-- **Deployment:** Manual rsync for now. May add CI step to rsync to server later.
+- **Deployment:** Cron-driven `scripts/deploy-live.sh` to the self-hosted primary; GitHub Actions Pages deployment is the backup.
 
 ---
-*Updated: 2026-07-25 23:45 IST*
+*Updated: 2026-08-26 10:46 IST*

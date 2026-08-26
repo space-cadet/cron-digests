@@ -1,17 +1,28 @@
 # Session Cache
 
-*Last Updated: 2026-07-25 23:45 IST*
+*Last Updated: 2026-08-26 10:46 IST*
 
-**Started**: 2026-07-25 17:43 UTC / 23:13 IST
-**Focus Task**: T23 — Backfill Missing Digests
-**Session File**: `sessions/2026-07-25-evening.md`
-**Status**: ✅ Completed: 1
+**Started**: 2026-08-26 04:35 UTC / 10:05 IST
+**Focus Task**: T22/T24 — Moltbook repair and primary deployment
+**Session File**: `sessions/2026-08-26-morning.md`
+**Status**: ✅ Completed
 
 ## Overview
 
-- Active: 0 | Paused: 1 (T22) | Completed: 3 (T20, T21, T23)
-- Last Session: 2026-07-07 afternoon (T20/T21)
-- Current Period: evening
+- Active: 0 | Paused: 0 | Completed: 6 (T18, T20, T21, T22, T23, T24)
+- Last Session: 2026-08-26 morning (T22/T24)
+- Current Period: morning
+
+## Completed This Session
+
+### T22/T24: Moltbook repair and deployment automation ✅
+**Completed:** 2026-08-26 10:01 IST
+
+- Shared Moltbook client now powers personal and research jobs.
+- Research uses the correct submolts endpoint and validates post provenance.
+- Current digest has 12 verified posts; 13 contaminated historical files are marked invalid.
+- `quantumofgravity.com` is primary; all three feed jobs run `scripts/deploy-live.sh`.
+- Viewer cache handling and source filters were fixed and live-verified.
 
 ## Completed Today
 
@@ -60,9 +71,8 @@ User reported cron digest jobs "not running". Investigation revealed:
 
 ## Next Session
 
-**T22: Fix Moltbook empty entries (API 401)** — still pending
-- Moltbook API returning 401 since ~June 25
-- 9 placeholder stubs created today need real content once API fixed
+- Monitor the next scheduled Moltbook research and deployment runs.
+- Consider protected CI credentials for the self-hosted deployment path.
 
 ## Session History (Last 5)
 
@@ -71,6 +81,7 @@ User reported cron digest jobs "not running". Investigation revealed:
 3. `sessions/2026-06-23-morning.md` — T18: Verification pipeline
 4. `sessions/2026-06-19-early.md` — T16/T17: Bug fixes and K2.7 subagent
 5. `sessions/2026-06-16-morning.md` — T15: arXiv HTML fix
+6. `sessions/2026-08-26-morning.md` — T22/T24: Moltbook repair, deployment automation, and viewer fixes
 
 ---
-*Updated: 2026-07-25 23:45 IST*
+*Updated: 2026-08-26 10:46 IST*

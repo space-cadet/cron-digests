@@ -2,14 +2,18 @@
 
 ## Current Status
 
-T23 (Backfill Missing Digests) is **complete**. All missing digests have been filled:
+T22 (Moltbook pipeline repair), T24 (primary deployment automation), and the T21 source-filter repair are **complete**. T23 (Backfill Missing Digests) remains complete. All current work is live:
 - arXiv: 5 backfilled (2026-05-16, 05-23, 06-02, 07-04, 07-16) via API `submittedDate` queries
 - Web Science: 2 backfilled (2026-07-03, 07-16) via Phys.org daily top pages
-- Moltbook: 9 placeholder stubs created (API 401 persists — blocked on T22)
+- Moltbook: current digest has 12 verified posts; 13 contaminated historical files are explicitly invalidated
 
-Telegram notifications now enabled for all three cron jobs.
+The personal and research Moltbook jobs share `scripts/moltbook-client.mjs`. Research uses `/submolts/{name}/feed`, structured records, exact submolt and URL validation, deduplication, and explicit zero-item output. All three feed jobs invoke `scripts/deploy-live.sh`.
 
 **Live at:** https://quantumofgravity.com/cron-digests/
+
+**Primary:** self-hosted Apache deployment. **Backup:** GitHub Pages.
+
+**Verified live:** 241 digests; source filters show arXiv 81, Web Science 78, Moltbook 82 in both calendar and list views.
 
 ## Completed (2026-07-25)
 
@@ -26,8 +30,8 @@ Telegram notifications now enabled for all three cron jobs.
 
 ## Next
 
-- **T22:** Fix Moltbook empty entries (API 401) — restore actual content to placeholder stubs
-- Monitor cron job Telegram notifications
+- Monitor the scheduled feed and deployment jobs.
+- Consider protected CI credentials for the self-hosted deployment path.
 
 ---
-*Updated: 2026-07-25 18:15 UTC / 23:45 IST*
+*Updated: 2026-08-26 05:16 UTC / 10:46 IST*

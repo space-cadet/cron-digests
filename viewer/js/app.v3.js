@@ -15,6 +15,7 @@ const SOURCES = {
 let allDigests = [];
 let currentView = 'calendar';
 let activeTag = null;
+let activeSource = 'all';
 let isRestoringState = false;
 
 /* ---------- Theme ---------- */
@@ -80,7 +81,10 @@ function initComponents() {
     showDayModal(date, digests);
   });
 
-  initSearch(allDigests);
+  initSearch(allDigests, (source) => {
+    activeSource = source;
+    applyFilter();
+  });
   renderListView(allDigests);
 
   renderTagBar();
@@ -272,9 +276,11 @@ function renderTagBar() {
 }
 
 function applyFilter() {
-  let filtered = allDigests;
+  let filtered = allDigests.filter(d =>
+    activeSource === 'all' || d.type === activeSource
+  );
   if (activeTag) {
-    filtered = allDigests.filter(d =>
+    filtered = filtered.filter(d =>
       d.entries?.some(e => (e.tags || []).includes(activeTag)) ||
       d.allTags?.includes(activeTag)
     );

@@ -7,14 +7,16 @@ import { showModal, closeModal } from './modal.v3.js';
 let allDigests = [];
 let currentFilter = 'all';
 let activeTag = null;
+let onSourceFilterChange = null;
 let focusedCardIndex = -1;
 let visibleCards = [];
 
 /**
  * Initialize search and list view
  */
-export function initSearch(digests) {
+export function initSearch(digests, sourceFilterCallback = null) {
   allDigests = digests;
+  onSourceFilterChange = sourceFilterCallback;
   setupSearchListeners();
   setupFilterButtons();
 }
@@ -175,6 +177,7 @@ function setupFilterButtons() {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentFilter = btn.dataset.filter;
+      onSourceFilterChange?.(currentFilter);
       renderListView(allDigests);
     });
   });
