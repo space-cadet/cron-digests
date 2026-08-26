@@ -52,7 +52,7 @@ New tags are added when needed and tracked in [`tags.json`](tags.json).
 
 ## Automation
 
-Powered by [OpenClaw](https://openclaw.ai) cron jobs. The agent generates the digest, writes the file, commits, and pushes — all hands-off.
+Powered by [OpenClaw](https://openclaw.ai) cron jobs. The agent generates the digest, deploys the viewer to the self-hosted primary site, commits, and pushes — all hands-off.
 
 **Web Science Digest — CloakBrowser Integration**
 - Direct `web_fetch` is blocked by APS News, Scientific American, and other major science sites
@@ -63,7 +63,13 @@ Powered by [OpenClaw](https://openclaw.ai) cron jobs. The agent generates the di
 
 ## CI/CD Pipeline
 
-Every push to `main` triggers GitHub Actions:
+The primary site is deployed locally by `scripts/deploy-live.sh` because the digest jobs and Apache document root share this server:
+
+```bash
+bash scripts/deploy-live.sh
+```
+
+Every push to `main` also triggers GitHub Actions for validation, index rebuilding, and the backup GitHub Pages copy:
 
 1. **Validate** — `scripts/validate-digest.js` checks all digests for format compliance (headers, numbered entries, required fields, duplicate detection). Failures block deployment.
 2. **Build Index** — `scripts/build-index.js` rebuilds `viewer/index.json` and `viewer/index.db` from all digests. Runs with `continue-on-error: true` so index build failures don't block deploy.
@@ -80,7 +86,9 @@ Workflow file: [`.github/workflows/ci.yml`](.github/workflows/ci.yml)
 
 ## Viewer
 
-Browse digests in a web interface: **[Live Viewer](https://space-cadet.github.io/cron-digests/viewer/)**
+Browse digests in a web interface: **[Live Viewer](https://quantumofgravity.com/cron-digests/)**
+
+Backup: [GitHub Pages](https://space-cadet.github.io/cron-digests/)
 
 - Chronological card grid (latest first)
 - **Tag filtering** — click any tag chip (top bar or per-card) to filter; click again to clear

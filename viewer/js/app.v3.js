@@ -42,7 +42,7 @@ function updateThemeIcon(theme) {
 /* ---------- Data Loading ---------- */
 async function fetchDigests() {
   try {
-    const response = await fetch('index.json');
+    const response = await fetch(`index.json?ts=${Date.now()}`, { cache: 'no-store' });
     if (!response.ok) throw new Error('Failed to load index.json');
 
     const index = await response.json();

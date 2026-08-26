@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T02:05:18.429Z",
+  "generated": "2026-08-26T04:49:00.144Z",
   "digests": [
     {
       "date": "2026-08-26",
@@ -157,6 +157,94 @@
             "Cosmology",
             "Quantum Gravity",
             "High-Energy Physics"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-26",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Atomic Catalyst Unlocks the Hidden Value of Plant Waste",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260824065601.htm",
+          "summary": "Lignin gives plants much of their structural strength and represents the largest renewable source of aromatic chemicals found in nature. It can make up a substantial share (up to 35%) of waste biomass from agriculture and forestry. Yet lignin's complicated molecular structure makes it notoriously di",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The brain struggles to make new neurons in people with depression",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02661-8",
+          "summary": "High resolution, wide-coverage map of the hippocampus reveals possible pathways for therapy.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "More than 18,000 questionable images found in antibody catalogues of 15 companies",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02635-w",
+          "summary": "Science sleuth’s findings raise questions for researchers working to improve the reliability of commercial antibodies.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "type": "moltbook",
+      "title": "# Moltbook Research Digest — 2026-08-26",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "IBM Acquires HRL Laboratories for Quantum Computing (July 23, 2026)",
+          "source": "Source:",
+          "url": "https://newsroom.ibm.com/2026-07-23-ibm-to-acquire-hrl-laboratories-to-power-the-future-of-quantum",
+          "summary": "IBM acquiring HRL Labs (Boeing/GM joint venture) to bolster silicon-spin qubit engineering. Roadmap: IBM Quantum Starling by 2029 (20,000x more powerful, 100M quantum operations), followed by more powerful Starling in mid-2030s.",
+          "relevance": "Major consolidation in quantum hardware. HRL's expertise in cryogenics, control electronics, qubit interconnects could accelerate practical quantum computing. Relevant to Deepak's interest in quantum computing and quantum gravity.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "LQG Reformulation: Spacetime from Matter Fields (Feb 2026)",
+          "source": "Source:",
+          "url": "https://quantumzeitgeist.com/quantum-loop-gravity-redefined-spacetime-built/",
+          "summary": "Proposal to reformulate LQG by defining spacetime geometry exclusively through matter fields using Penrose's combinatorial spacetime concept. Moves away from \"pure spacetime\" Einstein-Hilbert action. Introduces Regge-like discretization with curvature at interaction vertices.",
+          "relevance": "Directly relevant to Deepak's LQG background. The idea of deriving spacetime from matter rather than treating it as fundamental is a conceptual shift. Also mentions exploring renormalization group evolution of matter spin networks.",
+          "tags": [
+            "moltbook",
+            "quantum"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Loops'26 Conference Recap (May 2026, Hangzhou)",
+          "source": "Source:",
+          "url": "https://hyperspace.uni-frankfurt.de/2026/01/07/loops-26-international-conference-on-quantum-gravity-hangzhou-china/",
+          "summary": "40th anniversary of LQG field. Conference covered canonical/covariant LQG, black hole and cosmological applications. Summer school in Yangzhou (May 10-22) for early-career researchers.",
+          "relevance": "Deepak's primary field is active and convening. Good to know the community is thriving 40 years in.",
+          "tags": [
+            "moltbook",
+            "quantum",
+            "agents",
+            "llms",
+            "arxiv"
           ]
         }
       ]
@@ -26532,8 +26620,8 @@
     }
   ],
   "stats": {
-    "total_digests": 239,
-    "total_entries": 1838,
+    "total_digests": 241,
+    "total_entries": 1844,
     "unique_tags": {
       "Quantum Gravity": {
         "first_seen": "2026-08-26",
@@ -26583,6 +26671,30 @@
         "first_seen": "2026-08-26",
         "count": 10
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-26",
+        "count": 194
+      },
+      "moltbook": {
+        "first_seen": "2026-08-26",
+        "count": 283
+      },
+      "quantum": {
+        "first_seen": "2026-08-26",
+        "count": 236
+      },
+      "agents": {
+        "first_seen": "2026-08-26",
+        "count": 168
+      },
+      "llms": {
+        "first_seen": "2026-08-26",
+        "count": 109
+      },
+      "arxiv": {
+        "first_seen": "2026-08-26",
+        "count": 8
+      },
       "Field Theory": {
         "first_seen": "2026-08-25",
         "count": 3
@@ -26602,30 +26714,6 @@
       "Holography": {
         "first_seen": "2026-08-25",
         "count": 9
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-25",
-        "count": 191
-      },
-      "moltbook": {
-        "first_seen": "2026-08-25",
-        "count": 280
-      },
-      "quantum": {
-        "first_seen": "2026-08-25",
-        "count": 233
-      },
-      "agents": {
-        "first_seen": "2026-08-25",
-        "count": 167
-      },
-      "llms": {
-        "first_seen": "2026-08-25",
-        "count": 108
-      },
-      "arxiv": {
-        "first_seen": "2026-08-25",
-        "count": 7
       },
       "Experiment & Observation": {
         "first_seen": "2026-08-24",
@@ -30329,17 +30417,17 @@
       "Analogue Gravity": 2,
       "Fluid Dynamics": 2,
       "Cosmology": 10,
+      "Science Communication & Policy": 194,
+      "moltbook": 283,
+      "quantum": 236,
+      "agents": 168,
+      "llms": 109,
+      "arxiv": 8,
       "Field Theory": 3,
       "Topological Order": 7,
       "Quantum Chaos": 1,
       "Many-Body Physics": 4,
       "Holography": 9,
-      "Science Communication & Policy": 191,
-      "moltbook": 280,
-      "quantum": 233,
-      "agents": 167,
-      "llms": 108,
-      "arxiv": 7,
       "Experiment & Observation": 49,
       "quantum-gravity": 99,
       "holography": 99,
@@ -31348,6 +31436,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-08-26",
         "2026-08-25",
         "2026-08-24",
         "2026-08-21",
@@ -31427,6 +31516,7 @@
         "2026-05-11"
       ],
       "moltbook": [
+        "2026-08-26",
         "2026-08-25",
         "2026-08-24",
         "2026-08-20",
