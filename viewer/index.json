@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T03:08:03.421Z",
+  "generated": "2026-08-28T04:49:24.255Z",
   "digests": [
     {
       "date": "2026-08-28",
@@ -232,6 +232,69 @@
             "black-hole-thermodynamics",
             "phase-transitions",
             "quintessence"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-28",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Scientists Switch on a Strange New Form of Magnetism in an Ultrathin Material",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260826055454.htm",
+          "summary": "A recently proposed form of magnetism known as altermagnetism could eventually help researchers make computer memory smaller, faster, and more efficient. Now, scientists have found evidence that ruthenium dioxide, a quantum material previously considered nonmagnetic in its bulk form, may display thi",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "AI Searched 100 Million Possibilities and Found a Cheaper Way to 3D-print a NASA Rocket Alloy",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260827010504.htm",
+          "summary": "Washington State University researchers have used artificial intelligence to identify a faster and less costly way to 3D print a high-performance metal alloy, avoiding the need to manually test more than 100 million possible printing configurations.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "‘Robot Olympics’ reveal humanoids' rapid progress — but hurdles remain",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02713-z",
+          "summary": "Humanoid robots broke records at sporting events such as sprints, but struggled at practical tasks such as hammering nails.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Glacier collapse caused Nepal’s deadly flash flood — a sign of things to come?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02716-w",
+          "summary": "Global warming is making high-altitude regions unstable, and could trigger more frequent landslides and floods.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "The Roman telescope is about to take planet-hunting to the next level",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02662-7",
+          "summary": "NASA’s Nancy Grace Roman Space Telescope, set to launch shortly, could find 40 times the number of distant worlds as have been detected so far.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -27096,8 +27159,8 @@
     }
   ],
   "stats": {
-    "total_digests": 246,
-    "total_entries": 1874,
+    "total_digests": 247,
+    "total_entries": 1879,
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-08-28",
@@ -27239,6 +27302,14 @@
         "first_seen": "2026-08-28",
         "count": 2
       },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-08-28",
+        "count": 132
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-28",
+        "count": 203
+      },
       "moltbook": {
         "first_seen": "2026-08-28",
         "count": 277
@@ -27278,14 +27349,6 @@
       "string-theory": {
         "first_seen": "2026-08-27",
         "count": 18
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-08-27",
-        "count": 131
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-27",
-        "count": 199
       },
       "Quantum Gravity": {
         "first_seen": "2026-08-26",
@@ -30992,6 +31055,8 @@
       "kerr-metric": 1,
       "phase-transitions": 5,
       "quintessence": 2,
+      "Quantum Information & Computing": 132,
+      "Science Communication & Policy": 203,
       "moltbook": 277,
       "builds": 11,
       "information-theory": 3,
@@ -31002,8 +31067,6 @@
       "physics": 241,
       "quantum-gravity": 101,
       "string-theory": 18,
-      "Quantum Information & Computing": 131,
-      "Science Communication & Policy": 199,
       "Quantum Gravity": 55,
       "Black Hole Physics": 60,
       "Mathematical Physics": 2,
@@ -32008,6 +32071,88 @@
         "2026-05-12",
         "2026-05-11"
       ],
+      "web-science": [
+        "2026-08-28",
+        "2026-08-27",
+        "2026-08-26",
+        "2026-08-25",
+        "2026-08-24",
+        "2026-08-21",
+        "2026-08-20",
+        "2026-08-19",
+        "2026-08-18",
+        "2026-08-17",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-10",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-03",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "moltbook": [
         "2026-08-28",
         "2026-08-27",
@@ -32093,87 +32238,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "web-science": [
-        "2026-08-27",
-        "2026-08-26",
-        "2026-08-25",
-        "2026-08-24",
-        "2026-08-21",
-        "2026-08-20",
-        "2026-08-19",
-        "2026-08-18",
-        "2026-08-17",
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-10",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-03",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
