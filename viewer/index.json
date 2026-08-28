@@ -1,6 +1,213 @@
 {
-  "generated": "2026-08-27T04:50:38.043Z",
+  "generated": "2026-08-28T01:42:22.825Z",
   "digests": [
+    {
+      "date": "2026-08-28",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-28",
+      "categories": "astro-ph.CO, gr-qc, hep-ph, hep-th, math-ph, quant-ph",
+      "items_found": 15,
+      "focus": "black hole, holograph, topological",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Stationary Dirac condensates around Kerr black holes",
+          "authors": "Sen Guo, Peng-Yu Chen, Yi-Han Huang et al.",
+          "arxiv_id": "2608.25436",
+          "url": "https://arxiv.org/abs/2608.25436",
+          "categories": "gr-qc, hep-th",
+          "summary": "Ultralight bosonic fields can form macroscopic clouds around rotating black holes, whereas the existence of analogous stationary fermionic condensates is strictly constrained by their intrinsic spin. Here we establish a complete geometric and kinematic framework to resolve the stationary bound states of massive Dirac fields on Kerr and Kerr-Newman backgrounds.",
+          "relevance": "black-holes, topological",
+          "tags": [
+            "black-holes",
+            "topological"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Holographic codes seen through ZX-calculus",
+          "authors": "Kwok Ho Wan, H.C.W. Price, Qing Yao et al.",
+          "arxiv_id": "2601.04467",
+          "url": "https://arxiv.org/abs/2601.04467",
+          "categories": "quant-ph, hep-th",
+          "summary": "We re-visit the pentagon holographic quantum error correcting code from a ZX-calculus perspective. By expressing the underlying tensors as ZX-diagrams, we study the stabiliser structure of the code via Pauli webs.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Hubble tension: the shape wall",
+          "authors": "Miguel A. Sabogal, Luis A. Escamilla, Davide Pedrotti et al.",
+          "arxiv_id": "2607.21244",
+          "url": "https://arxiv.org/abs/2607.21244",
+          "categories": "hep-ph, gr-qc, hep-th, astro-ph.CO",
+          "summary": "The standard &#34;no-go theorem&#34; against late-time solutions to the Hubble tension is essentially a normalization wall, since Baryon Acoustic Oscillation (BAO) measurements constrain the product $H_0r_d$, with $r_d$ the sound horizon at baryon drag. However, late-time solutions (which keep $r_d$ fixed) are tightly constrained not only by the BAO normalization $H_0r_d$, but also by the shape of the expansion history, i.e.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Emergence of Kastor-Traschen spacetime from a nonlinear Dirac system",
+          "authors": "Daisuke Ida",
+          "arxiv_id": "2608.24975",
+          "url": "https://arxiv.org/abs/2608.24975",
+          "categories": "gr-qc, hep-th, math-ph",
+          "summary": "We establish a uniqueness theorem in four-dimensional spacetime, demonstrating that a nonlinear spinor system naturally constrains the background geometry to the Kastor-Traschen spacetime, which describes dynamical, cosmic multi-black-holes. By analyzing a nonlinear field equation where the super-covariant derivative of a Dirac spinor is sourced by intrinsic fermion currents, we evaluate its integrability under two physical requirements: a phase-locking condition enforcing a real hermitian product $\\overline{\\psi}_R \\psi_L$, and a pure-electric source condition.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Low-Frequency Gravitational Bremsstrahlung and Memory in a Medium",
+          "authors": "Diego Blas, Silvia Gasparotto, Hitoshi Murayama et al.",
+          "arxiv_id": "2608.24994",
+          "url": "https://arxiv.org/abs/2608.24994",
+          "categories": "hep-ph, gr-qc, hep-th",
+          "summary": "Gravitational radiation from the early Universe offers a powerful window into physics beyond the Standard Model (SM). In this paper, we investigate the low-frequency tail of gravitational radiation produced by the decay of massive particles.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Anti-Ultralocality and Plateau Models of Inflation",
+          "authors": "Joshua Shterenberg, David Garfinkle, Anna I. Rosenzweig et al.",
+          "arxiv_id": "2608.24997",
+          "url": "https://arxiv.org/abs/2608.24997",
+          "categories": "gr-qc, hep-th",
+          "summary": "Anti-ultralocality refers to the growth of spatial gradient terms relative to velocity terms in the coupled Einstein--scalar field equations. It is a characteristic feature of decelerated expansion before the onset of inflation.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Slowly Rolling on a Quantum Correction",
+          "authors": "Ido Ben-Dayan, Ayushi Srivastava, Amresh Verma",
+          "arxiv_id": "2608.25004",
+          "url": "https://arxiv.org/abs/2608.25004",
+          "categories": "hep-ph, gr-qc, hep-th, astro-ph.CO",
+          "summary": "Recent advances in cosmological measurements such as DESI and ACT may indicate an increase in the preferred value of the spectral tilt $n_s$ such that it disfavors rather popular models such as the Higgs or Starobinski inflation models. We argue that it actually means that the data is now sensitive enough to quantum corrections beyond simple tree-level models.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "21-cm Brightness Temperature in a Unified-Dark-Sector Horndeski Theory",
+          "authors": "Bertha Cuadros-Melgar, Thanasis Karakasis, Eleftherios Papantonopoulos et al.",
+          "arxiv_id": "2608.25159",
+          "url": "https://arxiv.org/abs/2608.25159",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate the impact of scalar-tensor theories on the 21cm brightness temperature. We consider a specific model in Horndeski scalar-tensor theory in which dark matter and dark energy in the framework of shift-symmetric generalized Galileon theories was described and an effective unified cosmic fluid was obtained.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Reconstructing $f(R)$ gravity from generalized entropies: exact Lagrangians",
+          "authors": "Ankit Anand, Sahil Devdutt, Kimet Jusufi et al.",
+          "arxiv_id": "2608.25722",
+          "url": "https://arxiv.org/abs/2608.25722",
+          "categories": "gr-qc, hep-th",
+          "summary": "Generalized horizon entropies are widely used as theoretical modifications of the Bekenstein-Hawking area law, but through the Wald construction they may also encode modifications of the underlying gravitational dynamics. We reconstruct metric $f(R)$ gravity from prescribed entropy-area relations and show that the procedure is intrinsically branch dependent through the required area-curvature map.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Vacuum energy problem in anti-de Sitter space",
+          "authors": "E.V. Arbuzova, A.D. Dolgov",
+          "arxiv_id": "2608.25860",
+          "url": "https://arxiv.org/abs/2608.25860",
+          "categories": "gr-qc, hep-th",
+          "summary": "We investigate the cosmological evolution of a universe with an initially large negative vacuum energy, corresponding to an anti-de Sitter (AdS) space-time. Such a universe inevitably contracts and collapses into a singularity.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Single-Minus Graviton Amplitudes from Matrix Theory",
+          "authors": "Alfredo Guevara, Alexandru Lupsasca, Juan Maldacena et al.",
+          "arxiv_id": "2608.25239",
+          "url": "https://arxiv.org/abs/2608.25239",
+          "categories": "gr-qc, hep-th",
+          "summary": "The $n$-point single-minus graviton amplitudes are nonzero in a special kinematic region that preserves some supersymmetry when embedded in supergravity. We compute these amplitudes within the BFSS matrix theory by relating them to an index problem considered by A.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Massive Ghost Confinement, Dipole Equation and Multipole States in Quadratic Gravity",
+          "authors": "Ichiro Oda",
+          "arxiv_id": "2608.26085",
+          "url": "https://arxiv.org/abs/2608.26085",
+          "categories": "hep-ph, gr-qc, hep-th",
+          "summary": "We investigate the problem of confinement of massive ghost, which violates the unitarity of the physical S-matrix, in quadratic gravity on the basis of a manifestly covariant and local canonical operator formalism. First, we reconsider the manifestly covariant quantization of quadratic gravity in the de Donder gauge (the harmonic gauge) from the viewpoint of dipole fields.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "An exact dyonic black hole at the integrable locus of quadratic nonlinear electrodynamics",
+          "authors": "Faizuddin Ahmed, Ahmad Al-Badawi, Izzet Sakalli",
+          "arxiv_id": "2608.23620",
+          "url": "https://arxiv.org/abs/2608.23620",
+          "categories": "gr-qc",
+          "summary": "We obtain an exact dyonic black-hole solution in quadratic nonlinear electrodynamics defined by $-F+aF^{2}+bG^{2}$ on the special locus $b=a/2$. At this locus, the radial dependence in the electric constitutive relation cancels and the magnetic charge decouples, allowing the field equations to be integrated exactly.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Reconstruction of the Weyl-Lewis-Papapetrou metric for stationary and axially symmetric gravitational perturbations of a Kerr black hole",
+          "authors": "David Kofroň, Petr Kotlařík",
+          "arxiv_id": "2608.24096",
+          "url": "https://arxiv.org/abs/2608.24096",
+          "categories": "gr-qc",
+          "summary": "The study of black hole perturbations typically follows two main approaches: the direct perturbation of the metric, or the perturbation within the Newman-Penrose (NP) or Geroch-Held-Penrose (GHP) formalism. In the latter case, a reconstruction procedure, such as the Chrzanowski-Cohen-Kegeles (CCK) method based on the Debye (Hertz) potential, is required to obtain the corresponding metric perturbation.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Thermodynamics, Joule-Thomson Expansion and Ruppeiner Geometry of a Dyonic NED-AdS Black Hole Surrounded by Quintessence",
+          "authors": "Djedai Ayang Kamo, Saleh Mahamat, Ragil Brand Tsafack Ndongmo et al.",
+          "arxiv_id": "2608.24117",
+          "url": "https://arxiv.org/abs/2608.24117",
+          "categories": "gr-qc",
+          "summary": "We investigate the thermodynamic properties, Joule-Thomson expansion, and microscopic structure of a dyonic Reissner-Nordström-AdS black hole in nonlinear electrodynamics surrounded by quintessence. Within the extended phase-space formalism, analytical expressions for the mass, Hawking temperature, equation of state, heat capacity, Gibbs free energy, Joule-Thomson coefficient, and Ruppeiner curvature are derived.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-27",
       "type": "arxiv",
@@ -26688,16 +26895,24 @@
     }
   ],
   "stats": {
-    "total_digests": 244,
-    "total_entries": 1847,
+    "total_digests": 245,
+    "total_entries": 1862,
     "unique_tags": {
       "black-holes": {
-        "first_seen": "2026-08-27",
-        "count": 358
+        "first_seen": "2026-08-28",
+        "count": 364
+      },
+      "topological": {
+        "first_seen": "2026-08-28",
+        "count": 69
+      },
+      "holography": {
+        "first_seen": "2026-08-28",
+        "count": 100
       },
       "physics": {
-        "first_seen": "2026-08-27",
-        "count": 241
+        "first_seen": "2026-08-28",
+        "count": 250
       },
       "quantum-gravity": {
         "first_seen": "2026-08-27",
@@ -26815,10 +27030,6 @@
         "first_seen": "2026-08-24",
         "count": 49
       },
-      "holography": {
-        "first_seen": "2026-08-22",
-        "count": 99
-      },
       "gravitational-waves": {
         "first_seen": "2026-08-22",
         "count": 20
@@ -26826,10 +27037,6 @@
       "high-energy-physics": {
         "first_seen": "2026-08-22",
         "count": 1
-      },
-      "topological": {
-        "first_seen": "2026-08-22",
-        "count": 68
       },
       "entanglement": {
         "first_seen": "2026-08-22",
@@ -30485,8 +30692,10 @@
       }
     },
     "tag_counts": {
-      "black-holes": 358,
-      "physics": 241,
+      "black-holes": 364,
+      "topological": 69,
+      "holography": 100,
+      "physics": 250,
       "quantum-gravity": 101,
       "string-theory": 18,
       "Quantum Information & Computing": 131,
@@ -30516,10 +30725,8 @@
       "Many-Body Physics": 4,
       "Holography": 9,
       "Experiment & Observation": 49,
-      "holography": 99,
       "gravitational-waves": 20,
       "high-energy-physics": 1,
-      "topological": 68,
       "entanglement": 98,
       "quantum-computing": 18,
       "cosmology": 8,
@@ -31436,6 +31643,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-28",
         "2026-08-27",
         "2026-08-26",
         "2026-08-25",
