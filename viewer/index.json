@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T01:42:22.825Z",
+  "generated": "2026-08-28T01:51:47.442Z",
   "digests": [
     {
       "date": "2026-08-28",
@@ -16,11 +16,12 @@
           "arxiv_id": "2608.25436",
           "url": "https://arxiv.org/abs/2608.25436",
           "categories": "gr-qc, hep-th",
-          "summary": "Ultralight bosonic fields can form macroscopic clouds around rotating black holes, whereas the existence of analogous stationary fermionic condensates is strictly constrained by their intrinsic spin. Here we establish a complete geometric and kinematic framework to resolve the stationary bound states of massive Dirac fields on Kerr and Kerr-Newman backgrounds.",
-          "relevance": "black-holes, topological",
+          "summary": "The authors develop a complete framework for stationary bound states of massive Dirac fields around Kerr and Kerr-Newman black holes, resolving a long-standing question about whether fermionic analogs of bosonic superradiant clouds can exist. Using a global radial formulation and careful boundary analysis, they discover that fermionic clouds form fundamentally different geometries—globally filled oblate shapes rather than hollow toroidal ones—due to the half-integer nature of the azimuthal quantum number. Their key result is a \"synchronization veto\": at the critical superradiant frequency, the Dirac equation loses the logarithmic singularities that would allow regular solutions, proving that stationary fermionic hair is impossible regardless of kinematic tuning. This establishes that black hole hair formation depends crucially on quantum spin statistics combined with horizon causality, not merely on superradiant kinematics.",
+          "relevance": "This directly addresses black hole physics and quantum field theory in curved spacetime, relevant to Deepak's interests in quantum gravity and black hole phenomenology. The no-hair theorem extension to fermions has implications for understanding how quantum fields interact with classical gravity.",
           "tags": [
             "black-holes",
-            "topological"
+            "quantum-field-theory",
+            "superradiance"
           ]
         },
         {
@@ -30,11 +31,12 @@
           "arxiv_id": "2601.04467",
           "url": "https://arxiv.org/abs/2601.04467",
           "categories": "quant-ph, hep-th",
-          "summary": "We re-visit the pentagon holographic quantum error correcting code from a ZX-calculus perspective. By expressing the underlying tensors as ZX-diagrams, we study the stabiliser structure of the code via Pauli webs.",
-          "relevance": "black-holes, holography",
+          "summary": "This paper recasts the pentagon holographic quantum error-correcting code using ZX-calculus, a graphical tensor notation, to gain new insights into its structure. The authors diagrammatically analyze stabilizers, logical operators, Rényi entropy, and even construct toy models of black holes and wormholes within this framework. Building on this geometric intuition, they generalize the construction to infinite families of codes based on hyperbolic tessellations and evaluate their performance using belief propagation decoders. The work culminates in a fault-tolerant spacetime quantum channel design where every internal edge is protected against errors.",
+          "relevance": "Connects quantum error correction, holography, and black hole information—central to quantum gravity research. The ZX-calculus approach may offer new tools for understanding the holographic principle and AdS/CFT.",
           "tags": [
-            "black-holes",
-            "holography"
+            "holography",
+            "quantum-error-correction",
+            "black-holes"
           ]
         },
         {
@@ -44,10 +46,12 @@
           "arxiv_id": "2607.21244",
           "url": "https://arxiv.org/abs/2607.21244",
           "categories": "hep-ph, gr-qc, hep-th, astro-ph.CO",
-          "summary": "The standard &#34;no-go theorem&#34; against late-time solutions to the Hubble tension is essentially a normalization wall, since Baryon Acoustic Oscillation (BAO) measurements constrain the product $H_0r_d$, with $r_d$ the sound horizon at baryon drag. However, late-time solutions (which keep $r_d$ fixed) are tightly constrained not only by the BAO normalization $H_0r_d$, but also by the shape of the expansion history, i.e.",
-          "relevance": "physics",
+          "summary": "The authors identify a previously unrecognized obstacle to late-time solutions of the Hubble tension that operates independently of the well-known BAO normalization constraint. Using Gaussian Processes and the latest PantheonPlus supernova and DESI DR2 BAO data, they reconstruct the expansion history nonparametrically and show that the shape of $E(z)$ imposes a \"shape wall\" limiting any late-time increase in $H_0$ to $\\lesssim 2\\%$. This falls far short of the $\\gtrsim 8\\%$ needed to resolve the tension, and the constraint persists even when early-time new physics is included. The result significantly narrows the viable parameter space for cosmological models addressing the Hubble tension.",
+          "relevance": "Important for understanding cosmological tensions that may hint at new physics beyond $\\Lambda$CDM, relevant to quantum gravity phenomenology and early universe physics.",
           "tags": [
-            "physics"
+            "cosmology",
+            "hubble-tension",
+            "dark-energy"
           ]
         },
         {
@@ -57,10 +61,12 @@
           "arxiv_id": "2608.24975",
           "url": "https://arxiv.org/abs/2608.24975",
           "categories": "gr-qc, hep-th, math-ph",
-          "summary": "We establish a uniqueness theorem in four-dimensional spacetime, demonstrating that a nonlinear spinor system naturally constrains the background geometry to the Kastor-Traschen spacetime, which describes dynamical, cosmic multi-black-holes. By analyzing a nonlinear field equation where the super-covariant derivative of a Dirac spinor is sourced by intrinsic fermion currents, we evaluate its integrability under two physical requirements: a phase-locking condition enforcing a real hermitian product $\\overline{\\psi}_R \\psi_L$, and a pure-electric source condition.",
-          "relevance": "black-holes",
+          "summary": "This work proves a uniqueness theorem showing that a nonlinear Dirac spinor system dynamically selects the Kastor-Traschen spacetime—describing multiple moving black holes in a de Sitter universe—as the only consistent background geometry. Under physically motivated constraints (phase-locking and pure-electric sourcing), the spinor becomes an eigenvector of the super-covariant Dirac operator with eigenvalue equal to the Hubble constant. The result offers a remarkable mechanism where both the cosmological constant and multi-black-hole configurations emerge spontaneously from fermion condensates, connecting quantum field theory directly to cosmological geometry.",
+          "relevance": "Highly relevant to quantum gravity and emergent spacetime paradigms. The mechanism connects fermionic matter to cosmological constants and black hole dynamics.",
           "tags": [
-            "black-holes"
+            "black-holes",
+            "emergent-spacetime",
+            "dirac-field"
           ]
         },
         {
@@ -70,10 +76,12 @@
           "arxiv_id": "2608.24994",
           "url": "https://arxiv.org/abs/2608.24994",
           "categories": "hep-ph, gr-qc, hep-th",
-          "summary": "Gravitational radiation from the early Universe offers a powerful window into physics beyond the Standard Model (SM). In this paper, we investigate the low-frequency tail of gravitational radiation produced by the decay of massive particles.",
-          "relevance": "physics",
+          "summary": "The paper studies low-frequency gravitational radiation produced by massive particle decays in the early Universe, focusing on the transition between bremsstrahlung and memory regimes. The authors compute the energy spectrum using both Weinberg's soft graviton theorem and direct equation-of-motion methods, finding a characteristic cutoff frequency set by the momentum transfer rate of decay products. They show that the cosmological stochastic background exhibits linear frequency scaling above the cutoff but cubic suppression below it—substantially weaker than naive extrapolations would predict. This suppression has important implications for the detectability of primordial gravitational waves from particle decays.",
+          "relevance": "Relevant to gravitational wave cosmology and early universe physics, connecting particle physics beyond the Standard Model to observable gravitational wave signatures.",
           "tags": [
-            "physics"
+            "gravitational-waves",
+            "early-universe",
+            "beyond-standard-model"
           ]
         },
         {
@@ -83,10 +91,12 @@
           "arxiv_id": "2608.24997",
           "url": "https://arxiv.org/abs/2608.24997",
           "categories": "gr-qc, hep-th",
-          "summary": "Anti-ultralocality refers to the growth of spatial gradient terms relative to velocity terms in the coupled Einstein--scalar field equations. It is a characteristic feature of decelerated expansion before the onset of inflation.",
-          "relevance": "physics",
+          "summary": "The authors investigate whether plateau-shaped inflaton potentials—favored for producing low tensor-to-scalar ratios—can successfully initiate inflation when generic initial conditions include significant spatial inhomogeneities. Using numerical relativity, they find that anti-ultralocality (the dominance of spatial gradients over kinetic terms) poses a severe threat to plateau models: the extreme flatness and the $10^{10}$ energy gap between Planck scale and plateau energy make these models especially sensitive to gradient growth. Generic initial conditions either fail to produce enough e-folds or trigger quantum runaway, with the fine-tuning required becoming more severe as the inflationary energy scale decreases. This challenges common strategies for suppressing the tensor-to-scalar ratio.",
+          "relevance": "Important for understanding the early universe and quantum gravity effects during inflation. The interplay between quantum field theory and classical gravity in the pre-inflationary era is directly relevant to quantum gravity phenomenology.",
           "tags": [
-            "physics"
+            "inflation",
+            "numerical-relativity",
+            "early-universe"
           ]
         },
         {
@@ -96,10 +106,12 @@
           "arxiv_id": "2608.25004",
           "url": "https://arxiv.org/abs/2608.25004",
           "categories": "hep-ph, gr-qc, hep-th, astro-ph.CO",
-          "summary": "Recent advances in cosmological measurements such as DESI and ACT may indicate an increase in the preferred value of the spectral tilt $n_s$ such that it disfavors rather popular models such as the Higgs or Starobinski inflation models. We argue that it actually means that the data is now sensitive enough to quantum corrections beyond simple tree-level models.",
-          "relevance": "physics",
+          "summary": "With recent DESI and ACT data pushing the spectral index $n_s$ to higher values, the authors argue that tree-level inflation models like Higgs or Starobinsky inflation may be disfavored. They propose that the data is now precise enough to probe quantum corrections beyond tree level, revisiting Coleman-Weinberg effective potentials as viable alternatives. Through detailed prediction and likelihood analysis, they demonstrate that quantum-corrected models offer a robust and observationally interesting framework for inflation, potentially resolving tensions between simple single-field models and emerging cosmological data.",
+          "relevance": "Connects observational cosmology to quantum field theory in curved spacetime, relevant for understanding quantum effects in the early universe.",
           "tags": [
-            "physics"
+            "inflation",
+            "quantum-corrections",
+            "cosmology"
           ]
         },
         {
@@ -109,10 +121,12 @@
           "arxiv_id": "2608.25159",
           "url": "https://arxiv.org/abs/2608.25159",
           "categories": "gr-qc, hep-th",
-          "summary": "We investigate the impact of scalar-tensor theories on the 21cm brightness temperature. We consider a specific model in Horndeski scalar-tensor theory in which dark matter and dark energy in the framework of shift-symmetric generalized Galileon theories was described and an effective unified cosmic fluid was obtained.",
-          "relevance": "physics",
+          "summary": "This paper explores how scalar-tensor theories within the Horndeski framework affect the 21-cm brightness temperature, a key probe of the cosmic dark ages. The authors construct a unified dark sector model where dark matter and dark energy emerge from shift-symmetric generalized Galileons, then compute the resulting Hubble expansion and 21-cm temperature evolution as a function of redshift. They compare their predictions directly against the standard $\\Lambda$CDM curve, providing a concrete observable signature that could distinguish modified gravity theories from the standard cosmological model.",
+          "relevance": "Modified gravity theories are often studied as alternatives to dark energy in quantum gravity contexts. The 21-cm line provides a unique observational window to test these theories.",
           "tags": [
-            "physics"
+            "modified-gravity",
+            "dark-energy",
+            "21cm-line"
           ]
         },
         {
@@ -122,10 +136,12 @@
           "arxiv_id": "2608.25722",
           "url": "https://arxiv.org/abs/2608.25722",
           "categories": "gr-qc, hep-th",
-          "summary": "Generalized horizon entropies are widely used as theoretical modifications of the Bekenstein-Hawking area law, but through the Wald construction they may also encode modifications of the underlying gravitational dynamics. We reconstruct metric $f(R)$ gravity from prescribed entropy-area relations and show that the procedure is intrinsically branch dependent through the required area-curvature map.",
-          "relevance": "physics",
+          "summary": "The authors develop a direct non-perturbative method to reconstruct $f(R)$ gravity Lagrangians from generalized horizon entropy functions, revealing that the reconstruction depends critically on which thermodynamic branch is chosen. On the maximally symmetric branch, they obtain closed-form Lagrangians for several popular entropy modifications: Kaniadakis entropy yields a $1/R$ correction, while logarithmic entropy produces an $R^2 \\ln R$ term. They further derive a criterion linking Dolgov-Kawasaki stability directly to properties of the entropy functional, and show that different branches produce not only different Lagrangians but reversed stability behavior. This establishes a concrete dictionary between horizon thermodynamics and modified gravitational dynamics.",
+          "relevance": "Directly connects to black hole thermodynamics and modified gravity—core areas in quantum gravity research. The reconstruction from entropy to dynamics echoes themes in emergent gravity approaches.",
           "tags": [
-            "physics"
+            "black-hole-thermodynamics",
+            "modified-gravity",
+            "fR-gravity"
           ]
         },
         {
@@ -135,10 +151,12 @@
           "arxiv_id": "2608.25860",
           "url": "https://arxiv.org/abs/2608.25860",
           "categories": "gr-qc, hep-th",
-          "summary": "We investigate the cosmological evolution of a universe with an initially large negative vacuum energy, corresponding to an anti-de Sitter (AdS) space-time. Such a universe inevitably contracts and collapses into a singularity.",
-          "relevance": "physics",
+          "summary": "The paper addresses the catastrophic collapse of a universe with large negative vacuum energy (AdS space) by proposing a dynamical compensation mechanism using a non-minimally coupled scalar field. Through both analytical and numerical analysis, the authors demonstrate that this scalar field can completely cancel the gravitational effect of the negative vacuum energy, driving the spatial curvature to zero and preventing singularity formation. The universe instead transitions to a radiation-dominated power-law expansion, offering a concrete mechanism for avoiding AdS collapse without fine-tuned initial conditions.",
+          "relevance": "Addresses fundamental issues in quantum gravity and cosmology, particularly the cosmological constant problem and vacuum energy dynamics. The AdS/CFT correspondence makes AdS space central to holographic approaches to quantum gravity.",
           "tags": [
-            "physics"
+            "cosmological-constant",
+            "AdS-space",
+            "scalar-fields"
           ]
         },
         {
@@ -148,10 +166,12 @@
           "arxiv_id": "2608.25239",
           "url": "https://arxiv.org/abs/2608.25239",
           "categories": "gr-qc, hep-th",
-          "summary": "The $n$-point single-minus graviton amplitudes are nonzero in a special kinematic region that preserves some supersymmetry when embedded in supergravity. We compute these amplitudes within the BFSS matrix theory by relating them to an index problem considered by A.",
-          "relevance": "physics",
+          "summary": "The authors compute n-point single-minus graviton amplitudes in BFSS matrix theory by relating them to a BPS index counting problem in the Coulomb branch of 4D $\\mathcal{N}=4$ super Yang-Mills. They verify the correspondence explicitly in a specific kinematic regime and prove that the index satisfies the full tower of $w_{1+\\infty}$ soft theorems, matching gravity expectations. For certain kinematics, they show these amplitudes can be physically interpreted as graviton scattering off a plane wave. This provides a non-trivial check of the matrix theory/gravity correspondence in a regime where some supersymmetry is preserved.",
+          "relevance": "Connects to Maldacena's work on quantum gravity via the BFSS matrix model, relevant to understanding quantum aspects of black holes and holography.",
           "tags": [
-            "physics"
+            "matrix-theory",
+            "supersymmetry",
+            "scattering-amplitudes"
           ]
         },
         {
@@ -161,10 +181,12 @@
           "arxiv_id": "2608.26085",
           "url": "https://arxiv.org/abs/2608.26085",
           "categories": "hep-ph, gr-qc, hep-th",
-          "summary": "We investigate the problem of confinement of massive ghost, which violates the unitarity of the physical S-matrix, in quadratic gravity on the basis of a manifestly covariant and local canonical operator formalism. First, we reconsider the manifestly covariant quantization of quadratic gravity in the de Donder gauge (the harmonic gauge) from the viewpoint of dipole fields.",
-          "relevance": "physics",
+          "summary": "This paper tackles the unitarity-violating massive ghost problem in quadratic gravity using a manifestly covariant canonical operator formalism. The author shows that the asymptotic ghost field obeys a dipole equation (as in the Froissart model) within a BRST quartet framework, and quantizes the effective theory to find that the physical Fock space is spanned by multipole states rather than standard single-particle states. This suggests a confinement-like mechanism where the ghost never appears as an asymptotic particle, potentially preserving unitarity while retaining the renormalizability benefits of quadratic gravity.",
+          "relevance": "Addresses a foundational issue in quantum gravity—unitarity in higher-derivative gravity theories. Quadratic gravity is renormalizable but suffers from ghosts; resolving this is crucial for viable quantum gravity models.",
           "tags": [
-            "physics"
+            "quadratic-gravity",
+            "unitarity",
+            "ghosts"
           ]
         },
         {
@@ -174,10 +196,12 @@
           "arxiv_id": "2608.23620",
           "url": "https://arxiv.org/abs/2608.23620",
           "categories": "gr-qc",
-          "summary": "We obtain an exact dyonic black-hole solution in quadratic nonlinear electrodynamics defined by $-F+aF^{2}+bG^{2}$ on the special locus $b=a/2$. At this locus, the radial dependence in the electric constitutive relation cancels and the magnetic charge decouples, allowing the field equations to be integrated exactly.",
-          "relevance": "black-holes",
+          "summary": "The authors discover an exact dyonic black hole solution in quadratic nonlinear electrodynamics at a special integrable locus where $b=a/2$. At this point, the field equations simplify dramatically and admit closed-form solutions in terms of Gauss hypergeometric functions, with the cosmological constant included. The solution exhibits rich phenomenology: a three-horizon window requiring both electric and magnetic charge, a Smarr formula in closed form, and a critical ratio in extended thermodynamics that drops below the Maxwell value of $3/8$. Most strikingly, birefringence produces a split shadow doublet with $\\sim 0.5\\%$ separation, offering a potential observational signature of nonlinear electrodynamics near black holes.",
+          "relevance": "Provides new exact solutions in black hole physics with potential observational consequences, relevant to testing fundamental physics through black hole observations.",
           "tags": [
-            "black-holes"
+            "black-holes",
+            "nonlinear-electrodynamics",
+            "exact-solutions"
           ]
         },
         {
@@ -187,10 +211,12 @@
           "arxiv_id": "2608.24096",
           "url": "https://arxiv.org/abs/2608.24096",
           "categories": "gr-qc",
-          "summary": "The study of black hole perturbations typically follows two main approaches: the direct perturbation of the metric, or the perturbation within the Newman-Penrose (NP) or Geroch-Held-Penrose (GHP) formalism. In the latter case, a reconstruction procedure, such as the Chrzanowski-Cohen-Kegeles (CCK) method based on the Debye (Hertz) potential, is required to obtain the corresponding metric perturbation.",
-          "relevance": "black-holes",
+          "summary": "This work develops a bridge between the Newman-Penrose/Geroch-Held-Penrose formalism and the standard Weyl-Lewis-Papapetrou (WLP) metric form for stationary, axisymmetric Kerr perturbations. The authors derive an explicit gauge transformation from the averaged radiation gauge to WLP form, expressing the linearized WLP metric functions directly in terms of the Debye (Hertz) potential. They illustrate the method with two concrete examples: a Schwarzschild black hole perturbed by a thin disk, and a Kerr black hole perturbed by a rotating point particle. The result provides a practical tool for computing physically relevant metric perturbations without being restricted to the radiation gauge.",
+          "relevance": "Essential technical machinery for black hole perturbation theory, directly applicable to gravitational wave physics and tests of general relativity with black holes.",
           "tags": [
-            "black-holes"
+            "black-hole-perturbations",
+            "kerr-metric",
+            "gravitational-waves"
           ]
         },
         {
@@ -200,10 +226,12 @@
           "arxiv_id": "2608.24117",
           "url": "https://arxiv.org/abs/2608.24117",
           "categories": "gr-qc",
-          "summary": "We investigate the thermodynamic properties, Joule-Thomson expansion, and microscopic structure of a dyonic Reissner-Nordström-AdS black hole in nonlinear electrodynamics surrounded by quintessence. Within the extended phase-space formalism, analytical expressions for the mass, Hawking temperature, equation of state, heat capacity, Gibbs free energy, Joule-Thomson coefficient, and Ruppeiner curvature are derived.",
-          "relevance": "black-holes",
+          "summary": "The authors perform a comprehensive thermodynamic analysis of a dyonic Reissner-Nordström-AdS black hole in nonlinear electrodynamics surrounded by quintessence dark energy. Within extended phase space, they derive analytical expressions for temperature, heat capacity, Gibbs free energy, Joule-Thomson coefficient, and Ruppeiner curvature, finding Van der Waals-like phase transitions strongly modified by quintessence and nonlinearity. The Joule-Thomson analysis reveals distinct heating and cooling regimes, while Ruppeiner geometry indicates strong microscopic correlations near critical points. The combined effects of dyonic charge, nonlinear electrodynamics, quintessence, and AdS pressure substantially reshape both the macroscopic phase structure and effective microscopic interactions of the black hole.",
+          "relevance": "Black hole thermodynamics is a cornerstone of quantum gravity, providing insights into the microscopic degrees of freedom of black holes. The extended phase space approach connects to the cosmological constant as a thermodynamic variable.",
           "tags": [
-            "black-holes"
+            "black-hole-thermodynamics",
+            "phase-transitions",
+            "quintessence"
           ]
         }
       ]
@@ -26900,19 +26928,147 @@
     "unique_tags": {
       "black-holes": {
         "first_seen": "2026-08-28",
-        "count": 364
+        "count": 362
       },
-      "topological": {
+      "quantum-field-theory": {
         "first_seen": "2026-08-28",
-        "count": 69
+        "count": 7
+      },
+      "superradiance": {
+        "first_seen": "2026-08-28",
+        "count": 1
       },
       "holography": {
         "first_seen": "2026-08-28",
         "count": 100
       },
-      "physics": {
+      "quantum-error-correction": {
         "first_seen": "2026-08-28",
-        "count": 250
+        "count": 4
+      },
+      "cosmology": {
+        "first_seen": "2026-08-28",
+        "count": 10
+      },
+      "hubble-tension": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "dark-energy": {
+        "first_seen": "2026-08-28",
+        "count": 6
+      },
+      "emergent-spacetime": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "dirac-field": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-08-28",
+        "count": 22
+      },
+      "early-universe": {
+        "first_seen": "2026-08-28",
+        "count": 2
+      },
+      "beyond-standard-model": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "inflation": {
+        "first_seen": "2026-08-28",
+        "count": 7
+      },
+      "numerical-relativity": {
+        "first_seen": "2026-08-28",
+        "count": 3
+      },
+      "quantum-corrections": {
+        "first_seen": "2026-08-28",
+        "count": 2
+      },
+      "modified-gravity": {
+        "first_seen": "2026-08-28",
+        "count": 10
+      },
+      "21cm-line": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "black-hole-thermodynamics": {
+        "first_seen": "2026-08-28",
+        "count": 10
+      },
+      "fR-gravity": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "cosmological-constant": {
+        "first_seen": "2026-08-28",
+        "count": 3
+      },
+      "AdS-space": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "scalar-fields": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "matrix-theory": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "supersymmetry": {
+        "first_seen": "2026-08-28",
+        "count": 4
+      },
+      "scattering-amplitudes": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "quadratic-gravity": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "unitarity": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "ghosts": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "nonlinear-electrodynamics": {
+        "first_seen": "2026-08-28",
+        "count": 3
+      },
+      "exact-solutions": {
+        "first_seen": "2026-08-28",
+        "count": 2
+      },
+      "black-hole-perturbations": {
+        "first_seen": "2026-08-28",
+        "count": 2
+      },
+      "kerr-metric": {
+        "first_seen": "2026-08-28",
+        "count": 1
+      },
+      "phase-transitions": {
+        "first_seen": "2026-08-28",
+        "count": 5
+      },
+      "quintessence": {
+        "first_seen": "2026-08-28",
+        "count": 2
+      },
+      "physics": {
+        "first_seen": "2026-08-27",
+        "count": 241
       },
       "quantum-gravity": {
         "first_seen": "2026-08-27",
@@ -27030,13 +27186,13 @@
         "first_seen": "2026-08-24",
         "count": 49
       },
-      "gravitational-waves": {
-        "first_seen": "2026-08-22",
-        "count": 20
-      },
       "high-energy-physics": {
         "first_seen": "2026-08-22",
         "count": 1
+      },
+      "topological": {
+        "first_seen": "2026-08-22",
+        "count": 68
       },
       "entanglement": {
         "first_seen": "2026-08-22",
@@ -27045,10 +27201,6 @@
       "quantum-computing": {
         "first_seen": "2026-08-22",
         "count": 18
-      },
-      "cosmology": {
-        "first_seen": "2026-08-22",
-        "count": 8
       },
       "many-body": {
         "first_seen": "2026-08-22",
@@ -27494,10 +27646,6 @@
         "first_seen": "2026-08-13",
         "count": 1
       },
-      "modified-gravity": {
-        "first_seen": "2026-08-13",
-        "count": 8
-      },
       "Gauss-Bonnet": {
         "first_seen": "2026-08-13",
         "count": 1
@@ -27505,10 +27653,6 @@
       "Hawking-radiation": {
         "first_seen": "2026-08-13",
         "count": 2
-      },
-      "quantum-field-theory": {
-        "first_seen": "2026-08-13",
-        "count": 6
       },
       "group-field-theory": {
         "first_seen": "2026-08-13",
@@ -27749,10 +27893,6 @@
       "3d-gravity": {
         "first_seen": "2026-08-06",
         "count": 1
-      },
-      "inflation": {
-        "first_seen": "2026-08-05",
-        "count": 5
       },
       "scalarization": {
         "first_seen": "2026-08-05",
@@ -28126,10 +28266,6 @@
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "quantum-error-correction": {
-        "first_seen": "2026-06-05",
-        "count": 3
-      },
       "topological-order": {
         "first_seen": "2026-06-05",
         "count": 11
@@ -28174,10 +28310,6 @@
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "dark-energy": {
-        "first_seen": "2026-06-05",
-        "count": 4
-      },
       "curved-spacetime": {
         "first_seen": "2026-06-05",
         "count": 4
@@ -28205,10 +28337,6 @@
       "quantum-gravity-phenomenology": {
         "first_seen": "2026-06-05",
         "count": 2
-      },
-      "supersymmetry": {
-        "first_seen": "2026-06-05",
-        "count": 3
       },
       "chiral-symmetry-breaking": {
         "first_seen": "2026-06-05",
@@ -28282,10 +28410,6 @@
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "numerical-relativity": {
-        "first_seen": "2026-06-05",
-        "count": 2
-      },
       "waveform-models": {
         "first_seen": "2026-06-05",
         "count": 1
@@ -28309,14 +28433,6 @@
       "self-interacting-dark-matter": {
         "first_seen": "2026-06-05",
         "count": 1
-      },
-      "black-hole-thermodynamics": {
-        "first_seen": "2026-06-04",
-        "count": 8
-      },
-      "phase-transitions": {
-        "first_seen": "2026-06-04",
-        "count": 4
       },
       "off-shell-thermodynamics": {
         "first_seen": "2026-06-04",
@@ -28365,10 +28481,6 @@
       "supersymmetry-breaking": {
         "first_seen": "2026-06-04",
         "count": 1
-      },
-      "cosmological-constant": {
-        "first_seen": "2026-06-04",
-        "count": 2
       },
       "causal-structure": {
         "first_seen": "2026-06-04",
@@ -28425,10 +28537,6 @@
       "string-cloud": {
         "first_seen": "2026-06-04",
         "count": 2
-      },
-      "quintessence": {
-        "first_seen": "2026-06-04",
-        "count": 1
       },
       "random-tensor-networks": {
         "first_seen": "2026-06-04",
@@ -28607,10 +28715,6 @@
         "count": 3
       },
       "Lindblad": {
-        "first_seen": "2026-06-03",
-        "count": 1
-      },
-      "quantum-corrections": {
         "first_seen": "2026-06-03",
         "count": 1
       },
@@ -29097,10 +29201,6 @@
       "dyonic": {
         "first_seen": "2026-05-29",
         "count": 1
-      },
-      "nonlinear-electrodynamics": {
-        "first_seen": "2026-05-29",
-        "count": 2
       },
       "Bardeen": {
         "first_seen": "2026-05-29",
@@ -29831,14 +29931,6 @@
         "count": 1
       },
       "gravitational-energy": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "exact-solutions": {
-        "first_seen": "2026-05-21",
-        "count": 1
-      },
-      "black-hole-perturbations": {
         "first_seen": "2026-05-21",
         "count": 1
       },
@@ -30692,10 +30784,42 @@
       }
     },
     "tag_counts": {
-      "black-holes": 364,
-      "topological": 69,
+      "black-holes": 362,
+      "quantum-field-theory": 7,
+      "superradiance": 1,
       "holography": 100,
-      "physics": 250,
+      "quantum-error-correction": 4,
+      "cosmology": 10,
+      "hubble-tension": 1,
+      "dark-energy": 6,
+      "emergent-spacetime": 1,
+      "dirac-field": 1,
+      "gravitational-waves": 22,
+      "early-universe": 2,
+      "beyond-standard-model": 1,
+      "inflation": 7,
+      "numerical-relativity": 3,
+      "quantum-corrections": 2,
+      "modified-gravity": 10,
+      "21cm-line": 1,
+      "black-hole-thermodynamics": 10,
+      "fR-gravity": 1,
+      "cosmological-constant": 3,
+      "AdS-space": 1,
+      "scalar-fields": 1,
+      "matrix-theory": 1,
+      "supersymmetry": 4,
+      "scattering-amplitudes": 1,
+      "quadratic-gravity": 1,
+      "unitarity": 1,
+      "ghosts": 1,
+      "nonlinear-electrodynamics": 3,
+      "exact-solutions": 2,
+      "black-hole-perturbations": 2,
+      "kerr-metric": 1,
+      "phase-transitions": 5,
+      "quintessence": 2,
+      "physics": 241,
       "quantum-gravity": 101,
       "string-theory": 18,
       "Quantum Information & Computing": 131,
@@ -30725,11 +30849,10 @@
       "Many-Body Physics": 4,
       "Holography": 9,
       "Experiment & Observation": 49,
-      "gravitational-waves": 20,
       "high-energy-physics": 1,
+      "topological": 68,
       "entanglement": 98,
       "quantum-computing": 18,
-      "cosmology": 8,
       "many-body": 26,
       "foundations": 1,
       "field-theory": 1,
@@ -30841,10 +30964,8 @@
       "information-paradox": 5,
       "AdS-CFT": 8,
       "quantum-dynamics": 1,
-      "modified-gravity": 8,
       "Gauss-Bonnet": 1,
       "Hawking-radiation": 2,
-      "quantum-field-theory": 6,
       "group-field-theory": 1,
       "BMS-symmetry": 1,
       "flat-space": 1,
@@ -30905,7 +31026,6 @@
       "ensemble-holography": 1,
       "topological-boundaries": 1,
       "3d-gravity": 1,
-      "inflation": 5,
       "scalarization": 2,
       "schwarzian": 1,
       "gravastars": 1,
@@ -30999,7 +31119,6 @@
       "quantum-Hall-effect": 3,
       "moiré-materials": 2,
       "Berry-curvature": 1,
-      "quantum-error-correction": 3,
       "topological-order": 11,
       "lattice-gauge-theory": 2,
       "measurement-based-computation": 1,
@@ -31011,7 +31130,6 @@
       "black-hole-spins": 1,
       "binary-black-holes": 1,
       "population-astrophysics": 1,
-      "dark-energy": 4,
       "curved-spacetime": 4,
       "running-vacuum": 1,
       "DESI": 1,
@@ -31019,7 +31137,6 @@
       "renormalization-group": 2,
       "unimodular-gravity": 1,
       "quantum-gravity-phenomenology": 2,
-      "supersymmetry": 3,
       "chiral-symmetry-breaking": 1,
       "gauge-theory": 2,
       "super-Lie-algebra": 1,
@@ -31038,15 +31155,12 @@
       "quantum-dot": 1,
       "Shapiro-steps": 1,
       "neutron-star-black-hole": 1,
-      "numerical-relativity": 2,
       "waveform-models": 1,
       "higher-order-modes": 1,
       "dark-matter": 5,
       "neutron-stars": 1,
       "continuous-waves": 1,
       "self-interacting-dark-matter": 1,
-      "black-hole-thermodynamics": 8,
-      "phase-transitions": 4,
       "off-shell-thermodynamics": 1,
       "Hawking-temperature": 1,
       "dilaton": 2,
@@ -31059,7 +31173,6 @@
       "fracton-topological-order": 1,
       "quantum-codes": 1,
       "supersymmetry-breaking": 1,
-      "cosmological-constant": 2,
       "causal-structure": 1,
       "light-cones": 1,
       "quantum-matter": 1,
@@ -31074,7 +31187,6 @@
       "AdS-black-holes": 1,
       "thermodynamic-phase-transitions": 1,
       "string-cloud": 2,
-      "quintessence": 1,
       "random-tensor-networks": 1,
       "multi-entropy": 1,
       "Rényi-entropy": 1,
@@ -31120,7 +31232,6 @@
       "Rindler-horizon": 1,
       "Page-curve": 3,
       "Lindblad": 1,
-      "quantum-corrections": 1,
       "AdS3": 1,
       "Lyapunov-exponent": 1,
       "many-body-topology": 2,
@@ -31242,7 +31353,6 @@
       "Kalb-Ramond": 1,
       "tidal-effects": 1,
       "dyonic": 1,
-      "nonlinear-electrodynamics": 2,
       "Bardeen": 1,
       "Hayward": 1,
       "JT-gravity": 2,
@@ -31426,8 +31536,6 @@
       "exotic-compact-objects": 1,
       "fuzzballs": 1,
       "gravitational-energy": 1,
-      "exact-solutions": 1,
-      "black-hole-perturbations": 1,
       "master-functions": 1,
       "Darboux-transformations": 1,
       "Hamiltonian-formalism": 1,
