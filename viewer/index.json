@@ -1,6 +1,241 @@
 {
-  "generated": "2026-08-28T03:08:03.421Z",
+  "generated": "2026-08-29T01:48:22.931Z",
   "digests": [
+    {
+      "date": "2026-08-29",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-08-29",
+      "categories": "astro-ph.CO, astro-ph.EP, astro-ph.GA, astro-ph.HE, gr-qc, hep-ex, hep-th, math-ph, physics.hist-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, black holes, holography, cosmology, entanglement",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Holography as an Information Principle in Quantum Gravity",
+          "authors": "Sebastian De Haro, Enrico Cinti, Aude Corbeel",
+          "arxiv_id": "2608.26282",
+          "url": "https://arxiv.org/abs/2608.26282",
+          "categories": "hep-th, gr-qc, physics.hist-ph",
+          "summary": "The authors develop a systematic conceptual analysis of how information functions as a substantive principle in quantum gravity, tracing three interconnected roles through 't Hooft's original holographic principle and its modern descendants. Rather than treating information as merely epistemic or Shannon-theoretic, they argue that holographic bounds serve as theory-selection criteria, that holography enforces a principle of theoretical equivalence between bulk and boundary descriptions, and that the encoding of information links 't Hooft's deterministic vision to contemporary work on bulk reconstruction and ER=EPR. They propose a distinction between \"maximal\" and \"intermediate\" conceptions of information to better capture the interpretative work that information does in guiding quantum gravity research.",
+          "relevance": "Directly addresses foundational questions in quantum gravity that lie at the intersection of holography, information theory, and the emergence of spacetime. The analysis of how information functions as a principle rather than a derived quantity resonates with ongoing efforts in loop quantum gravity and related approaches to understand the microscopic degrees of freedom of spacetime.",
+          "tags": [
+            "Quantum Gravity",
+            "Foundations & Interpretations",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Testing holographic computation of entanglement pseudo-entropy in dS₃/ICFT₂",
+          "authors": "Liang Li",
+          "arxiv_id": "2608.26997",
+          "url": "https://arxiv.org/abs/2608.26997",
+          "categories": "gr-qc, hep-th",
+          "summary": "The author constructs a concrete gravitational model for a de Sitter/interface CFT correspondence using Coleman-De Luccia instantons, where a brane joins two de Sitter spacetimes of different radii. By analyzing holographic prescriptions for computing pseudo-entropy via extremal surfaces in this geometry, they identify inconsistencies with expected universal properties of interface CFTs and compare these findings with the better-understood AdS/ICFT case through analytic continuation. The work also extracts the boundary g-function from entanglement entropy perpendicular to the interface, providing a novel testing ground for extending holographic methods to de Sitter space.",
+          "relevance": "Extends holographic entropy calculations beyond the AdS context into de Sitter space, which is directly relevant to quantum gravity phenomenology and the cosmological constant problem. Understanding whether dS/CFT can support a consistent holographic dictionary for entanglement is crucial for any quantum theory of gravity applicable to our universe.",
+          "tags": [
+            "Quantum Gravity",
+            "Holography",
+            "Cosmology & Early Universe"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Crudely Estimated Maximum Mass for a Cosmological Black Hole",
+          "authors": "Don N. Page",
+          "arxiv_id": "2608.26203",
+          "url": "https://arxiv.org/abs/2608.26203",
+          "categories": "gr-qc, hep-th",
+          "summary": "Building on N-body simulations of supermassive black hole binary inspiral, Page combines the observed nearly-linear growth of orbital velocity with gravitational radiation emission to derive a rough upper bound on black hole masses in the present universe. The calculation yields a maximum mass of approximately 1.4×10¹⁴ solar masses for equal-mass binaries, set by the requirement that inspiral driven by stellar dynamics plus gravitational waves can produce coalescence within cosmic time. The result also makes a concrete prediction that gravitational wave strain from such systems should decline for wave periods exceeding roughly 100,000 years.",
+          "relevance": "Sets a novel astrophysical bound on black hole masses that connects gravitational wave physics to large-scale structure formation and galaxy merger history. While crude, this estimate informs the upper envelope of black hole growth scenarios and has implications for space-based gravitational wave detection strategies targeting supermassive binary coalescences.",
+          "tags": [
+            "Black Hole Physics",
+            "Gravitational Waves & Astrophysics",
+            "Cosmology & Early Universe"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Quantizing the guiding center: do quantization and coarse graining commute?",
+          "authors": "Rodrigo Andrade e Silva, Ted Jacobson",
+          "arxiv_id": "2608.26277",
+          "url": "https://arxiv.org/abs/2608.26277",
+          "categories": "hep-th, math-ph, gr-qc, quant-ph",
+          "summary": "The authors rigorously quantize the guiding center effective theory for a charged particle in a two-dimensional magnetic field using group-theoretic methods, then compare the result with a direct coarse-graining of the full microscopic quantum theory. They find broad agreement between the two approaches, but discover a striking exception: for closed isomagnetic contours, the quantized effective theory predicts a discretization of radius that has no counterpart in the underlying microscopic description. This exposes a subtle but important pitfall in effective field theory methodology—quantizing after coarse-graining can generate spurious nonperturbative effects that appear mathematically consistent within the effective theory itself.",
+          "relevance": "The interplay between coarse-graining and quantization is a foundational issue in quantum gravity, where effective theories of geometry are routinely quantized. Jacobson's involvement and the explicit demonstration of spurious discreteness from effective-theory quantization carry direct lessons for approaches that derive discrete spectra from effective descriptions of gravitational systems.",
+          "tags": [
+            "Quantum Gravity",
+            "Field Theory & Mathematical Physics",
+            "Foundations & Interpretations"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Gravitational Lensing of Hayward Black Holes with EFT-Corrected Photon Propagation",
+          "authors": "Takamasa Kanai",
+          "arxiv_id": "2608.26785",
+          "url": "https://arxiv.org/abs/2608.26785",
+          "categories": "gr-qc, hep-th",
+          "summary": "The paper derives how effective field theory corrections to photon propagation—arising from non-minimal couplings between electromagnetism and spacetime curvature—affect strong gravitational lensing by Hayward regular black holes. Working in the strong deflection limit, the author shows that while these curvature corrections are typically tiny, they become significantly amplified near the photon sphere where deflection angles diverge logarithmically. Importantly, the EFT imprint grows stronger as the Hayward regularization parameter approaches its critical value, suggesting that strong lensing observations could in principle distinguish regular black holes from Schwarzschild ones if such curvature-photon couplings exist.",
+          "relevance": "Regular black holes are often discussed as alternatives to singular black holes in quantum gravity scenarios, including within effective descriptions inspired by loop quantum gravity. Understanding whether observations can distinguish them from classical Schwarzschild black holes is essential for testing quantum gravity-inspired models against astrophysical data.",
+          "tags": [
+            "Black Hole Physics",
+            "Experiment & Observation",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "The Capacity of Entanglement and Holographic Entropies at Finite Resources",
+          "authors": "Ning Bao, Jacob March",
+          "arxiv_id": "2608.26377",
+          "url": "https://arxiv.org/abs/2608.26377",
+          "categories": "quant-ph, hep-th",
+          "summary": "The authors resolve two long-standing conceptual gaps in the Ryu-Takayanagi holographic entropy formula. First, they replace the divergent Hilbert-space-dimension bound on entropy precision with the capacity of entanglement—measuring the variance of modular energy—which yields a dimension-free, saturable bound scaling with the square root of entangling area rather than regulated volume. Second, they prove that for holographic states where a single replica saddle dominates, all smooth Rényi entropies and one-shot min/max-entropies converge to the von Neumann entropy up to O(√S_vN), meaning the minimal surface geometry simultaneously determines every operational entropy measure for a single copy of the state.",
+          "relevance": "Holographic entanglement entropy is a cornerstone of the AdS/CFT correspondence and increasingly influential in understanding how spacetime emerges from quantum information. These results sharpen the geometric meaning of entropy in holography and have direct implications for bulk reconstruction and the black hole information problem.",
+          "tags": [
+            "Quantum Information & Computing",
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "The Role of Geometric Analysis in Interferometer Design and Optimization for Gravitational Quantum Entanglement",
+          "authors": "Alireza Maleki",
+          "arxiv_id": "2608.26420",
+          "url": "https://arxiv.org/abs/2608.26420",
+          "categories": "hep-ex, gr-qc, quant-ph",
+          "summary": "The paper critically examines the interferometer designs proposed for detecting gravity-induced quantum entanglement between massive particles, focusing on a widely used approximation that drops phase contributions from vertical trajectory segments. By deriving exact solutions incorporating the full three-dimensional particle paths, the author demonstrates that this approximation can qualitatively alter predictions—producing false null results in regimes where entanglement should exist and missing configurations where entanglement actually vanishes. The analysis establishes that precise geometric modeling of the entire interferometer is essential, not merely a refinement, for reliably interpreting future experiments aiming to detect the quantum nature of gravity.",
+          "relevance": "Gravity-induced entanglement experiments represent one of the most promising near-term routes to probe quantum gravity phenomenology. Ensuring that theoretical predictions and experimental designs are geometrically accurate is crucial for avoiding false negatives and correctly interpreting any observed entanglement signature.",
+          "tags": [
+            "Experiment & Observation",
+            "Quantum Gravity",
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Pair creation in weak gravity and gauge backgrounds: spinning fields and binary stars",
+          "authors": "S. A. Franchino-Viñas, N. Varacalli, O. Zanusso",
+          "arxiv_id": "2608.25540",
+          "url": "https://arxiv.org/abs/2608.25540",
+          "categories": "math-ph, gr-qc, hep-th",
+          "summary": "The authors develop a unified heat-kernel resummation framework to compute pair creation probabilities for scalar, spinor, and vector fields in weak but otherwise arbitrary gravitational and gauge backgrounds. Their method yields closed-form expressions to quadratic order in generalized curvatures and allows the gravitational contribution to be re-expressed directly in terms of the matter sourcing the geometry via Einstein's equations. As a concrete application, they evaluate pair production rates in a binary star system, demonstrating that the formalism can capture genuinely astrophysical scenarios beyond idealized geometries.",
+          "relevance": "Quantum field theory in curved spacetime and particle production in gravitational fields are foundational topics in quantum gravity. The unified treatment across spin sectors and the connection to realistic astrophysical systems like binary stars broadens the phenomenological relevance of the formalism.",
+          "tags": [
+            "Field Theory & Mathematical Physics",
+            "Gravitational Waves & Astrophysics",
+            "High-Energy Physics & Phenomenology"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Effects of the interaction of dark matter and neutron-star matter on extreme and intermediate mass-ratio inspirals",
+          "authors": "Benjamin A. Wade, Julian Heeck, David A. Nichols",
+          "arxiv_id": "2608.26274",
+          "url": "https://arxiv.org/abs/2608.26274",
+          "categories": "astro-ph.HE, gr-qc, hep-th",
+          "summary": "The authors extend the study of extreme and intermediate mass-ratio inspirals (EMRIs/IMRIs) in dark matter environments by incorporating dark matter self-interactions and interactions with neutron-star matter for the first time. They systematically model how different dark matter scenarios—including spike profiles, annihilation plateaus, and accretion onto the neutron star—alter the orbital dynamics and gravitational wave emission, finding that these effects can produce measurable deviations from the purely gravitational case. Their results indicate that future space-based gravitational wave observatories could use EMRI/IMRI waveforms not only to detect dark matter near black holes but also to discriminate between different dark matter microphysical models.",
+          "relevance": "Gravitational wave astronomy is emerging as a powerful probe of both black hole physics and dark matter properties. Understanding how dark matter interactions modify gravitational wave signals from compact binaries bridges quantum gravity phenomenology, particle physics, and observational astrophysics.",
+          "tags": [
+            "Gravitational Waves & Astrophysics",
+            "Black Hole Physics",
+            "High-Energy Physics & Phenomenology"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Born Geometry, Metaparticles, and an Effective Geometric Realization of the Modular Black-Hole Remnant: A Phase-Space Resolution of the Schwarzschild Singularity",
+          "authors": "Paul-Robert Chouha",
+          "arxiv_id": "2608.26413",
+          "url": "https://arxiv.org/abs/2608.26413",
+          "categories": "gr-qc, hep-th",
+          "summary": "The author constructs the first effective spacetime geometry for the modular black hole remnant predicted by recent metaparticle thermodynamics. Using Born's doubled phase-space formalism—where spacetime coordinates are paired with dual momentum-like coordinates—the classical Schwarzschild singularity is rendered inaccessible by a modular uncertainty principle and replaced by a finite modular core. The metaparticle duality constraint generates an effective conformal deformation producing a tension-dominated interior with localized null and strong energy condition violations, naturally evading the Hawking-Penrose singularity theorems without introducing ad hoc regularization.",
+          "relevance": "This work directly addresses one of the central open problems in quantum gravity: the fate of the singularity inside black holes. The use of Born geometry and modular spacetime to resolve singularities connects to noncommutative geometry approaches and offers a concrete geometric realization of a stable black hole remnant that could serve as an endpoint of Hawking evaporation.",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics",
+            "Foundations & Interpretations"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Renormalization in Liouville gravity and stochastic inflation",
+          "authors": "Jordan Cotler, Victor Ivo, Juan Maldacena",
+          "arxiv_id": "2608.26244",
+          "url": "https://arxiv.org/abs/2608.26244",
+          "categories": "gr-qc, hep-th",
+          "summary": "The authors identify a deep structural parallel between the renormalization of random geometries in Liouville gravity and the stochastic dynamics of the inflaton during inflation. By deriving the KPZ scaling relation from a physical coarse-graining procedure with a fixed physical cutoff, they show that the breakdown of Liouville volume renormalization at a critical fluctuation amplitude precisely corresponds to the onset of eternal inflation. In two dimensions, this critical point matches the well-known c_m = 1 barrier in Liouville gravity, suggesting a unified mathematical description bridging random surface theory and cosmological inflation.",
+          "relevance": "Liouville gravity and inflation are two arenas where quantum fluctuations of geometry play a defining role. The identification of a common renormalization structure with a sharp phase transition offers new conceptual tools for understanding eternal inflation and the quantum-to-classical transition in the early universe.",
+          "tags": [
+            "Cosmology & Early Universe",
+            "Quantum Gravity",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Inner products and closed universes",
+          "authors": "Jordan Cotler, Kristan Jensen",
+          "arxiv_id": "2608.26253",
+          "url": "https://arxiv.org/abs/2608.26253",
+          "categories": "gr-qc, hep-th",
+          "summary": "The authors compute the no-boundary wavefunction in deformed de Sitter Jackiw-Teitelboim gravity at one-loop and discover a surprising factor of eight discrepancy between the Lorentzian inner product and the Euclidean sphere amplitude. When disconnected final universes are summed over, the norm exponentiates with coefficient 8 rather than 1, fundamentally altering the relation between Lorentzian and Euclidean quantum gravity. They trace this mismatch to the specific pairing prescription used by the Lorentzian measure and show that a similar breakdown occurs in Einstein gravity with positive cosmological constant, where the no-boundary norm actually vanishes at one-loop despite a finite Euclidean amplitude.",
+          "relevance": "The no-boundary proposal is a cornerstone of quantum cosmology, and understanding its precise relation to Euclidean path integrals is essential for any quantum theory of the universe's origin. The factor-of-eight mismatch and the vanishing norm in Einstein gravity challenge standard assumptions about how Lorentzian and Euclidean formulations should connect in quantum gravity.",
+          "tags": [
+            "Quantum Gravity",
+            "Cosmology & Early Universe",
+            "Foundations & Interpretations"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Gravitational Compton Amplitude to All Orders in Perturbation Theory",
+          "authors": "Miguel Correia, Giulia Isabella, Anna M. Wolz",
+          "arxiv_id": "2608.26284",
+          "url": "https://arxiv.org/abs/2608.26284",
+          "categories": "gr-qc, hep-th",
+          "summary": "The authors develop a systematic method to compute gravitational Compton scattering amplitudes off compact objects to arbitrarily high order in Newton's constant within worldline effective field theory. By solving an effective wave equation with tidal Love numbers encoded as boundary conditions and summing partial waves into elliptic polylogarithms, they push predictions from the established O(G⁴) level to O(G⁷). A key finding is the first appearance of an ultraviolet divergence at O(G⁷), proving that a pure point-particle approximation is fundamentally inconsistent in general relativity. They also confirm that static Love numbers vanish for Schwarzschild black holes while predicting new subleading non-zero Love numbers.",
+          "relevance": "The high-precision frontier of gravitational wave theory demands ever-higher post-Minkowskian expansions for waveform modeling. The identification of the UV breakdown scale at O(G⁷) sets a fundamental limit on point-particle approximations and informs the necessary inclusion of finite-size effects in next-generation waveform templates.",
+          "tags": [
+            "Gravitational Waves & Astrophysics",
+            "Black Hole Physics",
+            "Field Theory & Mathematical Physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Quantum Selection of Classical Histories",
+          "authors": "Omer Guleryuz",
+          "arxiv_id": "2608.27388",
+          "url": "https://arxiv.org/abs/2608.27388",
+          "categories": "gr-qc, astro-ph.CO, hep-th",
+          "summary": "The author demonstrates that a transient quantum fluctuation episode during inflation can permanently shift the probability distribution among distinct classical cosmic histories, even when the background state would deterministically select only one outcome. In a concrete supergravity model, a temporarily light entropy direction—stable against tachyonic decay—allows quantum phase-space fluctuations to explore an otherwise inaccessible classical branch. First-passage analysis across CMB-normalized realizations gives this quantum-selected branch a substantial 33–40% conditional probability, which collapses to zero when the stochastic source is artificially removed. After the selection event, the entropy direction becomes heavy again and both branches evolve classically.",
+          "relevance": "This result challenges the conventional view that quantum effects in inflation merely seed classical perturbations around a single deterministic background. Instead, it shows that quantum noise can genuinely alter which classical history is realized, with direct implications for understanding the quantum origin of cosmological structure and the interpretation of the wavefunction of the universe.",
+          "tags": [
+            "Quantum Gravity",
+            "Cosmology & Early Universe",
+            "Foundations & Interpretations"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Laplace surface of eccentric orbits around Kerr black hole and black-hole effects on Lidov-Kozai cycles",
+          "authors": "Haonan Quan, Xing Wei",
+          "arxiv_id": "2608.25353",
+          "url": "https://arxiv.org/abs/2608.25353",
+          "categories": "gr-qc, astro-ph.GA, astro-ph.EP",
+          "summary": "The authors investigate the Laplace equilibrium surface for eccentric orbits around a Kerr black hole, where relativistic precession effects balance the tidal forcing from a companion star. They find that equilibrium solutions are restricted to a narrow inclination range and are stable only near 90° companion obliquity. For Lidov-Kozai cycles, they discover that the cycle frequency varies non-monotonically with orbital distance, reaching a minimum where general relativistic apsidal precession and tidal precession are comparable in strength. This dynamical mechanism provides a natural explanation for the nearly isotropic spatial distribution of the S-star cluster observed in the Galactic Center.",
+          "relevance": "The S-cluster around Sgr A* offers a unique astrophysical laboratory for testing general relativistic dynamics in strong gravitational fields. Understanding how Kerr geometry shapes the orbital architecture of nearby stars connects black hole physics directly to precision observational astronomy.",
+          "tags": [
+            "Black Hole Physics",
+            "Gravitational Waves & Astrophysics",
+            "Experiment & Observation"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-28",
       "type": "arxiv",
@@ -232,6 +467,69 @@
             "black-hole-thermodynamics",
             "phase-transitions",
             "quintessence"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-28",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Scientists Switch on a Strange New Form of Magnetism in an Ultrathin Material",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260826055454.htm",
+          "summary": "A recently proposed form of magnetism known as altermagnetism could eventually help researchers make computer memory smaller, faster, and more efficient. Now, scientists have found evidence that ruthenium dioxide, a quantum material previously considered nonmagnetic in its bulk form, may display thi",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "AI Searched 100 Million Possibilities and Found a Cheaper Way to 3D-print a NASA Rocket Alloy",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260827010504.htm",
+          "summary": "Washington State University researchers have used artificial intelligence to identify a faster and less costly way to 3D print a high-performance metal alloy, avoiding the need to manually test more than 100 million possible printing configurations.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "‘Robot Olympics’ reveal humanoids' rapid progress — but hurdles remain",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02713-z",
+          "summary": "Humanoid robots broke records at sporting events such as sprints, but struggled at practical tasks such as hammering nails.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Glacier collapse caused Nepal’s deadly flash flood — a sign of things to come?",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02716-w",
+          "summary": "Global warming is making high-altitude regions unstable, and could trigger more frequent landslides and floods.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "The Roman telescope is about to take planet-hunting to the next level",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02662-7",
+          "summary": "NASA’s Nancy Grace Roman Space Telescope, set to launch shortly, could find 40 times the number of distant worlds as have been detected so far.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
           ]
         }
       ]
@@ -27096,9 +27394,49 @@
     }
   ],
   "stats": {
-    "total_digests": 246,
-    "total_entries": 1874,
+    "total_digests": 248,
+    "total_entries": 1894,
     "unique_tags": {
+      "Quantum Gravity": {
+        "first_seen": "2026-08-29",
+        "count": 64
+      },
+      "Foundations & Interpretations": {
+        "first_seen": "2026-08-29",
+        "count": 15
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-08-29",
+        "count": 68
+      },
+      "Holography": {
+        "first_seen": "2026-08-29",
+        "count": 10
+      },
+      "Cosmology & Early Universe": {
+        "first_seen": "2026-08-29",
+        "count": 16
+      },
+      "Gravitational Waves & Astrophysics": {
+        "first_seen": "2026-08-29",
+        "count": 14
+      },
+      "Field Theory & Mathematical Physics": {
+        "first_seen": "2026-08-29",
+        "count": 29
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-08-29",
+        "count": 52
+      },
+      "Quantum Information & Computing": {
+        "first_seen": "2026-08-29",
+        "count": 134
+      },
+      "High-Energy Physics & Phenomenology": {
+        "first_seen": "2026-08-29",
+        "count": 14
+      },
       "black-holes": {
         "first_seen": "2026-08-28",
         "count": 362
@@ -27239,6 +27577,10 @@
         "first_seen": "2026-08-28",
         "count": 2
       },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-28",
+        "count": 203
+      },
       "moltbook": {
         "first_seen": "2026-08-28",
         "count": 277
@@ -27278,22 +27620,6 @@
       "string-theory": {
         "first_seen": "2026-08-27",
         "count": 18
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-08-27",
-        "count": 131
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-27",
-        "count": 199
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-08-26",
-        "count": 55
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-08-26",
-        "count": 60
       },
       "Mathematical Physics": {
         "first_seen": "2026-08-26",
@@ -27351,14 +27677,6 @@
         "first_seen": "2026-08-25",
         "count": 4
       },
-      "Holography": {
-        "first_seen": "2026-08-25",
-        "count": 9
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-08-24",
-        "count": 49
-      },
       "high-energy-physics": {
         "first_seen": "2026-08-22",
         "count": 1
@@ -27391,29 +27709,9 @@
         "first_seen": "2026-08-22",
         "count": 3
       },
-      "Field Theory & Mathematical Physics": {
-        "first_seen": "2026-08-20",
-        "count": 24
-      },
-      "Foundations & Interpretations": {
-        "first_seen": "2026-08-20",
-        "count": 10
-      },
-      "Cosmology & Early Universe": {
-        "first_seen": "2026-08-20",
-        "count": 11
-      },
-      "High-Energy Physics & Phenomenology": {
-        "first_seen": "2026-08-20",
-        "count": 12
-      },
       "String Theory": {
         "first_seen": "2026-08-20",
         "count": 4
-      },
-      "Gravitational Waves & Astrophysics": {
-        "first_seen": "2026-08-20",
-        "count": 9
       },
       "Topological": {
         "first_seen": "2026-08-20",
@@ -30957,6 +31255,16 @@
       }
     },
     "tag_counts": {
+      "Quantum Gravity": 64,
+      "Foundations & Interpretations": 15,
+      "Black Hole Physics": 68,
+      "Holography": 10,
+      "Cosmology & Early Universe": 16,
+      "Gravitational Waves & Astrophysics": 14,
+      "Field Theory & Mathematical Physics": 29,
+      "Experiment & Observation": 52,
+      "Quantum Information & Computing": 134,
+      "High-Energy Physics & Phenomenology": 14,
       "black-holes": 362,
       "quantum-field-theory": 7,
       "superradiance": 1,
@@ -30992,6 +31300,7 @@
       "kerr-metric": 1,
       "phase-transitions": 5,
       "quintessence": 2,
+      "Science Communication & Policy": 203,
       "moltbook": 277,
       "builds": 11,
       "information-theory": 3,
@@ -31002,10 +31311,6 @@
       "physics": 241,
       "quantum-gravity": 101,
       "string-theory": 18,
-      "Quantum Information & Computing": 131,
-      "Science Communication & Policy": 199,
-      "Quantum Gravity": 55,
-      "Black Hole Physics": 60,
       "Mathematical Physics": 2,
       "Gravitational Waves": 11,
       "High-Energy Physics": 9,
@@ -31020,8 +31325,6 @@
       "Topological Order": 7,
       "Quantum Chaos": 1,
       "Many-Body Physics": 4,
-      "Holography": 9,
-      "Experiment & Observation": 49,
       "high-energy-physics": 1,
       "topological": 68,
       "entanglement": 98,
@@ -31030,12 +31333,7 @@
       "foundations": 1,
       "field-theory": 1,
       "experiment": 3,
-      "Field Theory & Mathematical Physics": 24,
-      "Foundations & Interpretations": 10,
-      "Cosmology & Early Universe": 11,
-      "High-Energy Physics & Phenomenology": 12,
       "String Theory": 4,
-      "Gravitational Waves & Astrophysics": 9,
       "Topological": 1,
       "Technology & Engineering": 62,
       "Many-Body Physics & Condensed Matter": 54,
@@ -31924,6 +32222,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-08-29",
         "2026-08-28",
         "2026-08-27",
         "2026-08-26",
@@ -32002,6 +32301,88 @@
         "2026-05-19",
         "2026-05-18",
         "2026-05-16",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
+      "web-science": [
+        "2026-08-28",
+        "2026-08-27",
+        "2026-08-26",
+        "2026-08-25",
+        "2026-08-24",
+        "2026-08-21",
+        "2026-08-20",
+        "2026-08-19",
+        "2026-08-18",
+        "2026-08-17",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-10",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-03",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
         "2026-05-15",
         "2026-05-14",
         "2026-05-13",
@@ -32093,87 +32474,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "web-science": [
-        "2026-08-27",
-        "2026-08-26",
-        "2026-08-25",
-        "2026-08-24",
-        "2026-08-21",
-        "2026-08-20",
-        "2026-08-19",
-        "2026-08-18",
-        "2026-08-17",
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-10",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-03",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
