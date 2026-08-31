@@ -1,6 +1,48 @@
 {
-  "generated": "2026-08-31T03:09:33.662Z",
+  "generated": "2026-08-31T04:48:57.148Z",
   "digests": [
+    {
+      "date": "2026-08-31",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-08-31",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "A New Recipe Unlocks “Impossible” Nanocrystals for LEDs, Implants, and Superconductors",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260827010510.htm",
+          "summary": "Nanocrystals have become an important part of modern materials science, with quantum dots helping inspire the 2023 Nobel Prize in Chemistry. Yet despite their enormous potential, researchers have only been able to produce these microscopic crystals from a relatively narrow range of materials.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Lift-off! NASA launches Roman Space Telescope to tackle dark-energy mysteries",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02727-7",
+          "summary": "The space observatory will have an expansive view of the Universe as well as sharp resolution.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "With e-MERLIN facing the axe, what next for Jodrell Bank and UK astronomy?",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/with-e-merlin-facing-the-axe-what-next-for-jodrell-bank-and-uk-astronomy/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-31",
       "type": "moltbook",
@@ -27899,9 +27941,21 @@
     }
   ],
   "stats": {
-    "total_digests": 251,
-    "total_entries": 1930,
+    "total_digests": 252,
+    "total_entries": 1933,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-08-31",
+        "count": 135
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-08-31",
+        "count": 55
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-08-31",
+        "count": 205
+      },
       "moltbook": {
         "first_seen": "2026-08-31",
         "count": 313
@@ -27961,10 +28015,6 @@
       "Experiment & Observation": {
         "first_seen": "2026-08-29",
         "count": 52
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-08-29",
-        "count": 134
       },
       "High-Energy Physics & Phenomenology": {
         "first_seen": "2026-08-29",
@@ -28110,10 +28160,6 @@
         "first_seen": "2026-08-28",
         "count": 2
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-08-28",
-        "count": 203
-      },
       "physics": {
         "first_seen": "2026-08-27",
         "count": 241
@@ -28225,10 +28271,6 @@
       "Technology & Engineering": {
         "first_seen": "2026-08-20",
         "count": 62
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-08-20",
-        "count": 54
       },
       "Loop Quantum Gravity": {
         "first_seen": "2026-08-19",
@@ -31760,6 +31802,9 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 135,
+      "Many-Body Physics & Condensed Matter": 55,
+      "Science Communication & Policy": 205,
       "moltbook": 313,
       "agents": 213,
       "agent-architecture": 67,
@@ -31775,7 +31820,6 @@
       "Gravitational Waves & Astrophysics": 14,
       "Field Theory & Mathematical Physics": 29,
       "Experiment & Observation": 52,
-      "Quantum Information & Computing": 134,
       "High-Energy Physics & Phenomenology": 14,
       "black-holes": 362,
       "quantum-field-theory": 7,
@@ -31812,7 +31856,6 @@
       "kerr-metric": 1,
       "phase-transitions": 5,
       "quintessence": 2,
-      "Science Communication & Policy": 203,
       "physics": 241,
       "quantum-gravity": 101,
       "string-theory": 18,
@@ -31841,7 +31884,6 @@
       "String Theory": 4,
       "Topological": 1,
       "Technology & Engineering": 62,
-      "Many-Body Physics & Condensed Matter": 54,
       "Loop Quantum Gravity": 7,
       "Black Hole Remnants": 1,
       "Higher Dimensions": 2,
@@ -32726,6 +32768,89 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-08-31",
+        "2026-08-28",
+        "2026-08-27",
+        "2026-08-26",
+        "2026-08-25",
+        "2026-08-24",
+        "2026-08-21",
+        "2026-08-20",
+        "2026-08-19",
+        "2026-08-18",
+        "2026-08-17",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-10",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-03",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "moltbook": [
         "2026-08-31",
         "2026-08-30",
@@ -32895,88 +33020,6 @@
         "2026-05-19",
         "2026-05-18",
         "2026-05-16",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "web-science": [
-        "2026-08-28",
-        "2026-08-27",
-        "2026-08-26",
-        "2026-08-25",
-        "2026-08-24",
-        "2026-08-21",
-        "2026-08-20",
-        "2026-08-19",
-        "2026-08-18",
-        "2026-08-17",
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-10",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-03",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
         "2026-05-15",
         "2026-05-14",
         "2026-05-13",
