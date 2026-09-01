@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T01:42:34.174Z",
+  "generated": "2026-09-01T01:47:10.667Z",
   "digests": [
     {
       "date": "2026-09-01",
@@ -16,7 +16,7 @@
           "arxiv_id": "2608.27721",
           "url": "https://arxiv.org/abs/2608.27721",
           "categories": "hep-th, gr-qc",
-          "summary": "We investigate thermodynamic criticality in a spatially flat Friedmann-Lema\\^ıtre-Robertson-Walker universe with a non-extensive Loop Quantum Gravity inspired entropy on its apparent horizon. Using the full Kodama-Hayward temperature and the unified first law, we derive the modified Friedmann dynamics and construct the corresponding horizon equation of state.",
+          "summary": "This work establishes a thermodynamic critical point for the apparent horizon in FLRW cosmology when equipped with a non-extensive entropy inspired by loop quantum gravity. Using the full Kodama-Hayward temperature and unified first law, the authors derive modified Friedmann dynamics and show that a genuine critical point emerges only in the non-extensive branch (q>1), with mean-field critical exponents. The Ruppeiner curvature diverges on the spinodal curve and exhibits critical scaling, suggesting that LQG deformations of horizon entropy leave the universality class unchanged while shifting the critical scale to order-unity deformation parameters.",
           "relevance": "quantum-gravity, loop-quantum-gravity",
           "tags": [
             "quantum-gravity",
@@ -30,7 +30,7 @@
           "arxiv_id": "2608.27478",
           "url": "https://arxiv.org/abs/2608.27478",
           "categories": "quant-ph, hep-th, gr-qc",
-          "summary": "Within the open quantum system formalism, using the Markovian process, we investigate the {\\it quantum speed limit time} (QSLT) of a uniformly accelerated Unruh-DeWitt detector, interacting with the massless real scaler field. Three specific scenarios are being studied -- the field is in Minkowski spacetime (i) without any reflecting boundary but at a finite temperature, (ii) presence of single boundary with the detector is accelerating parallel to the plane of it, and (iii) presence of two boundaries with the detector is moving between them along the parallel direction.",
+          "summary": "The authors use open quantum system techniques to compute the quantum speed limit time (QSLT) for an Unruh-DeWitt detector undergoing uniform acceleration, interacting with a scalar field under three boundary configurations. They find that QSLT exhibits distinctive behavior around a critical acceleration value that decreases with temperature, and that confining boundaries introduce oscillatory fluctuations above a threshold acceleration. Remarkably, for a double-boundary setup the critical acceleration can drop to ~10⁵ m/s², suggesting that QSLT fluctuations could serve as an observable diagnostic of the Unruh effect in table-top configurations.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -43,7 +43,7 @@
           "arxiv_id": "2608.28029",
           "url": "https://arxiv.org/abs/2608.28029",
           "categories": "astro-ph.HE, hep-th, gr-qc",
-          "summary": "Astrophysical black holes exist within non-vacuum environments, and their motion through these environments generically result in a force on these black holes through processes such as dynamical friction and Bondi accretion. We explore these forces numerically for black holes moving through a complex scalar field of mass $m$ with constant acceleration $a$, while also revisiting the constant velocity case considered in the existing literature.",
+          "summary": "This paper numerically studies the drag force on black holes moving through a complex scalar field, modeling both constant-velocity and constant-acceleration trajectories. For constant velocity the drag saturates at late times with a novel velocity dependence, while for constant acceleration the force rises to a maximum F⋆ ≈ 0.3 ma before dropping sharply, with density wake revivals appearing at decreasing intervals. These results extend prior vacuum analyses to non-vacuum astrophysical environments and provide new predictions for black hole dynamics in dark matter or scalar-field halos.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -56,7 +56,7 @@
           "arxiv_id": "2608.28186",
           "url": "https://arxiv.org/abs/2608.28186",
           "categories": "gr-qc",
-          "summary": "We investigate black hole shadows and photon sphere properties for two families of covariant quantum-corrected black-hole metrics (hereafter called BH-I and BH-II) formulated within a general $\\mu$-scheme, parameterised by a power-law exponent $s$ and an amplitude $\\xi$. The extension to general (including non-integer) $s$ is a phenomenological interpolation between the $\\mu_0$-scheme ($s=0$) and $\\bar\\mu$-scheme ($s=1$) and reveals a rich phenomenology masked when $s$ is usually fixed to 1 in previous literature.",
+          "summary": "The authors derive photon sphere and shadow properties for two families of covariant quantum-corrected black holes formulated in a general μ-scheme parameterized by exponent s and amplitude ξ. They prove analytically that the photon sphere remains unstable across the full physical parameter space, find that a single shadow measurement cannot distinguish (ξ, s) pairs without also measuring the Lyapunov exponent, and use EHT data to constrain the parameter space. BH-II is constrained roughly 2–4 times more tightly than BH-I, offering a concrete observational testbed for loop-quantum-gravity phenomenology.",
           "relevance": "loop-quantum-gravity, black-holes",
           "tags": [
             "loop-quantum-gravity",
@@ -70,7 +70,7 @@
           "arxiv_id": "2608.27597",
           "url": "https://arxiv.org/abs/2608.27597",
           "categories": "astro-ph.CO, hep-th, gr-qc",
-          "summary": "We consider that the very early Universe was well described by an Emergent Universe, whose geometry was that of a static and classically stable Einstein Universe, which is possible in certain Two Measures Theories (TMT). These solutions do not have a big bang, but rather they extend to arbitrarily early times.",
+          "summary": "The authors propose that an Emergent Universe—a static, classically stable Einstein universe without a big bang—can tunnel quantum mechanically into an inflationary epoch. Working in Two Measures Theories with spontaneously broken scale invariance, they recast the cosmological evolution in terms of an effective potential V(φ̇) that exhibits a divergent barrier, and compute the tunneling probability in WKB approximation. Unusually, the barrier yields a logarithmic contribution to the tunneling exponent, producing a power-law rather than exponential probability dependence that can be near unity for reasonable parameters. The universe then emerges into a superinflationary phase that transitions to slow-roll inflation, offering a quantum mechanism for inflationary genesis without quantum creation of spacetime itself.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -83,7 +83,7 @@
           "arxiv_id": "2608.28260",
           "url": "https://arxiv.org/abs/2608.28260",
           "categories": "astro-ph.CO, hep-th, gr-qc",
-          "summary": "In cosmology, the Hubble tension has become one of the most serious challenges in the last decade. Assuming that all the observational data are right, one of the ways out is to modify the standard $\\Lambda$CDM cosmology.",
+          "summary": "The authors revisit the no-go arguments against late-time modifications to ΛCDM, noting flaws in the original PAge parameterization that restricted analyses to low redshift. By introducing generalized PAge (GPAge) forms valid up to and including CMB scales, they demonstrate that mid-time physics—rather than early or late modifications—can significantly alleviate the Hubble tension while being overwhelmingly preferred by information criteria over standard ΛCDM. This shifts the theoretical focus toward intermediate-epoch new physics as a viable resolution path.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -96,7 +96,7 @@
           "arxiv_id": "2608.28337",
           "url": "https://arxiv.org/abs/2608.28337",
           "categories": "astro-ph.CO, hep-th, gr-qc",
-          "summary": "General relativity coupled to multiple scalar fields is a diffeomorphism-invariant constrained system. Consequently, a naive counting of the perturbative degrees of freedom unavoidably overestimates the true number of physical modes propagating in the theory, as gauge redundancies and constraint equations remove non-dynamical ones.",
+          "summary": "The authors present the first explicit construction of all large-scale gauge-invariant phase-space variables in multifield inflation at second order in perturbation theory, working in Hamiltonian form. By building quadratic corrections to the Sasaki-Mukhanov variables that remain invariant under gauge transformations, they prove that the usual flat-gauge and comoving-gauge fluctuations can be recovered as large-scale gauge-invariant combinations, validate their results against existing Lagrangian literature after flat-gauge fixing, and sketch a formal proof extending the construction to higher perturbative orders. This closes a long-standing gap between Hamiltonian and Lagrangian treatments of cosmological perturbations.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -109,7 +109,7 @@
           "arxiv_id": "2608.27563",
           "url": "https://arxiv.org/abs/2608.27563",
           "categories": "math-ph, hep-th, gr-qc",
-          "summary": "We propose boundary theories, CFT$_{p}$ with $p\\in \\beta\\mathbb{N}/\\mathbb{N}$, which can be interpreted as an ensemble of theories in the context of AdS/CFT duality, when the boundary spacetime dimension is more than one. These theories are only emergent in the infinite $N$ limit of the boundary CFT and depend on $p$, which corresponds to the different ways one can take a generalized form of the infinite $N$ limit, in the presence of a chaotic or an oscillatory operator.",
+          "summary": "The authors propose a novel ensemble interpretation of AdS/CFT in which boundary theories labeled by free ultrafilters emerge only in generalized infinite-N limits called ultralimits. They argue that the gravitational path integral averages over these CFT_p sectors and, in appropriate cases, produces baby universes and spacetime wormholes. Applied to Antonini-Sasieta-Swingle-like states, this construction provides a rigorous mathematical framework connecting ensemble averaging in holography to Euclidean wormhole geometries.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -122,7 +122,7 @@
           "arxiv_id": "2608.27585",
           "url": "https://arxiv.org/abs/2608.27585",
           "categories": "nucl-th, hep-ph, hep-th, gr-qc",
-          "summary": "We compute high frequency gravitational wave radiation in shockwave collisions of a light mass compact object with energy $\\mu_L$ off a heavy compact object (black hole) with energy $\\mu_H \\gg \\mu_L$. A formal solution is obtained in terms of shockwave propagators that provide snapshots of $O(\\mu_L\\mu_H^n)$ tidal response functions sensitive to classical and potentially semi-classical dynamics of black hole formation.",
+          "summary": "The authors compute high-frequency gravitational wave radiation from light-heavy shockwave collisions using shockwave propagators that capture tidal response functions at each perturbative order. At leading order they recover the ultrarelativistic Weinberg amplitude, while higher orders reveal rescattering and multi-reggeized-graviton emission contributions that again simplify to known soft limits. Throughout, they highlight double-copy structures linking graviton and gluon radiation, and connect their shockwave formalism to the eikonal multiple-scattering framework of Veneziano et al., offering a systematic approach to gravitational radiation in extreme mass-ratio encounters.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -135,7 +135,7 @@
           "arxiv_id": "2608.27731",
           "url": "https://arxiv.org/abs/2608.27731",
           "categories": "hep-th, gr-qc",
-          "summary": "Quantum Yang-Mills theory in Euclidean AdS$_4$ with Neumann boundary conditions is studied as a function of the complex couplings $\\frac{1}{g_\\pm^2} \\equiv \\frac{1}{g^2}\\mp \\frac{i \\theta }{8 \\pi^2}$. We define a &#34;self-dual limit&#34; by $g_- \\to 0$ with $g_+ ~{\\rm fixed}$.",
+          "summary": "The authors study self-dual Yang-Mills theory in Euclidean AdS₄ with Neumann boundary conditions, defining a self-dual limit in which one complexified coupling vanishes while the other remains finite. They show that this limit is well-defined perturbatively and equivalent to a BF formulation with a specific boundary condition, and demonstrate that all tree-level zero-plus and single-plus boundary correlators vanish while double-plus correlators admit closed-form expressions for any gluon multiplicity. In the flat-space limit, the boundary correlators correctly reduce to single-minus gluon amplitudes, establishing a novel connection between self-dual gauge theory in AdS and on-shell amplitude structures.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -148,7 +148,7 @@
           "arxiv_id": "2608.25566",
           "url": "https://arxiv.org/abs/2608.25566",
           "categories": "gr-qc",
-          "summary": "We study a localized spin-$1/2$ detector falling into a Schwarzschild--MOG black hole. The detector interacts with a neutral massless scalar field through a charge-preserving two-level transition, while its translational wave packet obeys the MOG-charged Dirac equation.",
+          "summary": "The authors study a spin-1/2 detector falling into a Schwarzschild-MOG black hole, where the detector's translational wave packet obeys the MOG-charged Dirac equation and interacts with a scalar field. By quantizing the field in a globally normalized Boulware basis and retaining both radial-flux branches, they obtain closed-form excitation probabilities with scattering-phase interference. They show that the detailed-balance ratio factorizes into branch-resolved contributions, with only the outgoing ratio approaching the thermal form under simultaneous near-horizon, adiabatic, high-gap, and branch-isolation conditions. This clarifies which aspects of detector response follow from local horizon geometry versus global propagation and detector protocol.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -161,7 +161,7 @@
           "arxiv_id": "2608.26096",
           "url": "https://arxiv.org/abs/2608.26096",
           "categories": "quant-ph, gr-qc",
-          "summary": "Calibrated torsion-balance spectra constrain deterministic and stochastic deviations from standard Newtonian gravity. Using one-sided spectra, we derive a calibrated angle-equivalent noise budget and finite-time matched-filter/Cramér-Rao bounds for known torque templates.",
+          "summary": "This work frames calibrated torsion-balance experiments as operational probes of semiclassical gravity by deriving matched-filter bounds, Cramér-Rao limits, and torque-diffusion constraints for both deterministic and stochastic deviations from Newtonian gravity. The authors show that Page-Geilker branch discrimination and Fedida-Kent mixture-equivalence tests reduce to the same statistical discrimination problem when projected onto torque templates, and provide concrete noise benchmarks including a conservative bound D_τ ≲ 2.4×10⁻²³ N²m²s for existing experiments. This creates a rigorous interface between tabletop precision measurements and semiclassical gravity phenomenology.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -174,7 +174,7 @@
           "arxiv_id": "2608.26474",
           "url": "https://arxiv.org/abs/2608.26474",
           "categories": "quant-ph, physics.hist-ph, gr-qc",
-          "summary": "Non-relativistic objective collapse theories have been remarkably successful in addressing the conceptual problems of standard quantum mechanics. Despite substantial efforts, the project of extending them to the relativistic domain remains burdened by significant conceptual objections and technical challenges, often taken to cast doubt on the viability of the program as a whole.",
+          "summary": "This paper offers a systematic rebuttal of longstanding conceptual objections to relativistic objective collapse theories—such as tension with relativity, frame-dependence, superluminal signaling, and narratability failure—while providing a structured assessment of remaining technical challenges including persistent infinities and covariant framework construction. The authors conclude that relativistic collapse theories remain a viable and promising route toward a fully relativistic quantum framework that addresses the conceptual limitations of standard quantum mechanics, reframing the obstacles as solvable technical problems rather than fundamental impossibilities.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -187,7 +187,7 @@
           "arxiv_id": "2608.26554",
           "url": "https://arxiv.org/abs/2608.26554",
           "categories": "quant-ph, gr-qc",
-          "summary": "We study the weak coupling of two identical two-level atoms to a four-dimensional massless conformally coupled scalar field and compare three settings with the same local temperature but different physical origins: comoving atoms in the Bunch--Davies vacuum of de Sitter spacetime, transversely separated uniformly accelerated atoms in the Minkowski vacuum, and static atoms in a Minkowski thermal bath. We first derive the two-atom cross spectra in the three settings and then obtain the single-atom local spectra uniformly from the zero-separation limit.",
+          "summary": "This paper compares two-atom correlation spectra in three settings sharing the same local temperature but different geometric origins: de Sitter space, uniformly accelerated Minkowski vacuum, and Minkowski thermal bath. The authors derive complete local Wightman kernels and show they become identical when the acceleration and inverse temperature match the de Sitter Hubble parameter, but cross-correlations at finite separation differ: genuine thermal baths produce sinc spatial factors while de Sitter and accelerated vacua exhibit hyperbolic geometric factors with L⁻² decay at long distances. For fixed experimental setups, the physical separation in de Sitter evolves with cosmic expansion, whereas correlations in the other configurations remain stationary.",
           "relevance": "physics",
           "tags": [
             "physics"
@@ -200,7 +200,7 @@
           "arxiv_id": "2608.26725",
           "url": "https://arxiv.org/abs/2608.26725",
           "categories": "gr-qc",
-          "summary": "Thermodynamic significance of near-horizon symmetries remains an important open question in black hole physics, particularly in the context of black hole evaporation and information recovery. In this work, we investigate the role of horizon-adapted Bondi-van der Burg-Metzner-Sachs (BMS)-like supertranslations in the thermodynamic description of a dynamical Schwarzschild black hole.",
+          "summary": "The authors investigate how horizon-adapted BMS-like supertranslations modify the thermodynamics of a dynamical Schwarzschild black hole. By constructing diffeomorphisms that preserve the horizon structure and promoting the supertranslation parameter to a Goldstone mode, they derive an effective action and identify the corresponding conserved horizon charge. The resulting entropy recovers the Bekenstein-Hawking area law at leading order, with subleading corrections that depend explicitly on the supertranslation sector and dynamical evolution, linking near-horizon symmetries directly to black hole thermodynamics and information recovery.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
