@@ -1,6 +1,213 @@
 {
-  "generated": "2026-08-31T04:49:27.786Z",
+  "generated": "2026-09-01T01:42:03.387Z",
   "digests": [
+    {
+      "date": "2026-09-01",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-09-01",
+      "categories": "astro-ph.CO, astro-ph.HE, gr-qc, hep-ph, hep-th, math-ph, nucl-th, physics.hist-ph, quant-ph",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Thermodynamic Criticality in FLRW Cosmology with Non-extensive Loop Quantum Gravity Entropy",
+          "authors": "Miguel Cruz, Joel Saavedra, Juan Rodriguez",
+          "arxiv_id": "2608.27721",
+          "url": "https://arxiv.org/abs/2608.27721",
+          "categories": "hep-th, gr-qc",
+          "summary": "We investigate thermodynamic criticality in a spatially flat Friedmann-Lema\\^ıtre-Robertson-Walker universe with a non-extensive Loop Quantum Gravity inspired entropy on its apparent horizon. Using the full Kodama-Hayward temperature and the unified first law, we derive the modified Friedmann dynamics and construct the corresponding horizon equation of state.",
+          "relevance": "quantum-gravity, loop-quantum-gravity",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quantum speed limit time of a uniformly accelerated Unruh-DeWitt detector",
+          "authors": "Debasish Ghosh, Bibhas Ranjan Majhi",
+          "arxiv_id": "2608.27478",
+          "url": "https://arxiv.org/abs/2608.27478",
+          "categories": "quant-ph, hep-th, gr-qc",
+          "summary": "Within the open quantum system formalism, using the Markovian process, we investigate the {\\it quantum speed limit time} (QSLT) of a uniformly accelerated Unruh-DeWitt detector, interacting with the massless real scaler field. Three specific scenarios are being studied -- the field is in Minkowski spacetime (i) without any reflecting boundary but at a finite temperature, (ii) presence of single boundary with the detector is accelerating parallel to the plane of it, and (iii) presence of two boundaries with the detector is moving between them along the parallel direction.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Dynamical friction on black holes in scalar field environment",
+          "authors": "Adith Praveen, Dawood Kothawala",
+          "arxiv_id": "2608.28029",
+          "url": "https://arxiv.org/abs/2608.28029",
+          "categories": "astro-ph.HE, hep-th, gr-qc",
+          "summary": "Astrophysical black holes exist within non-vacuum environments, and their motion through these environments generically result in a force on these black holes through processes such as dynamical friction and Bondi accretion. We explore these forces numerically for black holes moving through a complex scalar field of mass $m$ with constant acceleration $a$, while also revisiting the constant velocity case considered in the existing literature.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Photon Spheres and Shadows of Covariant Loop Quantum Black Holes in the general $μ$-scheme",
+          "authors": "Yu Han, Meng Liu, Yongzhuang Li",
+          "arxiv_id": "2608.28186",
+          "url": "https://arxiv.org/abs/2608.28186",
+          "categories": "gr-qc",
+          "summary": "We investigate black hole shadows and photon sphere properties for two families of covariant quantum-corrected black-hole metrics (hereafter called BH-I and BH-II) formulated within a general $\\mu$-scheme, parameterised by a power-law exponent $s$ and an amplitude $\\xi$. The extension to general (including non-integer) $s$ is a phenomenological interpolation between the $\\mu_0$-scheme ($s=0$) and $\\bar\\mu$-scheme ($s=1$) and reveals a rich phenomenology masked when $s$ is usually fixed to 1 in previous literature.",
+          "relevance": "loop-quantum-gravity, black-holes",
+          "tags": [
+            "loop-quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Creation of an inflationary epoch from an Emergent Universe through quantum tunneling",
+          "authors": "Eduardo I. Guendelman, Ramon Herrera, Pedro Labraña",
+          "arxiv_id": "2608.27597",
+          "url": "https://arxiv.org/abs/2608.27597",
+          "categories": "astro-ph.CO, hep-th, gr-qc",
+          "summary": "We consider that the very early Universe was well described by an Emergent Universe, whose geometry was that of a static and classically stable Einstein Universe, which is possible in certain Two Measures Theories (TMT). These solutions do not have a big bang, but rather they extend to arbitrarily early times.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Guide for the Hubble Tension: Mid-Time Solutions and Generalized PAge Parameterizations",
+          "authors": "Jing-Yi Jia, Da-Chun Qiang, Hao Wei",
+          "arxiv_id": "2608.28260",
+          "url": "https://arxiv.org/abs/2608.28260",
+          "categories": "astro-ph.CO, hep-th, gr-qc",
+          "summary": "In cosmology, the Hubble tension has become one of the most serious challenges in the last decade. Assuming that all the observational data are right, one of the ways out is to modify the standard $\\Lambda$CDM cosmology.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Explicit gauge-invariant variables in multifield inflation beyond linear order and Hamiltonian dynamics",
+          "authors": "Julien Grain, Hugo Holland, Lucas Pinol",
+          "arxiv_id": "2608.28337",
+          "url": "https://arxiv.org/abs/2608.28337",
+          "categories": "astro-ph.CO, hep-th, gr-qc",
+          "summary": "General relativity coupled to multiple scalar fields is a diffeomorphism-invariant constrained system. Consequently, a naive counting of the perturbative degrees of freedom unavoidably overestimates the true number of physical modes propagating in the theory, as gauge redundancies and constraint equations remove non-dynamical ones.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "AdS/CFT, Ultralimits and Baby universes",
+          "authors": "Eyoab Bahiru",
+          "arxiv_id": "2608.27563",
+          "url": "https://arxiv.org/abs/2608.27563",
+          "categories": "math-ph, hep-th, gr-qc",
+          "summary": "We propose boundary theories, CFT$_{p}$ with $p\\in \\beta\\mathbb{N}/\\mathbb{N}$, which can be interpreted as an ensemble of theories in the context of AdS/CFT duality, when the boundary spacetime dimension is more than one. These theories are only emergent in the infinite $N$ limit of the boundary CFT and depend on $p$, which corresponds to the different ways one can take a generalized form of the infinite $N$ limit, in the presence of a chaotic or an oscillatory operator.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Tidal effects on radiation in gravitational shockwave collisions",
+          "authors": "Isabelle Blackstad, Himanshu Raj, Raju Venugopalan",
+          "arxiv_id": "2608.27585",
+          "url": "https://arxiv.org/abs/2608.27585",
+          "categories": "nucl-th, hep-ph, hep-th, gr-qc",
+          "summary": "We compute high frequency gravitational wave radiation in shockwave collisions of a light mass compact object with energy $\\mu_L$ off a heavy compact object (black hole) with energy $\\mu_H \\gg \\mu_L$. A formal solution is obtained in terms of shockwave propagators that provide snapshots of $O(\\mu_L\\mu_H^n)$ tidal response functions sensitive to classical and potentially semi-classical dynamics of black hole formation.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Self-Dual Yang-Mills in AdS$_4$",
+          "authors": "Simon Heuveline, Romain Ruzziconi, Ahmed Sheta et al.",
+          "arxiv_id": "2608.27731",
+          "url": "https://arxiv.org/abs/2608.27731",
+          "categories": "hep-th, gr-qc",
+          "summary": "Quantum Yang-Mills theory in Euclidean AdS$_4$ with Neumann boundary conditions is studied as a function of the complex couplings $\\frac{1}{g_\\pm^2} \\equiv \\frac{1}{g^2}\\mp \\frac{i \\theta }{8 \\pi^2}$. We define a &#34;self-dual limit&#34; by $g_- \\to 0$ with $g_+ ~{\\rm fixed}$.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Two-branch detector response for Dirac infall into a Schwarzschild--MOG black hole",
+          "authors": "Nikko John Leo S. Lobos, Emmanuel T. Rodulfo",
+          "arxiv_id": "2608.25566",
+          "url": "https://arxiv.org/abs/2608.25566",
+          "categories": "gr-qc",
+          "summary": "We study a localized spin-$1/2$ detector falling into a Schwarzschild--MOG black hole. The detector interacts with a neutral massless scalar field through a charge-preserving two-level transition, while its translational wave packet obeys the MOG-charged Dirac equation.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Torsion balances as operational probes of semiclassical gravity: Matched-filter bounds, torque-diffusion constraints, and quantum-noise benchmarks",
+          "authors": "Jyotirmaya Mohanta, Yutaka Shikano",
+          "arxiv_id": "2608.26096",
+          "url": "https://arxiv.org/abs/2608.26096",
+          "categories": "quant-ph, gr-qc",
+          "summary": "Calibrated torsion-balance spectra constrain deterministic and stochastic deviations from standard Newtonian gravity. Using one-sided spectra, we derive a calibrated angle-equivalent noise budget and finite-time matched-filter/Cramér-Rao bounds for known torque templates.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Demystifying Relativistic Quantum Collapse",
+          "authors": "R. Muciño, E. Okon, D. Sudarsky et al.",
+          "arxiv_id": "2608.26474",
+          "url": "https://arxiv.org/abs/2608.26474",
+          "categories": "quant-ph, physics.hist-ph, gr-qc",
+          "summary": "Non-relativistic objective collapse theories have been remarkably successful in addressing the conceptual problems of standard quantum mechanics. Despite substantial efforts, the project of extending them to the relativistic domain remains burdened by significant conceptual objections and technical challenges, often taken to cast doubt on the viability of the program as a whole.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Comparison of Two-Atom Cross Spectra in de Sitter Spacetime, Uniformly Accelerated Minkowski Vacuum, and a Thermal Bath",
+          "authors": "Zhiming Huang",
+          "arxiv_id": "2608.26554",
+          "url": "https://arxiv.org/abs/2608.26554",
+          "categories": "quant-ph, gr-qc",
+          "summary": "We study the weak coupling of two identical two-level atoms to a four-dimensional massless conformally coupled scalar field and compare three settings with the same local temperature but different physical origins: comoving atoms in the Bunch--Davies vacuum of de Sitter spacetime, transversely separated uniformly accelerated atoms in the Minkowski vacuum, and static atoms in a Minkowski thermal bath. We first derive the two-atom cross spectra in the three settings and then obtain the single-atom local spectra uniformly from the zero-separation limit.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Near-Horizon BMS Symmetry and Implications on Black Hole Entropy",
+          "authors": "Nihar Ranjan Ghosh, Malay K. Nandy",
+          "arxiv_id": "2608.26725",
+          "url": "https://arxiv.org/abs/2608.26725",
+          "categories": "gr-qc",
+          "summary": "Thermodynamic significance of near-horizon symmetries remains an important open question in black hole physics, particularly in the context of black hole evaporation and information recovery. In this work, we investigate the role of horizon-adapted Bondi-van der Burg-Metzner-Sachs (BMS)-like supertranslations in the thermodynamic description of a dynamical Schwarzschild black hole.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-31",
       "type": "web-science",
@@ -27941,9 +28148,25 @@
     }
   ],
   "stats": {
-    "total_digests": 252,
-    "total_entries": 1933,
+    "total_digests": 253,
+    "total_entries": 1948,
     "unique_tags": {
+      "quantum-gravity": {
+        "first_seen": "2026-09-01",
+        "count": 102
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-09-01",
+        "count": 30
+      },
+      "physics": {
+        "first_seen": "2026-09-01",
+        "count": 250
+      },
+      "black-holes": {
+        "first_seen": "2026-09-01",
+        "count": 367
+      },
       "Quantum Information & Computing": {
         "first_seen": "2026-08-31",
         "count": 135
@@ -28019,10 +28242,6 @@
       "High-Energy Physics & Phenomenology": {
         "first_seen": "2026-08-29",
         "count": 14
-      },
-      "black-holes": {
-        "first_seen": "2026-08-28",
-        "count": 362
       },
       "quantum-field-theory": {
         "first_seen": "2026-08-28",
@@ -28159,14 +28378,6 @@
       "quintessence": {
         "first_seen": "2026-08-28",
         "count": 2
-      },
-      "physics": {
-        "first_seen": "2026-08-27",
-        "count": 241
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-08-27",
-        "count": 101
       },
       "string-theory": {
         "first_seen": "2026-08-27",
@@ -28639,10 +28850,6 @@
       "Boundary Entropy": {
         "first_seen": "2026-08-14",
         "count": 1
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-08-13",
-        "count": 28
       },
       "quantum-cosmology": {
         "first_seen": "2026-08-13",
@@ -31802,6 +32009,10 @@
       }
     },
     "tag_counts": {
+      "quantum-gravity": 102,
+      "loop-quantum-gravity": 30,
+      "physics": 250,
+      "black-holes": 367,
       "Quantum Information & Computing": 135,
       "Many-Body Physics & Condensed Matter": 55,
       "Science Communication & Policy": 205,
@@ -31821,7 +32032,6 @@
       "Field Theory & Mathematical Physics": 29,
       "Experiment & Observation": 52,
       "High-Energy Physics & Phenomenology": 14,
-      "black-holes": 362,
       "quantum-field-theory": 7,
       "superradiance": 1,
       "holography": 100,
@@ -31856,8 +32066,6 @@
       "kerr-metric": 1,
       "phase-transitions": 5,
       "quintessence": 2,
-      "physics": 241,
-      "quantum-gravity": 101,
       "string-theory": 18,
       "Mathematical Physics": 2,
       "Gravitational Waves": 11,
@@ -31976,7 +32184,6 @@
       "Krylov Complexity": 1,
       "AdS/BCFT": 1,
       "Boundary Entropy": 1,
-      "loop-quantum-gravity": 28,
       "quantum-cosmology": 15,
       "CMB": 2,
       "information-paradox": 5,
@@ -32768,6 +32975,93 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "arxiv": [
+        "2026-09-01",
+        "2026-08-29",
+        "2026-08-28",
+        "2026-08-27",
+        "2026-08-26",
+        "2026-08-25",
+        "2026-08-22",
+        "2026-08-21",
+        "2026-08-20",
+        "2026-08-19",
+        "2026-08-18",
+        "2026-08-15",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-08",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-01",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-25",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-18",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-13",
+        "2026-07-12",
+        "2026-07-11",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-04",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-06",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-23",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-16",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "web-science": [
         "2026-08-31",
         "2026-08-28",
@@ -32939,92 +33233,6 @@
         "2026-05-27",
         "2026-05-26",
         "2026-05-25"
-      ],
-      "arxiv": [
-        "2026-08-29",
-        "2026-08-28",
-        "2026-08-27",
-        "2026-08-26",
-        "2026-08-25",
-        "2026-08-22",
-        "2026-08-21",
-        "2026-08-20",
-        "2026-08-19",
-        "2026-08-18",
-        "2026-08-15",
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-08",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-01",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-25",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-18",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-13",
-        "2026-07-12",
-        "2026-07-11",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-04",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-06",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-23",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
-        "2026-05-16",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
       ]
     }
   }
