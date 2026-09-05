@@ -1,6 +1,216 @@
 {
-  "generated": "2026-09-02T04:49:20.646Z",
+  "generated": "2026-09-05T01:42:28.346Z",
   "digests": [
+    {
+      "date": "2026-09-05",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-09-05",
+      "categories": "astro-ph.CO, astro-ph.HE, cond-mat.stat-mech, gr-qc, hep-ph, hep-th, math-ph, nlin.CD, quant-ph",
+      "items_found": 15,
+      "focus": "black hole, holograph, topological, many-body, entanglement, condensed matter",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Cosmological implications for hairy black holes via spontaneous symmetry breaking: Are Hairy Black Holes Primordial?",
+          "authors": "Suruj Jyoti Das, Miok Park",
+          "arxiv_id": "2609.02102",
+          "url": "https://arxiv.org/abs/2609.02102",
+          "categories": "hep-th, hep-ph, gr-qc, astro-ph.CO",
+          "summary": "We investigate whether hairy black holes generated through spontaneous symmetry breaking in Einstein-Scalar-Gauss-Bonnet (ESGB) theory, involving a complex scalar field with a global $U(1)$ symmetry, can be compatible with cosmological evolution. To this end, we introduce the ESGB theory with a scalar self-interaction that becomes relevant on cosmological scales while remaining negligible near the black hole.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The Analytical Solutions of Dyonic Black Holes in Einstein-Euler-Heisenberg Theory",
+          "authors": "Haoyuan Luo, Nan Cao, Xiao Yan Chew et al.",
+          "arxiv_id": "2609.02380",
+          "url": "https://arxiv.org/abs/2609.02380",
+          "categories": "hep-th, gr-qc",
+          "summary": "Recently, we constructed analytical purely electric and purely magnetic black-hole solutions in Einstein--Euler--Heisenberg theory, while the corresponding dyonic solutions were obtained numerically \\cite{Luo:2026srx}. Motivated by the recent analytical construction of a dyonic black hole at the special coupling locus $b=a/2$ \\cite{Ahmed:2026ufj}, we revisit the general dyonic sector.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Holographic algebras at null infinity",
+          "authors": "Chang-Han Chen, Geoff Penington, Gautam Satishchandran et al.",
+          "arxiv_id": "2609.01706",
+          "url": "https://arxiv.org/abs/2609.01706",
+          "categories": "hep-th, gr-qc",
+          "summary": "We construct an algebra of observables associated to a cut of null infinity in asymptotically flat spacetimes. The Bondi mass associated with a sharp cut of future null infinity is not a well-defined quantum operator: its fluctuations diverge even after smearing in retarded time.",
+          "relevance": "black-holes, holography, entanglement",
+          "tags": [
+            "black-holes",
+            "holography",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Universal fingerprint of topological defect cores",
+          "authors": "Zi-Qiang Zhao, Nayun Jia, Zhang-Yu Nie et al.",
+          "arxiv_id": "2609.02521",
+          "url": "https://arxiv.org/abs/2609.02521",
+          "categories": "cond-mat.stat-mech, hep-th, hep-ph, gr-qc",
+          "summary": "Topological defects are ubiquitous in physics, arising from condensed matter physics to the early universe. Although there exist many universal scaling laws for correlations between topological defects, such as Porod scaling, the fingerprint of topological defect cores has remained largely unexplored.",
+          "relevance": "condensed-matter, topological",
+          "tags": [
+            "condensed-matter",
+            "topological"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Zero-damped modes of near-extremal Reissner--Nordström black holes from exact WKB",
+          "authors": "Prisco Lo Chiatto, Sebastian Schenk, Nils Wagner et al.",
+          "arxiv_id": "2609.02816",
+          "url": "https://arxiv.org/abs/2609.02816",
+          "categories": "hep-th, hep-ph, gr-qc, math-ph",
+          "summary": "The late-time ringdown dynamics of near-extremal black holes (BHs) are expected to be dominated by zero-damped modes (ZDMs), whose decay rates are parametrically suppressed relative to those of ordinary quasinormal modes. In this paper, we demonstrate that exact WKB methods provide an exceptionally powerful framework for analyzing the ZDM spectrum of near-extremal Reissner--Nordström (RN) BHs.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Dyonic rotating cosmological black hole surrounded by quintessence",
+          "authors": "M. D. de Oliveira, Alexandre G. M. Schmidt",
+          "arxiv_id": "2609.04111",
+          "url": "https://arxiv.org/abs/2609.04111",
+          "categories": "hep-th, gr-qc",
+          "summary": "In this work, we constructed a new metric describing a rotating cosmological black hole with electric and magnetic charges in the presence of quintessence dark energy, where the cosmological constant and quintessence are associated with external matter. Starting from a Schwarzschild-type metric and considering all energy contributions in the function $f(r)$, we introduced rotation through the Newman--Janis algorithm using a unique and general complexification rule, avoiding possible ambiguities.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Gravitationally Induced Entanglement Across an Event Horizon",
+          "authors": "Hatim Salih",
+          "arxiv_id": "2609.04104",
+          "url": "https://arxiv.org/abs/2609.04104",
+          "categories": "gr-qc, quant-ph",
+          "summary": "It has long been assumed that a particle---having crossed a black hole event horizon unentangled with another particle in the exterior universe---can no longer dynamically entangle with that particle. Here, we demonstrate within a gravitational retarded-potential model that entanglement can in fact be created from scratch between freely falling spatial superpositions across an event horizon.",
+          "relevance": "black-holes, entanglement",
+          "tags": [
+            "black-holes",
+            "entanglement"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Covariant linear response theory for a photon gas in curved spacetime",
+          "authors": "Jianan Wang, Long Cui, Bin Wu",
+          "arxiv_id": "2609.02615",
+          "url": "https://arxiv.org/abs/2609.02615",
+          "categories": "hep-th, gr-qc",
+          "summary": "To overcome the failure of the conventional non-relativistic description of statistics in strong gravitational fields, we develop a covariant theory for a photon gas in curved spacetime, starting from the Boltzmann equation and employing the relaxation time approximation. The transport coefficients are computed up to second order, which are not a massless limit of the massive-particle results due to the fundamentally different phase-space geometry of null particles.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "On-shell recursion and soft theorems for worldline quantum field theory",
+          "authors": "Nathan Castet, Vincent F. He",
+          "arxiv_id": "2609.01714",
+          "url": "https://arxiv.org/abs/2609.01714",
+          "categories": "hep-th, gr-qc",
+          "summary": "We derive a set of on-shell recursion relations for amplitudes in worldline quantum field theory (WQFT), an effective theory of gravity coupled to a massive worldline which is relevant for computing classical gravitational observables. We overcome the poor large-$z$ falloff of amplitudes under an all-line complex momentum deformation by deriving and exploiting a new soft-graviton theorem in the presence of a worldline.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Quasicrystalline Inflation: From the Cosmological Dipole to Primordial Diffraction",
+          "authors": "Jiro Soda",
+          "arxiv_id": "2609.02142",
+          "url": "https://arxiv.org/abs/2609.02142",
+          "categories": "gr-qc, hep-th, hep-ph, astro-ph.CO",
+          "summary": "We propose quasicrystalline inflation. Six quasiperiodic phases decompose into three phonons and three phasons.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Tidally-enhanced resonances in extreme-mass-ratio inspirals: A tertiary path to chaos",
+          "authors": "Kyriakos Destounis, Takuya Katagiri, Sajal Mukherjee et al.",
+          "arxiv_id": "2609.03007",
+          "url": "https://arxiv.org/abs/2609.03007",
+          "categories": "nlin.CD, gr-qc, astro-ph.HE, hep-th, hep-ph",
+          "summary": "Extreme-mass-ratio inspirals (EMRIs) provide a unique laboratory for probing strong-field gravity and complex relativistic dynamics. We study a tidally deformed EMRI composed of a stellar-mass secondary orbiting a supermassive (non-)rotating black hole embedded in an external, adiabatically varying tidal environment.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Universal CMB Phase Coherence from Single-Field Inflation",
+          "authors": "Siméon Vareilles, Thomas Colas, Julien Grain et al.",
+          "arxiv_id": "2609.03012",
+          "url": "https://arxiv.org/abs/2609.03012",
+          "categories": "hep-th, gr-qc, astro-ph.CO",
+          "summary": "The phase coherence of primordial perturbations shapes the acoustic peaks of the CMB and is regarded as a key signature of inflation. Inflationary scenarios at different energy scales, thus with different durations, are commonly expected to leave different levels of coherence.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Multi-Boundary Many-Body Quantum Teleportation",
+          "authors": "Tal Schwartzman, Antonio F. Rotundo, Raz Monsonego et al.",
+          "arxiv_id": "2609.03053",
+          "url": "https://arxiv.org/abs/2609.03053",
+          "categories": "hep-th, quant-ph",
+          "summary": "Unlike standard quantum teleportation, many-body teleportation uses scrambling to transmit quantum information. In this protocol, initially localized information spreads over many degrees of freedom and is later refocused at the receiver by a simple coupling between the systems, followed by further many-body evolution.",
+          "relevance": "many-body, holography",
+          "tags": [
+            "many-body",
+            "holography"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Gravitational Waves and Matter Constraints in Gravity from Entropy",
+          "authors": "David S. Pereira",
+          "arxiv_id": "2609.03082",
+          "url": "https://arxiv.org/abs/2609.03082",
+          "categories": "hep-th, gr-qc",
+          "summary": "We show that Gravity from Entropy (GfE) exhibits a tensor-propagation pathology on generic FLRW backgrounds. In vacuum, in the symmetry-inheriting single-multiplet sector, and for the algebraic perfect-fluid constitutive embedding, the strict-principal TT system has a nonzero real characteristic only when \\(\\dot H=K/a^2\\).",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Gravitational Backreaction in de Sitter: A Canonical ADM Approach",
+          "authors": "Giordano Cintia",
+          "arxiv_id": "2609.03008",
+          "url": "https://arxiv.org/abs/2609.03008",
+          "categories": "hep-th, gr-qc, astro-ph.CO",
+          "summary": "We develop a canonical ADM framework for gravitational backreaction during inflation. Our approach extends the formalism used to compute cosmological correlators by applying it to the evolution of the quantum background, which we identify with the metric one-point function.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-02",
       "type": "arxiv",
@@ -28766,40 +28976,44 @@
     }
   ],
   "stats": {
-    "total_digests": 258,
-    "total_entries": 1992,
+    "total_digests": 259,
+    "total_entries": 2007,
     "unique_tags": {
+      "black-holes": {
+        "first_seen": "2026-09-05",
+        "count": 380
+      },
+      "holography": {
+        "first_seen": "2026-09-05",
+        "count": 104
+      },
+      "entanglement": {
+        "first_seen": "2026-09-05",
+        "count": 101
+      },
+      "condensed-matter": {
+        "first_seen": "2026-09-05",
+        "count": 2
+      },
+      "topological": {
+        "first_seen": "2026-09-05",
+        "count": 72
+      },
+      "physics": {
+        "first_seen": "2026-09-05",
+        "count": 260
+      },
+      "many-body": {
+        "first_seen": "2026-09-05",
+        "count": 28
+      },
       "quantum-gravity": {
         "first_seen": "2026-09-02",
         "count": 105
       },
-      "entanglement": {
-        "first_seen": "2026-09-02",
-        "count": 99
-      },
       "loop-quantum-gravity": {
         "first_seen": "2026-09-02",
         "count": 31
-      },
-      "physics": {
-        "first_seen": "2026-09-02",
-        "count": 254
-      },
-      "black-holes": {
-        "first_seen": "2026-09-02",
-        "count": 373
-      },
-      "topological": {
-        "first_seen": "2026-09-02",
-        "count": 71
-      },
-      "holography": {
-        "first_seen": "2026-09-02",
-        "count": 102
-      },
-      "many-body": {
-        "first_seen": "2026-09-02",
-        "count": 27
       },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-09-02",
@@ -29676,10 +29890,6 @@
       "AdS/CFT": {
         "first_seen": "2026-08-08",
         "count": 5
-      },
-      "condensed-matter": {
-        "first_seen": "2026-08-06",
-        "count": 1
       },
       "quantum-chaos": {
         "first_seen": "2026-08-06",
@@ -32627,14 +32837,15 @@
       }
     },
     "tag_counts": {
+      "black-holes": 380,
+      "holography": 104,
+      "entanglement": 101,
+      "condensed-matter": 2,
+      "topological": 72,
+      "physics": 260,
+      "many-body": 28,
       "quantum-gravity": 105,
-      "entanglement": 99,
       "loop-quantum-gravity": 31,
-      "physics": 254,
-      "black-holes": 373,
-      "topological": 71,
-      "holography": 102,
-      "many-body": 27,
       "Many-Body Physics & Condensed Matter": 56,
       "Experiment & Observation": 53,
       "Science Communication & Policy": 208,
@@ -32854,7 +33065,6 @@
       "Quantum Measurements": 1,
       "Entanglement Entropy": 1,
       "AdS/CFT": 5,
-      "condensed-matter": 1,
       "quantum-chaos": 10,
       "wormholes": 4,
       "spectral-form-factor": 1,
@@ -33594,6 +33804,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-09-05",
         "2026-09-02",
         "2026-09-01",
         "2026-08-29",
