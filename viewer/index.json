@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T01:43:00.149Z",
+  "generated": "2026-09-05T01:46:13.361Z",
   "digests": [
     {
       "date": "2026-09-05",
@@ -16,7 +16,7 @@
           "arxiv_id": "2609.02102",
           "url": "https://arxiv.org/abs/2609.02102",
           "categories": "hep-th, hep-ph, gr-qc, astro-ph.CO",
-          "summary": "We investigate whether hairy black holes generated through spontaneous symmetry breaking in Einstein-Scalar-Gauss-Bonnet (ESGB) theory, involving a complex scalar field with a global $U(1)$ symmetry, can be compatible with cosmological evolution. To this end, we introduce the ESGB theory with a scalar self-interaction that becomes relevant on cosmological scales while remaining negligible near the black hole.",
+          "summary": "The authors track the scalar–Gauss–Bonnet model through inflation, reheating, and black-hole environments. Post-inflationary instability strongly restricts the couplings and leaves only gram-scale primordial holes able to retain hair, linking local scalarization to cosmological viability.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -29,7 +29,7 @@
           "arxiv_id": "2609.02380",
           "url": "https://arxiv.org/abs/2609.02380",
           "categories": "hep-th, gr-qc",
-          "summary": "Recently, we constructed analytical purely electric and purely magnetic black-hole solutions in Einstein--Euler--Heisenberg theory, while the corresponding dyonic solutions were obtained numerically \\cite{Luo:2026srx}. Motivated by the recent analytical construction of a dyonic black hole at the special coupling locus $b=a/2$ \\cite{Ahmed:2026ufj}, we revisit the general dyonic sector.",
+          "summary": "A closed-form construction extends nonlinear-electrodynamics black holes from purely charged cases to a broad dyonic coupling range. Lauricella-function mass profiles yield an exact Euler–Heisenberg example and continuously recover the known special solution.",
           "relevance": "black-holes",
           "tags": [
             "black-holes"
@@ -42,7 +42,7 @@
           "arxiv_id": "2609.01706",
           "url": "https://arxiv.org/abs/2609.01706",
           "categories": "hep-th, gr-qc",
-          "summary": "We construct an algebra of observables associated to a cut of null infinity in asymptotically flat spacetimes. The Bondi mass associated with a sharp cut of future null infinity is not a well-defined quantum operator: its fluctuations diverge even after smearing in retarded time.",
+          "summary": "Replacing the ill-defined sharp Bondi mass with a regulated, time-smeared operator produces Type III$_1$ algebras at null-infinity cuts. Their nesting reconstructs flat-space wedges and black-hole entanglement wedges, while a Type II regularization yields generalized entropy.",
           "relevance": "black-holes, holography, entanglement",
           "tags": [
             "black-holes",
@@ -57,7 +57,7 @@
           "arxiv_id": "2609.02521",
           "url": "https://arxiv.org/abs/2609.02521",
           "categories": "cond-mat.stat-mech, hep-th, hep-ph, gr-qc",
-          "summary": "Topological defects are ubiquitous in physics, arising from condensed matter physics to the early universe. Although there exist many universal scaling laws for correlations between topological defects, such as Porod scaling, the fingerprint of topological defect cores has remained largely unexplored.",
+          "summary": "The paper identifies a core-sensitive structure-factor tail, $k^{-(d+p+2)}$, controlled only by dimension and defect codimension. Analytics and simulations across field theories and cosmology show that the defect-core cusp supplies a system-independent diagnostic.",
           "relevance": "condensed-matter, topological",
           "tags": [
             "condensed-matter",
