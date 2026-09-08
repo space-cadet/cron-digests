@@ -1,6 +1,215 @@
 {
-  "generated": "2026-09-05T01:46:13.361Z",
+  "generated": "2026-09-08T01:42:45.017Z",
   "digests": [
+    {
+      "date": "2026-09-08",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-09-08",
+      "categories": "astro-ph.CO, astro-ph.HE, gr-qc, hep-ph, hep-th",
+      "items_found": 15,
+      "focus": "quantum gravity, loop quantum, black hole, holograph",
+      "entries": [
+        {
+          "num": 1,
+          "title": "The endless journey towards the horizon of a quantum black hole",
+          "authors": "Victor Franken, Thomas G. Mertens, Bruno de S. L. Torres",
+          "arxiv_id": "2609.05164",
+          "url": "https://arxiv.org/abs/2609.05164",
+          "categories": "gr-qc, hep-th",
+          "summary": "It is a problem of great importance in quantum gravity whether quantum effects lead to nontrivial structure near black hole horizons, and if their interiors are emergent features of a large $N$ limit. We show that the strongly chaotic nature of black holes, captured by random matrix statistics of their spectrum, makes it so that a suitably gravitationally dressed infalling observer takes an infinite amount of proper time to reach the horizon.",
+          "relevance": "quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The trans-Planckian problem and gravitational interactions",
+          "authors": "Ted Jacobson",
+          "arxiv_id": "2609.03071",
+          "url": "https://arxiv.org/abs/2609.03071",
+          "categories": "gr-qc, hep-th",
+          "summary": "The strong gravitational interaction of counter-propagating quantum field modes is of foundational importance to the trans-Planckian problem of black hole horizons. This article, in memory of Renaud Parentani, is primarily an exposition of Renaud&#39;s attempt, using perturbation theory, a large $N$ approximation, and spherical reduction, to capture a mechanism by which those interactions might quench the trans-Planckian near-horizon quantum field correlations.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Emergent dark sector in group field theory cosmology",
+          "authors": "Andrea Calcinari, Federico Greco, Daniele Oriti et al.",
+          "arxiv_id": "2609.04328",
+          "url": "https://arxiv.org/abs/2609.04328",
+          "categories": "hep-th, gr-qc",
+          "summary": "We develop an analytical treatment of the emergent cosmological dynamics induced by local polynomial interactions in a deparametrised group field theory model, moving beyond the usual non-interacting approximation. For a single field mode with quartic and sextic couplings we obtain a closed-form generalised Friedmann equation within a controlled Gaussian regime.",
+          "relevance": "quantum-gravity",
+          "tags": [
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Static Spherically Symmetric Solutions in Modified Entropic Gravity",
+          "authors": "A. Rostami, M. Rostampour, A. Yarahmadi et al.",
+          "arxiv_id": "2609.04966",
+          "url": "https://arxiv.org/abs/2609.04966",
+          "categories": "hep-th, gr-qc",
+          "summary": "Within the entropic gravity paradigm introduced by Verlinde, one assumes that the microscopic degrees of freedom residing on the holographic screen obey the equipartition law of energy. Nevertheless, implications of statistical mechanics suggest that this energy sharing can acquire corrections that depend on temperature.",
+          "relevance": "holography",
+          "tags": [
+            "holography"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Nonlinear evolution in Galileon EFTs: Regularization and screening",
+          "authors": "Farid Thaalba, Aaron Held, Ramiro Cayuso et al.",
+          "arxiv_id": "2609.05407",
+          "url": "https://arxiv.org/abs/2609.05407",
+          "categories": "hep-th, gr-qc",
+          "summary": "In a scalar effective field theory (EFT) with Galileon symmetry, we distinguish the strong-field expansion from the derivative expansion and study spherically symmetric classical nonlinear dynamics. More concretely, we consider two models related via perturbative field redefinitions: one with second-order equations that can also exhibit screening, and one that includes a higher-derivative term that introduces a propagating ghost.",
+          "relevance": "physics",
+          "tags": [
+            "physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Boundary-Boundary Duality on Regular Black Holes, Supersymmetric Solitons and Holographic Spinning Plasma Disks",
+          "authors": "Andres Anabalon, Horatiu Nastase",
+          "arxiv_id": "2609.04331",
+          "url": "https://arxiv.org/abs/2609.04331",
+          "categories": "hep-th",
+          "summary": "We construct a new family of exact rotating solutions of four-dimensional Einstein--Maxwell theory with negative cosmological constant describing regular spinning AdS black holes and smooth solitons. The geometries are free of curvature singularities and admit open regions of parameter space without closed timelike curves, while supersymmetric limits correspond to causally regular horizonless configurations.",
+          "relevance": "black-holes, holography",
+          "tags": [
+            "black-holes",
+            "holography"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Beyond isolated curvature peaks: collective collapse and multiple Primordial Black Hole formation",
+          "authors": "Albert Escrivà",
+          "arxiv_id": "2609.03051",
+          "url": "https://arxiv.org/abs/2609.03051",
+          "categories": "hep-ph, astro-ph.CO, gr-qc",
+          "summary": "Primordial black hole (PBH) calculations usually treat rare curvature peaks as isolated collapsing regions. Using fully nonlinear $3+1$ numerical-relativity simulations in a radiation-dominated Universe, we demonstrate that neighbouring primordial curvature perturbations need not map one-to-one onto PBHs: they may ultimately disperse, collapse collectively into a single PBH, or undergo distinct local collapses and form more than one PBH.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Tidal forces in the quantum Oppenheimer--Snyder black hole",
+          "authors": "Anuar Idrissov, Hernando Quevedo",
+          "arxiv_id": "2609.03278",
+          "url": "https://arxiv.org/abs/2609.03278",
+          "categories": "gr-qc",
+          "summary": "We investigate the tidal forces experienced by massive particles in radial free fall in the quantum Oppenheimer--Snyder black hole, a loop quantum gravity correction to the Schwarzschild geometry that describes the exterior of a bouncing dust ball. Using an orthonormal tetrad adapted to a freely falling observer, we show that the radial and angular components of the tidal tensor reproduce their Schwarzschild counterparts at large distances but reverse sign in the interior.",
+          "relevance": "quantum-gravity, loop-quantum-gravity, black-holes",
+          "tags": [
+            "quantum-gravity",
+            "loop-quantum-gravity",
+            "black-holes"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Dynamical Selection of Horizon-BMS Goldstone Modes in Evaporating Black Holes",
+          "authors": "Nihar Ranjan Ghosh, Malay K. Nandy",
+          "arxiv_id": "2609.03477",
+          "url": "https://arxiv.org/abs/2609.03477",
+          "categories": "gr-qc",
+          "summary": "We investigate the dynamics of horizon soft degrees of freedom associated with near-horizon BMS supertranslations in an evaporating Vaidya-Schwarzschild black hole spacetime. Considering the dynamic nature of the supertranslation parameter, we derive its effective action directly from the Einstein-Hilbert action.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Long-lived ringing of Bronnikov--Kim brane-world black holes and wormholes",
+          "authors": "Milena Skvortsova",
+          "arxiv_id": "2609.03683",
+          "url": "https://arxiv.org/abs/2609.03683",
+          "categories": "gr-qc",
+          "summary": "Massive-field perturbations on black-hole and wormhole backgrounds can form long-lived quasinormal ringing; this behaviour is not confined to brane-world spacetimes, but it is also not universal across compact-object geometries. Recent work on a brane-world black hole reported an unusual limiting behaviour in which the real oscillation frequency tends to zero as the scalar mass grows.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Black holes in alternative theories of gravity",
+          "authors": "Jose Luis Blázquez-Salcedo, Fech Scen Khoo, Burkhard Kleihaus et al.",
+          "arxiv_id": "2609.03983",
+          "url": "https://arxiv.org/abs/2609.03983",
+          "categories": "gr-qc",
+          "summary": "Black holes, with their strong gravitational fields, provide an important testing ground for theories of gravity beyond General Relativity. Among the many proposed alternatives, considerable recent work has focused on scalar-tensor theories in which a scalar field couples to higher-curvature terms.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Electromagnetic alignment and jet precession around supermassive black holes: Quasi-periodic oscillations in tidal disruption events",
+          "authors": "Pau Amaro-Seoane, Leif Lui, Alejandro Torres-Orjuela et al.",
+          "arxiv_id": "2609.05350",
+          "url": "https://arxiv.org/abs/2609.05350",
+          "categories": "gr-qc, astro-ph.HE",
+          "summary": "We evaluate quasi-periodic oscillations and jet formation in tidal disruption events using the covariant formulation of electromagnetic angular-momentum transfer. General-relativistic frame-dragging tears apart misaligned transient accretion flows, forming an isolated inner mini-disk.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Fixed ADM reconstruction of extended uncertainty principle black holes",
+          "authors": "Nikko John Leo S. Lobos, Ali Övgün, Reggie C. Pantig",
+          "arxiv_id": "2609.04254",
+          "url": "https://arxiv.org/abs/2609.04254",
+          "categories": "gr-qc",
+          "summary": "We study a phenomenological fixed-ADM prescription for an extended-uncertainty-principle (EUP) correction to the Schwarzschild exterior. Rather than treat mass constancy as a consequence of the EUP, we hold the charge measured at spatial infinity fixed so that we can compare exteriors at the same physical mass.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Screened Scalar Hair and the Weak-Lensing Separation of Black Holes from Neutron Stars in Quadratic $f(R)$ Gravity",
+          "authors": "Yashmitha Kumaran, Ilídio Lopes",
+          "arxiv_id": "2609.04419",
+          "url": "https://arxiv.org/abs/2609.04419",
+          "categories": "gr-qc",
+          "summary": "Quadratic $f(R)$ gravity carries a massive scalar degree of freedom, the scalaron, whose finite range $\\lambda$ screens its influence on the geometry outside a compact object. We show that this screening severs the exterior of a black hole from that of a neutron star of the same mass.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "Exact solution of the Klein-Gordon equation in a Kiselev black hole background",
+          "authors": "Matheus. D. de Oliveira, Alexandre G. M. Schmidt",
+          "arxiv_id": "2609.04467",
+          "url": "https://arxiv.org/abs/2609.04467",
+          "categories": "gr-qc",
+          "summary": "In this work, we investigate exactly the dynamics of a relativistic spinless particle influenced by a static and uncharged black hole surrounded by a quintessence-like anisotropic fluid or Kiselev black hole. Considering two quintessence-like models as examples, we calculate the radial wave function and determine, in both cases, the quasispectrum of energy, as well as the Hawking radiation and temperature.",
+          "relevance": "black-holes",
+          "tags": [
+            "black-holes"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-05",
       "type": "arxiv",
@@ -28976,16 +29185,28 @@
     }
   ],
   "stats": {
-    "total_digests": 259,
-    "total_entries": 2007,
+    "total_digests": 260,
+    "total_entries": 2022,
     "unique_tags": {
+      "quantum-gravity": {
+        "first_seen": "2026-09-08",
+        "count": 108
+      },
       "black-holes": {
-        "first_seen": "2026-09-05",
-        "count": 380
+        "first_seen": "2026-09-08",
+        "count": 392
       },
       "holography": {
-        "first_seen": "2026-09-05",
-        "count": 104
+        "first_seen": "2026-09-08",
+        "count": 106
+      },
+      "physics": {
+        "first_seen": "2026-09-08",
+        "count": 261
+      },
+      "loop-quantum-gravity": {
+        "first_seen": "2026-09-08",
+        "count": 32
       },
       "entanglement": {
         "first_seen": "2026-09-05",
@@ -28999,21 +29220,9 @@
         "first_seen": "2026-09-05",
         "count": 72
       },
-      "physics": {
-        "first_seen": "2026-09-05",
-        "count": 260
-      },
       "many-body": {
         "first_seen": "2026-09-05",
         "count": 28
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-09-02",
-        "count": 105
-      },
-      "loop-quantum-gravity": {
-        "first_seen": "2026-09-02",
-        "count": 31
       },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-09-02",
@@ -32837,15 +33046,15 @@
       }
     },
     "tag_counts": {
-      "black-holes": 380,
-      "holography": 104,
+      "quantum-gravity": 108,
+      "black-holes": 392,
+      "holography": 106,
+      "physics": 261,
+      "loop-quantum-gravity": 32,
       "entanglement": 101,
       "condensed-matter": 2,
       "topological": 72,
-      "physics": 260,
       "many-body": 28,
-      "quantum-gravity": 105,
-      "loop-quantum-gravity": 31,
       "Many-Body Physics & Condensed Matter": 56,
       "Experiment & Observation": 53,
       "Science Communication & Policy": 208,
@@ -33804,6 +34013,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-09-08",
         "2026-09-05",
         "2026-09-02",
         "2026-09-01",
