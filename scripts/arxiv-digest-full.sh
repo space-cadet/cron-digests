@@ -6,6 +6,14 @@ set -euo pipefail
 REPO="/home/cloudy/.openclaw/workspace/code/cron-digests"
 cd "$REPO"
 
+cat >&2 <<'EOF'
+ERROR: arxiv-digest-full.sh is deprecated.
+It used category-based selection and extractive summaries, and must not author
+the final digest. Fetch candidates with fetch-arxiv-api.py, then have the
+digest agent select papers and write synthetic summaries.
+EOF
+exit 2
+
 # Ensure git is clean
 git pull origin main || true
 

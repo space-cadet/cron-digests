@@ -47,6 +47,13 @@ if [ "$ENTRY_COUNT" -lt 1 ]; then
 fi
 echo "   Found $ENTRY_COUNT entries"
 
+# Enforce the editorial contract for new arXiv digests. The normal format
+# validator cannot tell a real synthesis from an abstract prefix.
+if [ "$TYPE" = "arxiv" ]; then
+    echo "[QUALITY] Checking summaries are synthetic..."
+    python3 scripts/check-arxiv-quality.py "$FILE"
+fi
+
 # 4. Rebuild index and check digest appears
 echo "[2/5] Rebuilding index..."
 if ! node scripts/build-index.js; then
