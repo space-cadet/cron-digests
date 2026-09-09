@@ -1,6 +1,156 @@
 {
-  "generated": "2026-09-08T12:12:38.376Z",
+  "generated": "2026-09-09T01:45:26.784Z",
   "digests": [
+    {
+      "date": "2026-09-09",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-09-09",
+      "categories": "hep-th, quant-ph, cond-mat, gr-qc, hep-ph, physics.atom-ph",
+      "items_found": 10,
+      "focus": "quantum gravity, quantum information and computing, many-body physics, cosmology, and high-energy physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Low-Depth Random Unitaries without Ancillae",
+          "authors": "Zhenyu Du, Siyuan Cheng, Xiongfeng Ma",
+          "url": "https://arxiv.org/abs/2609.06528v1",
+          "categories": "quant-ph",
+          "summary": "The authors prove that approximate k-designs can be generated with optimal polylogarithmic depth using only the system qubits, eliminating the usual ancillary-qubit overhead. Their construction combines random local circuits with a rigorous design analysis and gives depth scaling near-linear in k up to polylogarithmic factors, an important resource result for benchmarking and randomized quantum algorithms.",
+          "relevance": "Directly relevant to scalable randomization, quantum learning, and classical-shadow-style protocols where ancilla space is costly.",
+          "tags": [
+            "random-circuits",
+            "unitary-designs",
+            "quantum-resources"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Cycles Without End: An Ekpyrotic Braneworld Bounce with a Kinetically Coupled Entropic Mechanism",
+          "authors": "Rikpratik Sengupta",
+          "url": "https://arxiv.org/abs/2609.06485v1",
+          "categories": "gr-qc, hep-th",
+          "summary": "This model combines a timelike Randall–Sundrum brane with a kinetically coupled entropic mechanism to produce a nonsingular cyclic cosmology. The authors show how the same construction can regularize the bounce, generate an acceptable scalar spectrum, and control entropy growth across cycles, addressing several standard ekpyrotic obstacles in one dynamical setup.",
+          "relevance": "Relevant to quantum-gravity-informed cosmology: it is an explicit testbed for bounce resolution, extra-dimensional effects, and alternatives to inflation.",
+          "tags": [
+            "cyclic-cosmology",
+            "brane-worlds",
+            "ekpyrotic-bounce"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Trapped Ion Quantum Networking and Telecommunications Coexisting on One Fiber",
+          "authors": "Denton Wu, Mingzhe Han, Zehao Wang, Ana Luiza Ferrari, Mika Zalewski, Yuanheng Xie, Tingjun Chen, Norbert Linke",
+          "url": "https://arxiv.org/abs/2609.06387v1",
+          "categories": "quant-ph, physics.atom-ph",
+          "summary": "The experiment distributes ion–photon entanglement through a 2.8 km deployed fiber while ordinary Ethernet and 5G traffic share the same fiber. By characterizing noise, synchronization, and entanglement quality under live telecom conditions, the work demonstrates that trapped-ion networking need not be confined to dedicated dark fiber.",
+          "relevance": "A concrete systems result for quantum networks, showing how existing telecommunications infrastructure can lower deployment barriers.",
+          "tags": [
+            "quantum-networks",
+            "trapped-ions",
+            "telecom-coexistence"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Finite stress-tensor moment tomography of boundary-graviton coherences",
+          "authors": "Dyuman Bhattacharya, Robert B. Mann",
+          "url": "https://arxiv.org/abs/2609.06363v1",
+          "categories": "hep-th",
+          "summary": "For boundary gravitons in AdS3, the authors formulate a finite-moment tomography protocol based on boundary stress-tensor measurements. Under finite descendant support and nondegenerate Shapovalov forms, they identify when these moments recover interlevel coherences, turning abstract Virasoro-state information into an operational reconstruction problem.",
+          "relevance": "Connects holographic boundary observables with information recovery and provides a sharp laboratory for quantum-gravity tomography.",
+          "tags": [
+            "AdS3-gravity",
+            "boundary-gravitons",
+            "quantum-tomography"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Efficient Quantum Circuits for Electronic Hamiltonian Simulation without Pauli Expansion",
+          "authors": "Tamiya Onodera, Takeshi Sato",
+          "url": "https://arxiv.org/abs/2609.06285v1",
+          "categories": "quant-ph",
+          "summary": "The paper constructs electronic-Hamiltonian time-evolution circuits directly in second quantization, avoiding expansion into Pauli strings. A ladder-string-pair diagonalization handles general complex coefficients and exposes fermionic structure that standard mappings obscure, reducing compilation overhead for simulation circuits.",
+          "relevance": "Useful for quantum chemistry and many-body simulation: it targets a central source of circuit growth in fault-tolerant quantum computing.",
+          "tags": [
+            "quantum-simulation",
+            "electronic-structure",
+            "circuit-compilation"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "The Wilson-line-dressed charged sector of scalar QED: superselection and the infraparticle",
+          "authors": "Gordon W. Semenoff, Conor Waterfield",
+          "url": "https://arxiv.org/abs/2609.06224v1",
+          "categories": "hep-th, hep-ph, quant-ph",
+          "summary": "Using gauge- and Lorentz-invariant Wilson-line-dressed scalar operators, the authors compute finite-time and finite-distance overlaps in scalar QED with a controlled Stueckelberg infrared regulator. The perturbative result makes superselection, soft-photon dressing, and infraparticle behavior explicit in a calculable Euclidean-gluing framework.",
+          "relevance": "Highly relevant to the infrared structure of gauge theory and the relation between quantum information in charged sectors and asymptotic observables.",
+          "tags": [
+            "scalar-QED",
+            "infraparticles",
+            "infrared-physics"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Topologically Protected Edge States in One-Dimensional Quantum Walks",
+          "authors": "Emily Maxey, Jacob Mansfield, Beth Thacker, Wade DeGottardi",
+          "url": "https://arxiv.org/abs/2609.05823v1",
+          "categories": "quant-ph",
+          "summary": "The authors analyze one-dimensional quantum walks with symmetries that protect edge modes against perturbations. By combining bulk topological invariants with boundary-state calculations, they identify conditions for robust localized modes and characterize their transport response, supplying a controllable platform for topological quantum dynamics.",
+          "relevance": "Bridges quantum information and condensed matter through experimentally accessible topological walks and protected boundary information.",
+          "tags": [
+            "topological-phases",
+            "quantum-walks",
+            "edge-states"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Matrix Product Belief Propagation",
+          "authors": "Gabriel Woolls, Shahin Jahanbani, Adarsh Pashikanti, Matthew T. Fishman, Joseph Tindall, Michael P. Zaletel",
+          "url": "https://arxiv.org/abs/2609.05598v1",
+          "categories": "quant-ph, cond-mat.str-el, physics.comp-ph",
+          "summary": "Matrix-product belief propagation gives a controlled approximate contraction method for two-dimensional tensor networks. The authors show a quadratic error improvement at comparable effort, relate the method to corner-transfer-matrix and boundary-MPS approaches, and explain when reflection symmetry further simplifies the contraction.",
+          "relevance": "Relevant to classical verification and simulation of quantum many-body states, especially where two-dimensional tensor-network contraction is the bottleneck.",
+          "tags": [
+            "tensor-networks",
+            "many-body-physics",
+            "belief-propagation"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "End state of the experimental black-hole bomb",
+          "authors": "Patrik Švančara, Leonardo Solidoro, Pietro Smaniotto, Sam Patrick, Silvia Schiattarella, Maciej T. Jarema, Sean M. D. Gregory, Vitor S. Barroso, Maurício Richartz, Anastasios Avgoustidis, Carlo F. Barenghi, Ruth Gregory, Silke Weinfurtner",
+          "url": "https://arxiv.org/abs/2609.05595v1",
+          "categories": "gr-qc, physics.flu-dyn",
+          "summary": "A draining-vortex analogue reproduces the black-hole-bomb mechanism: surface waves undergo superradiant amplification while a cavity repeatedly reflects them. By varying the confinement and tracking the nonlinear evolution, the experiment determines the late-time state and tests how an instability saturates in a laboratory effective spacetime.",
+          "relevance": "An unusually direct analogue-gravity experiment connecting superradiance, nonlinear dynamics, and black-hole instability physics.",
+          "tags": [
+            "analogue-gravity",
+            "superradiance",
+            "black-hole-bomb"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Quantum Quenches across the Bose-glass Transition",
+          "authors": "Bo Song, Shaurya Bhave, Emmanuel Gottlob, Leanne Reeve, Ulrich Schneider",
+          "url": "https://arxiv.org/abs/2609.05589v1",
+          "categories": "cond-mat.quant-gas, cond-mat.dis-nn, quant-ph",
+          "summary": "Ultracold bosons in an optical quasicrystal are quenched across the superfluid–Bose-glass transition. Fast quenches into the glass produce momentum-space quantum walks, whereas quenches into the superfluid generate real-space spreading with a Lieb–Robinson-like light cone, revealing distinct dynamical signatures of the two phases.",
+          "relevance": "Strong condensed-matter relevance for nonequilibrium localization, quasiperiodic systems, and quantum simulation of disordered many-body dynamics.",
+          "tags": [
+            "Bose-glass",
+            "quantum-quenches",
+            "quasicrystals"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-08",
       "type": "arxiv",
@@ -29126,9 +29276,129 @@
     }
   ],
   "stats": {
-    "total_digests": 260,
-    "total_entries": 2017,
+    "total_digests": 261,
+    "total_entries": 2027,
     "unique_tags": {
+      "random-circuits": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "unitary-designs": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "quantum-resources": {
+        "first_seen": "2026-09-09",
+        "count": 2
+      },
+      "cyclic-cosmology": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "brane-worlds": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "ekpyrotic-bounce": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "quantum-networks": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "trapped-ions": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "telecom-coexistence": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "AdS3-gravity": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "boundary-gravitons": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "quantum-tomography": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "quantum-simulation": {
+        "first_seen": "2026-09-09",
+        "count": 7
+      },
+      "electronic-structure": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "circuit-compilation": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "scalar-QED": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "infraparticles": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "infrared-physics": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "topological-phases": {
+        "first_seen": "2026-09-09",
+        "count": 6
+      },
+      "quantum-walks": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "edge-states": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "tensor-networks": {
+        "first_seen": "2026-09-09",
+        "count": 10
+      },
+      "many-body-physics": {
+        "first_seen": "2026-09-09",
+        "count": 5
+      },
+      "belief-propagation": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "analogue-gravity": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "superradiance": {
+        "first_seen": "2026-09-09",
+        "count": 2
+      },
+      "black-hole-bomb": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "Bose-glass": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "quantum-quenches": {
+        "first_seen": "2026-09-09",
+        "count": 2
+      },
+      "quasicrystals": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
       "holography": {
         "first_seen": "2026-09-08",
         "count": 105
@@ -29212,10 +29482,6 @@
       "Majorana-systems": {
         "first_seen": "2026-09-08",
         "count": 1
-      },
-      "quantum-simulation": {
-        "first_seen": "2026-09-08",
-        "count": 6
       },
       "Fermi-Hubbard": {
         "first_seen": "2026-09-08",
@@ -29360,10 +29626,6 @@
       "quantum-field-theory": {
         "first_seen": "2026-08-28",
         "count": 7
-      },
-      "superradiance": {
-        "first_seen": "2026-08-28",
-        "count": 1
       },
       "quantum-error-correction": {
         "first_seen": "2026-08-28",
@@ -30217,10 +30479,6 @@
         "first_seen": "2026-07-30",
         "count": 194
       },
-      "tensor-networks": {
-        "first_seen": "2026-07-23",
-        "count": 9
-      },
       "astronomy": {
         "first_seen": "2026-07-16",
         "count": 1
@@ -31037,10 +31295,6 @@
         "first_seen": "2026-06-03",
         "count": 1
       },
-      "topological-phases": {
-        "first_seen": "2026-06-03",
-        "count": 5
-      },
       "SYK-model": {
         "first_seen": "2026-06-03",
         "count": 3
@@ -31336,10 +31590,6 @@
       "Kondo-insulator": {
         "first_seen": "2026-05-30",
         "count": 1
-      },
-      "many-body-physics": {
-        "first_seen": "2026-05-30",
-        "count": 4
       },
       "strongly-correlated-electrons": {
         "first_seen": "2026-05-30",
@@ -32013,10 +32263,6 @@
         "first_seen": "2026-05-25",
         "count": 1
       },
-      "quantum-quenches": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
       "syk-model": {
         "first_seen": "2026-05-25",
         "count": 1
@@ -32046,10 +32292,6 @@
         "count": 1
       },
       "neutrino-oscillations": {
-        "first_seen": "2026-05-25",
-        "count": 1
-      },
-      "quantum-resources": {
         "first_seen": "2026-05-25",
         "count": 1
       },
@@ -33063,6 +33305,36 @@
       }
     },
     "tag_counts": {
+      "random-circuits": 1,
+      "unitary-designs": 1,
+      "quantum-resources": 2,
+      "cyclic-cosmology": 1,
+      "brane-worlds": 1,
+      "ekpyrotic-bounce": 1,
+      "quantum-networks": 1,
+      "trapped-ions": 1,
+      "telecom-coexistence": 1,
+      "AdS3-gravity": 1,
+      "boundary-gravitons": 1,
+      "quantum-tomography": 1,
+      "quantum-simulation": 7,
+      "electronic-structure": 1,
+      "circuit-compilation": 1,
+      "scalar-QED": 1,
+      "infraparticles": 1,
+      "infrared-physics": 1,
+      "topological-phases": 6,
+      "quantum-walks": 1,
+      "edge-states": 1,
+      "tensor-networks": 10,
+      "many-body-physics": 5,
+      "belief-propagation": 1,
+      "analogue-gravity": 1,
+      "superradiance": 2,
+      "black-hole-bomb": 1,
+      "Bose-glass": 1,
+      "quantum-quenches": 2,
+      "quasicrystals": 1,
       "holography": 105,
       "flat-space-limit": 1,
       "scattering-amplitudes": 2,
@@ -33084,7 +33356,6 @@
       "SYK": 1,
       "quantum-scrambling": 3,
       "Majorana-systems": 1,
-      "quantum-simulation": 6,
       "Fermi-Hubbard": 1,
       "fault-tolerant-computing": 1,
       "high-energy-QCD": 1,
@@ -33121,7 +33392,6 @@
       "Field Theory & Mathematical Physics": 29,
       "High-Energy Physics & Phenomenology": 14,
       "quantum-field-theory": 7,
-      "superradiance": 1,
       "quantum-error-correction": 4,
       "cosmology": 10,
       "hubble-tension": 1,
@@ -33335,7 +33605,6 @@
       "thermodynamics": 9,
       "entropy": 3,
       "quantum": 194,
-      "tensor-networks": 9,
       "astronomy": 1,
       "biology": 2,
       "genetics": 2,
@@ -33540,7 +33809,6 @@
       "Berry-phase": 1,
       "information-hierarchy": 1,
       "local-correlators": 1,
-      "topological-phases": 5,
       "SYK-model": 3,
       "information-scrambling": 1,
       "Dirac-spin-liquid": 1,
@@ -33615,7 +33883,6 @@
       "non-Abelian": 1,
       "optimization": 1,
       "Kondo-insulator": 1,
-      "many-body-physics": 4,
       "strongly-correlated-electrons": 3,
       "RIXS": 1,
       "molecular-orbital": 1,
@@ -33784,7 +34051,6 @@
       "hubbard-model": 1,
       "dmrg": 1,
       "strong-correlations": 1,
-      "quantum-quenches": 1,
       "syk-model": 1,
       "observational-entropy": 1,
       "kicked-rotor": 1,
@@ -33793,7 +34059,6 @@
       "flat-bands": 1,
       "interference": 1,
       "neutrino-oscillations": 1,
-      "quantum-resources": 1,
       "path-integral": 1,
       "evaporation": 1,
       "multi-black-holes": 1,
@@ -34049,6 +34314,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-09-09",
         "2026-09-08",
         "2026-09-05",
         "2026-09-02",
