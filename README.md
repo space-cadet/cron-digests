@@ -6,6 +6,7 @@ A running archive of automated daily digests — arXiv papers and web science ne
 
 ### arXiv Morning Digest
 - **Schedule:** 7:11 AM IST, Monday–Friday
+- **Selection:** Exactly 15 curated papers per digest, balanced across the configured subject areas
 - **Categories:** hep-th, gr-qc, quant-ph, cond-mat
 - **Focus:** Quantum gravity, loop quantum gravity, string theory, quantum computing, black hole thermodynamics, quantum cosmology, condensed matter, social physics
 - **Archive:** [`arxiv/`](arxiv/)

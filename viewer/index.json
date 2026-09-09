@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-09T01:46:58.875Z",
+  "generated": "2026-09-09T10:44:30.894Z",
   "digests": [
     {
       "date": "2026-09-09",
       "type": "arxiv",
       "title": "# arXiv Morning Digest — 2026-09-09",
       "categories": "hep-th, quant-ph, cond-mat, gr-qc, hep-ph, physics.atom-ph",
-      "items_found": 10,
+      "items_found": 15,
       "focus": "quantum gravity, quantum information and computing, many-body physics, cosmology, and high-energy physics",
       "entries": [
         {
@@ -147,6 +147,76 @@
             "Bose-glass",
             "quantum-quenches",
             "quasicrystals"
+          ]
+        },
+        {
+          "num": 11,
+          "title": "Detectability of bulk viscosity effects on post-merger gravitational wave signals from binary neutron star mergers",
+          "authors": "Zhenyu Zhu, Michail Chabanov, Richard O'Shaughnessy",
+          "url": "https://arxiv.org/abs/2609.06374v1",
+          "categories": "astro-ph.HE, gr-qc, nucl-th",
+          "summary": "The study asks whether bulk viscosity leaves a measurable shift in the post-merger gravitational-wave peak frequency of binary neutron-star remnants. Forecasts for Einstein Telescope and Cosmic Explorer indicate that the effect is generally weak, but could be detectable for equations of state with unusually large symmetry-energy slope, turning a difficult dissipative correction into a possible probe of dense-matter physics.",
+          "relevance": "Connects neutron-star microphysics, gravitational-wave spectroscopy, and the observational reach of next-generation detectors.",
+          "tags": [
+            "neutron-stars",
+            "gravitational-waves",
+            "dense-matter"
+          ]
+        },
+        {
+          "num": 12,
+          "title": "Distinguishing lensing and precessional modulation in binary black-hole inspiral waveforms",
+          "authors": "Tien N. Nguyen-Vo, Tamanjyot Singh, Benjamin McKallip, Michael Kesden, Lindsay King",
+          "url": "https://arxiv.org/abs/2609.06347v1",
+          "categories": "gr-qc, astro-ph.CO",
+          "summary": "The authors compare two sources of modulation in binary-black-hole signals: interference between strongly lensed images and precession driven by misaligned spins. A single L-shaped detector can confuse them when the lensing delay produces fewer than three fringes, so ruling out ordinary precession is essential before claiming a lensed gravitational-wave event.",
+          "relevance": "A useful caution for gravitational-wave inference, with direct implications for identifying strong lensing and testing cosmological populations.",
+          "tags": [
+            "gravitational-lensing",
+            "black-hole-binaries",
+            "waveform-inference"
+          ]
+        },
+        {
+          "num": 13,
+          "title": "Heat distribution of quantum fields interacting with Unruh-DeWitt detectors",
+          "authors": "Marcos L. W. Basso, Alberto Saa",
+          "url": "https://arxiv.org/abs/2609.06185v1",
+          "categories": "gr-qc, hep-th, quant-ph",
+          "summary": "An interferometric protocol defines heat-exchange statistics for an Unruh–DeWitt detector coupled to a relativistic quantum field without projective measurements. The resulting characteristic functions recover Poisson-like vacuum and thermal statistics, establish fluctuation relations and Landauer bounds, and clarify how switching work completes the first and second laws for detector–field dynamics.",
+          "relevance": "Provides an operational bridge between relativistic quantum field theory, quantum thermodynamics, and detector models of the Unruh effect.",
+          "tags": [
+            "quantum-thermodynamics",
+            "Unruh-detectors",
+            "fluctuation-relations"
+          ]
+        },
+        {
+          "num": 14,
+          "title": "Regular black holes from dynamical-tension string hedgehogs",
+          "authors": "Sebastian Bahamonde, Eduardo I. Guendelman",
+          "url": "https://arxiv.org/abs/2609.06097v1",
+          "categories": "gr-qc, hep-th",
+          "summary": "A modified-measure string construction replaces the singular constant-tension radial string cloud with a dynamical tension profile. The authors derive conditions for a regular centre, screened asymptotics, and energy conditions, then exhibit an exact cubic profile producing a continuous family of asymptotically flat regular black holes whose first deviation from Schwarzschild appears at order r⁻⁴.",
+          "relevance": "A concrete regular-black-hole model that ties geometric regularity to the dynamics and energy conditions of string-like matter.",
+          "tags": [
+            "regular-black-holes",
+            "string-theory",
+            "modified-measure"
+          ]
+        },
+        {
+          "num": 15,
+          "title": "A principal-symbol obstruction in metric-affine Gauss--Bonnet gravity",
+          "authors": "Hamed Bouzari Nezhad",
+          "url": "https://arxiv.org/abs/2609.06084v1",
+          "categories": "gr-qc, hep-th",
+          "summary": "Two inequivalent metric-affine extensions of the four-dimensional Gauss–Bonnet term agree in the Levi-Civita limit but differ in the principal symbol of the independent connection. One has an indefinite, nonzero two-derivative form obstructing algebraic elimination, while the double-epsilon continuation has a vanishing form on the tested locus—removing that obstruction without proving eliminability.",
+          "relevance": "Sharp mathematical evidence that the choice of affine continuation changes the dynamical content of modified gravity.",
+          "tags": [
+            "metric-affine-gravity",
+            "Gauss-Bonnet",
+            "principal-symbol"
           ]
         }
       ]
@@ -29277,7 +29347,7 @@
   ],
   "stats": {
     "total_digests": 261,
-    "total_entries": 2027,
+    "total_entries": 2032,
     "unique_tags": {
       "random-circuits": {
         "first_seen": "2026-09-09",
@@ -29399,6 +29469,66 @@
         "first_seen": "2026-09-09",
         "count": 1
       },
+      "neutron-stars": {
+        "first_seen": "2026-09-09",
+        "count": 3
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-09-09",
+        "count": 25
+      },
+      "dense-matter": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "gravitational-lensing": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "black-hole-binaries": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "waveform-inference": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "quantum-thermodynamics": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "Unruh-detectors": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "fluctuation-relations": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "regular-black-holes": {
+        "first_seen": "2026-09-09",
+        "count": 5
+      },
+      "string-theory": {
+        "first_seen": "2026-09-09",
+        "count": 19
+      },
+      "modified-measure": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "metric-affine-gravity": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
+      "Gauss-Bonnet": {
+        "first_seen": "2026-09-09",
+        "count": 2
+      },
+      "principal-symbol": {
+        "first_seen": "2026-09-09",
+        "count": 1
+      },
       "holography": {
         "first_seen": "2026-09-08",
         "count": 105
@@ -29434,10 +29564,6 @@
       "nonequilibrium": {
         "first_seen": "2026-09-08",
         "count": 2
-      },
-      "gravitational-waves": {
-        "first_seen": "2026-09-08",
-        "count": 24
       },
       "Bayesian-inference": {
         "first_seen": "2026-09-08",
@@ -29502,10 +29628,6 @@
       "quantum-chaos": {
         "first_seen": "2026-09-08",
         "count": 11
-      },
-      "neutron-stars": {
-        "first_seen": "2026-09-08",
-        "count": 2
       },
       "equation-of-state": {
         "first_seen": "2026-09-08",
@@ -29742,10 +29864,6 @@
       "quintessence": {
         "first_seen": "2026-08-28",
         "count": 2
-      },
-      "string-theory": {
-        "first_seen": "2026-08-27",
-        "count": 18
       },
       "Mathematical Physics": {
         "first_seen": "2026-08-26",
@@ -30215,10 +30333,6 @@
         "first_seen": "2026-08-13",
         "count": 1
       },
-      "Gauss-Bonnet": {
-        "first_seen": "2026-08-13",
-        "count": 1
-      },
       "Hawking-radiation": {
         "first_seen": "2026-08-13",
         "count": 2
@@ -30418,10 +30532,6 @@
       "semiclassical-gravity": {
         "first_seen": "2026-08-06",
         "count": 3
-      },
-      "regular-black-holes": {
-        "first_seen": "2026-08-06",
-        "count": 4
       },
       "gravitational-decoupling": {
         "first_seen": "2026-08-06",
@@ -33335,6 +33445,21 @@
       "Bose-glass": 1,
       "quantum-quenches": 2,
       "quasicrystals": 1,
+      "neutron-stars": 3,
+      "gravitational-waves": 25,
+      "dense-matter": 1,
+      "gravitational-lensing": 1,
+      "black-hole-binaries": 1,
+      "waveform-inference": 1,
+      "quantum-thermodynamics": 1,
+      "Unruh-detectors": 1,
+      "fluctuation-relations": 1,
+      "regular-black-holes": 5,
+      "string-theory": 19,
+      "modified-measure": 1,
+      "metric-affine-gravity": 1,
+      "Gauss-Bonnet": 2,
+      "principal-symbol": 1,
       "holography": 105,
       "flat-space-limit": 1,
       "scattering-amplitudes": 2,
@@ -33344,7 +33469,6 @@
       "non-Hermitian-physics": 1,
       "exceptional-points": 1,
       "nonequilibrium": 2,
-      "gravitational-waves": 24,
       "Bayesian-inference": 1,
       "3G-detectors": 1,
       "quantum-metrology": 1,
@@ -33361,7 +33485,6 @@
       "high-energy-QCD": 1,
       "JIMWLK": 1,
       "quantum-chaos": 11,
-      "neutron-stars": 2,
       "equation-of-state": 1,
       "black-holes": 380,
       "entanglement": 101,
@@ -33421,7 +33544,6 @@
       "kerr-metric": 1,
       "phase-transitions": 5,
       "quintessence": 2,
-      "string-theory": 18,
       "Mathematical Physics": 2,
       "Gravitational Waves": 11,
       "High-Energy Physics": 9,
@@ -33539,7 +33661,6 @@
       "information-paradox": 5,
       "AdS-CFT": 8,
       "quantum-dynamics": 1,
-      "Gauss-Bonnet": 1,
       "Hawking-radiation": 2,
       "group-field-theory": 1,
       "BMS-symmetry": 1,
@@ -33590,7 +33711,6 @@
       "spectral-form-factor": 1,
       "white-holes": 2,
       "semiclassical-gravity": 3,
-      "regular-black-holes": 4,
       "gravitational-decoupling": 2,
       "topological-invariants": 1,
       "quantum-hall-effect": 1,

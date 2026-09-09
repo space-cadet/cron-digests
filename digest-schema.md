@@ -183,7 +183,7 @@ It renders:
   "sessionTarget": "isolated",
   "payload": {
     "kind": "agentTurn",
-    "message": "Generate [type] digest following digest-schema.md.\n\nSteps:\n1. Fetch content from [source]\n2. Select 6-10 most relevant items\n3. For each: write title, URL, 2-3 tags, relevance note\n4. Write to code/cron-digests/[type]/YYYY-MM-DD.md\n5. Update code/cron-digests/tags.json\n6. Commit and push to origin main\n\nTag assignment rules: [specific to type]"
+    "message": "Generate [type] digest following digest-schema.md.\n\nSteps:\n1. Fetch content from [source]\n2. Select exactly 15 most relevant and diverse items, using full abstracts and balancing the requested subject areas\n3. For each: write title, URL, 2-3 tags, a synthetic summary, and a relevance note\n4. Write to code/cron-digests/[type]/YYYY-MM-DD.md\n5. Update code/cron-digests/tags.json\n6. Validate that exactly 15 numbered entries are present, then commit and push to origin main\n\nTag assignment rules: [specific to type]"
   },
   "delivery": {
     "mode": "announce",
