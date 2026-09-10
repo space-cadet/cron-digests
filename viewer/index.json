@@ -1,6 +1,156 @@
 {
-  "generated": "2026-09-09T10:45:29.456Z",
+  "generated": "2026-09-10T01:43:43.727Z",
   "digests": [
+    {
+      "date": "2026-09-10",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-09-10",
+      "categories": "gr-qc, hep-th, quant-ph, cond-mat, astro-ph.CO",
+      "items_found": 10,
+      "focus": "quantum gravity, quantum information and computing, condensed matter, cosmology, and high-energy physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Universal Secular External Leg Corrections for Gauge Independent Scalar Self-Mass on de Sitter",
+          "authors": "D. Glavan, S. P. Miao, T. Prokopec, R. P. Woodard",
+          "url": "https://arxiv.org/abs/2609.10365v1",
+          "categories": "gr-qc, astro-ph.CO, hep-th",
+          "summary": "Gauge-invariant one-loop de Sitter effective equations are obtained by combining graviton diagrams with external-wavefunction corrections, removing both nonlocal and local secular gauge dependence. This gives a controlled prescription for quantum-field backreaction in cosmology.",
+          "relevance": "Relevant to Deepak's research in quantum gravity and inflationary observables.",
+          "tags": [
+            "de-Sitter",
+            "gauge-invariance",
+            "quantum-gravity"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Quench dynamics in nonreciprocal Aubry-André-Harper model",
+          "authors": "Zhiyu Pei, Yongxu Fu, Gao Xianlong",
+          "url": "https://arxiv.org/abs/2609.10342v1",
+          "categories": "cond-mat.mes-hall, quant-ph",
+          "summary": "Parity-resolved quenches and wavepacket scaling reveal that nonreciprocity reverses the usual transport hierarchy: critical states become ballistic while extended states diffuse. Multifractal eigenstates explain the anomalous critical transport.",
+          "relevance": "Relevant to Deepak's research in non-Hermitian localization and quantum dynamics.",
+          "tags": [
+            "non-Hermitian",
+            "quasicrystals",
+            "quantum-dynamics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "An Effective $S$-Matrix Approach to Low-Frequency Waveforms from Black Hole Mergers",
+          "authors": "Katsuki Aoki, Feng-Yin Cheng, Andrea Cristofoli, Yu-tin Huang, Hyun Jeong",
+          "url": "https://arxiv.org/abs/2609.10329v1",
+          "categories": "hep-th",
+          "summary": "Soft theorems and KMOC organize low-frequency merger waveforms beyond leading order. Quantum logarithms cancel in the full observable, leaving classical drag, recoil, and nonlinear-memory contributions with distinct information content.",
+          "relevance": "Relevant to Deepak's research in amplitudes and gravitational-wave physics.",
+          "tags": [
+            "soft-theorems",
+            "scattering-amplitudes",
+            "gravitational-waves"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Programmable photonic state fusion via heralded storage of asynchronously generated resources",
+          "authors": "Mustafa Gündoğan, Dennis Rätzel",
+          "url": "https://arxiv.org/abs/2609.10312v1",
+          "categories": "quant-ph",
+          "summary": "Active storage loops erase generation-time labels when fusing independently heralded photons. Polynomial factorization makes states programmable and adaptive coupling improves the success scaling, advancing photonic resource generation.",
+          "relevance": "Relevant to Deepak's research in photonic quantum networking.",
+          "tags": [
+            "photonic",
+            "quantum-memory",
+            "state-fusion"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "On the Limits of Quantum Multiparty Simultaneous Communication",
+          "authors": "Pedro Montealegre, Ivan Rapaport, Jorge Valenzuela",
+          "url": "https://arxiv.org/abs/2609.10289v1",
+          "categories": "cs.CC, quant-ph",
+          "summary": "Multiparty index coordination exhibits tight quantum SMP lower bounds without entanglement or public coins. The result shows public randomness can beat quantum communication exponentially across growing party counts.",
+          "relevance": "Relevant to Deepak's research in quantum communication complexity.",
+          "tags": [
+            "communication-complexity",
+            "quantum-information",
+            "lower-bounds"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Loss-correcting fault-tolerant quantum computing architecture for neutral atoms",
+          "authors": "Sanaa Sharma, Yutaka Hirano, Akihisa Goban, Hayata Yamasaki, Shinichi Sunami, Prakash Murali",
+          "url": "https://arxiv.org/abs/2609.10079v1",
+          "categories": "quant-ph",
+          "summary": "A neutral-atom architecture incorporates atom-loss correction into fault-tolerant computation. The design targets a dominant hardware-specific erasure channel and supplies a route toward robust logical operations.",
+          "relevance": "Relevant to Deepak's research in practical quantum error correction.",
+          "tags": [
+            "fault-tolerance",
+            "neutral-atoms",
+            "error-correction"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Non-equilibrium dissipative stabilization of s- and d-wave superconductivity",
+          "authors": "Aleksey Lunkin, Yury Holubeu, Denis Golež, Zala Lenarčič",
+          "url": "https://arxiv.org/abs/2609.10062v1",
+          "categories": "cond-mat.str-el, cond-mat.supr-con, quant-ph",
+          "summary": "Driven dissipative dynamics can stabilize competing s- and d-wave superconducting order. The analysis identifies conditions for drive-controlled coexistence and unconventional nonequilibrium phases.",
+          "relevance": "Relevant to Deepak's research in engineered many-body phases.",
+          "tags": [
+            "superconductivity",
+            "nonequilibrium",
+            "many-body"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Entanglement Entropy of Interacting Scalar Theories on Fuzzy Spaces",
+          "authors": "A. Allouche, D. Dou",
+          "url": "https://arxiv.org/abs/2609.10027v1",
+          "categories": "hep-th, gr-qc, quant-ph",
+          "summary": "Interacting scalar theories on fuzzy spaces provide a noncommutative setting for calculating entanglement entropy. The results track how interactions and quantum-geometric discretization modify field-theory entanglement.",
+          "relevance": "Relevant to Deepak's research in quantum geometry and information.",
+          "tags": [
+            "entanglement",
+            "fuzzy-spaces",
+            "QFT"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Revealing the Quantum Signature of Gravity via Gravitational Waves",
+          "authors": "Partha Nandi",
+          "url": "https://arxiv.org/abs/2609.09931v1",
+          "categories": "gr-qc, hep-th, quant-ph",
+          "summary": "A framework is developed for identifying experimentally accessible gravitational-wave signatures that could distinguish quantum aspects of gravity from classical source physics. It focuses attention on the correlations and measurements needed for such a test.",
+          "relevance": "Relevant to Deepak's research in observational tests of quantum gravity.",
+          "tags": [
+            "quantum-gravity",
+            "gravitational-waves",
+            "foundations"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Temperature-induced effective topology in many-body ultracold atomic quantum systems",
+          "authors": "Nitya Cuzzuol, Michele Miotto, Arianna Montorsi, Giacomo Valtolina, Luca Barbiero",
+          "url": "https://arxiv.org/abs/2609.09463v1",
+          "categories": "cond-mat.quant-gas, cond-mat.str-el, quant-ph",
+          "summary": "Finite-temperature effects in interacting ultracold atoms can change effective topological character beyond zero-temperature band theory. The work provides diagnostics for thermally modified many-body topology.",
+          "relevance": "Relevant to Deepak's research in quantum simulation of topological matter.",
+          "tags": [
+            "topological-matter",
+            "ultracold-atoms",
+            "finite-temperature"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-09",
       "type": "arxiv",
@@ -29346,9 +29496,121 @@
     }
   ],
   "stats": {
-    "total_digests": 261,
-    "total_entries": 2032,
+    "total_digests": 262,
+    "total_entries": 2042,
     "unique_tags": {
+      "de-Sitter": {
+        "first_seen": "2026-09-10",
+        "count": 7
+      },
+      "gauge-invariance": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "quantum-gravity": {
+        "first_seen": "2026-09-10",
+        "count": 107
+      },
+      "non-Hermitian": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "quasicrystals": {
+        "first_seen": "2026-09-10",
+        "count": 2
+      },
+      "quantum-dynamics": {
+        "first_seen": "2026-09-10",
+        "count": 2
+      },
+      "soft-theorems": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "scattering-amplitudes": {
+        "first_seen": "2026-09-10",
+        "count": 3
+      },
+      "gravitational-waves": {
+        "first_seen": "2026-09-10",
+        "count": 27
+      },
+      "photonic": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "quantum-memory": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "state-fusion": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "communication-complexity": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "quantum-information": {
+        "first_seen": "2026-09-10",
+        "count": 13
+      },
+      "lower-bounds": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "fault-tolerance": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "neutral-atoms": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "error-correction": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "superconductivity": {
+        "first_seen": "2026-09-10",
+        "count": 2
+      },
+      "nonequilibrium": {
+        "first_seen": "2026-09-10",
+        "count": 3
+      },
+      "many-body": {
+        "first_seen": "2026-09-10",
+        "count": 29
+      },
+      "entanglement": {
+        "first_seen": "2026-09-10",
+        "count": 102
+      },
+      "fuzzy-spaces": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "QFT": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "foundations": {
+        "first_seen": "2026-09-10",
+        "count": 2
+      },
+      "topological-matter": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
+      "ultracold-atoms": {
+        "first_seen": "2026-09-10",
+        "count": 2
+      },
+      "finite-temperature": {
+        "first_seen": "2026-09-10",
+        "count": 1
+      },
       "random-circuits": {
         "first_seen": "2026-09-09",
         "count": 1
@@ -29465,17 +29727,9 @@
         "first_seen": "2026-09-09",
         "count": 2
       },
-      "quasicrystals": {
-        "first_seen": "2026-09-09",
-        "count": 1
-      },
       "neutron-stars": {
         "first_seen": "2026-09-09",
         "count": 3
-      },
-      "gravitational-waves": {
-        "first_seen": "2026-09-09",
-        "count": 25
       },
       "dense-matter": {
         "first_seen": "2026-09-09",
@@ -29537,10 +29791,6 @@
         "first_seen": "2026-09-08",
         "count": 1
       },
-      "scattering-amplitudes": {
-        "first_seen": "2026-09-08",
-        "count": 2
-      },
       "quantum-machine-learning": {
         "first_seen": "2026-09-08",
         "count": 1
@@ -29560,10 +29810,6 @@
       "exceptional-points": {
         "first_seen": "2026-09-08",
         "count": 1
-      },
-      "nonequilibrium": {
-        "first_seen": "2026-09-08",
-        "count": 2
       },
       "Bayesian-inference": {
         "first_seen": "2026-09-08",
@@ -29637,10 +29883,6 @@
         "first_seen": "2026-09-05",
         "count": 380
       },
-      "entanglement": {
-        "first_seen": "2026-09-05",
-        "count": 101
-      },
       "condensed-matter": {
         "first_seen": "2026-09-05",
         "count": 2
@@ -29652,14 +29894,6 @@
       "physics": {
         "first_seen": "2026-09-05",
         "count": 260
-      },
-      "many-body": {
-        "first_seen": "2026-09-05",
-        "count": 28
-      },
-      "quantum-gravity": {
-        "first_seen": "2026-09-02",
-        "count": 105
       },
       "loop-quantum-gravity": {
         "first_seen": "2026-09-02",
@@ -29922,10 +30156,6 @@
         "count": 4
       },
       "high-energy-physics": {
-        "first_seen": "2026-08-22",
-        "count": 1
-      },
-      "foundations": {
         "first_seen": "2026-08-22",
         "count": 1
       },
@@ -30329,10 +30559,6 @@
         "first_seen": "2026-08-13",
         "count": 8
       },
-      "quantum-dynamics": {
-        "first_seen": "2026-08-13",
-        "count": 1
-      },
       "Hawking-radiation": {
         "first_seen": "2026-08-13",
         "count": 2
@@ -30356,10 +30582,6 @@
       "quasinormal-modes": {
         "first_seen": "2026-08-13",
         "count": 4
-      },
-      "quantum-information": {
-        "first_seen": "2026-08-13",
-        "count": 12
       },
       "effective-field-theory": {
         "first_seen": "2026-08-13",
@@ -30949,10 +31171,6 @@
         "first_seen": "2026-06-05",
         "count": 1
       },
-      "superconductivity": {
-        "first_seen": "2026-06-05",
-        "count": 1
-      },
       "Cooper-pairs": {
         "first_seen": "2026-06-05",
         "count": 1
@@ -31108,10 +31326,6 @@
       "dilaton": {
         "first_seen": "2026-06-04",
         "count": 2
-      },
-      "de-Sitter": {
-        "first_seen": "2026-06-04",
-        "count": 6
       },
       "scalar-hair": {
         "first_seen": "2026-06-04",
@@ -32501,10 +32715,6 @@
         "first_seen": "2026-05-22",
         "count": 1
       },
-      "ultracold-atoms": {
-        "first_seen": "2026-05-22",
-        "count": 1
-      },
       "localization": {
         "first_seen": "2026-05-22",
         "count": 1
@@ -33415,6 +33625,34 @@
       }
     },
     "tag_counts": {
+      "de-Sitter": 7,
+      "gauge-invariance": 1,
+      "quantum-gravity": 107,
+      "non-Hermitian": 1,
+      "quasicrystals": 2,
+      "quantum-dynamics": 2,
+      "soft-theorems": 1,
+      "scattering-amplitudes": 3,
+      "gravitational-waves": 27,
+      "photonic": 1,
+      "quantum-memory": 1,
+      "state-fusion": 1,
+      "communication-complexity": 1,
+      "quantum-information": 13,
+      "lower-bounds": 1,
+      "fault-tolerance": 1,
+      "neutral-atoms": 1,
+      "error-correction": 1,
+      "superconductivity": 2,
+      "nonequilibrium": 3,
+      "many-body": 29,
+      "entanglement": 102,
+      "fuzzy-spaces": 1,
+      "QFT": 1,
+      "foundations": 2,
+      "topological-matter": 1,
+      "ultracold-atoms": 2,
+      "finite-temperature": 1,
       "random-circuits": 1,
       "unitary-designs": 1,
       "quantum-resources": 2,
@@ -33444,9 +33682,7 @@
       "black-hole-bomb": 1,
       "Bose-glass": 1,
       "quantum-quenches": 2,
-      "quasicrystals": 1,
       "neutron-stars": 3,
-      "gravitational-waves": 25,
       "dense-matter": 1,
       "gravitational-lensing": 1,
       "black-hole-binaries": 1,
@@ -33462,13 +33698,11 @@
       "principal-symbol": 1,
       "holography": 105,
       "flat-space-limit": 1,
-      "scattering-amplitudes": 2,
       "quantum-machine-learning": 1,
       "hybrid-circuits": 1,
       "quantum-computing": 19,
       "non-Hermitian-physics": 1,
       "exceptional-points": 1,
-      "nonequilibrium": 2,
       "Bayesian-inference": 1,
       "3G-detectors": 1,
       "quantum-metrology": 1,
@@ -33487,12 +33721,9 @@
       "quantum-chaos": 11,
       "equation-of-state": 1,
       "black-holes": 380,
-      "entanglement": 101,
       "condensed-matter": 2,
       "topological": 72,
       "physics": 260,
-      "many-body": 28,
-      "quantum-gravity": 105,
       "loop-quantum-gravity": 31,
       "Many-Body Physics & Condensed Matter": 56,
       "Experiment & Observation": 53,
@@ -33559,7 +33790,6 @@
       "Quantum Chaos": 1,
       "Many-Body Physics": 4,
       "high-energy-physics": 1,
-      "foundations": 1,
       "field-theory": 1,
       "experiment": 3,
       "String Theory": 4,
@@ -33660,14 +33890,12 @@
       "CMB": 2,
       "information-paradox": 5,
       "AdS-CFT": 8,
-      "quantum-dynamics": 1,
       "Hawking-radiation": 2,
       "group-field-theory": 1,
       "BMS-symmetry": 1,
       "flat-space": 1,
       "perturbation-theory": 3,
       "quasinormal-modes": 4,
-      "quantum-information": 12,
       "effective-field-theory": 1,
       "fractons": 1,
       "emergent-gravity": 2,
@@ -33815,7 +34043,6 @@
       "lattice-gauge-theory": 2,
       "measurement-based-computation": 1,
       "spacetime-code": 1,
-      "superconductivity": 1,
       "Cooper-pairs": 1,
       "effective-mass": 1,
       "multiband-Hubbard": 1,
@@ -33855,7 +34082,6 @@
       "off-shell-thermodynamics": 1,
       "Hawking-temperature": 1,
       "dilaton": 2,
-      "de-Sitter": 6,
       "scalar-hair": 2,
       "Kerr-Newman": 1,
       "NUT-charge": 1,
@@ -34203,7 +34429,6 @@
       "Pfaffian-state": 1,
       "photoluminescence": 1,
       "tripartite-quantum-phase": 1,
-      "ultracold-atoms": 1,
       "localization": 1,
       "critical-phenomena": 1,
       "quasiperiodic": 1,
@@ -34434,6 +34659,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-09-10",
         "2026-09-09",
         "2026-09-08",
         "2026-09-05",
