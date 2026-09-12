@@ -1,6 +1,156 @@
 {
-  "generated": "2026-09-11T01:45:53.981Z",
+  "generated": "2026-09-12T01:44:26.347Z",
   "digests": [
+    {
+      "date": "2026-09-12",
+      "type": "arxiv",
+      "title": "# arXiv Morning Digest — 2026-09-12",
+      "categories": "gr-qc, hep-th, quant-ph, cond-mat,",
+      "items_found": 10,
+      "focus": "quantum gravity, quantum information and computing, condensed matter, cosmology, and high-energy physics",
+      "entries": [
+        {
+          "num": 1,
+          "title": "Effective Dynamics of Inflationary End-of-the-World Branes in AdS$_3$",
+          "authors": "Kosei Fujiki, Michitaka Kohara, Jason Kristiano, Yu-ki Suzuki, Tadashi Takayanagi",
+          "url": "https://arxiv.org/abs/2609.11643v1",
+          "categories": "hep-th, gr-qc",
+          "summary": "The brane reduction turns the bulk gravitational problem into a Liouville-like effective theory coupled to localized matter, then uses it to engineer inflationary trajectories. Euclidean regularity, semiclassical actions, and perturbation analysis together show that the constructed solutions are controlled and free of exponentially growing modes within the approximation, linking holographic brane dynamics to cosmological model building.",
+          "relevance": "Connects quantum gravity, holography, and inflation through an explicit effective construction.",
+          "tags": [
+            "AdS-branes",
+            "inflation",
+            "holography"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "One-clean-qubit spectroscopy of simulated Kitaev chains",
+          "authors": "Z. M. McIntyre, Daniel Loss",
+          "url": "https://arxiv.org/abs/2609.11513v1",
+          "categories": "quant-ph",
+          "summary": "A digital-analog protocol embeds a Kitaev chain in a driven transverse-field Ising simulator and uses one control qubit as a DQC1-style spectrometer. Classical postprocessing separates the chain's single-particle energies from the exponentially larger many-body spectrum, so the trivial-to-topological crossover can be mapped with a single-spin measurement.",
+          "relevance": "Relevant to quantum simulation of topological matter and resource-efficient spectroscopy.",
+          "tags": [
+            "Kitaev-chain",
+            "DQC1",
+            "topological-simulation"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Joint Mitigation of Algorithmic and Physical Errors in Noisy Hamiltonian Simulation",
+          "authors": "Shuo Zhou, Xinzhao Wang, Ruiqi Zhang, Xiaoyang Wang, Yi-Cong Zheng, Tongang Li, Shengyu Zhang",
+          "url": "https://arxiv.org/abs/2609.11508v1",
+          "categories": "quant-ph",
+          "summary": "The authors correlate noise amplification with Trotter step size so that hardware noise and finite-step bias appear at the same extrapolation order. A single Richardson cancellation then mitigates both errors, with commutator-based resource guarantees and demonstrations on superconducting Ising dynamics plus 100-qubit simulations.",
+          "relevance": "A practical bridge between algorithmic error control and physical error mitigation for near-term quantum computing.",
+          "tags": [
+            "error-mitigation",
+            "Hamiltonian-simulation",
+            "Richardson-extrapolation"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Graviton vertex operators in the de Donder gauge and BRST descent",
+          "authors": "Isao Kishimoto, Tomohiko Takahashi, Mamiko Yamada",
+          "url": "https://arxiv.org/abs/2609.11272v1",
+          "categories": "hep-th",
+          "summary": "BRST descent is reconstructed for the graviton in de Donder gauge without imposing tracelessness, including a well-defined zero-momentum operator. In a D-brane disk amplitude the trace-sector contribution is essential: it cancels Dirichlet-direction terms and restores the expected world-volume coupling, clarifying gauge-sector bookkeeping in covariant string amplitudes.",
+          "relevance": "Relevant to high-energy theory and quantum-gravity consistency at the amplitude level.",
+          "tags": [
+            "BRST",
+            "graviton",
+            "string-amplitudes"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Timelike Entanglement from Spacetime Density Matrices: A Lattice Realization",
+          "authors": "Hao-yu Wang, Wu-zhong Guo",
+          "url": "https://arxiv.org/abs/2609.10967v1",
+          "categories": "hep-th, cond-mat.stat-mech, quant-ph",
+          "summary": "A lattice Gaussian analysis makes timelike entanglement concrete despite the non-Hermitian reduced spacetime density matrix. Exact spectra and Rényi moments agree with Lorentzian twist-operator predictions across several geometries; a boundary setup further shows a finite causally connected region where all integer Rényi entropies are real, separating reality from simple causal disconnection.",
+          "relevance": "Bridges quantum information, QFT, and Lorentzian spacetime structure.",
+          "tags": [
+            "timelike-entanglement",
+            "density-matrices",
+            "lattice-QFT"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Controlling topology in flux-mismatched Hofstadter bilayers",
+          "authors": "Adel Ali, Alexey Belyanin",
+          "url": "https://arxiv.org/abs/2609.10837v1",
+          "categories": "cond-mat.mes-hall, quant-ph",
+          "summary": "Flux mismatch between Hofstadter layers forces tunneling zeros and Weyl points rather than allowing hybridization to remove all crossings. Bias sweeps transfer Chern number through synthetic Weyl monopoles and can produce direct Chern transitions or a reentrant compensated metal; Berry-flux, TKNN, and interface calculations corroborate the mechanism.",
+          "relevance": "A strong condensed-matter/topological result with experimentally suggestive control knobs.",
+          "tags": [
+            "Hofstadter-bilayers",
+            "Chern-number",
+            "Weyl-points"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Complete set of tree-level $2\\to 2$ scattering amplitudes of ghost-free bimetric theory",
+          "authors": "Felix Herber, Joakim Flinckman, S. F. Hassan",
+          "url": "https://arxiv.org/abs/2609.10760v1",
+          "categories": "hep-th, gr-qc",
+          "summary": "A computer-algebra expansion yields all 199 inequivalent tree-level 2-to-2 helicity amplitudes of ghost-free bimetric theory around proportional Minkowski backgrounds. The mass-content hierarchy isolates where nonlinear parameters first enter, reproduces the massive-gravity limit, and shows unavoidable maximal E^6 growth at the Lambda_3 scale.",
+          "relevance": "Relevant to modified gravity, scattering consistency, and the UV behavior of spin-2 theories.",
+          "tags": [
+            "bimetric-gravity",
+            "scattering-amplitudes",
+            "massive-graviton"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "A Unified Theory of Collective Magnon and Orbiton Excitations in Altermagnets",
+          "authors": "Bishal Das, Chanchal K. Barman, Aftab Alam",
+          "url": "https://arxiv.org/abs/2609.10708v1",
+          "categories": "cond-mat.str-el, cond-mat.other, cond-mat.quant-gas, math-ph, quant-ph",
+          "summary": "An extended Kugel-Khomskii model unifies altermagnetism from inequivalent environments with correlation-driven orbital order. Self-consistent spin/orbital-wave calculations produce coupled but unhybridized chiral magnon and orbiton branches, while Monte Carlo simulations correct spurious first-order transitions seen in the approximate finite-temperature treatment.",
+          "relevance": "Relevant to correlated condensed matter, emergent magnetism, and collective excitations.",
+          "tags": [
+            "altermagnetism",
+            "orbitons",
+            "magnons"
+          ]
+        },
+        {
+          "num": 9,
+          "title": "Demonstration of a logical Bell-state measurement beyond the linear-optical limit",
+          "authors": "Shreya Kumar, Simon D. Reiß, Peter van Loock, Stefanie Barz",
+          "url": "https://arxiv.org/abs/2609.10698v1",
+          "categories": "quant-ph",
+          "summary": "A two-qubit repetition code enables a photonic logical Bell measurement with a measured success probability of 70.8%, exceeding the 50% limit for unencoded linear optics. Because the code also detects bit flips, the improvement comes without extra error-correction overhead in the target fault-tolerant architectures, directly benefiting graph-state generation and quantum networking.",
+          "relevance": "Direct experimental progress toward fault-tolerant photonic quantum computing and networking.",
+          "tags": [
+            "logical-BSM",
+            "photonic-QEC",
+            "quantum-networks"
+          ]
+        },
+        {
+          "num": 10,
+          "title": "Krylov Edge Spectroscopy of Symmetry-Protected Topological Phases",
+          "authors": "Heiko Georg Menzler, Rishabh Jha",
+          "url": "https://arxiv.org/abs/2609.10676v1",
+          "categories": "quant-ph, cond-mat.str-el",
+          "summary": "Krylov edge spectroscopy converts local boundary dynamics into a semi-infinite operator-space hopping problem whose zero-frequency localization diagnoses protected edge memory. Tests on cluster, clock, Haldane, and trivial chains recover SPT labels without ground states or entanglement spectra; in the cluster model, the Krylov localization transition coincides with the bulk gap closing and has the Ising correlation-length exponent.",
+          "relevance": "A conceptually new, locally measurable diagnostic for many-body topology and SPT phases.",
+          "tags": [
+            "Krylov-dynamics",
+            "SPT",
+            "edge-spectroscopy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-11",
       "type": "arxiv",
@@ -29646,9 +29796,129 @@
     }
   ],
   "stats": {
-    "total_digests": 263,
-    "total_entries": 2052,
+    "total_digests": 264,
+    "total_entries": 2062,
     "unique_tags": {
+      "AdS-branes": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "inflation": {
+        "first_seen": "2026-09-12",
+        "count": 9
+      },
+      "holography": {
+        "first_seen": "2026-09-12",
+        "count": 106
+      },
+      "Kitaev-chain": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "DQC1": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "topological-simulation": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "error-mitigation": {
+        "first_seen": "2026-09-12",
+        "count": 2
+      },
+      "Hamiltonian-simulation": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "Richardson-extrapolation": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "BRST": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "graviton": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "string-amplitudes": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "timelike-entanglement": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "density-matrices": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "lattice-QFT": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "Hofstadter-bilayers": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "Chern-number": {
+        "first_seen": "2026-09-12",
+        "count": 2
+      },
+      "Weyl-points": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "bimetric-gravity": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "scattering-amplitudes": {
+        "first_seen": "2026-09-12",
+        "count": 4
+      },
+      "massive-graviton": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "altermagnetism": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "orbitons": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "magnons": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "logical-BSM": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "photonic-QEC": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "quantum-networks": {
+        "first_seen": "2026-09-12",
+        "count": 3
+      },
+      "Krylov-dynamics": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "SPT": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
+      "edge-spectroscopy": {
+        "first_seen": "2026-09-12",
+        "count": 1
+      },
       "BKL": {
         "first_seen": "2026-09-11",
         "count": 1
@@ -29672,10 +29942,6 @@
       "stabilizer-codes": {
         "first_seen": "2026-09-11",
         "count": 3
-      },
-      "quantum-networks": {
-        "first_seen": "2026-09-11",
-        "count": 2
       },
       "nonlocality": {
         "first_seen": "2026-09-11",
@@ -29702,10 +29968,6 @@
         "count": 1
       },
       "bosons": {
-        "first_seen": "2026-09-11",
-        "count": 1
-      },
-      "error-mitigation": {
         "first_seen": "2026-09-11",
         "count": 1
       },
@@ -29753,10 +30015,6 @@
         "first_seen": "2026-09-11",
         "count": 1
       },
-      "inflation": {
-        "first_seen": "2026-09-11",
-        "count": 8
-      },
       "de-Sitter": {
         "first_seen": "2026-09-10",
         "count": 7
@@ -29780,10 +30038,6 @@
       "soft-theorems": {
         "first_seen": "2026-09-10",
         "count": 1
-      },
-      "scattering-amplitudes": {
-        "first_seen": "2026-09-10",
-        "count": 3
       },
       "gravitational-waves": {
         "first_seen": "2026-09-10",
@@ -30024,10 +30278,6 @@
       "principal-symbol": {
         "first_seen": "2026-09-09",
         "count": 1
-      },
-      "holography": {
-        "first_seen": "2026-09-08",
-        "count": 105
       },
       "flat-space-limit": {
         "first_seen": "2026-09-08",
@@ -31906,10 +32156,6 @@
         "count": 2
       },
       "Floquet-quasicrystal": {
-        "first_seen": "2026-06-03",
-        "count": 1
-      },
-      "Chern-number": {
         "first_seen": "2026-06-03",
         "count": 1
       },
@@ -33839,13 +34085,42 @@
       }
     },
     "tag_counts": {
+      "AdS-branes": 1,
+      "inflation": 9,
+      "holography": 106,
+      "Kitaev-chain": 1,
+      "DQC1": 1,
+      "topological-simulation": 1,
+      "error-mitigation": 2,
+      "Hamiltonian-simulation": 1,
+      "Richardson-extrapolation": 1,
+      "BRST": 1,
+      "graviton": 1,
+      "string-amplitudes": 1,
+      "timelike-entanglement": 1,
+      "density-matrices": 1,
+      "lattice-QFT": 1,
+      "Hofstadter-bilayers": 1,
+      "Chern-number": 2,
+      "Weyl-points": 1,
+      "bimetric-gravity": 1,
+      "scattering-amplitudes": 4,
+      "massive-graviton": 1,
+      "altermagnetism": 1,
+      "orbitons": 1,
+      "magnons": 1,
+      "logical-BSM": 1,
+      "photonic-QEC": 1,
+      "quantum-networks": 3,
+      "Krylov-dynamics": 1,
+      "SPT": 1,
+      "edge-spectroscopy": 1,
       "BKL": 1,
       "gravitational-collapse": 1,
       "chaos": 2,
       "fault-tolerance": 2,
       "local-decoders": 1,
       "stabilizer-codes": 3,
-      "quantum-networks": 2,
       "nonlocality": 1,
       "certification": 1,
       "quantum-circuits": 3,
@@ -33853,7 +34128,6 @@
       "entanglement": 105,
       "SPT-phases": 1,
       "bosons": 1,
-      "error-mitigation": 1,
       "matrix-product-states": 1,
       "NISQ": 3,
       "quantum-gravity": 109,
@@ -33865,14 +34139,12 @@
       "commensurability": 1,
       "cosmological-collider": 1,
       "loop-integrals": 1,
-      "inflation": 8,
       "de-Sitter": 7,
       "gauge-invariance": 1,
       "non-Hermitian": 1,
       "quasicrystals": 2,
       "quantum-dynamics": 2,
       "soft-theorems": 1,
-      "scattering-amplitudes": 3,
       "gravitational-waves": 27,
       "photonic": 1,
       "quantum-memory": 1,
@@ -33933,7 +34205,6 @@
       "metric-affine-gravity": 1,
       "Gauss-Bonnet": 2,
       "principal-symbol": 1,
-      "holography": 105,
       "flat-space-limit": 1,
       "quantum-machine-learning": 1,
       "hybrid-circuits": 1,
@@ -34404,7 +34675,6 @@
       "spin-Seebeck": 1,
       "spintronics": 2,
       "Floquet-quasicrystal": 1,
-      "Chern-number": 1,
       "Thouless-pumping": 1,
       "cold-atoms": 1,
       "Astrophysics & Cosmology": 4,
@@ -34889,6 +35159,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-09-12",
         "2026-09-11",
         "2026-09-10",
         "2026-09-09",
