@@ -1,6 +1,105 @@
 {
-  "generated": "2026-09-12T21:48:02.942Z",
+  "generated": "2026-09-13T20:21:23.804Z",
   "digests": [
+    {
+      "date": "2026-09-13",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-09-13",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Physicists Discover a Hidden “Curveball” in Quantum Light",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260912220025.htm",
+          "summary": "Table tennis players can make a ball suddenly curve by giving it just the right spin. That motion is caused by the Magnus effect, a familiar piece of physics that also influences the flight of larger balls in sports such as soccer.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Scientists Are Building a Microscope Powered by a Quantum Computer",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260912220038.htm",
+          "summary": "Electron microscopes can reveal structures far smaller than anything visible with ordinary light. But researchers in Austria say conventional electron microscopes may be leaving valuable information on the table.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Tiny Sound Waves Could Help Solve a Major Quantum Computing Problem",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260911214245.htm",
+          "summary": "Researchers at the Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS) have demonstrated a new way to protect delicate quantum information using mechanical vibrations, essentially microscopic sound waves.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "In an Age of AI, a Physicist Seeks What Endures",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903/",
+          "summary": "Sarah Demers, chair of the physics department at Yale University, sees the potential for large language models to both help and harm her field.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "NSF moves to overhaul funding approach in line with White House priorities",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02892-9",
+          "summary": "The major funder of basic science has not said how its new initiatives will be funded — but staff worry streamlined approach will further squeeze cash for core sciences.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Mercury may not need an ancient dynamo to explain its magnetic crust",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/mercury-may-not-need-an-ancient-dynamo-to-explain-its-magnetic-crust/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Scientists Find a Way to Slash Computer Memory Energy Use by Orders of Magnitude",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260906170132.htm",
+          "summary": "Artificial intelligence (AI) and other information and communication technologies (ICTs) are producing and processing data at a scale never seen before.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "AI Can Now Control Fusion Plasma Faster Than Humans Can React",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260903064215.htm",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-12",
       "type": "arxiv",
@@ -29796,9 +29895,25 @@
     }
   ],
   "stats": {
-    "total_digests": 264,
-    "total_entries": 2062,
+    "total_digests": 265,
+    "total_entries": 2070,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-09-13",
+        "count": 138
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-09-13",
+        "count": 76
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-09-13",
+        "count": 63
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-09-13",
+        "count": 213
+      },
       "AdS-branes": {
         "first_seen": "2026-09-12",
         "count": 1
@@ -30399,14 +30514,6 @@
         "first_seen": "2026-09-02",
         "count": 53
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-09-02",
-        "count": 208
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-09-02",
-        "count": 74
-      },
       "moltbook": {
         "first_seen": "2026-09-02",
         "count": 337
@@ -30434,10 +30541,6 @@
       "information-theory": {
         "first_seen": "2026-09-01",
         "count": 5
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-08-31",
-        "count": 135
       },
       "Quantum Gravity": {
         "first_seen": "2026-08-29",
@@ -30662,10 +30765,6 @@
       "Topological": {
         "first_seen": "2026-08-20",
         "count": 1
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-08-20",
-        "count": 62
       },
       "Loop Quantum Gravity": {
         "first_seen": "2026-08-19",
@@ -34085,6 +34184,10 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 138,
+      "Optics & Photonics": 76,
+      "Technology & Engineering": 63,
+      "Science Communication & Policy": 213,
       "AdS-branes": 1,
       "inflation": 9,
       "holography": 106,
@@ -34235,8 +34338,6 @@
       "loop-quantum-gravity": 31,
       "Many-Body Physics & Condensed Matter": 56,
       "Experiment & Observation": 53,
-      "Science Communication & Policy": 208,
-      "Optics & Photonics": 74,
       "moltbook": 337,
       "agents": 232,
       "agent-architecture": 86,
@@ -34244,7 +34345,6 @@
       "reasoning": 36,
       "language-models": 12,
       "information-theory": 5,
-      "Quantum Information & Computing": 135,
       "Quantum Gravity": 64,
       "Foundations & Interpretations": 15,
       "Black Hole Physics": 68,
@@ -34301,7 +34401,6 @@
       "experiment": 3,
       "String Theory": 4,
       "Topological": 1,
-      "Technology & Engineering": 62,
       "Loop Quantum Gravity": 7,
       "Black Hole Remnants": 1,
       "Higher Dimensions": 2,
@@ -35158,6 +35257,92 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-09-13",
+        "2026-09-02",
+        "2026-09-01",
+        "2026-08-31",
+        "2026-08-28",
+        "2026-08-27",
+        "2026-08-26",
+        "2026-08-25",
+        "2026-08-24",
+        "2026-08-21",
+        "2026-08-20",
+        "2026-08-19",
+        "2026-08-18",
+        "2026-08-17",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-10",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-03",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "arxiv": [
         "2026-09-12",
         "2026-09-11",
@@ -35246,91 +35431,6 @@
         "2026-05-19",
         "2026-05-18",
         "2026-05-16",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "web-science": [
-        "2026-09-02",
-        "2026-09-01",
-        "2026-08-31",
-        "2026-08-28",
-        "2026-08-27",
-        "2026-08-26",
-        "2026-08-25",
-        "2026-08-24",
-        "2026-08-21",
-        "2026-08-20",
-        "2026-08-19",
-        "2026-08-18",
-        "2026-08-17",
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-10",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-03",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
         "2026-05-15",
         "2026-05-14",
         "2026-05-13",
