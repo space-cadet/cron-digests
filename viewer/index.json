@@ -1,6 +1,47 @@
 {
-  "generated": "2026-09-13T20:22:00.515Z",
+  "generated": "2026-09-14T04:51:19.737Z",
   "digests": [
+    {
+      "date": "2026-09-14",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-09-14",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Interstellar Solar Sails Hit a Strange Problem at 75% of Light Speed",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260831015157.htm",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "The super El Niño is already wreaking havoc: here’s what’s in store",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02826-5",
+          "summary": "The extreme weather of this year’s mega El Niño could look different from past events.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "People trust scientists seen to be 'on their side', UK study find",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02883-w",
+          "summary": "Politics and personal values influence people’s confidence in scientists, finds new report",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-13",
       "type": "web-science",
@@ -29895,24 +29936,24 @@
     }
   ],
   "stats": {
-    "total_digests": 265,
-    "total_entries": 2070,
+    "total_digests": 266,
+    "total_entries": 2073,
     "unique_tags": {
+      "Optics & Photonics": {
+        "first_seen": "2026-09-14",
+        "count": 77
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-09-14",
+        "count": 215
+      },
       "Quantum Information & Computing": {
         "first_seen": "2026-09-13",
         "count": 138
       },
-      "Optics & Photonics": {
-        "first_seen": "2026-09-13",
-        "count": 76
-      },
       "Technology & Engineering": {
         "first_seen": "2026-09-13",
         "count": 63
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-09-13",
-        "count": 213
       },
       "AdS-branes": {
         "first_seen": "2026-09-12",
@@ -34184,10 +34225,10 @@
       }
     },
     "tag_counts": {
+      "Optics & Photonics": 77,
+      "Science Communication & Policy": 215,
       "Quantum Information & Computing": 138,
-      "Optics & Photonics": 76,
       "Technology & Engineering": 63,
-      "Science Communication & Policy": 213,
       "AdS-branes": 1,
       "inflation": 9,
       "holography": 106,
@@ -35258,6 +35299,7 @@
     },
     "dates_by_type": {
       "web-science": [
+        "2026-09-14",
         "2026-09-13",
         "2026-09-02",
         "2026-09-01",
