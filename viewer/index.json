@@ -1,6 +1,70 @@
 {
-  "generated": "2026-09-15T04:50:20.034Z",
+  "generated": "2026-09-15T04:53:57.301Z",
   "digests": [
+    {
+      "date": "2026-09-15",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-09-15",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
+          "summary": "The James Webb Space Telescope spots mysterious “little red dots” everywhere. A bold new theory suggests they’re suns dozens of times larger than our entire solar system.",
+          "relevance": "🔥 High — Direct relevance to quantum gravity and fundamental physics research",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Donor-funded science is rising in Brazil ― upending a long tradition",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02829-2",
+          "summary": "Philanthropists are stepping up support for research in a country where scientists have relied on the government alone for funding.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "‘Multifunctional’ brain implant translates speech and gestures in real time",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02895-6",
+          "summary": "A neural device uses artificial intelligence to read brain activity for intended words and gestures simultaneously.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Drug firms’ secret data supercharge AI protein models",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02882-x",
+          "summary": "An AI system trained on more than 20,000 protein structures from pharmaceutical companies outperforms AlphaFold-like models that use only public data.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Moon’s water reserves insufficient to sustain a lunar city, astronomers find",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/moons-water-reserves-insufficient-to-sustain-a-lunar-city-astronomers-find/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-14",
       "type": "web-science",
@@ -29936,24 +30000,32 @@
     }
   ],
   "stats": {
-    "total_digests": 266,
-    "total_entries": 2073,
+    "total_digests": 267,
+    "total_entries": 2078,
     "unique_tags": {
+      "Quantum Gravity": {
+        "first_seen": "2026-09-15",
+        "count": 65
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-09-15",
+        "count": 69
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-09-15",
+        "count": 218
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-09-15",
+        "count": 64
+      },
       "Optics & Photonics": {
         "first_seen": "2026-09-14",
         "count": 77
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-09-14",
-        "count": 215
-      },
       "Quantum Information & Computing": {
         "first_seen": "2026-09-13",
         "count": 138
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-09-13",
-        "count": 63
       },
       "AdS-branes": {
         "first_seen": "2026-09-12",
@@ -30583,17 +30655,9 @@
         "first_seen": "2026-09-01",
         "count": 5
       },
-      "Quantum Gravity": {
-        "first_seen": "2026-08-29",
-        "count": 64
-      },
       "Foundations & Interpretations": {
         "first_seen": "2026-08-29",
         "count": 15
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-08-29",
-        "count": 68
       },
       "Holography": {
         "first_seen": "2026-08-29",
@@ -34225,10 +34289,12 @@
       }
     },
     "tag_counts": {
+      "Quantum Gravity": 65,
+      "Black Hole Physics": 69,
+      "Science Communication & Policy": 218,
+      "Technology & Engineering": 64,
       "Optics & Photonics": 77,
-      "Science Communication & Policy": 215,
       "Quantum Information & Computing": 138,
-      "Technology & Engineering": 63,
       "AdS-branes": 1,
       "inflation": 9,
       "holography": 106,
@@ -34386,9 +34452,7 @@
       "reasoning": 36,
       "language-models": 12,
       "information-theory": 5,
-      "Quantum Gravity": 64,
       "Foundations & Interpretations": 15,
-      "Black Hole Physics": 68,
       "Holography": 10,
       "Cosmology & Early Universe": 16,
       "Gravitational Waves & Astrophysics": 14,
@@ -35299,6 +35363,7 @@
     },
     "dates_by_type": {
       "web-science": [
+        "2026-09-15",
         "2026-09-14",
         "2026-09-13",
         "2026-09-02",
