@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16T01:47:22.083Z",
+  "generated": "2026-09-16T04:52:49.413Z",
   "digests": [
     {
       "date": "2026-09-16",
@@ -107,6 +107,36 @@
           "categories": "cond-mat.str-el, hep-th",
           "summary": "An epsilon expansion analyzes solids whose transverse phonon velocity vanishes, showing that cubic elasticity drives a Lifshitz critical point in three dimensions. The transition is generically first order, but a Ginzburg region retains access to the fixed-point data; in two dimensions symmetry removes the cubic term and leaves marginal quartic effects. The work identifies experimentally relevant routes to crystal Lifshitz criticality.",
           "tags": []
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-09-16",
+      "items_found": 2,
+      "entries": [
+        {
+          "num": 1,
+          "title": "The Shape Behind the Einstein Problem Just Revealed Strange New Physics",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260914102432.htm",
+          "summary": "A mathematical shape famous for covering a surface without ever repeating has revealed an unexpected ability to twist light into unusual chiral patterns. The discovery could lead to new ways of controlling light, polarization, and advanced optical devices.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "‘Stomach bugs’ send protective immune cells rushing from gut to brain",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02891-w",
+          "summary": "Voyaging gut-derived immune cells ‘remember’ past stomach infections in mice.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
         }
       ]
     },
@@ -30109,9 +30139,17 @@
     }
   ],
   "stats": {
-    "total_digests": 268,
-    "total_entries": 2088,
+    "total_digests": 269,
+    "total_entries": 2090,
     "unique_tags": {
+      "Optics & Photonics": {
+        "first_seen": "2026-09-16",
+        "count": 78
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-09-16",
+        "count": 219
+      },
       "Quantum Gravity": {
         "first_seen": "2026-09-15",
         "count": 65
@@ -30120,17 +30158,9 @@
         "first_seen": "2026-09-15",
         "count": 69
       },
-      "Science Communication & Policy": {
-        "first_seen": "2026-09-15",
-        "count": 218
-      },
       "Technology & Engineering": {
         "first_seen": "2026-09-15",
         "count": 64
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-09-14",
-        "count": 77
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-09-13",
@@ -34398,11 +34428,11 @@
       }
     },
     "tag_counts": {
+      "Optics & Photonics": 78,
+      "Science Communication & Policy": 219,
       "Quantum Gravity": 65,
       "Black Hole Physics": 69,
-      "Science Communication & Policy": 218,
       "Technology & Engineering": 64,
-      "Optics & Photonics": 77,
       "Quantum Information & Computing": 138,
       "AdS-branes": 1,
       "inflation": 9,
@@ -35567,6 +35597,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-09-16",
         "2026-09-15",
         "2026-09-14",
         "2026-09-13",
