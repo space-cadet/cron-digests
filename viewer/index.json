@@ -1,6 +1,115 @@
 {
-  "generated": "2026-09-16T04:52:49.413Z",
+  "generated": "2026-09-17T01:46:02.004Z",
   "digests": [
+    {
+      "date": "2026-09-17",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-09-17",
+      "categories": "quant-ph, cond-mat, hep-th, cosmology, hep-ph, gr-qc",
+      "items_found": 10,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Learning to Program Adaptive Non-Local Observables for Machine Learning",
+          "authors": "Yu-Ting Lee; Samuel Yen-Chi Chen; Huan-Hsin Tseng",
+          "arxiv_id": "2609.18655",
+          "url": "https://arxiv.org/abs/2609.18655",
+          "categories": "cs.LG, quant-ph",
+          "summary": "QFWP-ANO uses a classical hypernetwork to program both circuit parameters and non-local measurements from each input, overcoming the fixed-observable limitation of earlier ANO models. Across forecasting and reinforcement-learning benchmarks it consistently improves on ANO baselines, showing that input-adaptive measurement design can be a useful quantum-modeling primitive.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Filter-Free Indistinguishable Photon Generation from Continuous-Wave-Driven Integrated Microresonators",
+          "authors": "Ruiyang Chen; Sicheng Zeng; Yuan Chen; Sanli Huang; Zeying Zhong; Zhen Chen; Xue Bai; Yi-Han Luo; Junqiu Liu",
+          "arxiv_id": "2609.18575",
+          "url": "https://arxiv.org/abs/2609.18575",
+          "categories": "quant-ph, physics.optics",
+          "summary": "The analysis shows that finite detection windows, not just the source joint spectral amplitude, determine the usable heralded state. Optimizing signal and idler windows in integrated silicon-nitride resonators produces HOM visibilities up to 0.992 without filtering, making a strong experimental case for scalable continuous-wave network sources.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Catalytic Activation of Genuine Multipartite Entanglement and Nonlocality",
+          "authors": "Eliot Donnadieu; Pavel Sekatski; Nicolas Brunner; Victor Barizien",
+          "arxiv_id": "2609.18570",
+          "url": "https://arxiv.org/abs/2609.18570",
+          "categories": "quant-ph",
+          "summary": "A multipartite “sum-to-product” catalytic protocol converts broad classes of biseparable-but-correlated states into genuine multipartite entanglement using only local operations and a catalyst. Applying it to random-network states also activates genuine Bell nonlocality, extending catalysis beyond bipartite resource transformations.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Deep learning emergent spacetime from fermionic spectral functions in holography",
+          "authors": "Koji Hashimoto; Hyun-Sik Jeong; Keun-Young Kim; Daichi Takeda; Kwan Yun",
+          "arxiv_id": "2609.18566",
+          "url": "https://arxiv.org/abs/2609.18566",
+          "categories": "hep-th, cond-mat.str-el, cs.LG",
+          "summary": "A constrained neural ODE reconstructs charged AdS geometry and probe charge from boundary fermion spectra across three quantum-critical regimes. When UV constraints are relaxed, repeated training discovers distinct bulk profiles with the same near-horizon data and spectra, numerically exposing the expected IR universality and inverse-problem non-uniqueness.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Extensibly Causally Separable Processes Admit Realizations as Quantum Circuits with Classical Control of Causal Order",
+          "authors": "Wenjie Wei; Shengshi Pang",
+          "arxiv_id": "2609.18559",
+          "url": "https://arxiv.org/abs/2609.18559",
+          "categories": "quant-ph",
+          "summary": "Using generalized teleportation, the authors prove that every multipartite ECS process can be implemented by a circuit whose causal order is classically controlled by prior outcomes. The result closes the realization problem and gives ECS a complete operational interpretation, while reconciling variants with different global boundary systems.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Lindbladian quantum chaos beyond classical strange attractors",
+          "authors": "Ángel L. Corps; Armando Relaño",
+          "arxiv_id": "2609.18464",
+          "url": "https://arxiv.org/abs/2609.18464",
+          "categories": "quant-ph, cond-mat.stat-mech",
+          "summary": "In a dissipative two-spin model, exact-numerical analysis links transient classical chaos before relaxation to random-matrix statistics in the Liouvillian spectrum. The onset precedes the classical bifurcation to a chaotic attractor, refining the Grobe–Haake–Sommers picture by showing that asymptotic chaos is not required.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Cosmological anatomy of interacting dark energy",
+          "authors": "Miguel A. Sabogal; Sunny Vagnozzi; Eleonora Di Valentino",
+          "arxiv_id": "2609.18288",
+          "url": "https://arxiv.org/abs/2609.18288",
+          "categories": "astro-ph.CO, gr-qc, hep-ph",
+          "summary": "A staged parameter-matched comparison separates genuine interacting-dark-energy signatures from changes caused by shifts in acoustic scale, equality redshift, and background expansion. The CMB temperature can become nearly indistinguishable from $Λ$CDM$, while lensing and matter clustering retain smaller, $Ω_m$-sensitive differences; the methodology is broadly reusable.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "The quantum Mpemba effect in symmetric random Clifford circuits",
+          "authors": "Shion Yamashika; Filiberto Ares; Pasquale Calabrese",
+          "arxiv_id": "2609.17988",
+          "url": "https://arxiv.org/abs/2609.17988",
+          "categories": "cond-mat.stat-mech, quant-ph",
+          "summary": "Conserved-charge random Clifford circuits exhibit faster symmetry restoration from states with larger initial entanglement asymmetry. Mapping the dynamics to a charge-conserving automaton and exclusion-process encounters yields an analytic decay mechanism, turning the quantum Mpemba effect into a tractable transport phenomenon.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Collider Detector Observables from Lattice Spin Systems",
+          "authors": "João Barata; Ying-Ying Li; Bo Wang; Hua Xing Zhu",
+          "arxiv_id": "2609.17664",
+          "url": "https://arxiv.org/abs/2609.17664",
+          "categories": "hep-ph, hep-lat, hep-th, quant-ph",
+          "summary": "The authors construct regulated detector/energy-flow operators for lattice spin systems and test them in the 1+1D quantum Ising model. Finite-size results agree quantitatively with CFT at criticality, suggesting a practical quantum-simulation route to real-time collider observables that are difficult for Euclidean lattice methods.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Query-optimal quantum simulation of Lindblad evolution",
+          "authors": "Chunhao Wang; Christopher Ye",
+          "arxiv_id": "2609.17490",
+          "url": "https://arxiv.org/abs/2609.17490",
+          "categories": "quant-ph",
+          "summary": "A block-encoding algorithm achieves additive, rather than multiplicative, dependence on evolution time and precision for general Lindblad simulation queries. Transducers and reused circuits suppress composition and catalyst-removal errors; the remaining gap is gate complexity, so the work settles oracle optimality while preserving an important implementation challenge.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-09-16",
       "type": "arxiv",
@@ -30139,8 +30248,8 @@
     }
   ],
   "stats": {
-    "total_digests": 269,
-    "total_entries": 2090,
+    "total_digests": 270,
+    "total_entries": 2100,
     "unique_tags": {
       "Optics & Photonics": {
         "first_seen": "2026-09-16",
@@ -35502,6 +35611,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-09-17",
         "2026-09-16",
         "2026-09-12",
         "2026-09-11",
