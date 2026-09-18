@@ -1,6 +1,75 @@
 {
-  "generated": "2026-09-17T04:49:56.244Z",
+  "generated": "2026-09-18T01:47:53.759Z",
   "digests": [
+    {
+      "date": "2026-09-18",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-09-18",
+      "categories": "quant-ph",
+      "items_found": 10,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Supersymmetric boundary algebras in AdS$_3$ gravity: constraints, Dirac brackets and non-locality",
+          "summary": "* The authors reduce supersymmetric AdS$_3$ Chern–Simons boundary dynamics using Dirac’s constrained-Hamiltonian machinery, then use Batalin–Fradkin–Tyutin conversion to localize the resulting algebra. They find bosonic currents stay local but fermionic brackets are generically non-local, with gauge-removable fermions except for periodic zero modes; the enlarged local formulation clarifies the physical boundary sectors.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "When Is Kramers-Wannier Duality Invertible?",
+          "summary": "* A representation-theoretic analysis of the Ising bond algebra yields a necessary-and-sufficient criterion for turning finite-chain Kramers–Wannier duality into a unitary map. Twisted sectors supply the missing invertibility, and an explicit nontrivial representation demonstrates the construction, connecting lattice duality to modern non-invertible symmetry ideas.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Statistical delocalization in the Anyonic Aubry-André model",
+          "summary": "* Exact quadratic anyon dynamics are combined with finite-size spectral scaling, inverse participation ratios, and quench imbalance measurements. Increasing the statistical angle moves the localization crossover to stronger quasiperiodic disorder, showing that exchange statistics alone can drive delocalization without density interactions.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Corner entanglement scaling with projected entangled pair states",
+          "summary": "* The work develops a thermodynamic-limit PEPS procedure for extracting universal corner entanglement. Its finite-entanglement-scaling analysis reproduces known corner coefficients at criticality, providing a practical numerical diagnostic for two-dimensional strongly correlated systems.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Distinguishing Coupled Dark Matter Dark Energy from Kinematic Phantom Crossing",
+          "summary": "* A two-fluid perturbation analysis plus DESI, CMB, lensing, RSD, and supernova data separates interacting dark-sector phantom crossing from phenomenological $w(z)$. The predicted coupling–neutrino-mass degeneracy and 4.3–5.5% recombination-era dark-matter mass change identify growth and distance observables that can test the microscopic model.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Relativistic Stellar Oscillations from Ultralight Dark Matter",
+          "summary": "* The authors derive a relativistic mode-driving framework for wave-like ultralight dark matter and show that radial ($\\ell=0$) stellar modes can resonate in compact stars. Applying it to neutron stars predicts temperature modulations currently too small to observe, but establishes a calculable route to probe ultralight fields with other compact objects.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "A Global Overview of Starobinsky Inflation beyond slow-roll with CMB-BAO data",
+          "summary": "* Instead of imposing slow roll, this study numerically solves the inflationary equations while fitting ACT/SPT CMB and DESI BAO data. The resulting tighter parameter bounds propagate to reheating limits and the dimension-six $R^3$ extension, while prior and $r_dh$ correlations quantify key analysis systematics.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Non-Abelian Anyon Condensation: A Path-Integral Monte Carlo Approach",
+          "summary": "* A sign-free path-integral Monte Carlo formulation, enabled by matterization and non-invertible 1-form symmetry variables, makes large-scale studies of non-Abelian condensation feasible. For $S_3$, simulations find first-order electric-condensation and magnetic-confinement transitions, diagnosed by generalized order parameters and Wilson-loop scaling.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Topological entanglement entropy in 3D gravity",
+          "summary": "* Canonical quantization of a diffeomorphism-constrained tensor-network model produces an entropy formula including matter and metric invertibility. It agrees with the quantum-extremal-surface prescription at small finite $G_N$ and extends beyond time-symmetric slices, strengthening the gravity–entanglement bridge.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "90%-Efficient Optical Storage in a Rare-Earth Crystal with a Low-Loss Impedance-Matched Cavity",
+          "summary": "* An impedance-matched cryogenic Fabry–Pérot cavity and Brewster-angle Eu$^{3+}$:Y$_2$SiO$_5$ memory achieve 90.1(5)% coherent-pulse storage, with only 0.37% round-trip loss. Modeling identifies atomic-frequency-comb preparation and dispersion—not cavity loss—as the remaining bottleneck toward unity efficiency.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-09-17",
       "type": "arxiv",
@@ -30311,8 +30380,8 @@
     }
   ],
   "stats": {
-    "total_digests": 271,
-    "total_entries": 2105,
+    "total_digests": 272,
+    "total_entries": 2115,
     "unique_tags": {
       "Science Communication & Policy": {
         "first_seen": "2026-09-17",
@@ -35674,6 +35743,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-09-18",
         "2026-09-17",
         "2026-09-16",
         "2026-09-12",
