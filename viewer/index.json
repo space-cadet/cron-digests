@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T01:48:19.936Z",
+  "generated": "2026-09-18T04:51:12.225Z",
   "digests": [
     {
       "date": "2026-09-18",
@@ -67,6 +67,69 @@
           "title": "90%-Efficient Optical Storage in a Rare-Earth Crystal with a Low-Loss Impedance-Matched Cavity",
           "summary": "* An impedance-matched cryogenic Fabry–Pérot cavity and Brewster-angle Eu$^{3+}$:Y$_2$SiO$_5$ memory achieve 90.1(5)% coherent-pulse storage, with only 0.37% round-trip loss. Modeling identifies atomic-frequency-comb preparation and dispersion—not cavity loss—as the remaining bottleneck toward unity efficiency.",
           "tags": []
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-09-18",
+      "items_found": 5,
+      "entries": [
+        {
+          "num": 1,
+          "title": "A $100 Detector Can See Invisible Particles Raining Down from Space",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003725.htm",
+          "summary": "Tiny particles from space are passing through Earth all the time, even though we cannot see, hear, feel, taste, or smell them.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Chinese companies doubled down on science after US tech restrictions",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02946-y",
+          "summary": "Affected Chinese companies adjusted their sources of knowledge to stay competitive.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "How fast are you ageing? Ask AI",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02913-7",
+          "summary": "A new system will help scientists to refine large language models for longevity research and clarify ‘biological’ age.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Exclusive: New evidence for hidden chambers beyond Tutankhamun’s tomb",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02621-2",
+          "summary": "Geophysical survey yields ‘tantalizing’ data that could point to Nefertiti’s burial place – but it’s too early to draw definitive conclusions.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Uncertainty and the random universe: a slide puzzle",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/uncertainty-and-the-random-universe-a-slide-puzzle/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
         }
       ]
     },
@@ -30380,12 +30443,12 @@
     }
   ],
   "stats": {
-    "total_digests": 272,
-    "total_entries": 2115,
+    "total_digests": 273,
+    "total_entries": 2120,
     "unique_tags": {
       "Science Communication & Policy": {
-        "first_seen": "2026-09-17",
-        "count": 224
+        "first_seen": "2026-09-18",
+        "count": 229
       },
       "Optics & Photonics": {
         "first_seen": "2026-09-16",
@@ -34669,7 +34732,7 @@
       }
     },
     "tag_counts": {
-      "Science Communication & Policy": 224,
+      "Science Communication & Policy": 229,
       "Optics & Photonics": 78,
       "Quantum Gravity": 65,
       "Black Hole Physics": 69,
@@ -35840,6 +35903,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-09-18",
         "2026-09-17",
         "2026-09-16",
         "2026-09-15",
