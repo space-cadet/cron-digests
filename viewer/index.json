@@ -1,6 +1,87 @@
 {
-  "generated": "2026-09-18T04:51:39.035Z",
+  "generated": "2026-09-19T01:45:30.987Z",
   "digests": [
+    {
+      "date": "2026-09-19",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-09-19",
+      "categories": "math-ph, hep-th, math.QA",
+      "items_found": 12,
+      "entries": [
+        {
+          "num": 1,
+          "title": "The linear instability of Kasner spacetimes",
+          "summary": "* Petersen establishes linear stability of Kasner spacetimes toward the Big Bang except for an explicit finite-dimensional family of non-decaying self-similar modes, the dominant one being the linearized Taub Bianchi II transition. The proof introduces quasinormal-mode theory on Kasner backgrounds, transplanting black-hole spectral techniques to cosmological singularities. This gives the first complete symmetry-free linear description of the instability driving the Belinski–Khalatnikov–Lifshitz oscillatory approach to the Big Bang.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Looking inside a quantum black hole",
+          "summary": "* The authors demonstrate that the large-overtone quasinormal-mode spectrum of a scalar probe encodes the singularity's scaling exponent, turning QNM data into a probe of black-hole interiors. Applied to exact quantum-corrected black holes in AdS$_3$, the method reveals an explicit transition deep inside where quantum effects take over the classical singularity structure. This links a spectroscopic observable to interior quantum geometry, a rare measurable handle on quantum gravity.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Toward a Unique Filter for the Gravitational Path Integral",
+          "summary": "* Klinger recasts the McNamara–Wang unitary completion of the gravitational path integral in the language of conditional expectations, proving the author's conjecture on existence and uniqueness of the completion. The projection from the factorizing unitary theory to the smooth GPI is interpreted as a filter, with ensemble-averaging signatures emerging from that projection alone. Reducible QFTs are shown to be generically governed by weak Hopf algebra symmetries, letting $\\alpha$-sectors and half wormholes live in one Hilbert space — a sharp algebraic clarification of factorization in quantum gravity.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "The Page Transition in the Multi-Time Correlations of Hawking Radiation",
+          "summary": "* Waghmare reformulates the Page transition in the process-tensor language of multi-time quantum correlations, showing the island information reorganization appears as a jump in the Markov order of Hawking radiation. Strikingly, all process marginals below a finite order can remain CP-divisible and fixed while the island channel changes by order one at order $k_*$, so low-order statistics alone cannot detect the transition. Hayden–Preskill and evaporating-JT realizations confirm that early radiation Markovianizes the late process via entanglement-wedge reconstruction, giving an operational, non-entropy signature of the Page curve.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Environmental Effects in Post-Minkowskian Dynamics: Effective Field Theory, Feynman Rules, and Ward Identities for Compact Objects in Relativistic Fluids",
+          "summary": "* The authors build a hydrodynamic EFT in which perfect-fluid Goldstone phonons are dynamical fields coupled to gravity, deriving Feynman rules through four points with consistent power counting. New on-shell Ward identities swap external gravitons for phonons and provide strong checks on higher-order amplitudes. As a first payoff, the standard relativistic dynamical-friction force is recovered from a single-phonon tree amplitude, opening a scattering-amplitude route to environmental effects in post-Minkowskian gravitational-wave physics.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Statistics, 't Hooft Anomaly, and the Else-Nayak Index: a careful comparison of concepts",
+          "summary": "* Xue identifies a common pitfall: patch operators creating symmetry defects resemble hopping operators for topological excitations geometrically, but do not define statistics or match anomalies. The robust relation is instead that hopping operators commute with the symmetry, which under mild assumptions yields a one-to-one statistics–anomaly correspondence, made transparent by coupling to a higher-dimensional Dijkgraaf–Witten gauge field. The result corrects literature misconceptions and grounds the Else–Nayak index-style analysis of topological order on firmer footing.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Lyapunov-controlled thermalization: an exact real-time example",
+          "summary": "* In an exactly solvable large-$N$, large-$q$ SYK quench protocol, all single-time correlators after the quench are precisely thermal, yet a return quench exposes hidden non-equilibrium memory in multi-time correlators reaching back before the drive. This memory is extensive and decays at the Lyapunov exponent, so chaos sets the timescale for true thermalization. The work gives a sharp, analytically controlled demonstration that KMS checks alone cannot certify equilibration.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Coherent and ultra-low-power EDSR with a flopping-mode spin qubit in germanium",
+          "summary": "* A flopping-mode qubit delocalizing a single Ge hole spin across a double quantum dot delivers first-order charge-noise protection together with highly efficient electric driving. The device reaches 99.76% single-qubit fidelity at 5 mT using only −52 dBm of drive power — orders of magnitude below conventional EDSR — with coherence up to 130 μs under CPMG. Relaxation consistent with a two-photon Orbach process points to a further optimization path, making the scheme attractive for scalable semiconductor spin qubit architectures.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "All causally separable quantum processes are quantum circuits with classical control of causal order",
+          "summary": "* The authors settle a long-standing open problem with a \"coherent teleportation\" argument proving that a previously known sufficient condition for multipartite causal separability is in fact necessary. This yields a complete characterization of causally separable processes and establishes that every such process can be realized as a quantum circuit with only classical control of causal order. The result sharply delineates what indefinite causal order genuinely adds beyond classical ordering of quantum operations.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Asymptotically Good Quantum Locally Testable Codes",
+          "summary": "* This paper constructs the first explicit qubit quantum LDPC CSS codes that are simultaneously asymptotically good in every parameter: constant rate, constant relative distance, and constant-weight local testers with constant soundness. Locally testable codes with these properties are a central goal in quantum fault tolerance, underpinning efficient verification of quantum computations and robust self-correction. The explicit construction removes the reliance on probabilistic existence arguments, a major step toward practical quantum LTCs.",
+          "tags": []
+        },
+        {
+          "num": 11,
+          "title": "The return of Palatini inflationary attractors: Universal mapping of observables",
+          "summary": "* For Palatini $\\xi$-attractor models where one function $f(\\varphi)$ sets both the non-minimal coupling and the potential, the $e$-fold count's leading-order independence of $\\xi$ enables a direct universal map between Palatini and minimally coupled inflationary observables. Strong coupling suppresses the tensor-to-scalar ratio while shifting the spectral index upward by an amount fixed solely by the minimal model's tensor amplitude. This gives a simple, general diagnostic for confronting Palatini attractors with CMB data.",
+          "tags": []
+        },
+        {
+          "num": 12,
+          "title": "Asymmetric phase transitions in random noncommutative geometries",
+          "summary": "* The quartic Dirac ensembles of random noncommutative geometry are analyzed in their asymmetric phases using three independent methods — Riemann–Hilbert analysis, positivity-constrained bootstrap, and Hamiltonian Monte Carlo — which agree closely at large matrix size. Explicit eigenvalue distributions and free energies are obtained for solutions of the Schwinger–Dyson equations, revealing an intricate solution landscape. The multi-method consistency establishes these matrix models as a controlled arena for phase structure in spectral-geometry approaches to quantum gravity.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-09-18",
       "type": "arxiv",
@@ -30443,8 +30524,8 @@
     }
   ],
   "stats": {
-    "total_digests": 273,
-    "total_entries": 2120,
+    "total_digests": 274,
+    "total_entries": 2132,
     "unique_tags": {
       "Science Communication & Policy": {
         "first_seen": "2026-09-18",
@@ -35806,6 +35887,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-09-19",
         "2026-09-18",
         "2026-09-17",
         "2026-09-16",
