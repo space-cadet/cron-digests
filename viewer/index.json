@@ -1,6 +1,102 @@
 {
-  "generated": "2026-09-19T01:46:23.023Z",
+  "generated": "2026-09-21T04:48:41.894Z",
   "digests": [
+    {
+      "date": "2026-09-21",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-09-21",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "New Nanoparticles Make Hidden Chemical Differences Light Up",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031030.htm",
+          "summary": "Engineers at the University of Toronto have developed a new type of dye-sensitized nanoparticle that can detect chemicals at extremely low concentrations while also telling apart molecules that are nearly identical in shape.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "This Deep-sea Enzyme Survives Heat That Destroys Most Proteins",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260918024810.htm",
+          "summary": "Microorganisms are capable of some extraordinary chemistry. One example is nitrogen fixation, a process that converts nitrogen gas (N2) into a form living organisms can actually use. Nitrogen makes up about 78 percent of Earth's atmosphere, but plants and animals cannot use it directly because the t",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Caltech’s Tiny New Chip Can Steer Light in 74 Quadrillionths of a Second",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260918024823.htm",
+          "summary": "Light can transmit huge amounts of information at extraordinary speed, which is why photonic technologies are being explored for faster communications, more powerful computing, and highly sensitive sensors. To make those systems work, however, researchers need precise ways to control the direction o",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Europe pushes for space independence amid geopolitical rifts",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02919-1",
+          "summary": "The European Union is easing its reliance on US space infrastructure — and is seeking to grow its satellite and launch operations.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Microbes may survive at the Moon’s south pole",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/microbes-may-survive-at-the-moons-south-pole/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02945-z",
+          "summary": "Gene-targeting treatments could be used to treat other people with rare forms of amyotrophic lateral sclerosis (ALS).",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "How to make a brain: new experiments challenge existing picture",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02943-1",
+          "summary": "Research also uncovers an efficient way to grow hindbrain cells from stem cells — a difficult feat.",
+          "relevance": "Medium — New experimental results that may constrain theoretical models",
+          "tags": [
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Spectacular image of the Shark Nebula wins Royal Observatory Greenwich prize",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/spectacular-image-of-the-shark-nebula-wins-royal-observatory-greenwich-prize/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-19",
       "type": "arxiv",
@@ -30524,16 +30620,20 @@
     }
   ],
   "stats": {
-    "total_digests": 274,
-    "total_entries": 2132,
+    "total_digests": 275,
+    "total_entries": 2140,
     "unique_tags": {
-      "Science Communication & Policy": {
-        "first_seen": "2026-09-18",
-        "count": 229
-      },
       "Optics & Photonics": {
-        "first_seen": "2026-09-16",
-        "count": 78
+        "first_seen": "2026-09-21",
+        "count": 80
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-09-21",
+        "count": 234
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-09-21",
+        "count": 54
       },
       "Quantum Gravity": {
         "first_seen": "2026-09-15",
@@ -31146,10 +31246,6 @@
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-09-02",
         "count": 56
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-09-02",
-        "count": 53
       },
       "moltbook": {
         "first_seen": "2026-09-02",
@@ -34813,8 +34909,9 @@
       }
     },
     "tag_counts": {
-      "Science Communication & Policy": 229,
-      "Optics & Photonics": 78,
+      "Optics & Photonics": 80,
+      "Science Communication & Policy": 234,
+      "Experiment & Observation": 54,
       "Quantum Gravity": 65,
       "Black Hole Physics": 69,
       "Technology & Engineering": 64,
@@ -34968,7 +35065,6 @@
       "physics": 260,
       "loop-quantum-gravity": 31,
       "Many-Body Physics & Condensed Matter": 56,
-      "Experiment & Observation": 53,
       "moltbook": 337,
       "agents": 232,
       "agent-architecture": 86,
@@ -35886,6 +35982,98 @@
       "Geophysics & Earth Science": 1
     },
     "dates_by_type": {
+      "web-science": [
+        "2026-09-21",
+        "2026-09-18",
+        "2026-09-17",
+        "2026-09-16",
+        "2026-09-15",
+        "2026-09-14",
+        "2026-09-13",
+        "2026-09-02",
+        "2026-09-01",
+        "2026-08-31",
+        "2026-08-28",
+        "2026-08-27",
+        "2026-08-26",
+        "2026-08-25",
+        "2026-08-24",
+        "2026-08-21",
+        "2026-08-20",
+        "2026-08-19",
+        "2026-08-18",
+        "2026-08-17",
+        "2026-08-14",
+        "2026-08-13",
+        "2026-08-12",
+        "2026-08-11",
+        "2026-08-10",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-03",
+        "2026-07-31",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-22",
+        "2026-05-21",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18",
+        "2026-05-15",
+        "2026-05-14",
+        "2026-05-13",
+        "2026-05-12",
+        "2026-05-11"
+      ],
       "arxiv": [
         "2026-09-19",
         "2026-09-18",
@@ -35978,97 +36166,6 @@
         "2026-05-19",
         "2026-05-18",
         "2026-05-16",
-        "2026-05-15",
-        "2026-05-14",
-        "2026-05-13",
-        "2026-05-12",
-        "2026-05-11"
-      ],
-      "web-science": [
-        "2026-09-18",
-        "2026-09-17",
-        "2026-09-16",
-        "2026-09-15",
-        "2026-09-14",
-        "2026-09-13",
-        "2026-09-02",
-        "2026-09-01",
-        "2026-08-31",
-        "2026-08-28",
-        "2026-08-27",
-        "2026-08-26",
-        "2026-08-25",
-        "2026-08-24",
-        "2026-08-21",
-        "2026-08-20",
-        "2026-08-19",
-        "2026-08-18",
-        "2026-08-17",
-        "2026-08-14",
-        "2026-08-13",
-        "2026-08-12",
-        "2026-08-11",
-        "2026-08-10",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-03",
-        "2026-07-31",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25",
-        "2026-05-22",
-        "2026-05-21",
-        "2026-05-20",
-        "2026-05-19",
-        "2026-05-18",
         "2026-05-15",
         "2026-05-14",
         "2026-05-13",
