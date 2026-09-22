@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T01:49:13.617Z",
+  "generated": "2026-09-22T04:49:15.767Z",
   "digests": [
     {
       "date": "2026-09-22",
@@ -79,6 +79,58 @@
           "title": "Non-Perturbative Modulus Decay and Multi-Component Dark Matter",
           "summary": "* Kane and collaborators test the robustness of the standard non-thermal cosmology — a modulus condensate dominating before BBN and decaying gravitationally — against non-perturbative decay in the EFT of G2 compactifications. They find Wino production via preheating strongly suppressed, while a modulus-dependent axion kinetic term opens narrow Floquet instability bands that can outpace Hubble expansion; linear analysis alone cannot settle backreaction, so nonlinear study is required. The upshot is that modulus-dominated cosmology survives Wino and gauge-field preheating, but the axion channel could repartition dark matter between Winos and axions and boost dark radiation.",
           "tags": []
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-09-22",
+      "items_found": 4,
+      "entries": [
+        {
+          "num": 1,
+          "title": "A New Process Turns Plastic Waste Into Gasoline and Diesel Fuel",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222405.htm",
+          "summary": "Researchers at the Department of Energy's Oak Ridge National Laboratory have developed a new way to transform polyethylene, one of the world's most common plastics, into gasoline- and diesel-like fuels.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Edible batteries power medical devices in the body",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02987-3",
+          "summary": "The tiny power sources, tested in pigs, dissolve inside the digestive tract after several months.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Technology & Engineering"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "'Epigenetic' editing is here: gene-tagging technique banishes hepatitis B virus",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02981-9",
+          "summary": "Technique uses chemical tags to shut down viral DNA lurking in host’s genome.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Einstein’s equivalence principle put to two new tests",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/einsteins-equivalence-principle-put-to-two-new-tests/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
         }
       ]
     },
@@ -30701,16 +30753,20 @@
     }
   ],
   "stats": {
-    "total_digests": 276,
-    "total_entries": 2152,
+    "total_digests": 277,
+    "total_entries": 2156,
     "unique_tags": {
+      "Science Communication & Policy": {
+        "first_seen": "2026-09-22",
+        "count": 237
+      },
+      "Technology & Engineering": {
+        "first_seen": "2026-09-22",
+        "count": 65
+      },
       "Optics & Photonics": {
         "first_seen": "2026-09-21",
         "count": 80
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-09-21",
-        "count": 234
       },
       "Experiment & Observation": {
         "first_seen": "2026-09-21",
@@ -30723,10 +30779,6 @@
       "Black Hole Physics": {
         "first_seen": "2026-09-15",
         "count": 69
-      },
-      "Technology & Engineering": {
-        "first_seen": "2026-09-15",
-        "count": 64
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-09-13",
@@ -34990,12 +35042,12 @@
       }
     },
     "tag_counts": {
+      "Science Communication & Policy": 237,
+      "Technology & Engineering": 65,
       "Optics & Photonics": 80,
-      "Science Communication & Policy": 234,
       "Experiment & Observation": 54,
       "Quantum Gravity": 65,
       "Black Hole Physics": 69,
-      "Technology & Engineering": 64,
       "Quantum Information & Computing": 138,
       "AdS-branes": 1,
       "inflation": 9,
@@ -36163,6 +36215,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-09-22",
         "2026-09-21",
         "2026-09-18",
         "2026-09-17",
