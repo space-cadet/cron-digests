@@ -1,6 +1,81 @@
 {
-  "generated": "2026-09-22T04:49:15.767Z",
+  "generated": "2026-09-23T01:48:18.341Z",
   "digests": [
+    {
+      "date": "2026-09-23",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-09-23",
+      "categories": "hep-th, cond-mat.stat-mech, math-ph",
+      "items_found": 11,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Light Cone Thermodynamics: Quasi-Local Formalism",
+          "summary": "* Barbosa extends the Bondi-Sachs null-triangle formalism from null infinity to the past light cones of arbitrary worldlines, building a quasi-local thermodynamic framework for general spacetimes in which Hawking-type emission is shown to arise under mild conditions. An \"irreversible inequality\" argued to hold for typical gravitational systems supplies an analogue of the second law, and pairing this with an internal energy built from the Landau-Lifshitz pseudotensor yields a postulational thermodynamics that absorbs spacetime dynamics itself. A notable consequence is that rest-mass density becomes a thermodynamically defined variable, decoupled from the conservation of constituent particle numbers.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Operator-Level Quantum-Classical Correspondence in Relativistic Quantum Theory and Curved Spacetime",
+          "summary": "* This paper extends a recently proposed operator-level quantum-classical correspondence — where Heisenberg equations for a non-relativistic particle literally take Newton's form — to relativistic quantum field theory and linearized gravity. The authors show that the Heisenberg equations for quantum field operators reproduce the Klein-Gordon, Maxwell, Yang-Mills, and linearized Einstein equations exactly at the operator level, without any $\\hbar \\to 0$ limit, and that the correspondence survives covariantization on curved spacetime. For particles, the position-momentum Heisenberg equations reduce to classical geodesic motion in the semiclassical limit, so the entire ladder from field equations to geodesics holds at the level of operator dynamics.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "$\\mathsf{BQP} \\subseteq \\mathsf{IP}$ Does Not Relativize",
+          "summary": "* The authors construct an oracle relative to which BQP is not contained in IP, settling a long-standing open problem in quantum complexity theory and, combined with recent work of Aaronson et al., yielding the first oracle separation between IP and MIP. The separation is built on the Forrelation problem: query-efficient for quantum algorithms, yet shown here to admit no classical interactive protocol with polynomial communication and a polynomial-query verifier. The proof rests on approximating Avg-Max circuits — which capture oracular interactive proofs — by smooth convex functions, and showing the Aaronson-Ambainis Forrelation distribution fools them. The upshot is that any prover-efficient classical verification of BQP must use non-relativizing techniques, explaining the stalled quest for unconditionally sound, doubly-efficient verification of quantum computation.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Exponential Quantum Advantage in Testing Fourier Dimensionality",
+          "summary": "* Chen considers the property-testing problem of deciding whether a Boolean function has Fourier dimension at most $k$, or is $\\varepsilon$-far from that property, and gives a quantum tester using only $\\Theta(k)$ queries. Matched against Gopalan et al.'s $\\Omega(2^{k/2})$ classical lower bound, this is an exponential quantum advantage for a natural, well-studied testing task. A new $\\tilde{O}(2^{k/2}/\\varepsilon)$ classical tester improves the best known upper bound, showing the earlier lower bound was essentially tight and pinning down the classical complexity of the problem.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Thermodynamic Proof of Quantumness without Structure",
+          "summary": "* Meier and Yamasaki propose certifying quantumness not by computational hardness but by thermodynamics: in the Yamakawa-Zhandry search problem with a structureless random oracle, any classical machine with constant success probability must generate entropy growing exponentially in the security parameter. Landauer's principle then forces exponential heat dissipation for any cyclic classical implementation, while the quantum prover runs with polynomial query and gate complexity and hence polynomial energy cost. A macroscopic measurement of energy consumption therefore itself certifies quantumness — a proof of quantumness that needs no trapdoor structure and no computational assumptions.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Anyon Crystallization by Statistics",
+          "summary": "* Komargodski and coauthors solve the large-N anyon gas in the near-bosonic limit at fixed $N/k$ and find the ground state is a crystal with order $N/k$ lattice sites — not a superfluid. The statistical interactions, mediated by a long-range gauge field, are completely screened inside the crystal, which is characterized by its unit-cell size, ground-state energy, acoustic excitations, and angular-momentum crossings. Their analysis indicates a quantum phase transition at $k_c \\simeq 2$–$5$ between this crystal and a superfluid, overturning the common expectation that a statistical-interaction anyon gas must superfluid, and an RG study of anyon-anyon interactions uncovers many new potential fixed points.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Nullspace-guided Adaptive Bootstrap of Quantum Many-body Systems",
+          "summary": "* Wang and Qi introduce a nullspace-guided adaptive bootstrap that reads the nullspace of saturated positivity directions from the optimized moment matrix — interpreted as annihilators of the approximate ground-state subspace — and uses it to prune low-leverage operators and grow the basis along their descendants. On the transverse-field Ising chain the method automatically discovers the Jordan-Wigner eigenoperator structure from a minimal local basis and returns nearly exact energy lower bounds; on the Hubbard chain it beats state-of-the-art lower bounds by up to two orders of magnitude, reaching $10^{-3}$–$10^{-5}$ errors in strongly correlated regimes. The framework also sharpens certified two-sided bounds on general observables and shows power-law convergence in resources, marking a practical, scalable route to accurate many-body bootstrapping.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Quantum Mpemba effect from Stark localization",
+          "summary": "* Albert, Haque, and Dutta design a genuinely quantum Mpemba effect — hotter states cooling faster — using Stark localization to engineer an energy landscape and localized incoherent hopping as the cooling mechanism. Cooling proceeds through rare \"detection\" events whose rate grows with energy, so hotter states cool faster and localized initial states acquire super-exponentially separated cooling rates. Attractive on-site interactions dramatically enhance the effect through collective hopping of bound pairs, and the predicted signatures are within reach of present-day experiments.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Cosmological stasis and the coupled dark sector of the Dark Dimension",
+          "summary": "* Stewart analyzes cosmological stasis — epochs of constant dark-matter abundance — within coupled dark-sector models where a single scalar both drives dark energy and sets the dark-matter mass, using the Dark Dimension scenario as the motivating example. Treating dark matter, dark energy, baryons, and radiation as an autonomous dynamical system, he shows exact stasis requires exponential slopes along the trajectory, with running slopes giving exact stasis or drifting quasi-stasis depending on integrability. Anchoring to the measured abundances at matter-radiation equality and today, the stasis region cannot accelerate for any initial conditions and the total equation of state is never phantom, even though an effective $\\Lambda$CDM fit can look phantom; for the Dark Dimension, fifth-force bounds exclude future capture into stasis for geometric potentials, while Standard-Model-brane dark-matter production opens a further stasis the standard scenario never reaches.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Quantum Clausius relation beyond de Sitter equilibrium",
+          "summary": "* The authors establish a direct quantum Clausius relation for conformal fields inside the apparent horizon of a quasi-de Sitter spacetime, computing the net heat flow across the horizon from the renormalized stress-energy tensor and independently the renormalized von Neumann entropy evolution via the replica method. At leading order in the Hubble-flow expansion the two agree exactly, without invoking the gravitational equations of motion; beyond leading order they find a scheme-independent entropy balance that includes the Wald entropy. This provides a quantum field-theoretic realization of dynamical horizon thermodynamics away from exact de Sitter equilibrium, with direct bearing on inflationary horizon physics.",
+          "tags": []
+        },
+        {
+          "num": 11,
+          "title": "Functional Dimensional Regularization",
+          "summary": "* Beretta and Codello introduce Functional Dimensional Regularization, a functional RG framework that defines beta functions valid in any continuous dimension $d$ — complete with threshold functions — as sums over all critical dimensions of scheme-independent DR beta functions. Within the local potential approximation they recover the $\\varepsilon$-expansion for all multi-critical models and connect to functional scaling solutions and eigen-perturbation spectra, and at second order of the derivative expansion they compute $d=3$ Ising critical exponents converging rapidly to state-of-the-art values. A \"distillation\" procedure lets one derive the FDR flow from any one-loop-exact RG scheme, establishing FDR as a self-contained framework marrying the technical simplicity of dimensional regularization with functional-RG versatility.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-09-22",
       "type": "arxiv",
@@ -30753,8 +30828,8 @@
     }
   ],
   "stats": {
-    "total_digests": 277,
-    "total_entries": 2156,
+    "total_digests": 278,
+    "total_entries": 2167,
     "unique_tags": {
       "Science Communication & Policy": {
         "first_seen": "2026-09-22",
@@ -36116,6 +36191,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-09-23",
         "2026-09-22",
         "2026-09-19",
         "2026-09-18",
