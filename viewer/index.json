@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T01:49:17.560Z",
+  "generated": "2026-09-23T04:49:19.556Z",
   "digests": [
     {
       "date": "2026-09-23",
@@ -73,6 +73,47 @@
           "title": "Functional Dimensional Regularization",
           "summary": "* Beretta and Codello introduce Functional Dimensional Regularization, a functional RG framework that defines beta functions valid in any continuous dimension $d$ — complete with threshold functions — as sums over all critical dimensions of scheme-independent DR beta functions. Within the local potential approximation they recover the $\\varepsilon$-expansion for all multi-critical models and connect to functional scaling solutions and eigen-perturbation spectra, and at second order of the derivative expansion they compute $d=3$ Ising critical exponents converging rapidly to state-of-the-art values. A \"distillation\" procedure lets one derive the FDR flow from any one-loop-exact RG scheme, establishing FDR as a self-contained framework marrying the technical simplicity of dimensional regularization with functional-RG versatility.",
           "tags": []
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-09-23",
+      "items_found": 3,
+      "entries": [
+        {
+          "num": 1,
+          "title": "For the First Time, Scientists Watch Sound Jump Between Quantum States",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260921081054.htm",
+          "summary": "Stanford researchers have directly observed quantum jumps of sound in a mechanical resonator for the first time, marking the latest milestone in a line of quantum physics research that stretches back more than a century.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "This super-cold microscope could spur a quantum revolution",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02942-2",
+          "summary": "The instrument, which operates near absolute zero for hours, will soon ship to a few labs. Researchers are thrilled.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Watch scientists decipher burnt scrolls without unrolling them",
+          "source": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-02920-8",
+          "summary": "By making and burning their own papyrus, researchers have come up with a method that might help to read glowing text from unopened scrolls from Herculaneum.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
         }
       ]
     },
@@ -30828,12 +30869,16 @@
     }
   ],
   "stats": {
-    "total_digests": 278,
-    "total_entries": 2167,
+    "total_digests": 279,
+    "total_entries": 2170,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-09-23",
+        "count": 140
+      },
       "Science Communication & Policy": {
-        "first_seen": "2026-09-22",
-        "count": 237
+        "first_seen": "2026-09-23",
+        "count": 238
       },
       "Technology & Engineering": {
         "first_seen": "2026-09-22",
@@ -30854,10 +30899,6 @@
       "Black Hole Physics": {
         "first_seen": "2026-09-15",
         "count": 69
-      },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-09-13",
-        "count": 138
       },
       "AdS-branes": {
         "first_seen": "2026-09-12",
@@ -35117,13 +35158,13 @@
       }
     },
     "tag_counts": {
-      "Science Communication & Policy": 237,
+      "Quantum Information & Computing": 140,
+      "Science Communication & Policy": 238,
       "Technology & Engineering": 65,
       "Optics & Photonics": 80,
       "Experiment & Observation": 54,
       "Quantum Gravity": 65,
       "Black Hole Physics": 69,
-      "Quantum Information & Computing": 138,
       "AdS-branes": 1,
       "inflation": 9,
       "holography": 106,
@@ -36291,6 +36332,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-09-23",
         "2026-09-22",
         "2026-09-21",
         "2026-09-18",
