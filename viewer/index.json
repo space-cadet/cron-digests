@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T03:05:38.222Z",
+  "generated": "2026-11-12T04:49:39.950Z",
   "digests": [
     {
       "date": "2026-11-12",
@@ -67,6 +67,107 @@
           "title": "Assessing the expressive power of a gauge-invariant PEPS ansatz across a topological phase transition",
           "summary": "Itou and Okubo replace noisy variational Monte Carlo optimization of a gauge-invariant GGFPEPS ansatz with deterministic Grassmann tensor-network contraction, using HOTRG up to $L=34$ and CTMRG in the thermodynamic limit. An ansatz with only eight complex parameters reproduces both energy and topological entanglement entropy across the pure $mathbb Z_2$ transition, and its susceptibility locates the critical coupling consistently with quantum Monte Carlo. Near criticality it also leaves the assumed plaquette-product family, demonstrating nontrivial expressive power.",
           "tags": []
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-11-12",
+      "items_found": 8,
+      "entries": [
+        {
+          "num": 1,
+          "title": "A Hidden Limit of Space and Time Could Unlock Electronics 100,000 Times Faster",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm",
+          "summary": "Quantum physics places fundamental limits on what scientists can know about the behavior of particles. Werner Heisenberg's famous uncertainty principle states that certain properties, such as a particle's position and momentum, cannot both be measured with unlimited precision. This restriction is no",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing",
+            "Experiment & Observation"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014/",
+          "summary": "A collision may have left these galaxies without dark matter. That spells trouble for alternative gravity theories.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics",
+            "Many-Body Physics & Condensed Matter"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Gravity Seems Holographic. What Does That Mean for Reality?",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+          "summary": "The biggest breakthrough in modern theoretical physics is the discovery that gravity can collapse the dimensions of space. Physicists don’t yet understand the implications.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "IceCube Detects Ghost Particles with 10 Billion Times the Energy of Solar Neutrinos",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Earth’s gravity and magnetism have unexpected effects on the human genome and mitochondria",
+          "source": "Physics World",
+          "url": "https://physicsworld.com/a/earths-gravity-and-magnetism-have-unexpected-effects-on-the-human-genome-and-mitochondria/",
+          "summary": "No summary available",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Quantum Gravity",
+            "Black Hole Physics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+          "summary": "Albert Einstein fought to save our everyday notion of reality from the strangeness of quantum mechanics. But those who set out to aid him keep poking holes in his argument.",
+          "relevance": "🔥 High — Quantum physics breakthrough with potential implications for quantum information",
+          "tags": [
+            "Quantum Information & Computing"
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Is There Anything Left in the Dream of Cold Fusion?",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102/",
+          "summary": "Dig a little deeper and you’ll find a thriving research program with exotic atoms that won’t solve the energy crisis but stretches the boundaries of physics.",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Science Communication & Policy"
+          ]
+        },
+        {
+          "num": 8,
+          "title": "Global Fossil Fuel Emissions Set to Fall in 2026, but Total CO2 Keeps Rising",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261109205358.htm",
+          "summary": "Global carbon dioxide emissions from fossil fuels are expected to decline slightly in 2026, offering a promising sign that the world's transition to cleaner energy is beginning to make a measurable difference. According to the latest Global Carbon Budget from the Global Carbon Project, fossil fuel C",
+          "relevance": "Medium — Interesting development in physics or related fields",
+          "tags": [
+            "Optics & Photonics"
+          ]
         }
       ]
     },
@@ -31106,9 +31207,37 @@
     }
   ],
   "stats": {
-    "total_digests": 281,
-    "total_entries": 2192,
+    "total_digests": 282,
+    "total_entries": 2200,
     "unique_tags": {
+      "Quantum Information & Computing": {
+        "first_seen": "2026-11-12",
+        "count": 142
+      },
+      "Experiment & Observation": {
+        "first_seen": "2026-11-12",
+        "count": 55
+      },
+      "Quantum Gravity": {
+        "first_seen": "2026-11-12",
+        "count": 68
+      },
+      "Black Hole Physics": {
+        "first_seen": "2026-11-12",
+        "count": 72
+      },
+      "Many-Body Physics & Condensed Matter": {
+        "first_seen": "2026-11-12",
+        "count": 57
+      },
+      "Science Communication & Policy": {
+        "first_seen": "2026-11-12",
+        "count": 240
+      },
+      "Optics & Photonics": {
+        "first_seen": "2026-11-12",
+        "count": 81
+      },
       "moltbook": {
         "first_seen": "2026-11-12",
         "count": 349
@@ -31133,33 +31262,9 @@
         "first_seen": "2026-11-12",
         "count": 13
       },
-      "Quantum Information & Computing": {
-        "first_seen": "2026-09-23",
-        "count": 140
-      },
-      "Science Communication & Policy": {
-        "first_seen": "2026-09-23",
-        "count": 238
-      },
       "Technology & Engineering": {
         "first_seen": "2026-09-22",
         "count": 65
-      },
-      "Optics & Photonics": {
-        "first_seen": "2026-09-21",
-        "count": 80
-      },
-      "Experiment & Observation": {
-        "first_seen": "2026-09-21",
-        "count": 54
-      },
-      "Quantum Gravity": {
-        "first_seen": "2026-09-15",
-        "count": 65
-      },
-      "Black Hole Physics": {
-        "first_seen": "2026-09-15",
-        "count": 69
       },
       "AdS-branes": {
         "first_seen": "2026-09-12",
@@ -31752,10 +31857,6 @@
       "loop-quantum-gravity": {
         "first_seen": "2026-09-02",
         "count": 31
-      },
-      "Many-Body Physics & Condensed Matter": {
-        "first_seen": "2026-09-02",
-        "count": 56
       },
       "information-theory": {
         "first_seen": "2026-09-01",
@@ -35395,19 +35496,20 @@
       }
     },
     "tag_counts": {
+      "Quantum Information & Computing": 142,
+      "Experiment & Observation": 55,
+      "Quantum Gravity": 68,
+      "Black Hole Physics": 72,
+      "Many-Body Physics & Condensed Matter": 57,
+      "Science Communication & Policy": 240,
+      "Optics & Photonics": 81,
       "moltbook": 349,
       "agents": 239,
       "agent-architecture": 96,
       "builds": 27,
       "reasoning": 41,
       "language-models": 13,
-      "Quantum Information & Computing": 140,
-      "Science Communication & Policy": 238,
       "Technology & Engineering": 65,
-      "Optics & Photonics": 80,
-      "Experiment & Observation": 54,
-      "Quantum Gravity": 65,
-      "Black Hole Physics": 69,
       "AdS-branes": 1,
       "inflation": 9,
       "holography": 106,
@@ -35556,7 +35658,6 @@
       "topological": 72,
       "physics": 260,
       "loop-quantum-gravity": 31,
-      "Many-Body Physics & Condensed Matter": 56,
       "information-theory": 5,
       "Foundations & Interpretations": 15,
       "Holography": 10,
@@ -36569,99 +36670,8 @@
         "2026-05-12",
         "2026-05-11"
       ],
-      "moltbook": [
-        "2026-11-12",
-        "2026-09-02",
-        "2026-09-01",
-        "2026-08-31",
-        "2026-08-30",
-        "2026-08-29",
-        "2026-08-28",
-        "2026-08-27",
-        "2026-08-26",
-        "2026-08-25",
-        "2026-08-24",
-        "2026-08-20",
-        "2026-08-19",
-        "2026-08-18",
-        "2026-08-17",
-        "2026-08-11",
-        "2026-08-10",
-        "2026-08-09",
-        "2026-08-07",
-        "2026-08-06",
-        "2026-08-05",
-        "2026-08-04",
-        "2026-08-01",
-        "2026-07-30",
-        "2026-07-29",
-        "2026-07-28",
-        "2026-07-27",
-        "2026-07-26",
-        "2026-07-25",
-        "2026-07-24",
-        "2026-07-23",
-        "2026-07-22",
-        "2026-07-21",
-        "2026-07-20",
-        "2026-07-19",
-        "2026-07-18",
-        "2026-07-17",
-        "2026-07-16",
-        "2026-07-15",
-        "2026-07-14",
-        "2026-07-13",
-        "2026-07-12",
-        "2026-07-11",
-        "2026-07-10",
-        "2026-07-09",
-        "2026-07-08",
-        "2026-07-07",
-        "2026-07-06",
-        "2026-07-05",
-        "2026-07-04",
-        "2026-07-03",
-        "2026-07-02",
-        "2026-07-01",
-        "2026-06-30",
-        "2026-06-29",
-        "2026-06-28",
-        "2026-06-27",
-        "2026-06-26",
-        "2026-06-25",
-        "2026-06-24",
-        "2026-06-23",
-        "2026-06-22",
-        "2026-06-21",
-        "2026-06-20",
-        "2026-06-19",
-        "2026-06-18",
-        "2026-06-17",
-        "2026-06-16",
-        "2026-06-15",
-        "2026-06-14",
-        "2026-06-13",
-        "2026-06-12",
-        "2026-06-11",
-        "2026-06-10",
-        "2026-06-09",
-        "2026-06-08",
-        "2026-06-07",
-        "2026-06-06",
-        "2026-06-05",
-        "2026-06-04",
-        "2026-06-03",
-        "2026-06-02",
-        "2026-06-01",
-        "2026-05-31",
-        "2026-05-30",
-        "2026-05-29",
-        "2026-05-28",
-        "2026-05-27",
-        "2026-05-26",
-        "2026-05-25"
-      ],
       "web-science": [
+        "2026-11-12",
         "2026-09-23",
         "2026-09-22",
         "2026-09-21",
@@ -36754,6 +36764,98 @@
         "2026-05-13",
         "2026-05-12",
         "2026-05-11"
+      ],
+      "moltbook": [
+        "2026-11-12",
+        "2026-09-02",
+        "2026-09-01",
+        "2026-08-31",
+        "2026-08-30",
+        "2026-08-29",
+        "2026-08-28",
+        "2026-08-27",
+        "2026-08-26",
+        "2026-08-25",
+        "2026-08-24",
+        "2026-08-20",
+        "2026-08-19",
+        "2026-08-18",
+        "2026-08-17",
+        "2026-08-11",
+        "2026-08-10",
+        "2026-08-09",
+        "2026-08-07",
+        "2026-08-06",
+        "2026-08-05",
+        "2026-08-04",
+        "2026-08-01",
+        "2026-07-30",
+        "2026-07-29",
+        "2026-07-28",
+        "2026-07-27",
+        "2026-07-26",
+        "2026-07-25",
+        "2026-07-24",
+        "2026-07-23",
+        "2026-07-22",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-19",
+        "2026-07-18",
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-15",
+        "2026-07-14",
+        "2026-07-13",
+        "2026-07-12",
+        "2026-07-11",
+        "2026-07-10",
+        "2026-07-09",
+        "2026-07-08",
+        "2026-07-07",
+        "2026-07-06",
+        "2026-07-05",
+        "2026-07-04",
+        "2026-07-03",
+        "2026-07-02",
+        "2026-07-01",
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-28",
+        "2026-06-27",
+        "2026-06-26",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-21",
+        "2026-06-20",
+        "2026-06-19",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-14",
+        "2026-06-13",
+        "2026-06-12",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-07",
+        "2026-06-06",
+        "2026-06-05",
+        "2026-06-04",
+        "2026-06-03",
+        "2026-06-02",
+        "2026-06-01",
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-27",
+        "2026-05-26",
+        "2026-05-25"
       ]
     }
   }
