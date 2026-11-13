@@ -1,6 +1,87 @@
 {
-  "generated": "2026-11-12T04:50:01.594Z",
+  "generated": "2026-11-13T10:50:18.656Z",
   "digests": [
+    {
+      "date": "2026-11-13",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-11-13",
+      "categories": "cond-mat.supr-con, cond-mat.mes-hall, quant-ph",
+      "items_found": 12,
+      "entries": [
+        {
+          "num": 1,
+          "title": "De Sitter Gravity and Emergent Time from Fusion Matrix Product States and SYK",
+          "summary": "Ryu and Suzuki build a spin-fusing matrix-product-state quantum channel whose random-walk sector develops SL(2,R) symmetry and a preferred time governed by the Schwarzian action. The construction reproduces the de Sitter JT disk amplitude and, for a free massless scalar on fixed dS2, the Bunch–Davies two-point function and symmetry, offering a concrete but restricted candidate for de Sitter holography.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Observation of Genuine Multi-Time Quantum Memory",
+          "summary": "An analytical three-time witness identifies environmental quantum memory that cannot be certified by any pairwise temporal test, establishing a hierarchy beyond ordinary non-Markovianity. A superconducting-qubit experiment with continuous evolution and fixed couplings realizes the minimal example, showing that genuinely quantum temporal correlations can evade standard two-time diagnostics.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Lattice response theory for subsystem symmetry-protected topological phases",
+          "summary": "Furukawa and Okuda turn microscopic qudit symmetry actions into spacetime lattice gauge fields, then translate gauge-invariant response actions into entanglers that stack subsystem-protected phases. Beyond intersection-pairing constructions, they exhibit a new 3+1-dimensional phase with planar and global symmetries whose boundary stacking action exposes a mixed 't Hooft anomaly, connecting constructive many-body models to response theory.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Relational Cosmology: Covariant and Canonical Dressings, and the Hamiltonian of Internal Time",
+          "summary": "For scalar-clock flat FLRW minisuperspace, Sartini compares covariant dressings, canonical complete observables and gauge-fixed reductions, isolating a nonvanishing relational Hamiltonian from constraints that vanish on shell. Clock-frame structures explain why its flow need not be an action symmetry; the classical formulations agree under specified conditions but retain different variational structures, leaving quantum equivalence unresolved.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Bound States of Two D0-Branes and the Three-Graviton Coupling",
+          "summary": "A numerical SU(2) BFSS ground-state solution extracts the three-graviton coupling from the asymptotic tail of the two-D0-brane bound-state wavefunction and accurately reproduces an existing amplitude calculation. A separate supersymmetry argument derives the coupling from the non-renormalized one-loop D0 interaction, tying a strongly coupled quantum-mechanical bound state to protected eleven-dimensional gravitational scattering.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Long-lived light-driven bimagnons at finite momentum in NiO",
+          "summary": "Mid-infrared excitation followed by time-resolved finite-momentum RIXS isolates a NiO two-magnon anti-Stokes signal while leaving the single-magnon energy and linewidth essentially unchanged. The signal peaks after 4 ps and decays over 28 ± 11 ps, distinguishing long-lived pair correlations from previously measured rapid dephasing and opening a route to manipulate magnetic correlations without photocarrier-driven demagnetization.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Persistent-mediator architecture for universal fault-tolerant quantum computation with color codes",
+          "summary": "The proposed color-code architecture uses protected joint measurements, cross-dimensional coupling and feed-forward to implement deterministic logical T cycles while restoring a reusable 3D mediator and retaining a separate 2D data register. Stabilizer analysis establishes the logical operation and spatial distance, while Clifford-surrogate simulations show memory-like finite-distance scaling and roughly linear sequential error growth; these benchmarks support the architecture without constituting full non-Clifford circuit validation.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Gauge Theory Bootstrap with varying $N_c$",
+          "summary": "Scanning the color number from 3 to 12 through bootstrap sum rules and asymptotic form factors yields low-energy scattering parameters and sigma, rho and f2 resonance trajectories. The rho and f2 narrow with nearly stable masses, consistent with conventional meson scaling, whereas both sigma mass and width grow, making the method a nonperturbative probe of contrasting hadron structure.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Efficient Standard Siren Cosmological Inference with Posterior Reuse",
+          "summary": "Normalising flows combined with sequential Monte Carlo repurpose an existing dark-siren posterior for a changed cosmological or population hypothesis instead of restarting inference from the prior. In the reported GWTC-5.0 cases, ASPIRE matches nested-sampling posteriors while delivering 6–28-fold speedups and unbiased evidence estimates, making modelling-systematics studies and incremental catalogue updates less expensive.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Near-Optimal Multiparameter Pure-State Metrology with a Constant Number of Bases",
+          "summary": "A worst-direction Fisher-information criterion reveals that a dimension-independent number of random measurement bases can deliver uniform pure-state multiparameter sensitivity: five Haar bases already give a positive floor with high probability. Larger constant families approach the incompatibility-limited one-half QFI fraction, whereas mutually unbiased bases can have a floor no better than 1/(d+1), separating average isotropy from reliable sensitivity in every direction.",
+          "tags": []
+        },
+        {
+          "num": 11,
+          "title": "Automatic O(a) Improvement for Wilson Twisted Mass Fermions in the Hamiltonian Formulation",
+          "summary": "Using symmetries of the lattice Hamiltonian rather than a Euclidean effective action, Urbach constructs a Symanzik description proving automatic linear-spacing-error removal at maximal twist and improvement through mass or Wilson averaging. Canonical transformations eliminate redundant on-shell terms and reveal two independently weighted Hamiltonian clover counterterms, providing discretization-control tools for Hamiltonian lattice gauge calculations.",
+          "tags": []
+        },
+        {
+          "num": 12,
+          "title": "Noise-Protected Superconducting Qudits from Higher-Harmonic Josephson Junctions",
+          "summary": "A theoretical three-junction loop exploits the sign of a sizable second Josephson harmonic to realize two different relaxation-protected qutrit designs, with contrasting charge-noise and correctability trade-offs. Microscopic calculations identify gate-tunable altermagnetic junctions as a candidate implementation, but voltage-noise dephasing remains a limiting factor, making the result a materials-dependent design proposal rather than demonstrated hardware protection.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-11-12",
       "type": "arxiv",
@@ -31207,8 +31288,8 @@
     }
   ],
   "stats": {
-    "total_digests": 282,
-    "total_entries": 2200,
+    "total_digests": 283,
+    "total_entries": 2212,
     "unique_tags": {
       "Quantum Information & Computing": {
         "first_seen": "2026-11-12",
@@ -36570,6 +36651,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-11-13",
         "2026-11-12",
         "2026-09-23",
         "2026-09-22",
