@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T10:50:18.656Z",
+  "generated": "2026-11-13T10:55:14.580Z",
   "digests": [
     {
       "date": "2026-11-13",
@@ -79,6 +79,80 @@
           "title": "Noise-Protected Superconducting Qudits from Higher-Harmonic Josephson Junctions",
           "summary": "A theoretical three-junction loop exploits the sign of a sizable second Josephson harmonic to realize two different relaxation-protected qutrit designs, with contrasting charge-noise and correctability trade-offs. Microscopic calculations identify gate-tunable altermagnetic junctions as a candidate implementation, but voltage-noise dephasing remains a limiting factor, making the result a materials-dependent design proposal rather than demonstrated hardware protection.",
           "tags": []
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-11-13",
+      "items_found": 6,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Light-activated molecules in porous crystals show potential for quantum chemical sensing",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-molecules-porous-crystals-potential-quantum.html",
+          "summary": "A Tokyo–Northwestern team reports creating polarized radical pairs in porous crystals. The headline points toward quantum chemical sensing; the available listing does not establish a deployed sensor.",
+          "relevance": "Quantum sensing; molecular spin physics",
+          "tags": [
+            "Quantum sensing; molecular spin physics"
+          ]
+        },
+        {
+          "num": 2,
+          "title": "Matter–antimatter asymmetry still provides no evidence of new physics",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-matterantimatter-asymmetry-evidence-physics.html",
+          "summary": "The report revisits matter–antimatter differences and the unresolved origin of the cosmic matter excess. Its headline reports no evidence of new physics, rather than a solution to baryogenesis.",
+          "relevance": "Particle physics; cosmology",
+          "tags": [
+            "Particle physics; cosmology"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Multiplexed detector system precisely counts more than 9,000 photons",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-multiplexed-detector-precisely-photons.html",
+          "summary": "Researchers report an approach for resolving photon numbers from zero to more than 9,000, with prospective applications in large-scale quantum-light studies and optical measurement.",
+          "relevance": "Quantum optics; measurement",
+          "tags": [
+            "Quantum optics; measurement"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Chip-based laser cooling could ease quantum computing bottleneck",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-chip-based-laser-cooling-ease.html",
+          "summary": "Cornell researchers report a laser-cooling technique intended to address a bottleneck in scaling quantum computers. The listing describes potential benefits, not a demonstrated general speedup.",
+          "relevance": "Quantum computing; experimental methods",
+          "tags": [
+            "Quantum computing; experimental methods"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "A breakthrough in magnetism could make AI chips use dramatically less energy",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005853.htm",
+          "summary": "ScienceDaily’s November 12 listing reports that Brown University researchers overcame an obstacle to ultra-low-power chips. Reduced AI energy demand remains a prospective application in the available summary.",
+          "relevance": "Condensed matter; spintronics",
+          "tags": [
+            "Condensed matter; spintronics"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "A massive new simulation reveals how the universe emerged from darkness",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+          "summary": "The November 11 listing describes Lumina, a supercomputer simulation spanning two billion years of early cosmic history to study the emergence of stars and galaxies. This is a simulation result, not a direct observation.",
+          "relevance": "Cosmology; numerical simulation",
+          "tags": [
+            "Cosmology; numerical simulation"
+          ]
         }
       ]
     },
@@ -31288,9 +31362,33 @@
     }
   ],
   "stats": {
-    "total_digests": 283,
-    "total_entries": 2212,
+    "total_digests": 284,
+    "total_entries": 2218,
     "unique_tags": {
+      "Quantum sensing; molecular spin physics": {
+        "first_seen": "2026-11-13",
+        "count": 1
+      },
+      "Particle physics; cosmology": {
+        "first_seen": "2026-11-13",
+        "count": 1
+      },
+      "Quantum optics; measurement": {
+        "first_seen": "2026-11-13",
+        "count": 1
+      },
+      "Quantum computing; experimental methods": {
+        "first_seen": "2026-11-13",
+        "count": 1
+      },
+      "Condensed matter; spintronics": {
+        "first_seen": "2026-11-13",
+        "count": 1
+      },
+      "Cosmology; numerical simulation": {
+        "first_seen": "2026-11-13",
+        "count": 1
+      },
       "Quantum Information & Computing": {
         "first_seen": "2026-11-12",
         "count": 142
@@ -35577,6 +35675,12 @@
       }
     },
     "tag_counts": {
+      "Quantum sensing; molecular spin physics": 1,
+      "Particle physics; cosmology": 1,
+      "Quantum optics; measurement": 1,
+      "Quantum computing; experimental methods": 1,
+      "Condensed matter; spintronics": 1,
+      "Cosmology; numerical simulation": 1,
       "Quantum Information & Computing": 142,
       "Experiment & Observation": 55,
       "Quantum Gravity": 68,
@@ -36753,6 +36857,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-11-13",
         "2026-11-12",
         "2026-09-23",
         "2026-09-22",
