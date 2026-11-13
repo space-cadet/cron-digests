@@ -1,83 +1,83 @@
 {
-  "generated": "2026-11-13T10:55:14.580Z",
+  "generated": "2026-11-13T10:56:39.560Z",
   "digests": [
     {
       "date": "2026-11-13",
       "type": "arxiv",
       "title": "# arXiv Digest — 2026-11-13",
-      "categories": "cond-mat.supr-con, cond-mat.mes-hall, quant-ph",
+      "categories": "quant-ph, cond-mat.dis-nn, cond-mat.stat-mech, cond-mat.str-el",
       "items_found": 12,
       "entries": [
         {
           "num": 1,
-          "title": "De Sitter Gravity and Emergent Time from Fusion Matrix Product States and SYK",
-          "summary": "Ryu and Suzuki build a spin-fusing matrix-product-state quantum channel whose random-walk sector develops SL(2,R) symmetry and a preferred time governed by the Schwarzian action. The construction reproduces the de Sitter JT disk amplitude and, for a free massless scalar on fixed dS2, the Bunch–Davies two-point function and symmetry, offering a concrete but restricted candidate for de Sitter holography.",
+          "title": "Twisting IKKT with branes",
+          "summary": "Hahner and Paquette classify supersymmetric twists of IKKT, finding five infinite-rank classes beyond the two finite-matrix twists by allowing noncommutative D-brane backgrounds. BV methods and open–closed string duality connect the resulting worldvolume theories, including emergent four-dimensional BF theory, to deformations of BCOV theory and reconstruct a known localization prescription. This sharpens the structural correspondence between matrix-model and type-IIB descriptions of quantum gravity.",
           "tags": []
         },
         {
           "num": 2,
-          "title": "Observation of Genuine Multi-Time Quantum Memory",
-          "summary": "An analytical three-time witness identifies environmental quantum memory that cannot be certified by any pairwise temporal test, establishing a hierarchy beyond ordinary non-Markovianity. A superconducting-qubit experiment with continuous evolution and fixed couplings realizes the minimal example, showing that genuinely quantum temporal correlations can evade standard two-time diagnostics.",
+          "title": "Non-interferometric tests of gravitational decoherence models with mechanical oscillators",
+          "summary": "Donadi and collaborators derive oscillator heating and displacement spectra for three momentum-decohering quantum-gravity models, showing that their energy dependence distinguishes them even though their leading weak-noise excess lineshapes coincide. Comparisons with mechanical and low-temperature platforms yield strong model-dependent constraints, with occupation measurements potentially improving one existing bound by fourteen orders of magnitude. The analysis makes non-interferometric experiments a concrete complement to coherence-based tests of gravity-related noise.",
           "tags": []
         },
         {
           "num": 3,
-          "title": "Lattice response theory for subsystem symmetry-protected topological phases",
-          "summary": "Furukawa and Okuda turn microscopic qudit symmetry actions into spacetime lattice gauge fields, then translate gauge-invariant response actions into entanglers that stack subsystem-protected phases. Beyond intersection-pairing constructions, they exhibit a new 3+1-dimensional phase with planar and global symmetries whose boundary stacking action exposes a mixed 't Hooft anomaly, connecting constructive many-body models to response theory.",
+          "title": "Scalable Pauli propagation through $\\mathbb{F}_2$-linear partitioning",
+          "summary": "An F2-linear partition of Pauli strings turns gate application into bounded-communication tasks, avoiding the globally synchronized deduplication that limits distributed Heisenberg-picture simulation. The open-source implementation scales across cores and nodes and handles more than 100 billion strings, extending the simulated duration of many-body dynamics. Its contribution is a memory-and-communication strategy rather than a new quantum algorithm, making it directly useful for classical benchmarking of quantum circuits.",
           "tags": []
         },
         {
           "num": 4,
-          "title": "Relational Cosmology: Covariant and Canonical Dressings, and the Hamiltonian of Internal Time",
-          "summary": "For scalar-clock flat FLRW minisuperspace, Sartini compares covariant dressings, canonical complete observables and gauge-fixed reductions, isolating a nonvanishing relational Hamiltonian from constraints that vanish on shell. Clock-frame structures explain why its flow need not be an action symmetry; the classical formulations agree under specified conditions but retain different variational structures, leaving quantum equivalence unresolved.",
+          "title": "Higher-Group Statistics on Lattices",
+          "summary": "Yang and Chen define statistics of coupled defects through Berry phases of closed lattice hopping sequences and classify sphere processes by higher-group homology. Their constructions uncover a +i Majorana-chain loop-flip phase and distinguish symmetry-enriched toric codes with identical anyon statistics, while a homology-based algorithm avoids enumerating exponentially many configurations. These invariants expose defect couplings and boundary anomalies invisible to conventional particle statistics.",
           "tags": []
         },
         {
           "num": 5,
-          "title": "Bound States of Two D0-Branes and the Three-Graviton Coupling",
-          "summary": "A numerical SU(2) BFSS ground-state solution extracts the three-graviton coupling from the asymptotic tail of the two-D0-brane bound-state wavefunction and accurately reproduces an existing amplitude calculation. A separate supersymmetry argument derives the coupling from the non-renormalized one-loop D0 interaction, tying a strongly coupled quantum-mechanical bound state to protected eleven-dimensional gravitational scattering.",
+          "title": "Discrete Time Crystals from Anti-Unitary Floquet Driving and Dynamical Freezing",
+          "summary": "Anti-unitary Floquet driving is combined with dynamical freezing to protect a period-doubled response through emergent magnetization conservation and exact two-cycle quasienergy pairing. Infinite-chain calculations find no detectable decay for generic initially magnetized states while the effective Hamiltonian remains quasi-local, and the authors outline an implementation. This supplies a concrete stabilization mechanism for time-crystalline dynamics, though the reported numerical persistence is not a proof of infinite lifetime.",
           "tags": []
         },
         {
           "num": 6,
-          "title": "Long-lived light-driven bimagnons at finite momentum in NiO",
-          "summary": "Mid-infrared excitation followed by time-resolved finite-momentum RIXS isolates a NiO two-magnon anti-Stokes signal while leaving the single-magnon energy and linewidth essentially unchanged. The signal peaks after 4 ps and decays over 28 ± 11 ps, distinguishing long-lived pair correlations from previously measured rapid dephasing and opening a route to manipulate magnetic correlations without photocarrier-driven demagnetization.",
+          "title": "Detecting non-Hermitian topology from long-time dynamics",
+          "summary": "D’Abbruzzo and Fazio extract a non-Hermitian Lindbladian topological invariant from long-time covariance-matrix relaxation instead of relying on edge-state isolation. An analytically solved reservoir-driven nonreciprocal Kitaev chain provides a phase diagram on which the protocol distinguishes every phase, including situations where skin effects can obscure edge modes. The result converts bulk dissipative dynamics into an operational diagnostic of open-system topology.",
           "tags": []
         },
         {
           "num": 7,
-          "title": "Persistent-mediator architecture for universal fault-tolerant quantum computation with color codes",
-          "summary": "The proposed color-code architecture uses protected joint measurements, cross-dimensional coupling and feed-forward to implement deterministic logical T cycles while restoring a reusable 3D mediator and retaining a separate 2D data register. Stabilizer analysis establishes the logical operation and spatial distance, while Clifford-surrogate simulations show memory-like finite-distance scaling and roughly linear sequential error growth; these benchmarks support the architecture without constituting full non-Clifford circuit validation.",
+          "title": "Kinessence, phantom crossing and sign-switching dark energy",
+          "summary": "Brax and collaborators combine a quintessence potential, K-essence screening, and a Yukawa matter coupling, then calculate background evolution and linear perturbations in the Jordan frame. Their models allow effective phantom crossing near redshift 0.5 and negative dark-energy density above redshift 2 while screening local fifth forces and reducing structure growth relative to LCDM. The predicted CMB-lensing deviations offer a test of this proposed route to easing cosmological tensions; the abstract does not establish a successful joint observational fit.",
           "tags": []
         },
         {
           "num": 8,
-          "title": "Gauge Theory Bootstrap with varying $N_c$",
-          "summary": "Scanning the color number from 3 to 12 through bootstrap sum rules and asymptotic form factors yields low-energy scattering parameters and sigma, rho and f2 resonance trajectories. The rho and f2 narrow with nearly stable masses, consistent with conventional meson scaling, whereas both sigma mass and width grow, making the method a nonperturbative probe of contrasting hadron structure.",
+          "title": "Monopole catalysis with massive fermions: the fate of the twisted sector",
+          "summary": "Khoze follows the fractional-fermion twisted state produced in monopole scattering into massive, confined asymptotic channels, using energy sharing and conservation laws to determine allowed decays. The lowest partial wave saturates the unitarity bound, but helicity-flip and baryon-plus-lepton-violating branching fractions depend on energy rather than remaining universally equal; a quark in a slow proton instead has near-unit catalysed-decay probability. This resolves how the topological-line description connects to physical monopole-catalysis signatures.",
           "tags": []
         },
         {
           "num": 9,
-          "title": "Efficient Standard Siren Cosmological Inference with Posterior Reuse",
-          "summary": "Normalising flows combined with sequential Monte Carlo repurpose an existing dark-siren posterior for a changed cosmological or population hypothesis instead of restarting inference from the prior. In the reported GWTC-5.0 cases, ASPIRE matches nested-sampling posteriors while delivering 6–28-fold speedups and unbiased evidence estimates, making modelling-systematics studies and incremental catalogue updates less expensive.",
+          "title": "Numerical tests of chiral fermion weights with $η$-invariant phases in the 3450 model",
+          "summary": "Misumi benchmarks a Pauli–Villars magnitude plus APS eta-invariant phase prescription against exact results for an anomaly-free two-dimensional chiral gauge theory. Flat-connection Polyakov loops agree within 0.04 percent and a nonzero-flux twelve-point correlator within 0.8 percent in magnitude, while phase tests demonstrate the importance of the eta term and cancellation of extension dependence across anomaly-free fermions. These controlled checks support the prescription as a route toward lattice chiral gauge theories without claiming a full four-dimensional construction.",
           "tags": []
         },
         {
           "num": 10,
-          "title": "Near-Optimal Multiparameter Pure-State Metrology with a Constant Number of Bases",
-          "summary": "A worst-direction Fisher-information criterion reveals that a dimension-independent number of random measurement bases can deliver uniform pure-state multiparameter sensitivity: five Haar bases already give a positive floor with high probability. Larger constant families approach the incompatibility-limited one-half QFI fraction, whereas mutually unbiased bases can have a floor no better than 1/(d+1), separating average isotropy from reliable sensitivity in every direction.",
+          "title": "Explicit Absolutely Maximally Entangled states in dimensions twice a prime power",
+          "summary": "Pandya constructs multipartite absolutely maximally entangled states by coupling qubit branches to prime-power-dimensional systems that suppress branch interference. The resulting families in dimension twice an odd prime power, combined with known constructions, settle nine-party existence exactly: every integer local dimension at least three works, whereas dimension two does not. The work expands explicit entanglement resources and identifies exponential dimension growth within this particular coupling scheme.",
           "tags": []
         },
         {
           "num": 11,
-          "title": "Automatic O(a) Improvement for Wilson Twisted Mass Fermions in the Hamiltonian Formulation",
-          "summary": "Using symmetries of the lattice Hamiltonian rather than a Euclidean effective action, Urbach constructs a Symanzik description proving automatic linear-spacing-error removal at maximal twist and improvement through mass or Wilson averaging. Canonical transformations eliminate redundant on-shell terms and reveal two independently weighted Hamiltonian clover counterterms, providing discretization-control tools for Hamiltonian lattice gauge calculations.",
+          "title": "A precision bound for gravitational transseries",
+          "summary": "Lee develops large-N resurgence methods that access gravitational contributions of order exp(−N²) beyond the D-brane instanton scale and proposes a finite-N precision limit on holographic transseries. Assuming a specified growth of instanton sums, an obstruction to resummation supplies the bound; tests using the one-sixteenth-BPS index of N=4 super Yang–Mills recover wrapped-D3-brane actions through an instanton-number duality. The result probes what perturbative-plus-instanton gravitational data can determine, with the central bound remaining conditional on the growth assumption.",
           "tags": []
         },
         {
           "num": 12,
-          "title": "Noise-Protected Superconducting Qudits from Higher-Harmonic Josephson Junctions",
-          "summary": "A theoretical three-junction loop exploits the sign of a sizable second Josephson harmonic to realize two different relaxation-protected qutrit designs, with contrasting charge-noise and correctability trade-offs. Microscopic calculations identify gate-tunable altermagnetic junctions as a candidate implementation, but voltage-noise dephasing remains a limiting factor, making the result a materials-dependent design proposal rather than demonstrated hardware protection.",
+          "title": "Ensemble phase transitions in measurement-unitary hybrid quantum circuits",
+          "summary": "Mandal and Roy analyze ancillary-qubit trajectory and projected-state ensembles in monitored circuits, finding nonanalytic ensemble changes at purification criticality that their maximally mixed first moments cannot detect. Haar-random and Clifford circuits yield different design structures, revealing how non-stabilizer resources constrain ensemble ergodicity and how measurement-based steering shifts between final-time and bulk measurements. This reframes measurement-induced transitions through the full distribution of accessible subsystem states rather than density matrices alone.",
           "tags": []
         }
       ]
