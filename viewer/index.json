@@ -1,6 +1,87 @@
 {
-  "generated": "2026-11-13T10:56:39.560Z",
+  "generated": "2026-11-14T01:44:39.325Z",
   "digests": [
+    {
+      "date": "2026-11-14",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-11-14",
+      "categories": "hep-th, cond-mat.str-el",
+      "items_found": 12,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Gauge aspects of teleparallel gravity and Noether's second theorem",
+          "summary": "Applying Noether’s second theorem to TEGR identifies diffeomorphisms and local Lorentz transformations as its gauge symmetries, rather than an independent translation symmetry. The resulting analysis fixes matter coupling to the general-relativistic prescription even for spinors, clarifying which gauge-theory interpretations preserve equivalence to Einstein gravity.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Higher Categorical Bistellar Moves",
+          "summary": "Ivanov builds higher categories from simplices and bistellar-move relations in arbitrary dimension, then uses functors into categories of theories to specify TQFT orbifold data. The construction recovers known low-dimensional cases and produces a nontrivial three-dimensional categorified Frobenius-type structure, extending the algebraic machinery available for triangulated topological theories.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "A constructive computer-assisted existence proof for a Calabi--Yau metric",
+          "summary": "A numerical approximation to the Fermat quartic’s Ricci-flat metric is promoted to a rigorous existence proof through a fixed-point theorem with computer-verified bounds. Besides establishing existence independently of Yau’s theorem, the work supplies an explicit accurate analytic approximation and examines obstacles to extending the method to other manifolds.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Sharp Uniform Fisher Information Bounds from Projective Designs",
+          "summary": "Yang and collaborators derive worst-case Fisher-information guarantees for fixed measurements from projective-design order, with sharp bounds at second and odd orders and nearly tight even-order bounds. Sampling and completing a 3-design yields only linearly many outcomes while retaining dimension-independent sensitivity and uniform O(d/N) pure-state estimation error, giving a concrete route to near-optimal nonadaptive tomography.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Reduced filtering using classical control hierarchy with linear optimality for continuous quantum error correction",
+          "summary": "An exact syndrome-space filtering hierarchy reduces continuous stabilizer-code feedback to dimension 3·2^(n−k−1) under the stated single-Pauli-recovery assumptions, exposing monitoring-induced damping and a control-linearization degeneracy. Adjusting measurement strength and controller design improves tested entanglement fidelities, reaching 0.947 for the three-qubit code and 0.726 for the five-qubit code with committed recovery. The advance is a structured reduction of estimation and feedback overhead, not a general fault-tolerance threshold result.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Statistics of Fock-space correlation lengths in the many-body localised phase",
+          "summary": "Exact diagonalization of a disordered Ising chain motivates a microscopic distribution-of-lengths theory that explains why typical Fock-space correlations decay exponentially while averages decay more slowly. Combining rare resonances with hypercubic graph geometry also yields the eigenstate singularity spectrum and anomalous multifractal symmetry violation, linking finite-size correlation statistics to the structure of many-body localization.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Symmetry-Controlled Criticality and Zeno Localization in a Monitored Quasiperiodic Superconductor",
+          "summary": "Quantum-state-diffusion simulations of a monitored quasiperiodic superconductor reveal a transition from squared-logarithmic entanglement growth to an area law that is absent in the clean model. Symmetry-class crossover explains the nonmonotonic transition line, while a Zeno-limit non-Hermitian Bogoliubov–de Gennes theory predicts localization lengths matching numerics. The work ties measurement-induced collective criticality to microscopic trajectory localization.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Geometric Theory of Quasiperiodically Driven Systems",
+          "summary": "Ye and Bukov use counterdiabatic gauge potentials and a frequency-lattice variational principle to construct invariant spaces and an exact average-energy description for quasiperiodic driving. Their four-class geometric taxonomy identifies when ordinary Floquet reasoning extends and when nonabelian structure is required, while suggesting an ergodicity criterion based on merging invariant spaces. This provides organizing machinery for incommensurately driven dynamics beyond a single effective-Hamiltonian ansatz.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Localization of gravitational-wave source behind galaxy clusters by gravitational-wave lensing",
+          "summary": "Simulations using reconstructed Hubble Frontier Fields cluster lenses identify the correct lens in roughly 90% of events and localize sources to sub-arcsecond precision when the generating model is available. Marginalizing over models preserves this performance only if the correct family is included; excluding it causes most attempts to fail at initialization. The result establishes a conditional route to host identification and cosmological inference while quantifying a decisive lens-model limitation.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Traces of Vacuum Squeezing: A Superconducting Transmission-Line Analogue of Cosmological Particle Creation",
+          "summary": "A dc-SQUID-loaded transmission line is mapped theoretically to scalar-field evolution in a radiation-dominated universe, allowing exact Weber-equation solutions and a predicted particle spectrum. The authors identify pulse and device constraints and propose anomalous mode moments, photon counts, and purity as complementary diagnostics that separate vacuum-pair squeezing from thermal populations despite dissipation. This is an experimentally motivated analogue proposal rather than an observation of cosmological particle creation.",
+          "tags": []
+        },
+        {
+          "num": 11,
+          "title": "Is Spin Slow in Hot QCD?",
+          "summary": "Evaluating the full leading-order QCD collision operator, Liu and Huang find light-quark spatial spin relaxes at the transport rate g^4T ln(1/g), because even helicity-preserving scattering rotates momentum-locked spin. Multiple kinetic modes govern the decay, and global rotation contributes reversible precession rather than a protected slow mode. The calculation challenges the assumed timescale separation needed to treat spin as an independent hydrodynamic variable in quark-gluon plasma.",
+          "tags": []
+        },
+        {
+          "num": 12,
+          "title": "Discrete anomaly inflow from SymTFT of $U(1)$ global symmetry: the modified Villain resolution",
+          "summary": "A modified-Villain lattice construction realizes anomalous U(1) symmetry and its odd-level spin structure explicitly through Majorana fermions at defect junctions. Deriving fusion and braiding data directly reproduces the fermionic Gu–Wen relation and discrete anomalous stacking behavior, and determines which finite subgroups can be gauged. The method links continuous anomaly inflow to concrete fermionic defect data without an intermediate bosonic-shadow construction.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "type": "arxiv",
@@ -31362,8 +31443,8 @@
     }
   ],
   "stats": {
-    "total_digests": 284,
-    "total_entries": 2218,
+    "total_digests": 285,
+    "total_entries": 2230,
     "unique_tags": {
       "Quantum sensing; molecular spin physics": {
         "first_seen": "2026-11-13",
@@ -36755,6 +36836,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-11-14",
         "2026-11-13",
         "2026-11-12",
         "2026-09-23",
