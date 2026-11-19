@@ -1,6 +1,87 @@
 {
-  "generated": "2026-11-18T04:54:44.335Z",
+  "generated": "2026-11-19T01:43:50.541Z",
   "digests": [
+    {
+      "date": "2026-11-19",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-11-19",
+      "categories": "gr-qc, astro-ph.CO, hep-ph",
+      "items_found": 12,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Riemannian geometry and quantum gravity on trees",
+          "summary": "Classifying positive-ratio quantum metrics singles out finite ADE and affine D/E trees, with quantum Levi-Civita connections controlled by Coxeter data in the finite case. The resulting Einstein–Hilbert actions support functional-integral gravity models on several small graphs, supplying concrete discrete geometries rather than a continuum or LQG quantization.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Teleportation of Logical Qubits using Lattice Surgery with Superconducting Circuits",
+          "summary": "A 41-physical-qubit superconducting device teleports logical states between distance-three surface-code patches using lattice surgery, tracking the information transfer through logical observables. Repeating stabilizer extraction after the merge restores fault tolerance and improves teleportation fidelity, with further gains from shorter, lower-gate-count sequences, making inter-logical operations a concrete optimization target.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Non-equilibrium topological order from Floquet anyon proliferation in the toric code",
+          "summary": "Entropy and logarithmic-negativity decompositions isolate driven-anyon contributions in Floquet toric-code quenches, allowing free-fermion numerics to characterize a long-time state with persistent long-range entanglement but without pure-state topological order. Equilibration to a periodic Gibbs ensemble explains this mixed-state-order analog; the interacting thermalizing case motivates, rather than establishes, a phase stabilized by Floquet heating.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "CFTs with Large Virasoro Primary Gaps",
+          "summary": "Anomaly-free asymmetric orbifolds of lattice CFTs remove the dimension-two current bilinear while controlling both twisted and untwisted spectra. The construction produces infinite families with exact all-spin Virasoro-primary gaps of three and four, giving explicit compact unitary two-dimensional examples beyond gap two and sharper benchmarks for sparse-spectrum CFT questions.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Probing Lorentz-violating electrodynamics with CMB polarization. II. Updated constraints and forecasts for the Simons Observatory and LiteBIRD",
+          "summary": "A joint analysis of CMB polarization data within the minimal Standard Model Extension constrains CPT-odd photon coefficients below 7.75×10⁻⁴⁵ and 3.82×10⁻⁴⁵ GeV at 95% credibility, while CLASS circular polarization improves the CPT-even bound by about 7%. Forecasts separate the complementary reach of Simons Observatory and LiteBIRD, including a possible order-of-magnitude CPT-even improvement from LiteBIRD circular-polarization sensitivity; the reported EB preference remains mild.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Expressivity of two-dimensional Gaussian fermion tensor network states",
+          "summary": "For single-band BCS states and half-filled two-band Gaussian insulators in two dimensions, the authors prove equivalence between a Renyi-0 area law and an exact finite-bond-dimension Gaussian tensor-network representation. Equivalent compact-orbital and momentum-space criteria translate entanglement structure into representation resources, establishing a controlled result for these families rather than arbitrary two-dimensional states.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Complete Cosmological Collider Signatures from Right-handed Neutrino Loops",
+          "summary": "Factorizing a squeezed-limit neutrino triangle into hard and soft pieces, the calculation retains complete soft mode functions and finite subtraction terms before performing spinor-helicity and Schwinger–Keldysh sums. This yields a finite analytic complex clock coefficient and a large-chemical-potential expansion, improving theoretical templates for inflationary heavy-neutrino signatures rather than reporting an observational signal.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Strange-Metal Magnetotransport without a Strange-Metal Ground State",
+          "summary": "Fully backreacted holographic models realize linear resistivity and a quadratic inverse Hall angle in an intermediate scaling geometry rather than at the ground-state fixed point. Relevant deformations bound this finite-temperature window, with its lower edge scaling as B^(2/3) up to logarithms, suggesting simultaneous transport and thermodynamic breakdown as a diagnostic of intermediate criticality.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Local interference algorithms for observables in large random circuits",
+          "summary": "A gate-cluster expansion adds coherent corrections to stochastic approximations of OTOCs and charge correlators, combining Monte Carlo sampling with tensor-network contractions. Numerical polynomial resource scaling is supported by replica-model error analysis in one-dimensional brickwork settings, identifying tractable scrambling observables without establishing efficient simulation of arbitrary quantum circuits.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Non-Invertible Quantum Cellular Automata I: Microscopic Definition of Non-Invertible Symmetries",
+          "summary": "Defining non-invertible cellular automata as pure, dualizable locality-preserving quantum channels gives lattice symmetries a microscopic operator-algebraic formulation. Examples include anomalous on-site symmetries and higher-dimensional constructions, while equivalence to topological-defect or sequential-circuit realizations is explicitly conjectured, setting up a framework rather than a completed classification here.",
+          "tags": []
+        },
+        {
+          "num": 11,
+          "title": "Using the 0i Einstein equation to break dark-sector degeneracies",
+          "summary": "Three observable-based consistency tests combine the momentum-constraint, gravitational-slip, and Euler equations to distinguish modified gravity, dark energy, and nonstandard dark matter. The contribution is a diagnostic framework exposing assumptions hidden in tests built from unobservable variables, with the usually unused 0i Einstein equation supplying the extra discriminating information rather than a claimed resolution of existing tensions.",
+          "tags": []
+        },
+        {
+          "num": 12,
+          "title": "Gravitational waves from cosmological first-order phase transitions with fluctuation-induced friction",
+          "summary": "Three-dimensional lattice simulations of two coupled scalar fields track how fluctuation-induced friction changes bubble-wall motion and gravitational-wave production in a first-order transition. The extra field dominates near the spectral peak while the transition field controls the ultraviolet, producing a broad feature and, at larger coupling, long-lived false-vacuum remnants, showing why friction microphysics matters for signal templates.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "type": "arxiv",
@@ -32837,8 +32918,8 @@
     }
   ],
   "stats": {
-    "total_digests": 296,
-    "total_entries": 2346,
+    "total_digests": 297,
+    "total_entries": 2358,
     "unique_tags": {
       "Quantum Foundations": {
         "first_seen": "2026-11-18",
@@ -38245,6 +38326,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-11-19",
         "2026-11-18",
         "2026-11-17",
         "2026-11-14",
