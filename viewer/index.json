@@ -1,6 +1,81 @@
 {
-  "generated": "2026-11-19T04:49:22.853Z",
+  "generated": "2026-11-20T01:43:50.865Z",
   "digests": [
+    {
+      "date": "2026-11-20",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-11-20",
+      "categories": "hep-th, cond-mat.str-el, math.QA",
+      "items_found": 11,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Regge Dilaton Gravity from Feynman Diagrams",
+          "summary": "Closed planar scalar diagrams in two dimensions are recast as observable insertions in discrete BF theory or a Regge version of linear dilaton gravity, with the background isometry group controlling the BF description. Extending the diagram-to-geometry correspondence to spherical, flat, and hyperbolic backgrounds supplies an explicit bridge between matter amplitudes and discrete gravitational partition functions.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "The limits of magic-state cultivation",
+          "summary": "A stabilizer code defined on non-Clifford gates gives an exact harmful-fault criterion for postselected magic-state preparation, linking cultivation to distillation and establishing T-count lower bounds. Applying it exposes optimistic distance estimates from S-for-T proxies in existing checks, while producing nearest-neighbor alternatives that retain full distance and are certified through distance nine.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Learning the Anyon Atlas",
+          "summary": "A representation-search pipeline with three rejection gates, including two learned classifiers, finds 150,679 new modular data and extends the catalog to 42 anyons, with estimated rather than proven completeness. Counterexamples to a proposed time-reversal criterion and a rank-100 prime example beyond Chern-Simons realizations turn computational classification into new structural constraints.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Cosmological First-Order Phase Transitions with Full Nonlinear Gravity",
+          "summary": "BSSN simulations evolve a scalar field and radiation fluid through horizon-scale, GUT-scale bubble transitions with constraint-satisfying initial data rather than a fixed FLRW background. The present-day gravitational-wave peak is about 5×10⁻¹¹ in Ω_GW,0 h², consistent with earlier approximations, while late oscillon formation drives the field toward matter-like behavior, testing nonlinear corrections in the simulated regime.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "A New GUT",
+          "summary": "An anomaly-free SU(12) construction embeds three Standard Model generations without extra chiral matter or an intermediate SU(5) embedding, predicting E/N=2/3 and a unification-scale weak mixing parameter of 1/2. A bootstrap restricted to at-most-two-index fermion representations places all new embeddings in an SU(8m+4) family, offering a constrained model-building framework rather than demonstrated phenomenological viability.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Stabilizer models of achiral abelian topological orders",
+          "summary": "Starting from any signature-zero integer K-matrix, the construction obtains its achiral abelian topological order by condensing mutually trivially braiding dyons in an R^N gauge theory. Gauging a non-on-site one-form symmetry implements this microscopically as a continuous-variable stabilizer code, covering bosonic and fermionic orders and connecting topological classification to explicit code models.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "A Nonsecular Quantum Master Equation with Detailed Balance and Second-order Error Bound",
+          "summary": "Completing the Redfield generator with time-reversal KMS balance while matching resonant coefficients yields a nonsecular equation with a conditional, time-uniform O(λ²) reduced-state error bound. Exact two-oscillator benchmarks preserve this accuracy across secular and nonsecular regimes, providing a thermodynamically structured alternative when dense spectra invalidate secularization.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "From geometric curvature to effective backgrounds: a dictionary for Dirac fermions in one, two and three spatial dimensions",
+          "summary": "A Clifford-algebra derivation translates curved-background Dirac dynamics into position-dependent Fermi velocities and dimension-specific effective fields, explicitly tracking frame dependence. Applications distinguish velocity modulation from lapse-induced binding and identify geometric mass and axial terms, providing a dictionary for geometric analogues without conflating them with lattice pseudogauge fields.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "The magical memory cost of entanglement spectrum compression",
+          "summary": "An exact local-unitary tradeoff among Bell-pair extraction, residual memory, and reconstruction fidelity defines an operational entanglement-spectrum complexity, bounded using entanglement spread and nonlocal magic. Circuit and state-family comparisons show memory can decline while entropy grows and reveal matrix-product-state compression overhead beyond entropy estimates, separating spectral complexity from entanglement amount.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "On Reaction Depth and Fast Fault-Tolerant Boolean Logic",
+          "summary": "Formalizing reaction depth separates classical feedback latency from magic depth, and a Pauli-measurement plus Toffoli-state construction achieves constant-depth Boolean arithmetic only with exponential space and dirty qubits. Efficient AutoAND, ripple-carry, and schoolbook-multiplier constructions then show how restricted LDPC-friendly operations can compete with existing designs, clarifying practical latency-resource tradeoffs.",
+          "tags": []
+        },
+        {
+          "num": 11,
+          "title": "Computing $F$-Symbols from Modular Data",
+          "summary": "A ladder of braid-group representations reconstructs associativity data from modular data for categories with a self-dual simple generator, largely avoiding nonlinear pentagon solving while accommodating fusion multiplicities. Numerical solutions reach difficult rank-11 and rank-12 cases, with number-field-dependent exact recovery and certification, making otherwise costly anyon calculations tractable.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "type": "arxiv",
@@ -33113,8 +33188,8 @@
     }
   ],
   "stats": {
-    "total_digests": 299,
-    "total_entries": 2372,
+    "total_digests": 300,
+    "total_entries": 2383,
     "unique_tags": {
       "Quantum Information & Computing": {
         "first_seen": "2026-11-19",
@@ -38521,6 +38596,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-11-20",
         "2026-11-19",
         "2026-11-18",
         "2026-11-17",
