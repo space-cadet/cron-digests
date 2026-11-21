@@ -1,6 +1,81 @@
 {
-  "generated": "2026-11-20T04:51:21.256Z",
+  "generated": "2026-11-21T01:43:20.591Z",
   "digests": [
+    {
+      "date": "2026-11-21",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-11-21",
+      "categories": "quant-ph",
+      "items_found": 11,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Holographic Tessellations Tensor Networks $\\{p,q\\}$ from Entangled Quantum Tetrahedron in Loop Quantum Gravity",
+          "summary": "Entangled LQG tetrahedra are assembled into hyperbolic-network cells, with rank assumptions and kernel completion producing effective perfect tensors and conditional isometric bulk–boundary maps. On admissible cuts, entropy splits into link-dimension and bulk terms; the proposed Page-curve application additionally assumes Haar statistics and postselected encoding, so the construction supplies a conditional bridge to holographic codes rather than a derivation of black-hole evaporation.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "High-temperature Gibbs states are uniformly Markovian and trivial",
+          "summary": "A projective-2-design representation converts sufficiently hot noncommuting Gibbs states into a positive-weight expansion, bypassing the convergence problem of reduced-state logarithms. This establishes exponentially decaying conditional mutual information for arbitrary spatial tripartitions, together with separability and membership in the maximally mixed phase, sharpening the information-theoretic meaning of thermal triviality.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Scalable Simulation of Strongly Correlated Fermions with Neural Gaussian Tensor Networks",
+          "summary": "Neural-network Gaussian PEPS exploit locally entangled Gaussian subspaces to achieve exact contraction scaling as O(N^{3/2}) on two-dimensional lattices. Applied to the doped Hubbard model at U/t=8 and one-eighth hole doping, the ansatz delivers reported state-of-the-art variational energies through 1,024 sites, making tensor-network structure a practical route to larger correlated-fermion calculations.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Inhomogeneous Cutoff Regularization of Loops in Cosmological Correlators",
+          "summary": "Defining a physical ultraviolet cutoff separately in locally perturbed cosmological patches generates extra long-mode insertions in loop diagrams. These terms cancel ultraviolet boundary contributions to superhorizon scalar and tensor power spectra and restore the squeezed-bispectrum consistency relation at finite cutoff, showing why regulator geometry matters for reliable inflationary predictions.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Scaling classical hardware for accurate real-time quantum error correction",
+          "summary": "Rapids co-designs a streaming neural decoder with FPGA-friendly operations and integer-arithmetic training, processing distance-19 surface-code syndrome rounds in under a microsecond on one FPGA. The reported logical error rate improves by a factor of 240 over existing real-time hardware decoders, with extensions to color and bivariate-bicycle codes, identifying scalable classical hardware as an additional fault-tolerance resource.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Field theory and the biquadratic spin-1 chain",
+          "summary": "Bethe-ansatz analysis identifies deconfined domain-wall excitations in the biquadratic spin-1 chain, but an integrability-preserving critical limit obtained with a higher conserved charge closes its gap quadratically. The resulting nonrelativistic field theory and its two-particle scattering matrix reconcile lattice integrability with a low-energy description that need not be the relativistic CP² sigma model.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Half-strings across the deconfinement transition of a $U(1)$ quantum link model",
+          "summary": "Detailed finite-temperature critical exponents and string-tension measurements compare a spin-one-half U(1) quantum link model with and without annealed charge-two matter. The charged model has a deconfinement temperature-to-square-root-tension ratio resembling Z₂ gauge theory, whereas the charge-free model yields a distinct universal value, exposing how dynamical charge content changes confinement diagnostics.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "UV Bounds on Inflationary Parity Violation",
+          "summary": "Fermionic and string-theoretic ultraviolet completions are used to test whether an inflationary dynamical Chern–Simons interaction can generate observable parity-odd matter trispectra. Existing tensor–scalar–scalar bispectrum bounds put detectability near current tensor limits outside, or at the edge of, theoretical validity; small tensor amplitudes leave a loophole only with extreme vertex enhancement, sharply qualifying the mechanism’s observational prospects.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Thermal Resummation Effects on Electroweak Phase Transitions and Gravitational Waves in Conformal and Non-Conformal 2HDMs",
+          "summary": "Matching zero-temperature inputs across three thermal-resummation prescriptions reveals electroweak gravitational-wave predictions differing by up to nine orders of magnitude in peak amplitude and roughly fifty in frequency for representative two-Higgs-doublet benchmarks. Gap-equation-based partial dressing often strengthens conformal transitions, while its path-dependent potential introduces a smaller tested ambiguity, demonstrating that resummation uncertainty can dominate proposed gravitational-wave forecasts.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Fast extraction of universal data from temporal spectrum: Applications to Haagerup CFT and monopole scattering",
+          "summary": "A short imaginary-time evolution followed by analysis of an infinite-MPS transfer spectrum extracts lattice CFT data without the usual extensive excitation calculations. The method resolves higher charge sectors of a Haagerup CFT and estimates c=2.137(27), while a space-time rotation realizes the Maldacena–Ludwig monopole boundary through a Fidkowski–Kitaev ground state, linking efficient numerics to unusual conformal boundary physics.",
+          "tags": []
+        },
+        {
+          "num": 11,
+          "title": "Query-Optimal Quantum Minimum Finding from Numerical Estimators",
+          "summary": "A coherent estimator with only constant success probability is sufficient for a quantum search returning a 2ε-optimal label in O(√N) estimator queries, removing the usual logarithmic confidence-amplification overhead. Separate worst-case optimality results for query cost and additive error, plus a probability-mass-guided extension, give sharper resource bounds for expectation optimization and guided ground-energy estimation.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "type": "arxiv",
@@ -33452,8 +33527,8 @@
     }
   ],
   "stats": {
-    "total_digests": 302,
-    "total_entries": 2403,
+    "total_digests": 303,
+    "total_entries": 2414,
     "unique_tags": {
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-11-20",
@@ -38865,6 +38940,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-11-21",
         "2026-11-20",
         "2026-11-19",
         "2026-11-18",
