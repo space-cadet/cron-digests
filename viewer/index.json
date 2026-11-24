@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T01:44:18.197Z",
+  "generated": "2026-11-24T04:56:57.424Z",
   "digests": [
     {
       "date": "2026-11-24",
@@ -78,6 +78,86 @@
           "num": 12,
           "title": "Ohmic warm inflation",
           "summary": "After diagnosing anomaly, potential, and energy-budget problems in Warm Little Inflation, the authors construct anomaly-free extra-dimensional U(1) models whose Wilson-line inflaton acquires friction through an Ohmic continuum limit. Large gauge-group rings support a protected inflaton and monodromy potential; sustaining an observationally viable warm phase is presented as a promising possibility, not a settled consequence.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "web-science",
+      "title": "# Web Science Digest — 2026-11-24",
+      "items_found": 9,
+      "entries": [
+        {
+          "num": 1,
+          "title": "New light-conversion tool could help speed up quantum computing",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-conversion-tool-quantum.html",
+          "summary": "Researchers at the Cockrell School of Engineering report a light-conversion tool relevant to quantum computing. The listing does not provide performance details.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "No magnets needed: Extreme voltage drives completely new kind of Hall effect",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-magnets-extreme-voltage-kind-hall.html",
+          "summary": "The publisher reports a voltage-driven Hall effect without magnets, a topic relevant to transverse transport in condensed matter.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "New fiber laser combines ultrashort pulses with broad spectrum and stable output",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-fiber-laser-combines-ultrashort-pulses.html",
+          "summary": "A fiber-laser development combines femtosecond pulses, broad spectral coverage and stable output, with potential relevance to precision measurement and fast-process imaging.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Local measurements reveal global quantum properties in a constant number of experimental runs",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-local-reveal-global-quantum-properties.html",
+          "summary": "Researchers report a route to extracting global quantum properties from local measurements. The listing contrasts this with the exponential parameter count of full state tomography; the scope and assumptions require the full paper.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Theoretical model describes a new type of atomic oscillation with cloverleaf symmetry in altermagnets",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-theoretical-atomic-oscillation-cloverleaf-symmetry.html",
+          "summary": "Researchers at Halle-Wittenberg and Münster describe theoretically an atomic oscillation with cloverleaf symmetry in altermagnets.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Overlooked symmetry group offers new geometric blueprint for the Standard Model and topologically protected vacuums",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-overlooked-symmetry-group-geometric-blueprint.html",
+          "summary": "A theoretical proposal explores a symmetry-based geometric framework for the Standard Model and protected vacuums. This is a proposed framework, not experimental confirmation of unification.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Physics-guided AI reconstructs fluid flow from sparse, noisy data",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-11-physics-ai-reconstructs-fluid-sparse.html",
+          "summary": "Physics-guided machine learning is used to reconstruct fluid motion from incomplete, noisy measurements, addressing limits in imaging detailed flows.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "A Mysterious Gap Hints at Black Holes Born from Stars That Never Exploded",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261121221126.htm",
+          "summary": "The listing describes a pattern in 257 black-hole mergers as a possible clue that some massive stars collapse without bright supernovae. It presents an interpretation rather than direct observation of such a collapse.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "CERN Scientists Finally Find Evidence of a Particle Decay So Rare It Took 40 Years to Detect",
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm",
+          "summary": "The publisher reports first evidence of a rare particle decay after a decades-long search. The listing does not specify enough detail to assess significance or the decay channel.",
           "tags": []
         }
       ]
@@ -34223,8 +34303,8 @@
     }
   ],
   "stats": {
-    "total_digests": 308,
-    "total_entries": 2472,
+    "total_digests": 309,
+    "total_entries": 2481,
     "unique_tags": {
       "Physics": {
         "first_seen": "2026-11-23",
@@ -39745,6 +39825,7 @@
         "2026-05-11"
       ],
       "web-science": [
+        "2026-11-24",
         "2026-11-23",
         "2026-11-20",
         "2026-11-19",
