@@ -1,6 +1,87 @@
 {
-  "generated": "2026-11-24T04:56:57.424Z",
+  "generated": "2026-11-25T01:44:07.691Z",
   "digests": [
+    {
+      "date": "2026-11-25",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-11-25",
+      "categories": "hep-ph, astro-ph.CO, gr-qc",
+      "items_found": 12,
+      "entries": [
+        {
+          "num": 1,
+          "title": "Dirichlet walls beyond JT gravity and their quantum group interpretation",
+          "summary": "Canonical reduction of finite-boundary sinh dilaton gravity turns geodesic length and momentum into a finite-difference quantum Hamiltonian, with q-hypergeometric universe wavefunctions. Identifying that Hamiltonian with a quantum-group Casimir and selecting the regular modular-double combination supplies an explicit bridge between boundary quantization and deformed symmetry beyond JT gravity.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Two messages suffice for quantum interactive proof systems",
+          "summary": "A PSPACE-hardness reduction from quantified Boolean formulas to Close Image to Uniform establishes that two-message quantum proofs already capture all of QIP. The resulting protocol needs only EPR-half messages from the verifier and stoquastic verification, sharply lowering the interaction requirements for quantum verification without claiming efficient solutions of PSPACE problems.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Multipartite entanglement structure of crystal quenches",
+          "summary": "A quasiparticle construction for tight-binding crystal quenches identifies configurations carrying only pairwise entanglement and proves that the Markov gap faithfully witnesses irreducible tripartite entanglement in this setting. Exact lattice calculations agree in the hydrodynamic regime, explaining additional delays in genuinely three-party entanglement that bipartite diagnostics would miss.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Constraints on ultralight dark matter couplings from orbital perturbations of binary pulsars",
+          "summary": "Bayesian analysis of orbital perturbations in 50 NANOGrav binary pulsars constrains scalar and vector ultralight-dark-matter couplings while marginalizing field properties, timing parameters, and red noise. Orbital resonances deliver particularly strong quadratic-scalar limits under a point-particle neutron-star approximation, whereas vector limits remain weaker than MICROSCOPE overall, making the complementarity and assumptions explicit.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Small-world networks yield tunable quantum codes at short circuit depth",
+          "summary": "Monitored Clifford circuits on rewired Watts–Strogatz networks generate finite-rate codes with extensive mean contiguous distance at logarithmic depth on fully rewired graphs. Varying connectivity, monitoring, and depth also shifts the purification transition, demonstrating a tunable architecture-to-code connection rather than establishing an unrestricted extensive code distance.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Universal thermodynamics and BKT transition of the planar Bose gas from weak to strong interactions",
+          "summary": "A functional-renormalization-group truncation retaining full field dependence in the potential and spatial derivative terms resolves planar Bose-gas thermodynamics across weak and strong interactions. While the equation of state changes little between approximations, the improved treatment captures the BKT density jump and critical anomalous dimension within a few percent and exposes strong-coupling departures from classical-field scaling.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "Massive de Sitter correlators at one loop",
+          "summary": "Finite Mellin–Barnes representations yield exact squeezed-limit coefficients and controlled departures from that limit for massive one-loop de Sitter correlators. Computing the soft vertex rather than replacing it by its late-time limit enhances heavy Standard Model signals by factors of ten to thirty and reveals phase drift away from squeezing, materially revising cosmological-collider templates.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Imprints of quantum space in the ringdown phase of Kerr black holes",
+          "summary": "A Drinfeld-twist deformation leaves the Kerr background unchanged but modifies axial metric perturbations at first order in spin and quantum deformation, including their mixed term. WKB and continued-fraction calculations predict shifts in ringdown frequencies and damping, with catalog-based phenomenological estimates illustrating possible signatures rather than a detection or observational constraint on quantum spacetime.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "Exponential advantage in quantum observation with one extra qubit",
+          "summary": "Coherent interference between dynamical trajectories using one auxiliary qubit yields an exponential reduction in evolutions for multi-time correlation measurements relative to ancilla-free protocols, even allowing the latter adaptive control and unrestricted coherence. Resource lower bounds and numerical higher-order-response examples establish both the space-time tradeoff and its practical motivation for observing many-body dynamics.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Non-invertible Duality Defects in Four-Dimensional $\\mathbb{Z}_N$ Lattice Gauge Theories",
+          "summary": "Local building-block weights construct duality interfaces in four-dimensional discrete lattice gauge theories, with topological invariance established explicitly. At self-dual couplings the interfaces become non-invertible symmetry defects; derived junction and crossing relations with center-symmetry defects provide concrete lattice data for generalized symmetry analysis.",
+          "tags": []
+        },
+        {
+          "num": 11,
+          "title": "Quark and gluon gravitational form factors of the nucleon at next-to-leading order",
+          "summary": "Matched next-to-leading-order QCD sum rules for quark and gluon energy-momentum tensors reduce total nucleon gravitational form factors substantially and reproduce lattice totals over a restricted momentum window. Antisymmetric Borel moments protect selected estimators, while condensate dominance and unresolved transition terms make the D-term more trustworthy than separate A and J contributions, delimiting what this extraction can establish.",
+          "tags": []
+        },
+        {
+          "num": 12,
+          "title": "Superheavy gravitational dark matter from runaway bubble collisions",
+          "summary": "A calculation of graviton-mediated pair creation in runaway bubble-wall collisions gives a Dirac-dark-matter yield scaling with transition duration and the cube of reheating temperature in Planck units. The resulting nearly mass-independent production extends to superheavy masses around 10^17 GeV despite much lower reheating temperatures, identifying a gravitational production channel outside ordinary freeze-in reach.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "type": "arxiv",
@@ -34303,8 +34384,8 @@
     }
   ],
   "stats": {
-    "total_digests": 309,
-    "total_entries": 2481,
+    "total_digests": 310,
+    "total_entries": 2493,
     "unique_tags": {
       "Physics": {
         "first_seen": "2026-11-23",
@@ -39716,6 +39797,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-11-25",
         "2026-11-24",
         "2026-11-21",
         "2026-11-20",
