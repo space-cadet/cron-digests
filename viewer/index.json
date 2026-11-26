@@ -1,6 +1,87 @@
 {
-  "generated": "2026-11-25T04:58:24.946Z",
+  "generated": "2026-11-26T01:43:23.110Z",
   "digests": [
+    {
+      "date": "2026-11-26",
+      "type": "arxiv",
+      "title": "# arXiv Digest — 2026-11-26",
+      "categories": "hep-lat, hep-th, quant-ph",
+      "items_found": 12,
+      "entries": [
+        {
+          "num": 1,
+          "title": "The Cosmological Constant as a Clock and the Vilenkin Wavefunction as a Resonance",
+          "summary": "Using covariant unimodular gravity, the authors promote four-volume to a clock conjugate to the cosmological constant and construct exact solutions linked to the Chern–Simons–Kodama state. Their minisuperspace evolution is unitary, while the outgoing Vilenkin state becomes a Gamow resonance rather than a normalizable bound state, connecting boundary conditions to the interpretation of cosmological tunneling.",
+          "tags": []
+        },
+        {
+          "num": 2,
+          "title": "Classical algorithms for sparse random Hamiltonians via free probability",
+          "summary": "Free-probability techniques replace explicit state evolution with ensemble means and a short hierarchy of sample-specific corrections for sparse random nonlocal Hamiltonians. The resulting classical computation of spectra, thermal observables, and dynamical correlators costs nearly the same precision-dependent runtime as quantum simulation, including difficult late-time regimes, narrowing a proposed quantum-advantage setting rather than solving generic many-body dynamics.",
+          "tags": []
+        },
+        {
+          "num": 3,
+          "title": "Multiscale Zoom-in Lattice Simulation for Inflation",
+          "summary": "A three-dimensional lattice scheme repeatedly refines subgrids, carrying forward long-wavelength fluctuations while adding new short-scale power to follow inflation across many more e-folds than a fixed grid. A 50-e-fold Starobinsky benchmark matches the linear power spectrum, and a featured model reproduces a fixed-grid peak with scale-dependent non-Gaussianity, supporting extended nonlinear studies of primordial fluctuations.",
+          "tags": []
+        },
+        {
+          "num": 4,
+          "title": "Horizon dynamical entropies and phase space topology",
+          "summary": "Examining which infinite-dimensional phase-space norms make null-surface diffeomorphism generators integrable, the authors contrast a family of admissible scalar-field polarizations with gravity's much tighter restrictions. Only the previously studied Sobolev choice survives for the gravitational field because of metric semipositivity, constraining the phase-space foundations used to compare nonstationary horizon entropies.",
+          "tags": []
+        },
+        {
+          "num": 5,
+          "title": "Exploiting SU(2) Symmetry for Efficient Quantum State Preparation of Matrix Product States",
+          "summary": "The authors compile matrix product states into fault-tolerant circuits by synthesizing only SU(2)-reduced tensors and restoring magnetic indices through known Clebsch–Gordan rotations. Hubbard and impurity benchmarks show roughly threefold Toffoli savings over U(1)-adapted compilation and more than tenfold savings over dense synthesis, reducing the state-loading bottleneck for subsequent quantum dynamics and spectroscopy.",
+          "tags": []
+        },
+        {
+          "num": 6,
+          "title": "Entanglement Asymmetry and the Quantum Mpemba Effect in Inhomogeneous Quenches",
+          "summary": "Generalized hydrodynamics and quasiparticle predictions are tested against exact fermionic correlation matrices for an XX chain joined from differently tilted halves. Symmetry-restoration crossings depend on subsystem position, and an initially untilted region develops asymmetry missed by leading hydrodynamics, showing both the spatial dependence of the quantum Mpemba effect and a specific limit of coarse-grained transport theory.",
+          "tags": []
+        },
+        {
+          "num": 7,
+          "title": "The double copy and perturbative teleparallel gravity",
+          "summary": "Matching an effective gravitational Lagrangian to double-copy gluon amplitudes at three and four points constrains its quartic expansion to a small parameter family. One parameter choice reproduces perturbative teleparallel gravity exactly at the studied order, suggesting that torsion-based variables may expose the gauge–gravity amplitude relation more directly without establishing an all-order equivalence.",
+          "tags": []
+        },
+        {
+          "num": 8,
+          "title": "Probing the Rung-Mott Insulator in Bosonic Two-Leg Ladders",
+          "summary": "Site-resolved measurements of ultracold bosons in two-leg ladders identify a half-filled rung-Mott phase and probe its incompressibility through local densities and chemical potentials. Modulation spectra are interpreted using driven multistate simulations including energy offsets, providing experimental access to fractional-density insulating excitations in a programmable many-body geometry.",
+          "tags": []
+        },
+        {
+          "num": 9,
+          "title": "A Koashi--Imoto Criterion for Holevo-Rate Visible Compression",
+          "summary": "A Koashi–Imoto decomposition gives an exact criterion for visible quantum-source compression to attain the Holevo rate using shared classical randomness but no entanglement: every occupied quantum sector must be pure. Recovery and decoupling arguments establish a uniform rate gap when this condition fails, turning a resource-dependent achievability question into a structural test on the signal ensemble.",
+          "tags": []
+        },
+        {
+          "num": 10,
+          "title": "Exact solution of the Bose-Fermi mixture along the unnesting line",
+          "summary": "Along a special unnesting line, the nested Bethe equations of a repulsive one-dimensional Bose–Fermi mixture reduce to known Lieb–Liniger and balanced attractive Yang–Gaudin solutions. This yields analytical weak- and strong-coupling energies, excitation velocities, and Drude weights, providing tractable benchmarks for transport in interacting mixtures rather than just a formal integrability statement.",
+          "tags": []
+        },
+        {
+          "num": 11,
+          "title": "Perturbative unitarity bounds from qubit entanglement in scalar scattering and QED",
+          "summary": "Tracing momentum out of relativistic scalar and QED scattering produces qubit channels whose unitarity conditions and concurrence can be computed perturbatively. Enforcing the maximum allowed concurrence yields coupling bounds often tighter than partial-wave estimates and avoids some forward-scattering singularity obstacles, linking information-theoretic consistency to practical perturbativity diagnostics.",
+          "tags": []
+        },
+        {
+          "num": 12,
+          "title": "Prospects and limitations of adaptive variational quantum algorithms for lattice field theories: a case study in 2+1 dimensions",
+          "summary": "A study of ADAPT-VQE for free Wilson fermions in 2+1 dimensions exposes two failure modes: time-reversal symmetry can force candidate gradients to vanish, and optimization can terminate at excited eigenstates. Symmetry-aware operator pools combined with suitable starting states recover the lowest two states across the mass range, giving concrete design guidance for extending variational field-theory simulation beyond one spatial dimension.",
+          "tags": []
+        }
+      ]
+    },
     {
       "date": "2026-11-25",
       "type": "arxiv",
@@ -34814,8 +34895,8 @@
     }
   ],
   "stats": {
-    "total_digests": 313,
-    "total_entries": 2525,
+    "total_digests": 314,
+    "total_entries": 2537,
     "unique_tags": {
       "Physics": {
         "first_seen": "2026-11-25",
@@ -40227,6 +40308,7 @@
     },
     "dates_by_type": {
       "arxiv": [
+        "2026-11-26",
         "2026-11-25",
         "2026-11-24",
         "2026-11-21",
