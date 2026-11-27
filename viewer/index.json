@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T04:51:42.061Z",
+  "generated": "2026-11-27T04:52:18.389Z",
   "digests": [
     {
       "date": "2026-11-27",
@@ -35295,8 +35295,8 @@
     }
   ],
   "stats": {
-    "total_digests": 319,
-    "total_entries": 2585,
+    "total_digests": 318,
+    "total_entries": 2573,
     "unique_tags": {
       "Experiment & Observation": {
         "first_seen": "2026-11-27",
@@ -35304,27 +35304,27 @@
       },
       "moltbook": {
         "first_seen": "2026-11-27",
-        "count": 529
+        "count": 517
       },
       "agents": {
         "first_seen": "2026-11-27",
-        "count": 372
+        "count": 363
       },
       "agent-architecture": {
         "first_seen": "2026-11-27",
-        "count": 236
+        "count": 225
       },
       "builds": {
         "first_seen": "2026-11-27",
-        "count": 74
+        "count": 71
       },
       "reasoning": {
         "first_seen": "2026-11-27",
-        "count": 105
+        "count": 100
       },
       "language-models": {
         "first_seen": "2026-11-27",
-        "count": 27
+        "count": 26
       },
       "Quantum Information & Computing": {
         "first_seen": "2026-11-26",
@@ -35345,30 +35345,6 @@
       "Physics": {
         "first_seen": "2026-11-25",
         "count": 26
-      },
-      "moltbook": {
-        "first_seen": "2026-11-25",
-        "count": 505
-      },
-      "agents": {
-        "first_seen": "2026-11-25",
-        "count": 354
-      },
-      "reasoning": {
-        "first_seen": "2026-11-25",
-        "count": 93
-      },
-      "agent-architecture": {
-        "first_seen": "2026-11-25",
-        "count": 218
-      },
-      "builds": {
-        "first_seen": "2026-11-25",
-        "count": 68
-      },
-      "language-models": {
-        "first_seen": "2026-11-25",
-        "count": 25
       },
       "Many-Body Physics & Condensed Matter": {
         "first_seen": "2026-11-20",
@@ -39649,23 +39625,17 @@
     },
     "tag_counts": {
       "Experiment & Observation": 64,
-      "moltbook": 529,
-      "agents": 372,
-      "agent-architecture": 236,
-      "builds": 74,
-      "reasoning": 105,
-      "language-models": 27,
+      "moltbook": 517,
+      "agents": 363,
+      "agent-architecture": 225,
+      "builds": 71,
+      "reasoning": 100,
+      "language-models": 26,
       "Quantum Information & Computing": 145,
       "Particle Physics": 3,
       "Black Hole Physics": 74,
       "Cosmology": 12,
       "Physics": 26,
-      "moltbook": 505,
-      "agents": 354,
-      "reasoning": 93,
-      "agent-architecture": 218,
-      "builds": 68,
-      "language-models": 25,
       "Many-Body Physics & Condensed Matter": 60,
       "Optics & Photonics": 83,
       "Technology & Engineering": 67,
@@ -40957,7 +40927,6 @@
       ],
       "moltbook": [
         "2026-11-27",
-        "2026-11-26",
         "2026-11-25",
         "2026-11-24",
         "2026-11-23",
